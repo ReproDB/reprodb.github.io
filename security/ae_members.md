@@ -1,5 +1,5 @@
 ---
-title: "Security: Recurring AE Members"
+title: "Security: AE Service Ranking"
 permalink: /security/ae_members.html
 member_data_url: /assets/data/security_ae_members.json
 ---

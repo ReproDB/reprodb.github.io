@@ -1,5 +1,5 @@
 ---
-title: "Recurring AE Members"
+title: "AE Service Ranking"
 permalink: /ae_members.html
 member_data_url: /assets/data/ae_members.json
 ---
