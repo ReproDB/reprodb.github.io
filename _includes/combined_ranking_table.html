@@ -21,8 +21,7 @@
     <div style="white-space:nowrap;">
       <label style="font-weight:bold; margin-right:4px; font-size:1em;">Contribution Type:</label>
       <select id="contributionFilter" style="padding:2px 6px; font-size:1em;">
-        <option value="all" selected>All Contributions</option>
-        <option value="both">Both (Artifacts + AE)</option>
+        <option value="both" selected>Both (Artifacts + AE)</option>
         <option value="artifacts_only">Artifacts Only</option>
         <option value="ae_only">AE Service Only</option>
       </select>
@@ -73,7 +72,7 @@
   var pageSize = 100;
   var sortCol = 3; // default: Combined Score
   var sortAsc = false;
-  var filterMode = 'all';
+  var filterMode = 'both';
   var nameQuery = '';
   var affQuery = '';
 
@@ -136,19 +135,21 @@
   }
 
   function applyFilter() {
-    if (filterMode === 'all') {
-      filteredData = allData.slice();
-    } else if (filterMode === 'both') {
+    if (filterMode === 'both') {
       filteredData = allData.filter(function(c) {
         return c.artifacts > 0 && c.ae_memberships > 0;
       });
     } else if (filterMode === 'artifacts_only') {
       filteredData = allData.filter(function(c) {
-        return c.artifacts > 0;
+        return c.artifacts > 0 && !(c.ae_memberships > 0);
       });
     } else if (filterMode === 'ae_only') {
       filteredData = allData.filter(function(c) {
-        return c.ae_memberships > 0;
+        return c.ae_memberships > 0 && !(c.artifacts > 0);
+      });
+    } else {
+      filteredData = allData.filter(function(c) {
+        return c.artifacts > 0 && c.ae_memberships > 0;
       });
     }
     // Text search filters

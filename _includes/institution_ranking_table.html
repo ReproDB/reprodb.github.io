@@ -34,8 +34,7 @@
         <td style="padding: 4px; text-align: left;" colspan="3">
           <label style="font-weight:bold; margin-right:4px; white-space:nowrap; font-size:1em;">Contribution Type:</label>
           <select id="contributionFilter" style="padding:2px 6px; font-size:1em;">
-            <option value="all" selected>All Contributions</option>
-            <option value="both">Both (Artifacts + AE)</option>
+            <option value="both" selected>Both (Artifacts + AE)</option>
             <option value="artifacts_only">Artifacts Only</option>
             <option value="ae_only">AE Service Only</option>
           </select>
@@ -82,7 +81,7 @@
   var expandedRows = new Set(); // Track which rows are expanded
   var searchFilter = ''; // Store current search filter
   var geoFilter = 'world';
-  var filterMode = 'all';
+  var filterMode = 'both';
 
   var fixedCols = [
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
@@ -417,9 +416,11 @@
       if (filterMode === 'both') {
         if (!(inst.artifacts > 0 && inst.ae_memberships > 0)) return false;
       } else if (filterMode === 'artifacts_only') {
-        if (!(inst.artifacts > 0)) return false;
+        if (!(inst.artifacts > 0 && !(inst.ae_memberships > 0))) return false;
       } else if (filterMode === 'ae_only') {
-        if (!(inst.ae_memberships > 0)) return false;
+        if (!(inst.ae_memberships > 0 && !(inst.artifacts > 0))) return false;
+      } else {
+        if (!(inst.artifacts > 0 && inst.ae_memberships > 0)) return false;
       }
 
       if (geoFilter === 'world') return true;
