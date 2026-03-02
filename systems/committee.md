@@ -12,7 +12,6 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 | | |
 |---|---|
 | **Total Committee Members** | {{ site.data.committee_stats.total_systems }} |
-| **Last Updated** | {{ site.data.committee_stats.last_updated }} |
 
 ---
 
@@ -61,7 +60,7 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 
 ---
 
-**Data:** [Systems](/assets/data/committee_stats.json)
+**Data:** [Systems]({{ '/assets/data/committee_stats.json' | relative_url }})
 
 <style>
 table { font-size: 0.85em; white-space: nowrap; border-collapse: collapse; }

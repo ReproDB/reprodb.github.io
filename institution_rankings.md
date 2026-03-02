@@ -33,4 +33,4 @@ Institution scores are the sum of all affiliated authors' contributions. Only in
 
 ---
 
-**Data:** [All Conferences](/assets/data/institution_rankings.json) | [Systems](/assets/data/systems_institution_rankings.json) | [Security](/assets/data/security_institution_rankings.json)
+**Data:** [All Conferences]({{ '/assets/data/institution_rankings.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_institution_rankings.json' | relative_url }}) | [Security]({{ '/assets/data/security_institution_rankings.json' | relative_url }})

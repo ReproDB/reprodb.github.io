@@ -27,7 +27,7 @@ GitHub stars and forks for artifact repositories from security conferences ({{ s
 
 ---
 
-**Data:** [Security](/assets/data/security_top_repos.json) | [Yearly Stats](/assets/data/repo_stats_yearly.json)
+**Data:** [Security]({{ '/assets/data/security_top_repos.json' | relative_url }}) | [Yearly Stats]({{ '/assets/data/repo_stats_yearly.json' | relative_url }})
 
 {% else %}
 

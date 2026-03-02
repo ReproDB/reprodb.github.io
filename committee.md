@@ -16,7 +16,6 @@ Geographic and institutional diversity of Artifact Evaluation Committee members 
 | **Continents** | {{ site.data.committee_stats.total_continents }} |
 | **Institutions** | {{ site.data.committee_stats.total_institutions }} |
 | **Conference-Years Tracked** | {{ site.data.committee_stats.total_conferences }} |
-| **Last Updated** | {{ site.data.committee_stats.last_updated }} |
 
 ---
 
@@ -125,7 +124,7 @@ These gaps mean the **systems** committee count ({{ site.data.committee_stats.to
 
 ---
 
-**Data:** [All Conferences](/assets/data/committee_stats.json) | [Systems](/assets/data/committee_stats.json) | [Security](/assets/data/committee_stats.json)
+**Data:** [All Conferences]({{ '/assets/data/committee_stats.json' | relative_url }}) | [Systems]({{ '/assets/data/committee_stats.json' | relative_url }}) | [Security]({{ '/assets/data/committee_stats.json' | relative_url }})
 
 <style>
 table { font-size: 0.85em; white-space: nowrap; border-collapse: collapse; }

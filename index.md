@@ -17,7 +17,6 @@ title: "Artifact Evaluation across Security & Systems Conferences"
 | **Years Covered** | {{ site.data.summary.year_range }} |
 | **Total Authors** | {{ site.data.author_summary.total_authors }} |
 | **AE Committee Members** | {{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.recurring_members }} recurring) |
-| **Last Updated** | {{ site.data.summary.last_updated }} |
 
 ## Artifacts by Year and Area
 

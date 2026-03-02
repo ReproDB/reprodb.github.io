@@ -132,20 +132,7 @@ This ensures:
 
 ## Badge Definitions
 
-Artifact evaluation committees award badges to recognize different levels of reproducibility:
-
-### Available
-The artifact is publicly accessible via a persistent repository (e.g., GitHub, Zenodo, Figshare). Basic documentation is provided.
-
-### Functional
-The artifact is not only available but also documented, complete, and exercisable. Evaluators can successfully build/install and run the artifact's main functionality.
-
-### Reproduced / Reusable
-**Reproduced** (security conferences): Evaluators successfully reproduced the main results/claims from the paper using the artifact.
-
-**Reusable** (systems conferences): The artifact is well-documented, modular, and designed for reuse beyond reproducing paper results. May include extensibility features, clean APIs, or generalizability to other use cases.
-
-Both badges represent the highest tier, indicating the artifact went beyond basic functionality to either validate the paper's claims or enable broader community reuse.
+We rely on each conference's official badge definitions. We treat the same badge name as comparable across venues (e.g., Available in one venue is assumed to mean the same or similar level of availability in another). We make the same assumption for Functional. For the highest tier, Reproduced (security) and Reusable (systems) are treated as equivalent.
 
 ---
 
@@ -169,22 +156,12 @@ For each artifact, badges are scored **additively** (not hierarchically):
 
 **Maximum per artifact: 3 points** (e.g., an artifact with all three badges earns 3 points)
 
-**Example:** An author with 2 artifacts:
-- Artifact 1: Available + Functional → 2 points
-- Artifact 2: Available + Functional + Reproduced → 3 points
-- **Total artifact score: 5**
-
 ### AE Service Score Calculation
 
 | Role | Points |
 |---|---|
 | Committee member | 3 points per membership |
 | Committee chair | 5 points (3 base + 2 bonus) |
-
-**Example:** An author who served as:
-- AE member 2 times → 2 × 3 = 6 points
-- AE chair 1 time → 1 × 5 = 5 points
-- **Total AE service score: 11**
 
 ### Minimum Score Threshold
 
@@ -206,7 +183,6 @@ For artifacts with GitHub/GitLab repositories or Zenodo/Figshare archives, we co
 ### GitHub/GitLab Metrics
 - **Stars**: Number of users who starred the repository
 - **Forks**: Number of times the repository was forked
-- **Watchers**: Number of users watching the repository for updates
 
 ### Zenodo/Figshare Metrics
 - **Downloads**: Total download count from the archive platform
@@ -219,17 +195,3 @@ For artifacts with GitHub/GitLab repositories or Zenodo/Figshare archives, we co
   - Repository type differences (libraries vs. experiment code)
   - Discovery algorithm effects (GitHub trending, recommendation systems)
 - We report these as observational data, not as quality judgments
-
----
-
-## Data Format
-
-All data is available in JSON format under `/assets/data/`. YAML summaries live in `_data/` for Jekyll templating.
-
-## Contributing
-
-Report data errors via [GitHub issues](https://github.com/researchartifacts/artifact_analysis/issues). Contributions welcome — see the [Contribute]({{ '/about.html' | relative_url }}) page.
-
----
-
-*Last updated: {{ site.data.summary.last_updated | default: "Pending initial run" }}*

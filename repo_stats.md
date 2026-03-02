@@ -41,7 +41,7 @@ GitHub stars and forks for artifact repositories across all tracked conferences.
 
 ---
 
-**Data:** [All Conferences](/assets/data/top_repos.json) | [Systems](/assets/data/systems_top_repos.json) | [Security](/assets/data/security_top_repos.json) | [Yearly Stats](/assets/data/repo_stats_yearly.json)
+**Data:** [All Conferences]({{ '/assets/data/top_repos.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_top_repos.json' | relative_url }}) | [Security]({{ '/assets/data/security_top_repos.json' | relative_url }}) | [Yearly Stats]({{ '/assets/data/repo_stats_yearly.json' | relative_url }})
 
 {% else %}
 

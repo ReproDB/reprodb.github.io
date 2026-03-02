@@ -10,7 +10,6 @@ Recurring Artifact Evaluation committee members across all tracked systems and s
 - **{{ site.data.committee_stats.recurring_members_systems }}** recurring members at systems conferences
 - **{{ site.data.committee_stats.recurring_members_security }}** recurring members at security conferences
 - **{{ site.data.committee_stats.recurring_chairs }}** include chairing roles (across all areas)
-- Data was processed on {{ site.data.committee_stats.last_updated }}.
 {% endif %}
 
 {% include ae_member_table.html %}
@@ -19,4 +18,4 @@ See also: [Systems AE Members]({{ '/systems/ae_members.html' | relative_url }}) 
 
 ---
 
-**Data:** [All Conferences](/assets/data/ae_members.json) | [Systems](/assets/data/systems_ae_members.json) | [Security](/assets/data/security_ae_members.json)
+**Data:** [All Conferences]({{ '/assets/data/ae_members.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_ae_members.json' | relative_url }}) | [Security]({{ '/assets/data/security_ae_members.json' | relative_url }})

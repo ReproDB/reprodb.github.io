@@ -8,10 +8,9 @@ Recurring Artifact Evaluation committee members at security conferences ({{ site
 
 - **{{ site.data.committee_stats.recurring_members_security }}** recurring members at security conferences
 - **{{ site.data.committee_stats.recurring_chairs }}** include chairing roles (across all areas)
-- Data was processed on {{ site.data.committee_stats.last_updated }}.
 
 {% include ae_member_table.html %}
 
 ---
 
-**Data:** [Security](/assets/data/security_ae_members.json)
+**Data:** [Security]({{ '/assets/data/security_ae_members.json' | relative_url }})

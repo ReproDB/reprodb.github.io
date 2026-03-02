@@ -27,7 +27,7 @@ GitHub stars and forks for artifact repositories from systems conferences ({{ si
 
 ---
 
-**Data:** [Systems](/assets/data/systems_top_repos.json) | [Yearly Stats](/assets/data/repo_stats_yearly.json)
+**Data:** [Systems]({{ '/assets/data/systems_top_repos.json' | relative_url }}) | [Yearly Stats]({{ '/assets/data/repo_stats_yearly.json' | relative_url }})
 
 {% else %}
 

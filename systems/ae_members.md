@@ -8,10 +8,9 @@ Recurring Artifact Evaluation committee members at systems conferences ({{ site.
 
 - **{{ site.data.committee_stats.recurring_members_systems }}** recurring members at systems conferences
 - **{{ site.data.committee_stats.recurring_chairs }}** include chairing roles (across all areas)
-- Data was processed on {{ site.data.committee_stats.last_updated }}.
 
 {% include ae_member_table.html %}
 
 ---
 
-**Data:** [Systems](/assets/data/systems_ae_members.json)
+**Data:** [Systems]({{ '/assets/data/systems_ae_members.json' | relative_url }})

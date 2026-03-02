@@ -131,4 +131,4 @@ table tr:hover {
 
 ---
 
-**Data:** [Artifacts by Conference](/assets/data/artifacts.json) | [Rankings](/assets/data/systems_combined_rankings.json) | [Repository Stats](/assets/data/systems_top_repos.json)
+**Data:** [Artifacts by Conference]({{ '/assets/data/artifacts.json' | relative_url }}) | [Rankings]({{ '/assets/data/systems_combined_rankings.json' | relative_url }}) | [Repository Stats]({{ '/assets/data/systems_top_repos.json' | relative_url }})

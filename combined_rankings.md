@@ -16,4 +16,4 @@ Researchers ranked by weighted contributions (artifact authorship + AE committee
 
 ---
 
-**Data:** [All Conferences](/assets/data/combined_rankings.json) | [Systems](/assets/data/systems_combined_rankings.json) | [Security](/assets/data/security_combined_rankings.json)
+**Data:** [All Conferences]({{ '/assets/data/combined_rankings.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_combined_rankings.json' | relative_url }}) | [Security]({{ '/assets/data/security_combined_rankings.json' | relative_url }})
