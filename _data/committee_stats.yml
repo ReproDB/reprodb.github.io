@@ -1,46 +1,46 @@
 last_updated: '2026-03-02'
-total_members: 3095
+total_members: 3351
 total_systems: 1715
-total_security: 1379
+total_security: 1635
 total_conferences: 50
 total_countries: 59
 total_continents: 7
-total_institutions: 415
-recurring_members: 1810
+total_institutions: 436
+recurring_members: 1931
 recurring_members_systems: 942
-recurring_members_security: 935
+recurring_members_security: 1059
 recurring_chairs: 67
 top_countries:
 - name: United States
-  count: 1442
+  count: 1548
 - name: China
   count: 290
 - name: Germany
-  count: 137
+  count: 154
 - name: Hong Kong
   count: 135
 - name: United Kingdom
-  count: 78
-- name: Taiwan, Province of China
-  count: 67
+  count: 92
 - name: Switzerland
-  count: 64
+  count: 68
+- name: Taiwan, Province of China
+  count: 68
+- name: Canada
+  count: 56
 - name: Singapore
   count: 51
-- name: Australia
-  count: 41
 - name: Japan
-  count: 41
+  count: 51
+- name: Australia
+  count: 46
 - name: Italy
   count: 39
-- name: Canada
-  count: 37
 - name: Netherlands
-  count: 33
-- name: Spain
-  count: 32
+  count: 37
 - name: Belgium
-  count: 32
+  count: 36
+- name: Spain
+  count: 33
 top_countries_systems:
 - name: United States
   count: 911
@@ -74,50 +74,50 @@ top_countries_systems:
   count: 12
 top_countries_security:
 - name: United States
-  count: 530
+  count: 636
 - name: Germany
-  count: 111
+  count: 128
 - name: China
   count: 86
 - name: Hong Kong
   count: 49
-- name: Australia
-  count: 34
-- name: Belgium
-  count: 30
 - name: United Kingdom
+  count: 42
+- name: Australia
+  count: 39
+- name: Japan
+  count: 36
+- name: Canada
+  count: 36
+- name: Belgium
+  count: 34
+- name: Netherlands
+  count: 30
+- name: Switzerland
   count: 28
 - name: Italy
   count: 27
-- name: Netherlands
-  count: 26
-- name: Japan
-  count: 26
-- name: Switzerland
-  count: 24
 - name: Taiwan, Province of China
-  count: 24
+  count: 25
 - name: Singapore
   count: 20
 - name: France
-  count: 19
-- name: Canada
-  count: 17
+  count: 20
 top_continents:
 - name: North America
-  count: 1479
+  count: 1604
 - name: Asia
-  count: 679
+  count: 695
 - name: Europe
-  count: 531
+  count: 589
 - name: Oceania
-  count: 42
+  count: 47
 - name: Africa
-  count: 30
+  count: 32
 - name: Unknown
   count: 27
 - name: South America
-  count: 5
+  count: 6
 top_continents_systems:
 - name: North America
   count: 931
@@ -135,60 +135,60 @@ top_continents_systems:
   count: 3
 top_continents_security:
 - name: North America
-  count: 547
+  count: 672
 - name: Europe
-  count: 311
+  count: 369
 - name: Asia
-  count: 262
+  count: 278
 - name: Oceania
-  count: 34
+  count: 39
+- name: Africa
+  count: 18
 - name: Unknown
   count: 17
-- name: Africa
-  count: 16
 - name: South America
-  count: 2
+  count: 3
 top_institutions:
 - name: University of Illinois Urbana-Champaign
-  count: 107
+  count: 108
 - name: Purdue University
-  count: 83
+  count: 87
 - name: University of California, Irvine
-  count: 61
+  count: 67
 - name: University of Wisconsin - Madison
-  count: 57
+  count: 63
 - name: Georgia Institute of Technology
-  count: 55
+  count: 56
 - name: cispa helmholtz center for information security
-  count: 51
+  count: 53
 - name: University of Michigan - Ann Arbor
   count: 50
-- name: The Hong Kong University of Science and Technology
-  count: 48
 - name: National Tsinghua University
+  count: 49
+- name: The Hong Kong University of Science and Technology
   count: 48
 - name: institute of parallel and distributed systems, shanghai jiao tong university
   count: 47
 - name: computing and imaging institute - the university of utah
   count: 42
+- name: Carnegie Mellon University
+  count: 40
+- name: University of Chicago
+  count: 38
 - name: University of California, Berkeley
   count: 36
 - name: The Chinese University of Hong Kong
   count: 36
-- name: Carnegie Mellon University
-  count: 35
-- name: University of Chicago
-  count: 32
 - name: University of California, San Diego
-  count: 31
+  count: 34
 - name: imec-distrinet, ku leuven
-  count: 31
+  count: 33
+- name: Virginia Tech
+  count: 29
+- name: eth zurich
+  count: 28
 - name: University of California, Riverside
   count: 28
-- name: Virginia Tech
-  count: 28
-- name: eth zurich
-  count: 26
 top_institutions_systems:
 - name: University of Illinois Urbana-Champaign
   count: 97
@@ -232,74 +232,74 @@ top_institutions_systems:
   count: 18
 top_institutions_security:
 - name: cispa helmholtz center for information security
-  count: 51
+  count: 53
 - name: University of California, Irvine
-  count: 35
+  count: 41
 - name: Purdue University
-  count: 35
+  count: 39
 - name: imec-distrinet, ku leuven
-  count: 29
+  count: 31
 - name: Georgia Institute of Technology
-  count: 26
-- name: Ruhr-Universität Bochum
-  count: 24
-- name: National Tsinghua University
-  count: 23
+  count: 27
 - name: University of Wisconsin - Madison
+  count: 25
+- name: Ruhr-Universität Bochum
+  count: 25
+- name: National Tsinghua University
+  count: 24
+- name: Kurume Institute of Technology
+  count: 19
+- name: University of Waterloo
   count: 19
 - name: The Hong Kong University of Science and Technology
   count: 18
+- name: google
+  count: 17
+- name: University of California, San Diego
+  count: 17
 - name: Zhejiang University
   count: 17
 - name: Toyo University
-  count: 15
+  count: 16
 - name: Virginia Tech
-  count: 14
-- name: University of California, San Diego
+  count: 15
+- name: Carnegie Mellon University
+  count: 15
+- name: Indiana University - Bloomington
   count: 14
 - name: The Hong Kong Polytechnic University
   count: 13
 - name: computing and imaging institute - the university of utah
   count: 12
-- name: Stevens Institute of Technology
-  count: 12
-- name: sapienza university of rome
-  count: 12
-- name: University of California, Riverside
-  count: 12
-- name: Indiana University - Bloomington
-  count: 12
-- name: University of California, Berkeley
-  count: 12
 institution_timeline:
 - year: 2020
-  total: 47
+  total: 53
   systems: 30
-  security: 22
+  security: 29
 - year: 2021
-  total: 136
+  total: 141
   systems: 117
-  security: 33
+  security: 40
 - year: 2022
-  total: 142
+  total: 147
   systems: 91
-  security: 75
+  security: 84
 - year: 2023
-  total: 137
+  total: 138
   systems: 80
-  security: 89
+  security: 92
 - year: 2024
-  total: 176
+  total: 191
   systems: 104
-  security: 114
+  security: 134
 - year: 2025
-  total: 214
+  total: 230
   systems: 118
-  security: 145
+  security: 165
 - year: 2026
-  total: 186
+  total: 204
   systems: 75
-  security: 140
+  security: 163
 committee_sizes:
 - conference: ATC
   year: 2022
@@ -440,37 +440,37 @@ committee_sizes:
   year: 2020
   conf_year: pets2020
   area: security
-  size: 2
+  size: 17
 - conference: PETS
   year: 2021
   conf_year: pets2021
   area: security
-  size: 2
+  size: 13
 - conference: PETS
   year: 2022
   conf_year: pets2022
   area: security
-  size: 2
+  size: 25
 - conference: PETS
   year: 2023
   conf_year: pets2023
   area: security
-  size: 2
+  size: 19
 - conference: PETS
   year: 2024
   conf_year: pets2024
   area: security
-  size: 2
+  size: 52
 - conference: PETS
   year: 2025
   conf_year: pets2025
   area: security
-  size: 2
+  size: 72
 - conference: PETS
   year: 2026
   conf_year: pets2026
   area: security
-  size: 2
+  size: 72
 - conference: SC
   year: 2021
   conf_year: sc2021
