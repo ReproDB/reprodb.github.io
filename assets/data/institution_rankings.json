@@ -5062,6 +5062,134 @@
     }
   },
   {
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "combined_score": 127,
+    "artifacts": 31,
+    "badges_functional": 26,
+    "badges_reproducible": 28,
+    "ae_memberships": 12,
+    "chair_count": 3,
+    "total_papers": 43,
+    "artifact_rate": 72.1,
+    "num_authors": 12,
+    "top_authors": [
+      {
+        "name": "Cristiano Giuffrida",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 53,
+        "artifacts": 14,
+        "ae_memberships": 3,
+        "total_papers": 20
+      },
+      {
+        "name": "Herbert Bos",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 32,
+        "artifacts": 12,
+        "ae_memberships": 0,
+        "total_papers": 17
+      },
+      {
+        "name": "Raphael Isemann",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 9,
+        "artifacts": 2,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Klaus von Gleissenthall",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 6,
+        "artifacts": 2,
+        "ae_memberships": 0,
+        "total_papers": 2
+      },
+      {
+        "name": "Emanuele Vannacci",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 6,
+        "artifacts": 1,
+        "ae_memberships": 1,
+        "total_papers": 2
+      },
+      {
+        "name": "Giulia Frascaria",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Krijn Doekemeijer",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Matthijs Jansen",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Zebin Ren",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Andrea Di Dio",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Mathé Hertogh",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      },
+      {
+        "name": "Sander Huyghebaert",
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "combined_score": 3,
+        "artifacts": 0,
+        "ae_memberships": 1,
+        "total_papers": 0
+      }
+    ],
+    "conferences": [
+      "ACSAC",
+      "EUROSYS",
+      "SOSP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2021": 3,
+      "2026": 1,
+      "2025": 7,
+      "2024": 5,
+      "2023": 11,
+      "2022": 6,
+      "2020": 2,
+      "2019": 0,
+      "2018": 4,
+      "2017": 0
+    }
+  },
+  {
     "affiliation": "Stony Brook University",
     "combined_score": 126,
     "artifacts": 20,
@@ -10225,126 +10353,6 @@
     }
   },
   {
-    "affiliation": "Vrije Universiteit Amsterdam",
-    "combined_score": 74,
-    "artifacts": 17,
-    "badges_functional": 14,
-    "badges_reproducible": 16,
-    "ae_memberships": 9,
-    "chair_count": 0,
-    "total_papers": 23,
-    "artifact_rate": 73.9,
-    "num_authors": 11,
-    "top_authors": [
-      {
-        "name": "Herbert Bos",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 32,
-        "artifacts": 12,
-        "ae_memberships": 0,
-        "total_papers": 17
-      },
-      {
-        "name": "Raphael Isemann",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 9,
-        "artifacts": 2,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Klaus von Gleissenthall",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 6,
-        "artifacts": 2,
-        "ae_memberships": 0,
-        "total_papers": 2
-      },
-      {
-        "name": "Emanuele Vannacci",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 6,
-        "artifacts": 1,
-        "ae_memberships": 1,
-        "total_papers": 2
-      },
-      {
-        "name": "Giulia Frascaria",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Krijn Doekemeijer",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Matthijs Jansen",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Zebin Ren",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Andrea Di Dio",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Mathé Hertogh",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      },
-      {
-        "name": "Sander Huyghebaert",
-        "affiliation": "Vrije Universiteit Amsterdam",
-        "combined_score": 3,
-        "artifacts": 0,
-        "ae_memberships": 1,
-        "total_papers": 0
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "EUROSYS",
-      "SOSP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 5,
-      "2024": 2,
-      "2023": 8,
-      "2022": 3,
-      "2021": 2,
-      "2020": 1,
-      "2019": 0,
-      "2018": 2,
-      "2017": 0
-    }
-  },
-  {
     "affiliation": "Arizona State University",
     "combined_score": 71,
     "artifacts": 20,
@@ -12898,45 +12906,6 @@
       "2020": 0,
       "2019": 0,
       "2018": 0,
-      "2017": 0
-    }
-  },
-  {
-    "affiliation": "VUSec",
-    "combined_score": 53,
-    "artifacts": 14,
-    "badges_functional": 12,
-    "badges_reproducible": 12,
-    "ae_memberships": 3,
-    "chair_count": 3,
-    "total_papers": 20,
-    "artifact_rate": 70.0,
-    "num_authors": 1,
-    "top_authors": [
-      {
-        "name": "Cristiano Giuffrida",
-        "affiliation": "VUSec",
-        "combined_score": 53,
-        "artifacts": 14,
-        "ae_memberships": 3,
-        "total_papers": 20
-      }
-    ],
-    "conferences": [
-      "ACSAC",
-      "EUROSYS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2021": 1,
-      "2026": 0,
-      "2025": 2,
-      "2024": 3,
-      "2023": 3,
-      "2022": 3,
-      "2020": 1,
-      "2019": 0,
-      "2018": 2,
       "2017": 0
     }
   },
