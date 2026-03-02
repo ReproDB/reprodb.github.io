@@ -100,11 +100,10 @@
       var c = page[i];
       var cells = [];
       cells.push('<td>' + (start + i + 1) + '</td>');
-      // Clean DBLP suffixes and whitespace for display
-      var displayName = c.name.replace(/\s+\d{4}$/, '').replace(/\t/g, ' ');
+      var displayName = (c.display_name || c.name || '').replace(/\t/g, ' ');
       var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(c.name);
       cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
-      var aff = (c.affiliation || '').replace(/^_/, '');
+      var aff = (c.display_affiliation || c.affiliation || '').replace(/^_/, '');
       cells.push('<td>' + escHtml(aff) + '</td>');
       cells.push('<td><strong>' + c.combined_score + '</strong></td>');
       cells.push('<td>' + (c.artifacts || '') + '</td>');

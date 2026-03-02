@@ -75,7 +75,8 @@
       var cells = [];
       cells.push('<td>' + (start + i + 1) + '</td>');
       var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(m.name);
-      cells.push('<td><a href="' + profileUrl + '">' + escHtml(m.name) + '</a></td>');
+      var displayName = m.display_name || m.name;
+      cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
       cells.push('<td><strong>' + m.total_memberships + '</strong></td>');
       var chairLabel = m.chair_count > 0 ? m.chair_count + ' \u2605' : '';
       cells.push('<td>' + chairLabel + '</td>');
@@ -104,7 +105,8 @@
     // Text search filters
     if (nameQuery) {
       filteredMembers = filteredMembers.filter(function(m) {
-        return (m.name || '').toLowerCase().indexOf(nameQuery) !== -1;
+        var n = (m.display_name || m.name || '').toLowerCase();
+        return n.indexOf(nameQuery) !== -1;
       });
     }
     if (affQuery) {

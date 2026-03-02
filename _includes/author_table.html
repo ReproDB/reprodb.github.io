@@ -77,7 +77,8 @@
       var cells = [];
       cells.push('<td>' + (start + i + 1) + '</td>');
       var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(a.name);
-      cells.push('<td><a href="' + profileUrl + '">' + escHtml(a.name) + '</a></td>');
+      var displayName = a.display_name || a.name;
+      cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
       cells.push('<td>' + escHtml(a.affiliation || '') + '</td>');
       cells.push('<td><strong>' + a.artifact_score + '</strong></td>');
       cells.push('<td>' + a.total + '</td>');
@@ -107,7 +108,8 @@
     // Text search filters
     if (nameQuery) {
       filteredAuthors = filteredAuthors.filter(function(a) {
-        return (a.name || '').toLowerCase().indexOf(nameQuery) !== -1;
+        var n = (a.display_name || a.name || '').toLowerCase();
+        return n.indexOf(nameQuery) !== -1;
       });
     }
     if (affQuery) {
