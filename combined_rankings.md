@@ -1,5 +1,5 @@
 ---
-title: "Combined Rankings"
+title: "Author Rankings"
 permalink: /combined_rankings.html
 combined_data_url: /assets/data/combined_rankings.json
 systems_data_url: /assets/data/systems_combined_rankings.json

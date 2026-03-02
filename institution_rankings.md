@@ -20,19 +20,4 @@ Institutions ranked by aggregate contributions of their researchers. Filter by c
 
 ---
 
-## Methodology
-
-For detailed information about our scoring system and data collection methodology, see the [Methodology](methodology.html) page.
-
-**Scoring Weights:**
-- Available artifact: **1 point** (base)
-- Functional artifact: **+1 point** (total 2)
-- Reproducible artifact: **+1 point** (total 3 max)
-- AE membership: **3 points**
-- AE chair bonus: **+2 points** (on top of membership)
-
-Institution scores are the sum of all affiliated authors' contributions. Only institutions with a combined score of 3 or higher are listed.
-
----
-
 **Data:** [All Conferences]({{ '/assets/data/institution_rankings.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_institution_rankings.json' | relative_url }}) | [Security]({{ '/assets/data/security_institution_rankings.json' | relative_url }})

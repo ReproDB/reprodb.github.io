@@ -14,8 +14,6 @@ Recurring Artifact Evaluation committee members across all tracked systems and s
 
 {% include ae_member_table.html %}
 
-See also: [Systems AE Members]({{ '/systems/ae_members.html' | relative_url }}) · [Security AE Members]({{ '/security/ae_members.html' | relative_url }})
-
 ---
 
 **Data:** [All Conferences]({{ '/assets/data/ae_members.json' | relative_url }}) | [Systems]({{ '/assets/data/systems_ae_members.json' | relative_url }}) | [Security]({{ '/assets/data/security_ae_members.json' | relative_url }})
