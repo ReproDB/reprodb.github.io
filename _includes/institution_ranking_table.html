@@ -78,6 +78,7 @@
   var searchFilter = ''; // Store current search filter
   var geoFilter = 'world';
   var filterMode = 'both';
+  var scoreKey = 'combined_score'; // Track which score to display
 
   var fixedCols = [
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
@@ -412,9 +413,9 @@
       if (filterMode === 'both') {
         if (!(inst.artifacts > 0 && inst.ae_memberships > 0)) return false;
       } else if (filterMode === 'artifacts_only') {
-        if (!(inst.artifacts > 0 && !(inst.ae_memberships > 0))) return false;
+        if (!(inst.artifacts > 0)) return false;
       } else if (filterMode === 'ae_only') {
-        if (!(inst.ae_memberships > 0 && !(inst.artifacts > 0))) return false;
+        if (!(inst.ae_memberships > 0)) return false;
       } else {
         if (!(inst.artifacts > 0 && inst.ae_memberships > 0)) return false;
       }
@@ -435,6 +436,19 @@
 
       return true;
     });
+
+    // Update score key and sort column based on filter mode
+    if (filterMode === 'both') {
+      scoreKey = 'combined_score';
+      sortCol = 2;
+    } else if (filterMode === 'artifacts_only') {
+      scoreKey = 'artifacts';
+      sortCol = 4;
+    } else if (filterMode === 'ae_only') {
+      scoreKey = 'ae_memberships';
+      sortCol = 8;
+    }
+
     sortData(sortCol, sortAsc);
     currentPage = 0;
   }
@@ -463,7 +477,7 @@
       var aff = (inst.affiliation || 'Unknown').replace(/^_/, '');
       var flag = getFlagForInstitution(aff);
       cells.push('<td>' + (flag || '') + escHtml(aff) + '</td>');
-      cells.push('<td><strong>' + inst.combined_score + '</strong></td>');
+      cells.push('<td><strong>' + inst[scoreKey] + '</strong></td>');
       cells.push('<td>' + (inst.num_authors || '') + '</td>');
       cells.push('<td>' + (inst.artifacts || '') + '</td>');
       cells.push('<td>' + (inst.total_papers || '') + '</td>');

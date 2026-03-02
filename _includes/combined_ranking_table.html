@@ -75,6 +75,7 @@
   var filterMode = 'both';
   var nameQuery = '';
   var affQuery = '';
+  var scoreKey = 'combined_score'; // Track which score to display
 
   var fixedCols = [
     {label:'#',                key:'rank',              type:'num',   tip:'Rank'},
@@ -105,7 +106,7 @@
       cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
       var aff = (c.display_affiliation || c.affiliation || '').replace(/^_/, '');
       cells.push('<td>' + escHtml(aff) + '</td>');
-      cells.push('<td><strong>' + c.combined_score + '</strong></td>');
+      cells.push('<td><strong>' + c[scoreKey] + '</strong></td>');
       cells.push('<td>' + (c.artifacts || '') + '</td>');
       cells.push('<td>' + (c.total_papers || '') + '</td>');
       cells.push('<td>' + (c.total_papers > 0 ? c.artifact_rate + '%' : '') + '</td>');
@@ -138,18 +139,26 @@
       filteredData = allData.filter(function(c) {
         return c.artifacts > 0 && c.ae_memberships > 0;
       });
+      scoreKey = 'combined_score';
+      sortCol = 3;
     } else if (filterMode === 'artifacts_only') {
       filteredData = allData.filter(function(c) {
-        return c.artifacts > 0 && !(c.ae_memberships > 0);
+        return c.artifacts > 0;
       });
+      scoreKey = 'artifacts';
+      sortCol = 4;
     } else if (filterMode === 'ae_only') {
       filteredData = allData.filter(function(c) {
-        return c.ae_memberships > 0 && !(c.artifacts > 0);
+        return c.ae_memberships > 0;
       });
+      scoreKey = 'ae_memberships';
+      sortCol = 8;
     } else {
       filteredData = allData.filter(function(c) {
         return c.artifacts > 0 && c.ae_memberships > 0;
       });
+      scoreKey = 'combined_score';
+      sortCol = 3;
     }
     // Text search filters
     if (nameQuery) {
