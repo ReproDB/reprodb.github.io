@@ -82,6 +82,32 @@ RR% = (Reproduced badges / Total artifacts) × 100
 
 This measures the depth of reproducibility beyond mere artifact availability.
 
+### Artifact:Evaluation Ratio (A:E)
+
+The A:E ratio characterizes the balance between artifact production and evaluation service:
+
+```
+A:E = Artifact Score / AE Score
+```
+
+Where:
+- **Artifact Score** = sum of badge points (Available+1, Functional+1, Reproduced+1 per artifact)
+- **AE Score** = committee service points (member=3, chair=5)
+
+**Interpretation:**
+- **High ratios (>2.0)**: *Producers* — primarily create artifacts with limited evaluation service
+- **Mid ratios (0.5–2.0)**: *Balanced* — both create artifacts and serve on committees
+- **Low ratios (<0.5)**: *Consumers* — primarily evaluate artifacts created by others
+- **null/undefined**: Artifact-only contributors (no committee service)
+- **0.0**: Evaluation-only contributors (no artifacts)
+
+**Example values:**
+- An author with 25 artifact points and 8 AE points has A:E = 3.12 (producer)
+- An author with 20 artifact points and 60 AE points has A:E = 0.33 (consumer)
+- An author with 32 artifact points and 0 AE points has A:E = null (artifact-only)
+
+**Ecosystem insights:** Across all institutions, 50.3% are consumers, 44.1% are balanced, and 5.6% are producers. Among top-10 institutions, 30% are producers, indicating that leading contributors often specialize in artifact creation. This ratio reveals institutional roles that combined scores alone obscure.
+
 ### AE Memberships
 The number of times this author served on an artifact evaluation committee across all tracked conferences.
 

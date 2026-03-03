@@ -19,7 +19,7 @@
 </div>
 
 <div id="author-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, R=Researcher, A=Affiliation, S=Score, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y
+  Legend: #=Rank, R=Researcher, A=Affiliation, S=Score, Ar=Artifacts, AR%=Art. Rate, RR%=Repro. Rate, AvR%=Available Rate, P=Papers, Y=Last 5y, A:E=Artifact:Evaluation Ratio
 </div>
 
 <div id="authorLoading"><em>Loading author data…</em></div>
@@ -62,7 +62,8 @@
     {label:'AR%',               key:'artifact_rate',   type:'num',   tip:'Artifact rate: % of papers with artifact'},
     {label:'RR%',               key:'repro_rate',      type:'num',   tip:'Reproducibility rate: % of artifacts Reproduced'},
     {label:'AvR%',              key:'functional_rate', type:'num',   tip:'Available rate: % of artifacts Available/Functional'},
-    {label:'Y',                 key:'last_5_years',    type:'num',   tip:'Years active in last 5 years'}
+    {label:'Y',                 key:'last_5_years',    type:'num',   tip:'Years active in last 5 years'},
+    {label:'A:E',               key:'ae_ratio',        type:'num',   tip:'Artifact:Evaluation ratio (artifact_score/ae_score)'}
   ];
 
   function render() {
