@@ -124,7 +124,7 @@
       cells.push('<td>' + (c.artifacts || '') + '</td>');
       cells.push('<td>' + (c.total_papers || '') + '</td>');
       cells.push('<td>' + (c.total_papers > 0 ? c.artifact_rate + '%' : '') + '</td>');
-      cells.push('<td>' + (c.repro_rate || '') + '</td>');
+      cells.push('<td>' + ((c.repro_rate !== undefined && c.repro_rate !== null) ? (c.repro_rate + '%') : '') + '</td>');
       cells.push('<td>' + (c.ae_memberships || '') + '</td>');
       var chairLabel = c.chair_count > 0 ? c.chair_count + ' ★' : '';
       cells.push('<td>' + chairLabel + '</td>');

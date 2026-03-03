@@ -504,7 +504,7 @@
           reproRate = Math.round((inst.badges_reproducible / total_badges) * 100);
         }
       }
-      cells.push('<td>' + (reproRate > 0 ? reproRate : '') + '</td>');
+      cells.push('<td>' + (reproRate > 0 ? (reproRate + '%') : '') + '</td>');
       cells.push('<td>' + (inst.ae_memberships || '') + '</td>');
       var chairLabel = inst.chair_count > 0 ? inst.chair_count + ' ★' : '';
       cells.push('<td>' + chairLabel + '</td>');
