@@ -96,13 +96,6 @@ layout: default
   font-size: 0.85em;
   color: #555;
 }
-.stats-box {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 4px 12px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-}
 .stats-box p {
   margin: 2px 0;
   font-size: 0.9em;
@@ -126,9 +119,7 @@ layout: default
 
 <h2>Artifact Citations Ranking</h2>
 
-<div class="stats-box">
-  <p><strong id="total-artifacts">Loading...</strong> artifacts with citations. <em id="data-status"></em></p>
-</div>
+<p><strong id="total-artifacts">Loading...</strong> artifacts with citations. <em id="data-status"></em></p>
 
 <div class="controls">
   <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
