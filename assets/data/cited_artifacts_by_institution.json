@@ -1,36 +1,4 @@
 {
-  "Meta, USA": {
-    "display_name": "Meta, USA",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52,
-        "authors": [
-          "Yidi Wu 0001"
-        ]
-      }
-    ],
-    "total_citations": 52,
-    "member_count": 0
-  },
-  "Chinese University of Hong Kong": {
-    "display_name": "Chinese University of Hong Kong",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52,
-        "authors": [
-          "Boyang Li 0016"
-        ]
-      }
-    ],
-    "total_citations": 52,
-    "member_count": 0
-  },
   "Stony Brook University": {
     "display_name": "Stony Brook University",
     "cited_artifacts": [
@@ -82,6 +50,22 @@
         "citations": 17,
         "authors": [
           "Erman Ayday"
+        ]
+      }
+    ],
+    "total_citations": 17,
+    "member_count": 0
+  },
+  "University of Notre Dame": {
+    "display_name": "University of Notre Dame",
+    "cited_artifacts": [
+      {
+        "title": "Back-Propagating System Dependency Impact for Attack Investigation",
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "citations": 17,
+        "authors": [
+          "Yanfang (Fanny) Ye"
         ]
       }
     ],
@@ -175,6 +159,22 @@
       }
     ],
     "total_citations": 6,
+    "member_count": 0
+  },
+  "Polytechnic University of Milan, Italy": {
+    "display_name": "Polytechnic University of Milan, Italy",
+    "cited_artifacts": [
+      {
+        "title": "Privacy Preserving Substring Search Protocol with Polylogarithmic Communication Cost",
+        "conference": "ACSAC",
+        "year": 2019,
+        "citations": 2,
+        "authors": [
+          "Alessandro Barenghi"
+        ]
+      }
+    ],
+    "total_citations": 2,
     "member_count": 0
   },
   "Indraprastha Institute of Information Technology, Delhi": {
@@ -273,6 +273,38 @@
     "total_citations": 1,
     "member_count": 0
   },
+  "Microsoft Research": {
+    "display_name": "Microsoft Research",
+    "cited_artifacts": [
+      {
+        "title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
+        "conference": "EUROSYS",
+        "year": 2022,
+        "citations": 1,
+        "authors": [
+          "George Danezis"
+        ]
+      }
+    ],
+    "total_citations": 1,
+    "member_count": 0
+  },
+  "Aptos Labs, Palo Alto, USA": {
+    "display_name": "Aptos Labs, Palo Alto, USA",
+    "cited_artifacts": [
+      {
+        "title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
+        "conference": "EUROSYS",
+        "year": 2022,
+        "citations": 1,
+        "authors": [
+          "Alexander Spiegelman"
+        ]
+      }
+    ],
+    "total_citations": 1,
+    "member_count": 0
+  },
   "Ain Shams University": {
     "display_name": "Ain Shams University",
     "cited_artifacts": [
@@ -283,6 +315,38 @@
         "citations": 1,
         "authors": [
           "Ahmed M. Abdelmoniem"
+        ]
+      }
+    ],
+    "total_citations": 1,
+    "member_count": 0
+  },
+  "King Abdullah University of Science and Technology, Saudi Arabia": {
+    "display_name": "King Abdullah University of Science and Technology, Saudi Arabia",
+    "cited_artifacts": [
+      {
+        "title": "REFL: Resource-Efficient Federated Learning",
+        "conference": "EUROSYS",
+        "year": 2023,
+        "citations": 1,
+        "authors": [
+          "Suhaib A. Fahmy"
+        ]
+      }
+    ],
+    "total_citations": 1,
+    "member_count": 0
+  },
+  "University of Georgia": {
+    "display_name": "University of Georgia",
+    "cited_artifacts": [
+      {
+        "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
+        "conference": "NDSS",
+        "year": 2024,
+        "citations": 1,
+        "authors": [
+          "Wenwen Wang 0001"
         ]
       }
     ],

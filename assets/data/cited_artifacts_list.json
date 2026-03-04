@@ -1,26 +1,5 @@
 [
   {
-    "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-    "conference": "EUROSYS",
-    "year": 2021,
-    "doi": "10.1145/3447786.3456247",
-    "cited_by_count": 52,
-    "authors": [
-      "Yidi Wu 0001",
-      "Kaihao Ma",
-      "Zhenkun Cai",
-      "Tatiana Jin",
-      "Boyang Li 0016",
-      "Chengguang Zheng",
-      "James Cheng",
-      "Fan Yu"
-    ],
-    "institutions": [
-      "Chinese University of Hong Kong",
-      "Meta, USA"
-    ]
-  },
-  {
     "title": "Back-Propagating System Dependency Impact for Attack Investigation",
     "conference": "USENIXSEC",
     "year": 2022,
@@ -39,8 +18,9 @@
     ],
     "institutions": [
       "Stony Brook University",
-      "Case Western Reserve University",
-      "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA"
+      "University of Notre Dame",
+      "Virginia Tech, Department of Computer Science, Blacksburg, VA, USA",
+      "Case Western Reserve University"
     ]
   },
   {
@@ -58,10 +38,10 @@
       "Haipeng Cai"
     ],
     "institutions": [
-      "Washington State University",
-      "Clemson University",
       "Hong Kong Polytechnic University",
-      "University at Buffalo"
+      "University at Buffalo",
+      "Clemson University",
+      "Washington State University"
     ]
   },
   {
@@ -105,7 +85,9 @@
       "Alessandro Barenghi",
       "Gerardo Pelosi"
     ],
-    "institutions": []
+    "institutions": [
+      "Polytechnic University of Milan, Italy"
+    ]
   },
   {
     "title": "Your Censor is My Censor: Weaponizing Censorship Infrastructure for Availability Attacks",
@@ -166,11 +148,11 @@
       "Jun Yuan 0006"
     ],
     "institutions": [
-      "Cornell University",
-      "VMware Research, Palo Alto, CA, USA",
       "New York University",
       "Stony Brook University",
-      "University of North Carolina at Chapel Hill"
+      "VMware Research, Palo Alto, CA, USA",
+      "University of North Carolina at Chapel Hill",
+      "Cornell University"
     ]
   },
   {
@@ -202,7 +184,10 @@
       "Alberto Sonnino",
       "Alexander Spiegelman"
     ],
-    "institutions": []
+    "institutions": [
+      "Aptos Labs, Palo Alto, USA",
+      "Microsoft Research"
+    ]
   },
   {
     "title": "WAFL: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection",
@@ -226,6 +211,7 @@
       "Suhaib A. Fahmy"
     ],
     "institutions": [
+      "King Abdullah University of Science and Technology, Saudi Arabia",
       "Ain Shams University"
     ]
   },
@@ -241,7 +227,9 @@
       "Wenwen Wang 0001",
       "Le Guan"
     ],
-    "institutions": []
+    "institutions": [
+      "University of Georgia"
+    ]
   },
   {
     "title": "From Purity to Peril: Backdooring Merged Models From \"Harmless\" Benign Components",
@@ -258,8 +246,8 @@
       "Xinyi Huang 0001"
     ],
     "institutions": [
-      "Hong Kong University of Science and Technology",
-      "Fujian Normal University"
+      "Fujian Normal University",
+      "Hong Kong University of Science and Technology"
     ]
   }
 ]

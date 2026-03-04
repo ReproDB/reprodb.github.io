@@ -1,116 +1,4 @@
 {
-  "Yidi Wu 0001": {
-    "display_name": "Yidi Wu",
-    "affiliation": "Meta, USA",
-    "display_affiliation": "Meta, USA",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Kaihao Ma": {
-    "display_name": "Kaihao Ma",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Zhenkun Cai": {
-    "display_name": "Zhenkun Cai",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Tatiana Jin": {
-    "display_name": "Tatiana Jin",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Boyang Li 0016": {
-    "display_name": "Boyang Li",
-    "affiliation": "Chinese University of Hong Kong",
-    "display_affiliation": "Chinese University of Hong Kong",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Chengguang Zheng": {
-    "display_name": "Chengguang Zheng",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "James Cheng": {
-    "display_name": "James Cheng",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
-  "Fan Yu": {
-    "display_name": "Fan Yu",
-    "affiliation": "",
-    "display_affiliation": "",
-    "cited_artifacts": [
-      {
-        "title": "Seastar: Vertex-Centric Programming for Graph Neural Networks",
-        "conference": "EUROSYS",
-        "year": 2021,
-        "citations": 52
-      }
-    ],
-    "total_citations": 52
-  },
   "Pengcheng Fang": {
     "display_name": "Pengcheng Fang",
     "affiliation": "",
@@ -197,8 +85,8 @@
   },
   "Yanfang (Fanny) Ye": {
     "display_name": "Yanfang (Fanny) Ye",
-    "affiliation": "",
-    "display_affiliation": "",
+    "affiliation": "University of Notre Dame",
+    "display_affiliation": "University of Notre Dame",
     "cited_artifacts": [
       {
         "title": "Back-Propagating System Dependency Impact for Attack Investigation",
@@ -461,8 +349,8 @@
   },
   "Alessandro Barenghi": {
     "display_name": "Alessandro Barenghi",
-    "affiliation": "",
-    "display_affiliation": "",
+    "affiliation": "Polytechnic University of Milan, Italy",
+    "display_affiliation": "Polytechnic University of Milan, Italy",
     "cited_artifacts": [
       {
         "title": "Privacy Preserving Substring Search Protocol with Polylogarithmic Communication Cost",
@@ -895,8 +783,8 @@
   },
   "George Danezis": {
     "display_name": "George Danezis",
-    "affiliation": "",
-    "display_affiliation": "",
+    "affiliation": "Microsoft Research",
+    "display_affiliation": "Microsoft Research",
     "cited_artifacts": [
       {
         "title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
@@ -937,8 +825,8 @@
   },
   "Alexander Spiegelman": {
     "display_name": "Alexander Spiegelman",
-    "affiliation": "",
-    "display_affiliation": "",
+    "affiliation": "Aptos Labs, Palo Alto, USA",
+    "display_affiliation": "Aptos Labs, Palo Alto, USA",
     "cited_artifacts": [
       {
         "title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
@@ -993,8 +881,8 @@
   },
   "Suhaib A. Fahmy": {
     "display_name": "Suhaib A. Fahmy",
-    "affiliation": "",
-    "display_affiliation": "",
+    "affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
+    "display_affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
     "cited_artifacts": [
       {
         "title": "REFL: Resource-Efficient Federated Learning",
@@ -1034,9 +922,9 @@
     "total_citations": 1
   },
   "Wenwen Wang 0001": {
-    "display_name": "Wenwen Wang 0001",
-    "affiliation": "",
-    "display_affiliation": "",
+    "display_name": "Wenwen Wang",
+    "affiliation": "University of Georgia",
+    "display_affiliation": "University of Georgia",
     "cited_artifacts": [
       {
         "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
