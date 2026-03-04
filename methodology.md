@@ -6,16 +6,32 @@ permalink: /methodology.html
 This page explains how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site.
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Conferences Covered](#conferences-covered)
 - [Data Collection](#data-collection)
 - [Pipeline](#pipeline)
-- [Author Metrics](#author-metrics) — how AR%, RR%, A:E ratio, and combined score are calculated
-- [Institution Metrics](#institution-metrics) — how institutional data is aggregated
-- [Badge Definitions](#badge-definitions) — what each badge type means
-- [Repository Statistics](#repository-statistics) — GitHub/Zenodo metrics
-- [Artifact Citations](#artifact-citations) — how citation scoring works
-- [Data Format](#data-format)
-- [Contributing](#contributing)
+- [Author Metrics](#author-metrics)
+  - [Artifacts](#artifacts)
+  - [Total Papers](#total-papers)
+  - [Artifact Rate (AR%)](#artifact-rate-ar)
+  - [Reproducibility Rate (RR%)](#reproducibility-rate-rr)
+  - [Artifact:Evaluation Ratio (A:E)](#artifactevaluation-ratio-ae)
+  - [AE Memberships](#ae-memberships)
+  - [Chair Count](#chair-count)
+  - [Combined Score](#combined-score)
+- [Institution Metrics](#institution-metrics)
+  - [How Institution Data is Aggregated](#how-institution-data-is-aggregated)
+  - [Cross-Area Aggregation](#cross-area-aggregation)
+- [Badge Definitions](#badge-definitions)
+- [Repository Statistics](#repository-statistics)
+  - [GitHub/GitLab Metrics](#githubgitlab-metrics)
+  - [Zenodo/Figshare Metrics](#zenodofigshare-metrics)
+- [Artifact Citations](#artifact-citations)
+  - [DOI Extraction and Resolution](#doi-extraction-and-resolution)
+  - [Citation Data Collection](#citation-data-collection)
+  - [Aggregation and Scoring](#aggregation-and-scoring)
+  - [Citation Score in Combined Rankings](#citation-score-in-combined-rankings)
+  - [Important Notes on Citation Metrics](#important-notes-on-citation-metrics)
 
 ## Conferences Covered
 

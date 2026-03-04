@@ -1,9 +1,11 @@
 {
   "total_artifacts": 2576,
-  "unique_dois": 796,
-  "artifacts_with_doi": 797,
-  "openalex_resolved": 780,
-  "artifacts_with_citations": 15,
+  "unique_dois": 781,
+  "artifacts_with_doi": 782,
+  "openalex_resolved": 764,
+  "semantic_scholar_resolved": 0,
+  "aggregate_resolved": 764,
+  "artifacts_with_citations": 14,
   "by_year": {
     "2017": {
       "n": 12,
@@ -25,43 +27,43 @@
     },
     "2020": {
       "n": 133,
-      "resolved": 3,
+      "resolved": 2,
       "cited": 0,
       "sum_cites": 0
     },
     "2021": {
       "n": 257,
-      "resolved": 6,
-      "cited": 2,
-      "sum_cites": 54
+      "resolved": 5,
+      "cited": 1,
+      "sum_cites": 2
     },
     "2022": {
       "n": 355,
-      "resolved": 51,
+      "resolved": 50,
       "cited": 6,
       "sum_cites": 26
     },
     "2023": {
       "n": 397,
-      "resolved": 57,
+      "resolved": 56,
       "cited": 3,
       "sum_cites": 10
     },
     "2024": {
       "n": 505,
-      "resolved": 92,
+      "resolved": 91,
       "cited": 2,
       "sum_cites": 2
     },
     "2025": {
       "n": 710,
-      "resolved": 453,
+      "resolved": 447,
       "cited": 1,
       "sum_cites": 1
     },
     "2026": {
       "n": 159,
-      "resolved": 116,
+      "resolved": 111,
       "cited": 0,
       "sum_cites": 0
     }
