@@ -164,7 +164,7 @@ The number of times this author served as an AE chair or co-chair.
 
 A composite metric balancing artifact production, artifact quality, and AE service:
 
-$$\text{Combined Score} = \sum_{i=1}^{n} (A_i + F_i + R_i) + \sum_{j=1}^{m} (M_j \times 3 + \text{Ch}_j \times 3)$$
+$$\text{Combined Score} = \sum_{i=1}^{n} (A_i + F_i + R_i) + \sum_{j=1}^{m} (3 + B_j \times 2)$$
 
 Where:
 - **First sum** (per artifact):
@@ -173,9 +173,9 @@ Where:
   - $R_i$ = 1 point if artifact *i* is Reproduced/Reusable, 0 otherwise
   - **Maximum per artifact: 3 points** (all three badges)
 
-- **Second sum** (committee service):
-  - $M_j$ = each committee membership contributes 3 points
-  - $\text{Ch}_j$ = each chair role contributes 5 points
+- **Second sum** (committee service, per AE term *j*):
+  - Each committee membership contributes **3 points**
+  - $B_j$ = 1 if term *j* is a chair role, 0 otherwise — chairs receive a **+2 bonus** for a total of **5 points** per chair term
 
 **Minimum Score Threshold:** Only individuals and institutions with combined score ≥ 3 are included in rankings.
 
