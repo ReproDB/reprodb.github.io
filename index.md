@@ -26,7 +26,8 @@ title: "Artifact Evaluation across Security & Systems Conferences"
       <option value="security">Security</option>
     </select>
   </div>
-  <div id="searchStatus" style="margin-top:8px; font-size:0.9em; color:#666;"></div>
+  <div id="searchStatus" style="margin-top:8px; font-size:0.9em; color:#666; display:inline;"></div>
+  <button id="downloadBtn" onclick="downloadResults()" style="display:none; margin-left:10px; padding:4px 14px; border:1px solid #ccc; border-radius:4px; background:#fff; cursor:pointer; font-size:0.9em; vertical-align:middle;">⬇ Download JSON</button>
 </div>
 
 <div id="results-container" style="margin-top:1em; overflow-x:auto;">
@@ -180,6 +181,7 @@ title: "Artifact Evaluation across Security & Systems Conferences"
     if (!query && !yearVal && !venueVal && !areaVal) {
       table.style.display = 'none';
       pagination.style.display = 'none';
+      document.getElementById('downloadBtn').style.display = 'none';
       status.textContent = allData.length + ' artifacts available. Type a query or select a filter to search.';
       return;
     }
@@ -193,6 +195,7 @@ title: "Artifact Evaluation across Security & Systems Conferences"
       table.style.display = 'table';
       tbody.innerHTML = '<tr><td colspan="7" style="padding:16px; text-align:center; color:#999;">No artifacts found matching your search.</td></tr>';
       pagination.style.display = 'none';
+      document.getElementById('downloadBtn').style.display = 'none';
       status.textContent = '0 results';
       return;
     }
@@ -255,11 +258,28 @@ title: "Artifact Evaluation across Security & Systems Conferences"
 
     table.style.display = 'table';
     status.textContent = filtered.length + ' result' + (filtered.length !== 1 ? 's' : '') + ' found';
+    document.getElementById('downloadBtn').style.display = filtered.length > 0 ? 'inline-block' : 'none';
     pagination.style.display = maxPage > 1 ? 'block' : 'none';
     document.getElementById('pageInfo').textContent = 'Page ' + currentPage + ' of ' + maxPage;
     document.getElementById('prevBtn').disabled = currentPage <= 1;
     document.getElementById('nextBtn').disabled = currentPage >= maxPage;
   }
+
+  window.downloadResults = function() {
+    var exportData = filtered.map(function(d) {
+      var e = {title: d.title, conference: d.conference, category: d.category, year: d.year, badges: d.badges, authors: d.authors, affiliations: d.affiliations};
+      if (d.repository_url) e.repository_url = d.repository_url;
+      if (d.artifact_url) e.artifact_url = d.artifact_url;
+      if (d.artifact_urls) e.artifact_urls = d.artifact_urls;
+      return e;
+    });
+    var blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'artifacts_search_results.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
 
   // Load data
   fetch('{{ "/assets/data/search_data.json" | relative_url }}')
@@ -301,6 +321,29 @@ title: "Artifact Evaluation across Security & Systems Conferences"
     });
 })();
 </script>
+
+## API Access
+
+The full artifact dataset is available as a public JSON endpoint for programmatic access:
+
+```
+GET {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json
+```
+
+Returns an array of all {{ site.data.summary.total_artifacts }} artifacts with title, authors, affiliations, conference, year, badges, and repository/artifact URLs. No authentication required.
+
+Example using `curl`:
+
+```bash
+# Get all artifacts
+curl -s {{ site.url }}{{ site.baseurl }}/assets/data/search_data.json | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+# Filter: fuzzing papers from 2024
+results = [a for a in data if 'fuzz' in a['title'].lower() and a['year'] == 2024]
+print(json.dumps(results, indent=2))
+"
+```
 
 ## Data Sources
 
