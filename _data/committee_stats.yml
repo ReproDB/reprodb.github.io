@@ -1,18 +1,18 @@
-last_updated: '2026-03-02'
-total_members: 3351
-total_systems: 1715
-total_security: 1635
+last_updated: '2026-03-06'
+total_members: 3341
+total_systems: 1712
+total_security: 1628
 total_conferences: 50
 total_countries: 59
 total_continents: 7
-total_institutions: 436
-recurring_members: 1931
-recurring_members_systems: 942
-recurring_members_security: 1059
+total_institutions: 434
+recurring_members: 1912
+recurring_members_systems: 933
+recurring_members_security: 1051
 recurring_chairs: 67
 top_countries:
 - name: United States
-  count: 1548
+  count: 1543
 - name: China
   count: 290
 - name: Germany
@@ -34,7 +34,7 @@ top_countries:
 - name: Australia
   count: 46
 - name: Italy
-  count: 39
+  count: 38
 - name: Netherlands
   count: 37
 - name: Belgium
@@ -43,7 +43,7 @@ top_countries:
   count: 33
 top_countries_systems:
 - name: United States
-  count: 911
+  count: 910
 - name: China
   count: 204
 - name: Hong Kong
@@ -70,11 +70,11 @@ top_countries_systems:
   count: 12
 - name: France
   count: 12
-- name: Italy
-  count: 12
+- name: Saudi Arabia
+  count: 11
 top_countries_security:
 - name: United States
-  count: 636
+  count: 632
 - name: Germany
   count: 128
 - name: China
@@ -105,41 +105,41 @@ top_countries_security:
   count: 20
 top_continents:
 - name: North America
-  count: 1604
+  count: 1599
 - name: Asia
-  count: 695
+  count: 694
 - name: Europe
-  count: 589
+  count: 588
 - name: Oceania
   count: 47
 - name: Africa
   count: 32
 - name: Unknown
-  count: 27
+  count: 26
 - name: South America
   count: 6
 top_continents_systems:
 - name: North America
-  count: 931
+  count: 930
 - name: Asia
   count: 417
 - name: Europe
-  count: 220
+  count: 219
 - name: Africa
   count: 14
 - name: Unknown
-  count: 10
+  count: 9
 - name: Oceania
   count: 8
 - name: South America
   count: 3
 top_continents_security:
 - name: North America
-  count: 672
+  count: 668
 - name: Europe
   count: 369
 - name: Asia
-  count: 278
+  count: 277
 - name: Oceania
   count: 39
 - name: Africa
@@ -297,9 +297,9 @@ institution_timeline:
   systems: 118
   security: 165
 - year: 2026
-  total: 204
-  systems: 75
-  security: 163
+  total: 200
+  systems: 73
+  security: 159
 committee_sizes:
 - conference: ATC
   year: 2022
@@ -380,7 +380,7 @@ committee_sizes:
   year: 2026
   conf_year: eurosys2026
   area: systems
-  size: 108
+  size: 105
 - conference: FAST
   year: 2024
   conf_year: fast2024
@@ -470,7 +470,7 @@ committee_sizes:
   year: 2026
   conf_year: pets2026
   area: security
-  size: 72
+  size: 65
 - conference: SC
   year: 2021
   conf_year: sc2021
