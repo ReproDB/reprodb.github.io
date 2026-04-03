@@ -68,9 +68,9 @@
     reusable: 0
     total: 41
     year: 2023
-  - available: 48
-    functional: 39
-    reproducible: 28
+  - available: 49
+    functional: 40
+    reproducible: 29
     reusable: 0
     total: 49
     year: 2024
@@ -302,7 +302,7 @@
     year: 2025
 - category: security
   name: USENIXSEC
-  total_artifacts: 861
+  total_artifacts: 1010
   venue_type: conference
   years:
   - available: 0
@@ -341,6 +341,12 @@
     reusable: 0
     total: 394
     year: 2025
+  - available: 149
+    functional: 51
+    reproducible: 44
+    reusable: 0
+    total: 149
+    year: 2026
 - category: security
   name: WOOT
   total_artifacts: 52

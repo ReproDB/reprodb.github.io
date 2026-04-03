@@ -278,9 +278,14 @@
   conference: USENIXSEC
   parsed: true
   year: 2025
-- artifact_count: 0
+- artifact_count: 149
   category: security
   conference: USENIXSEC
+  parsed: true
+  year: 2026
+- artifact_count: 0
+  category: security
+  conference: VEHICLESEC
   parsed: false
   year: 2026
 - artifact_count: 6
