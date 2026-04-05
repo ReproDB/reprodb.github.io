@@ -189,7 +189,7 @@ layout: default
   function renderContributors(slice, startIdx) {
     return slice.map(function(p, i) {
       var dn = cleanName(p.name);
-      var url = baseUrl + '/author.html?name=' + encodeURIComponent(p.name);
+      var url = baseUrl + '/author.html?name=' + encodeURIComponent(p.name) + (p.author_id != null ? '&id=' + p.author_id : '');
       return '<tr>' +
         '<td>' + (startIdx + i + 1) + '</td>' +
         '<td><a href="' + url + '">' + escHtml(dn) + '</a></td>' +

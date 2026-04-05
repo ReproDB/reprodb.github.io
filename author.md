@@ -487,33 +487,41 @@ layout: default
 
       allProfiles = data;
       profileMap = {};
+      idMap = {};
       for (var i = 0; i < data.length; i++) {
         profileMap[data[i].name] = data[i];
+        if (data[i].author_id != null) { idMap[data[i].author_id] = data[i]; }
       }
     })
     .then(function() {
       document.getElementById('loading-msg').style.display = 'none';
       searchBox.style.display = '';
 
-      // Check for ?name= parameter
+      // Check for ?id= or ?name= parameter
       var params = new URLSearchParams(window.location.search);
+      var idParam = params.get('id');
       var nameParam = params.get('name');
       // Normalise whitespace: tabs/newlines → space, collapse runs
       if (nameParam) { nameParam = nameParam.replace(/[\t\n\r]+/g, ' ').replace(/  +/g, ' ').trim(); }
-      if (nameParam && profileMap[nameParam]) {
-        searchBox.value = cleanName(nameParam);
-        renderProfile(profileMap[nameParam]);
+
+      // Resolve by ID first (stable link), then by name
+      var resolved = null;
+      if (idParam && idMap[parseInt(idParam)]) {
+        resolved = idMap[parseInt(idParam)];
+      } else if (nameParam && profileMap[nameParam]) {
+        resolved = profileMap[nameParam];
       } else if (nameParam) {
         // Try partial match
         var lower = nameParam.toLowerCase();
-        var match = allProfiles.find(function(p) { return p.name.toLowerCase() === lower || cleanName(p.name).toLowerCase() === lower; });
-        if (match) {
-          searchBox.value = cleanName(match.name);
-          renderProfile(match);
-        } else {
-          searchBox.value = nameParam;
-          searchBox.dispatchEvent(new Event('input'));
-        }
+        resolved = allProfiles.find(function(p) { return p.name.toLowerCase() === lower || cleanName(p.name).toLowerCase() === lower; });
+      }
+
+      if (resolved) {
+        searchBox.value = cleanName(resolved.name);
+        renderProfile(resolved);
+      } else if (nameParam) {
+        searchBox.value = nameParam;
+        searchBox.dispatchEvent(new Event('input'));
       }
     })
     .catch(function(err) {

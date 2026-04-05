@@ -123,7 +123,7 @@
       }
       cells.push('<td>' + rankVal + rankChange + '</td>');
       var displayName = (c.display_name || c.name || '').replace(/\t/g, ' ');
-      var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(c.name);
+      var profileUrl = baseUrl + '/author.html?name=' + encodeURIComponent(c.name) + (c.author_id != null ? '&id=' + c.author_id : '');
       cells.push('<td><a href="' + profileUrl + '">' + escHtml(displayName) + '</a></td>');
       var aff = (c.display_affiliation || c.affiliation || '').replace(/^_/, '');
       cells.push('<td>' + escHtml(aff) + '</td>');
