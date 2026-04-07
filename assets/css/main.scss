@@ -46,10 +46,12 @@ html {
   display: none;
 }
 
-// Make #main and masthead use full viewport width with matching padding.
+// Consistent padding for masthead and all content layouts.
 // On wide screens (>1400px), add ~1/6 viewport padding on each side
 // so content occupies roughly 2/3 of the screen for readability.
+// #main covers layout--single; .initial-content covers layout--default.
 #main,
+.initial-content,
 .masthead__inner-wrap {
   max-width: 100%;
   padding-left: 1em;
