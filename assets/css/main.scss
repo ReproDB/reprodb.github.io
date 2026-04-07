@@ -32,10 +32,7 @@ html {
 
 .page__inner-wrap {
   float: none;
-  max-width: $max-width;
-  margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
 }
 
 // On wide screens, ensure full width is used
@@ -49,9 +46,12 @@ html {
   display: none;
 }
 
+// Center #main the same way as the masthead so logo and content align
 #main {
-  max-width: 100%;
-  padding-left: 0;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 // Masthead - center like content
