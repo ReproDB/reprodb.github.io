@@ -30,66 +30,93 @@
 
 Authors who contributed evaluated artifacts at {{ conf_display }}, ranked by artifact score.
 
-<div id="conf-author-controls" class="cp-controls" style="display:none;">
-  <div class="cp-controls-row">
-    <div class="cp-control-group">
-      <label class="cp-label" for="caSearch">Search:</label>
-      <input id="caSearch" type="text" placeholder="Name or affiliation…" class="cp-input">
-    </div>
-    <div class="cp-control-group">
-      <label class="cp-label" for="caPageSize">Show</label>
-      <select id="caPageSize" class="cp-select">
-        <option value="10" selected>10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="0">All</option>
-      </select>
-    </div>
-    <div class="cp-control-group cp-page-nav">
-      <button id="caPrev" class="cp-btn">&laquo;</button>
-      <span id="caInfo" class="cp-page-info"></span>
-      <button id="caNext" class="cp-btn">&raquo;</button>
+<div id="author-controls" style="margin-bottom:6px; display:none; font-size:1em;">
+  <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
+    <div style="white-space:nowrap;">
+      <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
+      <input id="authorSearch" type="text" placeholder="Name or affiliation…" style="padding:2px 6px; font-size:1em; width:200px;">
     </div>
   </div>
 </div>
 
-<div id="confAuthorLoading"><em>Loading author data…</em></div>
+<div id="author-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
+  Legend: #=Rank, S=Artifact Score, Ar=Artifacts, P=Papers, AR%=Artifact Rate, RR%=Repro Rate, AvR%=Available/Functional Rate
+</div>
 
-<table id="confAuthorTable" class="cp-table" style="display:none;">
-<thead><tr id="confAuthorHead"></tr></thead>
-<tbody id="confAuthorBody"></tbody>
+<div id="authorLoading" style="font-size:0.9em;"><em>Loading author data…</em></div>
+
+<table id="authorTable" style="display:none;">
+<thead><tr id="authorHead"></tr></thead>
+<tbody id="authorBody"></tbody>
 </table>
+
+<div id="author-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="authorPrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
+  <span id="authorPageInfo" style="margin:0 6px;"></span>
+  <button id="authorNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
+  <span id="authorTotal" style="margin-left:12px; color:#666;"></span>
+</div>
 
 ## Institutions
 
-Top institutions at {{ conf_display }}, ranked by combined score (artifact authorship + AE service).
+Institutions at {{ conf_display }}, ranked by combined score (artifact authorship + AE service).
 
-<div id="confInstLoading"><em>Loading institution data…</em></div>
+<div id="inst-controls" style="margin-bottom:6px; display:none; font-size:1em;">
+  <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
+    <div style="white-space:nowrap;">
+      <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
+      <input id="instSearch" type="text" placeholder="Institution name…" style="padding:2px 6px; font-size:1em; width:200px;">
+    </div>
+  </div>
+</div>
 
-<table id="confInstTable" class="cp-table" style="display:none;">
-<thead><tr id="confInstHead"></tr></thead>
-<tbody id="confInstBody"></tbody>
+<div id="inst-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
+  Legend: #=Rank, S=Combined Score, R=Researchers, Ar=Artifacts, P=Papers, AE=AE Memberships, Ch=Chairs
+</div>
+
+<div id="instLoading" style="font-size:0.9em;"><em>Loading institution data…</em></div>
+
+<table id="instTable" style="display:none;">
+<thead><tr id="instHead"></tr></thead>
+<tbody id="instBody"></tbody>
 </table>
 
-<div id="confInstMore" style="display:none; margin-top:4px;">
-  <button id="confInstToggle" class="cp-btn">Show all</button>
-  <span id="confInstInfo" style="margin-left:8px; font-size:0.85em; color:#666;"></span>
+<div id="inst-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="instPrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
+  <span id="instPageInfo" style="margin:0 6px;"></span>
+  <button id="instNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
+  <span id="instTotal" style="margin-left:12px; color:#666;"></span>
 </div>
 
 ## AE Committee
 
-Top artifact evaluation committee members at {{ conf_display }}, ranked by number of service terms.
+Artifact evaluation committee members at {{ conf_display }}, ranked by number of service terms.
 
-<div id="confAeLoading"><em>Loading AE data…</em></div>
+<div id="ae-controls" style="margin-bottom:6px; display:none; font-size:1em;">
+  <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
+    <div style="white-space:nowrap;">
+      <label style="font-weight:bold; margin-right:4px; font-size:1em;">Search:</label>
+      <input id="aeSearch" type="text" placeholder="Name or affiliation…" style="padding:2px 6px; font-size:1em; width:200px;">
+    </div>
+  </div>
+</div>
 
-<table id="confAeTable" class="cp-table" style="display:none;">
-<thead><tr id="confAeHead"></tr></thead>
-<tbody id="confAeBody"></tbody>
+<div id="ae-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
+  Legend: #=Rank, Terms=AE Memberships, Ch=Times Chaired (★), First/Last=Year Range
+</div>
+
+<div id="aeLoading" style="font-size:0.9em;"><em>Loading AE data…</em></div>
+
+<table id="aeTable" style="display:none;">
+<thead><tr id="aeHead"></tr></thead>
+<tbody id="aeBody"></tbody>
 </table>
 
-<div id="confAeMore" style="display:none; margin-top:4px;">
-  <button id="confAeToggle" class="cp-btn">Show all</button>
-  <span id="confAeInfo" style="margin-left:8px; font-size:0.85em; color:#666;"></span>
+<div id="ae-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="aePrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
+  <span id="aePageInfo" style="margin:0 6px;"></span>
+  <button id="aeNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
+  <span id="aeTotal" style="margin-left:12px; color:#666;"></span>
 </div>
 
 ## Repository Statistics
@@ -116,7 +143,7 @@ Top artifact evaluation committee members at {{ conf_display }}, ranked by numbe
 {% if conf_repo.top_repos.size > 0 %}
 ### Top {{ conf_repo.top_repos.size }} Repositories by Stars
 
-<table class="cp-table top-repos-table">
+<table id="topReposTable">
 <thead>
 <tr><th>#</th><th>Repository</th><th>Authors</th><th>GitHub Org</th><th>Year</th><th>Stars</th><th>Forks</th><th>Badges</th><th>Last Active</th></tr>
 </thead>
@@ -192,38 +219,32 @@ document.addEventListener('DOMContentLoaded', function() {
 {% endif %}
 
 <style>
-.cp-table { font-size: 0.82em; white-space: nowrap; border-collapse: collapse; width: 100%; }
-.cp-table th, .cp-table td { padding: 3px 6px; border: 1px solid #ddd; }
-.cp-table th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1; }
-.cp-table th[title] { border-bottom: 2px dotted #999; }
-.cp-table tr:nth-child(even) { background-color: #f9f9f9; }
-.cp-table tr:hover { background-color: #e8f4f8; }
-.cp-table th.sortable { cursor: pointer; }
-.cp-table th.sortable::after { content: ' \2195'; font-size: 0.7em; opacity: 0.4; }
-.cp-table th.sorted-asc::after { content: ' \2191'; opacity: 1; }
-.cp-table th.sorted-desc::after { content: ' \2193'; opacity: 1; }
-.top-repos-table { white-space: normal; }
-.top-repos-table td:nth-child(2) { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.top-repos-table td:nth-child(3) { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.top-repos-table td:nth-child(8) { text-transform: capitalize; }
-
-.cp-controls { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 8px 12px; margin-bottom: 10px; }
-.cp-controls-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
-.cp-control-group { display: flex; align-items: center; gap: 5px; }
-.cp-label { font-size: 0.85em; color: #495057; font-weight: 500; }
-.cp-select { appearance: auto; padding: 3px 6px; font-size: 0.85em; border: 1px solid #ced4da; border-radius: 4px; background: #fff; }
-.cp-input { padding: 3px 6px; font-size: 0.85em; border: 1px solid #ced4da; border-radius: 4px; width: 180px; }
-.cp-btn { padding: 3px 10px; font-size: 0.82em; border: 1px solid #ced4da; border-radius: 4px; background: #fff; cursor: pointer; }
-.cp-btn:hover:not(:disabled) { background: #e9ecef; border-color: #adb5bd; }
-.cp-btn:disabled { opacity: 0.5; cursor: default; }
-.cp-page-info { font-size: 0.82em; color: #495057; min-width: 90px; text-align: center; }
-.cp-page-nav { margin-left: auto; }
+#authorTable, #instTable, #aeTable { font-size: 0.78em; border-collapse: collapse; width: 100%; }
+#authorTable th, #authorTable td,
+#instTable th, #instTable td,
+#aeTable th, #aeTable td { padding: 2px 4px; border: 1px solid #ddd; white-space: nowrap; }
+#authorTable th, #instTable th, #aeTable th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1; }
+#authorTable tr:nth-child(even), #instTable tr:nth-child(even), #aeTable tr:nth-child(even) { background-color: #f9f9f9; }
+#authorTable tr:hover, #instTable tr:hover, #aeTable tr:hover { background-color: #e8f4f8; }
+.cp-sortable { cursor: pointer; }
+.cp-sortable::after { content: '\2195'; opacity: 0.3; margin-left: 2px; font-size: 0.75em; }
+.cp-sorted-asc::after { content: '\2191'; opacity: 1; }
+.cp-sorted-desc::after { content: '\2193'; opacity: 1; }
+#topReposTable { font-size: 0.78em; border-collapse: collapse; width: 100%; }
+#topReposTable th, #topReposTable td { padding: 2px 4px; border: 1px solid #ddd; }
+#topReposTable th { background-color: #f2f2f2; }
+#topReposTable tr:nth-child(even) { background-color: #f9f9f9; }
+#topReposTable tr:hover { background-color: #e8f4f8; }
+#topReposTable td:nth-child(2) { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#topReposTable td:nth-child(3) { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#topReposTable td:nth-child(8) { text-transform: capitalize; }
 </style>
 
 <script>
 (function() {
   var CONF = '{{ conf_name }}';
   var BASE = '{{ "" | relative_url }}';
+  var PAGE_SIZE = 100;
 
   function esc(s) {
     var d = document.createElement('div');
@@ -231,31 +252,85 @@ document.addEventListener('DOMContentLoaded', function() {
     return d.innerHTML;
   }
 
-  /* ── Generic sortable table ────────────────────────────────────────── */
-  function SortableTable(cfg) {
-    this.headEl = document.getElementById(cfg.headId);
-    this.bodyEl = document.getElementById(cfg.bodyId);
+  /* ── Reusable paginated sortable table ─────────────────────────────── */
+  function PaginatedTable(cfg) {
+    this.headId = cfg.headId;
+    this.bodyId = cfg.bodyId;
+    this.pageInfoId = cfg.pageInfoId;
+    this.totalId = cfg.totalId;
+    this.prevId = cfg.prevId;
+    this.nextId = cfg.nextId;
+    this.controlsId = cfg.controlsId;
+    this.legendId = cfg.legendId;
+    this.loadingId = cfg.loadingId;
+    this.tableId = cfg.tableId;
+    this.bottomId = cfg.bottomId;
+    this.searchId = cfg.searchId;
     this.cols = cfg.cols;
+    this.renderRow = cfg.renderRow;
     this.sortCol = cfg.sortCol || 0;
     this.sortAsc = cfg.sortAsc !== undefined ? cfg.sortAsc : false;
-    this.data = [];
+    this.pageSize = cfg.pageSize || PAGE_SIZE;
+    this.page = 0;
+    this.allData = [];
+    this.filtered = [];
     this.sorted = [];
-    this.renderRow = cfg.renderRow;
-    this.limit = cfg.limit || 0;
-    this.showAll = false;
+    this.searchQuery = '';
+
+    var self = this;
+    document.getElementById(this.prevId).addEventListener('click', function() {
+      if (self.page > 0) { self.page--; self.render(); }
+    });
+    document.getElementById(this.nextId).addEventListener('click', function() {
+      var pages = self.pageSize > 0 ? Math.ceil(self.sorted.length / self.pageSize) : 1;
+      if (self.page < pages - 1) { self.page++; self.render(); }
+    });
+    if (this.searchId) {
+      var timer = null;
+      document.getElementById(this.searchId).addEventListener('input', function() {
+        clearTimeout(timer);
+        var val = this.value;
+        timer = setTimeout(function() {
+          self.searchQuery = val.toLowerCase().trim();
+          self.applyFilter();
+          self.doSort();
+          self.page = 0;
+          self.render();
+        }, 200);
+      });
+    }
   }
 
-  SortableTable.prototype.init = function(data) {
-    this.data = data;
-    this.sorted = data.slice();
-    this._buildHeader();
-    this.sort(this.sortCol, this.sortAsc);
+  PaginatedTable.prototype.init = function(data) {
+    this.allData = data;
+    this.applyFilter();
+    this.buildHeader();
+    this.doSort();
     this.render();
+    document.getElementById(this.loadingId).style.display = 'none';
+    document.getElementById(this.tableId).style.display = '';
+    document.getElementById(this.controlsId).style.display = '';
+    if (this.legendId) document.getElementById(this.legendId).style.display = '';
+    document.getElementById(this.bottomId).style.display = '';
   };
 
-  SortableTable.prototype.sort = function(col, asc) {
-    var key = this.cols[col].key;
-    var type = this.cols[col].type;
+  PaginatedTable.prototype.applyFilter = function() {
+    if (!this.searchQuery) { this.filtered = this.allData.slice(); return; }
+    var q = this.searchQuery;
+    var searchKeys = this.cols.filter(function(c) { return c.type === 'alpha'; }).map(function(c) { return c.key; });
+    this.filtered = this.allData.filter(function(d) {
+      for (var i = 0; i < searchKeys.length; i++) {
+        if ((d[searchKeys[i]] || '').toLowerCase().indexOf(q) >= 0) return true;
+      }
+      return false;
+    });
+  };
+
+  PaginatedTable.prototype.doSort = function() {
+    var col = this.cols[this.sortCol];
+    if (!col) return;
+    var key = col.key, type = col.type, asc = this.sortAsc;
+    this.sorted = this.filtered.slice();
     this.sorted.sort(function(a, b) {
       var av = a[key], bv = b[key];
       if (av == null) av = type === 'alpha' ? '' : 0;
@@ -267,59 +342,51 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
 
-  SortableTable.prototype.render = function() {
+  PaginatedTable.prototype.render = function() {
+    var total = this.sorted.length;
+    var start = this.pageSize > 0 ? this.page * this.pageSize : 0;
+    var end = this.pageSize > 0 ? Math.min(start + this.pageSize, total) : total;
+    var page = this.sorted.slice(start, end);
     var rows = [];
-    var display = (this.limit > 0 && !this.showAll) ? this.sorted.slice(0, this.limit) : this.sorted;
-    for (var i = 0; i < display.length; i++) {
-      rows.push('<tr>' + this.renderRow(display[i], i) + '</tr>');
+    for (var i = 0; i < page.length; i++) {
+      rows.push('<tr>' + this.renderRow(page[i], start + i) + '</tr>');
     }
-    this.bodyEl.innerHTML = rows.join('');
+    document.getElementById(this.bodyId).innerHTML = rows.join('');
+    var pages = this.pageSize > 0 ? Math.ceil(total / this.pageSize) : 1;
+    document.getElementById(this.pageInfoId).textContent =
+      total > 0 ? (start + 1) + '\u2013' + end + ' of ' + total : '0';
+    document.getElementById(this.totalId).textContent = total + ' total';
+    document.getElementById(this.prevId).disabled = this.page <= 0;
+    document.getElementById(this.nextId).disabled = this.pageSize <= 0 || this.page >= pages - 1;
   };
 
-  SortableTable.prototype._buildHeader = function() {
+  PaginatedTable.prototype.buildHeader = function() {
     var self = this;
-    this.headEl.innerHTML = '';
+    var tr = document.getElementById(this.headId);
+    tr.innerHTML = '';
     for (var c = 0; c < this.cols.length; c++) {
       var th = document.createElement('th');
       th.textContent = this.cols[c].label;
-      th.className = 'sortable';
+      th.className = 'cp-sortable';
       if (this.cols[c].tip) th.title = this.cols[c].tip;
-      if (c === this.sortCol) th.classList.add(this.sortAsc ? 'sorted-asc' : 'sorted-desc');
+      if (c === this.sortCol) th.classList.add(this.sortAsc ? 'cp-sorted-asc' : 'cp-sorted-desc');
       th.addEventListener('click', (function(idx) {
         return function(e) {
           if (self.sortCol === idx) self.sortAsc = !self.sortAsc;
           else { self.sortCol = idx; self.sortAsc = false; }
-          self.sort(self.sortCol, self.sortAsc);
+          self.doSort();
+          self.page = 0;
           self.render();
-          self.headEl.querySelectorAll('.sortable').forEach(function(h) {
-            h.classList.remove('sorted-asc','sorted-desc');
-          });
-          e.currentTarget.classList.add(self.sortAsc ? 'sorted-asc' : 'sorted-desc');
+          var ths = document.getElementById(self.headId).querySelectorAll('.cp-sortable');
+          ths.forEach(function(h) { h.classList.remove('cp-sorted-asc', 'cp-sorted-desc'); });
+          e.currentTarget.classList.add(self.sortAsc ? 'cp-sorted-asc' : 'cp-sorted-desc');
         };
       })(c));
-      this.headEl.appendChild(th);
+      tr.appendChild(th);
     }
   };
 
   /* ── AUTHORS — filtered from authors.json ──────────────────────────── */
-  var authorAll = [], authorFiltered = [];
-  var authorPage = 0, authorPageSize = 10;
-  var authorSortCol = 3, authorSortAsc = false;
-  var authorQuery = '';
-  var authorYearCols = [];
-
-  var authorFixedCols = [
-    {label:'#',    key:'_rank',          type:'num'},
-    {label:'Author', key:'_display',    type:'alpha'},
-    {label:'Affiliation', key:'affiliation', type:'alpha'},
-    {label:'S',    key:'artifact_score', type:'num', tip:'Score: Available+Functional+Reproduced badge points'},
-    {label:'Ar',   key:'artifacts',      type:'num', tip:'Artifacts at this conference'},
-    {label:'P',    key:'total_papers',   type:'num', tip:'Papers at this conference'},
-    {label:'AR%',  key:'artifact_rate',  type:'num', tip:'Artifact rate'},
-    {label:'RR%',  key:'repro_rate',     type:'num', tip:'Reproducibility rate'},
-    {label:'AvR%', key:'functional_rate',type:'num', tip:'Available/Functional rate'}
-  ];
-
   function computeConfAuthor(author) {
     var papers = (author.papers || []).filter(function(p) { return p.conference === CONF; });
     var ba = 0, bf = 0, br = 0, yearMap = {};
@@ -345,196 +412,113 @@ document.addEventListener('DOMContentLoaded', function() {
       artifact_rate: tp > 0 ? Math.round(artifacts / tp * 1000) / 10 : 0,
       repro_rate: artifacts > 0 ? Math.round(br / artifacts * 1000) / 10 : 0,
       functional_rate: artifacts > 0 ? Math.round((ba + bf) / artifacts * 500) / 10 : 0,
-      years: yearMap,
-      _rank: 0
+      years: yearMap
     };
   }
 
-  function authorFilter() {
-    var q = authorQuery.toLowerCase();
-    authorFiltered = q ? authorAll.filter(function(a) {
-      return a._display.toLowerCase().indexOf(q) >= 0 || a.affiliation.toLowerCase().indexOf(q) >= 0;
-    }) : authorAll.slice();
-    authorSortAndRank(); authorPage = 0;
-  }
-
-  function authorSortAndRank() {
-    var allCols = authorFixedCols.concat(authorYearCols);
-    var col = allCols[authorSortCol];
-    if (!col) return;
-    var key = col.key, isYr = key && key.indexOf('_y') === 0;
-    authorFiltered.sort(function(a, b) {
-      var av, bv;
-      if (isYr) { var yr = parseInt(key.slice(2)); av = (a.years||{})[yr]||0; bv = (b.years||{})[yr]||0; }
-      else if (col.type === 'alpha') { av = String(a[key]||'').toLowerCase(); bv = String(b[key]||'').toLowerCase(); }
-      else { av = a[key]||0; bv = b[key]||0; }
-      if (av < bv) return authorSortAsc ? -1 : 1;
-      if (av > bv) return authorSortAsc ? 1 : -1;
-      return 0;
-    });
-    for (var i = 0; i < authorFiltered.length; i++) authorFiltered[i]._rank = i + 1;
-  }
-
-  function authorRender() {
-    var start = authorPageSize > 0 ? authorPage * authorPageSize : 0;
-    var end = authorPageSize > 0 ? Math.min(start + authorPageSize, authorFiltered.length) : authorFiltered.length;
-    var page = authorFiltered.slice(start, end);
-    var rows = [];
-    for (var i = 0; i < page.length; i++) {
-      var a = page[i];
-      var url = BASE + '/author.html?name=' + encodeURIComponent(a.name);
-      var cells = '<td>' + a._rank + '</td>';
-      cells += '<td><a href="' + url + '">' + esc(a._display) + '</a></td>';
-      cells += '<td>' + esc(a.affiliation) + '</td>';
-      cells += '<td><strong>' + a.artifact_score + '</strong></td>';
-      cells += '<td>' + a.artifacts + '</td>';
-      cells += '<td>' + (a.total_papers || '') + '</td>';
-      cells += '<td>' + (a.total_papers > 0 ? a.artifact_rate + '%' : '') + '</td>';
-      cells += '<td>' + a.repro_rate + '%</td>';
-      cells += '<td>' + a.functional_rate + '%</td>';
-      for (var j = 0; j < authorYearCols.length; j++) {
-        var cnt = (a.years || {})[authorYearCols[j].yr] || 0;
-        cells += '<td>' + (cnt > 0 ? cnt : '') + '</td>';
-      }
-      rows.push('<tr>' + cells + '</tr>');
-    }
-    document.getElementById('confAuthorBody').innerHTML = rows.join('');
-    var total = authorFiltered.length;
-    var pages = authorPageSize > 0 ? Math.ceil(total / authorPageSize) : 1;
-    document.getElementById('caInfo').textContent = total > 0 ? (start+1) + '\u2013' + end + ' of ' + total : '0';
-    document.getElementById('caPrev').disabled = authorPage <= 0;
-    document.getElementById('caNext').disabled = authorPageSize <= 0 || authorPage >= pages - 1;
-  }
-
-  function authorBuildHeader() {
-    var tr = document.getElementById('confAuthorHead');
-    tr.innerHTML = '';
-    var allCols = authorFixedCols.concat(authorYearCols);
-    for (var c = 0; c < allCols.length; c++) {
-      var th = document.createElement('th');
-      th.textContent = allCols[c].label;
-      th.className = 'sortable';
-      if (allCols[c].tip) th.title = allCols[c].tip;
-      if (c === authorSortCol) th.classList.add(authorSortAsc ? 'sorted-asc' : 'sorted-desc');
-      th.addEventListener('click', (function(idx) {
-        return function(e) {
-          if (authorSortCol === idx) authorSortAsc = !authorSortAsc;
-          else { authorSortCol = idx; authorSortAsc = false; }
-          authorSortAndRank(); authorPage = 0; authorRender();
-          document.getElementById('confAuthorHead').querySelectorAll('.sortable').forEach(function(h) {
-            h.classList.remove('sorted-asc','sorted-desc');
-          });
-          e.currentTarget.classList.add(authorSortAsc ? 'sorted-asc' : 'sorted-desc');
-        };
-      })(c));
-      tr.appendChild(th);
-    }
-  }
-
   function initAuthors(rawData) {
-    authorAll = [];
+    var all = [];
     var yrs = {};
     for (var i = 0; i < rawData.length; i++) {
       if (!(rawData[i].conferences || []).includes(CONF)) continue;
       var ca = computeConfAuthor(rawData[i]);
-      if (ca) { authorAll.push(ca); for (var y in ca.years) yrs[y] = true; }
+      if (ca) { all.push(ca); for (var y in ca.years) yrs[y] = true; }
     }
-    authorYearCols = Object.keys(yrs).map(Number).sort(function(a,b){return b-a;}).map(function(yr) {
-      return {label: '' + yr, key: '_y' + yr, type: 'num', yr: yr};
+    var yearCols = Object.keys(yrs).map(Number).sort(function(a,b){return b-a;});
+    var cols = [
+      {label:'#',    key:'_rank',          type:'num'},
+      {label:'Researcher', key:'_display', type:'alpha'},
+      {label:'Affiliation', key:'affiliation', type:'alpha'},
+      {label:'S',    key:'artifact_score', type:'num', tip:'Artifact Score: Available+Functional+Reproduced'},
+      {label:'Ar',   key:'artifacts',      type:'num', tip:'Artifacts at this conference'},
+      {label:'P',    key:'total_papers',   type:'num', tip:'Papers at this conference'},
+      {label:'AR%',  key:'artifact_rate',  type:'num', tip:'Artifact rate'},
+      {label:'RR%',  key:'repro_rate',     type:'num', tip:'Reproducibility rate'},
+      {label:'AvR%', key:'functional_rate',type:'num', tip:'Available/Functional rate'}
+    ];
+    for (var j = 0; j < yearCols.length; j++) {
+      cols.push({label: '' + yearCols[j], key: '_y' + yearCols[j], type: 'num'});
+    }
+    for (var k = 0; k < all.length; k++) {
+      for (var yj = 0; yj < yearCols.length; yj++) {
+        all[k]['_y' + yearCols[yj]] = (all[k].years || {})[yearCols[yj]] || 0;
+      }
+    }
+
+    var tbl = new PaginatedTable({
+      headId: 'authorHead', bodyId: 'authorBody',
+      pageInfoId: 'authorPageInfo', totalId: 'authorTotal',
+      prevId: 'authorPrev', nextId: 'authorNext',
+      controlsId: 'author-controls', legendId: 'author-legend',
+      loadingId: 'authorLoading', tableId: 'authorTable',
+      bottomId: 'author-controls-bottom', searchId: 'authorSearch',
+      cols: cols, sortCol: 3, sortAsc: false,
+      renderRow: function(d, idx) {
+        var url = BASE + '/author.html?name=' + encodeURIComponent(d.name);
+        var cells = '<td>' + (idx + 1) + '</td>';
+        cells += '<td><a href="' + url + '">' + esc(d._display) + '</a></td>';
+        cells += '<td>' + esc(d.affiliation) + '</td>';
+        cells += '<td><strong>' + d.artifact_score + '</strong></td>';
+        cells += '<td>' + d.artifacts + '</td>';
+        cells += '<td>' + (d.total_papers || '') + '</td>';
+        cells += '<td>' + (d.total_papers > 0 ? d.artifact_rate + '%' : '') + '</td>';
+        cells += '<td>' + d.repro_rate + '%</td>';
+        cells += '<td>' + d.functional_rate + '%</td>';
+        for (var j = 0; j < yearCols.length; j++) {
+          var cnt = d['_y' + yearCols[j]] || 0;
+          cells += '<td>' + (cnt > 0 ? cnt : '') + '</td>';
+        }
+        return cells;
+      }
     });
-    authorFiltered = authorAll.slice();
-    authorBuildHeader(); authorSortAndRank(); authorRender();
-    document.getElementById('confAuthorLoading').style.display = 'none';
-    document.getElementById('confAuthorTable').style.display = '';
-    document.getElementById('conf-author-controls').style.display = '';
-  }
-
-  document.getElementById('caSearch').addEventListener('input', function() {
-    authorQuery = this.value; authorFilter(); authorRender();
-  });
-  document.getElementById('caPageSize').addEventListener('change', function() {
-    authorPageSize = parseInt(this.value); authorPage = 0; authorRender();
-  });
-  document.getElementById('caPrev').addEventListener('click', function() {
-    if (authorPage > 0) { authorPage--; authorRender(); }
-  });
-  document.getElementById('caNext').addEventListener('click', function() {
-    var pages = authorPageSize > 0 ? Math.ceil(authorFiltered.length / authorPageSize) : 1;
-    if (authorPage < pages - 1) { authorPage++; authorRender(); }
-  });
-
-  /* ── INSTITUTIONS — filtered from institution_rankings.json ────────── */
-  var instTable = new SortableTable({
-    headId: 'confInstHead', bodyId: 'confInstBody',
-    sortCol: 1, sortAsc: false, limit: 10,
-    cols: [
-      {label:'#',           key:'_rank',          type:'num'},
-      {label:'Score',       key:'combined_score',  type:'num', tip:'Combined score'},
-      {label:'Institution', key:'affiliation',     type:'alpha'},
-      {label:'Authors',     key:'num_authors',     type:'num', tip:'Number of authors'},
-      {label:'Ar',          key:'artifacts',       type:'num', tip:'Artifacts'},
-      {label:'P',           key:'total_papers',    type:'num', tip:'Papers'},
-      {label:'AE',          key:'ae_memberships',  type:'num', tip:'AE memberships'},
-      {label:'Ch',          key:'chair_count',     type:'num', tip:'Chair count'}
-    ],
-    renderRow: function(d, i) {
-      var url = BASE + '/institution.html?name=' + encodeURIComponent(d.affiliation);
-      return '<td>' + (i+1) + '</td>' +
-        '<td><strong>' + (d.combined_score||0) + '</strong></td>' +
-        '<td><a href="' + url + '">' + esc(d.affiliation) + '</a></td>' +
-        '<td>' + (d.num_authors||'') + '</td>' +
-        '<td>' + (d.artifacts||'') + '</td>' +
-        '<td>' + (d.total_papers||'') + '</td>' +
-        '<td>' + (d.ae_memberships||'') + '</td>' +
-        '<td>' + (d.chair_count > 0 ? d.chair_count + ' \u2605' : '') + '</td>';
-    }
-  });
-
-  function initInstitutions(rawData) {
-    var filtered = rawData.filter(function(d) { return (d.conferences||[]).indexOf(CONF) >= 0; });
-    if (filtered.length === 0) {
-      document.getElementById('confInstLoading').textContent = 'No institution data for this conference.';
+    if (all.length === 0) {
+      document.getElementById('authorLoading').textContent = 'No author data for this conference.';
       return;
     }
-    instTable.init(filtered);
-    document.getElementById('confInstLoading').style.display = 'none';
-    document.getElementById('confInstTable').style.display = '';
-    if (filtered.length > 10) {
-      document.getElementById('confInstMore').style.display = '';
-      document.getElementById('confInstInfo').textContent = filtered.length + ' institutions total';
-    }
+    tbl.init(all);
   }
 
-  document.getElementById('confInstToggle').addEventListener('click', function() {
-    instTable.showAll = !instTable.showAll;
-    this.textContent = instTable.showAll ? 'Show top 10' : 'Show all';
-    instTable.render();
-  });
+  /* ── INSTITUTIONS — filtered from institution_rankings.json ────────── */
+  function initInstitutions(rawData) {
+    var filtered = rawData.filter(function(d) { return (d.conferences||[]).indexOf(CONF) >= 0; });
+    var tbl = new PaginatedTable({
+      headId: 'instHead', bodyId: 'instBody',
+      pageInfoId: 'instPageInfo', totalId: 'instTotal',
+      prevId: 'instPrev', nextId: 'instNext',
+      controlsId: 'inst-controls', legendId: 'inst-legend',
+      loadingId: 'instLoading', tableId: 'instTable',
+      bottomId: 'inst-controls-bottom', searchId: 'instSearch',
+      cols: [
+        {label:'#',           key:'_rank',          type:'num'},
+        {label:'S',           key:'combined_score',  type:'num', tip:'Combined score'},
+        {label:'Institution', key:'affiliation',     type:'alpha'},
+        {label:'R',           key:'num_authors',     type:'num', tip:'Researchers'},
+        {label:'Ar',          key:'artifacts',       type:'num', tip:'Artifacts'},
+        {label:'P',           key:'total_papers',    type:'num', tip:'Papers'},
+        {label:'AE',          key:'ae_memberships',  type:'num', tip:'AE memberships'},
+        {label:'Ch',          key:'chair_count',     type:'num', tip:'Times chaired'}
+      ],
+      sortCol: 1, sortAsc: false,
+      renderRow: function(d, idx) {
+        var url = BASE + '/institution.html?name=' + encodeURIComponent(d.affiliation);
+        return '<td>' + (idx + 1) + '</td>' +
+          '<td><strong>' + (d.combined_score||0) + '</strong></td>' +
+          '<td><a href="' + url + '">' + esc(d.affiliation) + '</a></td>' +
+          '<td>' + (d.num_authors||'') + '</td>' +
+          '<td>' + (d.artifacts||'') + '</td>' +
+          '<td>' + (d.total_papers||'') + '</td>' +
+          '<td>' + (d.ae_memberships||'') + '</td>' +
+          '<td>' + (d.chair_count > 0 ? d.chair_count + ' \u2605' : '') + '</td>';
+      }
+    });
+    if (filtered.length === 0) {
+      document.getElementById('instLoading').textContent = 'No institution data for this conference.';
+      return;
+    }
+    tbl.init(filtered);
+  }
 
   /* ── AE COMMITTEE — filtered from ae_members.json ──────────────────── */
-  var aeTable = new SortableTable({
-    headId: 'confAeHead', bodyId: 'confAeBody',
-    sortCol: 1, sortAsc: false, limit: 10,
-    cols: [
-      {label:'#',           key:'_rank',          type:'num'},
-      {label:'Terms',       key:'terms',           type:'num', tip:'AE memberships at this conference'},
-      {label:'Member',      key:'_display',        type:'alpha'},
-      {label:'Affiliation', key:'affiliation',     type:'alpha'},
-      {label:'Chair',       key:'chairs',          type:'num', tip:'Times chaired'},
-      {label:'First',       key:'first_year',      type:'num', tip:'First year'},
-      {label:'Last',        key:'last_year',       type:'num', tip:'Last year'}
-    ],
-    renderRow: function(d, i) {
-      return '<td>' + (i+1) + '</td>' +
-        '<td><strong>' + d.terms + '</strong></td>' +
-        '<td>' + esc(d._display) + '</td>' +
-        '<td>' + esc(d.affiliation||'') + '</td>' +
-        '<td>' + (d.chairs > 0 ? d.chairs + ' \u2605' : '') + '</td>' +
-        '<td>' + d.first_year + '</td>' +
-        '<td>' + d.last_year + '</td>';
-    }
-  });
-
   function initAE(rawData) {
     var filtered = [];
     for (var i = 0; i < rawData.length; i++) {
@@ -544,32 +528,47 @@ document.addEventListener('DOMContentLoaded', function() {
       var chairs = entries.filter(function(c) { return c[2] === 'chair'; }).length;
       var years = entries.map(function(c) { return c[1]; });
       filtered.push({
-        name: m.name, _display: m.display_name||m.name,
-        affiliation: m.affiliation||'', terms: entries.length,
+        _display: m.display_name||m.name,
+        affiliation: m.affiliation||'',
+        terms: entries.length,
         chairs: chairs,
         first_year: Math.min.apply(null, years),
-        last_year: Math.max.apply(null, years),
-        _rank: 0
+        last_year: Math.max.apply(null, years)
       });
     }
+    var tbl = new PaginatedTable({
+      headId: 'aeHead', bodyId: 'aeBody',
+      pageInfoId: 'aePageInfo', totalId: 'aeTotal',
+      prevId: 'aePrev', nextId: 'aeNext',
+      controlsId: 'ae-controls', legendId: 'ae-legend',
+      loadingId: 'aeLoading', tableId: 'aeTable',
+      bottomId: 'ae-controls-bottom', searchId: 'aeSearch',
+      cols: [
+        {label:'#',           key:'_rank',          type:'num'},
+        {label:'Terms',       key:'terms',           type:'num', tip:'AE memberships at this conference'},
+        {label:'Member',      key:'_display',        type:'alpha'},
+        {label:'Affiliation', key:'affiliation',     type:'alpha'},
+        {label:'Ch',          key:'chairs',          type:'num', tip:'Times chaired'},
+        {label:'First',       key:'first_year',      type:'num', tip:'First year'},
+        {label:'Last',        key:'last_year',       type:'num', tip:'Last year'}
+      ],
+      sortCol: 1, sortAsc: false,
+      renderRow: function(d, idx) {
+        return '<td>' + (idx + 1) + '</td>' +
+          '<td><strong>' + d.terms + '</strong></td>' +
+          '<td>' + esc(d._display) + '</td>' +
+          '<td>' + esc(d.affiliation) + '</td>' +
+          '<td>' + (d.chairs > 0 ? d.chairs + ' \u2605' : '') + '</td>' +
+          '<td>' + d.first_year + '</td>' +
+          '<td>' + d.last_year + '</td>';
+      }
+    });
     if (filtered.length === 0) {
-      document.getElementById('confAeLoading').textContent = 'No AE data for this conference.';
+      document.getElementById('aeLoading').textContent = 'No AE data for this conference.';
       return;
     }
-    aeTable.init(filtered);
-    document.getElementById('confAeLoading').style.display = 'none';
-    document.getElementById('confAeTable').style.display = '';
-    if (filtered.length > 10) {
-      document.getElementById('confAeMore').style.display = '';
-      document.getElementById('confAeInfo').textContent = filtered.length + ' AE members total';
-    }
+    tbl.init(filtered);
   }
-
-  document.getElementById('confAeToggle').addEventListener('click', function() {
-    aeTable.showAll = !aeTable.showAll;
-    this.textContent = aeTable.showAll ? 'Show top 10' : 'Show all';
-    aeTable.render();
-  });
 
   /* ── Load all data in parallel ─────────────────────────────────────── */
   var dataBase = '{{ site.baseurl }}/assets/data/';
@@ -582,7 +581,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initInstitutions(results[1]);
     initAE(results[2]);
   }).catch(function(e) {
-    ['confAuthorLoading','confInstLoading','confAeLoading'].forEach(function(id) {
+    ['authorLoading','instLoading','aeLoading'].forEach(function(id) {
       document.getElementById(id).textContent = 'Error loading data: ' + e.message;
     });
   });
