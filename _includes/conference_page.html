@@ -45,21 +45,19 @@ Authors who contributed evaluated artifacts at {{ conf_display }}, ranked by art
 
 <div id="authorLoading" style="font-size:0.9em;"><em>Loading author data…</em></div>
 
-<table id="authorTable" style="display:none;">
+<table id="authorTable" class="conf-tbl" style="display:none;">
 <thead><tr id="authorHead"></tr></thead>
 <tbody id="authorBody"></tbody>
 </table>
 
-<div id="author-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
-  <button id="authorPrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
-  <span id="authorPageInfo" style="margin:0 6px;"></span>
-  <button id="authorNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
-  <span id="authorTotal" style="margin-left:12px; color:#666;"></span>
+<div id="author-toggle" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="authorToggleBtn" style="padding:2px 6px; font-size:0.9em;">Show all</button>
+  <span id="authorTotal" style="margin-left:8px; color:#666;"></span>
 </div>
 
 ## Institutions
 
-Institutions at {{ conf_display }}, ranked by combined score (artifact authorship + AE service).
+Institutions at {{ conf_display }}, ranked by conference-specific artifact score.
 
 <div id="inst-controls" style="margin-bottom:6px; display:none; font-size:1em;">
   <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
@@ -71,21 +69,19 @@ Institutions at {{ conf_display }}, ranked by combined score (artifact authorshi
 </div>
 
 <div id="inst-legend" style="margin:0 0 6px 0; display:none; font-size:0.85em; color:#555;">
-  Legend: #=Rank, S=Combined Score, R=Researchers, Ar=Artifacts, P=Papers, AE=AE Memberships, Ch=Chairs
+  Legend: #=Rank, S=Artifact Score (conference-specific), R=Researchers, Ar=Artifacts, P=Papers, AE=AE Memberships, Ch=Chairs
 </div>
 
 <div id="instLoading" style="font-size:0.9em;"><em>Loading institution data…</em></div>
 
-<table id="instTable" style="display:none;">
+<table id="instTable" class="conf-tbl" style="display:none;">
 <thead><tr id="instHead"></tr></thead>
 <tbody id="instBody"></tbody>
 </table>
 
-<div id="inst-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
-  <button id="instPrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
-  <span id="instPageInfo" style="margin:0 6px;"></span>
-  <button id="instNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
-  <span id="instTotal" style="margin-left:12px; color:#666;"></span>
+<div id="inst-toggle" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="instToggleBtn" style="padding:2px 6px; font-size:0.9em;">Show all</button>
+  <span id="instTotal" style="margin-left:8px; color:#666;"></span>
 </div>
 
 ## AE Committee
@@ -107,16 +103,14 @@ Artifact evaluation committee members at {{ conf_display }}, ranked by number of
 
 <div id="aeLoading" style="font-size:0.9em;"><em>Loading AE data…</em></div>
 
-<table id="aeTable" style="display:none;">
+<table id="aeTable" class="conf-tbl" style="display:none;">
 <thead><tr id="aeHead"></tr></thead>
 <tbody id="aeBody"></tbody>
 </table>
 
-<div id="ae-controls-bottom" style="margin-top:4px; display:none; font-size:0.9em;">
-  <button id="aePrev" style="padding:2px 6px; font-size:0.9em;">&laquo; Prev</button>
-  <span id="aePageInfo" style="margin:0 6px;"></span>
-  <button id="aeNext" style="padding:2px 6px; font-size:0.9em;">Next &raquo;</button>
-  <span id="aeTotal" style="margin-left:12px; color:#666;"></span>
+<div id="ae-toggle" style="margin-top:4px; display:none; font-size:0.9em;">
+  <button id="aeToggleBtn" style="padding:2px 6px; font-size:0.9em;">Show all</button>
+  <span id="aeTotal" style="margin-left:8px; color:#666;"></span>
 </div>
 
 ## Repository Statistics
@@ -143,7 +137,7 @@ Artifact evaluation committee members at {{ conf_display }}, ranked by number of
 {% if conf_repo.top_repos.size > 0 %}
 ### Top {{ conf_repo.top_repos.size }} Repositories by Stars
 
-<table id="topReposTable">
+<table id="topReposTable" class="conf-tbl">
 <thead>
 <tr><th>#</th><th>Repository</th><th>Authors</th><th>GitHub Org</th><th>Year</th><th>Stars</th><th>Forks</th><th>Badges</th><th>Last Active</th></tr>
 </thead>
@@ -219,22 +213,16 @@ document.addEventListener('DOMContentLoaded', function() {
 {% endif %}
 
 <style>
-#authorTable, #instTable, #aeTable { font-size: 0.78em; border-collapse: collapse; width: 100%; }
-#authorTable th, #authorTable td,
-#instTable th, #instTable td,
-#aeTable th, #aeTable td { padding: 2px 4px; border: 1px solid #ddd; white-space: nowrap; }
-#authorTable th, #instTable th, #aeTable th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1; }
-#authorTable tr:nth-child(even), #instTable tr:nth-child(even), #aeTable tr:nth-child(even) { background-color: #f9f9f9; }
-#authorTable tr:hover, #instTable tr:hover, #aeTable tr:hover { background-color: #e8f4f8; }
+.conf-tbl { font-size: 0.78em; border-collapse: collapse; }
+.conf-tbl th, .conf-tbl td { padding: 2px 4px; border: 1px solid #ddd; white-space: nowrap; }
+.conf-tbl td.wrap-cell { white-space: normal; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+.conf-tbl th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1; }
+.conf-tbl tr:nth-child(even) { background-color: #f9f9f9; }
+.conf-tbl tr:hover { background-color: #e8f4f8; }
 .cp-sortable { cursor: pointer; }
 .cp-sortable::after { content: '\2195'; opacity: 0.3; margin-left: 2px; font-size: 0.75em; }
 .cp-sorted-asc::after { content: '\2191'; opacity: 1; }
 .cp-sorted-desc::after { content: '\2193'; opacity: 1; }
-#topReposTable { font-size: 0.78em; border-collapse: collapse; width: 100%; }
-#topReposTable th, #topReposTable td { padding: 2px 4px; border: 1px solid #ddd; }
-#topReposTable th { background-color: #f2f2f2; }
-#topReposTable tr:nth-child(even) { background-color: #f9f9f9; }
-#topReposTable tr:hover { background-color: #e8f4f8; }
 #topReposTable td:nth-child(2) { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #topReposTable td:nth-child(3) { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #topReposTable td:nth-child(8) { text-transform: capitalize; }
@@ -244,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
 (function() {
   var CONF = '{{ conf_name }}';
   var BASE = '{{ "" | relative_url }}';
-  var PAGE_SIZE = 100;
+  var TOP_N = 10;
 
   function esc(s) {
     var d = document.createElement('div');
@@ -252,38 +240,33 @@ document.addEventListener('DOMContentLoaded', function() {
     return d.innerHTML;
   }
 
-  /* ── Reusable paginated sortable table ─────────────────────────────── */
-  function PaginatedTable(cfg) {
+  /* ── Top-10 sortable table with "Show all" toggle ──────────────────── */
+  function Top10Table(cfg) {
     this.headId = cfg.headId;
     this.bodyId = cfg.bodyId;
-    this.pageInfoId = cfg.pageInfoId;
-    this.totalId = cfg.totalId;
-    this.prevId = cfg.prevId;
-    this.nextId = cfg.nextId;
     this.controlsId = cfg.controlsId;
     this.legendId = cfg.legendId;
     this.loadingId = cfg.loadingId;
     this.tableId = cfg.tableId;
-    this.bottomId = cfg.bottomId;
+    this.toggleDivId = cfg.toggleDivId;
+    this.toggleBtnId = cfg.toggleBtnId;
+    this.totalId = cfg.totalId;
     this.searchId = cfg.searchId;
     this.cols = cfg.cols;
     this.renderRow = cfg.renderRow;
     this.sortCol = cfg.sortCol || 0;
     this.sortAsc = cfg.sortAsc !== undefined ? cfg.sortAsc : false;
-    this.pageSize = cfg.pageSize || PAGE_SIZE;
-    this.page = 0;
     this.allData = [];
     this.filtered = [];
     this.sorted = [];
+    this.showAll = false;
     this.searchQuery = '';
 
     var self = this;
-    document.getElementById(this.prevId).addEventListener('click', function() {
-      if (self.page > 0) { self.page--; self.render(); }
-    });
-    document.getElementById(this.nextId).addEventListener('click', function() {
-      var pages = self.pageSize > 0 ? Math.ceil(self.sorted.length / self.pageSize) : 1;
-      if (self.page < pages - 1) { self.page++; self.render(); }
+    document.getElementById(this.toggleBtnId).addEventListener('click', function() {
+      self.showAll = !self.showAll;
+      this.textContent = self.showAll ? 'Show top 10' : 'Show all';
+      self.render();
     });
     if (this.searchId) {
       var timer = null;
@@ -294,14 +277,13 @@ document.addEventListener('DOMContentLoaded', function() {
           self.searchQuery = val.toLowerCase().trim();
           self.applyFilter();
           self.doSort();
-          self.page = 0;
           self.render();
         }, 200);
       });
     }
   }
 
-  PaginatedTable.prototype.init = function(data) {
+  Top10Table.prototype.init = function(data) {
     this.allData = data;
     this.applyFilter();
     this.buildHeader();
@@ -311,10 +293,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById(this.tableId).style.display = '';
     document.getElementById(this.controlsId).style.display = '';
     if (this.legendId) document.getElementById(this.legendId).style.display = '';
-    document.getElementById(this.bottomId).style.display = '';
+    document.getElementById(this.toggleDivId).style.display = '';
+    document.getElementById(this.totalId).textContent = data.length + ' total';
   };
 
-  PaginatedTable.prototype.applyFilter = function() {
+  Top10Table.prototype.applyFilter = function() {
     if (!this.searchQuery) { this.filtered = this.allData.slice(); return; }
     var q = this.searchQuery;
     var searchKeys = this.cols.filter(function(c) { return c.type === 'alpha'; }).map(function(c) { return c.key; });
@@ -326,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
 
-  PaginatedTable.prototype.doSort = function() {
+  Top10Table.prototype.doSort = function() {
     var col = this.cols[this.sortCol];
     if (!col) return;
     var key = col.key, type = col.type, asc = this.sortAsc;
@@ -342,25 +325,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   };
 
-  PaginatedTable.prototype.render = function() {
-    var total = this.sorted.length;
-    var start = this.pageSize > 0 ? this.page * this.pageSize : 0;
-    var end = this.pageSize > 0 ? Math.min(start + this.pageSize, total) : total;
-    var page = this.sorted.slice(start, end);
+  Top10Table.prototype.render = function() {
+    var display = this.showAll || this.searchQuery ? this.sorted : this.sorted.slice(0, TOP_N);
     var rows = [];
-    for (var i = 0; i < page.length; i++) {
-      rows.push('<tr>' + this.renderRow(page[i], start + i) + '</tr>');
+    for (var i = 0; i < display.length; i++) {
+      rows.push('<tr>' + this.renderRow(display[i], i) + '</tr>');
     }
     document.getElementById(this.bodyId).innerHTML = rows.join('');
-    var pages = this.pageSize > 0 ? Math.ceil(total / this.pageSize) : 1;
-    document.getElementById(this.pageInfoId).textContent =
-      total > 0 ? (start + 1) + '\u2013' + end + ' of ' + total : '0';
-    document.getElementById(this.totalId).textContent = total + ' total';
-    document.getElementById(this.prevId).disabled = this.page <= 0;
-    document.getElementById(this.nextId).disabled = this.pageSize <= 0 || this.page >= pages - 1;
+    var btn = document.getElementById(this.toggleBtnId);
+    if (this.searchQuery) {
+      btn.style.display = 'none';
+      document.getElementById(this.totalId).textContent = this.sorted.length + ' matching';
+    } else {
+      btn.style.display = '';
+      btn.textContent = this.showAll ? 'Show top 10' : 'Show all';
+      document.getElementById(this.totalId).textContent = this.allData.length + ' total';
+    }
   };
 
-  PaginatedTable.prototype.buildHeader = function() {
+  Top10Table.prototype.buildHeader = function() {
     var self = this;
     var tr = document.getElementById(this.headId);
     tr.innerHTML = '';
@@ -375,7 +358,6 @@ document.addEventListener('DOMContentLoaded', function() {
           if (self.sortCol === idx) self.sortAsc = !self.sortAsc;
           else { self.sortCol = idx; self.sortAsc = false; }
           self.doSort();
-          self.page = 0;
           self.render();
           var ths = document.getElementById(self.headId).querySelectorAll('.cp-sortable');
           ths.forEach(function(h) { h.classList.remove('cp-sorted-asc', 'cp-sorted-desc'); });
@@ -386,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
 
-  /* ── AUTHORS — filtered from authors.json ──────────────────────────── */
+  /* ── Compute per-conference author stats ───────────────────────────── */
   function computeConfAuthor(author) {
     var papers = (author.papers || []).filter(function(p) { return p.conference === CONF; });
     var ba = 0, bf = 0, br = 0, yearMap = {};
@@ -416,48 +398,54 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
+  /* ── AUTHORS ───────────────────────────────────────────────────────── */
+  var confAuthors = []; // shared with institution aggregation
+
   function initAuthors(rawData) {
-    var all = [];
+    confAuthors = [];
     var yrs = {};
     for (var i = 0; i < rawData.length; i++) {
       if (!(rawData[i].conferences || []).includes(CONF)) continue;
       var ca = computeConfAuthor(rawData[i]);
-      if (ca) { all.push(ca); for (var y in ca.years) yrs[y] = true; }
+      if (ca) { confAuthors.push(ca); for (var y in ca.years) yrs[y] = true; }
     }
     var yearCols = Object.keys(yrs).map(Number).sort(function(a,b){return b-a;});
     var cols = [
-      {label:'#',    key:'_rank',          type:'num'},
-      {label:'Researcher', key:'_display', type:'alpha'},
-      {label:'Affiliation', key:'affiliation', type:'alpha'},
-      {label:'S',    key:'artifact_score', type:'num', tip:'Artifact Score: Available+Functional+Reproduced'},
-      {label:'Ar',   key:'artifacts',      type:'num', tip:'Artifacts at this conference'},
-      {label:'P',    key:'total_papers',   type:'num', tip:'Papers at this conference'},
-      {label:'AR%',  key:'artifact_rate',  type:'num', tip:'Artifact rate'},
-      {label:'RR%',  key:'repro_rate',     type:'num', tip:'Reproducibility rate'},
-      {label:'AvR%', key:'functional_rate',type:'num', tip:'Available/Functional rate'}
+      {label:'#',           key:'_rank',          type:'num'},
+      {label:'Researcher',  key:'_display',       type:'alpha'},
+      {label:'Affiliation', key:'affiliation',    type:'alpha'},
+      {label:'S',           key:'artifact_score', type:'num', tip:'Artifact Score: Available+Functional+Reproduced'},
+      {label:'Ar',          key:'artifacts',      type:'num', tip:'Artifacts at this conference'},
+      {label:'P',           key:'total_papers',   type:'num', tip:'Papers at this conference'},
+      {label:'AR%',         key:'artifact_rate',  type:'num', tip:'Artifact rate'},
+      {label:'RR%',         key:'repro_rate',     type:'num', tip:'Reproducibility rate'},
+      {label:'AvR%',        key:'functional_rate',type:'num', tip:'Available/Functional rate'}
     ];
     for (var j = 0; j < yearCols.length; j++) {
       cols.push({label: '' + yearCols[j], key: '_y' + yearCols[j], type: 'num'});
     }
-    for (var k = 0; k < all.length; k++) {
+    for (var k = 0; k < confAuthors.length; k++) {
       for (var yj = 0; yj < yearCols.length; yj++) {
-        all[k]['_y' + yearCols[yj]] = (all[k].years || {})[yearCols[yj]] || 0;
+        confAuthors[k]['_y' + yearCols[yj]] = (confAuthors[k].years || {})[yearCols[yj]] || 0;
       }
     }
 
-    var tbl = new PaginatedTable({
+    if (confAuthors.length === 0) {
+      document.getElementById('authorLoading').textContent = 'No author data for this conference.';
+      return;
+    }
+    new Top10Table({
       headId: 'authorHead', bodyId: 'authorBody',
-      pageInfoId: 'authorPageInfo', totalId: 'authorTotal',
-      prevId: 'authorPrev', nextId: 'authorNext',
       controlsId: 'author-controls', legendId: 'author-legend',
       loadingId: 'authorLoading', tableId: 'authorTable',
-      bottomId: 'author-controls-bottom', searchId: 'authorSearch',
+      toggleDivId: 'author-toggle', toggleBtnId: 'authorToggleBtn',
+      totalId: 'authorTotal', searchId: 'authorSearch',
       cols: cols, sortCol: 3, sortAsc: false,
       renderRow: function(d, idx) {
         var url = BASE + '/author.html?name=' + encodeURIComponent(d.name);
         var cells = '<td>' + (idx + 1) + '</td>';
         cells += '<td><a href="' + url + '">' + esc(d._display) + '</a></td>';
-        cells += '<td>' + esc(d.affiliation) + '</td>';
+        cells += '<td class="wrap-cell">' + esc(d.affiliation) + '</td>';
         cells += '<td><strong>' + d.artifact_score + '</strong></td>';
         cells += '<td>' + d.artifacts + '</td>';
         cells += '<td>' + (d.total_papers || '') + '</td>';
@@ -470,52 +458,100 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         return cells;
       }
-    });
-    if (all.length === 0) {
-      document.getElementById('authorLoading').textContent = 'No author data for this conference.';
-      return;
-    }
-    tbl.init(all);
+    }).init(confAuthors);
   }
 
-  /* ── INSTITUTIONS — filtered from institution_rankings.json ────────── */
-  function initInstitutions(rawData) {
-    var filtered = rawData.filter(function(d) { return (d.conferences||[]).indexOf(CONF) >= 0; });
-    var tbl = new PaginatedTable({
-      headId: 'instHead', bodyId: 'instBody',
-      pageInfoId: 'instPageInfo', totalId: 'instTotal',
-      prevId: 'instPrev', nextId: 'instNext',
-      controlsId: 'inst-controls', legendId: 'inst-legend',
-      loadingId: 'instLoading', tableId: 'instTable',
-      bottomId: 'inst-controls-bottom', searchId: 'instSearch',
-      cols: [
-        {label:'#',           key:'_rank',          type:'num'},
-        {label:'S',           key:'combined_score',  type:'num', tip:'Combined score'},
-        {label:'Institution', key:'affiliation',     type:'alpha'},
-        {label:'R',           key:'num_authors',     type:'num', tip:'Researchers'},
-        {label:'Ar',          key:'artifacts',       type:'num', tip:'Artifacts'},
-        {label:'P',           key:'total_papers',    type:'num', tip:'Papers'},
-        {label:'AE',          key:'ae_memberships',  type:'num', tip:'AE memberships'},
-        {label:'Ch',          key:'chair_count',     type:'num', tip:'Times chaired'}
-      ],
-      sortCol: 1, sortAsc: false,
-      renderRow: function(d, idx) {
-        var url = BASE + '/institution.html?name=' + encodeURIComponent(d.affiliation);
-        return '<td>' + (idx + 1) + '</td>' +
-          '<td><strong>' + (d.combined_score||0) + '</strong></td>' +
-          '<td><a href="' + url + '">' + esc(d.affiliation) + '</a></td>' +
-          '<td>' + (d.num_authors||'') + '</td>' +
-          '<td>' + (d.artifacts||'') + '</td>' +
-          '<td>' + (d.total_papers||'') + '</td>' +
-          '<td>' + (d.ae_memberships||'') + '</td>' +
-          '<td>' + (d.chair_count > 0 ? d.chair_count + ' \u2605' : '') + '</td>';
+  /* ── INSTITUTIONS — aggregated from per-conference author data ─────── */
+  function initInstitutions(aeData) {
+    /* Aggregate author data by affiliation for THIS conference */
+    var instMap = {};
+    for (var i = 0; i < confAuthors.length; i++) {
+      var a = confAuthors[i];
+      var aff = a.affiliation || '';
+      if (!aff) continue;
+      if (!instMap[aff]) {
+        instMap[aff] = { affiliation: aff, artifact_score: 0, artifacts: 0,
+          total_papers: 0, num_authors: 0, ae_memberships: 0, chair_count: 0, years: {} };
       }
-    });
-    if (filtered.length === 0) {
+      var inst = instMap[aff];
+      inst.artifact_score += a.artifact_score;
+      inst.artifacts += a.artifacts;
+      inst.total_papers += a.total_papers;
+      inst.num_authors++;
+      for (var y in a.years) {
+        inst.years[y] = (inst.years[y] || 0) + a.years[y];
+      }
+    }
+    /* Add AE service for this conference */
+    for (var j = 0; j < aeData.length; j++) {
+      var m = aeData[j];
+      var entries = (m.conferences||[]).filter(function(c) { return c[0] === CONF; });
+      if (entries.length === 0) continue;
+      var aff2 = m.affiliation || '';
+      if (!aff2) continue;
+      if (!instMap[aff2]) {
+        instMap[aff2] = { affiliation: aff2, artifact_score: 0, artifacts: 0,
+          total_papers: 0, num_authors: 0, ae_memberships: 0, chair_count: 0, years: {} };
+      }
+      instMap[aff2].ae_memberships += entries.length;
+      instMap[aff2].chair_count += entries.filter(function(c) { return c[2] === 'chair'; }).length;
+    }
+    var all = Object.values(instMap);
+
+    /* Determine year columns */
+    var yrs = {};
+    for (var k = 0; k < all.length; k++) {
+      for (var yr in all[k].years) yrs[yr] = true;
+    }
+    var yearCols = Object.keys(yrs).map(Number).sort(function(a,b){return b-a;});
+    for (var ki = 0; ki < all.length; ki++) {
+      for (var yj = 0; yj < yearCols.length; yj++) {
+        all[ki]['_y' + yearCols[yj]] = (all[ki].years || {})[yearCols[yj]] || 0;
+      }
+    }
+
+    var cols = [
+      {label:'#',           key:'_rank',          type:'num'},
+      {label:'Institution', key:'affiliation',    type:'alpha'},
+      {label:'S',           key:'artifact_score', type:'num', tip:'Conference-specific artifact score'},
+      {label:'R',           key:'num_authors',    type:'num', tip:'Researchers'},
+      {label:'Ar',          key:'artifacts',      type:'num', tip:'Artifacts'},
+      {label:'P',           key:'total_papers',   type:'num', tip:'Papers'},
+      {label:'AE',          key:'ae_memberships', type:'num', tip:'AE memberships'},
+      {label:'Ch',          key:'chair_count',    type:'num', tip:'Times chaired'}
+    ];
+    for (var jc = 0; jc < yearCols.length; jc++) {
+      cols.push({label: '' + yearCols[jc], key: '_y' + yearCols[jc], type: 'num'});
+    }
+
+    if (all.length === 0) {
       document.getElementById('instLoading').textContent = 'No institution data for this conference.';
       return;
     }
-    tbl.init(filtered);
+    new Top10Table({
+      headId: 'instHead', bodyId: 'instBody',
+      controlsId: 'inst-controls', legendId: 'inst-legend',
+      loadingId: 'instLoading', tableId: 'instTable',
+      toggleDivId: 'inst-toggle', toggleBtnId: 'instToggleBtn',
+      totalId: 'instTotal', searchId: 'instSearch',
+      cols: cols, sortCol: 2, sortAsc: false,
+      renderRow: function(d, idx) {
+        var url = BASE + '/institution.html?name=' + encodeURIComponent(d.affiliation);
+        var cells = '<td>' + (idx + 1) + '</td>';
+        cells += '<td class="wrap-cell"><a href="' + url + '">' + esc(d.affiliation) + '</a></td>';
+        cells += '<td><strong>' + (d.artifact_score||0) + '</strong></td>';
+        cells += '<td>' + (d.num_authors||'') + '</td>';
+        cells += '<td>' + (d.artifacts||'') + '</td>';
+        cells += '<td>' + (d.total_papers||'') + '</td>';
+        cells += '<td>' + (d.ae_memberships||'') + '</td>';
+        cells += '<td>' + (d.chair_count > 0 ? d.chair_count + ' \u2605' : '') + '</td>';
+        for (var j = 0; j < yearCols.length; j++) {
+          var cnt = d['_y' + yearCols[j]] || 0;
+          cells += '<td>' + (cnt > 0 ? cnt : '') + '</td>';
+        }
+        return cells;
+      }
+    }).init(all);
   }
 
   /* ── AE COMMITTEE — filtered from ae_members.json ──────────────────── */
@@ -536,50 +572,47 @@ document.addEventListener('DOMContentLoaded', function() {
         last_year: Math.max.apply(null, years)
       });
     }
-    var tbl = new PaginatedTable({
-      headId: 'aeHead', bodyId: 'aeBody',
-      pageInfoId: 'aePageInfo', totalId: 'aeTotal',
-      prevId: 'aePrev', nextId: 'aeNext',
-      controlsId: 'ae-controls', legendId: 'ae-legend',
-      loadingId: 'aeLoading', tableId: 'aeTable',
-      bottomId: 'ae-controls-bottom', searchId: 'aeSearch',
-      cols: [
-        {label:'#',           key:'_rank',          type:'num'},
-        {label:'Terms',       key:'terms',           type:'num', tip:'AE memberships at this conference'},
-        {label:'Member',      key:'_display',        type:'alpha'},
-        {label:'Affiliation', key:'affiliation',     type:'alpha'},
-        {label:'Ch',          key:'chairs',          type:'num', tip:'Times chaired'},
-        {label:'First',       key:'first_year',      type:'num', tip:'First year'},
-        {label:'Last',        key:'last_year',       type:'num', tip:'Last year'}
-      ],
-      sortCol: 1, sortAsc: false,
-      renderRow: function(d, idx) {
-        return '<td>' + (idx + 1) + '</td>' +
-          '<td><strong>' + d.terms + '</strong></td>' +
-          '<td>' + esc(d._display) + '</td>' +
-          '<td>' + esc(d.affiliation) + '</td>' +
-          '<td>' + (d.chairs > 0 ? d.chairs + ' \u2605' : '') + '</td>' +
-          '<td>' + d.first_year + '</td>' +
-          '<td>' + d.last_year + '</td>';
-      }
-    });
     if (filtered.length === 0) {
       document.getElementById('aeLoading').textContent = 'No AE data for this conference.';
       return;
     }
-    tbl.init(filtered);
+    new Top10Table({
+      headId: 'aeHead', bodyId: 'aeBody',
+      controlsId: 'ae-controls', legendId: 'ae-legend',
+      loadingId: 'aeLoading', tableId: 'aeTable',
+      toggleDivId: 'ae-toggle', toggleBtnId: 'aeToggleBtn',
+      totalId: 'aeTotal', searchId: 'aeSearch',
+      cols: [
+        {label:'#',           key:'_rank',          type:'num'},
+        {label:'Member',      key:'_display',       type:'alpha'},
+        {label:'Affiliation', key:'affiliation',    type:'alpha'},
+        {label:'Terms',       key:'terms',          type:'num', tip:'AE memberships at this conference'},
+        {label:'Ch',          key:'chairs',         type:'num', tip:'Times chaired'},
+        {label:'First',       key:'first_year',     type:'num', tip:'First year'},
+        {label:'Last',        key:'last_year',      type:'num', tip:'Last year'}
+      ],
+      sortCol: 3, sortAsc: false,
+      renderRow: function(d, idx) {
+        return '<td>' + (idx + 1) + '</td>' +
+          '<td>' + esc(d._display) + '</td>' +
+          '<td class="wrap-cell">' + esc(d.affiliation) + '</td>' +
+          '<td><strong>' + d.terms + '</strong></td>' +
+          '<td>' + (d.chairs > 0 ? d.chairs + ' \u2605' : '') + '</td>' +
+          '<td>' + d.first_year + '</td>' +
+          '<td>' + d.last_year + '</td>';
+      }
+    }).init(filtered);
   }
 
   /* ── Load all data in parallel ─────────────────────────────────────── */
   var dataBase = '{{ site.baseurl }}/assets/data/';
   Promise.all([
     fetch(dataBase + 'authors.json').then(function(r) { return r.json(); }),
-    fetch(dataBase + 'institution_rankings.json').then(function(r) { return r.json(); }),
     fetch(dataBase + 'ae_members.json').then(function(r) { return r.json(); })
   ]).then(function(results) {
     initAuthors(results[0]);
     initInstitutions(results[1]);
-    initAE(results[2]);
+    initAE(results[1]);
   }).catch(function(e) {
     ['authorLoading','instLoading','aeLoading'].forEach(function(id) {
       document.getElementById(id).textContent = 'Error loading data: ' + e.message;
