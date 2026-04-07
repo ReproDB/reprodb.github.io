@@ -46,18 +46,15 @@ html {
   display: none;
 }
 
-// Center #main the same way as the masthead so logo and content align
+// Make #main and masthead use full viewport width with matching padding
 #main {
-  max-width: $max-width;
-  margin: 0 auto;
+  max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-// Masthead - center like content
 .masthead__inner-wrap {
-  max-width: $max-width;
-  margin: 0 auto;
+  max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
 }
