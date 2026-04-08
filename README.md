@@ -104,7 +104,7 @@ For data issues, please report them in the [reprodb-pipeline](https://github.com
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) file for details.
+Apache License 2.0 — see [LICENSE](LICENSE) for details.
 
 ## Related Projects
 
