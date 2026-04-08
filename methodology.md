@@ -118,18 +118,22 @@ The number of times this author served as an AE chair or co-chair.
 
 A composite metric balancing artifact production, artifact quality, and AE service:
 
-$$\text{Combined Score} = \sum_{i=1}^{n} (A_i + F_i + R_i) + \sum_{j=1}^{m} (3 + B_j \times 2)$$
+```
+Combined Score = Σ (Aᵢ + Fᵢ + Rᵢ)  +  Σ (3 + Bⱼ × 2)
+                 i=1..n                 j=1..m
+                (artifacts)            (AE terms)
+```
 
 Where:
-- **First sum** (per artifact):
-  - $A_i$ = 1 point if artifact *i* is Available, 0 otherwise
-  - $F_i$ = 1 point if artifact *i* is Functional, 0 otherwise
-  - $R_i$ = 1 point if artifact *i* is Reproduced/Reusable, 0 otherwise
+- **First sum** (per artifact *i*):
+  - Aᵢ = 1 if artifact *i* is Available, 0 otherwise
+  - Fᵢ = 1 if artifact *i* is Functional, 0 otherwise
+  - Rᵢ = 1 if artifact *i* is Reproduced/Reusable, 0 otherwise
   - **Maximum per artifact: 3 points** (all three badges)
 
 - **Second sum** (committee service, per AE term *j*):
   - Each committee membership contributes **3 points**
-  - $B_j$ = 1 if term *j* is a chair role, 0 otherwise — chairs receive a **+2 bonus** for a total of **5 points** per chair term
+  - Bⱼ = 1 if term *j* is a chair role, 0 otherwise — chairs receive a **+2 bonus** for a total of **5 points** per chair term
 
 **Minimum Score Threshold:** Only individuals and institutions with combined score ≥ 3 are included in rankings.
 
@@ -168,13 +172,6 @@ For institution rankings broken down by area (systems vs. security):
 - **Systems rankings**: Include only artifacts, papers, and AE service from systems conferences
 - **Security rankings**: Include only artifacts, papers, and AE service from security conferences
 - **Overall rankings**: Sum of systems + security contributions
-
-When an author appears in both areas, their contributions are **summed** in the overall rankings. For example, if an author has 5 systems artifacts and 3 security artifacts, the institution's overall count includes all 8.
-
-This ensures:
-- Overall institution scores ≥ systems-only scores
-- Overall institution scores ≥ security-only scores
-- No double-counting (each artifact/paper counted exactly once)
 
 ---
 
