@@ -1610,6 +1610,34 @@
     }
   },
   {
+    "affiliation": "TU Delft",
+    "combined_score": 10,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifacts": 2,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_rate": 50.0,
+    "num_authors": 3,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 0,
+      "2023": 0,
+      "2022": 2,
+      "2021": 0
+    }
+  },
+  {
     "affiliation": "Akamai Technologies",
     "combined_score": 9,
     "artifact_score": 0,
@@ -2042,6 +2070,34 @@
     }
   },
   {
+    "affiliation": "INESC-ID & IST U. Lisboa",
+    "combined_score": 8,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.67,
+    "role": "Balanced",
+    "artifacts": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 0,
+      "2023": 1,
+      "2022": 1,
+      "2021": 0
+    }
+  },
+  {
     "affiliation": "Telefonica Research Spain",
     "combined_score": 8,
     "artifact_score": 0,
@@ -2200,34 +2256,6 @@
       "2023": 0,
       "2022": 2,
       "2021": 1
-    }
-  },
-  {
-    "affiliation": "TU Delft",
-    "combined_score": 7,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.17,
-    "role": "Consumer",
-    "artifacts": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 33.3,
-    "num_authors": 2,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0
     }
   },
   {
@@ -2855,6 +2883,34 @@
       "2022": 0,
       "2021": 0,
       "2026": 1
+    }
+  },
+  {
+    "affiliation": "INESC-ID and Instituto Superior Técnico",
+    "combined_score": 6,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 2,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 1,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0
     }
   },
   {
@@ -5457,30 +5513,6 @@
     }
   },
   {
-    "affiliation": "INESC-ID and Instituto Superior Técnico",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2024": 1
-    }
-  },
-  {
     "affiliation": "Duke University",
     "combined_score": 3,
     "artifact_score": 0,
@@ -5814,30 +5846,6 @@
     ],
     "years": {
       "2023": 1
-    }
-  },
-  {
-    "affiliation": "INESC-ID & IST U. Lisboa",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2022": 1
     }
   },
   {

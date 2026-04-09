@@ -1313,6 +1313,32 @@
     }
   },
   {
+    "affiliation": "Technical University of Munich",
+    "combined_score": 12,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_rate": 100.0,
+    "num_authors": 4,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 3,
+      "2023": 1,
+      "2022": 0
+    }
+  },
+  {
     "affiliation": "University of Texas at Arlington",
     "combined_score": 12,
     "artifact_score": 12,
@@ -1704,32 +1730,6 @@
   },
   {
     "affiliation": "Sungkyunkwan University",
-    "combined_score": 9,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 100.0,
-    "num_authors": 3,
-    "conferences": [
-      "ATC"
-    ],
-    "years": {
-      "2024": 3,
-      "2023": 0,
-      "2022": 0
-    }
-  },
-  {
-    "affiliation": "Technical University of Munich",
     "combined_score": 9,
     "artifact_score": 9,
     "artifact_citations": 0,
@@ -2437,32 +2437,6 @@
     "years": {
       "2024": 1,
       "2023": 0,
-      "2022": 1
-    }
-  },
-  {
-    "affiliation": "TU Darmstadt",
-    "combined_score": 6,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "conferences": [
-      "ATC"
-    ],
-    "years": {
-      "2024": 0,
-      "2023": 1,
       "2022": 1
     }
   },
@@ -4215,6 +4189,30 @@
   },
   {
     "affiliation": "University of Manchester",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2022": 1
+    }
+  },
+  {
+    "affiliation": "TU Darmstadt",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,

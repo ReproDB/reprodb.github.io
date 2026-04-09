@@ -75,7 +75,7 @@
     "chair_count": 0,
     "total_papers": 16,
     "artifact_rate": 68.8,
-    "num_authors": 8,
+    "num_authors": 7,
     "conferences": [
       "PETS"
     ],
@@ -151,20 +151,20 @@
   },
   {
     "affiliation": "Karlsruhe Institute of Technology",
-    "combined_score": 27,
-    "artifact_score": 3,
+    "combined_score": 28,
+    "artifact_score": 4,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 24,
-    "ae_ratio": 0.12,
+    "ae_ratio": 0.17,
     "role": "Consumer",
-    "artifacts": 1,
+    "artifacts": 2,
     "badges_functional": 1,
     "badges_reproducible": 1,
     "ae_memberships": 8,
     "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
+    "total_papers": 3,
+    "artifact_rate": 66.7,
     "num_authors": 3,
     "conferences": [
       "PETS"
@@ -561,6 +561,36 @@
     }
   },
   {
+    "affiliation": "Brave",
+    "combined_score": 16,
+    "artifact_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 0.07,
+    "role": "Consumer",
+    "artifacts": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 1,
+      "2023": 1,
+      "2022": 1,
+      "2021": 1,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "TU Braunschweig",
     "combined_score": 16,
     "artifact_score": 7,
@@ -648,34 +678,6 @@
       "2022": 1,
       "2021": 0,
       "2020": 0
-    }
-  },
-  {
-    "affiliation": "Brave",
-    "combined_score": 15,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2020": 1,
-      "2021": 1,
-      "2022": 1,
-      "2024": 1,
-      "2025": 1
     }
   },
   {
@@ -919,6 +921,36 @@
     }
   },
   {
+    "affiliation": "Karlsruhe Inst. of Technology",
+    "combined_score": 12,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifacts": 4,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_rate": 44.4,
+    "num_authors": 2,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 2,
+      "2023": 1,
+      "2022": 0,
+      "2021": 1,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "Meta",
     "combined_score": 12,
     "artifact_score": 0,
@@ -1063,36 +1095,6 @@
       "2022": 1,
       "2021": 1,
       "2020": 0
-    }
-  },
-  {
-    "affiliation": "Karlsruhe Inst. of Technology",
-    "combined_score": 11,
-    "artifact_score": 5,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.83,
-    "role": "Balanced",
-    "artifacts": 3,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 9,
-    "artifact_rate": 33.3,
-    "num_authors": 2,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 1,
-      "2024": 1,
-      "2023": 1,
-      "2022": 0,
-      "2021": 1,
-      "2020": 1
     }
   },
   {
@@ -2418,7 +2420,7 @@
     }
   },
   {
-    "affiliation": "University du Québec à Montréal",
+    "affiliation": "Université du Québec à Montréal",
     "combined_score": 4,
     "artifact_score": 4,
     "artifact_citations": 0,
@@ -2748,7 +2750,7 @@
     }
   },
   {
-    "affiliation": "Catholic University of Leuven",
+    "affiliation": "KU Leuven",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

@@ -1,15 +1,15 @@
 overall:
   github_repos: 1272
-  total_stars: 124905
+  total_stars: 124910
   total_forks: 15991
   max_stars: 14344
   max_forks: 1855
-  zenodo_repos: 851
-  total_views: 198471
-  total_downloads: 183076
+  zenodo_repos: 843
+  total_views: 203900
+  total_downloads: 118093
   avg_stars: 98.2
   avg_forks: 12.6
-  last_updated: 2026-04-09 13:43:54 UTC
+  last_updated: 2026-04-09 17:27:11 UTC
 by_conference:
 - name: ACSAC
   github_repos: 158
@@ -412,11 +412,11 @@ by_conference:
     pushed_at: '2023-12-09T16:26:31Z'
 - name: PETS
   github_repos: 294
-  total_stars: 21903
+  total_stars: 21904
   total_forks: 2071
   avg_stars: 74.5
   avg_forks: 7.0
-  max_stars: 12838
+  max_stars: 12839
   max_forks: 640
   years:
   - year: 2020
@@ -427,9 +427,9 @@ by_conference:
     avg_forks: 30.9
   - year: 2021
     github_repos: 21
-    stars: 13088
+    stars: 13089
     forks: 723
-    avg_stars: 623.2
+    avg_stars: 623.3
     avg_forks: 34.4
   - year: 2022
     github_repos: 34
@@ -468,7 +468,7 @@ by_conference:
     conference: PETS
     year: 2021
     area: security
-    stars: 12838
+    stars: 12839
     forks: 640
     description: "Build your own 'AirTags' \U0001F3F7 today! Framework for tracking\
       \ personal Bluetooth devices via Apple's massive Find My network."
@@ -521,7 +521,7 @@ by_conference:
     pushed_at: '2026-04-08T23:27:37Z'
 - name: SOSP
   github_repos: 86
-  total_stars: 5252
+  total_stars: 5253
   total_forks: 892
   avg_stars: 61.1
   avg_forks: 10.4
@@ -530,9 +530,9 @@ by_conference:
   years:
   - year: 2021
     github_repos: 34
-    stars: 2245
+    stars: 2246
     forks: 389
-    avg_stars: 66.0
+    avg_stars: 66.1
     avg_forks: 11.4
   - year: 2023
     github_repos: 28
@@ -689,7 +689,7 @@ by_conference:
     pushed_at: '2025-06-17T15:55:24Z'
 - name: USENIXSEC
   github_repos: 379
-  total_stars: 18076
+  total_stars: 18078
   total_forks: 2814
   avg_stars: 47.7
   avg_forks: 7.4
@@ -710,7 +710,7 @@ by_conference:
     avg_forks: 11.2
   - year: 2022
     github_repos: 88
-    stars: 5083
+    stars: 5084
     forks: 733
     avg_stars: 57.8
     avg_forks: 8.3
@@ -722,7 +722,7 @@ by_conference:
     avg_forks: 7.1
   - year: 2024
     github_repos: 125
-    stars: 2659
+    stars: 2660
     forks: 349
     avg_stars: 21.3
     avg_forks: 2.8
@@ -793,18 +793,18 @@ by_conference:
     pushed_at: '2026-04-06T23:36:01Z'
 - name: WOOT
   github_repos: 23
-  total_stars: 13569
+  total_stars: 13570
   total_forks: 1145
   avg_stars: 590.0
   avg_forks: 49.8
-  max_stars: 12339
+  max_stars: 12340
   max_forks: 993
   years:
   - year: 2019
     github_repos: 4
-    stars: 12716
+    stars: 12717
     forks: 1044
-    avg_stars: 3179.0
+    avg_stars: 3179.2
     avg_forks: 261.0
   - year: 2021
     github_repos: 1
@@ -842,7 +842,7 @@ by_conference:
     conference: WOOT
     year: 2019
     area: security
-    stars: 12339
+    stars: 12340
     forks: 993
     description: 'Universal Radio Hacker: Investigate Wireless Protocols Like A Boss'
     language: Python
@@ -913,11 +913,11 @@ by_year:
   max_forks: 160
 - year: 2019
   github_repos: 19
-  total_stars: 13210
+  total_stars: 13211
   total_forks: 1168
   avg_stars: 695.3
   avg_forks: 61.5
-  max_stars: 12339
+  max_stars: 12340
   max_forks: 993
 - year: 2020
   github_repos: 91
@@ -929,15 +929,15 @@ by_year:
   max_forks: 1855
 - year: 2021
   github_repos: 136
-  total_stars: 19425
+  total_stars: 19427
   total_forks: 1750
   avg_stars: 142.8
   avg_forks: 12.9
-  max_stars: 12838
+  max_stars: 12839
   max_forks: 640
 - year: 2022
   github_repos: 258
-  total_stars: 34338
+  total_stars: 34339
   total_forks: 4776
   avg_stars: 133.1
   avg_forks: 18.5
@@ -953,7 +953,7 @@ by_year:
   max_forks: 268
 - year: 2024
   github_repos: 316
-  total_stars: 8084
+  total_stars: 8085
   total_forks: 1104
   avg_stars: 25.6
   avg_forks: 3.5

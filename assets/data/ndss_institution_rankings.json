@@ -27,28 +27,28 @@
   },
   {
     "affiliation": "KU Leuven",
-    "combined_score": 48,
-    "artifact_score": 12,
+    "combined_score": 54,
+    "artifact_score": 18,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 36,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
+    "ae_ratio": 0.5,
+    "role": "Balanced",
+    "artifacts": 6,
+    "badges_functional": 6,
+    "badges_reproducible": 6,
     "ae_memberships": 12,
     "chair_count": 0,
-    "total_papers": 4,
+    "total_papers": 6,
     "artifact_rate": 100.0,
-    "num_authors": 12,
+    "num_authors": 13,
     "conferences": [
       "NDSS"
     ],
     "years": {
       "2026": 7,
-      "2025": 6,
-      "2024": 3
+      "2025": 7,
+      "2024": 4
     }
   },
   {
@@ -1236,32 +1236,6 @@
       "2026": 0,
       "2025": 2,
       "2024": 0
-    }
-  },
-  {
-    "affiliation": "Catholic University of Leuven",
-    "combined_score": 6,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 1,
-      "2024": 1
     }
   },
   {
@@ -3113,6 +3087,32 @@
   },
   {
     "affiliation": "Kyoto University",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 1
+    }
+  },
+  {
+    "affiliation": "Max Planck Society",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

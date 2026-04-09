@@ -1,5 +1,34 @@
 [
   {
+    "affiliation": "Graz University of Technology",
+    "combined_score": 35,
+    "artifact_score": 11,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 24,
+    "ae_ratio": 0.46,
+    "role": "Consumer",
+    "artifacts": 11,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 8,
+    "chair_count": 0,
+    "total_papers": 30,
+    "artifact_rate": 36.7,
+    "num_authors": 6,
+    "conferences": [
+      "CHES"
+    ],
+    "years": {
+      "2025": 2,
+      "2024": 6,
+      "2023": 4,
+      "2022": 3,
+      "2021": 0,
+      "2026": 2
+    }
+  },
+  {
     "affiliation": "Max Planck Institute for Security and Privacy",
     "combined_score": 31,
     "artifact_score": 10,
@@ -29,32 +58,32 @@
     }
   },
   {
-    "affiliation": "Graz University of Technology",
-    "combined_score": 29,
-    "artifact_score": 11,
+    "affiliation": "Ruhr University Bochum",
+    "combined_score": 30,
+    "artifact_score": 13,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 0.61,
+    "ae_score": 17,
+    "ae_ratio": 0.76,
     "role": "Balanced",
-    "artifacts": 11,
+    "artifacts": 13,
     "badges_functional": 0,
     "badges_reproducible": 0,
-    "ae_memberships": 6,
-    "chair_count": 0,
-    "total_papers": 30,
-    "artifact_rate": 36.7,
-    "num_authors": 6,
+    "ae_memberships": 5,
+    "chair_count": 1,
+    "total_papers": 35,
+    "artifact_rate": 37.1,
+    "num_authors": 5,
     "conferences": [
       "CHES"
     ],
     "years": {
       "2025": 2,
-      "2024": 6,
-      "2023": 4,
+      "2024": 8,
+      "2023": 2,
       "2022": 2,
-      "2021": 0,
-      "2026": 2
+      "2021": 1,
+      "2026": 1
     }
   },
   {
@@ -141,35 +170,6 @@
       "2022": 2,
       "2021": 0,
       "2026": 2
-    }
-  },
-  {
-    "affiliation": "Ruhr University Bochum",
-    "combined_score": 27,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 17,
-    "ae_ratio": 0.59,
-    "role": "Balanced",
-    "artifacts": 10,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 5,
-    "chair_count": 1,
-    "total_papers": 26,
-    "artifact_rate": 38.5,
-    "num_authors": 5,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2023": 2,
-      "2024": 8,
-      "2025": 2,
-      "2022": 1,
-      "2021": 1,
-      "2026": 1
     }
   },
   {
@@ -260,28 +260,30 @@
   },
   {
     "affiliation": "Fraunhofer SIT",
-    "combined_score": 12,
-    "artifact_score": 0,
+    "combined_score": 14,
+    "artifact_score": 2,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 12,
-    "ae_ratio": 0.0,
+    "ae_ratio": 0.17,
     "role": "Consumer",
-    "artifacts": 0,
+    "artifacts": 2,
     "badges_functional": 0,
     "badges_reproducible": 0,
     "ae_memberships": 4,
     "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
+    "total_papers": 2,
+    "artifact_rate": 100.0,
     "num_authors": 3,
     "conferences": [
       "CHES"
     ],
     "years": {
-      "2022": 1,
+      "2022": 2,
       "2023": 2,
-      "2024": 1
+      "2025": 0,
+      "2024": 1,
+      "2021": 1
     }
   },
   {
@@ -367,34 +369,6 @@
       "2023": 1,
       "2022": 5,
       "2021": 0
-    }
-  },
-  {
-    "affiliation": "Université Catholique de Louvain",
-    "combined_score": 10,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.67,
-    "role": "Balanced",
-    "artifacts": 4,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 19,
-    "artifact_rate": 21.1,
-    "num_authors": 2,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2022": 1,
-      "2024": 2,
-      "2025": 0,
-      "2023": 2,
-      "2021": 1
     }
   },
   {
@@ -712,6 +686,34 @@
     }
   },
   {
+    "affiliation": "Université Catholique de Louvain",
+    "combined_score": 4,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 4,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 19,
+    "artifact_rate": 21.1,
+    "num_authors": 1,
+    "conferences": [
+      "CHES"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 1,
+      "2023": 2,
+      "2022": 0,
+      "2021": 1
+    }
+  },
+  {
     "affiliation": "J.P. Morgan",
     "combined_score": 4,
     "artifact_score": 1,
@@ -824,6 +826,34 @@
     }
   },
   {
+    "affiliation": "Universitat Rovira i Virgili",
+    "combined_score": 4,
+    "artifact_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.33,
+    "role": "Consumer",
+    "artifacts": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "CHES"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 1,
+      "2023": 0,
+      "2022": 1,
+      "2021": 0
+    }
+  },
+  {
     "affiliation": "Catholic University of Louvain",
     "combined_score": 4,
     "artifact_score": 1,
@@ -908,7 +938,7 @@
     }
   },
   {
-    "affiliation": "Research Centre Inria Sophia Antipolis - Mditerrane: Valbonne",
+    "affiliation": "Research Centre Inria Sophia Antipolis - Méditerranée: Valbonne",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,
@@ -1369,30 +1399,6 @@
     ],
     "years": {
       "2022": 1
-    }
-  },
-  {
-    "affiliation": "Universitat Rovira i Virgili",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2024": 1
     }
   },
   {

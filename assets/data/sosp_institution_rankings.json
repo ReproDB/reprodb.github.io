@@ -82,26 +82,26 @@
   },
   {
     "affiliation": "EPFL",
-    "combined_score": 47,
-    "artifact_score": 34,
+    "combined_score": 44,
+    "artifact_score": 31,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 13,
-    "ae_ratio": 2.62,
+    "ae_ratio": 2.38,
     "role": "Producer",
-    "artifacts": 12,
-    "badges_functional": 12,
-    "badges_reproducible": 10,
+    "artifacts": 11,
+    "badges_functional": 11,
+    "badges_reproducible": 9,
     "ae_memberships": 3,
     "chair_count": 2,
-    "total_papers": 13,
-    "artifact_rate": 92.3,
-    "num_authors": 10,
+    "total_papers": 12,
+    "artifact_rate": 91.7,
+    "num_authors": 9,
     "conferences": [
       "SOSP"
     ],
     "years": {
-      "2024": 8,
+      "2024": 7,
       "2023": 3,
       "2022": 0,
       "2021": 2,
@@ -1260,6 +1260,33 @@
       "2023": 1,
       "2022": 0,
       "2021": 1
+    }
+  },
+  {
+    "affiliation": "University of British Columbia",
+    "combined_score": 9,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 3,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_rate": 60.0,
+    "num_authors": 2,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2024": 2,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0
     }
   },
   {
@@ -2842,33 +2869,6 @@
     "years": {
       "2024": 0,
       "2023": 1,
-      "2022": 0,
-      "2021": 0
-    }
-  },
-  {
-    "affiliation": "University of British Columbia",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 33.3,
-    "num_authors": 1,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2024": 1,
-      "2023": 0,
       "2022": 0,
       "2021": 0
     }
