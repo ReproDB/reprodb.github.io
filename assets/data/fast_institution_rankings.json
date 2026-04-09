@@ -150,6 +150,30 @@
     }
   },
   {
+    "affiliation": "Samsung",
+    "combined_score": 12,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 4,
+    "conferences": [
+      "FAST"
+    ],
+    "years": {
+      "2025": 4
+    }
+  },
+  {
     "affiliation": "Virginia Tech",
     "combined_score": 10,
     "artifact_score": 0,
@@ -222,30 +246,6 @@
     "years": {
       "2024": 2,
       "2025": 1
-    }
-  },
-  {
-    "affiliation": "Samsung",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 3,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2025": 3
     }
   },
   {
@@ -448,7 +448,7 @@
     }
   },
   {
-    "affiliation": "The University of Texas at Arlington",
+    "affiliation": "University of Texas at Arlington",
     "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -571,7 +571,7 @@
     }
   },
   {
-    "affiliation": "The University of Chicago",
+    "affiliation": "University of Chicago",
     "combined_score": 5,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -644,7 +644,7 @@
     }
   },
   {
-    "affiliation": "Ohio State University",
+    "affiliation": "The Ohio State University",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,
@@ -1251,7 +1251,7 @@
     }
   },
   {
-    "affiliation": "Technische Universität Ilmenau",
+    "affiliation": "TU Darmstadt",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -1419,30 +1419,6 @@
     }
   },
   {
-    "affiliation": "Samsung Semiconductor",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifacts": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_rate": 0,
-    "num_authors": 1,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2025": 1
-    }
-  },
-  {
     "affiliation": "Stanford University",
     "combined_score": 3,
     "artifact_score": 0,
@@ -1539,7 +1515,7 @@
     }
   },
   {
-    "affiliation": "Alibaba Group",
+    "affiliation": "Alibaba",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,

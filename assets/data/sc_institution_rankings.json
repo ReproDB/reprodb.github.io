@@ -1,12 +1,12 @@
 [
   {
     "affiliation": "ETH Zurich",
-    "combined_score": 43,
-    "artifact_score": 40,
+    "combined_score": 42,
+    "artifact_score": 39,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 3,
-    "ae_ratio": 13.33,
+    "ae_ratio": 13.0,
     "role": "Producer",
     "artifacts": 15,
     "badges_functional": 13,
@@ -169,8 +169,8 @@
   },
   {
     "affiliation": "Chinese Academy of Sciences",
-    "combined_score": 11,
-    "artifact_score": 11,
+    "combined_score": 10,
+    "artifact_score": 10,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 0,
@@ -289,6 +289,30 @@
   },
   {
     "affiliation": "Los Alamos National Laboratory",
+    "combined_score": 9,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 3,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_rate": 100.0,
+    "num_authors": 3,
+    "conferences": [
+      "SC"
+    ],
+    "years": {
+      "2021": 3
+    }
+  },
+  {
+    "affiliation": "Alibaba",
     "combined_score": 9,
     "artifact_score": 9,
     "artifact_citations": 0,
@@ -552,7 +576,7 @@
     }
   },
   {
-    "affiliation": "Microsoft Research",
+    "affiliation": "Microsoft",
     "combined_score": 6,
     "artifact_score": 6,
     "artifact_citations": 0,
@@ -721,30 +745,6 @@
   },
   {
     "affiliation": "IIT Bombay",
-    "combined_score": 6,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_rate": 100.0,
-    "num_authors": 2,
-    "conferences": [
-      "SC"
-    ],
-    "years": {
-      "2021": 2
-    }
-  },
-  {
-    "affiliation": "Alibaba Group",
     "combined_score": 6,
     "artifact_score": 6,
     "artifact_citations": 0,
@@ -1440,7 +1440,7 @@
     }
   },
   {
-    "affiliation": "Baidu Security",
+    "affiliation": "Baidu",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,
@@ -1609,30 +1609,6 @@
   },
   {
     "affiliation": "Wayne State University",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "conferences": [
-      "SC"
-    ],
-    "years": {
-      "2021": 1
-    }
-  },
-  {
-    "affiliation": "Alibaba Cloud",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

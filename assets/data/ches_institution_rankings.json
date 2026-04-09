@@ -58,6 +58,35 @@
     }
   },
   {
+    "affiliation": "PQShield",
+    "combined_score": 28,
+    "artifact_score": 2,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 26,
+    "ae_ratio": 0.08,
+    "role": "Consumer",
+    "artifacts": 2,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 8,
+    "chair_count": 1,
+    "total_papers": 5,
+    "artifact_rate": 40.0,
+    "num_authors": 5,
+    "conferences": [
+      "CHES"
+    ],
+    "years": {
+      "2024": 2,
+      "2025": 2,
+      "2026": 1,
+      "2023": 1,
+      "2022": 2,
+      "2021": 2
+    }
+  },
+  {
     "affiliation": "Academia Sinica",
     "combined_score": 27,
     "artifact_score": 21,
@@ -141,35 +170,6 @@
       "2022": 1,
       "2021": 1,
       "2026": 1
-    }
-  },
-  {
-    "affiliation": "PQShield",
-    "combined_score": 22,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 21,
-    "ae_ratio": 0.05,
-    "role": "Consumer",
-    "artifacts": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 7,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 25.0,
-    "num_authors": 4,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2024": 1,
-      "2025": 2,
-      "2026": 1,
-      "2023": 1,
-      "2022": 2,
-      "2021": 1
     }
   },
   {
@@ -398,7 +398,7 @@
     }
   },
   {
-    "affiliation": "Siemens AG",
+    "affiliation": "Siemens",
     "combined_score": 9,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -500,6 +500,34 @@
     }
   },
   {
+    "affiliation": "TU Darmstadt",
+    "combined_score": 8,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.67,
+    "role": "Balanced",
+    "artifacts": 5,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 35,
+    "artifact_rate": 14.3,
+    "num_authors": 2,
+    "conferences": [
+      "CHES"
+    ],
+    "years": {
+      "2025": 0,
+      "2024": 2,
+      "2023": 2,
+      "2022": 1,
+      "2021": 1
+    }
+  },
+  {
     "affiliation": "Radboud University & RheinMain University of Applied Sciences",
     "combined_score": 7,
     "artifact_score": 4,
@@ -581,34 +609,6 @@
       "2023": 2,
       "2022": 0,
       "2021": 0
-    }
-  },
-  {
-    "affiliation": "PQShield Ltd.",
-    "combined_score": 6,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 5,
-    "ae_ratio": 0.2,
-    "role": "Consumer",
-    "artifacts": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 1,
-    "total_papers": 1,
-    "artifact_rate": 100.0,
-    "num_authors": 1,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1
     }
   },
   {
@@ -709,34 +709,6 @@
     ],
     "years": {
       "2022": 1
-    }
-  },
-  {
-    "affiliation": "TU Darmstadt",
-    "combined_score": 4,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 31,
-    "artifact_rate": 12.9,
-    "num_authors": 1,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 2,
-      "2023": 1,
-      "2022": 1,
-      "2021": 0
     }
   },
   {
@@ -849,34 +821,6 @@
       "2023": 1,
       "2022": 0,
       "2021": 0
-    }
-  },
-  {
-    "affiliation": "Technische Universität Darmstadt",
-    "combined_score": 4,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifacts": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 25.0,
-    "num_authors": 1,
-    "conferences": [
-      "CHES"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 1
     }
   },
   {
@@ -1260,7 +1204,7 @@
     }
   },
   {
-    "affiliation": "Inria Paris",
+    "affiliation": "Inria",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -1620,7 +1564,7 @@
     }
   },
   {
-    "affiliation": "Indian institute of technology Kharagpur",
+    "affiliation": "Indian Institute of Technology Kharagpur",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -1740,7 +1684,7 @@
     }
   },
   {
-    "affiliation": "The University of Melbourne",
+    "affiliation": "University of Melbourne",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
