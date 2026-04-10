@@ -418,21 +418,58 @@
 
   function applySearch() {
     var lower = searchFilter.toLowerCase();
-    filteredData = allData.filter(function(inst) {
+
+    // Step 1: filter by contribution type only (no text/geo search)
+    var baseFiltered = allData.filter(function(inst) {
+      if (filterMode === 'both') {
+        return inst.combined_score > 0;
+      } else if (filterMode === 'artifacts_only') {
+        return inst.artifact_score > 0;
+      } else if (filterMode === 'ae_only') {
+        return inst.ae_score > 0;
+      }
+      return inst.combined_score > 0;
+    });
+
+    // Update score key and sort column based on filter mode
+    if (filterMode === 'both') {
+      scoreKey = 'combined_score';
+      sortCol = 2;
+    } else if (filterMode === 'artifacts_only') {
+      scoreKey = 'artifact_score';
+      sortCol = 2;
+    } else if (filterMode === 'ae_only') {
+      scoreKey = 'ae_score';
+      sortCol = 2;
+    }
+
+    // Step 2: sort the full base list and assign stable ranks (with ties)
+    var baseSorted = baseFiltered.slice();
+    var sk = scoreKey;
+    baseSorted.sort(function(a, b) {
+      var av = a[sk] || 0, bv = b[sk] || 0;
+      if (av > bv) return -1;
+      if (av < bv) return 1;
+      var an = (a.affiliation || '').toLowerCase();
+      var bn = (b.affiliation || '').toLowerCase();
+      if (an < bn) return -1;
+      if (an > bn) return 1;
+      return 0;
+    });
+    var rank = 1;
+    for (var i = 0; i < baseSorted.length; i++) {
+      var cur = baseSorted[i][sk] || 0;
+      if (i > 0 && cur < (baseSorted[i - 1][sk] || 0)) {
+        rank = i + 1;
+      }
+      baseSorted[i]._baseRank = rank;
+    }
+
+    // Step 3: apply text search and geo filters
+    filteredData = baseFiltered.filter(function(inst) {
       var aff = (inst.affiliation || '');
       var affLower = aff.toLowerCase();
       if (lower && affLower.indexOf(lower) === -1) return false;
-
-      // Apply contribution type filter
-      if (filterMode === 'both') {
-        if (!(inst.combined_score > 0)) return false;
-      } else if (filterMode === 'artifacts_only') {
-        if (!(inst.artifact_score > 0)) return false;
-      } else if (filterMode === 'ae_only') {
-        if (!(inst.ae_score > 0)) return false;
-      } else {
-        if (!(inst.combined_score > 0)) return false;
-      }
 
       if (geoFilter === 'world') return true;
 
@@ -450,18 +487,6 @@
 
       return true;
     });
-
-    // Update score key and sort column based on filter mode
-    if (filterMode === 'both') {
-      scoreKey = 'combined_score';
-      sortCol = 2;
-    } else if (filterMode === 'artifacts_only') {
-      scoreKey = 'artifact_score';
-      sortCol = 2;
-    } else if (filterMode === 'ae_only') {
-      scoreKey = 'ae_score';
-      sortCol = 2;
-    }
 
     sortData(sortCol, sortAsc);
     currentPage = 0;
@@ -740,18 +765,24 @@
   }
 
   function assignRanks() {
-    // Assign tied ranks: same score = same rank number.
-    // _showRank is true only for the first item in each tie group
-    // (unless a search/filter is active, in which case always show).
+    // When searching/filtering by geo, use the stable _baseRank from the full list.
+    // When not searching, compute tied ranks over the visible sorted data.
     var isSearching = !!(searchFilter || geoFilter !== 'world');
-    var rank = 1;
-    for (var i = 0; i < sortedData.length; i++) {
-      var cur = sortedData[i][scoreKey] || 0;
-      if (i > 0 && cur < (sortedData[i - 1][scoreKey] || 0)) {
-        rank = i + 1;
+    if (isSearching) {
+      for (var i = 0; i < sortedData.length; i++) {
+        sortedData[i]._originalRank = sortedData[i]._baseRank || (i + 1);
+        sortedData[i]._showRank = true;
       }
-      sortedData[i]._originalRank = rank;
-      sortedData[i]._showRank = isSearching || (i === 0 || cur !== (sortedData[i - 1][scoreKey] || 0));
+    } else {
+      var rank = 1;
+      for (var i = 0; i < sortedData.length; i++) {
+        var cur = sortedData[i][scoreKey] || 0;
+        if (i > 0 && cur < (sortedData[i - 1][scoreKey] || 0)) {
+          rank = i + 1;
+        }
+        sortedData[i]._originalRank = rank;
+        sortedData[i]._showRank = (i === 0 || cur !== (sortedData[i - 1][scoreKey] || 0));
+      }
     }
   }
 
