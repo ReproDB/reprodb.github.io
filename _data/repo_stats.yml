@@ -1,15 +1,15 @@
 overall:
-  github_repos: 1272
-  total_stars: 124912
-  total_forks: 15992
+  github_repos: 1280
+  total_stars: 125078
+  total_forks: 16009
   max_stars: 14344
   max_forks: 1855
-  zenodo_repos: 852
-  total_views: 205332
-  total_downloads: 182231
-  avg_stars: 98.2
-  avg_forks: 12.6
-  last_updated: 2026-04-09 19:42:38 UTC
+  zenodo_repos: 848
+  total_views: 187243
+  total_downloads: 182580
+  avg_stars: 97.7
+  avg_forks: 12.5
+  last_updated: 2026-04-09 22:38:19 UTC
 by_conference:
 - name: ACSAC
   github_repos: 158
@@ -688,11 +688,11 @@ by_conference:
     name: dnet-tee/wait-a-cycle
     pushed_at: '2025-06-17T15:55:24Z'
 - name: USENIXSEC
-  github_repos: 379
-  total_stars: 18078
-  total_forks: 2814
-  avg_stars: 47.7
-  avg_forks: 7.4
+  github_repos: 387
+  total_stars: 18244
+  total_forks: 2831
+  avg_stars: 47.1
+  avg_forks: 7.3
   max_stars: 1392
   max_forks: 269
   years:
@@ -721,10 +721,10 @@ by_conference:
     avg_stars: 39.0
     avg_forks: 7.1
   - year: 2024
-    github_repos: 125
-    stars: 2660
-    forks: 349
-    avg_stars: 21.3
+    github_repos: 133
+    stars: 2826
+    forks: 366
+    avg_stars: 21.2
     avg_forks: 2.8
   - year: 2025
     github_repos: 2
@@ -952,10 +952,10 @@ by_year:
   max_stars: 1653
   max_forks: 268
 - year: 2024
-  github_repos: 316
-  total_stars: 8084
-  total_forks: 1104
-  avg_stars: 25.6
+  github_repos: 324
+  total_stars: 8250
+  total_forks: 1121
+  avg_stars: 25.5
   avg_forks: 3.5
   max_stars: 999
   max_forks: 167

@@ -55,26 +55,26 @@
   },
   {
     "affiliation": "Tsinghua University",
-    "combined_score": 75,
-    "artifact_score": 66,
+    "combined_score": 72,
+    "artifact_score": 63,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 9,
-    "ae_ratio": 7.33,
+    "ae_ratio": 7.0,
     "role": "Producer",
-    "artifacts": 22,
-    "badges_functional": 22,
-    "badges_reproducible": 22,
+    "artifacts": 21,
+    "badges_functional": 21,
+    "badges_reproducible": 21,
     "ae_memberships": 3,
     "chair_count": 0,
-    "total_papers": 26,
-    "artifact_rate": 84.6,
-    "num_authors": 17,
+    "total_papers": 25,
+    "artifact_rate": 84.0,
+    "num_authors": 16,
     "conferences": [
       "ATC"
     ],
     "years": {
-      "2024": 8,
+      "2024": 7,
       "2023": 4,
       "2022": 10,
       "2025": 2
@@ -472,10 +472,10 @@
       "ATC"
     ],
     "years": {
+      "2022": 2,
       "2023": 1,
       "2024": 2,
-      "2025": 2,
-      "2022": 2
+      "2025": 2
     }
   },
   {
@@ -720,6 +720,33 @@
     }
   },
   {
+    "affiliation": "Xiamen University",
+    "combined_score": 18,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 5.0,
+    "role": "Producer",
+    "artifacts": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_rate": 100.0,
+    "num_authors": 4,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2024": 4,
+      "2023": 0,
+      "2022": 1,
+      "2025": 1
+    }
+  },
+  {
     "affiliation": "Institute of Software",
     "combined_score": 18,
     "artifact_score": 0,
@@ -848,33 +875,6 @@
       "2024": 2,
       "2023": 2,
       "2022": 1
-    }
-  },
-  {
-    "affiliation": "Xiamen University",
-    "combined_score": 15,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 4.0,
-    "role": "Producer",
-    "artifacts": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_rate": 100.0,
-    "num_authors": 4,
-    "conferences": [
-      "ATC"
-    ],
-    "years": {
-      "2024": 3,
-      "2023": 0,
-      "2022": 1,
-      "2025": 1
     }
   },
   {

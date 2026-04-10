@@ -1,29 +1,29 @@
-last_updated: '2026-04-08'
+last_updated: '2026-04-09'
 total_members: 3345
 total_systems: 1700
 total_security: 1643
 total_conferences: 51
-total_countries: 59
+total_countries: 58
 total_continents: 7
-total_institutions: 433
-recurring_members: 1918
-recurring_members_systems: 928
-recurring_members_security: 1065
+total_institutions: 427
+recurring_members: 1909
+recurring_members_systems: 926
+recurring_members_security: 1058
 recurring_chairs: 68
 top_countries:
 - name: United States
-  count: 1550
+  count: 1568
 - name: China
-  count: 294
+  count: 298
 - name: Germany
-  count: 154
+  count: 156
 - name: Hong Kong
   count: 135
 - name: United Kingdom
-  count: 91
-- name: Switzerland
-  count: 68
+  count: 92
 - name: Taiwan, Province of China
+  count: 69
+- name: Switzerland
   count: 68
 - name: Canada
   count: 60
@@ -32,7 +32,7 @@ top_countries:
 - name: Japan
   count: 51
 - name: Australia
-  count: 46
+  count: 49
 - name: Italy
   count: 39
 - name: Belgium
@@ -40,12 +40,12 @@ top_countries:
 - name: Netherlands
   count: 36
 - name: France
-  count: 33
+  count: 34
 top_countries_systems:
 - name: United States
-  count: 906
+  count: 915
 - name: China
-  count: 206
+  count: 210
 - name: Hong Kong
   count: 86
 - name: United Kingdom
@@ -59,7 +59,7 @@ top_countries_systems:
 - name: Spain
   count: 28
 - name: Germany
-  count: 26
+  count: 25
 - name: Canada
   count: 20
 - name: Portugal
@@ -74,17 +74,17 @@ top_countries_systems:
   count: 13
 top_countries_security:
 - name: United States
-  count: 643
+  count: 652
 - name: Germany
-  count: 128
+  count: 131
 - name: China
   count: 88
 - name: Hong Kong
   count: 49
-- name: United Kingdom
-  count: 42
 - name: Australia
-  count: 40
+  count: 43
+- name: United Kingdom
+  count: 43
 - name: Canada
   count: 40
 - name: Japan
@@ -98,33 +98,33 @@ top_countries_security:
 - name: Italy
   count: 28
 - name: Taiwan, Province of China
-  count: 25
+  count: 26
 - name: France
-  count: 20
+  count: 21
 - name: Singapore
   count: 20
 top_continents:
 - name: North America
-  count: 1610
+  count: 1628
 - name: Asia
-  count: 700
+  count: 705
 - name: Europe
-  count: 604
+  count: 605
 - name: Oceania
-  count: 47
+  count: 50
 - name: Africa
   count: 32
 - name: Unknown
-  count: 28
+  count: 27
 - name: South America
-  count: 6
+  count: 9
 top_continents_systems:
 - name: North America
-  count: 926
+  count: 935
 - name: Asia
-  count: 419
+  count: 423
 - name: Europe
-  count: 231
+  count: 230
 - name: Africa
   count: 14
 - name: Unknown
@@ -132,22 +132,22 @@ top_continents_systems:
 - name: Oceania
   count: 7
 - name: South America
-  count: 3
+  count: 5
 top_continents_security:
 - name: North America
-  count: 683
+  count: 692
 - name: Europe
-  count: 373
+  count: 375
 - name: Asia
-  count: 281
+  count: 282
 - name: Oceania
-  count: 40
-- name: Unknown
-  count: 18
+  count: 43
 - name: Africa
   count: 18
+- name: Unknown
+  count: 17
 - name: South America
-  count: 3
+  count: 4
 top_institutions:
 - name: University of Illinois Urbana-Champaign
   count: 108
@@ -166,7 +166,7 @@ top_institutions:
 - name: University of Michigan - Ann Arbor
   count: 50
 - name: National Tsinghua University
-  count: 49
+  count: 50
 - name: The Hong Kong University of Science and Technology
   count: 48
 - name: computing and imaging institute - the university of utah
@@ -183,12 +183,12 @@ top_institutions:
   count: 34
 - name: imec-distrinet, ku leuven
   count: 33
+- name: microsoft
+  count: 31
 - name: West Chester University of Pennsylvania
   count: 30
 - name: google
   count: 30
-- name: Virginia Tech
-  count: 29
 top_institutions_systems:
 - name: University of Illinois Urbana-Champaign
   count: 98
@@ -210,6 +210,8 @@ top_institutions_systems:
   count: 28
 - name: The Chinese University of Hong Kong
   count: 27
+- name: microsoft
+  count: 26
 - name: University of California, Irvine
   count: 26
 - name: Carnegie Mellon University
@@ -224,8 +226,6 @@ top_institutions_systems:
   count: 22
 - name: imperial college london
   count: 20
-- name: microsoft research
-  count: 19
 - name: Cornell University
   count: 19
 - name: epfl
@@ -243,10 +243,10 @@ top_institutions_security:
   count: 27
 - name: University of Wisconsin - Madison
   count: 26
+- name: National Tsinghua University
+  count: 25
 - name: Ruhr-Universität Bochum
   count: 25
-- name: National Tsinghua University
-  count: 24
 - name: Kurume Institute of Technology
   count: 19
 - name: google
@@ -255,6 +255,8 @@ top_institutions_security:
   count: 19
 - name: The Hong Kong University of Science and Technology
   count: 18
+- name: tu darmstadt
+  count: 17
 - name: University of California, San Diego
   count: 17
 - name: Zhejiang University
@@ -269,37 +271,35 @@ top_institutions_security:
   count: 14
 - name: computing and imaging institute - the university of utah
   count: 13
-- name: Anderson University
-  count: 13
 institution_timeline:
 - year: 2020
-  total: 52
-  systems: 29
-  security: 29
+  total: 54
+  systems: 30
+  security: 30
 - year: 2021
-  total: 141
-  systems: 117
+  total: 143
+  systems: 119
   security: 40
 - year: 2022
-  total: 146
-  systems: 90
+  total: 144
+  systems: 89
   security: 84
 - year: 2023
-  total: 138
-  systems: 81
-  security: 92
+  total: 137
+  systems: 82
+  security: 90
 - year: 2024
-  total: 191
-  systems: 104
-  security: 134
+  total: 188
+  systems: 103
+  security: 133
 - year: 2025
-  total: 233
-  systems: 118
-  security: 169
+  total: 234
+  systems: 119
+  security: 170
 - year: 2026
-  total: 203
-  systems: 71
-  security: 165
+  total: 201
+  systems: 70
+  security: 164
 committee_sizes:
 - conference: ATC
   year: 2022

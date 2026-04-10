@@ -404,33 +404,32 @@
   },
   {
     "affiliation": "Arizona State University",
-    "combined_score": 151,
+    "combined_score": 145,
     "artifact_score": 130,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 21,
-    "ae_ratio": 6.19,
+    "ae_score": 15,
+    "ae_ratio": 8.67,
     "role": "Producer",
     "artifacts": 49,
     "badges_functional": 49,
     "badges_reproducible": 37,
-    "ae_memberships": 7,
+    "ae_memberships": 5,
     "chair_count": 0,
     "total_papers": 87,
     "artifact_rate": 56.3,
-    "num_authors": 16,
+    "num_authors": 15,
     "conferences": [
       "ACSAC",
       "NDSS",
-      "PETS",
       "USENIXSEC",
       "WOOT"
     ],
     "years": {
       "2026": 1,
-      "2025": 7,
+      "2025": 6,
       "2024": 16,
-      "2023": 12,
+      "2023": 11,
       "2022": 15,
       "2021": 0,
       "2020": 0,
@@ -4436,8 +4435,8 @@
     "years": {
       "2022": 2,
       "2024": 2,
-      "2026": 2,
       "2025": 3,
+      "2026": 2,
       "2023": 0,
       "2021": 0,
       "2020": 0,
@@ -8882,8 +8881,8 @@
     ],
     "years": {
       "2020": 1,
-      "2022": 1,
-      "2021": 1
+      "2021": 1,
+      "2022": 1
     }
   },
   {
@@ -9037,9 +9036,9 @@
       "PETS"
     ],
     "years": {
+      "2024": 1,
       "2025": 1,
-      "2026": 1,
-      "2024": 1
+      "2026": 1
     }
   },
   {
@@ -9309,8 +9308,8 @@
       "CHES"
     ],
     "years": {
-      "2026": 1,
       "2025": 1,
+      "2026": 1,
       "2022": 1
     }
   },
@@ -11496,6 +11495,31 @@
     "years": {
       "2025": 1,
       "2026": 1
+    }
+  },
+  {
+    "affiliation": "Eastern Washington University",
+    "combined_score": 6,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifacts": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_rate": 0,
+    "num_authors": 1,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2023": 1,
+      "2025": 1
     }
   },
   {
