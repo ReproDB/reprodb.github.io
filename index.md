@@ -110,8 +110,13 @@ title: ""
 
   function doSearch() {
     var raw = document.getElementById('searchBox').value.trim();
+    // Parse magic keywords
     var onlyUnavail = raw.indexOf('#unavailable') !== -1;
-    var cleaned = raw.replace(/#unavailable/g, '').trim();
+    var onlyAwarded = raw.indexOf('#awarded') !== -1;
+    var onlyGithub = raw.indexOf('#github') !== -1;
+    var onlyZenodo = raw.indexOf('#zenodo') !== -1;
+    var onlyNourl = raw.indexOf('#nourl') !== -1;
+    var cleaned = raw.replace(/#(unavailable|awarded|github|zenodo|nourl)/g, '').trim();
     var query = normalizeText(cleaned);
     var yearVal = document.getElementById('yearFilter').value;
     var venueVal = document.getElementById('venueFilter').value;
@@ -128,6 +133,18 @@ title: ""
           return u && urlAccessible[u.replace(/\/+$/, '')] === false;
         });
         if (!hasUnavail) return false;
+      }
+      if (onlyAwarded && !d.award) return false;
+      if (onlyGithub) {
+        var urls = d.artifact_urls || [];
+        if (!urls.some(function(u) { return u && u.indexOf('github.com') !== -1; })) return false;
+      }
+      if (onlyZenodo) {
+        var urls2 = d.artifact_urls || [];
+        if (!urls2.some(function(u) { return u && u.indexOf('zenodo.org') !== -1; })) return false;
+      }
+      if (onlyNourl) {
+        if (d.artifact_urls && d.artifact_urls.length > 0) return false;
       }
       if (terms.length === 0) return true;
       return terms.every(function(t) { return d._search.indexOf(t) !== -1; });
