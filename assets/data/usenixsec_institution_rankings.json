@@ -181,27 +181,27 @@
   },
   {
     "affiliation": "Arizona State University",
-    "combined_score": 135,
-    "artifact_score": 129,
+    "combined_score": 132,
+    "artifact_score": 126,
     "artifact_citations": 0,
     "citation_score": 0,
     "ae_score": 6,
-    "ae_ratio": 21.5,
+    "ae_ratio": 21.0,
     "role": "Producer",
-    "artifacts": 46,
-    "badges_functional": 46,
-    "badges_reproducible": 38,
+    "artifacts": 45,
+    "badges_functional": 45,
+    "badges_reproducible": 37,
     "ae_memberships": 2,
     "chair_count": 0,
-    "total_papers": 74,
-    "artifact_rate": 62.2,
-    "num_authors": 16,
+    "total_papers": 73,
+    "artifact_rate": 61.6,
+    "num_authors": 15,
     "conferences": [
       "USENIXSEC"
     ],
     "years": {
       "2026": 0,
-      "2025": 6,
+      "2025": 5,
       "2024": 16,
       "2023": 11,
       "2022": 14,
@@ -690,6 +690,36 @@
     }
   },
   {
+    "affiliation": "Boston University",
+    "combined_score": 59,
+    "artifact_score": 59,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 26,
+    "badges_functional": 22,
+    "badges_reproducible": 15,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 35,
+    "artifact_rate": 74.3,
+    "num_authors": 9,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 11,
+      "2023": 9,
+      "2022": 3,
+      "2021": 2,
+      "2020": 1
+    }
+  },
+  {
     "affiliation": "Nanyang Technological University",
     "combined_score": 58,
     "artifact_score": 43,
@@ -870,36 +900,6 @@
     }
   },
   {
-    "affiliation": "Boston University",
-    "combined_score": 54,
-    "artifact_score": 54,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifacts": 23,
-    "badges_functional": 20,
-    "badges_reproducible": 14,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 31,
-    "artifact_rate": 74.2,
-    "num_authors": 8,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 10,
-      "2023": 8,
-      "2022": 3,
-      "2021": 1,
-      "2020": 1
-    }
-  },
-  {
     "affiliation": "New York University",
     "combined_score": 54,
     "artifact_score": 31,
@@ -960,6 +960,36 @@
     }
   },
   {
+    "affiliation": "Johns Hopkins University",
+    "combined_score": 52,
+    "artifact_score": 37,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 2.47,
+    "role": "Producer",
+    "artifacts": 19,
+    "badges_functional": 11,
+    "badges_reproducible": 10,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 24,
+    "artifact_rate": 79.2,
+    "num_authors": 8,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 9,
+      "2024": 1,
+      "2023": 5,
+      "2022": 2,
+      "2021": 0,
+      "2020": 2
+    }
+  },
+  {
     "affiliation": "University of Texas at Dallas",
     "combined_score": 52,
     "artifact_score": 37,
@@ -1017,36 +1047,6 @@
       "2022": 2,
       "2021": 1,
       "2020": 0
-    }
-  },
-  {
-    "affiliation": "Johns Hopkins University",
-    "combined_score": 49,
-    "artifact_score": 34,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 2.27,
-    "role": "Producer",
-    "artifacts": 18,
-    "badges_functional": 10,
-    "badges_reproducible": 9,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 23,
-    "artifact_rate": 78.3,
-    "num_authors": 7,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 9,
-      "2024": 1,
-      "2023": 5,
-      "2022": 1,
-      "2021": 0,
-      "2020": 2
     }
   },
   {
@@ -2130,6 +2130,36 @@
     }
   },
   {
+    "affiliation": "Indiana University Bloomington",
+    "combined_score": 28,
+    "artifact_score": 13,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 0.87,
+    "role": "Balanced",
+    "artifacts": 5,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_rate": 100.0,
+    "num_authors": 6,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 4,
+      "2024": 2,
+      "2023": 2,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
+    }
+  },
+  {
     "affiliation": "Nanjing University",
     "combined_score": 27,
     "artifact_score": 24,
@@ -2633,36 +2663,6 @@
       "2023": 1,
       "2022": 1,
       "2021": 1,
-      "2020": 0
-    }
-  },
-  {
-    "affiliation": "Indiana University Bloomington",
-    "combined_score": 22,
-    "artifact_score": 7,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.47,
-    "role": "Consumer",
-    "artifacts": 3,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_rate": 100.0,
-    "num_authors": 5,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 3,
-      "2024": 2,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
       "2020": 0
     }
   },
@@ -3859,6 +3859,36 @@
     }
   },
   {
+    "affiliation": "University of Georgia",
+    "combined_score": 15,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 4.0,
+    "role": "Producer",
+    "artifacts": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_rate": 66.7,
+    "num_authors": 5,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 3,
+      "2023": 1,
+      "2022": 1,
+      "2021": 0,
+      "2020": 0
+    }
+  },
+  {
     "affiliation": "The Hong Kong Polytechnic Univ.",
     "combined_score": 14,
     "artifact_score": 14,
@@ -4674,36 +4704,6 @@
       "2022": 1,
       "2021": 0,
       "2020": 1
-    }
-  },
-  {
-    "affiliation": "University of Georgia",
-    "combined_score": 12,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 3.0,
-    "role": "Producer",
-    "artifacts": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_rate": 60.0,
-    "num_authors": 4,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 2,
-      "2023": 1,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0
     }
   },
   {
@@ -10230,6 +10230,36 @@
       "2024": 1,
       "2023": 0,
       "2022": 0,
+      "2021": 0,
+      "2020": 0
+    }
+  },
+  {
+    "affiliation": "USC",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifacts": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_rate": 100.0,
+    "num_authors": 1,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
       "2021": 0,
       "2020": 0
     }
