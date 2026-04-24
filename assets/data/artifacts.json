@@ -13149,6 +13149,664 @@
     ]
   },
   {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "PP3D: An In-Browser Vision-Based Defense Against Web Behavior Manipulation Attacks",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/NISLabUGA/PixelPatrol3D_Code_ACSAC_Artifacts"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "No Fish Is Too Big for Flash Boys! Frontrunning on DAG-based Blockchains",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/EtherCS/DAGFrontrunning-artifact"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "ELK: Effective Lock-and-Key Technique for Temporal Memory Safety on Embedded Devices in ARMv8-M",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/cslab-pnu/ELK"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/SecAI-Lab/RAGDefender"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "CAUA: A Realistic and Effective Attack on Machine Unlearning under Limited Information",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/ballinyz/CAUA-A-Realistic-and-Effective-Attack-on-Machine-Unlearning-under-Limited-Information-artifact.git"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "R+R: IoT Device Identification Under Realistic Conditions",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/17078897"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Pathfinder: Exploring Path Diversity for Assessing Internet Censorship Inconsistency",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/e2ecensor/Pathfinder"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Understanding the Security Impact of CHERI on the Operating System Kernel",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/mars-research/cheri-impact-artifact"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Fooling Machine's Eyes: Unicode Modifier Letter Evasion Attack",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.17106797"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Analysis of Encryption Key Zeroization from System-wide Perspective",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/Tyojan/Periodic-AESKeyFinder"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Non-Bare-Metal User-Space Control-Flow Attestation",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/sulfurcfa/Sulfur.git"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Gravity of the Situation:Security Analysis on Rocket.Chat E2EE",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://www.dropbox.com/scl/fo/t6isab20x0wjwkfil541w/AHMuI40b4md1BSpj2TMvPxY?rlkey=81hjrp4yjef0j72jzz60qhtoh&st=pg9zojqg&dl=0"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "TempoNet: Learning Realistic Communication and Timing Patterns for Network Traffic Simulation",
+    "badges": [
+      "available"
+    ],
+    "artifact_urls": [
+      "https://github.com/Yuan-Zhang-uestc/DFSSO-based-OIDC"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Clouseau: A Hierarchal Multi-Agent Approach For Autonomous Attack Investigation",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://colab.research.google.com/drive/1JToaXZHblw9yIPd1T3hHQIW57QR_6so9?usp=sharing"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "False Promises of Passwordless: Defeating Windows Hello through TPM Misuses",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/HITLAB-skku/TemplateInjection-POC"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/Wayne-Bai/APILOT"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/OTABase/OTABase.git"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Siren: A Learning-Based Multi-Turn Attack Framework for Simulating Real-World Human Jailbreak Behaviors",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/YiyiyiZhao/siren"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "CarDS - Controller Area Network and Automotive Ethernet Realistic Data Set",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.48328/tudatalib-2179"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "SnoopDog: Detecting USB Bus Sniffers Using Responsive EMR",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/MobiSec-CSE-UTA/SnoopDog"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "MIZAR: Boosting Secure Three-Party Deep Learning with Co-Designed Sign-Bit Extraction and GPU Acceleration",
+    "badges": [
+      "reviewed"
+    ],
+    "artifact_urls": [
+      "https://github.com/CPS4AI/OpenMizar"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Sagitta: Facilitating Post-Fuzzing Root Cause Analysis via Data Flow Differencing",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/shina-lab/artifact_Sagitta"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/17110050"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Environmental Rate Manipulation Attacks on Power Grid Security",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/Emegua/ERM_Attack"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Octopus: Fast Homomorphic Convolution for Secure Neural Network Inference",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/yut-Octopus/Octopus.git"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Zeus-IoT: Comprehensive Code Signing to Prevent IoT Device Weaponization",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/BUseclab/ZEUS_IoT"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Enhancing Noisy Functional Encryption for Privacy-Preserving Machine Learning",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/JasZal/dyno"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Securing On-device Transformer with Hardware Binding and Reversible Obfuscation",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/sarendis56/PUF-Transformer-IP-Protection"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Fix it - If you Can! Towards Understanding the Impact of Tool Support and Domain Owners\u2019 Reactions to SSHFP Misconfigurations",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/gehaxelt/SSHFP-Notification-Study-AE"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Compact and Selective Disclosure for Verifiable Credentials",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/csdjwt/csd_jwt_artifact_evaluation"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "TrustLeech: Privileged System Analysis using Nested Virtualization",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/ma-schulze/TrustLeech"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "MoEvil: Poisoning Expert to Compromise the Safety of Mixture-of-Experts LLMs",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/jaehanwork/MoEvil"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "GET /large.file HTTP/1.1:Connection-Based TCP Amplification Attacks",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/acsac2025-tcp-amp/acsac2025_tcp_amp"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "EM-Flow: Advanced Electromagnetic Control Flow Verification for Embedded Systems",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://gitfront.io/r/c1234/ZVZ2dYSazQWt/emflow-artifact/"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "InteractionShield: Harnessing Event Relations for Interaction Threat Detection and Resolution in Smart Homes",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/InteractionShield/InteractionShield"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "VerDiff: Vulnerability Presence Verification for Comprehensive Reporting Using Constraint Programming",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/mdsakibanwar/verdiff"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Enabling Plausible Deniability in Flash-based Storage through Data Permutation",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/weidong-zhu/MUTE-ACSAC"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "In Pursuit of Lean OS Kernels: Improving Configuration-Based Debloating",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/akshithg/leanos-artifacts"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "SMORE: Practical Redzone-Based Stack Memory Error Detection Mechanism for Embedded Systems",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/cslab-pnu/SMORE"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Revisiting Prime+Prune+Probe: Pitfalls and Remedies",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/Chair-for-Security-Engineering/Revisiting-Prime-Prune-Probe"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Leaking Queries On Secure Stream Processing Systems",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/PhamHung2020/Simple-SGX-based-DSP-Engine"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Flashy Backdoor: Real-world Environment Backdoor Attack on SNNs with DVS Cameras",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/Yencr0s/Flashy_backdoor"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "PSan: Towards Hybrid Metadata Scheme for Efficient Pointer Checking",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/dlgroupuoft/PSan-ACSAC25"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Revealing the True Indicators: Understanding and Improving IoC Extraction From Threat Reports",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/EvanFr/LANCE"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Recovering Peripheral Maps and Protocols to Expedite Firmware Reverse Engineering",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/BayanTurki/ProtoReveal-main"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "The 2FA Illusion: Uncovering Weak Links of Web Account Access in the Wild",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/k3coby/kmap4auth"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization and Dynamic Dataflow Call Graph Generation",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/Eshita66/AndroByte"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "DP-Mix: Differentially Private Routing in Mix Networks",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/DPMix/DP-Mix"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "One Detector Fits All: Robust and Adaptive Detection of Malicious Packages from PyPI to Enterprises",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/SAP-samples/robust-pypi-detector"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "DeepProv: Behavioral Characterization and Repair of Neural Networks via Inference Provenance Graph Analysis",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/deepprov/DeepProv"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "FLAME: Flexible and Lightweight Biometric Authentication Scheme in Malicious Environments",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/sakurasfy/BioAuth"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Uncovering Bigger Truths: Deobfuscating PHP with Phoebe",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/ias-tubs/Phoebe"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "A Period-Adaptive Traffic Fingerprint-Based Method for Smart Home Device Identification",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/JasonHYJ/deviceIdentification"
+    ]
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "Belt and Braces! Fight against Key Compromising in Single Sign-On Systems",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": []
+  },
+  {
+    "conference": "ACSAC",
+    "category": "security",
+    "year": 2025,
+    "title": "MimicCall: Bypassing System Call Filters via Kernel Function Redundancy",
+    "badges": [
+      "reproducible"
+    ],
+    "artifact_urls": [
+      "https://github.com/koreacsl/MimicCall/tree/artifact"
+    ]
+  },
+  {
     "conference": "CHES",
     "category": "security",
     "year": 2021,

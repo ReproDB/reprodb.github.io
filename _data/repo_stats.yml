@@ -1,22 +1,22 @@
 overall:
-  github_repos: 1346
-  total_stars: 127631
-  total_forks: 16556
+  github_repos: 1402
+  total_stars: 127925
+  total_forks: 16593
   max_stars: 14348
   max_forks: 1854
-  zenodo_repos: 875
-  total_views: 225850
-  total_downloads: 194957
-  avg_stars: 94.8
-  avg_forks: 12.3
-  last_updated: 2026-04-24 17:52:22 UTC
+  zenodo_repos: 868
+  total_views: 229253
+  total_downloads: 193547
+  avg_stars: 91.2
+  avg_forks: 11.8
+  last_updated: 2026-04-24 20:10:33 UTC
 by_conference:
 - name: ACSAC
-  github_repos: 158
-  total_stars: 3011
-  total_forks: 732
-  avg_stars: 19.1
-  avg_forks: 4.6
+  github_repos: 205
+  total_stars: 3090
+  total_forks: 746
+  avg_stars: 15.1
+  avg_forks: 3.6
   max_stars: 566
   max_forks: 161
   years:
@@ -68,6 +68,12 @@ by_conference:
     forks: 11
     avg_stars: 3.5
     avg_forks: 0.4
+  - year: 2025
+    github_repos: 47
+    stars: 79
+    forks: 14
+    avg_stars: 1.7
+    avg_forks: 0.3
   top_repos:
   - title: Finding The Greedy, Prodigal, and Suicidal Contracts at Scale
     url: https://github.com/MAIAN-tool/MAIAN
@@ -311,11 +317,11 @@ by_conference:
   years: []
   top_repos: []
 - name: OSDI
-  github_repos: 139
-  total_stars: 55335
-  total_forks: 6996
-  avg_stars: 398.1
-  avg_forks: 50.3
+  github_repos: 140
+  total_stars: 55382
+  total_forks: 7002
+  avg_stars: 395.6
+  avg_forks: 50.0
   max_stars: 14348
   max_forks: 1854
   years:
@@ -344,11 +350,11 @@ by_conference:
     avg_stars: 69.8
     avg_forks: 11.0
   - year: 2024
-    github_repos: 31
-    stars: 2231
-    forks: 261
-    avg_stars: 72.0
-    avg_forks: 8.4
+    github_repos: 32
+    stars: 2278
+    forks: 267
+    avg_stars: 71.2
+    avg_forks: 8.3
   top_repos:
   - title: 'Retiarii: A Deep Learning Exploratory-Training Framework'
     url: https://github.com/microsoft/nni/tree/retiarii_artifact
@@ -699,11 +705,11 @@ by_conference:
     name: dnet-tee/wait-a-cycle
     pushed_at: '2025-06-17T15:55:24Z'
 - name: USENIXSEC
-  github_repos: 426
-  total_stars: 19112
-  total_forks: 2930
-  avg_stars: 44.9
-  avg_forks: 6.9
+  github_repos: 434
+  total_stars: 19280
+  total_forks: 2947
+  avg_stars: 44.4
+  avg_forks: 6.8
   max_stars: 1392
   max_forks: 271
   years:
@@ -732,11 +738,11 @@ by_conference:
     avg_stars: 39.1
     avg_forks: 7.1
   - year: 2024
-    github_repos: 172
-    stars: 3671
-    forks: 458
+    github_repos: 180
+    stars: 3839
+    forks: 475
     avg_stars: 21.3
-    avg_forks: 2.7
+    avg_forks: 2.6
   - year: 2025
     github_repos: 2
     stars: 4
@@ -963,19 +969,19 @@ by_year:
   max_stars: 1654
   max_forks: 268
 - year: 2024
-  github_repos: 365
-  total_stars: 9223
-  total_forks: 1230
-  avg_stars: 25.3
+  github_repos: 374
+  total_stars: 9438
+  total_forks: 1253
+  avg_stars: 25.2
   avg_forks: 3.4
   max_stars: 1000
   max_forks: 166
 - year: 2025
-  github_repos: 129
-  total_stars: 1603
-  total_forks: 255
-  avg_stars: 12.4
-  avg_forks: 2.0
+  github_repos: 176
+  total_stars: 1682
+  total_forks: 269
+  avg_stars: 9.6
+  avg_forks: 1.5
   max_stars: 682
   max_forks: 70
 - year: 2026

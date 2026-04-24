@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checked_at": "2026-04-24 17:56:01 UTC",
-    "total_urls": 2508,
-    "accessible_urls": 2415,
-    "accessibility_pct": 96.3,
+    "checked_at": "2026-04-24 20:14:18 UTC",
+    "total_urls": 2562,
+    "accessible_urls": 2459,
+    "accessibility_pct": 96.0,
     "by_platform": {
       "Bitbucket": {
         "total": 9,
@@ -11,9 +11,9 @@
         "pct": 100.0
       },
       "DOI-other": {
-        "total": 14,
-        "accessible": 13,
-        "pct": 92.9
+        "total": 15,
+        "accessible": 14,
+        "pct": 93.3
       },
       "Figshare": {
         "total": 37,
@@ -21,9 +21,9 @@
         "pct": 97.3
       },
       "GitHub": {
-        "total": 1244,
-        "accessible": 1210,
-        "pct": 97.3
+        "total": 1291,
+        "accessible": 1257,
+        "pct": 97.4
       },
       "GitLab": {
         "total": 13,
@@ -31,21 +31,21 @@
         "pct": 100.0
       },
       "Zenodo": {
-        "total": 882,
-        "accessible": 864,
-        "pct": 98.0
+        "total": 885,
+        "accessible": 858,
+        "pct": 96.9
       },
       "other": {
-        "total": 309,
-        "accessible": 270,
-        "pct": 87.4
+        "total": 312,
+        "accessible": 272,
+        "pct": 87.2
       }
     },
     "by_area": {
       "security": {
-        "total": 1983,
-        "accessible": 1913,
-        "pct": 96.5
+        "total": 2037,
+        "accessible": 1957,
+        "pct": 96.1
       },
       "systems": {
         "total": 525,
@@ -86,23 +86,23 @@
       },
       "2023": {
         "total": 358,
-        "accessible": 346,
-        "pct": 96.6
+        "accessible": 344,
+        "pct": 96.1
       },
       "2024": {
         "total": 479,
-        "accessible": 454,
-        "pct": 94.8
+        "accessible": 453,
+        "pct": 94.6
       },
       "2025": {
-        "total": 653,
-        "accessible": 641,
-        "pct": 98.2
+        "total": 707,
+        "accessible": 691,
+        "pct": 97.7
       },
       "2026": {
         "total": 308,
-        "accessible": 302,
-        "pct": 98.1
+        "accessible": 299,
+        "pct": 97.1
       }
     },
     "by_year_area": {
@@ -166,8 +166,8 @@
       "2023": {
         "security": {
           "total": 256,
-          "accessible": 248,
-          "pct": 96.9
+          "accessible": 246,
+          "pct": 96.1
         },
         "systems": {
           "total": 102,
@@ -178,8 +178,8 @@
       "2024": {
         "security": {
           "total": 341,
-          "accessible": 321,
-          "pct": 94.1
+          "accessible": 320,
+          "pct": 93.8
         },
         "systems": {
           "total": 138,
@@ -189,9 +189,9 @@
       },
       "2025": {
         "security": {
-          "total": 609,
-          "accessible": 598,
-          "pct": 98.2
+          "total": 663,
+          "accessible": 648,
+          "pct": 97.7
         },
         "systems": {
           "total": 44,
@@ -202,8 +202,8 @@
       "2026": {
         "security": {
           "total": 308,
-          "accessible": 302,
-          "pct": 98.1
+          "accessible": 299,
+          "pct": 97.1
         }
       }
     },
@@ -378,8 +378,8 @@
         },
         "Zenodo": {
           "total": 54,
-          "accessible": 53,
-          "pct": 98.1
+          "accessible": 51,
+          "pct": 94.4
         },
         "other": {
           "total": 48,
@@ -415,8 +415,8 @@
         },
         "Zenodo": {
           "total": 85,
-          "accessible": 85,
-          "pct": 100.0
+          "accessible": 84,
+          "pct": 98.8
         },
         "other": {
           "total": 63,
@@ -426,8 +426,8 @@
       },
       "2025": {
         "DOI-other": {
-          "total": 4,
-          "accessible": 4,
+          "total": 5,
+          "accessible": 5,
           "pct": 100.0
         },
         "Figshare": {
@@ -436,9 +436,9 @@
           "pct": 93.3
         },
         "GitHub": {
-          "total": 132,
-          "accessible": 131,
-          "pct": 99.2
+          "total": 179,
+          "accessible": 178,
+          "pct": 99.4
         },
         "GitLab": {
           "total": 1,
@@ -446,14 +446,14 @@
           "pct": 100.0
         },
         "Zenodo": {
-          "total": 435,
+          "total": 438,
           "accessible": 425,
-          "pct": 97.7
+          "pct": 97.0
         },
         "other": {
-          "total": 66,
-          "accessible": 66,
-          "pct": 100.0
+          "total": 69,
+          "accessible": 68,
+          "pct": 98.6
         }
       },
       "2026": {
@@ -474,8 +474,8 @@
         },
         "Zenodo": {
           "total": 246,
-          "accessible": 240,
-          "pct": 97.6
+          "accessible": 237,
+          "pct": 96.3
         },
         "other": {
           "total": 9,
@@ -486,9 +486,9 @@
     },
     "by_conference": {
       "ACSAC": {
-        "total": 233,
-        "accessible": 195,
-        "pct": 83.7
+        "total": 287,
+        "accessible": 248,
+        "pct": 86.4
       },
       "ATC": {
         "total": 135,
@@ -507,8 +507,8 @@
       },
       "NDSS": {
         "total": 209,
-        "accessible": 205,
-        "pct": 98.1
+        "accessible": 204,
+        "pct": 97.6
       },
       "OSDI": {
         "total": 173,
@@ -532,8 +532,8 @@
       },
       "USENIXSEC": {
         "total": 970,
-        "accessible": 954,
-        "pct": 98.4
+        "accessible": 946,
+        "pct": 97.5
       },
       "WOOT": {
         "total": 46,
@@ -8124,6 +8124,546 @@
       "accessible": true
     },
     {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "PP3D: An In-Browser Vision-Based Defense Against Web Behavior Manipulation Attacks",
+      "url_key": "artifact_url",
+      "url": "https://github.com/NISLabUGA/PixelPatrol3D_Code_ACSAC_Artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "No Fish Is Too Big for Flash Boys! Frontrunning on DAG-based Blockchains",
+      "url_key": "artifact_url",
+      "url": "https://github.com/EtherCS/DAGFrontrunning-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "ELK: Effective Lock-and-Key Technique for Temporal Memory Safety on Embedded Devices in ARMv8-M",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cslab-pnu/ELK",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SecAI-Lab/RAGDefender",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "CAUA: A Realistic and Effective Attack on Machine Unlearning under Limited Information",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ballinyz/CAUA-A-Realistic-and-Effective-Attack-on-Machine-Unlearning-under-Limited-Information-artifact.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "R+R: IoT Device Identification Under Realistic Conditions",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17078897",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Pathfinder: Exploring Path Diversity for Assessing Internet Censorship Inconsistency",
+      "url_key": "artifact_url",
+      "url": "https://github.com/e2ecensor/Pathfinder",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Understanding the Security Impact of CHERI on the Operating System Kernel",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mars-research/cheri-impact-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Fooling Machine's Eyes: Unicode Modifier Letter Evasion Attack",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17106797",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Analysis of Encryption Key Zeroization from System-wide Perspective",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Tyojan/Periodic-AESKeyFinder",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Non-Bare-Metal User-Space Control-Flow Attestation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sulfurcfa/Sulfur.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Gravity of the Situation:Security Analysis on Rocket.Chat E2EE",
+      "url_key": "artifact_url",
+      "url": "https://www.dropbox.com/scl/fo/t6isab20x0wjwkfil541w/AHMuI40b4md1BSpj2TMvPxY?rlkey=81hjrp4yjef0j72jzz60qhtoh&st=pg9zojqg&dl=0",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "TempoNet: Learning Realistic Communication and Timing Patterns for Network Traffic Simulation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Yuan-Zhang-uestc/DFSSO-based-OIDC",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Clouseau: A Hierarchal Multi-Agent Approach For Autonomous Attack Investigation",
+      "url_key": "artifact_url",
+      "url": "https://colab.research.google.com/drive/1JToaXZHblw9yIPd1T3hHQIW57QR_6so9?usp=sharing",
+      "platform": "other",
+      "accessible": false
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "False Promises of Passwordless: Defeating Windows Hello through TPM Misuses",
+      "url_key": "artifact_url",
+      "url": "https://github.com/HITLAB-skku/TemplateInjection-POC",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Wayne-Bai/APILOT",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "OTABase: Enhancing Over-the-Air Testing to Detect Memory Crashes in Cellular Basebands",
+      "url_key": "artifact_url",
+      "url": "https://github.com/OTABase/OTABase.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Siren: A Learning-Based Multi-Turn Attack Framework for Simulating Real-World Human Jailbreak Behaviors",
+      "url_key": "artifact_url",
+      "url": "https://github.com/YiyiyiZhao/siren",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "CarDS - Controller Area Network and Automotive Ethernet Realistic Data Set",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.48328/tudatalib-2179",
+      "platform": "DOI-other",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "SnoopDog: Detecting USB Bus Sniffers Using Responsive EMR",
+      "url_key": "artifact_url",
+      "url": "https://github.com/MobiSec-CSE-UTA/SnoopDog",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "MIZAR: Boosting Secure Three-Party Deep Learning with Co-Designed Sign-Bit Extraction and GPU Acceleration",
+      "url_key": "artifact_url",
+      "url": "https://github.com/CPS4AI/OpenMizar",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Sagitta: Facilitating Post-Fuzzing Root Cause Analysis via Data Flow Differencing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/shina-lab/artifact_Sagitta",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17110050",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Environmental Rate Manipulation Attacks on Power Grid Security",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Emegua/ERM_Attack",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Octopus: Fast Homomorphic Convolution for Secure Neural Network Inference",
+      "url_key": "artifact_url",
+      "url": "https://github.com/yut-Octopus/Octopus.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Zeus-IoT: Comprehensive Code Signing to Prevent IoT Device Weaponization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/BUseclab/ZEUS_IoT",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Enhancing Noisy Functional Encryption for Privacy-Preserving Machine Learning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/JasZal/dyno",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Securing On-device Transformer with Hardware Binding and Reversible Obfuscation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sarendis56/PUF-Transformer-IP-Protection",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Fix it - If you Can! Towards Understanding the Impact of Tool Support and Domain Owners\u2019 Reactions to SSHFP Misconfigurations",
+      "url_key": "artifact_url",
+      "url": "https://github.com/gehaxelt/SSHFP-Notification-Study-AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Compact and Selective Disclosure for Verifiable Credentials",
+      "url_key": "artifact_url",
+      "url": "https://github.com/csdjwt/csd_jwt_artifact_evaluation",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "TrustLeech: Privileged System Analysis using Nested Virtualization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ma-schulze/TrustLeech",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "MoEvil: Poisoning Expert to Compromise the Safety of Mixture-of-Experts LLMs",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jaehanwork/MoEvil",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "GET /large.file HTTP/1.1:Connection-Based TCP Amplification Attacks",
+      "url_key": "artifact_url",
+      "url": "https://github.com/acsac2025-tcp-amp/acsac2025_tcp_amp",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "EM-Flow: Advanced Electromagnetic Control Flow Verification for Embedded Systems",
+      "url_key": "artifact_url",
+      "url": "https://gitfront.io/r/c1234/ZVZ2dYSazQWt/emflow-artifact/",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "InteractionShield: Harnessing Event Relations for Interaction Threat Detection and Resolution in Smart Homes",
+      "url_key": "artifact_url",
+      "url": "https://github.com/InteractionShield/InteractionShield",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "VerDiff: Vulnerability Presence Verification for Comprehensive Reporting Using Constraint Programming",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mdsakibanwar/verdiff",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Enabling Plausible Deniability in Flash-based Storage through Data Permutation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/weidong-zhu/MUTE-ACSAC",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "In Pursuit of Lean OS Kernels: Improving Configuration-Based Debloating",
+      "url_key": "artifact_url",
+      "url": "https://github.com/akshithg/leanos-artifacts",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "SMORE: Practical Redzone-Based Stack Memory Error Detection Mechanism for Embedded Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cslab-pnu/SMORE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Revisiting Prime+Prune+Probe: Pitfalls and Remedies",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Chair-for-Security-Engineering/Revisiting-Prime-Prune-Probe",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Leaking Queries On Secure Stream Processing Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/PhamHung2020/Simple-SGX-based-DSP-Engine",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Flashy Backdoor: Real-world Environment Backdoor Attack on SNNs with DVS Cameras",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Yencr0s/Flashy_backdoor",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "PSan: Towards Hybrid Metadata Scheme for Efficient Pointer Checking",
+      "url_key": "artifact_url",
+      "url": "https://github.com/dlgroupuoft/PSan-ACSAC25",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Revealing the True Indicators: Understanding and Improving IoC Extraction From Threat Reports",
+      "url_key": "artifact_url",
+      "url": "https://github.com/EvanFr/LANCE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Recovering Peripheral Maps and Protocols to Expedite Firmware Reverse Engineering",
+      "url_key": "artifact_url",
+      "url": "https://github.com/BayanTurki/ProtoReveal-main",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "The 2FA Illusion: Uncovering Weak Links of Web Account Access in the Wild",
+      "url_key": "artifact_url",
+      "url": "https://github.com/k3coby/kmap4auth",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization and Dynamic Dataflow Call Graph Generation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Eshita66/AndroByte",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "DP-Mix: Differentially Private Routing in Mix Networks",
+      "url_key": "artifact_url",
+      "url": "https://github.com/DPMix/DP-Mix",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "One Detector Fits All: Robust and Adaptive Detection of Malicious Packages from PyPI to Enterprises",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SAP-samples/robust-pypi-detector",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "DeepProv: Behavioral Characterization and Repair of Neural Networks via Inference Provenance Graph Analysis",
+      "url_key": "artifact_url",
+      "url": "https://github.com/deepprov/DeepProv",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "FLAME: Flexible and Lightweight Biometric Authentication Scheme in Malicious Environments",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sakurasfy/BioAuth",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "Uncovering Bigger Truths: Deobfuscating PHP with Phoebe",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ias-tubs/Phoebe",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "A Period-Adaptive Traffic Fingerprint-Based Method for Smart Home Device Identification",
+      "url_key": "artifact_url",
+      "url": "https://github.com/JasonHYJ/deviceIdentification",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2025,
+      "area": "security",
+      "title": "MimicCall: Bypassing System Call Filters via Kernel Function Redundancy",
+      "url_key": "artifact_url",
+      "url": "https://github.com/koreacsl/MimicCall/tree/artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
       "conference": "CHES",
       "year": 2021,
       "area": "security",
@@ -10331,7 +10871,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14257920",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -10351,7 +10891,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14187988",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -10691,7 +11231,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17047102",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11001,7 +11541,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17531662",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11061,7 +11601,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17459636",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11501,7 +12041,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17897311",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11511,7 +12051,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17822391",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -17601,7 +18141,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/record/7707863",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -17691,7 +18231,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.7187358",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -19311,7 +19851,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/doi/10.5281/zenodo.11351913",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -20901,7 +21441,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14724513",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21771,7 +22311,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14738160",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -21921,7 +22461,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14711220",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22941,7 +23481,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15832783",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23001,7 +23541,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15609410",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23021,7 +23561,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15601518",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23071,7 +23611,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15530229",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23151,7 +23691,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15611103",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23381,7 +23921,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15571866",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23401,7 +23941,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15610829",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23671,7 +24211,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16902911",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -23701,7 +24241,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15615045",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23711,7 +24251,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15616973",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24141,7 +24681,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17898451",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24501,7 +25041,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17957266",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24521,7 +25061,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/16949365",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24781,7 +25321,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17979528",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",

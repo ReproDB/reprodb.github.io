@@ -1,6 +1,6 @@
 - category: security
   name: ACSAC
-  total_artifacts: 234
+  total_artifacts: 289
   venue_type: conference
   years:
   - available: 0
@@ -51,6 +51,12 @@
     reusable: 0
     total: 53
     year: 2024
+  - available: 13
+    functional: 0
+    reproducible: 34
+    reusable: 0
+    total: 55
+    year: 2025
 - category: systems
   name: ATC
   total_artifacts: 141
