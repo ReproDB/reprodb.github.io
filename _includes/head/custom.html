@@ -1,13 +1,19 @@
-<!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
-<link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+<!-- Favicon — default (light mode) + dark variant -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}" id="favicon">
+<link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" id="favicon-apple">
 
-<!-- Prevent FOUC: apply saved theme before any paint -->
+<!-- Prevent FOUC: apply saved theme + correct favicon before any paint -->
 <script>
 (function() {
   var t = localStorage.getItem('reprodb-theme');
   if (t === 'dark' || t === 'light') {
     document.documentElement.setAttribute('data-theme', t);
+  }
+  var isDark = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  if (isDark) {
+    var base = '{{ "/" | relative_url }}';
+    document.getElementById('favicon').href = base + 'assets/images/favicon-dark.svg';
+    document.getElementById('favicon-apple').href = base + 'assets/images/favicon-dark.svg';
   }
 })();
 </script>

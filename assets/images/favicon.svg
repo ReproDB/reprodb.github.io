@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <rect x="1" y="1" width="30" height="30" rx="6" fill="#1a2332"/>
-  <text x="3" y="27" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#e2e8f0">r</text>
-  <text x="14" y="14" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#6ea8d9">DB</text>
+  <style>
+    .bg { fill: #1a2332; }
+    .r  { fill: #e2e8f0; }
+    .db { fill: #6ea8d9; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #e2e8f0; }
+      .r  { fill: #1a2332; }
+    }
+  </style>
+  <rect class="bg" x="1" y="1" width="30" height="30" rx="6"/>
+  <text class="r" x="3" y="27" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic">r</text>
+  <text class="db" x="14" y="14" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold">DB</text>
 </svg>

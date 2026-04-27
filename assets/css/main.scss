@@ -364,6 +364,16 @@ a[href="#footer"] {
     fill: #1f2227 !important;
   }
 
+  // Static matplotlib SVG charts: invert for dark mode
+  img[src*="/assets/charts/"] {
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+
+  // Chart.js canvas defaults for dark mode
+  canvas {
+    filter: none; // keep canvas charts unfiltered
+  }
+
   // Logo: swap R and background colours; DB stays light blue
   .site-logo .logo-bg { fill: #e2e8f0 !important; }
   .site-logo .logo-r  { fill: #1a2332 !important; }

@@ -87,6 +87,13 @@
 
   function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
+    // Switch favicon for dark/light
+    var faviconFile = theme === 'dark' ? 'favicon-dark.svg' : 'favicon.svg';
+    var base = document.querySelector('link[rel="icon"]').href.replace(/favicon[^/]*\.svg$/, '');
+    var fi = document.getElementById('favicon');
+    var fa = document.getElementById('favicon-apple');
+    if (fi) fi.href = base + faviconFile;
+    if (fa) fa.href = base + faviconFile;
     // Update all toggle icons: show sun in dark mode, moon in light mode
     document.querySelectorAll('.theme-toggle__sun').forEach(function(el) {
       el.style.display = theme === 'dark' ? 'block' : 'none';
