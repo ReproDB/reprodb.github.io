@@ -11,11 +11,13 @@ This page explains how we collect, process, and analyze artifact evaluation data
 
 | | |
 |---|---|
+| **Data Schema Version** | {{ site.data.summary.schema_version }} |
 | **Total Artifacts** | {{ site.data.summary.total_artifacts }} |
 | **Conferences Tracked** | {{ site.data.summary.total_conferences }} ({{ site.data.summary.conferences_list | join: ", " }}) |
 | **Years Covered** | {{ site.data.summary.year_range }} |
 | **Total Authors** | {{ site.data.author_summary.total_authors }} |
 | **AE Committee Members** | {{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.recurring_members }} recurring) |
+| **Last Updated** | {{ site.data.summary.last_updated }} |
 
 {% endif %}
 
@@ -198,7 +200,7 @@ See the [verification scripts and detailed results](https://github.com/ReproDB/r
 - **[CSRankings](https://csrankings.org)** — Faculty affiliation data
 - **[GitHub](https://docs.github.com/en/rest)**, **[GitLab](https://docs.gitlab.com/ee/api/)** — Repository statistics (stars, forks)
 - **[Zenodo](https://developers.zenodo.org)**, **[Figshare](https://docs.figshare.com)** — Archive statistics (downloads, views)
-- **[Data Schemas](https://reprodb.github.io/data-schemas/)** — JSON Schema definitions for all data structures used by this site
+- **[Data Schemas](https://reprodb.github.io/data-schemas/)** — JSON Schema definitions for all data structures used by this site (versioned; see [all schema versions](https://reprodb.github.io/data-schemas/))
 
 ---
 
