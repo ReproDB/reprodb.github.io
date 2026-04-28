@@ -115,6 +115,8 @@ html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:0 0 18px 0;">
   <div style="position:relative; width:100%; height:280px;"><canvas id="chartCountryTrend"></canvas></div>
   <div style="position:relative; width:100%; height:280px;"><canvas id="chartContinentTrend"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartCountryAETrend"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartContinentAETrend"></canvas></div>
   <div style="position:relative; width:100%; height:280px;"><canvas id="chartCountryBar"></canvas></div>
   <div style="position:relative; width:100%; height:280px;"><canvas id="chartContinentBar"></canvas></div>
 </div>
@@ -499,7 +501,56 @@ html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d
       }
     }));
 
-    // 3) Top 15 countries: artifacts vs AE service
+    // 3) Top 8 countries AE committee service over time
+    var aeTop8 = aeCountryData.slice().sort(function(a,b){ return b.total - a.total; }).slice(0, 8);
+    var aeAllYears = {};
+    aeTop8.forEach(function(c) { for (var y in c.years) aeAllYears[y] = true; });
+    var aeYears = Object.keys(aeAllYears).map(Number).sort();
+    chartInstances.push(new Chart(document.getElementById('chartCountryAETrend'), {
+      type: 'line',
+      data: {
+        labels: aeYears,
+        datasets: aeTop8.map(function(c, i) {
+          return { label: c.name, data: aeYears.map(function(y) { return c.years[y] || 0; }),
+            borderColor: palette[i], backgroundColor: palette[i] + '22',
+            tension: 0.3, pointRadius: 3, fill: false };
+        })
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { title: { display: true, text: 'AE Committee Service Over Time \u2013 Top 8 Countries' },
+                   legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        scales: { y: { beginAtZero: true, title: { display: true, text: 'AE memberships' } },
+                  x: { title: { display: true, text: 'Year' }, ticks: { maxRotation: 45, minRotation: 45 } } }
+      }
+    }));
+
+    // 4) Continent AE committee service over time
+    var aeContYears = {};
+    aeContinentData.forEach(function(c) { for (var y in c.years) aeContYears[y] = true; });
+    var aeCYears = Object.keys(aeContYears).map(Number).sort();
+    chartInstances.push(new Chart(document.getElementById('chartContinentAETrend'), {
+      type: 'line',
+      data: {
+        labels: aeCYears,
+        datasets: aeContinentData.slice().sort(function(a,b){ return b.total - a.total; }).map(function(c, i) {
+          return { label: c.name, data: aeCYears.map(function(y) { return c.years[y] || 0; }),
+            borderColor: palette[i], backgroundColor: palette[i] + '22',
+            tension: 0.3, pointRadius: 3, fill: false };
+        })
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { title: { display: true, text: 'AE Committee Service Over Time by Continent' },
+                   legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        scales: { y: { beginAtZero: true, title: { display: true, text: 'AE memberships' } },
+                  x: { title: { display: true, text: 'Year' }, ticks: { maxRotation: 45, minRotation: 45 } } }
+      }
+    }));
+
+    // 5) Top 15 countries: artifacts vs AE service
     var top15 = countryData.slice().sort(sorter('combined')).slice(0, 15);
     chartInstances.push(new Chart(document.getElementById('chartCountryBar'), {
       type: 'bar',
@@ -519,7 +570,7 @@ html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d
       }
     }));
 
-    // 4) Continent stacked bar
+    // 6) Continent stacked bar
     var contSorted = continentData.slice().sort(sorter('combined'));
     chartInstances.push(new Chart(document.getElementById('chartContinentBar'), {
       type: 'bar',
@@ -556,18 +607,54 @@ html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d
     if (countryPage < pages - 1) { countryPage++; renderCountryPage(); }
   });
 
+  /* ── AE member geographic aggregation ─────────────────────────────── */
+  var aeCountryData = [], aeContinentData = [];
+  function aggregateAE(members) {
+    var byCountry = {};
+    members.forEach(function(m) {
+      var code = getCountryCode(m.affiliation || '');
+      if (!code) return;
+      var confs = m.conferences || [];
+      confs.forEach(function(c) {
+        var yr = c.year || c[1];
+        if (!yr) return;
+        if (!byCountry[code]) {
+          byCountry[code] = { code: code, name: codeToName[code] || code,
+            continent: codeToContinent[code] || 'Unknown', total: 0, years: {} };
+        }
+        var entry = byCountry[code];
+        entry.total++;
+        entry.years[yr] = (entry.years[yr] || 0) + 1;
+      });
+    });
+    var byContinent = {};
+    Object.values(byCountry).forEach(function(c) {
+      var cont = c.continent;
+      if (!byContinent[cont]) { byContinent[cont] = { name: cont, total: 0, years: {} }; }
+      var g = byContinent[cont];
+      g.total += c.total;
+      for (var y in c.years) g.years[y] = (g.years[y] || 0) + c.years[y];
+    });
+    aeCountryData = Object.values(byCountry);
+    aeContinentData = Object.values(byContinent);
+  }
+
   /* ── Load ────────────────────────────────────────────────────────── */
-  fetch(dataUrl)
-    .then(function(r) { return r.json(); })
-    .then(function(institutions) {
+  Promise.all([
+    fetch(dataUrl).then(function(r) { return r.json(); }),
+    fetch('{{ "/assets/data/ae_members.json" | relative_url }}').then(function(r) { return r.json(); })
+  ])
+    .then(function(results) {
+      var institutions = results[0];
+      var aeMembers = results[1];
       var agg = aggregate(institutions);
       continentData = agg.byContinent;
       countryData = agg.byCountry;
+      aggregateAE(aeMembers);
       renderContinents();
       renderCountries();
       document.getElementById('geo-loading').style.display = 'none';
       document.getElementById('geo-content').style.display = '';
-      // Double rAF ensures layout reflow is complete before Chart.js measures canvas
       requestAnimationFrame(function() { requestAnimationFrame(function() {
         drawCharts();
       }); });
