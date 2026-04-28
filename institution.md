@@ -104,7 +104,6 @@ layout: default
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script>
 (function() {
   var escHtml = ReproDBProfile.escHtml;

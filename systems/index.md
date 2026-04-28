@@ -78,7 +78,6 @@ High-level GitHub repository metrics for systems conferences. See the full [syst
 {% endif %}
 
 {% if site.data.artifacts_by_conference %}
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var years = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];

@@ -45,7 +45,7 @@ When adding a new conference page, also add it to `_data/navigation.yml`.
 ## JavaScript Patterns
 
 - All JS is **vanilla JavaScript**, inline in `_includes/*.html` — no frameworks.
-- Charts use **Chart.js v4** from CDN.
+- Charts use **`assets/js/reprodb-chart.js`** (SVG shim with Chart.js-compatible API). Do NOT add CDN script tags — CSP blocks them.
 - Dynamic tables load JSON from `assets/data/` via `fetch()` and render client-side.
 - Page frontmatter provides data URLs (e.g., `page.author_data_url`) — ensure the
   referenced JSON file exists in `assets/data/` before linking.
