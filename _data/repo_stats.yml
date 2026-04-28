@@ -9,7 +9,7 @@ overall:
   total_downloads: 194646
   avg_stars: 94.3
   avg_forks: 12.3
-  last_updated: 2026-04-28 17:13:50 UTC
+  last_updated: 2026-04-28 22:42:21 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -87,6 +87,14 @@ by_conference:
     language: Python
     name: ivicanikolicsg/MAIAN
     pushed_at: '2023-10-22T12:57:33Z'
+    badges:
+    - functional
+    authors:
+    - Ivica Nikolic
+    - Aashish Kolluri
+    - Ilya Sergey
+    - Prateek Saxena
+    - Aquinas Hobor
   - title: 'AVclass2: Massive Malware Tag Extraction from AV Labels'
     url: https://github.com/malicialab/avclass
     conference: ACSAC
@@ -98,6 +106,11 @@ by_conference:
     language: Python
     name: malicialab/avclass
     pushed_at: '2024-10-22T15:14:41Z'
+    badges:
+    - reusable
+    authors:
+    - Silvia Sebastián
+    - Juan Caballero
   - title: 'RusTEE: Developing Memory-Safe ARM TrustZone Applications'
     url: https://github.com/sccommunity/rust-optee-trustzone-sdk
     conference: ACSAC
@@ -110,6 +123,14 @@ by_conference:
     language: Rust
     name: apache/teaclave-trustzone-sdk
     pushed_at: '2026-04-17T17:32:29Z'
+    badges:
+    - reusable
+    authors:
+    - Shengye Wan
+    - Mingshen Sun
+    - Kun Sun 0001
+    - Ning Zhang 0017
+    - Xu He
   - title: 'Opening Pandora''s Box through ATFuzzer: Dynamic Analysis of AT Interface
       for Android Smartphones'
     url: https://github.com/Imtiazkarimik23/ATFuzzer
@@ -123,6 +144,14 @@ by_conference:
     language: Python
     name: SysNetS/ATFuzzer
     pushed_at: '2021-03-28T04:23:08Z'
+    badges:
+    - functional
+    authors:
+    - Imtiaz Karim
+    - Fabrizio Cicala
+    - Syed Rafiul Hussain
+    - Omar Chowdhury
+    - Elisa Bertino
   - title: 'POPKORN: Popping Windows Kernel Drivers At Scale'
     url: https://github.com/ucsb-seclab/popkorn-artifact/
     conference: ACSAC
@@ -134,6 +163,15 @@ by_conference:
     language: Python
     name: ucsb-seclab/popkorn-artifact
     pushed_at: '2025-08-16T09:08:03Z'
+    badges:
+    - reusable
+    authors:
+    - Rajat Gupta
+    - Lukas Patrick Dresel
+    - Noah Spahn
+    - Giovanni Vigna
+    - Christopher Kruegel
+    - Taesoo Kim
 - name: ATC
   github_repos: 108
   total_stars: 4815
@@ -173,6 +211,18 @@ by_conference:
     language: Go
     name: cloudflare/circl
     pushed_at: '2026-04-24T23:22:59Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Watson Ladd
+    - Tanya Verma
+    - Marloes Venema
+    - Armando Faz-Hernández
+    - Brendan McMillion
+    - Avani Wildani
+    - Nick Sullivan
   - title: 'SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving
       Machine Learning'
     url: https://github.com/secretflow/spu/tree/atc23_ae
@@ -186,6 +236,21 @@ by_conference:
     language: C++
     name: secretflow/spu
     pushed_at: '2026-04-22T07:35:53Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Junming Ma
+    - Yancheng Zheng
+    - Jun Feng
+    - Derun Zhao
+    - Haoqi Wu
+    - Wenjing Fang
+    - Jin Tan
+    - Chaofan Yu
+    - Benyu Zhang
+    - Lei Wang 0152
   - title: 'Quant-LLM: Accelerating the Serving of Large Language Models via FP6-Centric
       Algorithm-System Co-Design on Modern GPUs'
     url: https://github.com/usyd-fsalab/fp6_llm/
@@ -199,6 +264,22 @@ by_conference:
     language: Cuda
     name: usyd-fsalab/fp6_llm
     pushed_at: '2025-07-16T01:41:43Z'
+    badges:
+    - available
+    authors:
+    - Haojun Xia
+    - Zhen Zheng
+    - Xiaoxia Wu
+    - Shiyang Chen 0004
+    - Zhewei Yao
+    - Stephen Youn
+    - Arash Bakhtiari
+    - Michael Wyatt
+    - Donglin Zhuang
+    - Zhongzhu Zhou
+    - Olatunji Ruwase
+    - Yuxiong He
+    - Shuaiwen Leon Song
   - title: 'Whale: Efficient Giant Model Training over Heterogeneous GPUs'
     url: https://github.com/alibaba/EasyParallelLibrary
     conference: ATC
@@ -211,6 +292,22 @@ by_conference:
     language: Python
     name: alibaba/EasyParallelLibrary
     pushed_at: '2023-03-31T11:07:57Z'
+    badges:
+    - available
+    - functional
+    authors:
+    - Xianyan Jia
+    - Le Jiang
+    - Ang Wang
+    - Wencong Xiao
+    - Ziji Shi
+    - Jie Zhang 0135
+    - Xinyuan Li
+    - Langshi Chen
+    - Yong Li 0045
+    - Zhen Zheng
+    - Xiaoyong Liu
+    - Wei Lin 0016
   - title: MOSAIC Teaching Operating System Model and Checker
     url: https://github.com/jiangyy/mosaic
     conference: ATC
@@ -222,6 +319,10 @@ by_conference:
     language: Python
     name: jiangyy/mosaic
     pushed_at: '2023-05-08T17:06:49Z'
+    badges:
+    - available
+    - functional
+    - reproduced
 - name: EUROSYS
   github_repos: 76
   total_stars: 3048
@@ -261,6 +362,16 @@ by_conference:
     language: Shell
     name: binpash/pash
     pushed_at: '2026-04-24T17:29:31Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Nikos Vasilakis
+    - Konstantinos Kallas
+    - Konstantinos Mamouras
+    - Achilles Benetopoulos
+    - Lazar Cvetkovic
   - title: 'BetrFS: A Compleat File System for Commodity SSDs'
     url: https://github.com/oscarlab/betrfs
     conference: EUROSYS
@@ -272,6 +383,26 @@ by_conference:
     language: C++
     name: oscarlab/betrfs
     pushed_at: '2024-06-09T20:24:42Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Yizheng Jiao
+    - Simon Bertron
+    - Sagar Patel
+    - Luke Zeller
+    - Rory Bennett
+    - Nirjhar Mukherjee
+    - Michael A. Bender
+    - Michael Condict
+    - Alex Conway 0001
+    - Martin Farach-Colton
+    - Xiongzi Ge
+    - William Jannen
+    - Rob Johnson 0001
+    - Donald E. Porter
+    - Jun Yuan 0006
   - title: 'Varuna: Scalable, Low-cost Training of Massive Deep Learning Models'
     url: https://github.com/microsoft/varuna/
     conference: EUROSYS
@@ -283,6 +414,15 @@ by_conference:
     language: Python
     name: microsoft/varuna
     pushed_at: '2024-07-25T11:10:38Z'
+    badges:
+    - available
+    - functional
+    authors:
+    - Sanjith Athlur
+    - Nitika Saran
+    - Muthian Sivathanu
+    - Ramachandran Ramjee
+    - Nipun Kwatra
   - title: 'D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles'
     url: https://github.com/erdos-project/erdos
     conference: EUROSYS
@@ -294,6 +434,16 @@ by_conference:
     language: Rust
     name: erdos-project/erdos
     pushed_at: '2022-08-27T19:25:37Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Ionel Gog
+    - Sukrit Kalra
+    - Peter Schafhalter
+    - Joseph E. Gonzalez
+    - Ion Stoica
   - title: 'You Only Prefill Once: Combining Cached Knowledge for Large Language Model
       Serving with CacheBlend'
     url: https://github.com/YaoJiayi/CacheBlend.git
@@ -306,6 +456,9 @@ by_conference:
     language: Python
     name: YaoJiayi/CacheBlend
     pushed_at: '2025-07-15T22:09:11Z'
+    badges:
+    - available
+    - functional
 - name: NDSS
   github_repos: 0
   total_stars: 0
@@ -368,6 +521,18 @@ by_conference:
     language: Python
     name: microsoft/nni
     pushed_at: '2024-07-03T10:55:10Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Quanlu Zhang
+    - Zhenhua Han
+    - Fan Yang 0024
+    - Yuge Zhang
+    - Zhe Liu
+    - Mao Yang 0004
+    - Lidong Zhou
   - title: 'SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute'
     url: https://github.com/microsoft/nni/tree/sparta_artifact
     conference: OSDI
@@ -380,6 +545,20 @@ by_conference:
     language: Python
     name: microsoft/nni
     pushed_at: '2024-07-03T10:55:10Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Ningxin Zheng
+    - Bin Lin
+    - Quanlu Zhang
+    - Lingxiao Ma
+    - Yuqing Yang 0001
+    - Fan Yang 0024
+    - Yang Wang 0053
+    - Mao Yang 0004
+    - Lidong Zhou
   - title: A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous
       GPU/CPU Clusters
     url: https://github.com/bytedance/byteps/
@@ -392,6 +571,17 @@ by_conference:
     language: Python
     name: bytedance/byteps
     pushed_at: '2023-10-03T18:02:27Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Yimin Jiang
+    - Yibo Zhu 0001
+    - Chang Lan
+    - Bairen Yi
+    - Yong Cui 0001
+    - Chuanxiong Guo
   - title: A Tensor Compiler for Unified Machine Learning Prediction Serving
     url: https://github.com/microsoft/hummingbird/commit/dbebbb715e7050b47895082664adc27f8b846aa1
     conference: OSDI
@@ -404,6 +594,18 @@ by_conference:
     language: Python
     name: microsoft/hummingbird
     pushed_at: '2025-07-17T17:52:29Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Supun Nakandala
+    - Karla Saur
+    - Gyeong-In Yu
+    - Konstantinos Karanasos
+    - Carlo Curino
+    - Markus Weimer
+    - Matteo Interlandi
   - title: 'Parax: Automating Inter- and Intra-Operator Parallelism for Distributed
       Deep Learning'
     url: https://github.com/alpa-projects/alpa/tree/osdi22_artifact/osdi22_artifact
@@ -416,6 +618,10 @@ by_conference:
     language: Python
     name: alpa-projects/alpa
     pushed_at: '2023-12-09T16:26:31Z'
+    badges:
+    - available
+    - functional
+    - reproduced
 - name: PETS
   github_repos: 294
   total_stars: 21998
@@ -481,6 +687,11 @@ by_conference:
     language: Swift
     name: seemoo-lab/openhaystack
     pushed_at: '2024-07-09T07:19:10Z'
+    authors:
+    - Alexander Heinrich
+    - Milan Stute
+    - Tim Kornhuber
+    - Matthias Hollick
   - title: Differentially Private SQL with Bounded User Contribution
     url: https://github.com/google/differential-privacy
     conference: PETS
@@ -492,6 +703,13 @@ by_conference:
     language: Go
     name: google/differential-privacy
     pushed_at: '2026-04-24T17:29:05Z'
+    authors:
+    - Royce J. Wilson
+    - Celia Yuxin Zhang
+    - William Lam
+    - Damien Desfontaines
+    - Daniel Simmons-Marengo
+    - Bryant Gipson
   - title: Differentially private partition selection
     url: https://github.com/google/differential-privacy/blob/main/common_docs/partition_selection.md
     conference: PETS
@@ -503,6 +721,11 @@ by_conference:
     language: Go
     name: google/differential-privacy
     pushed_at: '2026-04-24T17:29:05Z'
+    authors:
+    - Damien Desfontaines
+    - James Voss
+    - Bryant Gipson
+    - Chinmoy Mandayam
   - title: 'LLAMA: A Low Latency Math Library for Secure Inference'
     url: https://github.com/mpc-msri/EzPC/tree/master/FSS
     conference: PETS
@@ -514,6 +737,11 @@ by_conference:
     language: C++
     name: mpc-msri/EzPC
     pushed_at: '2024-06-19T14:48:33Z'
+    authors:
+    - Kanav Gupta
+    - Deepak Kumaraswamy
+    - Nishanth Chandran
+    - Divya Gupta 0001
   - title: Usability and Enforceability of Global Privacy Control
     url: https://github.com/privacy-tech-lab/gpc-optmeowt
     conference: PETS
@@ -525,6 +753,12 @@ by_conference:
     language: JavaScript
     name: privacy-tech-lab/gpc-optmeowt
     pushed_at: '2026-04-23T16:58:29Z'
+    authors:
+    - Sebastian Zimmeck
+    - Oliver Wang
+    - Kuba Alicki
+    - Jocelyn Wang
+    - Sophie Eng
 - name: SOSP
   github_repos: 105
   total_stars: 6677
@@ -571,6 +805,8 @@ by_conference:
     language: Rust
     name: microsoft/demikernel
     pushed_at: '2026-02-18T19:57:58Z'
+    badges:
+    - Available
   - title: Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with
       FractalTensor
     url: https://github.com/microsoft/nnfusion
@@ -584,6 +820,19 @@ by_conference:
     language: C++
     name: microsoft/nnfusion
     pushed_at: '2024-09-19T06:31:57Z'
+    badges:
+    - Available
+    - Functional
+    - Reproduced
+    authors:
+    - Siran Liu
+    - Chengxiang Qi
+    - Ying Cao
+    - Chao Yang 0002
+    - Weifang Hu
+    - Xuanhua Shi
+    - Fan Yang 0024
+    - Mao Yang 0004
   - title: Generalized Pipeline Parallelism for DNN Training
     url: https://github.com/msr-fiddle/pipedream
     conference: SOSP
@@ -595,6 +844,9 @@ by_conference:
     language: Python
     name: msr-fiddle/pipedream
     pushed_at: '2022-11-04T14:51:26Z'
+    badges:
+    - Available
+    - Functional
   - title: Reducing Energy Bloat in Large Model Training
     url: https://github.com/ml-energy/zeus/tree/kronos
     conference: SOSP
@@ -606,6 +858,17 @@ by_conference:
     language: Python
     name: ml-energy/zeus
     pushed_at: '2026-03-29T05:43:36Z'
+    badges:
+    - Available
+    - Functional
+    - Reproduced
+    authors:
+    - Jae-Won Chung
+    - Yile Gu
+    - Insu Jang
+    - Luoxi Meng
+    - Nikhil Bansal 0001
+    - Mosharaf Chowdhury
   - title: 'HEALER: Relation Learning Guided Kernel Fuzzing'
     url: https://github.com/SunHao-0/healer
     conference: SOSP
@@ -617,6 +880,17 @@ by_conference:
     language: Rust
     name: SunHao-0/healer
     pushed_at: '2022-02-23T01:30:05Z'
+    badges:
+    - Available
+    - Functional
+    authors:
+    - Hao Sun 0021
+    - Yuheng Shen
+    - Cong Wang 0020
+    - Jianzhong Liu
+    - Yu Jiang 0001
+    - Ting Chen 0002
+    - Aiguo Cui
 - name: SYSTEX
   github_repos: 17
   total_stars: 60
@@ -656,6 +930,8 @@ by_conference:
     language: Rust
     name: SNPGuard/snp-guard
     pushed_at: '2024-11-03T19:32:28Z'
+    badges:
+    - Artifacts Available + Functional + Reusable
   - title: 'duet: Combining a Trustworthy Controller with a Confidential Computing
       Environment'
     url: https://github.com/Nokia-Bell-Labs/tee-duet/tree/9eb44fe5e1b60519656b93630b9f5cbf5a111861
@@ -668,6 +944,8 @@ by_conference:
     language: Python
     name: Nokia-Bell-Labs/tee-duet
     pushed_at: '2024-06-26T07:22:30Z'
+    badges:
+    - Artifacts Available + Functional + Reusable
   - title: An Early Experience with Confidential Computing Architecture for On-Device
       Model Protection
     url: https://github.com/comet-cc/CCA-Evaluation/tree/SysTEX25
@@ -680,6 +958,8 @@ by_conference:
     language: Shell
     name: comet-cc/CCA-Evaluation
     pushed_at: '2025-06-05T09:26:33Z'
+    badges:
+    - Artifacts Available + Functional + Reusable
   - title: 'PraaS: Verifiable Proofs of Property as-a-Service with Intel SGX'
     url: https://github.com/Nokia-Bell-Labs/proof-as-a-service/tree/1e24dce47fd468e56ebc3ad2b55c093c412b866d
     conference: SYSTEX
@@ -691,6 +971,8 @@ by_conference:
     language: C++
     name: Nokia-Bell-Labs/proof-as-a-service
     pushed_at: '2024-06-24T08:40:03Z'
+    badges:
+    - Artifacts Available + Functional + Reusable
   - title: 'Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side
       Channels'
     url: https://github.com/dnet-tee/wait-a-cycle/tree/systex25-artifacts
@@ -704,6 +986,8 @@ by_conference:
     language: C
     name: dnet-tee/wait-a-cycle
     pushed_at: '2025-06-17T15:55:24Z'
+    badges:
+    - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
   github_repos: 378
   total_stars: 18116
@@ -761,6 +1045,16 @@ by_conference:
     language: C++
     name: citp/BlockSci
     pushed_at: '2021-12-13T09:59:46Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Harry A. Kalodner
+    - Malte Möser
+    - Kevin Lee
+    - Steven Goldfeder
+    - Martin Plattner
+    - Alishah Chator
+    - Arvind Narayanan
   - title: 'Trojan Source: Invisible Vulnerabilities'
     url: https://github.com/nickboucher/trojan-source/tree/e3dc153fcf465f4a84424ea874ff39be29adb1f7
     conference: USENIXSEC
@@ -772,6 +1066,13 @@ by_conference:
     language: SCSS
     name: nickboucher/trojan-source
     pushed_at: '2023-04-26T08:22:53Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Nicholas Boucher
+    - Ross Anderson 0001
   - title: How to Abuse and Fix Authenticated Encryption Without Key Commitment
     url: https://github.com/corkami/mitra/tree/Usenix22
     conference: USENIXSEC
@@ -783,6 +1084,17 @@ by_conference:
     language: Python
     name: corkami/mitra
     pushed_at: '2024-12-22T20:29:32Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Ange Albertini
+    - Thai Duong
+    - Shay Gueron
+    - Stefan Kölbl
+    - Atul Luykx
+    - Sophie Schmieg
   - title: 'Disrupting Continuity of Apple’s Wireless Ecosystem Security: New Tracking,
       DoS, and MitM Attacks on iOS and macOS Through Bluetooth Low Energy, AWDL, and
       Wi-Fi'
@@ -797,6 +1109,13 @@ by_conference:
     language: Python
     name: seemoo-lab/openwifipass
     pushed_at: '2021-04-13T08:27:59Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Milan Stute
+    - Alexander Heinrich
+    - Jannik Lorenz
+    - Matthias Hollick
   - title: Datalog Disassembly
     url: https://github.com/GrammaTech/ddisasm
     conference: USENIXSEC
@@ -808,6 +1127,11 @@ by_conference:
     language: C++
     name: GrammaTech/ddisasm
     pushed_at: '2026-04-17T20:51:01Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Antonio Flores-Montoya
+    - Eric M. Schulte
 - name: WOOT
   github_repos: 23
   total_stars: 13617
@@ -865,6 +1189,11 @@ by_conference:
     language: Python
     name: jopohl/urh
     pushed_at: '2025-12-19T14:25:58Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Johannes Pohl
+    - Andreas Noack
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -878,6 +1207,15 @@ by_conference:
     language: Jupyter Notebook
     name: sgxgsx/BlueToolkit
     pushed_at: '2026-03-05T20:53:27Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Vladyslav Zubkov
+    - Tommaso Sacchetti
+    - Daniele Antonioli
+    - Martin Strohmeier
   - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
     url: https://github.com/fgsect/unicorefuzz
     conference: WOOT
@@ -889,6 +1227,12 @@ by_conference:
     language: Python
     name: fgsect/unicorefuzz
     pushed_at: '2023-01-02T18:12:54Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Dominik Christian Maier
+    - Benedikt Radtke
+    - Bastian Harren
   - title: Exploiting Android’s Hardened Memory Allocator
     url: https://github.com/HexHive/scudo-exploitation/tree/woot24
     conference: WOOT
@@ -900,19 +1244,33 @@ by_conference:
     language: Python
     name: HexHive/scudo-exploitation
     pushed_at: '2024-10-21T14:02:23Z'
-  - title: 'D-TIME: Distributed Threadless Independent Malware Execution for Runtime
-      Obfuscation'
-    url: https://github.com/JithinPavithran/d-time
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Philipp Mao
+    - Elias Valentin Boschung
+    - Marcel Busch
+    - Mathias Payer
+  - title: 'RISC-V: #AlphanumericShellcoding'
+    url: https://github.com/RischardV/riscv-alphanumeric-shellcoding
     conference: WOOT
     year: 2019
     area: security
     stars: 36
-    forks: 12
-    description: 'This repository contains D-TIME: Distributed Threadless Independent
-      Malware Execution for Runtime Obfuscation.'
+    forks: 6
+    description: Alphanumeric+1 shellcoding tools for RISC-V
     language: C++
-    name: pwnlogs/d-time
-    pushed_at: '2021-01-22T00:46:35Z'
+    name: RischardV/riscv-alphanumeric-shellcoding
+    pushed_at: '2019-08-12T17:56:57Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Hadrien Barral
+    - Rémi Géraud-Stewart
+    - Georges-Axel Jaloyan
+    - David Naccache
 by_year:
 - year: 2017
   github_repos: 5

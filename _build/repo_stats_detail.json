@@ -88,7 +88,17 @@
     "description": "MAIAN: automatic tool for finding trace vulnerabilities in Ethereum smart contracts",
     "language": "Python",
     "name": "ivicanikolicsg/MAIAN",
-    "pushed_at": "2023-10-22T12:57:33Z"
+    "pushed_at": "2023-10-22T12:57:33Z",
+    "badges": [
+      "functional"
+    ],
+    "authors": [
+      "Ivica Nikolic",
+      "Aashish Kolluri",
+      "Ilya Sergey",
+      "Prateek Saxena",
+      "Aquinas Hobor"
+    ]
   },
   {
     "title": "Towards Automated Generation of Exploitation Primitives for Web Browsers",
@@ -296,7 +306,17 @@
     "description": "\"Opening Pandora's Box through ATFuzzer: Dynamic Analysis of AT Interface for Android Smartphones\" ACSAC 2019",
     "language": "Python",
     "name": "SysNetS/ATFuzzer",
-    "pushed_at": "2021-03-28T04:23:08Z"
+    "pushed_at": "2021-03-28T04:23:08Z",
+    "badges": [
+      "functional"
+    ],
+    "authors": [
+      "Imtiaz Karim",
+      "Fabrizio Cicala",
+      "Syed Rafiul Hussain",
+      "Omar Chowdhury",
+      "Elisa Bertino"
+    ]
   },
   {
     "title": "Detecting organized eCommerce fraud using scalable categorical clustering",
@@ -543,7 +563,14 @@
     "description": "AVClass malware labeling tool",
     "language": "Python",
     "name": "malicialab/avclass",
-    "pushed_at": "2024-10-22T15:14:41Z"
+    "pushed_at": "2024-10-22T15:14:41Z",
+    "badges": [
+      "reusable"
+    ],
+    "authors": [
+      "Silvia Sebastián",
+      "Juan Caballero"
+    ]
   },
   {
     "title": "HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities",
@@ -595,7 +622,17 @@
     "description": "Teaclave TrustZone SDK enables safe, functional, and ergonomic development of trustlets.",
     "language": "Rust",
     "name": "apache/teaclave-trustzone-sdk",
-    "pushed_at": "2026-04-17T17:32:29Z"
+    "pushed_at": "2026-04-17T17:32:29Z",
+    "badges": [
+      "reusable"
+    ],
+    "authors": [
+      "Shengye Wan",
+      "Mingshen Sun",
+      "Kun Sun 0001",
+      "Ning Zhang 0017",
+      "Xu He"
+    ]
   },
   {
     "title": "Constrained Concealment Attacks against Reconstruction-based Anomaly Detectors in Industrial Control Systems",
@@ -1232,7 +1269,18 @@
     "description": "",
     "language": "Python",
     "name": "ucsb-seclab/popkorn-artifact",
-    "pushed_at": "2025-08-16T09:08:03Z"
+    "pushed_at": "2025-08-16T09:08:03Z",
+    "badges": [
+      "reusable"
+    ],
+    "authors": [
+      "Rajat Gupta",
+      "Lukas Patrick Dresel",
+      "Noah Spahn",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Taesoo Kim"
+    ]
   },
   {
     "title": "Snappy: Efficient Fuzzing with Adaptive and Mutable Snapshots",
@@ -2857,7 +2905,25 @@
     "description": "Easy Parallel Library (EPL) is a general and efficient deep learning framework for distributed model training.",
     "language": "Python",
     "name": "alibaba/EasyParallelLibrary",
-    "pushed_at": "2023-03-31T11:07:57Z"
+    "pushed_at": "2023-03-31T11:07:57Z",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "authors": [
+      "Xianyan Jia",
+      "Le Jiang",
+      "Ang Wang",
+      "Wencong Xiao",
+      "Ziji Shi",
+      "Jie Zhang 0135",
+      "Xinyuan Li",
+      "Langshi Chen",
+      "Yong Li 0045",
+      "Zhen Zheng",
+      "Xiaoyong Liu",
+      "Wei Lin 0016"
+    ]
   },
   {
     "title": "FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs",
@@ -3338,7 +3404,21 @@
     "description": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library",
     "language": "Go",
     "name": "cloudflare/circl",
-    "pushed_at": "2026-04-24T23:22:59Z"
+    "pushed_at": "2026-04-24T23:22:59Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Watson Ladd",
+      "Tanya Verma",
+      "Marloes Venema",
+      "Armando Faz-Hernández",
+      "Brendan McMillion",
+      "Avani Wildani",
+      "Nick Sullivan"
+    ]
   },
   {
     "title": "Zhuque: Failure Isn't an Option, It's an Exception",
@@ -3390,7 +3470,12 @@
     "description": "The MOSAIC Operating Systems Model and Checker",
     "language": "Python",
     "name": "jiangyy/mosaic",
-    "pushed_at": "2023-05-08T17:06:49Z"
+    "pushed_at": "2023-05-08T17:06:49Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ]
   },
   {
     "title": "Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects",
@@ -3481,7 +3566,24 @@
     "description": "SPU (Secure Processing Unit) aims to be a provable, measurable secure computation device, which provides computation abi",
     "language": "C++",
     "name": "secretflow/spu",
-    "pushed_at": "2026-04-22T07:35:53Z"
+    "pushed_at": "2026-04-22T07:35:53Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Junming Ma",
+      "Yancheng Zheng",
+      "Jun Feng",
+      "Derun Zhao",
+      "Haoqi Wu",
+      "Wenjing Fang",
+      "Jin Tan",
+      "Chaofan Yu",
+      "Benyu Zhang",
+      "Lei Wang 0152"
+    ]
   },
   {
     "title": "Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale",
@@ -4053,7 +4155,25 @@
     "description": "An efficient GPU support for LLM inference with x-bit quantization (e.g. FP6,FP5).",
     "language": "Cuda",
     "name": "usyd-fsalab/fp6_llm",
-    "pushed_at": "2025-07-16T01:41:43Z"
+    "pushed_at": "2025-07-16T01:41:43Z",
+    "badges": [
+      "available"
+    ],
+    "authors": [
+      "Haojun Xia",
+      "Zhen Zheng",
+      "Xiaoxia Wu",
+      "Shiyang Chen 0004",
+      "Zhewei Yao",
+      "Stephen Youn",
+      "Arash Bakhtiari",
+      "Michael Wyatt",
+      "Donglin Zhuang",
+      "Zhongzhu Zhou",
+      "Olatunji Ruwase",
+      "Yuxiong He",
+      "Shuaiwen Leon Song"
+    ]
   },
   {
     "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
@@ -4170,7 +4290,19 @@
     "description": "PaSh: Light-touch Data-Parallel Shell Processing",
     "language": "Shell",
     "name": "binpash/pash",
-    "pushed_at": "2026-04-24T17:29:31Z"
+    "pushed_at": "2026-04-24T17:29:31Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Nikos Vasilakis",
+      "Konstantinos Kallas",
+      "Konstantinos Mamouras",
+      "Achilles Benetopoulos",
+      "Lazar Cvetkovic"
+    ]
   },
   {
     "title": "Site-to-Site Internet Traffic Control",
@@ -4534,7 +4666,19 @@
     "description": "Dataflow system for building self-driving car and robotics applications.",
     "language": "Rust",
     "name": "erdos-project/erdos",
-    "pushed_at": "2022-08-27T19:25:37Z"
+    "pushed_at": "2022-08-27T19:25:37Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Ionel Gog",
+      "Sukrit Kalra",
+      "Peter Schafhalter",
+      "Joseph E. Gonzalez",
+      "Ion Stoica"
+    ]
   },
   {
     "title": "Building an Efficient Key-Value Store in a Flexible Address Space",
@@ -4599,7 +4743,18 @@
     "description": "",
     "language": "Python",
     "name": "microsoft/varuna",
-    "pushed_at": "2024-07-25T11:10:38Z"
+    "pushed_at": "2024-07-25T11:10:38Z",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "authors": [
+      "Sanjith Athlur",
+      "Nitika Saran",
+      "Muthian Sivathanu",
+      "Ramachandran Ramjee",
+      "Nipun Kwatra"
+    ]
   },
   {
     "title": "Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning",
@@ -4638,7 +4793,29 @@
     "description": "",
     "language": "C++",
     "name": "oscarlab/betrfs",
-    "pushed_at": "2024-06-09T20:24:42Z"
+    "pushed_at": "2024-06-09T20:24:42Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Yizheng Jiao",
+      "Simon Bertron",
+      "Sagar Patel",
+      "Luke Zeller",
+      "Rory Bennett",
+      "Nirjhar Mukherjee",
+      "Michael A. Bender",
+      "Michael Condict",
+      "Alex Conway 0001",
+      "Martin Farach-Colton",
+      "Xiongzi Ge",
+      "William Jannen",
+      "Rob Johnson 0001",
+      "Donald E. Porter",
+      "Jun Yuan 0006"
+    ]
   },
   {
     "title": "Jiffy: Elastic Far-Memory for Stateful Serverless Analytics.",
@@ -4872,7 +5049,11 @@
     "description": "",
     "language": "Python",
     "name": "YaoJiayi/CacheBlend",
-    "pushed_at": "2025-07-15T22:09:11Z"
+    "pushed_at": "2025-07-15T22:09:11Z",
+    "badges": [
+      "available",
+      "functional"
+    ]
   },
   {
     "title": "Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization",
@@ -5171,7 +5352,20 @@
     "description": "A high performance and generic framework for distributed DNN training",
     "language": "Python",
     "name": "bytedance/byteps",
-    "pushed_at": "2023-10-03T18:02:27Z"
+    "pushed_at": "2023-10-03T18:02:27Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Yimin Jiang",
+      "Yibo Zhu 0001",
+      "Chang Lan",
+      "Bairen Yi",
+      "Yong Cui 0001",
+      "Chuanxiong Guo"
+    ]
   },
   {
     "title": "Achieving 100Gbps Intrusion Prevention on a Single Server",
@@ -5314,7 +5508,21 @@
     "description": "Hummingbird compiles trained ML models into tensor computation for faster inference.",
     "language": "Python",
     "name": "microsoft/hummingbird",
-    "pushed_at": "2025-07-17T17:52:29Z"
+    "pushed_at": "2025-07-17T17:52:29Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Supun Nakandala",
+      "Karla Saur",
+      "Gyeong-In Yu",
+      "Konstantinos Karanasos",
+      "Carlo Curino",
+      "Markus Weimer",
+      "Matteo Interlandi"
+    ]
   },
   {
     "title": "Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks",
@@ -5340,7 +5548,21 @@
     "description": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architectur",
     "language": "Python",
     "name": "microsoft/nni",
-    "pushed_at": "2024-07-03T10:55:10Z"
+    "pushed_at": "2024-07-03T10:55:10Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Quanlu Zhang",
+      "Zhenhua Han",
+      "Fan Yang 0024",
+      "Yuge Zhang",
+      "Zhe Liu",
+      "Mao Yang 0004",
+      "Lidong Zhou"
+    ]
   },
   {
     "title": "Efficiently Mitigating Transient Execution Attacks using the Unmapped Speculation Contract",
@@ -5808,7 +6030,12 @@
     "description": "Training and serving large-scale neural networks with auto parallelization.",
     "language": "Python",
     "name": "alpa-projects/alpa",
-    "pushed_at": "2023-12-09T16:26:31Z"
+    "pushed_at": "2023-12-09T16:26:31Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ]
   },
   {
     "title": "Time-Transcendent Debugging the OmniTable Way",
@@ -5990,7 +6217,23 @@
     "description": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architectur",
     "language": "Python",
     "name": "microsoft/nni",
-    "pushed_at": "2024-07-03T10:55:10Z"
+    "pushed_at": "2024-07-03T10:55:10Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Ningxin Zheng",
+      "Bin Lin",
+      "Quanlu Zhang",
+      "Lingxiao Ma",
+      "Yuqing Yang 0001",
+      "Fan Yang 0024",
+      "Yang Wang 0053",
+      "Mao Yang 0004",
+      "Lidong Zhou"
+    ]
   },
   {
     "title": "Verifying the DaisyNFS concurrent and crash-safe file system with sequential reasoning",
@@ -6939,7 +7182,15 @@
     "description": "Google's differential privacy libraries.",
     "language": "Go",
     "name": "google/differential-privacy",
-    "pushed_at": "2026-04-24T17:29:05Z"
+    "pushed_at": "2026-04-24T17:29:05Z",
+    "authors": [
+      "Royce J. Wilson",
+      "Celia Yuxin Zhang",
+      "William Lam",
+      "Damien Desfontaines",
+      "Daniel Simmons-Marengo",
+      "Bryant Gipson"
+    ]
   },
   {
     "title": "A Comparative Measurement Study of Web Tracking on Mobile and Desktop Environments",
@@ -7264,7 +7515,13 @@
     "description": "Build your own 'AirTags' 🏷 today! Framework for tracking personal Bluetooth devices via Apple's massive Find My network.",
     "language": "Swift",
     "name": "seemoo-lab/openhaystack",
-    "pushed_at": "2024-07-09T07:19:10Z"
+    "pushed_at": "2024-07-09T07:19:10Z",
+    "authors": [
+      "Alexander Heinrich",
+      "Milan Stute",
+      "Tim Kornhuber",
+      "Matthias Hollick"
+    ]
   },
   {
     "title": "Falcon: Honest-Majority Maliciously Secure Framework for Private Deep Learning",
@@ -7524,7 +7781,13 @@
     "description": "Google's differential privacy libraries.",
     "language": "Go",
     "name": "google/differential-privacy",
-    "pushed_at": "2026-04-24T17:29:05Z"
+    "pushed_at": "2026-04-24T17:29:05Z",
+    "authors": [
+      "Damien Desfontaines",
+      "James Voss",
+      "Bryant Gipson",
+      "Chinmoy Mandayam"
+    ]
   },
   {
     "title": "MLEFlow: Learning from History to Improve Load Balancing in Tor",
@@ -7641,7 +7904,13 @@
     "description": "",
     "language": "C++",
     "name": "mpc-msri/EzPC",
-    "pushed_at": "2024-06-19T14:48:33Z"
+    "pushed_at": "2024-06-19T14:48:33Z",
+    "authors": [
+      "Kanav Gupta",
+      "Deepak Kumaraswamy",
+      "Nishanth Chandran",
+      "Divya Gupta 0001"
+    ]
   },
   {
     "title": "On the Feasibility of Linking Attack to Google/Apple Exposure Notification Framework",
@@ -8122,7 +8391,14 @@
     "description": "Privacy browser extension for opting out from web tracking via GPC",
     "language": "JavaScript",
     "name": "privacy-tech-lab/gpc-optmeowt",
-    "pushed_at": "2026-04-23T16:58:29Z"
+    "pushed_at": "2026-04-23T16:58:29Z",
+    "authors": [
+      "Sebastian Zimmeck",
+      "Oliver Wang",
+      "Kuba Alicki",
+      "Jocelyn Wang",
+      "Sophie Eng"
+    ]
   },
   {
     "title": " Convolutions in Overdrive: Maliciously Secure Convolutions for MPC",
@@ -10813,7 +11089,11 @@
     "description": "",
     "language": "Python",
     "name": "msr-fiddle/pipedream",
-    "pushed_at": "2022-11-04T14:51:26Z"
+    "pushed_at": "2022-11-04T14:51:26Z",
+    "badges": [
+      "Available",
+      "Functional"
+    ]
   },
   {
     "title": "Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework",
@@ -10956,7 +11236,20 @@
     "description": "Kernel fuzzer inspired by Syzkaller.",
     "language": "Rust",
     "name": "SunHao-0/healer",
-    "pushed_at": "2022-02-23T01:30:05Z"
+    "pushed_at": "2022-02-23T01:30:05Z",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "authors": [
+      "Hao Sun 0021",
+      "Yuheng Shen",
+      "Cong Wang 0020",
+      "Jianzhong Liu",
+      "Yu Jiang 0001",
+      "Ting Chen 0002",
+      "Aiguo Cui"
+    ]
   },
   {
     "title": "Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware",
@@ -11047,7 +11340,10 @@
     "description": "Kernel-Bypass LibOS Architecture",
     "language": "Rust",
     "name": "microsoft/demikernel",
-    "pushed_at": "2026-02-18T19:57:58Z"
+    "pushed_at": "2026-02-18T19:57:58Z",
+    "badges": [
+      "Available"
+    ]
   },
   {
     "title": "Random Walks on Huge Graphs at Cache Efficiency",
@@ -11944,7 +12240,22 @@
     "description": "A flexible and efficient deep neural network (DNN) compiler that generates high-performance executable from a DNN model ",
     "language": "C++",
     "name": "microsoft/nnfusion",
-    "pushed_at": "2024-09-19T06:31:57Z"
+    "pushed_at": "2024-09-19T06:31:57Z",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Siran Liu",
+      "Chengxiang Qi",
+      "Ying Cao",
+      "Chao Yang 0002",
+      "Weifang Hu",
+      "Xuanhua Shi",
+      "Fan Yang 0024",
+      "Mao Yang 0004"
+    ]
   },
   {
     "title": "Reducing Energy Bloat in Large Model Training",
@@ -11957,7 +12268,20 @@
     "description": "Measure and optimize the energy consumption of your AI applications!",
     "language": "Python",
     "name": "ml-energy/zeus",
-    "pushed_at": "2026-03-29T05:43:36Z"
+    "pushed_at": "2026-03-29T05:43:36Z",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Jae-Won Chung",
+      "Yile Gu",
+      "Insu Jang",
+      "Luoxi Meng",
+      "Nikhil Bansal 0001",
+      "Mosharaf Chowdhury"
+    ]
   },
   {
     "title": "Autobahn: Seamless high speed BFT",
@@ -12048,7 +12372,10 @@
     "description": "",
     "language": "C++",
     "name": "Nokia-Bell-Labs/proof-as-a-service",
-    "pushed_at": "2024-06-24T08:40:03Z"
+    "pushed_at": "2024-06-24T08:40:03Z",
+    "badges": [
+      "Artifacts Available + Functional + Reusable"
+    ]
   },
   {
     "title": "duet: Combining a Trustworthy Controller with a Confidential Computing Environment",
@@ -12061,7 +12388,10 @@
     "description": "",
     "language": "Python",
     "name": "Nokia-Bell-Labs/tee-duet",
-    "pushed_at": "2024-06-26T07:22:30Z"
+    "pushed_at": "2024-06-26T07:22:30Z",
+    "badges": [
+      "Artifacts Available + Functional + Reusable"
+    ]
   },
   {
     "title": "SNPGuard: Remote Attestation of SEV-SNP VMs Using Open Source Tools",
@@ -12074,7 +12404,10 @@
     "description": "Open Source Implemenation of Secure SEV-SNP bootup workflow",
     "language": "Rust",
     "name": "SNPGuard/snp-guard",
-    "pushed_at": "2024-11-03T19:32:28Z"
+    "pushed_at": "2024-11-03T19:32:28Z",
+    "badges": [
+      "Artifacts Available + Functional + Reusable"
+    ]
   },
   {
     "title": "Revisiting Rollbacks on Smart Contracts in TEE-protected Private Blockchains",
@@ -12139,7 +12472,10 @@
     "description": "",
     "language": "Shell",
     "name": "comet-cc/CCA-Evaluation",
-    "pushed_at": "2025-06-05T09:26:33Z"
+    "pushed_at": "2025-06-05T09:26:33Z",
+    "badges": [
+      "Artifacts Available + Functional + Reusable"
+    ]
   },
   {
     "title": "Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels",
@@ -12152,7 +12488,10 @@
     "description": "Artifact for our SysTeX'25 paper \"Wait a Cycle: Eroding Cryptographic Trust in Low-End TEEs via Timing Side Channels\"",
     "language": "C",
     "name": "dnet-tee/wait-a-cycle",
-    "pushed_at": "2025-06-17T15:55:24Z"
+    "pushed_at": "2025-06-17T15:55:24Z",
+    "badges": [
+      "Artifacts Available + Functional + Reusable"
+    ]
   },
   {
     "title": "End-to-End Confidentiality with SEV-SNP Leveraging In-Memory Storage",
@@ -12282,7 +12621,14 @@
     "description": "A fast and accurate disassembler",
     "language": "C++",
     "name": "GrammaTech/ddisasm",
-    "pushed_at": "2026-04-17T20:51:01Z"
+    "pushed_at": "2026-04-17T20:51:01Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Antonio Flores-Montoya",
+      "Eric M. Schulte"
+    ]
   },
   {
     "title": "Donky: Domain Keys - Efficient In-Process Isolation for RISC-V and x86",
@@ -12412,7 +12758,19 @@
     "description": "A high-performance tool for blockchain science and exploration",
     "language": "C++",
     "name": "citp/BlockSci",
-    "pushed_at": "2021-12-13T09:59:46Z"
+    "pushed_at": "2021-12-13T09:59:46Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Harry A. Kalodner",
+      "Malte Möser",
+      "Kevin Lee",
+      "Steven Goldfeder",
+      "Martin Plattner",
+      "Alishah Chator",
+      "Arvind Narayanan"
+    ]
   },
   {
     "title": "Chaperone: Real-time Locking and Loss Prevention for Smartphones",
@@ -12841,7 +13199,16 @@
     "description": "An open source implementation of Apple's Wi-Fi Password Sharing protocol in Python.",
     "language": "Python",
     "name": "seemoo-lab/openwifipass",
-    "pushed_at": "2021-04-13T08:27:59Z"
+    "pushed_at": "2021-04-13T08:27:59Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Milan Stute",
+      "Alexander Heinrich",
+      "Jannik Lorenz",
+      "Matthias Hollick"
+    ]
   },
   {
     "title": "MBA-Blast: Unveiling and Simplifying Mixed Boolean-Arithmetic Obfuscation",
@@ -13387,7 +13754,20 @@
     "description": "A generator of weird files (binary polyglots, near polyglots, polymocks...)",
     "language": "Python",
     "name": "corkami/mitra",
-    "pushed_at": "2024-12-22T20:29:32Z"
+    "pushed_at": "2024-12-22T20:29:32Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Ange Albertini",
+      "Thai Duong",
+      "Shay Gueron",
+      "Stefan Kölbl",
+      "Atul Luykx",
+      "Sophie Schmieg"
+    ]
   },
   {
     "title": "Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies",
@@ -15064,7 +15444,16 @@
     "description": "Trojan Source: Invisible Vulnerabilities",
     "language": "SCSS",
     "name": "nickboucher/trojan-source",
-    "pushed_at": "2023-04-26T08:22:53Z"
+    "pushed_at": "2023-04-26T08:22:53Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Nicholas Boucher",
+      "Ross Anderson 0001"
+    ]
   },
   {
     "title": "EnigMap: External-Memory Oblivious Map for Secure Enclaves",
@@ -17196,7 +17585,16 @@
     "description": "Alphanumeric+1 shellcoding tools for RISC-V",
     "language": "C++",
     "name": "RischardV/riscv-alphanumeric-shellcoding",
-    "pushed_at": "2019-08-12T17:56:57Z"
+    "pushed_at": "2019-08-12T17:56:57Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Hadrien Barral",
+      "Rémi Géraud-Stewart",
+      "Georges-Axel Jaloyan",
+      "David Naccache"
+    ]
   },
   {
     "title": "Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing",
@@ -17209,7 +17607,15 @@
     "description": "Fuzzing the Kernel Using Unicornafl and AFL++",
     "language": "Python",
     "name": "fgsect/unicorefuzz",
-    "pushed_at": "2023-01-02T18:12:54Z"
+    "pushed_at": "2023-01-02T18:12:54Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Dominik Christian Maier",
+      "Benedikt Radtke",
+      "Bastian Harren"
+    ]
   },
   {
     "title": "Automatic Wireless Protocol Reverse Engineering",
@@ -17222,7 +17628,14 @@
     "description": "Universal Radio Hacker: Investigate Wireless Protocols Like A Boss",
     "language": "Python",
     "name": "jopohl/urh",
-    "pushed_at": "2025-12-19T14:25:58Z"
+    "pushed_at": "2025-12-19T14:25:58Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Johannes Pohl",
+      "Andreas Noack"
+    ]
   },
   {
     "title": "Evaluation of the Executional Power in Windows using Return Oriented Programming",
@@ -17326,7 +17739,18 @@
     "description": "",
     "language": "Python",
     "name": "HexHive/scudo-exploitation",
-    "pushed_at": "2024-10-21T14:02:23Z"
+    "pushed_at": "2024-10-21T14:02:23Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Philipp Mao",
+      "Elias Valentin Boschung",
+      "Marcel Busch",
+      "Mathias Payer"
+    ]
   },
   {
     "title": "The Power of Words: Generating PowerShell Attacks from Natural Language",
@@ -17456,7 +17880,18 @@
     "description": " BlueToolkit is an extensible Bluetooth Classic vulnerability testing framework that helps uncover new and old vulnerabi",
     "language": "Jupyter Notebook",
     "name": "sgxgsx/BlueToolkit",
-    "pushed_at": "2026-03-05T20:53:27Z"
+    "pushed_at": "2026-03-05T20:53:27Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Vladyslav Zubkov",
+      "Tommaso Sacchetti",
+      "Daniele Antonioli",
+      "Martin Strohmeier"
+    ]
   },
   {
     "title": "Stealth BGP Hijacks with uRPF Filtering",
