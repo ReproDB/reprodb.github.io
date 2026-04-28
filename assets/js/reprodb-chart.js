@@ -189,6 +189,10 @@
     if (idx !== -1) Chart._all.splice(idx, 1);
   };
 
+  Chart.prototype.resize = function() {
+    // No-op: SVG charts scale via viewBox; provided for API compat.
+  };
+
   Chart.prototype.update = function() {
     this._listeners.forEach(function(f) { f(); });
     this._listeners = [];

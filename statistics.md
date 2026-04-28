@@ -570,8 +570,6 @@ html[data-theme="dark"] #geo-content { --tbl-border: #4a4f57; --row-alt: #23272d
       // Double rAF ensures layout reflow is complete before Chart.js measures canvas
       requestAnimationFrame(function() { requestAnimationFrame(function() {
         drawCharts();
-        // Force resize in case canvas dimensions were stale
-        chartInstances.forEach(function(c) { c.resize(); });
       }); });
     })
     .catch(function(e) {
