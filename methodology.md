@@ -16,7 +16,7 @@ This page explains how we collect, process, and analyze artifact evaluation data
 | **Conferences Tracked** | {{ site.data.summary.total_conferences }} ({{ site.data.summary.conferences_list | join: ", " }}) |
 | **Years Covered** | {{ site.data.summary.year_range }} |
 | **Total Authors** | {{ site.data.author_summary.total_authors }} |
-| **AE Committee Members** | {{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.recurring_members }} recurring) |
+| **AE Committee Members** | {{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.unique_members }} unique) |
 | **Last Updated** | {{ site.data.summary.last_updated }} |
 
 {% endif %}
