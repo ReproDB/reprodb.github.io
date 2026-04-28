@@ -100,10 +100,10 @@ This page aggregates institution ranking data by country and continent, showing 
 
 <h2>Trends Over Time</h2>
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:0 0 18px 0;">
-  <div style="position:relative; height:280px;"><canvas id="chartCountryTrend"></canvas></div>
-  <div style="position:relative; height:280px;"><canvas id="chartContinentTrend"></canvas></div>
-  <div style="position:relative; height:280px;"><canvas id="chartCountryBar"></canvas></div>
-  <div style="position:relative; height:280px;"><canvas id="chartContinentBar"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartCountryTrend"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartContinentTrend"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartCountryBar"></canvas></div>
+  <div style="position:relative; width:100%; height:280px;"><canvas id="chartContinentBar"></canvas></div>
 </div>
 
 </div><!-- /geo-content -->
@@ -542,7 +542,12 @@ This page aggregates institution ranking data by country and continent, showing 
       renderCountries();
       document.getElementById('geo-loading').style.display = 'none';
       document.getElementById('geo-content').style.display = '';
-      requestAnimationFrame(function() { drawCharts(); });
+      // Double rAF ensures layout reflow is complete before Chart.js measures canvas
+      requestAnimationFrame(function() { requestAnimationFrame(function() {
+        drawCharts();
+        // Force resize in case canvas dimensions were stale
+        chartInstances.forEach(function(c) { c.resize(); });
+      }); });
     })
     .catch(function(e) {
       document.getElementById('geo-loading').innerHTML =
