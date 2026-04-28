@@ -85,14 +85,18 @@
             y: { beginAtZero: true, title: { display: true, text: 'Members' } },
             x: { ticks: { maxRotation: 45, minRotation: 0 } }
           }
+        }
+      });
+    }
+
+    // --- Members by Continent (doughnut / pie) ---
     var continentKey = AREA === 'overall' ? 'overall' : AREA;
     var continents = (data.by_continent || {})[continentKey] || [];
     new Chart(document.getElementById('committeeContinentsChart'), {
-      type: 'bar',
+      type: 'doughnut',
       data: {
         labels: continents.map(function(c) { return c.name; }),
         datasets: [{
-          label: 'Members',
           data: continents.map(function(c) { return c.count; }),
           backgroundColor: PALETTE.slice(0, continents.length),
           borderColor: PALETTE_BORDER.slice(0, continents.length),
@@ -100,11 +104,22 @@
         }]
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           title: { display: true, text: 'AE Committee Members by Continent' },
-          legend: { display: false }
-        },
-        scales: { y: { beginAtZero: true, title: { display: true, text: 'Members' } }, x: { ticks: { maxRotation: 45, minRotation: 0 } } }
+          legend: { position: 'right', labels: { boxWidth: 14, padding: 10, font: { size: 12 } } },
+          datalabels: {
+            display: true,
+            color: '#333',
+            font: { weight: 'bold', size: 11 },
+            formatter: function(value, ctx) {
+              var total = ctx.dataset.data.reduce(function(a, b) { return a + b; }, 0);
+              var pct = (value / total * 100).toFixed(1);
+              return pct > 3 ? pct + '%' : '';
+            }
+          }
+        }
       }
     });
 
