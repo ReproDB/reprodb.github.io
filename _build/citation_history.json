@@ -112,9 +112,9 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 72,
+        "cited_by_count": 90,
         "citations_openalex": 72,
-        "citations_semantic_scholar": null
+        "citations_semantic_scholar": 90
       }
     ]
   },
@@ -197,9 +197,9 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 12,
+        "cited_by_count": 8,
         "citations_openalex": 8,
-        "citations_semantic_scholar": 12
+        "citations_semantic_scholar": null
       }
     ]
   },
@@ -3257,8 +3257,8 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 0,
-        "citations_openalex": 0,
+        "cited_by_count": 7,
+        "citations_openalex": 7,
         "citations_semantic_scholar": null
       }
     ]
@@ -3937,8 +3937,8 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 3,
-        "citations_openalex": 3,
+        "cited_by_count": 13,
+        "citations_openalex": 13,
         "citations_semantic_scholar": null
       }
     ]
@@ -3954,8 +3954,8 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 99,
-        "citations_openalex": 99,
+        "cited_by_count": 100,
+        "citations_openalex": 100,
         "citations_semantic_scholar": null
       }
     ]
@@ -4838,8 +4838,8 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 934,
-        "citations_openalex": 934,
+        "cited_by_count": 938,
+        "citations_openalex": 938,
         "citations_semantic_scholar": null
       }
     ]
@@ -6096,8 +6096,8 @@
     "snapshots": [
       {
         "date": "2026-04-28",
-        "cited_by_count": 85,
-        "citations_openalex": 85,
+        "cited_by_count": 86,
+        "citations_openalex": 86,
         "citations_semantic_scholar": null
       }
     ]
@@ -8937,6 +8937,40 @@
         "date": "2026-04-28",
         "cited_by_count": 8,
         "citations_openalex": 8,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SC/2021/d125484d86b4": {
+    "meta": {
+      "title": "DeltaFS: A Scalable No-Ground-Truth Filesystem For Massively-Parallel Computing",
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "paper_doi": "10.1145/3458817.3476148"
+    },
+    "snapshots": [
+      {
+        "date": "2026-04-28",
+        "cited_by_count": 5,
+        "citations_openalex": 5,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SC/2021/eb4866692c23": {
+    "meta": {
+      "title": "SEEC: Stochastic Escape Express Channel",
+      "conference": "SC",
+      "year": 2021,
+      "area": "systems",
+      "paper_doi": "10.1145/3458817.3476140"
+    },
+    "snapshots": [
+      {
+        "date": "2026-04-28",
+        "cited_by_count": 13,
+        "citations_openalex": 13,
         "citations_semantic_scholar": null
       }
     ]

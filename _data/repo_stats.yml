@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1344
-  total_stars: 126724
-  total_forks: 16476
+  github_repos: 1476
+  total_stars: 136386
+  total_forks: 18102
   max_stars: 14349
   max_forks: 1854
-  zenodo_repos: 902
-  total_views: 238089
-  total_downloads: 194646
-  avg_stars: 94.3
+  zenodo_repos: 834
+  total_views: 227617
+  total_downloads: 187078
+  avg_stars: 92.4
   avg_forks: 12.3
-  last_updated: 2026-04-28 22:42:21 UTC
+  last_updated: 2026-04-28 23:13:11 UTC
 by_conference:
 - name: ACSAC
-  github_repos: 205
-  total_stars: 3090
-  total_forks: 746
-  avg_stars: 15.1
+  github_repos: 204
+  total_stars: 3056
+  total_forks: 744
+  avg_stars: 15.0
   avg_forks: 3.6
   max_stars: 566
   max_forks: 161
@@ -39,11 +39,11 @@ by_conference:
     avg_stars: 32.9
     avg_forks: 8.3
   - year: 2020
-    github_repos: 18
-    total_stars: 935
-    total_forks: 241
-    avg_stars: 51.9
-    avg_forks: 13.4
+    github_repos: 17
+    total_stars: 899
+    total_forks: 238
+    avg_stars: 52.9
+    avg_forks: 14.0
   - year: 2021
     github_repos: 16
     total_stars: 223
@@ -70,8 +70,8 @@ by_conference:
     avg_forks: 0.4
   - year: 2025
     github_repos: 47
-    total_stars: 79
-    total_forks: 14
+    total_stars: 81
+    total_forks: 15
     avg_stars: 1.7
     avg_forks: 0.3
   top_repos:
@@ -173,13 +173,13 @@ by_conference:
     - Christopher Kruegel
     - Taesoo Kim
 - name: ATC
-  github_repos: 108
-  total_stars: 4815
-  total_forks: 833
-  avg_stars: 44.6
-  avg_forks: 7.7
+  github_repos: 107
+  total_stars: 4786
+  total_forks: 830
+  avg_stars: 44.7
+  avg_forks: 7.8
   max_stars: 1652
-  max_forks: 196
+  max_forks: 197
   years:
   - year: 2022
     github_repos: 37
@@ -188,16 +188,16 @@ by_conference:
     avg_stars: 24.6
     avg_forks: 5.1
   - year: 2023
-    github_repos: 35
-    total_stars: 3123
-    total_forks: 561
-    avg_stars: 89.2
-    avg_forks: 16.0
+    github_repos: 33
+    total_stars: 3090
+    total_forks: 556
+    avg_stars: 93.6
+    avg_forks: 16.8
   - year: 2024
-    github_repos: 36
-    total_stars: 783
-    total_forks: 85
-    avg_stars: 21.8
+    github_repos: 37
+    total_stars: 787
+    total_forks: 87
+    avg_stars: 21.3
     avg_forks: 2.4
   top_repos:
   - title: 'Portunus: Re-imagining Access Control in Distributed Systems'
@@ -206,7 +206,7 @@ by_conference:
     year: 2023
     area: systems
     stars: 1652
-    forks: 196
+    forks: 197
     description: 'CIRCL: Cloudflare Interoperable Reusable Cryptographic Library'
     language: Go
     name: cloudflare/circl
@@ -324,13 +324,13 @@ by_conference:
     - functional
     - reproduced
 - name: EUROSYS
-  github_repos: 76
-  total_stars: 3048
-  total_forks: 530
-  avg_stars: 40.1
-  avg_forks: 7.0
+  github_repos: 111
+  total_stars: 3763
+  total_forks: 935
+  avg_stars: 33.9
+  avg_forks: 8.4
   max_stars: 596
-  max_forks: 52
+  max_forks: 274
   years:
   - year: 2021
     github_repos: 21
@@ -339,17 +339,29 @@ by_conference:
     avg_stars: 48.0
     avg_forks: 7.1
   - year: 2022
-    github_repos: 32
-    total_stars: 1615
-    total_forks: 293
-    avg_stars: 50.5
-    avg_forks: 9.2
+    github_repos: 40
+    total_stars: 1685
+    total_forks: 307
+    avg_stars: 42.1
+    avg_forks: 7.7
+  - year: 2023
+    github_repos: 14
+    total_stars: 450
+    total_forks: 346
+    avg_stars: 32.1
+    avg_forks: 24.7
+  - year: 2024
+    github_repos: 8
+    total_stars: 172
+    total_forks: 37
+    avg_stars: 21.5
+    avg_forks: 4.6
   - year: 2025
-    github_repos: 23
-    total_stars: 425
-    total_forks: 87
-    avg_stars: 18.5
-    avg_forks: 3.8
+    github_repos: 28
+    total_stars: 448
+    total_forks: 95
+    avg_stars: 16.0
+    avg_forks: 3.4
   top_repos:
   - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
     url: https://github.com/andromeda/pash
@@ -460,39 +472,159 @@ by_conference:
     - available
     - functional
 - name: NDSS
-  github_repos: 0
-  total_stars: 0
-  total_forks: 0
-  avg_stars: 0
-  avg_forks: 0
-  max_stars: 0
-  max_forks: 0
-  years: []
-  top_repos: []
+  github_repos: 46
+  total_stars: 450
+  total_forks: 134
+  avg_stars: 9.8
+  avg_forks: 2.9
+  max_stars: 157
+  max_forks: 90
+  years:
+  - year: 2024
+    github_repos: 17
+    total_stars: 303
+    total_forks: 107
+    avg_stars: 17.8
+    avg_forks: 6.3
+  - year: 2025
+    github_repos: 11
+    total_stars: 101
+    total_forks: 22
+    avg_stars: 9.2
+    avg_forks: 2.0
+  - year: 2026
+    github_repos: 18
+    total_stars: 46
+    total_forks: 5
+    avg_stars: 2.6
+    avg_forks: 0.3
+  top_repos:
+  - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
+      on IoT Devices'
+    url: https://github.com/IoTAccessControl/MCU-Token
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 157
+    forks: 90
+    description: A secure IoT authentication framework based on hardware fingerprinting
+    language: C
+    name: IoTAccessControl/MCU-Token
+    pushed_at: '2025-03-01T13:16:21Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Yue Xiao
+    - Yi He 0020
+    - Xiaoli Zhang 0003
+    - Qian Wang 0002
+    - Renjie Xie
+    - Kun Sun 0001
+    - Ke Xu 0002
+    - Qi Li 0002
+  - title: 'Attributions for ML-based ICS Anomaly Detection: From Theory to Practice'
+    url: https://github.com/pwwl/ics-anomaly-attribution
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 22
+    forks: 3
+    description: 'Library of ML-based attribution methods for ICS anomaly detection.
+      From the NDSS 2024 paper: "Attributions for ML-based '
+    language: Python
+    name: pwwl/ics-anomaly-attribution
+    pushed_at: '2023-08-31T19:27:44Z'
+    badges:
+    - available
+    - functional
+    authors:
+    - Clement Fung
+    - Eric Zeng 0001
+    - Lujo Bauer
+  - title: 'zRA: Proofs of Attestation based on zkSNARKs'
+    url: https://github.com/zero-savvy/zk-remote-attestation
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 22
+    forks: 1
+    description: Implementation of zRA protocol, a non-interactive method for constructing
+      a transparent remote attestation (RA) protocol
+    language: Circom
+    name: zero-savvy/zk-remote-attestation
+    pushed_at: '2025-06-27T19:45:46Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'SigmaDiff: Semantics-Aware Deep Graph Matching for Pseudocode Diffing'
+    url: https://github.com/yijiufly/SigmaDiff
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 20
+    forks: 3
+    description: 'Implementation of the NDSS''24 paper "SigmaDiff: Semantics-Aware
+      Deep Graph Matching for Pseudocode Diffing"'
+    language: C
+    name: yijiufly/SigmaDiff
+    pushed_at: '2023-09-07T22:18:31Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Lian Gao
+    - Yu Qu
+    - Sheng Yu
+    - Yue Duan
+    - Heng Yin 0001
+  - title: 'EvoCrawl: Exploring Web Application Code and State using Evolutionary
+      Search'
+    url: https://github.com/dlgroupuoft/evocrawl
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 20
+    forks: 3
+    description: ''
+    language: JavaScript
+    name: dlgroupuoft/evocrawl
+    pushed_at: '2026-01-19T17:28:05Z'
+    badges:
+    - available
+    - functional
+    authors:
+    - Xiangyu Guo
+    - Akshay Kawlay
+    - Eric Liu
+    - David Lie
 - name: OSDI
   github_repos: 138
-  total_stars: 55303
-  total_forks: 6994
-  avg_stars: 400.7
+  total_stars: 55304
+  total_forks: 6993
+  avg_stars: 400.8
   avg_forks: 50.7
   max_stars: 14349
   max_forks: 1854
   years:
   - year: 2020
     github_repos: 34
-    total_stars: 27976
-    total_forks: 3372
-    avg_stars: 822.8
-    avg_forks: 99.2
+    total_stars: 27977
+    total_forks: 3371
+    avg_stars: 822.9
+    avg_forks: 99.1
   - year: 2021
     github_repos: 18
-    total_stars: 802
+    total_stars: 801
     total_forks: 171
-    avg_stars: 44.6
+    avg_stars: 44.5
     avg_forks: 9.5
   - year: 2022
     github_repos: 31
-    total_stars: 22593
+    total_stars: 22594
     total_forks: 2920
     avg_stars: 728.8
     avg_forks: 94.2
@@ -623,37 +755,37 @@ by_conference:
     - functional
     - reproduced
 - name: PETS
-  github_repos: 294
-  total_stars: 21998
-  total_forks: 2087
-  avg_stars: 74.8
+  github_repos: 291
+  total_stars: 21970
+  total_forks: 2075
+  avg_stars: 75.5
   avg_forks: 7.1
-  max_stars: 12894
+  max_stars: 12895
   max_forks: 641
   years:
   - year: 2020
-    github_repos: 15
-    total_stars: 3489
-    total_forks: 470
-    avg_stars: 232.6
-    avg_forks: 31.3
+    github_repos: 14
+    total_stars: 3461
+    total_forks: 457
+    avg_stars: 247.2
+    avg_forks: 32.6
   - year: 2021
     github_repos: 21
-    total_stars: 13144
+    total_stars: 13145
     total_forks: 722
-    avg_stars: 625.9
+    avg_stars: 626.0
     avg_forks: 34.4
   - year: 2022
     github_repos: 34
     total_stars: 3897
-    total_forks: 594
+    total_forks: 595
     avg_stars: 114.6
     avg_forks: 17.5
   - year: 2023
     github_repos: 39
-    total_stars: 560
+    total_stars: 559
     total_forks: 111
-    avg_stars: 14.4
+    avg_stars: 14.3
     avg_forks: 2.8
   - year: 2024
     github_repos: 59
@@ -662,16 +794,16 @@ by_conference:
     avg_stars: 7.1
     avg_forks: 1.5
   - year: 2025
-    github_repos: 91
+    github_repos: 90
     total_stars: 451
     total_forks: 94
     avg_stars: 5.0
     avg_forks: 1.0
   - year: 2026
-    github_repos: 35
+    github_repos: 34
     total_stars: 36
     total_forks: 5
-    avg_stars: 1.0
+    avg_stars: 1.1
     avg_forks: 0.1
   top_repos:
   - title: Who Can Find My Devices? Security and Privacy of Apple's Crowd-Sourced
@@ -680,7 +812,7 @@ by_conference:
     conference: PETS
     year: 2021
     area: security
-    stars: 12894
+    stars: 12895
     forks: 641
     description: Build your own 'AirTags' 🏷 today! Framework for tracking personal
       Bluetooth devices via Apple's massive Find My network.
@@ -698,7 +830,7 @@ by_conference:
     year: 2020
     area: security
     stars: 3310
-    forks: 421
+    forks: 422
     description: Google's differential privacy libraries.
     language: Go
     name: google/differential-privacy
@@ -716,7 +848,7 @@ by_conference:
     year: 2022
     area: security
     stars: 3310
-    forks: 421
+    forks: 422
     description: Google's differential privacy libraries.
     language: Go
     name: google/differential-privacy
@@ -736,7 +868,7 @@ by_conference:
     description: ''
     language: C++
     name: mpc-msri/EzPC
-    pushed_at: '2024-06-19T14:48:33Z'
+    pushed_at: '2026-04-28T02:47:56Z'
     authors:
     - Kanav Gupta
     - Deepak Kumaraswamy
@@ -760,20 +892,20 @@ by_conference:
     - Jocelyn Wang
     - Sophie Eng
 - name: SOSP
-  github_repos: 105
-  total_stars: 6677
-  total_forks: 1295
-  avg_stars: 63.6
+  github_repos: 104
+  total_stars: 6622
+  total_forks: 1281
+  avg_stars: 63.7
   avg_forks: 12.3
   max_stars: 1219
   max_forks: 166
   years:
   - year: 2019
-    github_repos: 19
-    total_stars: 1404
-    total_forks: 400
-    avg_stars: 73.9
-    avg_forks: 21.1
+    github_repos: 18
+    total_stars: 1348
+    total_forks: 384
+    avg_stars: 74.9
+    avg_forks: 21.3
   - year: 2021
     github_repos: 34
     total_stars: 2254
@@ -783,14 +915,14 @@ by_conference:
   - year: 2023
     github_repos: 28
     total_stars: 1149
-    total_forks: 208
+    total_forks: 209
     avg_stars: 41.0
-    avg_forks: 7.4
+    avg_forks: 7.5
   - year: 2024
     github_repos: 24
-    total_stars: 1870
-    total_forks: 297
-    avg_stars: 77.9
+    total_stars: 1871
+    total_forks: 298
+    avg_stars: 78.0
     avg_forks: 12.4
   top_repos:
   - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
@@ -852,12 +984,12 @@ by_conference:
     conference: SOSP
     year: 2024
     area: systems
-    stars: 353
-    forks: 44
+    stars: 354
+    forks: 45
     description: Measure and optimize the energy consumption of your AI applications!
     language: Python
     name: ml-energy/zeus
-    pushed_at: '2026-03-29T05:43:36Z'
+    pushed_at: '2026-04-28T01:22:52Z'
     badges:
     - Available
     - Functional
@@ -989,13 +1121,13 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 378
-  total_stars: 18116
-  total_forks: 2828
-  avg_stars: 47.9
-  avg_forks: 7.5
-  max_stars: 1392
-  max_forks: 270
+  github_repos: 429
+  total_stars: 24326
+  total_forks: 3804
+  avg_stars: 56.7
+  avg_forks: 8.9
+  max_stars: 4217
+  max_forks: 523
   years:
   - year: 2020
     github_repos: 24
@@ -1004,36 +1136,60 @@ by_conference:
     avg_stars: 158.3
     avg_forks: 26.8
   - year: 2021
-    github_repos: 25
-    total_stars: 2051
-    total_forks: 281
-    avg_stars: 82.0
-    avg_forks: 11.2
+    github_repos: 23
+    total_stars: 2017
+    total_forks: 273
+    avg_stars: 87.7
+    avg_forks: 11.9
   - year: 2022
-    github_repos: 88
-    total_stars: 5098
-    total_forks: 735
-    avg_stars: 57.9
-    avg_forks: 8.4
+    github_repos: 89
+    total_stars: 5670
+    total_forks: 837
+    avg_stars: 63.7
+    avg_forks: 9.4
   - year: 2023
-    github_repos: 115
-    total_stars: 4499
-    total_forks: 814
-    avg_stars: 39.1
-    avg_forks: 7.1
+    github_repos: 117
+    total_stars: 4535
+    total_forks: 817
+    avg_stars: 38.8
+    avg_forks: 7.0
   - year: 2024
-    github_repos: 124
-    total_stars: 2665
-    total_forks: 355
-    avg_stars: 21.5
-    avg_forks: 2.9
+    github_repos: 123
+    total_stars: 2608
+    total_forks: 339
+    avg_stars: 21.2
+    avg_forks: 2.8
   - year: 2025
-    github_repos: 2
-    total_stars: 4
-    total_forks: 0
-    avg_stars: 2.0
-    avg_forks: 0.0
+    github_repos: 35
+    total_stars: 4854
+    total_forks: 640
+    avg_stars: 138.7
+    avg_forks: 18.3
+  - year: 2026
+    github_repos: 18
+    total_stars: 843
+    total_forks: 255
+    avg_stars: 46.8
+    avg_forks: 14.2
   top_repos:
+  - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
+    url: https://github.com/richzhang/PerceptualSimilarity
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 4217
+    forks: 523
+    description: LPIPS metric. pip install lpips
+    language: Python
+    name: richzhang/PerceptualSimilarity
+    pushed_at: '2024-07-02T17:30:14Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Junhua Lin
+    - Marc Juarez
   - title: 'BlockSci: Design and applications of a blockchain analysis platform'
     url: https://github.com/citp/BlockSci
     conference: USENIXSEC
@@ -1060,7 +1216,7 @@ by_conference:
     conference: USENIXSEC
     year: 2023
     area: security
-    stars: 1282
+    stars: 1281
     forks: 268
     description: 'Trojan Source: Invisible Vulnerabilities'
     language: SCSS
@@ -1078,8 +1234,8 @@ by_conference:
     conference: USENIXSEC
     year: 2022
     area: security
-    stars: 1277
-    forks: 83
+    stars: 1278
+    forks: 82
     description: A generator of weird files (binary polyglots, near polyglots, polymocks...)
     language: Python
     name: corkami/mitra
@@ -1116,36 +1272,20 @@ by_conference:
     - Alexander Heinrich
     - Jannik Lorenz
     - Matthias Hollick
-  - title: Datalog Disassembly
-    url: https://github.com/GrammaTech/ddisasm
-    conference: USENIXSEC
-    year: 2020
-    area: security
-    stars: 748
-    forks: 68
-    description: A fast and accurate disassembler
-    language: C++
-    name: GrammaTech/ddisasm
-    pushed_at: '2026-04-17T20:51:01Z'
-    badges:
-    - Artifact Evaluated
-    authors:
-    - Antonio Flores-Montoya
-    - Eric M. Schulte
 - name: WOOT
-  github_repos: 23
-  total_stars: 13617
-  total_forks: 1149
-  avg_stars: 592.0
-  avg_forks: 50.0
-  max_stars: 12376
+  github_repos: 29
+  total_stars: 16049
+  total_forks: 1292
+  avg_stars: 553.4
+  avg_forks: 44.6
+  max_stars: 12381
   max_forks: 997
   years:
   - year: 2019
     github_repos: 4
-    total_stars: 12753
+    total_stars: 12758
     total_forks: 1048
-    avg_stars: 3188.2
+    avg_stars: 3189.5
     avg_forks: 262.0
   - year: 2021
     github_repos: 1
@@ -1160,30 +1300,30 @@ by_conference:
     avg_stars: 8.0
     avg_forks: 3.7
   - year: 2023
-    github_repos: 1
-    total_stars: 3
-    total_forks: 1
-    avg_stars: 3.0
-    avg_forks: 1.0
+    github_repos: 4
+    total_stars: 436
+    total_forks: 30
+    avg_stars: 109.0
+    avg_forks: 7.5
   - year: 2024
-    github_repos: 6
-    total_stars: 97
-    total_forks: 16
-    avg_stars: 16.2
-    avg_forks: 2.7
-  - year: 2025
     github_repos: 8
-    total_stars: 721
-    total_forks: 73
-    avg_stars: 90.1
-    avg_forks: 9.1
+    total_stars: 2090
+    total_forks: 131
+    avg_stars: 261.2
+    avg_forks: 16.4
+  - year: 2025
+    github_repos: 9
+    total_stars: 722
+    total_forks: 72
+    avg_stars: 80.2
+    avg_forks: 8.0
   top_repos:
   - title: Automatic Wireless Protocol Reverse Engineering
     url: https://github.com/jopohl/urh/releases/tag/v2.7.3
     conference: WOOT
     year: 2019
     area: security
-    stars: 12376
+    stars: 12381
     forks: 997
     description: 'Universal Radio Hacker: Investigate Wireless Protocols Like A Boss'
     language: Python
@@ -1194,6 +1334,23 @@ by_conference:
     authors:
     - Johannes Pohl
     - Andreas Noack
+  - title: Introduction to Procedural Debugging through Binary Libification
+    url: https://github.com/endrazine/wcc
+    conference: WOOT
+    year: 2024
+    area: security
+    stars: 1987
+    forks: 115
+    description: The Witchcraft Compiler Collection
+    language: C
+    name: endrazine/wcc
+    pushed_at: '2026-04-25T10:18:02Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Jonathan Brossard
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -1201,7 +1358,7 @@ by_conference:
     year: 2025
     area: security
     stars: 684
-    forks: 70
+    forks: 69
     description: ' BlueToolkit is an extensible Bluetooth Classic vulnerability testing
       framework that helps uncover new and old vulnerabi'
     language: Jupyter Notebook
@@ -1216,6 +1373,19 @@ by_conference:
     - Tommaso Sacchetti
     - Daniele Antonioli
     - Martin Strohmeier
+  - title: 'CustomProcessingUnit: Reverse Engineering and Customization of Intel Microcode'
+    url: https://github.com/pietroborrello/CustomProcessingUnit
+    conference: WOOT
+    year: 2023
+    area: security
+    stars: 412
+    forks: 27
+    description: The first analysis framework for CPU microcode
+    language: C
+    name: pietroborrello/CustomProcessingUnit
+    pushed_at: '2023-03-13T16:54:52Z'
+    badges:
+    - ORO
   - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
     url: https://github.com/fgsect/unicorefuzz
     conference: WOOT
@@ -1233,44 +1403,6 @@ by_conference:
     - Dominik Christian Maier
     - Benedikt Radtke
     - Bastian Harren
-  - title: Exploiting Android’s Hardened Memory Allocator
-    url: https://github.com/HexHive/scudo-exploitation/tree/woot24
-    conference: WOOT
-    year: 2024
-    area: security
-    stars: 54
-    forks: 6
-    description: ''
-    language: Python
-    name: HexHive/scudo-exploitation
-    pushed_at: '2024-10-21T14:02:23Z'
-    badges:
-    - 'Badges: Available'
-    - Functional
-    - Reproduced
-    authors:
-    - Philipp Mao
-    - Elias Valentin Boschung
-    - Marcel Busch
-    - Mathias Payer
-  - title: 'RISC-V: #AlphanumericShellcoding'
-    url: https://github.com/RischardV/riscv-alphanumeric-shellcoding
-    conference: WOOT
-    year: 2019
-    area: security
-    stars: 36
-    forks: 6
-    description: Alphanumeric+1 shellcoding tools for RISC-V
-    language: C++
-    name: RischardV/riscv-alphanumeric-shellcoding
-    pushed_at: '2019-08-12T17:56:57Z'
-    badges:
-    - Artifact Evaluated
-    authors:
-    - Hadrien Barral
-    - Rémi Géraud-Stewart
-    - Georges-Axel Jaloyan
-    - David Naccache
 by_year:
 - year: 2017
   github_repos: 5
@@ -1289,66 +1421,66 @@ by_year:
   max_stars: 566
   max_forks: 161
 - year: 2019
-  github_repos: 38
-  total_stars: 14650
-  total_forks: 1572
-  avg_stars: 385.5
-  avg_forks: 41.4
-  max_stars: 12376
+  github_repos: 37
+  total_stars: 14599
+  total_forks: 1556
+  avg_stars: 394.6
+  avg_forks: 42.1
+  max_stars: 12381
   max_forks: 997
 - year: 2020
-  github_repos: 91
-  total_stars: 36199
-  total_forks: 4726
-  avg_stars: 397.8
-  avg_forks: 51.9
+  github_repos: 89
+  total_stars: 36136
+  total_forks: 4709
+  avg_stars: 406.0
+  avg_forks: 52.9
   max_stars: 14349
   max_forks: 1854
 - year: 2021
-  github_repos: 136
-  total_stars: 19501
-  total_forks: 1754
-  avg_stars: 143.4
-  avg_forks: 12.9
-  max_stars: 12894
+  github_repos: 134
+  total_stars: 19467
+  total_forks: 1746
+  avg_stars: 145.3
+  avg_forks: 13.0
+  max_stars: 12895
   max_forks: 641
 - year: 2022
-  github_repos: 258
-  total_stars: 34381
-  total_forks: 4790
-  avg_stars: 133.3
-  avg_forks: 18.6
+  github_repos: 267
+  total_stars: 35024
+  total_forks: 4907
+  avg_stars: 131.2
+  avg_forks: 18.4
   max_stars: 14349
   max_forks: 1854
 - year: 2023
-  github_repos: 270
-  total_stars: 11231
-  total_forks: 1998
-  avg_stars: 41.6
-  avg_forks: 7.4
+  github_repos: 287
+  total_stars: 12116
+  total_forks: 2372
+  avg_stars: 42.2
+  avg_forks: 8.3
   max_stars: 1652
-  max_forks: 268
+  max_forks: 274
 - year: 2024
-  github_repos: 316
-  total_stars: 8176
-  total_forks: 1122
-  avg_stars: 25.9
-  avg_forks: 3.6
-  max_stars: 1000
+  github_repos: 343
+  total_stars: 10592
+  total_forks: 1368
+  avg_stars: 30.9
+  avg_forks: 4.0
+  max_stars: 1987
   max_forks: 166
 - year: 2025
-  github_repos: 176
-  total_stars: 1691
-  total_forks: 269
-  avg_stars: 9.6
-  avg_forks: 1.5
-  max_stars: 684
-  max_forks: 70
+  github_repos: 225
+  total_stars: 6668
+  total_forks: 939
+  avg_stars: 29.6
+  avg_forks: 4.2
+  max_stars: 4217
+  max_forks: 523
 - year: 2026
-  github_repos: 41
-  total_stars: 41
-  total_forks: 7
-  avg_stars: 1.0
-  avg_forks: 0.2
-  max_stars: 8
-  max_forks: 2
+  github_repos: 76
+  total_stars: 930
+  total_forks: 267
+  avg_stars: 12.2
+  avg_forks: 3.5
+  max_stars: 506
+  max_forks: 181
