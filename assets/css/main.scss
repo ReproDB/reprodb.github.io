@@ -280,7 +280,8 @@ a[href="#footer"] {
   .page__content,
   .archive,
   .archive__item-excerpt,
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6,
+  .page__title a {
     color: #d6d9dc !important;
   }
   .page__content a,
