@@ -145,20 +145,19 @@ Artifact evaluation committee members at {{ conf_display }}, ranked by number of
 
 <table id="topReposTable" class="conf-tbl">
 <thead>
-<tr><th>#</th><th>Repository</th><th>Authors</th><th>GitHub Org</th><th>Year</th><th>Stars</th><th>Forks</th><th>Badges</th><th>Last Active</th></tr>
+<tr><th>#</th><th>Repository</th><th>Authors</th><th>Year</th><th>Stars</th><th>Forks</th><th>Badges</th><th>Last Active</th></tr>
 </thead>
 <tbody>
 {% for repo in conf_repo.top_repos %}
-<tr>
+<tr data-repo-title="{{ repo.title | escape }}">
 <td>{{ forloop.index }}</td>
 <td><a href="{{ repo.url }}">{{ repo.title | truncate: 55 }}</a></td>
-<td>{{ repo.authors | default: "—" }}</td>
-<td><a href="https://github.com/{{ repo.github_org }}">{{ repo.github_org }}</a></td>
+<td class="repo-authors"><em>loading…</em></td>
 <td>{{ repo.year }}</td>
 <td>{{ repo.stars | default: 0 }}</td>
 <td>{{ repo.forks | default: 0 }}</td>
-<td>{{ repo.badges | default: "—" }}</td>
-<td>{{ repo.last_active | default: "—" }}</td>
+<td class="repo-badges"><em>loading…</em></td>
+<td>{% if repo.pushed_at %}{{ repo.pushed_at | date: "%Y-%m-%d" }}{% else %}—{% endif %}</td>
 </tr>
 {% endfor %}
 </tbody>
@@ -572,15 +571,51 @@ document.addEventListener('DOMContentLoaded', function() {
   Promise.all([
     fetch(dataBase + confLower + '_combined_rankings.json').then(function(r) { return r.json(); }),
     fetch(dataBase + confLower + '_institution_rankings.json').then(function(r) { return r.json(); }),
-    fetch(dataBase + 'ae_members.json').then(function(r) { return r.json(); })
+    fetch(dataBase + 'ae_members.json').then(function(r) { return r.json(); }),
+    fetch(dataBase + 'paper_authors_map.json').then(function(r) { return r.json(); })
   ]).then(function(results) {
     initAuthors(results[0]);
     initInstitutions(results[1]);
     initAE(results[2]);
+    enrichTopRepos(results[3]);
   }).catch(function(e) {
     ['authorLoading','instLoading','aeLoading'].forEach(function(id) {
       document.getElementById(id).textContent = 'Error loading data: ' + e.message;
     });
   });
+
+  /* ── Enrich top repos table with authors & badges from paper_authors_map ── */
+  function enrichTopRepos(paperMap) {
+    var rows = document.querySelectorAll('#topReposTable tbody tr[data-repo-title]');
+    if (!rows.length || !paperMap) return;
+    // Build a title lookup (normalized)
+    var byTitle = {};
+    for (var i = 0; i < paperMap.length; i++) {
+      var nt = (paperMap[i].normalized_title || paperMap[i].title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      byTitle[nt] = paperMap[i];
+    }
+    rows.forEach(function(row) {
+      var title = row.getAttribute('data-repo-title') || '';
+      var norm = title.toLowerCase().replace(/[^a-z0-9]/g, '');
+      var match = byTitle[norm];
+      var authCell = row.querySelector('.repo-authors');
+      var badgeCell = row.querySelector('.repo-badges');
+      if (match) {
+        var authors = (match.authors || []).slice(0, 3);
+        if (authCell) {
+          authCell.innerHTML = authors.map(function(a) {
+            return '<a href="' + BASE + '/author.html?name=' + encodeURIComponent(a) + '">' + esc(a) + '</a>';
+          }).join(', ') + (match.authors.length > 3 ? ' <em>et al.</em>' : '');
+        }
+        var badges = match.badges || [];
+        if (badgeCell) {
+          badgeCell.textContent = badges.length > 0 ? badges.join(', ') : '—';
+        }
+      } else {
+        if (authCell) authCell.textContent = '—';
+        if (badgeCell) badgeCell.textContent = '—';
+      }
+    });
+  }
 })();
 </script>
