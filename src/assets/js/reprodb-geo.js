@@ -203,9 +203,11 @@
       },
       options: {
         responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'nearest', intersect: true },
         plugins: {
-          title: { display: true, text: 'Artifact Share by Continent' },
-          legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }
+          title: { display: false },
+          legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+          tooltip: { enabled: true }
         }
       }
     }));
@@ -226,7 +228,8 @@
       },
       options: {
         indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'Continent Breakdown' }, legend: { position: 'bottom', labels: { boxWidth: 12 } } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: { title: { display: false }, legend: { position: 'bottom', labels: { boxWidth: 12 } }, tooltip: { enabled: true } },
         scales: { x: { stacked: true, beginAtZero: true }, y: { stacked: true } }
       }
     }));
@@ -246,7 +249,8 @@
       },
       options: {
         indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'Top 15 Countries by Activity' }, legend: { position: 'bottom', labels: { boxWidth: 12 } } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: { title: { display: false }, legend: { position: 'bottom', labels: { boxWidth: 12 } }, tooltip: { enabled: true } },
         scales: { x: { stacked: true, beginAtZero: true }, y: { stacked: true } }
       }
     }));
@@ -275,10 +279,11 @@
       },
       options: {
         responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'nearest', intersect: true },
         plugins: {
-          title: { display: true, text: 'Reproducibility Rate vs. Volume (bubble = #institutions)' },
+          title: { display: false },
           legend: { display: false },
-          tooltip: { callbacks: { label: function(ctx) { var p = ctx.raw; return p.label + ': ' + p.y + '% repro, ' + p.x + ' artifacts, ' + Math.round(p.r*p.r/9) + ' inst'; } } }
+          tooltip: { enabled: true, callbacks: { label: function(ctx) { var p = ctx.raw; return p.label + ': ' + p.y + '% repro, ' + p.x + ' artifacts, ' + Math.round(p.r*p.r/9) + ' inst'; } } }
         },
         scales: {
           x: { title: { display: true, text: 'Total Artifacts' }, beginAtZero: true },
@@ -303,7 +308,8 @@
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'Activity Over Time by Continent' }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: { title: { display: false }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }, tooltip: { enabled: true } },
         scales: { y: { beginAtZero: true, title: { display: true, text: 'Active contributions' } }, x: { title: { display: true, text: 'Year' } } }
       }
     }));
@@ -319,12 +325,13 @@
         labels: years,
         datasets: top8.map(function(c, i) {
           return { label: c.name, data: years.map(function(y) { return c.years[y] || 0; }),
-            borderColor: PALETTE[i], fill: false, tension: 0.3, pointRadius: 3 };
+            borderColor: PALETTE[i], borderWidth: 2, fill: false, tension: 0.2, pointRadius: 3, spanGaps: true };
         })
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'Top 8 Countries — Activity Over Time' }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: { title: { display: false }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }, tooltip: { enabled: true } },
         scales: { y: { beginAtZero: true, title: { display: true, text: 'Active contributions' } }, x: { title: { display: true, text: 'Year' } } }
       }
     }));
@@ -340,12 +347,13 @@
         labels: years,
         datasets: sorted.map(function(c, i) {
           return { label: c.name, data: years.map(function(y) { return c.years[y] || 0; }),
-            borderColor: CONTINENT_COLORS[c.name] || PALETTE[i], fill: false, tension: 0.3, pointRadius: 3 };
+            borderColor: CONTINENT_COLORS[c.name] || PALETTE[i], borderWidth: 2, fill: false, tension: 0.2, pointRadius: 3, spanGaps: true };
         })
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'AE Committee Service by Continent' }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        interaction: { mode: 'index', intersect: false },
+        plugins: { title: { display: false }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }, tooltip: { enabled: true } },
         scales: { y: { beginAtZero: true, title: { display: true, text: 'AE memberships' } }, x: { title: { display: true, text: 'Year' } } }
       }
     }));
