@@ -345,7 +345,7 @@
     var matchedAuthors = authorProfiles.filter(function(p) {
       var searchText = normalizeText(p.name) + ' ' + normalizeText(p.affiliation || '');
       return terms.every(function(t) { return searchText.indexOf(t) !== -1; });
-    }).slice(0, 5);
+    }).slice(0, 3);
 
     var matchedInsts = institutionData.filter(function(inst) {
       var searchText = normalizeText(inst.affiliation || '');
