@@ -658,7 +658,7 @@
         // Show institution share button
         var instShareBtn = document.getElementById('inst-share-btn');
         if (instShareBtn) instShareBtn.style.display = 'inline-block';
-        return { displayValue: instName, urlParams: { type: 'institution' } };
+        return { displayValue: instName, urlParams: { name: instName, type: 'institution' } };
       } else {
         var authorName = key.substring(7);
         var p = profileMap[authorName];
@@ -675,7 +675,7 @@
       var nameParam = params.get('name');
       if (nameParam) nameParam = nameParam.replace(/[\t\n\r]+/g, ' ').replace(/  +/g, ' ').trim();
 
-      // Institution resolution
+      // Institution resolution (explicit type)
       if (typeParam === 'institution' && nameParam) {
         if (instMap[nameParam]) return { key: 'inst:' + nameParam, displayValue: nameParam };
         var lower = nameParam.toLowerCase();
@@ -696,6 +696,15 @@
       }
 
       if (resolved) return { key: 'author:' + resolved.name, displayValue: cleanName(resolved.name) };
+
+      // Fallback: try institution if no author matched
+      if (nameParam) {
+        if (instMap[nameParam]) return { key: 'inst:' + nameParam, displayValue: nameParam };
+        var lowerInst = nameParam.toLowerCase();
+        var instMatch = allInstitutions.find(function(inst) { return inst.affiliation.toLowerCase() === lowerInst; });
+        if (instMatch) return { key: 'inst:' + instMatch.affiliation, displayValue: instMatch.affiliation };
+      }
+
       if (nameParam) return { search: nameParam };
       return null;
     }
