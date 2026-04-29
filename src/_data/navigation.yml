@@ -4,6 +4,8 @@ main:
   - title: "Ranking"
     url: combined_rankings.html
     children:
+      - title: "Systems vs. Security"
+        url: overview.html
       - title: "Author Ranking"
         url: combined_rankings.html
       - title: "Institution Ranking"
