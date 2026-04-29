@@ -1,8 +1,8 @@
 main:
   - title: "Search"
     url: index.html
-  - title: "Ranking"
-    url: combined_rankings.html
+  - title: "Analysis"
+    url: overview.html
     children:
       - title: "Systems vs. Security"
         url: overview.html
