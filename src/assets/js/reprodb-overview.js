@@ -147,7 +147,8 @@
         },
         options: {
           responsive: true, maintainAspectRatio: false,
-          plugins: { title: { display: true, text: 'Available, Functional & Reproduced: Systems vs. Security' } },
+          interaction: { mode: 'index', intersect: false },
+          plugins: { title: { display: false }, tooltip: { enabled: true } },
           scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: '% of AE Artifacts' } } }
         }
       });

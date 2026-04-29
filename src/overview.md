@@ -64,6 +64,8 @@ Percentage of artifacts receiving each badge type (top row) and badge rates as a
   </div>
 </div>
 
+### Available, Functional & Reproduced: Systems vs. Security
+
 <div class="rdb-chart-wide rdb-chart-wrap--lg">
   <canvas id="badgeRateCompareChart"></canvas>
 </div>
