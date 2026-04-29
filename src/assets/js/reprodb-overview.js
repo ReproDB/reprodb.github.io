@@ -154,24 +154,34 @@
     }
 
     /* ===== 3. AE Participation Rates (% of all accepted papers) ===== */
-    function makeParticipationChart(canvasId, areaData, color) {
-      var el = document.getElementById(canvasId);
-      if (!el || !areaData || !areaData.years) return;
-      var yrs = areaData.years.map(String);
+    function makeCombinedParticipationChart(sysData, secData) {
+      var el = document.getElementById('partRateChartCombined');
+      if (!el) return;
+      /* Merge year labels from both areas */
+      var yrSet = {};
+      if (sysData && sysData.years) sysData.years.forEach(function(y) { yrSet[y] = true; });
+      if (secData && secData.years) secData.years.forEach(function(y) { yrSet[y] = true; });
+      var yrs = Object.keys(yrSet).sort();
+
+      function alignData(areaData) {
+        if (!areaData || !areaData.years) return yrs.map(function() { return null; });
+        var map = {};
+        areaData.years.forEach(function(y, i) { map[String(y)] = i; });
+        return yrs.map(function(y) { return map[y] !== undefined ? areaData.participation_pct[map[y]] : null; });
+      }
+
       new Chart(el, {
         type: 'line',
         data: {
           labels: yrs,
           datasets: [
-            { label: 'AE Participation', data: areaData.participation_pct, borderColor: color, borderWidth: 3, fill: false, tension: 0.2 },
-            { label: 'Available',        data: areaData.available_pct,     borderColor: BADGE_COLORS.available,    borderWidth: 2, fill: false, tension: 0.2 },
-            { label: 'Functional',       data: areaData.functional_pct,    borderColor: BADGE_COLORS.functional,   borderWidth: 2, borderDash: [5, 5], fill: false, tension: 0.2 },
-            { label: 'Reproduced',       data: areaData.reproduced_pct,    borderColor: BADGE_COLORS.reproducible, borderWidth: 2, borderDash: [3, 3], fill: false, tension: 0.2 }
+            { label: 'Systems — AE Participation',  data: alignData(sysData), borderColor: SYS_COLOR, borderWidth: 3, fill: false, tension: 0.2, spanGaps: true },
+            { label: 'Security — AE Participation', data: alignData(secData), borderColor: SEC_COLOR, borderWidth: 3, fill: false, tension: 0.2, spanGaps: true }
           ]
         },
         options: {
           responsive: true, maintainAspectRatio: false,
-          plugins: { title: { display: false } },
+          plugins: { title: { display: true, text: 'AE Participation — % of All Accepted Papers' } },
           scales: { y: { beginAtZero: true, max: 100, title: { display: true, text: '%' } } }
         }
       });
@@ -182,8 +192,7 @@
         .then(function(r) { return r.json(); })
         .then(function(data) {
           if (data.by_area) {
-            makeParticipationChart('partRateChartSys', data.by_area.systems, SYS_COLOR);
-            makeParticipationChart('partRateChartSec', data.by_area.security, SEC_COLOR);
+            makeCombinedParticipationChart(data.by_area.systems, data.by_area.security);
           }
         });
     }

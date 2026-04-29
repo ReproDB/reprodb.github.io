@@ -68,19 +68,8 @@ Percentage of artifacts receiving each badge type (top row) and badge rates as a
   <canvas id="badgeRateCompareChart"></canvas>
 </div>
 
-<div class="rdb-chart-row">
-  <div class="rdb-chart-col">
-    <h4>Systems — % of All Accepted Papers</h4>
-    <div class="rdb-chart-wrap rdb-chart-wrap--md">
-      <canvas id="partRateChartSys"></canvas>
-    </div>
-  </div>
-  <div class="rdb-chart-col">
-    <h4>Security — % of All Accepted Papers</h4>
-    <div class="rdb-chart-wrap rdb-chart-wrap--md">
-      <canvas id="partRateChartSec"></canvas>
-    </div>
-  </div>
+<div class="rdb-chart-wide rdb-chart-wrap--lg">
+  <canvas id="partRateChartCombined"></canvas>
 </div>
 
 ---
