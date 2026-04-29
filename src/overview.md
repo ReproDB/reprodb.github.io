@@ -81,18 +81,139 @@ Badge rates as a fraction of **all accepted papers** (not just AE submissions) r
 
 ## Conference Timeline Coverage
 
-Which conferences have been tracked per year. Filled cells denote years with artifact data; blank cells indicate no AE process or data not yet collected.
+Artifact counts by conference and year. Darker cells indicate more artifacts evaluated that year.
 
-{% assign _years = "" %}
-{% for y in site.data.artifacts_by_year %}
-  {% if _years == "" %}{% assign _years = y.year %}{% else %}{% assign _years = _years | append: "," | append: y.year %}{% endif %}
-{% endfor %}
-{% assign _year_list = _years | split: "," %}
+<div style="position:relative; width:100%; max-width:900px; margin:1em auto;">
+  <canvas id="timelineHeatmap"></canvas>
+</div>
 
-| Conference | Area | {% for y in _year_list %}{{ y }} | {% endfor %}Total |
-|---|---|{% for y in _year_list %}:---:|{% endfor %}:---:|
-{% for conf in site.data.artifacts_by_conference %}{% assign _conf_url = '/' | append: conf.category | append: '/' | append: conf.name | downcase | append: '.html' %}| [**{{ conf.name }}**]({{ _conf_url | relative_url }}) | {{ conf.category | capitalize }} | {% for ys in _year_list %}{% assign y_num = ys | plus: 0 %}{% assign _found = false %}{% for yd in conf.years %}{% if yd.year == y_num %}{% assign _found = true %}{{ yd.total }}{% endif %}{% endfor %}{% unless _found %}–{% endunless %} | {% endfor %}**{{ conf.total_artifacts }}** |
-{% endfor %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Build data from Jekyll
+  var conferences = [
+    {% for conf in site.data.artifacts_by_conference %}
+    { name: "{{ conf.name }}", category: "{{ conf.category }}", years: { {% for yd in conf.years %}{{ yd.year }}: {{ yd.total }}{% unless forloop.last %}, {% endunless %}{% endfor %} } }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  var years = [{% for y in site.data.artifacts_by_year %}{{ y.year }}{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+  // Sort conferences: systems first, then security, alphabetical within each
+  conferences.sort(function(a, b) {
+    if (a.category !== b.category) return a.category === 'systems' ? -1 : 1;
+    return a.name.localeCompare(b.name);
+  });
+
+  var labels = conferences.map(function(c) { return c.name; });
+
+  // Find max value for color scaling
+  var maxVal = 0;
+  conferences.forEach(function(c) {
+    years.forEach(function(y) { if (c.years[y] && c.years[y] > maxVal) maxVal = c.years[y]; });
+  });
+
+  // Build matrix data: {x: yearIndex, y: confIndex, v: count}
+  var data = [];
+  conferences.forEach(function(c, ci) {
+    years.forEach(function(y, yi) {
+      var v = c.years[y] || 0;
+      data.push({ x: yi, y: ci, v: v });
+    });
+  });
+
+  function cellColor(v) {
+    if (v === 0) return 'rgba(220,220,220,0.3)';
+    var t = v / maxVal;
+    // Gradient from light blue to dark blue
+    var r = Math.round(220 - 180 * t);
+    var g = Math.round(235 - 155 * t);
+    var b = Math.round(255 - 50 * t);
+    return 'rgb(' + r + ',' + g + ',' + b + ')';
+  }
+
+  var cellW = 40, cellH = 28, padL = 90, padT = 30, padB = 10, padR = 10;
+  var canvasW = padL + years.length * cellW + padR;
+  var canvasH = padT + conferences.length * cellH + padB;
+
+  var canvas = document.getElementById('timelineHeatmap');
+  canvas.width = canvasW * 2;   // retina
+  canvas.height = canvasH * 2;
+  canvas.style.width = canvasW + 'px';
+  canvas.style.height = canvasH + 'px';
+  var ctx = canvas.getContext('2d');
+  ctx.scale(2, 2);
+
+  // Draw year headers
+  ctx.font = '11px sans-serif';
+  ctx.fillStyle = '#333';
+  ctx.textAlign = 'center';
+  years.forEach(function(y, yi) {
+    ctx.fillText(y, padL + yi * cellW + cellW / 2, padT - 8);
+  });
+
+  // Draw rows
+  conferences.forEach(function(c, ci) {
+    var rowY = padT + ci * cellH;
+
+    // Conference label
+    ctx.font = '11px sans-serif';
+    ctx.fillStyle = '#333';
+    ctx.textAlign = 'right';
+    ctx.fillText(c.name, padL - 6, rowY + cellH / 2 + 4);
+
+    // Cells
+    years.forEach(function(y, yi) {
+      var v = c.years[y] || 0;
+      var cellX = padL + yi * cellW;
+
+      ctx.fillStyle = cellColor(v);
+      ctx.fillRect(cellX + 1, rowY + 1, cellW - 2, cellH - 2);
+
+      // Cell border
+      ctx.strokeStyle = '#e0e0e0';
+      ctx.lineWidth = 0.5;
+      ctx.strokeRect(cellX + 1, rowY + 1, cellW - 2, cellH - 2);
+
+      // Number label
+      if (v > 0) {
+        ctx.font = '10px sans-serif';
+        ctx.fillStyle = v / maxVal > 0.65 ? '#fff' : '#333';
+        ctx.textAlign = 'center';
+        ctx.fillText(v, cellX + cellW / 2, rowY + cellH / 2 + 4);
+      }
+    });
+  });
+
+  // Category separators
+  var sysCount = conferences.filter(function(c) { return c.category === 'systems'; }).length;
+  if (sysCount > 0 && sysCount < conferences.length) {
+    var sepY = padT + sysCount * cellH;
+    ctx.strokeStyle = '#999';
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(padL, sepY);
+    ctx.lineTo(padL + years.length * cellW, sepY);
+    ctx.stroke();
+
+    // Area labels on the left
+    ctx.font = 'bold 10px sans-serif';
+    ctx.fillStyle = '#888';
+    ctx.textAlign = 'right';
+    ctx.save();
+    ctx.translate(10, padT + sysCount * cellH / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.textAlign = 'center';
+    ctx.fillText('Systems', 0, 0);
+    ctx.restore();
+    ctx.save();
+    var secCount = conferences.length - sysCount;
+    ctx.translate(10, padT + sysCount * cellH + secCount * cellH / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.textAlign = 'center';
+    ctx.fillText('Security', 0, 0);
+    ctx.restore();
+  }
+});
+</script>
 
 ---
 
