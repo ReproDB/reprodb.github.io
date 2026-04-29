@@ -1,15 +1,15 @@
 overall:
-  github_repos: 1609
-  total_stars: 245230
-  total_forks: 36908
-  max_stars: 33493
-  max_forks: 6954
+  github_repos: 1603
+  total_stars: 156492
+  total_forks: 22641
+  max_stars: 14349
+  max_forks: 2196
   zenodo_repos: 825
   total_views: 226799
   total_downloads: 168759
-  avg_stars: 152.4
-  avg_forks: 22.9
-  last_updated: 2026-04-29 19:29:48 UTC
+  avg_stars: 97.6
+  avg_forks: 14.1
+  last_updated: 2026-04-29 19:45:51 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -1126,13 +1126,13 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 520
-  total_stars: 150362
-  total_forks: 24183
-  avg_stars: 289.2
-  avg_forks: 46.5
-  max_stars: 33493
-  max_forks: 6954
+  github_repos: 514
+  total_stars: 61624
+  total_forks: 9916
+  avg_stars: 119.9
+  avg_forks: 19.3
+  max_stars: 12867
+  max_forks: 2196
   years:
   - year: 2020
     github_repos: 24
@@ -1159,56 +1159,24 @@ by_conference:
     avg_stars: 39.7
     avg_forks: 7.0
   - year: 2024
-    github_repos: 129
-    total_stars: 42575
-    total_forks: 5017
-    avg_stars: 330.0
-    avg_forks: 38.9
+    github_repos: 128
+    total_stars: 15540
+    total_forks: 2551
+    avg_stars: 121.4
+    avg_forks: 19.9
   - year: 2025
-    github_repos: 98
-    total_stars: 45664
-    total_forks: 7765
-    avg_stars: 466.0
-    avg_forks: 79.2
+    github_repos: 95
+    total_stars: 24460
+    total_forks: 4099
+    avg_stars: 257.5
+    avg_forks: 43.1
   - year: 2026
-    github_repos: 30
-    total_stars: 43564
-    total_forks: 8540
-    avg_stars: 1452.1
-    avg_forks: 284.7
+    github_repos: 28
+    total_stars: 3065
+    total_forks: 405
+    avg_stars: 109.5
+    avg_forks: 14.5
   top_repos:
-  - title: Identifying Provenance of Generative Text-to-Image Models
-    url: https://github.com/huggingface/diffusers
-    conference: USENIXSEC
-    year: 2026
-    area: security
-    stars: 33493
-    forks: 6954
-    description: '🤗 Diffusers: State-of-the-art diffusion models for image, video,
-      and audio generation in PyTorch.'
-    language: Python
-    name: huggingface/diffusers
-    pushed_at: '2026-04-28T19:20:25Z'
-    badges: &id001
-    - 'Badges: Available'
-  - title: Inference of Error Specifications and Bug Detection Using Structural Similarities
-    url: https://github.com/facebook/zstd
-    conference: USENIXSEC
-    year: 2024
-    area: security
-    stars: 27035
-    forks: 2466
-    description: Zstandard - Fast real-time compression algorithm
-    language: C
-    name: facebook/zstd
-    pushed_at: '2026-04-25T05:35:25Z'
-    badges:
-    - 'Badges: Available'
-    - Functional
-    - Reproduced
-    authors:
-    - Niels Dossche
-    - Bart Coppens 0001
   - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
       Penetration Testing'
     url: https://github.com/GreyDGL/PentestGPT
@@ -1237,38 +1205,89 @@ by_conference:
     - Stefan Rass
     - Tianwei Zhang 0004
     - Yang Liu 0003
-  - title: 'Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level
-      Unlearning Completeness'
-    url: https://github.com/conda-forge/miniforge
+  - title: 'PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs'
+    url: https://github.com/llm-attacks/llm-attacks
     conference: USENIXSEC
     year: 2025
     area: security
-    stars: 9699
-    forks: 496
-    description: A conda-forge distribution.
-    language: Shell
-    name: conda-forge/miniforge
-    pushed_at: '2026-04-21T13:07:19Z'
+    stars: 4638
+    forks: 617
+    description: Universal and Transferable Attacks on Aligned Language Models
+    language: Python
+    name: llm-attacks/llm-attacks
+    pushed_at: '2024-08-02T06:02:18Z'
     badges:
     - 'Badges: Available'
     authors:
-    - Cheng-Long Wang 0003
-    - Qi Li
-    - Zihang Xiang
-    - Yinzhi Cao
-    - Di Wang 0015
-  - title: Identifying Provenance of Generative Text-to-Image Models
-    url: https://github.com/kohya-ss/sd-scripts
+    - Xueluan Gong
+    - Mingzhe Li
+    - Yilin Zhang
+    - Fengyuan Ran
+    - Chen Chen 0115
+    - Yanjiao Chen
+    - Qian Wang 0002
+    - Kwok-Yan Lam
+  - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
+    url: https://github.com/richzhang/PerceptualSimilarity
     conference: USENIXSEC
-    year: 2026
+    year: 2025
     area: security
-    stars: 7006
-    forks: 1181
-    description: ''
+    stars: 4217
+    forks: 523
+    description: LPIPS metric. pip install lpips
     language: Python
-    name: kohya-ss/sd-scripts
-    pushed_at: '2026-04-27T12:46:09Z'
-    badges: *id001
+    name: richzhang/PerceptualSimilarity
+    pushed_at: '2024-07-02T17:30:14Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Junhua Lin
+    - Marc Juarez
+  - title: 'Breaking the Layer Barrier: Remodeling Private Transformer Inference with
+      Hybrid CKKS and MPC'
+    url: https://github.com/microsoft/SEAL
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 3968
+    forks: 766
+    description: Microsoft SEAL is an easy-to-use and powerful homomorphic encryption
+      library.
+    language: C++
+    name: microsoft/SEAL
+    pushed_at: '2026-04-28T18:46:29Z'
+    badges:
+    - 'Badges: Available'
+    authors:
+    - Tianshi Xu
+    - Wen-jie Lu
+    - Jiangrui Yu
+    - Yi Chen
+    - Chenqi Lin
+    - Runsheng Wang
+    - Meng Li 0004
+  - title: Lets Move2EVM
+    url: https://github.com/move-language/move
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 2339
+    forks: 700
+    description: ''
+    language: Rust
+    name: move-language/move
+    pushed_at: '2024-05-04T21:17:51Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Lorenzo Benetollo
+    - Andreas Lackner
+    - Matteo Maffei
+    - Markus Scherer
 - name: WOOT
   github_repos: 31
   total_stars: 16219
@@ -1458,26 +1477,26 @@ by_year:
   max_stars: 1652
   max_forks: 274
 - year: 2024
-  github_repos: 360
-  total_stars: 50741
-  total_forks: 6071
-  avg_stars: 140.9
-  avg_forks: 16.9
-  max_stars: 27035
-  max_forks: 2466
+  github_repos: 359
+  total_stars: 23706
+  total_forks: 3605
+  avg_stars: 66.0
+  avg_forks: 10.0
+  max_stars: 12867
+  max_forks: 2196
 - year: 2025
-  github_repos: 304
-  total_stars: 50805
-  total_forks: 9234
-  avg_stars: 167.1
-  avg_forks: 30.4
-  max_stars: 9699
-  max_forks: 1724
+  github_repos: 301
+  total_stars: 29601
+  total_forks: 5568
+  avg_stars: 98.3
+  avg_forks: 18.5
+  max_stars: 4638
+  max_forks: 887
 - year: 2026
-  github_repos: 100
-  total_stars: 44085
-  total_forks: 8610
-  avg_stars: 440.9
-  avg_forks: 86.1
-  max_stars: 33493
-  max_forks: 6954
+  github_repos: 98
+  total_stars: 3586
+  total_forks: 475
+  avg_stars: 36.6
+  avg_forks: 4.8
+  max_stars: 1376
+  max_forks: 107

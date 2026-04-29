@@ -18677,28 +18677,6 @@
     "pushed_at": "2025-02-15T13:12:51Z"
   },
   {
-    "title": "Inference of Error Specifications and Bug Detection Using Structural Similarities",
-    "url": "https://github.com/facebook/zstd",
-    "conference": "USENIXSEC",
-    "year": 2024,
-    "area": "security",
-    "stars": 27035,
-    "forks": 2466,
-    "description": "Zstandard - Fast real-time compression algorithm",
-    "language": "C",
-    "name": "facebook/zstd",
-    "pushed_at": "2026-04-25T05:35:25Z",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "authors": [
-      "Niels Dossche",
-      "Bart Coppens 0001"
-    ]
-  },
-  {
     "title": "You Cannot Escape Me: Detecting Evasions of SIEM Rules in Enterprise Networks",
     "url": "https://github.com/fkie-cad/amides/releases/tag/v1.0.0",
     "conference": "USENIXSEC",
@@ -19973,29 +19951,6 @@
     "pushed_at": "2025-06-25T07:51:44Z"
   },
   {
-    "title": "Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness",
-    "url": "https://github.com/conda-forge/miniforge",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 9699,
-    "forks": 496,
-    "description": "A conda-forge distribution.",
-    "language": "Shell",
-    "name": "conda-forge/miniforge",
-    "pushed_at": "2026-04-21T13:07:19Z",
-    "badges": [
-      "Badges: Available"
-    ],
-    "authors": [
-      "Cheng-Long Wang 0003",
-      "Qi Li",
-      "Zihang Xiang",
-      "Yinzhi Cao",
-      "Di Wang 0015"
-    ]
-  },
-  {
     "title": "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines",
     "url": "https://github.com/corbanvilla/T2I-Attacks-USENIX-2025",
     "conference": "USENIXSEC",
@@ -20020,19 +19975,6 @@
     "language": "Go",
     "name": "csienslab/snoopguard-artifact",
     "pushed_at": "2025-01-24T06:53:45Z"
-  },
-  {
-    "title": "VAPD: An Anomaly Detection Model for PDF Malware Forensics with Adversarial Robustness",
-    "url": "https://github.com/cuckoosandbox/cuckoo",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 5957,
-    "forks": 1724,
-    "description": "Cuckoo Sandbox is an automated dynamic malware analysis system",
-    "language": "JavaScript",
-    "name": "cuckoosandbox/cuckoo",
-    "pushed_at": "2022-05-03T16:17:48Z"
   },
   {
     "title": "Replication Package of ELFuzz",
@@ -20292,7 +20234,20 @@
     "description": "Universal and Transferable Attacks on Aligned Language Models",
     "language": "Python",
     "name": "llm-attacks/llm-attacks",
-    "pushed_at": "2024-08-02T06:02:18Z"
+    "pushed_at": "2024-08-02T06:02:18Z",
+    "badges": [
+      "Badges: Available"
+    ],
+    "authors": [
+      "Xueluan Gong",
+      "Mingzhe Li",
+      "Yilin Zhang",
+      "Fengyuan Ran",
+      "Chen Chen 0115",
+      "Yanjiao Chen",
+      "Qian Wang 0002",
+      "Kwok-Yan Lam"
+    ]
   },
   {
     "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
@@ -20331,7 +20286,19 @@
     "description": "Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.",
     "language": "C++",
     "name": "microsoft/SEAL",
-    "pushed_at": "2026-04-28T18:46:29Z"
+    "pushed_at": "2026-04-28T18:46:29Z",
+    "badges": [
+      "Badges: Available"
+    ],
+    "authors": [
+      "Tianshi Xu",
+      "Wen-jie Lu",
+      "Jiangrui Yu",
+      "Yi Chen",
+      "Chenqi Lin",
+      "Runsheng Wang",
+      "Meng Li 0004"
+    ]
   },
   {
     "title": "Transparent Attested DNS for Confidential Computing Services",
@@ -20370,7 +20337,18 @@
     "description": "",
     "language": "Rust",
     "name": "move-language/move",
-    "pushed_at": "2024-05-04T21:17:51Z"
+    "pushed_at": "2024-05-04T21:17:51Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Lorenzo Benetollo",
+      "Andreas Lackner",
+      "Matteo Maffei",
+      "Markus Scherer"
+    ]
   },
   {
     "title": "Towards a Re-evaluation of Data Forging Attacks in Practice",
@@ -20384,19 +20362,6 @@
     "language": "Python",
     "name": "namilus/usenix-2025",
     "pushed_at": "2025-06-05T13:11:57Z"
-  },
-  {
-    "title": "Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection",
-    "url": "https://github.com/open-mmlab/OpenPCDet",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 5548,
-    "forks": 1446,
-    "description": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection.",
-    "language": "Python",
-    "name": "open-mmlab/OpenPCDet",
-    "pushed_at": "2025-10-08T10:56:40Z"
   },
   {
     "title": "Precise and Effective Gadget Chain Mining through Deserialization Guided Call Graph Construction",
@@ -20461,7 +20426,16 @@
     "description": "LPIPS metric. pip install lpips",
     "language": "Python",
     "name": "richzhang/PerceptualSimilarity",
-    "pushed_at": "2024-07-02T17:30:14Z"
+    "pushed_at": "2024-07-02T17:30:14Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Junhua Lin",
+      "Marc Juarez"
+    ]
   },
   {
     "title": "X.509DoS: Exploiting and Detecting Denial-of-Service Vulnerabilities in Cryptographic Libraries using Crafted X.509 Certificates",
@@ -20945,22 +20919,6 @@
     "pushed_at": "2023-11-16T05:27:28Z"
   },
   {
-    "title": "Identifying Provenance of Generative Text-to-Image Models",
-    "url": "https://github.com/huggingface/diffusers",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 33493,
-    "forks": 6954,
-    "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
-    "language": "Python",
-    "name": "huggingface/diffusers",
-    "pushed_at": "2026-04-28T19:20:25Z",
-    "badges": [
-      "Badges: Available"
-    ]
-  },
-  {
     "title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection",
     "url": "https://github.com/jpjy/WILD-Attack",
     "conference": "USENIXSEC",
@@ -20972,22 +20930,6 @@
     "language": "Python",
     "name": "jpjy/WILD-Attack",
     "pushed_at": "2026-01-11T01:50:07Z"
-  },
-  {
-    "title": "Identifying Provenance of Generative Text-to-Image Models",
-    "url": "https://github.com/kohya-ss/sd-scripts",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 7006,
-    "forks": 1181,
-    "description": "",
-    "language": "Python",
-    "name": "kohya-ss/sd-scripts",
-    "pushed_at": "2026-04-27T12:46:09Z",
-    "badges": [
-      "Badges: Available"
-    ]
   },
   {
     "title": "Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost",
