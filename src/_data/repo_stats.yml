@@ -11,7 +11,11 @@ overall:
   avg_forks: 14.1
   median_stars: 7
   median_forks: 1
-  last_updated: 2026-04-29 20:43:06 UTC
+  p25_stars: 1.0
+  p75_stars: 26.0
+  p25_forks: 0.0
+  p75_forks: 5.0
+  last_updated: 2026-04-29 21:01:05 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -21,6 +25,10 @@ by_conference:
   avg_forks: 3.6
   median_stars: 2
   median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 8.5
+  p25_forks: 0.0
+  p75_forks: 2.0
   max_stars: 566
   max_forks: 161
   years:
@@ -32,6 +40,10 @@ by_conference:
     avg_forks: 4.0
     median_stars: 6
     median_forks: 3
+    p25_stars: 3.5
+    p75_stars: 17.5
+    p25_forks: 1.0
+    p75_forks: 7.5
   - year: 2018
     github_repos: 13
     total_stars: 806
@@ -40,6 +52,10 @@ by_conference:
     avg_forks: 16.8
     median_stars: 13
     median_forks: 4
+    p25_stars: 4.0
+    p75_stars: 43.5
+    p25_forks: 1.0
+    p75_forks: 8.0
   - year: 2019
     github_repos: 15
     total_stars: 493
@@ -48,6 +64,10 @@ by_conference:
     avg_forks: 8.3
     median_stars: 10
     median_forks: 4
+    p25_stars: 1.0
+    p75_stars: 56.0
+    p25_forks: 0.0
+    p75_forks: 15.0
   - year: 2020
     github_repos: 18
     total_stars: 935
@@ -56,6 +76,10 @@ by_conference:
     avg_forks: 13.4
     median_stars: 6.5
     median_forks: 1.5
+    p25_stars: 0.0
+    p75_stars: 36.0
+    p25_forks: 0.0
+    p75_forks: 7.2
   - year: 2021
     github_repos: 16
     total_stars: 223
@@ -64,6 +88,10 @@ by_conference:
     avg_forks: 2.5
     median_stars: 7.0
     median_forks: 1.5
+    p25_stars: 1.2
+    p75_stars: 12.0
+    p25_forks: 0.0
+    p75_forks: 3.5
   - year: 2022
     github_repos: 33
     total_stars: 245
@@ -72,6 +100,10 @@ by_conference:
     avg_forks: 1.5
     median_stars: 2
     median_forks: 0
+    p25_stars: 0.5
+    p75_stars: 6.5
+    p25_forks: 0.0
+    p75_forks: 2.0
   - year: 2023
     github_repos: 27
     total_stars: 152
@@ -80,6 +112,10 @@ by_conference:
     avg_forks: 1.0
     median_stars: 3
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 5.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   - year: 2024
     github_repos: 31
     total_stars: 109
@@ -88,6 +124,10 @@ by_conference:
     avg_forks: 0.4
     median_stars: 2
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 5.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   - year: 2025
     github_repos: 47
     total_stars: 81
@@ -96,6 +136,10 @@ by_conference:
     avg_forks: 0.3
     median_stars: 0
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 2.0
+    p25_forks: 0.0
+    p75_forks: 0.0
   top_repos:
   - title: Finding The Greedy, Prodigal, and Suicidal Contracts at Scale
     url: https://github.com/MAIAN-tool/MAIAN
@@ -202,6 +246,10 @@ by_conference:
   avg_forks: 7.6
   median_stars: 9.5
   median_forks: 1.0
+  p25_stars: 3.0
+  p75_stars: 27.2
+  p25_forks: 1.0
+  p75_forks: 5.0
   max_stars: 1652
   max_forks: 197
   years:
@@ -213,6 +261,10 @@ by_conference:
     avg_forks: 4.9
     median_stars: 10.0
     median_forks: 2.5
+    p25_stars: 1.8
+    p75_stars: 21.5
+    p25_forks: 1.0
+    p75_forks: 6.2
   - year: 2023
     github_repos: 35
     total_stars: 3123
@@ -221,6 +273,10 @@ by_conference:
     avg_forks: 16.1
     median_stars: 15
     median_forks: 3
+    p25_stars: 3.0
+    p75_stars: 53.0
+    p25_forks: 1.0
+    p75_forks: 8.0
   - year: 2024
     github_repos: 37
     total_stars: 787
@@ -229,6 +285,10 @@ by_conference:
     avg_forks: 2.4
     median_stars: 7
     median_forks: 1
+    p25_stars: 3.0
+    p75_stars: 20.0
+    p25_forks: 0.0
+    p75_forks: 2.5
   top_repos:
   - title: 'Portunus: Re-imagining Access Control in Distributed Systems'
     url: https://github.com/cloudflare/circl/tree/main/abe/cpabe/tkn20
@@ -361,6 +421,10 @@ by_conference:
   avg_forks: 7.4
   median_stars: 7
   median_forks: 2
+  p25_stars: 2.0
+  p75_stars: 22.5
+  p25_forks: 0.0
+  p75_forks: 5.5
   max_stars: 596
   max_forks: 274
   years:
@@ -372,6 +436,10 @@ by_conference:
     avg_forks: 7.1
     median_stars: 6
     median_forks: 2
+    p25_stars: 4.0
+    p75_stars: 32.0
+    p25_forks: 0.0
+    p75_forks: 7.5
   - year: 2022
     github_repos: 39
     total_stars: 1667
@@ -380,6 +448,10 @@ by_conference:
     avg_forks: 7.8
     median_stars: 17
     median_forks: 4
+    p25_stars: 3.0
+    p75_stars: 28.0
+    p25_forks: 1.0
+    p75_forks: 7.0
   - year: 2023
     github_repos: 16
     total_stars: 286
@@ -388,6 +460,10 @@ by_conference:
     avg_forks: 18.8
     median_stars: 5.5
     median_forks: 1.0
+    p25_stars: 1.0
+    p75_stars: 14.8
+    p25_forks: 0.0
+    p75_forks: 3.8
   - year: 2024
     github_repos: 14
     total_stars: 215
@@ -396,6 +472,10 @@ by_conference:
     avg_forks: 3.1
     median_stars: 7.0
     median_forks: 1.0
+    p25_stars: 4.0
+    p75_stars: 15.2
+    p25_forks: 0.0
+    p75_forks: 3.2
   - year: 2025
     github_repos: 35
     total_stars: 748
@@ -404,6 +484,10 @@ by_conference:
     avg_forks: 3.8
     median_stars: 6
     median_forks: 1
+    p25_stars: 1.0
+    p75_stars: 16.0
+    p25_forks: 0.0
+    p75_forks: 5.0
   top_repos:
   - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
     url: https://github.com/andromeda/pash
@@ -527,6 +611,10 @@ by_conference:
   avg_forks: 19.5
   median_stars: 5
   median_forks: 1
+  p25_stars: 2.0
+  p75_stars: 13.0
+  p25_forks: 0.0
+  p75_forks: 2.0
   max_stars: 1606
   max_forks: 887
   years:
@@ -538,6 +626,10 @@ by_conference:
     avg_forks: 6.0
     median_stars: 11
     median_forks: 1
+    p25_stars: 2.0
+    p75_stars: 21.0
+    p25_forks: 0.0
+    p75_forks: 3.0
   - year: 2025
     github_repos: 20
     total_stars: 3190
@@ -546,6 +638,10 @@ by_conference:
     avg_forks: 58.5
     median_stars: 9.5
     median_forks: 2.0
+    p25_stars: 2.2
+    p75_stars: 13.0
+    p25_forks: 0.0
+    p75_forks: 4.8
   - year: 2026
     github_repos: 28
     total_stars: 429
@@ -554,6 +650,10 @@ by_conference:
     avg_forks: 1.7
     median_stars: 2.0
     median_forks: 0.0
+    p25_stars: 1.0
+    p75_stars: 6.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   top_repos:
   - title: Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception
       Systems
@@ -664,6 +764,10 @@ by_conference:
   avg_forks: 35.6
   median_stars: 30.5
   median_forks: 5.0
+  p25_stars: 9.0
+  p75_stars: 74.5
+  p25_forks: 1.0
+  p75_forks: 12.0
   max_stars: 14349
   max_forks: 1854
   years:
@@ -675,6 +779,10 @@ by_conference:
     avg_forks: 99.1
     median_stars: 37.5
     median_forks: 5.0
+    p25_stars: 8.8
+    p75_stars: 176.5
+    p25_forks: 1.0
+    p75_forks: 41.0
   - year: 2021
     github_repos: 18
     total_stars: 801
@@ -683,6 +791,10 @@ by_conference:
     avg_forks: 9.5
     median_stars: 26.0
     median_forks: 5.5
+    p25_stars: 6.2
+    p75_stars: 71.5
+    p25_forks: 2.0
+    p75_forks: 12.2
   - year: 2022
     github_repos: 31
     total_stars: 22594
@@ -691,6 +803,10 @@ by_conference:
     avg_forks: 94.2
     median_stars: 28
     median_forks: 6
+    p25_stars: 9.0
+    p75_stars: 241.0
+    p25_forks: 2.0
+    p75_forks: 21.0
   - year: 2023
     github_repos: 26
     total_stars: 1785
@@ -699,6 +815,10 @@ by_conference:
     avg_forks: 10.9
     median_stars: 31.0
     median_forks: 3.5
+    p25_stars: 11.8
+    p75_stars: 50.5
+    p25_forks: 1.0
+    p75_forks: 9.0
   - year: 2024
     github_repos: 30
     total_stars: 2187
@@ -707,6 +827,10 @@ by_conference:
     avg_forks: 8.5
     median_stars: 27.0
     median_forks: 4.0
+    p25_stars: 7.0
+    p75_stars: 65.2
+    p25_forks: 1.0
+    p75_forks: 8.8
   top_repos:
   - title: 'Retiarii: A Deep Learning Exploratory-Training Framework'
     url: https://github.com/microsoft/nni/tree/retiarii_artifact
@@ -829,6 +953,10 @@ by_conference:
   avg_forks: 5.7
   median_stars: 1
   median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 5.0
+  p25_forks: 0.0
+  p75_forks: 1.0
   max_stars: 12895
   max_forks: 641
   years:
@@ -840,6 +968,10 @@ by_conference:
     avg_forks: 31.4
     median_stars: 4
     median_forks: 3
+    p25_stars: 1.0
+    p75_stars: 28.0
+    p25_forks: 1.0
+    p75_forks: 8.0
   - year: 2021
     github_repos: 21
     total_stars: 13145
@@ -848,6 +980,10 @@ by_conference:
     avg_forks: 34.4
     median_stars: 7
     median_forks: 2
+    p25_stars: 2.5
+    p75_stars: 17.0
+    p25_forks: 0.0
+    p75_forks: 4.0
   - year: 2022
     github_repos: 35
     total_stars: 3897
@@ -856,6 +992,10 @@ by_conference:
     avg_forks: 17.0
     median_stars: 2
     median_forks: 1
+    p25_stars: 0.0
+    p75_stars: 7.0
+    p25_forks: 0.0
+    p75_forks: 2.0
   - year: 2023
     github_repos: 39
     total_stars: 559
@@ -864,6 +1004,10 @@ by_conference:
     avg_forks: 2.8
     median_stars: 3
     median_forks: 1
+    p25_stars: 1.0
+    p75_stars: 8.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   - year: 2024
     github_repos: 59
     total_stars: 421
@@ -872,6 +1016,10 @@ by_conference:
     avg_forks: 1.5
     median_stars: 2
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 5.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   - year: 2025
     github_repos: 90
     total_stars: 389
@@ -880,6 +1028,10 @@ by_conference:
     avg_forks: 0.9
     median_stars: 0.0
     median_forks: 0.0
+    p25_stars: 0.0
+    p75_stars: 2.0
+    p25_forks: 0.0
+    p75_forks: 0.2
   - year: 2026
     github_repos: 36
     total_stars: 87
@@ -888,6 +1040,10 @@ by_conference:
     avg_forks: 0.6
     median_stars: 0.0
     median_forks: 0.0
+    p25_stars: 0.0
+    p75_stars: 2.0
+    p25_forks: 0.0
+    p75_forks: 0.0
   top_repos:
   - title: Who Can Find My Devices? Security and Privacy of Apple's Crowd-Sourced
       Bluetooth Location Tracking System
@@ -982,6 +1138,10 @@ by_conference:
   avg_forks: 12.2
   median_stars: 19.5
   median_forks: 5.0
+  p25_stars: 6.8
+  p75_stars: 49.5
+  p25_forks: 1.0
+  p75_forks: 12.0
   max_stars: 1219
   max_forks: 166
   years:
@@ -993,6 +1153,10 @@ by_conference:
     avg_forks: 21.1
     median_stars: 48
     median_forks: 8
+    p25_stars: 5.0
+    p75_stars: 85.0
+    p25_forks: 4.0
+    p75_forks: 29.0
   - year: 2021
     github_repos: 35
     total_stars: 2257
@@ -1001,6 +1165,10 @@ by_conference:
     avg_forks: 11.2
     median_stars: 18
     median_forks: 6
+    p25_stars: 7.0
+    p75_stars: 34.0
+    p25_forks: 2.0
+    p75_forks: 9.0
   - year: 2023
     github_repos: 28
     total_stars: 1149
@@ -1009,6 +1177,10 @@ by_conference:
     avg_forks: 7.5
     median_stars: 18.0
     median_forks: 3.5
+    p25_stars: 6.5
+    p75_stars: 66.8
+    p25_forks: 0.2
+    p75_forks: 11.8
   - year: 2024
     github_repos: 24
     total_stars: 1871
@@ -1017,6 +1189,10 @@ by_conference:
     avg_forks: 12.4
     median_stars: 15.0
     median_forks: 3.0
+    p25_stars: 6.5
+    p75_stars: 42.0
+    p25_forks: 0.0
+    p75_forks: 7.0
   top_repos:
   - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
       Systems
@@ -1124,6 +1300,10 @@ by_conference:
   avg_forks: 0.8
   median_stars: 1
   median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 4.5
+  p25_forks: 0.0
+  p75_forks: 1.0
   max_stars: 27
   max_forks: 6
   years:
@@ -1135,6 +1315,10 @@ by_conference:
     avg_forks: 1.8
     median_stars: 3.5
     median_forks: 1.0
+    p25_stars: 1.5
+    p75_stars: 12.8
+    p25_forks: 0.0
+    p75_forks: 3.8
   - year: 2025
     github_repos: 5
     total_stars: 11
@@ -1143,6 +1327,10 @@ by_conference:
     avg_forks: 0.2
     median_stars: 0
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 5.5
+    p25_forks: 0.0
+    p75_forks: 0.5
   - year: 2026
     github_repos: 6
     total_stars: 5
@@ -1151,6 +1339,10 @@ by_conference:
     avg_forks: 0.3
     median_stars: 0.5
     median_forks: 0.0
+    p25_stars: 0.0
+    p75_stars: 1.5
+    p25_forks: 0.0
+    p75_forks: 0.5
   top_repos:
   - title: 'SNPGuard: Remote Attestation of SEV-SNP VMs Using Open Source Tools'
     url: https://github.com/SNPGuard/snp-guard/tree/v0.1.3
@@ -1229,6 +1421,10 @@ by_conference:
   avg_forks: 19.3
   median_stars: 12.0
   median_forks: 2.0
+  p25_stars: 4.0
+  p75_stars: 38.0
+  p25_forks: 1.0
+  p75_forks: 7.0
   max_stars: 12867
   max_forks: 2196
   years:
@@ -1240,6 +1436,10 @@ by_conference:
     avg_forks: 26.8
     median_stars: 40.5
     median_forks: 10.0
+    p25_stars: 12.0
+    p75_stars: 149.5
+    p25_forks: 3.2
+    p75_forks: 24.0
   - year: 2021
     github_repos: 25
     total_stars: 2051
@@ -1248,6 +1448,10 @@ by_conference:
     avg_forks: 11.2
     median_stars: 25
     median_forks: 6
+    p25_stars: 11.0
+    p75_stars: 70.0
+    p25_forks: 2.0
+    p75_forks: 11.5
   - year: 2022
     github_repos: 92
     total_stars: 7862
@@ -1256,6 +1460,10 @@ by_conference:
     avg_forks: 11.8
     median_stars: 13.5
     median_forks: 2.0
+    p25_stars: 5.0
+    p75_stars: 45.5
+    p25_forks: 1.0
+    p75_forks: 8.0
   - year: 2023
     github_repos: 122
     total_stars: 4847
@@ -1264,6 +1472,10 @@ by_conference:
     avg_forks: 7.0
     median_stars: 13.5
     median_forks: 2.0
+    p25_stars: 5.0
+    p75_stars: 34.2
+    p25_forks: 1.0
+    p75_forks: 6.0
   - year: 2024
     github_repos: 128
     total_stars: 15540
@@ -1272,6 +1484,10 @@ by_conference:
     avg_forks: 19.9
     median_stars: 9.0
     median_forks: 2.0
+    p25_stars: 4.0
+    p75_stars: 23.8
+    p25_forks: 0.0
+    p75_forks: 3.0
   - year: 2025
     github_repos: 95
     total_stars: 24460
@@ -1280,6 +1496,10 @@ by_conference:
     avg_forks: 43.1
     median_stars: 10
     median_forks: 2
+    p25_stars: 2.0
+    p75_stars: 64.0
+    p25_forks: 0.0
+    p75_forks: 14.0
   - year: 2026
     github_repos: 28
     total_stars: 3065
@@ -1288,6 +1508,10 @@ by_conference:
     avg_forks: 14.5
     median_stars: 2.5
     median_forks: 0.0
+    p25_stars: 0.0
+    p75_stars: 64.5
+    p25_forks: 0.0
+    p75_forks: 7.8
   top_repos:
   - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
       Penetration Testing'
@@ -1408,6 +1632,10 @@ by_conference:
   avg_forks: 42.0
   median_stars: 10
   median_forks: 1
+  p25_stars: 1.0
+  p75_stars: 36.0
+  p25_forks: 0.0
+  p75_forks: 8.0
   max_stars: 12381
   max_forks: 997
   years:
@@ -1419,6 +1647,10 @@ by_conference:
     avg_forks: 262.0
     median_stars: 170.5
     median_forks: 22.5
+    p25_stars: 36.0
+    p75_stars: 9362.0
+    p25_forks: 7.5
+    p75_forks: 756.0
   - year: 2021
     github_repos: 1
     total_stars: 19
@@ -1427,6 +1659,10 @@ by_conference:
     avg_forks: 0.0
     median_stars: 19
     median_forks: 0
+    p25_stars: 19
+    p75_stars: 19
+    p25_forks: 0
+    p75_forks: 0
   - year: 2022
     github_repos: 3
     total_stars: 24
@@ -1435,6 +1671,10 @@ by_conference:
     avg_forks: 3.7
     median_stars: 10
     median_forks: 3
+    p25_stars: 0.0
+    p75_stars: 14.0
+    p25_forks: 1.0
+    p75_forks: 7.0
   - year: 2023
     github_repos: 5
     total_stars: 577
@@ -1443,6 +1683,10 @@ by_conference:
     avg_forks: 8.0
     median_stars: 20
     median_forks: 1
+    p25_stars: 2.0
+    p75_stars: 276.5
+    p25_forks: 1.0
+    p75_forks: 18.5
   - year: 2024
     github_repos: 9
     total_stars: 2119
@@ -1451,6 +1695,10 @@ by_conference:
     avg_forks: 14.7
     median_stars: 8
     median_forks: 1
+    p25_stars: 3.5
+    p75_stars: 41.5
+    p25_forks: 0.0
+    p75_forks: 7.0
   - year: 2025
     github_repos: 9
     total_stars: 722
@@ -1459,6 +1707,10 @@ by_conference:
     avg_forks: 8.0
     median_stars: 1
     median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 18.0
+    p25_forks: 0.0
+    p75_forks: 1.0
   top_repos:
   - title: Automatic Wireless Protocol Reverse Engineering
     url: https://github.com/jopohl/urh/releases/tag/v2.7.3
@@ -1554,6 +1806,10 @@ by_year:
   avg_forks: 4.0
   median_stars: 6
   median_forks: 3
+  p25_stars: 3.5
+  p75_stars: 17.5
+  p25_forks: 1.0
+  p75_forks: 7.5
   max_stars: 19
   max_forks: 8
 - year: 2018
@@ -1564,6 +1820,10 @@ by_year:
   avg_forks: 16.8
   median_stars: 13
   median_forks: 4
+  p25_stars: 4.0
+  p75_stars: 43.5
+  p25_forks: 1.0
+  p75_forks: 8.0
   max_stars: 566
   max_forks: 161
 - year: 2019
@@ -1574,6 +1834,10 @@ by_year:
   avg_forks: 41.4
   median_stars: 40.5
   median_forks: 7.0
+  p25_stars: 5.0
+  p75_stars: 66.8
+  p25_forks: 2.0
+  p75_forks: 23.8
   max_stars: 12381
   max_forks: 997
 - year: 2020
@@ -1584,6 +1848,10 @@ by_year:
   avg_forks: 51.9
   median_stars: 19
   median_forks: 4
+  p25_stars: 4.0
+  p75_stars: 67.0
+  p25_forks: 1.0
+  p75_forks: 18.0
   max_stars: 14349
   max_forks: 1854
 - year: 2021
@@ -1594,6 +1862,10 @@ by_year:
   avg_forks: 12.8
   median_stars: 13
   median_forks: 4
+  p25_stars: 5.0
+  p75_stars: 34.0
+  p25_forks: 1.0
+  p75_forks: 8.5
   max_stars: 12895
   max_forks: 641
 - year: 2022
@@ -1604,6 +1876,10 @@ by_year:
   avg_forks: 19.0
   median_stars: 9
   median_forks: 2
+  p25_stars: 2.0
+  p75_stars: 28.0
+  p25_forks: 0.0
+  p75_forks: 7.0
   max_stars: 14349
   max_forks: 1854
 - year: 2023
@@ -1614,6 +1890,10 @@ by_year:
   avg_forks: 8.0
   median_stars: 10.0
   median_forks: 2.0
+  p25_stars: 3.0
+  p75_stars: 33.2
+  p25_forks: 0.0
+  p75_forks: 5.0
   max_stars: 1652
   max_forks: 274
 - year: 2024
@@ -1624,6 +1904,10 @@ by_year:
   avg_forks: 10.0
   median_stars: 7
   median_forks: 1
+  p25_stars: 2.0
+  p75_stars: 20.0
+  p25_forks: 0.0
+  p75_forks: 3.0
   max_stars: 12867
   max_forks: 2196
 - year: 2025
@@ -1634,6 +1918,10 @@ by_year:
   avg_forks: 18.5
   median_stars: 2
   median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 11.0
+  p25_forks: 0.0
+  p75_forks: 2.0
   max_stars: 4638
   max_forks: 887
 - year: 2026
@@ -1644,6 +1932,10 @@ by_year:
   avg_forks: 4.8
   median_stars: 1.0
   median_forks: 0.0
+  p25_stars: 0.0
+  p75_stars: 4.0
+  p25_forks: 0.0
+  p75_forks: 0.2
   max_stars: 1376
   max_forks: 107
 by_area:
@@ -1653,6 +1945,10 @@ by_area:
   total_forks: 10231
   median_stars: 16
   median_forks: 3
+  p25_stars: 5.0
+  p75_stars: 45.5
+  p25_forks: 1.0
+  p75_forks: 8.0
   max_stars: 14349
 - name: security
   github_repos: 1133
@@ -1660,4 +1956,8 @@ by_area:
   total_forks: 15428
   median_stars: 5
   median_forks: 1
+  p25_stars: 1.0
+  p75_stars: 19.0
+  p25_forks: 0.0
+  p75_forks: 4.0
   max_stars: 12895
