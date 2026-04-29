@@ -14,8 +14,10 @@ To update these files, re-run the pipeline in reprodb-pipeline.
 ## Hand-Maintained Files
 
 - **`*.md`** page files — content and frontmatter
-- **`_includes/*.html`** — Jekyll templates and inline JavaScript
+- **`_includes/*.html`** — Jekyll templates
 - **`_data/navigation.yml`** — dropdown menu structure
+- **`assets/css/reprodb-*.css`** — per-feature stylesheets
+- **`assets/js/reprodb-*.js`** — per-feature scripts (IIFE pattern)
 - **`assets/css/main.scss`** — custom styling overrides
 - **`_config.yml`** — Jekyll configuration (mostly static)
 
@@ -41,13 +43,25 @@ Changing `conf_name` will break the data lookup.
 
 When adding a new conference page, also add it to `_data/navigation.yml`.
 
-## JavaScript Patterns
+## JavaScript & CSS Patterns
 
-- All JS is **vanilla JavaScript**, inline in `_includes/*.html` — no frameworks.
-- Charts use **Chart.js v4** from CDN (loaded globally via `_includes/head/custom.html`) with the **chartjs-plugin-datalabels** plugin. CSP allows `https://cdn.jsdelivr.net`. Do NOT add extra CDN script tags per page — they are loaded once globally.
+- All JS is **vanilla JavaScript** — no frameworks.
+- **Feature JS/CSS** lives in `assets/js/reprodb-*.js` and `assets/css/reprodb-*.css`,
+  one file per feature (table, search, profile, overview). Use IIFE pattern.
+  Shared utilities live in `reprodb-utils.js` under `window.ReproDB`.
+- **Global assets** are loaded in `_includes/head/custom.html`:
+  Chart.js v4 + datalabels plugin (CDN), `reprodb-utils.js`, `reprodb-table.js/css`.
+  Do NOT add extra CDN script tags per page.
+- **Per-page assets** are loaded via `<link>` / `<script>` tags in the `.md` file.
+- **Data bridge pattern**: When a page needs Jekyll site data in JS, inject it as
+  `<script id="…" type="application/json">` with Liquid, then parse it in the
+  external JS file via `JSON.parse()`. This keeps Liquid in `.md` and logic in `.js`.
+- Charts use **Chart.js v4** (CDN). CSP allows `https://cdn.jsdelivr.net`.
 - Dynamic tables load JSON from `assets/data/` via `fetch()` and render client-side.
 - Page frontmatter provides data URLs (e.g., `page.author_data_url`) — ensure the
   referenced JSON file exists in `assets/data/` before linking.
+- **Dark mode**: Use CSS custom properties + `@media (prefers-color-scheme: dark)` +
+  `html[data-theme="dark"]` selectors. See `reprodb-overview.css` for the pattern.
 
 ## Data Schemas
 
