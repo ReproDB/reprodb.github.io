@@ -355,12 +355,24 @@
   }
 
   /* ===== Geographic: Continents ===== */
+  var CONTINENT_COLORS = {
+    'North America': 'rgba(37,99,235,0.75)',
+    'Europe': 'rgba(220,38,38,0.75)',
+    'Asia': 'rgba(22,163,74,0.75)',
+    'Oceania': 'rgba(147,51,234,0.75)',
+    'South America': 'rgba(234,88,12,0.75)',
+    'Africa': 'rgba(14,165,233,0.75)',
+    'Antarctica': 'rgba(168,85,247,0.75)'
+  };
+  var CONTINENT_FALLBACK = 'rgba(120,120,120,0.6)';
+
+  function continentColor(name) {
+    return CONTINENT_COLORS[name] || CONTINENT_FALLBACK;
+  }
+
   function renderContinents(stats, area) {
     var canvas = document.getElementById('committeeContinentsChart');
     if (!canvas) return;
-
-    var PALETTE = ['rgba(37,99,235,0.75)', 'rgba(220,38,38,0.75)', 'rgba(22,163,74,0.75)',
-      'rgba(147,51,234,0.75)', 'rgba(234,88,12,0.75)', 'rgba(14,165,233,0.75)', 'rgba(168,85,247,0.75)'];
 
     var key = area === 'overall' ? 'overall' : area;
     var continents = (stats.by_continent || {})[key] || [];
@@ -371,7 +383,7 @@
         labels: continents.map(function(c) { return c.name; }),
         datasets: [{
           data: continents.map(function(c) { return c.count; }),
-          backgroundColor: PALETTE.slice(0, continents.length)
+          backgroundColor: continents.map(function(c) { return continentColor(c.name); })
         }]
       },
       options: {
@@ -393,9 +405,9 @@
           type: 'doughnut',
           data: {
             labels: sysCont.map(function(c) { return c.name; }),
-            datasets: [{ data: sysCont.map(function(c) { return c.count; }), backgroundColor: PALETTE }]
+            datasets: [{ data: sysCont.map(function(c) { return c.count; }), backgroundColor: sysCont.map(function(c) { return continentColor(c.name); }) }]
           },
-          options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Systems' }, legend: { display: false } } }
+          options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Systems' }, legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } } }
         });
       }
       if (secCanvas) {
@@ -404,7 +416,7 @@
           type: 'doughnut',
           data: {
             labels: secCont.map(function(c) { return c.name; }),
-            datasets: [{ data: secCont.map(function(c) { return c.count; }), backgroundColor: PALETTE }]
+            datasets: [{ data: secCont.map(function(c) { return c.count; }), backgroundColor: secCont.map(function(c) { return continentColor(c.name); }) }]
           },
           options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Security' }, legend: { display: false } } }
         });
