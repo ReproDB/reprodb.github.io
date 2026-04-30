@@ -26,6 +26,8 @@ Composition, retention, and geographic diversity of Artifact Evaluation Committe
 
 ## Committee Sizes by Conference
 
+Darker cells indicate larger committees. Cells below 5 members (likely incomplete data) are omitted.
+
 <div class="rdb-chart-wide" style="overflow-x:auto;">
   <canvas id="committeeSizesHeatmap"></canvas>
 </div>
@@ -33,6 +35,8 @@ Composition, retention, and geographic diversity of Artifact Evaluation Committe
 ---
 
 ## Growth Over Time
+
+Total committee assignments per year. Growth reflects both new conferences adopting AE processes and existing committees scaling up.
 
 <div class="rdb-chart-wide rdb-chart-wrap--xl">
   <canvas id="committeeGrowthChart"></canvas>
@@ -42,6 +46,8 @@ Composition, retention, and geographic diversity of Artifact Evaluation Committe
 
 ## Service Frequency
 
+How many terms do evaluators serve? Most serve once, but a growing cohort returns repeatedly — building institutional knowledge.
+
 <div class="rdb-chart-wide rdb-chart-wrap--lg">
   <canvas id="serviceFrequencyChart"></canvas>
 </div>
@@ -50,6 +56,8 @@ Composition, retention, and geographic diversity of Artifact Evaluation Committe
 
 ## Retention Trends
 
+Year-over-year retention: what fraction of each year's committee served the previous year? The dashed line tracks retention across area boundaries (e.g., a security evaluator who also served in systems counts as retained).
+
 <div class="rdb-chart-wide rdb-chart-wrap--lg">
   <canvas id="retentionChart"></canvas>
 </div>
@@ -57,6 +65,8 @@ Composition, retention, and geographic diversity of Artifact Evaluation Committe
 ---
 
 ## Members by Continent
+
+Geographic distribution of security AE committee members by continent.
 
 <div class="rdb-chart-wide rdb-chart-wrap--sm" style="max-width:500px;">
   <canvas id="committeeContinentsChart"></canvas>
