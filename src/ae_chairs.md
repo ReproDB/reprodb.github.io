@@ -35,8 +35,8 @@ A dedicated view of **Artifact Evaluation Committee chairs** — the people who 
 | | All | Systems | Security |
 |---|:---:|:---:|:---:|
 | **Unique Chairs** | {{ site.data.committee_stats.chair_stats.total_chairs }} | {{ site.data.committee_stats.chair_stats.total_chairs_systems }} | {{ site.data.committee_stats.chair_stats.total_chairs_security }} |
-| **Repeat Chairs** | {{ site.data.committee_stats.chair_stats.repeat_chairs }} | — | — |
-| **Avg. Chairs/Edition** | {{ site.data.committee_stats.chair_stats.avg_chairs_per_edition }} | — | — |
+| **Repeat Chairs** | {{ site.data.committee_stats.chair_stats.repeat_chairs }} | {{ site.data.committee_stats.chair_stats.repeat_chairs_systems }} | {{ site.data.committee_stats.chair_stats.repeat_chairs_security }} |
+| **Avg. Chairs/Edition** | {{ site.data.committee_stats.chair_stats.avg_chairs_per_edition }} | {{ site.data.committee_stats.chair_stats.avg_chairs_per_edition_systems }} | {{ site.data.committee_stats.chair_stats.avg_chairs_per_edition_security }} |
 
 ---
 
