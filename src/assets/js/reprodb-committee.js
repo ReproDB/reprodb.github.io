@@ -246,7 +246,10 @@
       data: { labels: labels, datasets: datasets },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { title: { display: true, text: 'Service Frequency — Terms Served per Member' } },
+        plugins: {
+          title: { display: true, text: 'Service Frequency — Terms Served per Member' },
+          datalabels: { display: true, anchor: 'end', align: 'end', font: { size: 11 } }
+        },
         scales: { y: { beginAtZero: true, title: { display: true, text: 'Members' } }, x: { title: { display: true, text: 'Terms' } } }
       }
     });
