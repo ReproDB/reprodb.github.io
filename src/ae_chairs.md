@@ -61,7 +61,7 @@ Chairs represent **{{ site.data.committee_stats.chair_stats.total_countries }} c
 
 <div class="rdb-chart-row">
   <div class="rdb-chart-col">
-    <div class="rdb-chart-wrap rdb-chart-wrap--sm">
+    <div class="rdb-chart-wrap rdb-chart-wrap--lg">
       <canvas id="chairContinentChart"></canvas>
     </div>
   </div>
