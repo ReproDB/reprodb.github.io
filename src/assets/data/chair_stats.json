@@ -1,0 +1,1446 @@
+{
+  "summary": {
+    "total_chairs": 82,
+    "total_chairs_systems": 54,
+    "total_chairs_security": 30,
+    "repeat_chairs": 23,
+    "repeat_chairs_pct": 28.0,
+    "cross_conference_chairs": 13,
+    "pipeline_promoted": 31,
+    "pipeline_promoted_pct": 37.8,
+    "pipeline_avg_years": 2.7,
+    "avg_chairs_per_edition": 2.2,
+    "year_trends": [
+      {
+        "year": 2017,
+        "new_chairs": 1,
+        "active_chairs": 1
+      },
+      {
+        "year": 2018,
+        "new_chairs": 0,
+        "active_chairs": 1
+      },
+      {
+        "year": 2019,
+        "new_chairs": 6,
+        "active_chairs": 6
+      },
+      {
+        "year": 2020,
+        "new_chairs": 5,
+        "active_chairs": 6
+      },
+      {
+        "year": 2021,
+        "new_chairs": 14,
+        "active_chairs": 17
+      },
+      {
+        "year": 2022,
+        "new_chairs": 7,
+        "active_chairs": 15
+      },
+      {
+        "year": 2023,
+        "new_chairs": 14,
+        "active_chairs": 19
+      },
+      {
+        "year": 2024,
+        "new_chairs": 10,
+        "active_chairs": 16
+      },
+      {
+        "year": 2025,
+        "new_chairs": 12,
+        "active_chairs": 15
+      },
+      {
+        "year": 2026,
+        "new_chairs": 11,
+        "active_chairs": 16
+      }
+    ]
+  },
+  "chair_teams": [
+    {
+      "conference": "ACSAC",
+      "year": 2017,
+      "chair_count": 1,
+      "chairs": [
+        "Manuel Egele"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2018,
+      "chair_count": 1,
+      "chairs": [
+        "Manuel Egele"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2019,
+      "chair_count": 1,
+      "chairs": [
+        "Roberto Perdisci"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2020,
+      "chair_count": 1,
+      "chairs": [
+        "Roberto Perdisci"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2021,
+      "chair_count": 2,
+      "chairs": [
+        "Gianluca Stringhini",
+        "Martina Lindorfer"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2022,
+      "chair_count": 2,
+      "chairs": [
+        "Gianluca Stringhini",
+        "Martina Lindorfer"
+      ]
+    },
+    {
+      "conference": "ACSAC",
+      "year": 2023,
+      "chair_count": 2,
+      "chairs": [
+        "Adwait Nadkarni",
+        "Xiaojing Liao"
+      ]
+    },
+    {
+      "conference": "ATC",
+      "year": 2022,
+      "chair_count": 3,
+      "chairs": [
+        "Anuj Kalia",
+        "Chengyu Zhang",
+        "Neeraja J. Yadwadkar"
+      ]
+    },
+    {
+      "conference": "ATC",
+      "year": 2023,
+      "chair_count": 3,
+      "chairs": [
+        "Cesar A. Stuardo",
+        "Jianyu Jiang",
+        "Nathan Rutherford"
+      ]
+    },
+    {
+      "conference": "ATC",
+      "year": 2024,
+      "chair_count": 3,
+      "chairs": [
+        "Cesar A. Stuardo",
+        "Ji Qi",
+        "Jianyu Jiang"
+      ]
+    },
+    {
+      "conference": "ATC",
+      "year": 2025,
+      "chair_count": 2,
+      "chairs": [
+        "Alain Tchana",
+        "Vijay Chidambaram"
+      ]
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "chair_count": 1,
+      "chairs": [
+        "Bogdan Alexandru Stoica"
+      ]
+    },
+    {
+      "conference": "CHES",
+      "year": 2021,
+      "chair_count": 1,
+      "chairs": [
+        "Douglas Stebila"
+      ]
+    },
+    {
+      "conference": "CHES",
+      "year": 2022,
+      "chair_count": 1,
+      "chairs": [
+        "Martin Albrecht"
+      ]
+    },
+    {
+      "conference": "CHES",
+      "year": 2023,
+      "chair_count": 1,
+      "chairs": [
+        "Peter Schwabe"
+      ]
+    },
+    {
+      "conference": "CHES",
+      "year": 2024,
+      "chair_count": 1,
+      "chairs": [
+        "Markku-Juhani O. Saarinen"
+      ]
+    },
+    {
+      "conference": "CHES",
+      "year": 2025,
+      "chair_count": 1,
+      "chairs": [
+        "Lennert Wouters"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2021,
+      "chair_count": 3,
+      "chairs": [
+        "Cristiano Giuffrida",
+        "Kornilios Kourtis",
+        "Martin Kleppmann"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2022,
+      "chair_count": 4,
+      "chairs": [
+        "Anjo Vahldiek-Oberwagner",
+        "Natacha Crooks",
+        "Salvatore Signorello",
+        "Solal Pirelli"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2023,
+      "chair_count": 3,
+      "chairs": [
+        "Daniele Cono D'Elia",
+        "Mathias Payer",
+        "Vincenzo Gulisano"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2024,
+      "chair_count": 2,
+      "chairs": [
+        "Miguel Matos",
+        "Valerio Schiavoni"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2025,
+      "chair_count": 3,
+      "chairs": [
+        "Christian Pinto",
+        "Georgios Portokalidis",
+        "Thaleia Dimitra Doudali"
+      ]
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Bogdan Alexandru Stoica",
+        "Pierre Olivier"
+      ]
+    },
+    {
+      "conference": "FAST",
+      "year": 2024,
+      "chair_count": 2,
+      "chairs": [
+        "Haryadi S. Gunawi",
+        "Huaicheng Li"
+      ]
+    },
+    {
+      "conference": "FAST",
+      "year": 2025,
+      "chair_count": 2,
+      "chairs": [
+        "Huaicheng Li",
+        "Juncheng Yang"
+      ]
+    },
+    {
+      "conference": "FAST",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Erci Xu",
+        "Juncheng Yang"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2020,
+      "chair_count": 3,
+      "chairs": [
+        "Anjo Vahldiek-Oberwagner",
+        "Eric Eide",
+        "Ryan Stutsman"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2021,
+      "chair_count": 3,
+      "chairs": [
+        "Guyue",
+        "Lalith Suresh",
+        "Manuel Rigger"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2022,
+      "chair_count": 3,
+      "chairs": [
+        "Anuj Kalia",
+        "Chengyu Zhang",
+        "Neeraja J. Yadwadkar"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2023,
+      "chair_count": 3,
+      "chairs": [
+        "Cesar A. Stuardo",
+        "Jianyu Jiang",
+        "Nathan Rutherford"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2024,
+      "chair_count": 3,
+      "chairs": [
+        "Cesar A. Stuardo",
+        "Ji Qi",
+        "Jianyu Jiang"
+      ]
+    },
+    {
+      "conference": "OSDI",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Anand Iyer",
+        "Sara McAllister"
+      ]
+    },
+    {
+      "conference": "SC",
+      "year": 2021,
+      "chair_count": 2,
+      "chairs": [
+        "Anjo Vahldiek-Oberwagner",
+        "Tanu Malik"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2019,
+      "chair_count": 3,
+      "chairs": [
+        "Baris Kasikci",
+        "Supreeth Shastri",
+        "Vijay Chidambaram"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2021,
+      "chair_count": 3,
+      "chairs": [
+        "Dan Ports",
+        "Ivo Jimenez",
+        "Robert Ricci"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2023,
+      "chair_count": 3,
+      "chairs": [
+        "Dong Du",
+        "Jiayi Meng",
+        "Matthew Burke"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2024,
+      "chair_count": 2,
+      "chairs": [
+        "Alexey Tumanov",
+        "Henrique Fingler"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2025,
+      "chair_count": 3,
+      "chairs": [
+        "Baptiste Lepers",
+        "Sanidhya Kashyap",
+        "Sudarsun Kannan"
+      ]
+    },
+    {
+      "conference": "SOSP",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Alex Voulimeneas",
+        "Solal Pirelli"
+      ]
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2025,
+      "chair_count": 1,
+      "chairs": [
+        "Jo Van Bulck"
+      ]
+    },
+    {
+      "conference": "SYSTEX",
+      "year": 2026,
+      "chair_count": 1,
+      "chairs": [
+        "Marton Bognar"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2020,
+      "chair_count": 2,
+      "chairs": [
+        "Brendan Dolan-Gavitt",
+        "Thorsten Holz"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2021,
+      "chair_count": 2,
+      "chairs": [
+        "Cl\u00e9mentine Maurice",
+        "Thorsten Holz"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2022,
+      "chair_count": 2,
+      "chairs": [
+        "Cl\u00e9mentine Maurice",
+        "Cristiano Giuffrida"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2023,
+      "chair_count": 3,
+      "chairs": [
+        "Alexios Voulimeneas",
+        "Anjo Vahldiek-Oberwagner",
+        "Cristiano Giuffrida"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2024,
+      "chair_count": 3,
+      "chairs": [
+        "Anjo Vahldiek-Oberwagner",
+        "Phani Vadrevu",
+        "Victor Le Pochat"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2025,
+      "chair_count": 3,
+      "chairs": [
+        "Aurore Fass",
+        "Phani Vadrevu",
+        "Tiago Heinrich"
+      ]
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "chair_count": 4,
+      "chairs": [
+        "Aurore Fass",
+        "Christian Wressnegger",
+        "Deepak Kumar",
+        "Tiago Heinrich"
+      ]
+    },
+    {
+      "conference": "VEHICLESEC",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Dario Stabili",
+        "Taegyu Kim"
+      ]
+    },
+    {
+      "conference": "WOOT",
+      "year": 2019,
+      "chair_count": 2,
+      "chairs": [
+        "Alex Gantman",
+        "Cl\u00e9mentine Maurice"
+      ]
+    },
+    {
+      "conference": "WOOT",
+      "year": 2021,
+      "chair_count": 1,
+      "chairs": [
+        "Erik van der Kouwe"
+      ]
+    },
+    {
+      "conference": "WOOT",
+      "year": 2023,
+      "chair_count": 1,
+      "chairs": [
+        "Marco Squarcina"
+      ]
+    }
+  ],
+  "pipeline": {
+    "promoted_count": 31,
+    "promoted_pct": 37.8,
+    "avg_years_to_chair": 2.7,
+    "min_years": 1,
+    "max_years": 9,
+    "promotions": [
+      {
+        "name": "Anjo Vahldiek-Oberwagner",
+        "first_member_year": 2019,
+        "first_chair_year": 2020,
+        "gap": 1
+      },
+      {
+        "name": "Jianyu Jiang",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Nathan Rutherford",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Chengyu Zhang",
+        "first_member_year": 2021,
+        "first_chair_year": 2022,
+        "gap": 1
+      },
+      {
+        "name": "Salvatore Signorello",
+        "first_member_year": 2021,
+        "first_chair_year": 2022,
+        "gap": 1
+      },
+      {
+        "name": "Marton Bognar",
+        "first_member_year": 2025,
+        "first_chair_year": 2026,
+        "gap": 1
+      },
+      {
+        "name": "Adwait Nadkarni",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Marco Squarcina",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Peter Schwabe",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Xiaojing Liao",
+        "first_member_year": 2022,
+        "first_chair_year": 2023,
+        "gap": 1
+      },
+      {
+        "name": "Solal Pirelli",
+        "first_member_year": 2020,
+        "first_chair_year": 2022,
+        "gap": 2
+      },
+      {
+        "name": "Tiago Heinrich",
+        "first_member_year": 2023,
+        "first_chair_year": 2025,
+        "gap": 2
+      },
+      {
+        "name": "Gianluca Stringhini",
+        "first_member_year": 2019,
+        "first_chair_year": 2021,
+        "gap": 2
+      },
+      {
+        "name": "Ji Qi",
+        "first_member_year": 2022,
+        "first_chair_year": 2024,
+        "gap": 2
+      },
+      {
+        "name": "Martina Lindorfer",
+        "first_member_year": 2019,
+        "first_chair_year": 2021,
+        "gap": 2
+      },
+      {
+        "name": "Dong Du",
+        "first_member_year": 2021,
+        "first_chair_year": 2023,
+        "gap": 2
+      },
+      {
+        "name": "Jiayi Meng",
+        "first_member_year": 2021,
+        "first_chair_year": 2023,
+        "gap": 2
+      },
+      {
+        "name": "Dario Stabili",
+        "first_member_year": 2024,
+        "first_chair_year": 2026,
+        "gap": 2
+      },
+      {
+        "name": "Ivo Jimenez",
+        "first_member_year": 2019,
+        "first_chair_year": 2021,
+        "gap": 2
+      },
+      {
+        "name": "Cesar A. Stuardo",
+        "first_member_year": 2020,
+        "first_chair_year": 2023,
+        "gap": 3
+      },
+      {
+        "name": "Huaicheng Li",
+        "first_member_year": 2021,
+        "first_chair_year": 2024,
+        "gap": 3
+      },
+      {
+        "name": "Alexios Voulimeneas",
+        "first_member_year": 2020,
+        "first_chair_year": 2023,
+        "gap": 3
+      },
+      {
+        "name": "Matthew Burke",
+        "first_member_year": 2020,
+        "first_chair_year": 2023,
+        "gap": 3
+      },
+      {
+        "name": "Lennert Wouters",
+        "first_member_year": 2021,
+        "first_chair_year": 2025,
+        "gap": 4
+      },
+      {
+        "name": "Daniele Cono D'Elia",
+        "first_member_year": 2019,
+        "first_chair_year": 2023,
+        "gap": 4
+      },
+      {
+        "name": "Bogdan Alexandru Stoica",
+        "first_member_year": 2021,
+        "first_chair_year": 2026,
+        "gap": 5
+      },
+      {
+        "name": "Phani Vadrevu",
+        "first_member_year": 2019,
+        "first_chair_year": 2024,
+        "gap": 5
+      },
+      {
+        "name": "Taegyu Kim",
+        "first_member_year": 2021,
+        "first_chair_year": 2026,
+        "gap": 5
+      },
+      {
+        "name": "Valerio Schiavoni",
+        "first_member_year": 2019,
+        "first_chair_year": 2024,
+        "gap": 5
+      },
+      {
+        "name": "Aurore Fass",
+        "first_member_year": 2018,
+        "first_chair_year": 2025,
+        "gap": 7
+      },
+      {
+        "name": "Christian Wressnegger",
+        "first_member_year": 2017,
+        "first_chair_year": 2026,
+        "gap": 9
+      }
+    ]
+  },
+  "retention": {
+    "repeat_count": 23,
+    "distribution": {
+      "1": 59,
+      "2": 18,
+      "3": 2,
+      "4": 2,
+      "5": 1
+    },
+    "tenure_spans": [
+      {
+        "name": "Christian Wressnegger",
+        "span_years": 10,
+        "chair_count": 1,
+        "first_year": 2017,
+        "last_year": 2026
+      },
+      {
+        "name": "Aurore Fass",
+        "span_years": 9,
+        "chair_count": 2,
+        "first_year": 2018,
+        "last_year": 2026
+      },
+      {
+        "name": "Solal Pirelli",
+        "span_years": 7,
+        "chair_count": 2,
+        "first_year": 2020,
+        "last_year": 2026
+      },
+      {
+        "name": "Phani Vadrevu",
+        "span_years": 7,
+        "chair_count": 2,
+        "first_year": 2019,
+        "last_year": 2025
+      },
+      {
+        "name": "Vijay Chidambaram",
+        "span_years": 7,
+        "chair_count": 2,
+        "first_year": 2019,
+        "last_year": 2025
+      },
+      {
+        "name": "Anjo Vahldiek-Oberwagner",
+        "span_years": 6,
+        "chair_count": 5,
+        "first_year": 2019,
+        "last_year": 2024
+      },
+      {
+        "name": "Cesar A. Stuardo",
+        "span_years": 6,
+        "chair_count": 4,
+        "first_year": 2020,
+        "last_year": 2025
+      },
+      {
+        "name": "Bogdan Alexandru Stoica",
+        "span_years": 6,
+        "chair_count": 2,
+        "first_year": 2021,
+        "last_year": 2026
+      },
+      {
+        "name": "Taegyu Kim",
+        "span_years": 6,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2026
+      },
+      {
+        "name": "Valerio Schiavoni",
+        "span_years": 6,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2024
+      },
+      {
+        "name": "Huaicheng Li",
+        "span_years": 5,
+        "chair_count": 2,
+        "first_year": 2021,
+        "last_year": 2025
+      },
+      {
+        "name": "Salvatore Signorello",
+        "span_years": 5,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2025
+      },
+      {
+        "name": "Lennert Wouters",
+        "span_years": 5,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2025
+      },
+      {
+        "name": "Daniele Cono D'Elia",
+        "span_years": 5,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2023
+      },
+      {
+        "name": "Cl\u00e9mentine Maurice",
+        "span_years": 4,
+        "chair_count": 3,
+        "first_year": 2019,
+        "last_year": 2022
+      },
+      {
+        "name": "Nathan Rutherford",
+        "span_years": 4,
+        "chair_count": 2,
+        "first_year": 2022,
+        "last_year": 2025
+      },
+      {
+        "name": "Tiago Heinrich",
+        "span_years": 4,
+        "chair_count": 2,
+        "first_year": 2023,
+        "last_year": 2026
+      },
+      {
+        "name": "Gianluca Stringhini",
+        "span_years": 4,
+        "chair_count": 2,
+        "first_year": 2019,
+        "last_year": 2022
+      },
+      {
+        "name": "Martina Lindorfer",
+        "span_years": 4,
+        "chair_count": 2,
+        "first_year": 2019,
+        "last_year": 2022
+      },
+      {
+        "name": "Alexios Voulimeneas",
+        "span_years": 4,
+        "chair_count": 1,
+        "first_year": 2020,
+        "last_year": 2023
+      },
+      {
+        "name": "Matthew Burke",
+        "span_years": 4,
+        "chair_count": 1,
+        "first_year": 2020,
+        "last_year": 2023
+      },
+      {
+        "name": "Jianyu Jiang",
+        "span_years": 3,
+        "chair_count": 4,
+        "first_year": 2022,
+        "last_year": 2024
+      },
+      {
+        "name": "Cristiano Giuffrida",
+        "span_years": 3,
+        "chair_count": 3,
+        "first_year": 2021,
+        "last_year": 2023
+      },
+      {
+        "name": "Ji Qi",
+        "span_years": 3,
+        "chair_count": 2,
+        "first_year": 2022,
+        "last_year": 2024
+      },
+      {
+        "name": "Dong Du",
+        "span_years": 3,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2023
+      },
+      {
+        "name": "Jiayi Meng",
+        "span_years": 3,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2023
+      },
+      {
+        "name": "Dario Stabili",
+        "span_years": 3,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2026
+      },
+      {
+        "name": "Ivo Jimenez",
+        "span_years": 3,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2021
+      },
+      {
+        "name": "Chengyu Zhang",
+        "span_years": 2,
+        "chair_count": 2,
+        "first_year": 2021,
+        "last_year": 2022
+      },
+      {
+        "name": "Juncheng Yang",
+        "span_years": 2,
+        "chair_count": 2,
+        "first_year": 2025,
+        "last_year": 2026
+      },
+      {
+        "name": "Manuel Egele",
+        "span_years": 2,
+        "chair_count": 2,
+        "first_year": 2017,
+        "last_year": 2018
+      },
+      {
+        "name": "Roberto Perdisci",
+        "span_years": 2,
+        "chair_count": 2,
+        "first_year": 2019,
+        "last_year": 2020
+      },
+      {
+        "name": "Thorsten Holz",
+        "span_years": 2,
+        "chair_count": 2,
+        "first_year": 2020,
+        "last_year": 2021
+      },
+      {
+        "name": "Marton Bognar",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2026
+      },
+      {
+        "name": "Adwait Nadkarni",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2023
+      },
+      {
+        "name": "Douglas Stebila",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2022
+      },
+      {
+        "name": "Marco Squarcina",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2023
+      },
+      {
+        "name": "Peter Schwabe",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2023
+      },
+      {
+        "name": "Xiaojing Liao",
+        "span_years": 2,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2023
+      },
+      {
+        "name": "Anuj Kalia",
+        "span_years": 1,
+        "chair_count": 2,
+        "first_year": 2022,
+        "last_year": 2022
+      },
+      {
+        "name": "Neeraja J. Yadwadkar",
+        "span_years": 1,
+        "chair_count": 2,
+        "first_year": 2022,
+        "last_year": 2022
+      },
+      {
+        "name": "Ryan Huang",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Tianyin Xu",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Henrique Fingler",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Alain Tchana",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Alex Gantman",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2019
+      },
+      {
+        "name": "Alex Voulimeneas",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Alexey Tumanov",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Anand Iyer",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Baptiste Lepers",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Baris Kasikci",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2019
+      },
+      {
+        "name": "Brendan Dolan-Gavitt",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2020,
+        "last_year": 2020
+      },
+      {
+        "name": "Christian Pinto",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Dan Ports",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Deepak Kumar",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Erci Xu",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Eric Eide",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2020,
+        "last_year": 2020
+      },
+      {
+        "name": "Erik van der Kouwe",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Georgios Portokalidis",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Guyue",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Haryadi S. Gunawi",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Jo Van Bulck",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Kornilios Kourtis",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Lalith Suresh",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Manuel Rigger",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Markku-Juhani O. Saarinen",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Martin Albrecht",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2022
+      },
+      {
+        "name": "Martin Kleppmann",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Mathias Payer",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2023,
+        "last_year": 2023
+      },
+      {
+        "name": "Miguel Matos",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Natacha Crooks",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2022,
+        "last_year": 2022
+      },
+      {
+        "name": "Pierre Olivier",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Robert Ricci",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Ryan Stutsman",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2020,
+        "last_year": 2020
+      },
+      {
+        "name": "Sanidhya Kashyap",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Sara McAllister",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
+        "name": "Sudarsun Kannan",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Supreeth Shastri",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2019,
+        "last_year": 2019
+      },
+      {
+        "name": "Tanu Malik",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2021
+      },
+      {
+        "name": "Thaleia Dimitra Doudali",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
+        "name": "Victor Le Pochat",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2024,
+        "last_year": 2024
+      },
+      {
+        "name": "Vincenzo Gulisano",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2023,
+        "last_year": 2023
+      }
+    ]
+  },
+  "cross_conference": [
+    {
+      "name": "Anjo Vahldiek-Oberwagner",
+      "affiliation": "Intel",
+      "series": [
+        "EUROSYS",
+        "OSDI",
+        "SC",
+        "USENIXSEC"
+      ],
+      "chair_count": 5
+    },
+    {
+      "name": "Cesar A. Stuardo",
+      "affiliation": "ByteDance",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 4
+    },
+    {
+      "name": "Jianyu Jiang",
+      "affiliation": "Huawei",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 4
+    },
+    {
+      "name": "Cl\u00e9mentine Maurice",
+      "affiliation": "CNRS",
+      "series": [
+        "USENIXSEC",
+        "WOOT"
+      ],
+      "chair_count": 3
+    },
+    {
+      "name": "Cristiano Giuffrida",
+      "affiliation": "Vrije Universiteit Amsterdam",
+      "series": [
+        "EUROSYS",
+        "USENIXSEC"
+      ],
+      "chair_count": 3
+    },
+    {
+      "name": "Anuj Kalia",
+      "affiliation": "Microsoft",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Bogdan Alexandru Stoica",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "series": [
+        "CAIS",
+        "EUROSYS"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Chengyu Zhang",
+      "affiliation": "East China Normal University",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Ji Qi",
+      "affiliation": "Institute of Software",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Nathan Rutherford",
+      "affiliation": "Royal Holloway",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Neeraja J. Yadwadkar",
+      "affiliation": "University of Texas at Austin",
+      "series": [
+        "ATC",
+        "OSDI"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Solal Pirelli",
+      "affiliation": "EPFL",
+      "series": [
+        "EUROSYS",
+        "SOSP"
+      ],
+      "chair_count": 2
+    },
+    {
+      "name": "Vijay Chidambaram",
+      "affiliation": "University of Texas at Austin",
+      "series": [
+        "ATC",
+        "SOSP"
+      ],
+      "chair_count": 2
+    }
+  ]
+}

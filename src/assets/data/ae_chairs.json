@@ -1,0 +1,3611 @@
+[
+  {
+    "name": "Anjo Vahldiek-Oberwagner",
+    "display_name": "Anjo Vahldiek-Oberwagner",
+    "affiliation": "Intel",
+    "total_memberships": 7,
+    "chair_count": 5,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      },
+      {
+        "conference": "SC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2019": 1,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
+    },
+    "first_year": 2019,
+    "last_year": 2024,
+    "first_chair_year": 2020,
+    "chaired_series": [
+      "EUROSYS",
+      "OSDI",
+      "SC",
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      },
+      {
+        "conference": "SC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Cesar A. Stuardo",
+    "display_name": "Cesar A. Stuardo",
+    "affiliation": "ByteDance",
+    "total_memberships": 10,
+    "chair_count": 4,
+    "member_count": 6,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2
+    },
+    "first_year": 2020,
+    "last_year": 2025,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 3
+  },
+  {
+    "name": "Jianyu Jiang",
+    "display_name": "Jianyu Jiang",
+    "affiliation": "Huawei",
+    "total_memberships": 7,
+    "chair_count": 4,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2022": 3,
+      "2023": 2,
+      "2024": 2
+    },
+    "first_year": 2022,
+    "last_year": 2024,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Cl\u00e9mentine Maurice",
+    "display_name": "Cl\u00e9mentine Maurice",
+    "affiliation": "CNRS",
+    "total_memberships": 3,
+    "chair_count": 3,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2019,
+    "last_year": 2022,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "USENIXSEC",
+      "WOOT"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Cristiano Giuffrida",
+    "display_name": "Cristiano Giuffrida",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "total_memberships": 3,
+    "chair_count": 3,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2021,
+    "last_year": 2023,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "EUROSYS",
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Nathan Rutherford",
+    "display_name": "Nathan Rutherford",
+    "affiliation": "Royal Holloway",
+    "total_memberships": 10,
+    "chair_count": 2,
+    "member_count": 8,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2022": 4,
+      "2023": 3,
+      "2024": 2,
+      "2025": 1
+    },
+    "first_year": 2022,
+    "last_year": 2025,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Bogdan Alexandru Stoica",
+    "display_name": "Bogdan Alexandru Stoica",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "total_memberships": 7,
+    "chair_count": 2,
+    "member_count": 5,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "CAIS",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1,
+      "2022": 3,
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2021,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "CAIS",
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CAIS",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 5
+  },
+  {
+    "name": "Solal Pirelli",
+    "display_name": "Solal Pirelli",
+    "affiliation": "EPFL",
+    "total_memberships": 6,
+    "chair_count": 2,
+    "member_count": 4,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2026": 1
+    },
+    "first_year": 2020,
+    "last_year": 2026,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "EUROSYS",
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Aurore Fass",
+    "display_name": "Aurore Fass",
+    "affiliation": "Inria",
+    "total_memberships": 4,
+    "chair_count": 2,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2018": 1,
+      "2021": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2018,
+    "last_year": 2026,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 7
+  },
+  {
+    "name": "Chengyu Zhang",
+    "display_name": "Chengyu Zhang",
+    "affiliation": "East China Normal University",
+    "total_memberships": 4,
+    "chair_count": 2,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2021": 1,
+      "2022": 3
+    },
+    "first_year": 2021,
+    "last_year": 2022,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Phani Vadrevu",
+    "display_name": "Phani Vadrevu",
+    "affiliation": "Louisiana State University",
+    "total_memberships": 4,
+    "chair_count": 2,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "first_year": 2019,
+    "last_year": 2025,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 5
+  },
+  {
+    "name": "Tiago Heinrich",
+    "display_name": "Tiago Heinrich",
+    "affiliation": "Max Planck Society",
+    "total_memberships": 4,
+    "chair_count": 2,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2023,
+    "last_year": 2026,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Gianluca Stringhini",
+    "display_name": "Gianluca Stringhini",
+    "affiliation": "Boston University",
+    "total_memberships": 3,
+    "chair_count": 2,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2019,
+    "last_year": 2022,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Huaicheng Li",
+    "display_name": "Huaicheng Li",
+    "affiliation": "Virginia Tech",
+    "total_memberships": 3,
+    "chair_count": 2,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "FAST",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "FAST",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "FAST"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "FAST",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "FAST",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 3
+  },
+  {
+    "name": "Ji Qi",
+    "display_name": "Ji Qi",
+    "affiliation": "Institute of Software",
+    "total_memberships": 3,
+    "chair_count": 2,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2022": 1,
+      "2024": 2
+    },
+    "first_year": 2022,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Martina Lindorfer",
+    "display_name": "Martina Lindorfer",
+    "affiliation": "TU Wien",
+    "total_memberships": 3,
+    "chair_count": 2,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2019,
+    "last_year": 2022,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Anuj Kalia",
+    "display_name": "Anuj Kalia",
+    "affiliation": "Microsoft",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2022": 2
+    },
+    "first_year": 2022,
+    "last_year": 2022,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Juncheng Yang",
+    "display_name": "Juncheng Yang",
+    "affiliation": "Harvard University",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "FAST",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "FAST",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "FAST"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "FAST",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "FAST",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Manuel Egele",
+    "display_name": "Manuel Egele",
+    "affiliation": "Boston University",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2017": 1,
+      "2018": 1
+    },
+    "first_year": 2017,
+    "last_year": 2018,
+    "first_chair_year": 2017,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Neeraja J. Yadwadkar",
+    "display_name": "Neeraja J. Yadwadkar",
+    "affiliation": "University of Texas at Austin",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2022": 2
+    },
+    "first_year": 2022,
+    "last_year": 2022,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "ATC",
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Roberto Perdisci",
+    "display_name": "Roberto Perdisci",
+    "affiliation": "University of Georgia",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1,
+      "2020": 1
+    },
+    "first_year": 2019,
+    "last_year": 2020,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Thorsten Holz",
+    "display_name": "Thorsten Holz",
+    "affiliation": "Ruhr University Bochum",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2020": 1,
+      "2021": 1
+    },
+    "first_year": 2020,
+    "last_year": 2021,
+    "first_chair_year": 2020,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Vijay Chidambaram",
+    "display_name": "Vijay Chidambaram",
+    "affiliation": "University of Texas at Austin",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2019": 1,
+      "2025": 1
+    },
+    "first_year": 2019,
+    "last_year": 2025,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "ATC",
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Christian Wressnegger",
+    "display_name": "Christian Wressnegger",
+    "affiliation": "Karlsruhe Institute of Technology",
+    "total_memberships": 10,
+    "chair_count": 1,
+    "member_count": 9,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "PETS",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "PETS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2026": 1
+    },
+    "first_year": 2017,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 9
+  },
+  {
+    "name": "Salvatore Signorello",
+    "display_name": "Salvatore Signorello",
+    "affiliation": "Telefonica Research Spain",
+    "total_memberships": 6,
+    "chair_count": 1,
+    "member_count": 5,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2024": 3,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Lennert Wouters",
+    "display_name": "Lennert Wouters",
+    "affiliation": "KU Leuven",
+    "total_memberships": 5,
+    "chair_count": 1,
+    "member_count": 4,
+    "conferences": [
+      {
+        "conference": "CHES",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "CHES",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "CHES",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "CHES",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2024,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "first_year": 2021,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "CHES"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CHES",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 4
+  },
+  {
+    "name": "Alexios Voulimeneas",
+    "display_name": "Alexios Voulimeneas",
+    "affiliation": "KU Leuven",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2020": 1,
+      "2022": 2,
+      "2023": 1
+    },
+    "first_year": 2020,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 3
+  },
+  {
+    "name": "Dong Du",
+    "display_name": "Dong Du",
+    "affiliation": "Shanghai Jiao Tong University",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 1
+    },
+    "first_year": 2021,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Jiayi Meng",
+    "display_name": "Jiayi Meng",
+    "affiliation": "University of Texas at Arlington",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 2,
+      "2023": 1
+    },
+    "first_year": 2021,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Marton Bognar",
+    "display_name": "Marton Bognar",
+    "affiliation": "KU Leuven",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 2,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "SYSTEX"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Matthew Burke",
+    "display_name": "Matthew Burke",
+    "affiliation": "Databricks",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1,
+      "2021": 1,
+      "2023": 1
+    },
+    "first_year": 2020,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 3
+  },
+  {
+    "name": "Ryan Huang",
+    "display_name": "Ryan Huang",
+    "affiliation": "University of Michigan",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 3
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": null,
+    "chaired_series": [],
+    "chaired_conferences": [],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Tianyin Xu",
+    "display_name": "Tianyin Xu",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 3
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": null,
+    "chaired_series": [],
+    "chaired_conferences": [],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Adwait Nadkarni",
+    "display_name": "Adwait Nadkarni",
+    "affiliation": "William and Mary",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2022,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Daniele Cono D'Elia",
+    "display_name": "Daniele Cono D'Elia",
+    "affiliation": "Sapienza University of Rome",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2019": 1,
+      "2023": 1
+    },
+    "first_year": 2019,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 4
+  },
+  {
+    "name": "Dario Stabili",
+    "display_name": "Dario Stabili",
+    "affiliation": "University of Modena and Reggio Emilia",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "VEHICLESEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "VEHICLESEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "VEHICLESEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Douglas Stebila",
+    "display_name": "Douglas Stebila",
+    "affiliation": "University of Waterloo",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "CHES",
+        "year": 2021,
+        "role": "chair"
+      },
+      {
+        "conference": "CHES",
+        "year": 2022,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2022": 1
+    },
+    "first_year": 2021,
+    "last_year": 2022,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "CHES"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CHES",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Henrique Fingler",
+    "display_name": "Henrique Fingler",
+    "affiliation": "Exostellar",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2024": 2
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Ivo Jimenez",
+    "display_name": "Ivo Jimenez",
+    "affiliation": "University of California, Santa Cruz",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2019": 1,
+      "2021": 1
+    },
+    "first_year": 2019,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Marco Squarcina",
+    "display_name": "Marco Squarcina",
+    "affiliation": "TU Wien",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2022,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "WOOT"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Peter Schwabe",
+    "display_name": "Peter Schwabe",
+    "affiliation": "Max Planck Society",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "CHES",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "CHES",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2022,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "CHES"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CHES",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Taegyu Kim",
+    "display_name": "Taegyu Kim",
+    "affiliation": "University of Pennsylvania",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "VEHICLESEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1,
+      "2026": 1
+    },
+    "first_year": 2021,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "VEHICLESEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "VEHICLESEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 5
+  },
+  {
+    "name": "Valerio Schiavoni",
+    "display_name": "Valerio Schiavoni",
+    "affiliation": "Universit\u00e9 de Neuch\u00e2tel",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2019": 1,
+      "2024": 1
+    },
+    "first_year": 2019,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 5
+  },
+  {
+    "name": "Xiaojing Liao",
+    "display_name": "Xiaojing Liao",
+    "affiliation": "Indiana University Bloomington",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2022": 1,
+      "2023": 1
+    },
+    "first_year": 2022,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "ACSAC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Alain Tchana",
+    "display_name": "Alain Tchana",
+    "affiliation": "Grenoble INP",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "ATC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Alex Gantman",
+    "display_name": "Alex Gantman",
+    "affiliation": "Qualcomm",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2019": 1
+    },
+    "first_year": 2019,
+    "last_year": 2019,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "WOOT"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Alex Voulimeneas",
+    "display_name": "Alex Voulimeneas",
+    "affiliation": "TU Delft",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Alexey Tumanov",
+    "display_name": "Alexey Tumanov",
+    "affiliation": "Georgia Institute of Technology",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Anand Iyer",
+    "display_name": "Anand Iyer",
+    "affiliation": "Georgia Institute of Technology",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Baptiste Lepers",
+    "display_name": "Baptiste Lepers",
+    "affiliation": "Inria",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Baris Kasikci",
+    "display_name": "Baris Kasikci",
+    "affiliation": "University of Michigan",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2019": 1
+    },
+    "first_year": 2019,
+    "last_year": 2019,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Brendan Dolan-Gavitt",
+    "display_name": "Brendan Dolan-Gavitt",
+    "affiliation": "New York University",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2020": 1
+    },
+    "first_year": 2020,
+    "last_year": 2020,
+    "first_chair_year": 2020,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Christian Pinto",
+    "display_name": "Christian Pinto",
+    "affiliation": "IBM",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Dan Ports",
+    "display_name": "Dan Ports",
+    "affiliation": "Microsoft",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Deepak Kumar",
+    "display_name": "Deepak Kumar",
+    "affiliation": "University of California, San Diego",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Erci Xu",
+    "display_name": "Erci Xu",
+    "affiliation": "Shanghai Jiao Tong University",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "FAST",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "FAST"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "FAST",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Eric Eide",
+    "display_name": "Eric Eide",
+    "affiliation": "University of Utah",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1
+    },
+    "first_year": 2020,
+    "last_year": 2020,
+    "first_chair_year": 2020,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Erik van der Kouwe",
+    "display_name": "Erik van der Kouwe",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "WOOT"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Georgios Portokalidis",
+    "display_name": "Georgios Portokalidis",
+    "affiliation": "IMDEA Software Institute",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Guyue",
+    "display_name": "Guyue",
+    "affiliation": "Grace",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Haryadi S. Gunawi",
+    "display_name": "Haryadi S. Gunawi",
+    "affiliation": "University of Chicago",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "FAST",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "FAST"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "FAST",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Jo Van Bulck",
+    "display_name": "Jo Van Bulck",
+    "affiliation": "KU Leuven",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "SYSTEX"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Kornilios Kourtis",
+    "display_name": "Kornilios Kourtis",
+    "affiliation": "Isovalent",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Lalith Suresh",
+    "display_name": "Lalith Suresh",
+    "affiliation": "VMware",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Manuel Rigger",
+    "display_name": "Manuel Rigger",
+    "affiliation": "ETH Zurich",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Markku-Juhani O. Saarinen",
+    "display_name": "Markku-Juhani O. Saarinen",
+    "affiliation": "Tampere University",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "CHES",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "CHES"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CHES",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Martin Albrecht",
+    "display_name": "Martin Albrecht",
+    "affiliation": "Royal Holloway",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "CHES",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2022": 1
+    },
+    "first_year": 2022,
+    "last_year": 2022,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "CHES"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "CHES",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Martin Kleppmann",
+    "display_name": "Martin Kleppmann",
+    "affiliation": "University of Cambridge",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Mathias Payer",
+    "display_name": "Mathias Payer",
+    "affiliation": "EPFL",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2023": 1
+    },
+    "first_year": 2023,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Miguel Matos",
+    "display_name": "Miguel Matos",
+    "affiliation": "IST",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Natacha Crooks",
+    "display_name": "Natacha Crooks",
+    "affiliation": "University of California, Berkeley",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2022": 1
+    },
+    "first_year": 2022,
+    "last_year": 2022,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Pierre Olivier",
+    "display_name": "Pierre Olivier",
+    "affiliation": "University of Manchester",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Robert Ricci",
+    "display_name": "Robert Ricci",
+    "affiliation": "University of Utah",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Ryan Stutsman",
+    "display_name": "Ryan Stutsman",
+    "affiliation": "University of Utah",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1
+    },
+    "first_year": 2020,
+    "last_year": 2020,
+    "first_chair_year": 2020,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Sanidhya Kashyap",
+    "display_name": "Sanidhya Kashyap",
+    "affiliation": "EPFL",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Sara McAllister",
+    "display_name": "Sara McAllister",
+    "affiliation": "Google",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "OSDI"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Sudarsun Kannan",
+    "display_name": "Sudarsun Kannan",
+    "affiliation": "Rutgers University",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Supreeth Shastri",
+    "display_name": "Supreeth Shastri",
+    "affiliation": "University of Texas at Austin",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2019": 1
+    },
+    "first_year": 2019,
+    "last_year": 2019,
+    "first_chair_year": 2019,
+    "chaired_series": [
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2019,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Tanu Malik",
+    "display_name": "Tanu Malik",
+    "affiliation": "DePaul University",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SC",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2021": 1
+    },
+    "first_year": 2021,
+    "last_year": 2021,
+    "first_chair_year": 2021,
+    "chaired_series": [
+      "SC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SC",
+        "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Thaleia Dimitra Doudali",
+    "display_name": "Thaleia Dimitra Doudali",
+    "affiliation": "IMDEA Software Institute",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025,
+    "first_chair_year": 2025,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Victor Le Pochat",
+    "display_name": "Victor Le Pochat",
+    "affiliation": "KU Leuven",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "USENIXSEC"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Vincenzo Gulisano",
+    "display_name": "Vincenzo Gulisano",
+    "affiliation": "Chalmers University of Technology",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2023": 1
+    },
+    "first_year": 2023,
+    "last_year": 2023,
+    "first_chair_year": 2023,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  }
+]
