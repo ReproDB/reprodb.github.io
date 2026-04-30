@@ -1,15 +1,17 @@
 {
   "summary": {
-    "total_chairs": 82,
+    "total_chairs": 81,
     "total_chairs_systems": 54,
-    "total_chairs_security": 30,
+    "total_chairs_security": 29,
     "repeat_chairs": 23,
-    "repeat_chairs_pct": 28.0,
+    "repeat_chairs_pct": 28.4,
     "cross_conference_chairs": 13,
-    "pipeline_promoted": 31,
-    "pipeline_promoted_pct": 37.8,
+    "pipeline_promoted": 29,
+    "pipeline_promoted_pct": 35.8,
     "pipeline_avg_years": 2.7,
     "avg_chairs_per_edition": 2.2,
+    "total_countries": 16,
+    "total_continents": 3,
     "year_trends": [
       {
         "year": 2017,
@@ -58,8 +60,8 @@
       },
       {
         "year": 2026,
-        "new_chairs": 11,
-        "active_chairs": 16
+        "new_chairs": 10,
+        "active_chairs": 15
       }
     ]
   },
@@ -207,7 +209,7 @@
       "year": 2025,
       "chair_count": 1,
       "chairs": [
-        "Lennert Wouters"
+        "Carol C"
       ]
     },
     {
@@ -274,7 +276,7 @@
       "year": 2024,
       "chair_count": 2,
       "chairs": [
-        "Haryadi S. Gunawi",
+        "Haryadi Gunawi",
         "Huaicheng Li"
       ]
     },
@@ -431,14 +433,6 @@
       ]
     },
     {
-      "conference": "SYSTEX",
-      "year": 2026,
-      "chair_count": 1,
-      "chairs": [
-        "Marton Bognar"
-      ]
-    },
-    {
       "conference": "USENIXSEC",
       "year": 2020,
       "chair_count": 2,
@@ -452,7 +446,7 @@
       "year": 2021,
       "chair_count": 2,
       "chairs": [
-        "Cl\u00e9mentine Maurice",
+        "Clémentine Maurice",
         "Thorsten Holz"
       ]
     },
@@ -461,7 +455,7 @@
       "year": 2022,
       "chair_count": 2,
       "chairs": [
-        "Cl\u00e9mentine Maurice",
+        "Clémentine Maurice",
         "Cristiano Giuffrida"
       ]
     },
@@ -521,7 +515,7 @@
       "chair_count": 2,
       "chairs": [
         "Alex Gantman",
-        "Cl\u00e9mentine Maurice"
+        "Clémentine Maurice"
       ]
     },
     {
@@ -542,8 +536,8 @@
     }
   ],
   "pipeline": {
-    "promoted_count": 31,
-    "promoted_pct": 37.8,
+    "promoted_count": 29,
+    "promoted_pct": 35.8,
     "avg_years_to_chair": 2.7,
     "min_years": 1,
     "max_years": 9,
@@ -576,12 +570,6 @@
         "name": "Salvatore Signorello",
         "first_member_year": 2021,
         "first_chair_year": 2022,
-        "gap": 1
-      },
-      {
-        "name": "Marton Bognar",
-        "first_member_year": 2025,
-        "first_chair_year": 2026,
         "gap": 1
       },
       {
@@ -687,12 +675,6 @@
         "gap": 3
       },
       {
-        "name": "Lennert Wouters",
-        "first_member_year": 2021,
-        "first_chair_year": 2025,
-        "gap": 4
-      },
-      {
         "name": "Daniele Cono D'Elia",
         "first_member_year": 2019,
         "first_chair_year": 2023,
@@ -739,7 +721,7 @@
   "retention": {
     "repeat_count": 23,
     "distribution": {
-      "1": 59,
+      "1": 58,
       "2": 18,
       "3": 2,
       "4": 2,
@@ -831,13 +813,6 @@
         "last_year": 2025
       },
       {
-        "name": "Lennert Wouters",
-        "span_years": 5,
-        "chair_count": 1,
-        "first_year": 2021,
-        "last_year": 2025
-      },
-      {
         "name": "Daniele Cono D'Elia",
         "span_years": 5,
         "chair_count": 1,
@@ -845,7 +820,7 @@
         "last_year": 2023
       },
       {
-        "name": "Cl\u00e9mentine Maurice",
+        "name": "Clémentine Maurice",
         "span_years": 4,
         "chair_count": 3,
         "first_year": 2019,
@@ -978,13 +953,6 @@
         "last_year": 2021
       },
       {
-        "name": "Marton Bognar",
-        "span_years": 2,
-        "chair_count": 1,
-        "first_year": 2025,
-        "last_year": 2026
-      },
-      {
         "name": "Adwait Nadkarni",
         "span_years": 2,
         "chair_count": 1,
@@ -1111,6 +1079,13 @@
         "last_year": 2020
       },
       {
+        "name": "Carol C",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2025,
+        "last_year": 2025
+      },
+      {
         "name": "Christian Pinto",
         "span_years": 1,
         "chair_count": 1,
@@ -1167,7 +1142,7 @@
         "last_year": 2021
       },
       {
-        "name": "Haryadi S. Gunawi",
+        "name": "Haryadi Gunawi",
         "span_years": 1,
         "chair_count": 1,
         "first_year": 2024,
@@ -1353,7 +1328,7 @@
       "chair_count": 4
     },
     {
-      "name": "Cl\u00e9mentine Maurice",
+      "name": "Clémentine Maurice",
       "affiliation": "CNRS",
       "series": [
         "USENIXSEC",
@@ -1442,5 +1417,33 @@
       ],
       "chair_count": 2
     }
-  ]
+  ],
+  "geographic": {
+    "total_countries": 16,
+    "total_continents": 3,
+    "by_country": {
+      "United States": 39,
+      "China": 6,
+      "Switzerland": 6,
+      "France": 4,
+      "United Kingdom": 4,
+      "Netherlands": 3,
+      "Germany": 3,
+      "Spain": 3,
+      "Belgium": 3,
+      "Austria": 2,
+      "Italy": 2,
+      "Japan": 1,
+      "Canada": 1,
+      "Finland": 1,
+      "Portugal": 1,
+      "Sweden": 1
+    },
+    "by_continent": {
+      "North America": 40,
+      "Europe": 33,
+      "Asia": 7
+    },
+    "unclassified_count": 1
+  }
 }

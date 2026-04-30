@@ -21,7 +21,7 @@
 </div>
 
 <div id="chair-legend" class="rdb-legend rdb-hidden">
-  Legend: #=Row, Ch=Times Chaired, Mem=Times as Member, Series=Conference Series Chaired, F=First Year, L=Last Year
+  Legend: #=Row, Ch=Times Chaired, Mem=Times as Member, Series=Conference Series Chaired, F=First Year, L=Last Year, Country=Institution Country
 </div>
 
 <div id="chairLoading"><em>Loading AE chair data…</em></div>
@@ -47,7 +47,7 @@
   var sortedChairs = [];
   var currentPage = 0;
   var pageSize = 50;
-  var sortCol = 3; // default sort: chair_count
+  var sortCol = 4; // default sort: chair_count
   var sortAsc = false;
   var nameQuery = '';
   var affQuery = '';
@@ -57,6 +57,7 @@
     {label:'#',           key:'rank',              type:'num',   tip:'Row number'},
     {label:'Name',        key:'name',              type:'alpha', tip:'Chair Name'},
     {label:'Affiliation', key:'affiliation',       type:'alpha', tip:'Current Affiliation'},
+    {label:'Country',     key:'country',           type:'alpha', tip:'Country of institution'},
     {label:'Ch',          key:'chair_count',       type:'num',   tip:'Times served as AE Chair'},
     {label:'Mem',         key:'member_count',      type:'num',   tip:'Times served as regular AE member'},
     {label:'Series',      key:'chaired_series',    type:'num',   tip:'Number of different conference series chaired'},
@@ -79,6 +80,7 @@
       var profileUrl = baseUrl + '/profile.html?name=' + encodeURIComponent(c.name);
       cells.push('<td><a href="' + profileUrl + '">' + escHtml(c.display_name || c.name) + '</a></td>');
       cells.push('<td>' + escHtml(c.affiliation || '') + '</td>');
+      cells.push('<td>' + escHtml(c.country || '') + '</td>');
       cells.push('<td><strong>' + c.chair_count + '</strong></td>');
       cells.push('<td>' + (c.member_count || 0) + '</td>');
       var series = c.chaired_series || [];
