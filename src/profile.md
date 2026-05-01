@@ -56,8 +56,10 @@ layout: default
   </div>
 
   <div id="author-history-section" class="rdb-hidden">
-    <h3>Ranking History</h3>
-    <div class="chart-container"><canvas id="authorHistoryChart"></canvas></div>
+    <details class="ranking-history-details">
+      <summary><h3>Ranking History</h3></summary>
+      <div class="chart-container"><canvas id="authorHistoryChart"></canvas></div>
+    </details>
   </div>
 </div>
 
@@ -70,8 +72,10 @@ layout: default
   <div class="score-cards" id="inst-score-cards"></div>
 
   <div id="inst-history-section" class="rdb-hidden">
-    <h3>Ranking History</h3>
-    <div class="chart-container"><canvas id="instHistoryChart"></canvas></div>
+    <details class="ranking-history-details">
+      <summary><h3>Ranking History</h3></summary>
+      <div class="chart-container"><canvas id="instHistoryChart"></canvas></div>
+    </details>
   </div>
 
   <div id="inst-contributors-section" class="rdb-hidden">

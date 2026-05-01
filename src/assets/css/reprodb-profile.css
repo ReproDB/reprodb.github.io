@@ -92,3 +92,10 @@
 .sr-type { display:inline-block; padding:1px 6px; border-radius:3px; font-size:0.72em; color:#fff; margin-right:6px; vertical-align:middle; }
 .sr-type-author { background:#2980b9; }
 .sr-type-inst { background:#27ae60; }
+
+/* ── Collapsible ranking history ───────────────────────────────────────── */
+.ranking-history-details summary { cursor:pointer; list-style:none; }
+.ranking-history-details summary::-webkit-details-marker { display:none; }
+.ranking-history-details summary h3 { display:inline; }
+.ranking-history-details summary::before { content:'▶ '; font-size:0.8em; color:#555; }
+.ranking-history-details[open] summary::before { content:'▼ '; }

@@ -75,8 +75,6 @@
       cards += card(p.artifact_score || 0, 'Artifact Score');
       cards += card(p.ae_score || 0, 'AE Score');
       if (p.rank) cards += card('#' + p.rank, 'Rank');
-      var rankChange = getAuthorRankChange(p.name);
-      if (rankChange) cards += card(rankChange.html, 'Rank Change');
     }
     cards += card(p.artifact_count, 'Artifacts');
     cards += card(p.total_papers, 'Total Papers');
@@ -493,16 +491,7 @@
 
     if (instHistory.length >= 2) {
       var curr = instHistory[instHistory.length - 1].entries[inst.affiliation];
-      var prev = instHistory[instHistory.length - 2].entries[inst.affiliation];
       if (curr) cards += card('#' + curr.rank, 'Rank');
-      if (curr && prev) {
-        var diff = prev.rank - curr.rank;
-        var changeHtml;
-        if (diff > 0) changeHtml = '<span class="rdb-rank-up">▲' + diff + '</span>';
-        else if (diff < 0) changeHtml = '<span class="rdb-rank-down">▼' + (-diff) + '</span>';
-        else changeHtml = '<span class="rank-unchanged">–</span>';
-        cards += card(changeHtml, 'Rank Change');
-      }
     }
 
     renderInstHistoryChart(inst.affiliation);
