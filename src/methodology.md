@@ -32,26 +32,39 @@ Data is collected from conferences tracked by [sysartifacts](https://sysartifact
 
 We scrape artifact evaluation results from sysartifacts/secartifacts websites, extract paper titles, authors, badges (Available, Functional, Reproducible, Reusable) and repository URLs. For USENIX conferences (ATC, FAST) we also scrape badge data from technical session pages. AE committee data is gathered from sysartifacts/secartifacts plus direct scraping (USENIX, CHES, PETS websites).
 
-Repository statistics (GitHub stars/forks, Zenodo/Figshare downloads) are collected via their public APIs. Author names are matched to [DBLP](https://dblp.org) for disambiguation and total-publication counts. Author affiliations are enriched using DBLP person pages and [CSRankings](http://csrankings.org) faculty data.
+Repository statistics (GitHub stars/forks, Zenodo/Figshare downloads) are collected via their public APIs. Artifact URLs are checked monthly for availability (HTTP HEAD requests).
+
+Author names are matched to [DBLP](https://dblp.org) for disambiguation and total-publication counts. Author affiliations are enriched using a priority cascade:
+1. **Author Index** (canonical enriched source, when available)
+2. **DBLP** person pages (`<www>` tags)
+3. **CSRankings** faculty records
+4. **OpenAlex** API
+5. **Semantic Scholar** API (fallback)
+6. **AE committee data** (last resort)
+
+Affiliation names are normalized to canonical forms (e.g., "MIT" → "Massachusetts Institute of Technology").
 
 All scripts are in the [reprodb-pipeline](https://github.com/ReproDB/reprodb-pipeline) repository. Full CLI reference, API documentation, and data model definitions are in the [pipeline documentation](https://reprodb.github.io/reprodb-pipeline/).
 
 ## Pipeline
 
-The pipeline ([run_pipeline.sh](https://github.com/ReproDB/reprodb-pipeline/blob/main/run_pipeline.sh)) runs monthly via GitHub Actions:
+The pipeline is orchestrated by a [stage dependency graph](https://github.com/ReproDB/reprodb-pipeline/blob/main/src/stages.py) and runs monthly (1st of each month) via [GitHub Actions](https://github.com/ReproDB/reprodb-pipeline/actions):
 
-1. **Scrape artifact results** from sysartifacts/secartifacts
-2. **Match papers to DBLP authors** and extract author affiliations
-3. **Filter papers by AE-active years** — only count papers from years when venues had artifact evaluation
-4. **Collect repository statistics** (GitHub/GitLab stars/forks, Zenodo downloads)
-5. **Compute combined rankings** with weighted scoring
-6. **Aggregate institution statistics** by summing across affiliated authors
-7. **Generate area-specific rankings** (systems, security, overall)
-8. **Export data** (JSON/YAML) and charts to this website
+1. **Extract DBLP data** — download and parse the DBLP XML database (~3 GB compressed) for author–paper mappings and affiliations
+2. **Scrape artifact results** from sysartifacts/secartifacts websites and USENIX technical session pages
+3. **Collect repository statistics** (GitHub stars/forks, Zenodo/Figshare downloads) and check artifact URL availability
+4. **Compute author statistics** — match papers to DBLP authors, filter by AE-active years, compute per-author metrics
+5. **Generate area-specific author data** — separate systems, security, and combined stats
+6. **Aggregate committee statistics** — compile AE membership and chair roles from scraped data
+7. **Compute combined rankings** — apply weighted scoring formula, enforce minimum threshold, assign ranks with dense tie-breaking
+8. **Aggregate institution rankings** — sum across affiliated authors, classify institution roles
+9. **Build author profiles and search index** — generate per-author detail records
+10. **Record ranking history** — snapshot current rankings for trend tracking
+11. **Export data** (JSON/YAML) to this website
 
-All output data structures are formally defined in the [Data Schemas](https://reprodb.github.io/data-schemas/) documentation.
+Independent stages run in parallel where the dependency graph allows. All output data structures are formally defined in the [Data Schemas](https://reprodb.github.io/data-schemas/) documentation.
 
-The complete pipeline takes ~30 minutes to run and processes the DBLP XML database (~3 GB compressed) to match {{ site.data.summary.total_artifacts }}+ artifact papers to author records and compute total paper counts.
+The complete pipeline takes ~30 minutes and processes {{ site.data.summary.total_artifacts }}+ artifact papers.
 
 ## Author Metrics
 
@@ -67,6 +80,8 @@ The total number of papers this author published at tracked conferences, **count
 - This prevents artificial deflation of Artifact Rate by excluding pre-AE papers
 
 The paper count is determined by matching author names to DBLP records and filtering by conference and year.
+
+**Clamping rule:** If DBLP undercounts papers (i.e., artifact_count > total_papers due to incomplete DBLP records), total_papers is clamped to equal artifact_count. This guarantees that Artifact Rate ≤ 100%.
 
 ### Artifact Rate (AR%)
 The percentage of an author's papers (at AE-active conferences) that have artifact badges: **AR% = (Artifacts / Total Papers) × 100**.
@@ -104,7 +119,9 @@ A composite metric balancing artifact production, artifact quality, and AE servi
   - Each committee membership contributes **3 points**
   - Bⱼ = 1 if term *j* is a chair role, 0 otherwise — chairs receive a **+2 bonus** for a total of **5 points** per chair term
 
-**Minimum Score Threshold:** Only individuals and institutions with combined score ≥ 3 are included in rankings.
+**Minimum Score Threshold:** Only individuals and institutions with combined score ≥ 3 are included in rankings. Institutions with placeholder affiliations ("Unknown", etc.) are excluded.
+
+**Ranking Method:** Dense ranking with ties — authors with the same combined score receive the same rank; the next rank is incremented by the number of tied entries.
 
 **Why These Weights?**
 - **Additive badge scoring (1 point each)** reflects that each badge level requires distinct effort (availability, functionality, reproducibility)
@@ -126,11 +143,20 @@ All metrics are **summed across affiliated authors**:
 - **Total Papers**: Total papers from all affiliated authors (AE-active years only)
 - **AE Memberships**: Total committee memberships from all affiliated authors
 - **Combined Score**: Sum of all affiliated authors' combined scores
+- **Researchers**: Count of unique authors affiliated with the institution
 
 **Artifact Rate and Reproducibility Rate** are then computed from these aggregated totals:
 
 - **Institution AR%** = (Total artifacts / Total papers) × 100
 - **Institution RR%** = (Total reproduced badges / Total artifacts) × 100
+
+### Institution Role Classification
+
+Each institution is classified based on its Artifact:Evaluation ratio (artifact_score / ae_score):
+
+- **Artifact-focused** (Producer): A:E ratio > 2.0, or artifact-only (no AE service)
+- **Evaluation-focused** (Consumer): A:E ratio < 0.5, or AE-only (no artifacts)
+- **Balanced**: 0.5 ≤ A:E ratio ≤ 2.0
 
 ### Cross-Area Aggregation
 
@@ -195,8 +221,8 @@ See the [verification scripts and detailed results](https://github.com/ReproDB/r
 - **[secartifacts.github.io](https://secartifacts.github.io)** — Security conference artifact evaluation results ({{ site.data.summary.security_conferences | join: ", " }})
 - **[usenix.org](https://www.usenix.org)** — Badge information and AE committee data for USENIX conferences
 - **[DBLP](https://dblp.org)** — Author name matching, disambiguation, and total publication counts
-- **[Semantic Scholar](https://www.semanticscholar.org)** — Author affiliation enrichment and citation data
 - **[OpenAlex](https://openalex.org)** — Author affiliation enrichment
+- **[Semantic Scholar](https://www.semanticscholar.org)** — Author affiliation fallback lookup
 - **[CSRankings](https://csrankings.org)** — Faculty affiliation data
 - **[GitHub](https://docs.github.com/en/rest)**, **[GitLab](https://docs.gitlab.com/ee/api/)** — Repository statistics (stars, forks)
 - **[Zenodo](https://developers.zenodo.org)**, **[Figshare](https://docs.figshare.com)** — Archive statistics (downloads, views)
