@@ -4,7 +4,7 @@
     "total_systems": 2289,
     "total_security": 2104,
     "total_countries": 59,
-    "total_continents": 7,
+    "total_continents": 6,
     "total_institutions": 476
   },
   "by_country": {
@@ -651,11 +651,11 @@
       },
       {
         "name": "Asia",
-        "count": 908
+        "count": 934
       },
       {
         "name": "Europe",
-        "count": 797
+        "count": 801
       },
       {
         "name": "Oceania",
@@ -663,11 +663,7 @@
       },
       {
         "name": "Africa",
-        "count": 43
-      },
-      {
-        "name": "Unknown",
-        "count": 31
+        "count": 44
       },
       {
         "name": "South America",
@@ -681,11 +677,11 @@
       },
       {
         "name": "Asia",
-        "count": 570
+        "count": 579
       },
       {
         "name": "Europe",
-        "count": 285
+        "count": 286
       },
       {
         "name": "Africa",
@@ -694,10 +690,6 @@
       {
         "name": "Oceania",
         "count": 13
-      },
-      {
-        "name": "Unknown",
-        "count": 10
       },
       {
         "name": "South America",
@@ -711,11 +703,11 @@
       },
       {
         "name": "Europe",
-        "count": 512
+        "count": 515
       },
       {
         "name": "Asia",
-        "count": 338
+        "count": 355
       },
       {
         "name": "Oceania",
@@ -723,11 +715,7 @@
       },
       {
         "name": "Africa",
-        "count": 25
-      },
-      {
-        "name": "Unknown",
-        "count": 21
+        "count": 26
       },
       {
         "name": "South America",
@@ -5954,14 +5942,13 @@
       "2019": {
         "North America": 66,
         "Asia": 10,
-        "Europe": 22,
-        "Unknown": 1,
+        "Europe": 23,
         "Oceania": 1
       },
       "2020": {
         "North America": 78,
-        "Asia": 29,
-        "Europe": 36,
+        "Asia": 33,
+        "Europe": 32,
         "South America": 1,
         "Africa": 2,
         "Oceania": 2
@@ -5970,52 +5957,46 @@
         "Europe": 76,
         "South America": 1,
         "North America": 158,
-        "Asia": 49,
-        "Oceania": 3,
-        "Unknown": 1
+        "Asia": 50,
+        "Oceania": 3
       },
       "2022": {
         "North America": 233,
         "Europe": 114,
-        "Asia": 158,
+        "Asia": 159,
         "Oceania": 5,
         "South America": 1,
-        "Africa": 2,
-        "Unknown": 1
+        "Africa": 2
       },
       "2023": {
         "North America": 290,
-        "Asia": 161,
-        "Europe": 144,
+        "Asia": 163,
+        "Europe": 146,
         "Oceania": 6,
         "South America": 6,
-        "Africa": 13,
-        "Unknown": 4
+        "Africa": 13
       },
       "2024": {
-        "Asia": 136,
+        "Asia": 137,
         "South America": 4,
         "Europe": 124,
         "North America": 386,
         "Oceania": 11,
-        "Africa": 5,
-        "Unknown": 2
+        "Africa": 6
       },
       "2025": {
-        "Europe": 156,
+        "Europe": 158,
         "North America": 533,
-        "Asia": 228,
+        "Asia": 236,
         "Africa": 10,
-        "Unknown": 10,
         "Oceania": 18,
         "South America": 1
       },
       "2026": {
         "North America": 414,
-        "Europe": 115,
+        "Europe": 118,
         "Africa": 11,
-        "Asia": 134,
-        "Unknown": 12,
+        "Asia": 143,
         "Oceania": 12
       }
     },
@@ -6023,8 +6004,7 @@
       "2019": {
         "North America": 28,
         "Asia": 4,
-        "Europe": 8,
-        "Unknown": 1,
+        "Europe": 9,
         "Oceania": 1
       },
       "2020": {
@@ -6049,12 +6029,11 @@
       },
       "2023": {
         "North America": 179,
-        "Asia": 125,
+        "Asia": 126,
         "Europe": 52,
         "Oceania": 4,
         "South America": 2,
-        "Africa": 4,
-        "Unknown": 1
+        "Africa": 4
       },
       "2024": {
         "Asia": 86,
@@ -6067,17 +6046,15 @@
       "2025": {
         "Europe": 60,
         "North America": 345,
-        "Asia": 142,
+        "Asia": 145,
         "Africa": 8,
-        "Unknown": 3,
         "Oceania": 1
       },
       "2026": {
         "North America": 176,
         "Europe": 22,
         "Africa": 5,
-        "Asia": 48,
-        "Unknown": 5
+        "Asia": 53
       }
     },
     "continent_security": {
@@ -6097,61 +6074,55 @@
         "Asia": 6
       },
       "2020": {
-        "Europe": 34,
+        "Europe": 30,
         "North America": 47,
         "Africa": 2,
-        "Asia": 21,
+        "Asia": 25,
         "Oceania": 2
       },
       "2021": {
         "Europe": 32,
         "North America": 35,
-        "Asia": 12,
-        "Unknown": 1,
+        "Asia": 13,
         "Oceania": 1
       },
       "2022": {
         "Europe": 69,
         "North America": 97,
         "Africa": 2,
-        "Asia": 38,
-        "Unknown": 1,
+        "Asia": 39,
         "Oceania": 2
       },
       "2023": {
         "North America": 111,
-        "Europe": 92,
+        "Europe": 94,
         "Africa": 9,
-        "Asia": 36,
+        "Asia": 37,
         "Oceania": 2,
-        "Unknown": 3,
         "South America": 4
       },
       "2024": {
-        "Unknown": 2,
-        "North America": 130,
         "Europe": 72,
+        "North America": 130,
         "Oceania": 9,
-        "Asia": 50,
-        "South America": 1,
-        "Africa": 4
+        "Asia": 51,
+        "Africa": 5,
+        "South America": 1
       },
       "2025": {
-        "Unknown": 7,
-        "Asia": 86,
+        "Europe": 98,
+        "Asia": 91,
         "North America": 188,
-        "Europe": 96,
         "Oceania": 17,
         "South America": 1,
         "Africa": 2
       },
       "2026": {
         "North America": 238,
-        "Asia": 86,
-        "Europe": 93,
+        "Asia": 90,
+        "Europe": 96,
         "Oceania": 12,
-        "Africa": 6,
-        "Unknown": 7
+        "Africa": 6
       }
     }
   },

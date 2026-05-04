@@ -1,10 +1,10 @@
-last_updated: '2026-05-01'
+last_updated: '2026-05-04'
 total_members: 4393
 total_systems: 2289
 total_security: 2104
 total_conferences: 67
 total_countries: 59
-total_continents: 7
+total_continents: 6
 total_institutions: 476
 unique_members: 2458
 unique_members_systems: 1201
@@ -108,45 +108,39 @@ top_continents:
 - name: North America
   count: 2181
 - name: Asia
-  count: 908
+  count: 934
 - name: Europe
-  count: 797
+  count: 801
 - name: Oceania
   count: 58
 - name: Africa
-  count: 43
-- name: Unknown
-  count: 31
+  count: 44
 - name: South America
   count: 14
 top_continents_systems:
 - name: North America
   count: 1274
 - name: Asia
-  count: 570
+  count: 579
 - name: Europe
-  count: 285
+  count: 286
 - name: Africa
   count: 18
 - name: Oceania
   count: 13
-- name: Unknown
-  count: 10
 - name: South America
   count: 8
 top_continents_security:
 - name: North America
   count: 907
 - name: Europe
-  count: 512
+  count: 515
 - name: Asia
-  count: 338
+  count: 355
 - name: Oceania
   count: 45
 - name: Africa
-  count: 25
-- name: Unknown
-  count: 21
+  count: 26
 - name: South America
   count: 6
 top_institutions:
