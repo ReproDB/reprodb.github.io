@@ -116,9 +116,10 @@
       // Show rank on: first item per page, or first item in a tie group
       var showRank = (i === 0) || (c._showRank !== false);
       var rankChange = '';
-      if (showRank && prevSnapshot && prevSnapshot[c.name]) {
+      // Always use _baseRank for rank change indicator (not affected by sort)
+      if (showRank && prevSnapshot && prevSnapshot[c.name] && c._baseRank) {
         var oldRank = prevSnapshot[c.name].rank;
-        var diff = oldRank - rankVal;
+        var diff = oldRank - c._baseRank;
         if (diff > 0) rankChange = ' <span class="rdb-rank-up" title="Up ' + diff + ' from #' + oldRank + '">▲' + diff + '</span>';
         else if (diff < 0) rankChange = ' <span class="rdb-rank-down" title="Down ' + (-diff) + ' from #' + oldRank + '">▼' + (-diff) + '</span>';
         else rankChange = ' <span class="rank-unchanged" title="Unchanged">–</span>';
@@ -194,10 +195,11 @@
       sortCol = 3;
     }
 
-    // Step 2: sort the full base list and assign stable ranks (with ties)
+    // Step 2: sort the full base list by combined_score and assign stable ranks (with ties).
+    // _baseRank is always based on combined_score so rank-change indicators remain stable.
     var baseSorted = baseFiltered.slice();
     baseSorted.sort(function(a, b) {
-      var av = a[scoreKey] || 0, bv = b[scoreKey] || 0;
+      var av = a.combined_score || 0, bv = b.combined_score || 0;
       if (av > bv) return -1;
       if (av < bv) return 1;
       var an = (a.display_name || a.name || '').toLowerCase();
@@ -208,8 +210,8 @@
     });
     var rank = 1;
     for (var i = 0; i < baseSorted.length; i++) {
-      var cur = baseSorted[i][scoreKey] || 0;
-      if (i > 0 && cur < (baseSorted[i - 1][scoreKey] || 0)) {
+      var cur = baseSorted[i].combined_score || 0;
+      if (i > 0 && cur < (baseSorted[i - 1].combined_score || 0)) {
         rank = i + 1;
       }
       baseSorted[i]._baseRank = rank;
