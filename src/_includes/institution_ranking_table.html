@@ -444,27 +444,9 @@
       sortCol = 2;
     }
 
-    // Step 2: sort the full base list by combined_score and assign stable ranks (with ties).
+    // Step 2: assign stable dense ranks based on combined_score.
     // _baseRank is always based on combined_score so rank-change indicators remain stable.
-    var baseSorted = baseFiltered.slice();
-    baseSorted.sort(function(a, b) {
-      var av = a.combined_score || 0, bv = b.combined_score || 0;
-      if (av > bv) return -1;
-      if (av < bv) return 1;
-      var an = (a.affiliation || '').toLowerCase();
-      var bn = (b.affiliation || '').toLowerCase();
-      if (an < bn) return -1;
-      if (an > bn) return 1;
-      return 0;
-    });
-    var rank = 1;
-    for (var i = 0; i < baseSorted.length; i++) {
-      var cur = baseSorted[i].combined_score || 0;
-      if (i > 0 && cur < (baseSorted[i - 1].combined_score || 0)) {
-        rank = i + 1;
-      }
-      baseSorted[i]._baseRank = rank;
-    }
+    ReproDB.assignDenseRanks(baseFiltered, 'affiliation');
 
     // Step 3: apply text search and geo filters
     filteredData = baseFiltered.filter(function(inst) {
@@ -515,16 +497,10 @@
       var instRankVal = inst._originalRank || (start + i + 1);
       // Show rank on: first item per page, or first item in a tie group
       var showRank = (i === 0) || (inst._showRank !== false);
-      var instRankChange = '';
-      // Always use _baseRank for rank change indicator (not affected by sort)
-      if (prevInstSnapshot && prevInstSnapshot[inst.affiliation] && inst._baseRank) {
-        var oldInstRank = prevInstSnapshot[inst.affiliation].rank;
-        var instDiff = oldInstRank - inst._baseRank;
-        if (instDiff > 0) instRankChange = ' <span class="rdb-rank-up" title="Up ' + instDiff + ' from #' + oldInstRank + '">▲' + instDiff + '</span>';
-        else if (instDiff < 0) instRankChange = ' <span class="rdb-rank-down" title="Down ' + (-instDiff) + ' from #' + oldInstRank + '">▼' + (-instDiff) + '</span>';
-        else instRankChange = ' <span class="rank-unchanged" title="Unchanged">–</span>';
-      }
-      cells.push('<td>' + expandIcon + (showRank ? instRankVal : '') + instRankChange + '</td>');
+      // Build rank change indicator using shared helper
+      var oldInstRank = (prevInstSnapshot && prevInstSnapshot[inst.affiliation]) ? prevInstSnapshot[inst.affiliation].rank : undefined;
+      var instRankChange = ReproDB.rankChangeHtml(inst._baseRank, oldInstRank);
+      cells.push('<td>' + expandIcon + '<span class="rdb-rank-cell"><span class="rdb-rank-num">' + (showRank ? instRankVal : '') + '</span><span class="rdb-rank-indicator">' + instRankChange + '</span></span></td>');
       
       var aff = (inst.affiliation || 'Unknown').replace(/^_/, '');
       var flag = getFlagForInstitution(aff);

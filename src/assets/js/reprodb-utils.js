@@ -93,4 +93,49 @@
     }
     return { setActive: setActive };
   };
+
+  /**
+   * Assign dense ranks to an array based on combined_score.
+   * Items are sorted by combined_score descending, then by nameKey alphabetically.
+   * Each item gets _baseRank (dense: 1,1,2,3 not 1,1,3,4).
+   *
+   * @param {Array} items - array of objects to rank (modified in place)
+   * @param {string} nameKey - property to use for alphabetical tie-breaking
+   */
+  R.assignDenseRanks = function(items, nameKey) {
+    var sorted = items.slice();
+    sorted.sort(function(a, b) {
+      var av = a.combined_score || 0, bv = b.combined_score || 0;
+      if (av > bv) return -1;
+      if (av < bv) return 1;
+      var an = (a[nameKey] || '').toLowerCase();
+      var bn = (b[nameKey] || '').toLowerCase();
+      if (an < bn) return -1;
+      if (an > bn) return 1;
+      return 0;
+    });
+    var rank = 1;
+    for (var i = 0; i < sorted.length; i++) {
+      if (i > 0 && (sorted[i].combined_score || 0) < (sorted[i - 1].combined_score || 0)) {
+        rank++;
+      }
+      sorted[i]._baseRank = rank;
+    }
+  };
+
+  /**
+   * Produce rank-change indicator HTML for a single entry.
+   * Compares current _baseRank against previous snapshot rank.
+   *
+   * @param {number} baseRank - current dense rank
+   * @param {number|undefined} oldRank - rank from previous snapshot
+   * @returns {string} HTML string (may be empty)
+   */
+  R.rankChangeHtml = function(baseRank, oldRank) {
+    if (!baseRank || oldRank == null) return '';
+    var diff = oldRank - baseRank;
+    if (diff > 0) return '<span class="rdb-rank-up" title="Up ' + diff + ' from #' + oldRank + '">\u25B2' + diff + '</span>';
+    if (diff < 0) return '<span class="rdb-rank-down" title="Down ' + (-diff) + ' from #' + oldRank + '">\u25BC' + (-diff) + '</span>';
+    return '<span class="rank-unchanged" title="Unchanged">\u2013</span>';
+  };
 })();
