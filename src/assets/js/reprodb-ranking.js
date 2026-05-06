@@ -318,17 +318,21 @@
 
     // Load history then first area
     var doLoad = function() {
+      // Load area data immediately — don't block on history
+      self.loadArea(self.currentArea);
+
+      // Fetch history in the background; update rank-change arrows when ready
       if (self.historyUrl) {
         fetch(self.historyUrl).then(function(r) { return r.json(); }).catch(function() { return []; })
         .then(function(h) {
           self.history = h || [];
           if (self.history.length >= 2) {
             self.prevSnapshot = self.history[self.history.length - 2].entries;
+            // Re-assign ranks with history and re-render
+            self.assignRanks();
+            self.render();
           }
-          self.loadArea(self.currentArea);
         });
-      } else {
-        self.loadArea(self.currentArea);
       }
     };
 

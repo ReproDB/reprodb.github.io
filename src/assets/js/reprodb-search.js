@@ -61,6 +61,11 @@
 
   function doSearch() {
     var raw = document.getElementById('searchBox').value.trim();
+
+    // Lazy-load supplemental data on first real interaction
+    if (raw.length >= 2) ensureProfiles();
+    ensureAvailability();
+
     // Parse magic keywords
     var onlyUnavail = raw.indexOf('#unavailable') !== -1;
     var onlyAwarded = raw.indexOf('#awarded') !== -1;
@@ -421,39 +426,68 @@
     return '';
   }
 
-  // Load data
-  var availPromise = fetch(cfg.availability)
-    .then(function(r) { return r.json(); })
-    .then(function(avail) {
-      availabilityCheckedAt = (avail.summary && avail.summary.checked_at) ? avail.summary.checked_at.replace(/ UTC$/, '') : '';
-      (avail.records || []).forEach(function(rec) {
-        var u = (rec.url || '').replace(/\/+$/, '');
-        if (u) {
-          if (rec.accessible === false) urlAccessible[u] = false;
-          else if (urlAccessible[u] === undefined) urlAccessible[u] = true;
-        }
-      });
-      availabilityLoaded = true;
-      if (filtered.length > 0) renderResults();
-    })
-    .catch(function() { /* availability data not critical */ });
+  /* ── Lazy loaders — fetch supplemental data on first need ──────── */
 
-  // Load author profiles for profile cards
-  var profilesPromise = fetch(cfg.authorProfiles)
-    .then(function(r) { return r.json(); })
-    .then(function(data) { authorProfiles = data || []; })
-    .catch(function() { authorProfiles = []; });
+  var profilesRequested = false;
+  var profilesReady = false;
 
-  // Load institution data for profile cards
-  var instPromise = fetch(cfg.institutions)
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      institutionData = (data || []).filter(function(inst) {
-        var a = (inst.affiliation || '').toLowerCase();
-        return a && a !== 'unknown' && !a.startsWith('_');
-      });
-    })
-    .catch(function() { institutionData = []; });
+  /** Kick off author-profiles + institution fetch (once). */
+  function ensureProfiles() {
+    if (profilesRequested) return;
+    profilesRequested = true;
+
+    var p1 = fetch(cfg.authorProfiles)
+      .then(function(r) { return r.json(); })
+      .then(function(data) { authorProfiles = data || []; })
+      .catch(function() { authorProfiles = []; });
+
+    var p2 = fetch(cfg.institutions)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        institutionData = (data || []).filter(function(inst) {
+          var a = (inst.affiliation || '').toLowerCase();
+          return a && a !== 'unknown' && !a.startsWith('_');
+        });
+      })
+      .catch(function() { institutionData = []; });
+
+    Promise.all([p1, p2]).then(function() {
+      profilesReady = true;
+      // Re-render profile cards if the user is already searching
+      if (filtered.length > 0 || document.getElementById('searchBox').value.trim().length >= 2) {
+        var raw = document.getElementById('searchBox').value.trim();
+        var cleaned = raw.replace(/#(unavailable|awarded|github|zenodo|nourl)/g, '').trim();
+        var terms = normalizeText(cleaned).split(/\s+/).filter(function(t) { return t.length > 0; });
+        renderProfileCards(raw, terms);
+      }
+    });
+  }
+
+  var availRequested = false;
+
+  /** Kick off availability fetch (once). */
+  function ensureAvailability() {
+    if (availRequested) return;
+    availRequested = true;
+
+    fetch(cfg.availability)
+      .then(function(r) { return r.json(); })
+      .then(function(avail) {
+        availabilityCheckedAt = (avail.summary && avail.summary.checked_at) ? avail.summary.checked_at.replace(/ UTC$/, '') : '';
+        (avail.records || []).forEach(function(rec) {
+          var u = (rec.url || '').replace(/\/+$/, '');
+          if (u) {
+            if (rec.accessible === false) urlAccessible[u] = false;
+            else if (urlAccessible[u] === undefined) urlAccessible[u] = true;
+          }
+        });
+        availabilityLoaded = true;
+        if (filtered.length > 0) renderResults();
+      })
+      .catch(function() { /* availability data not critical */ });
+  }
+
+  /* ── Primary data load — only search_data.json is fetched eagerly ─ */
 
   fetch(cfg.searchData)
     .then(function(r) { return r.json(); })
@@ -466,6 +500,8 @@
       // Wire up events
       var debounceTimer;
       document.getElementById('searchBox').addEventListener('input', function() {
+        // Start fetching profiles as soon as user types (don't wait for debounce)
+        if (this.value.trim().length >= 2) ensureProfiles();
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(doSearch, 200);
         updateSearchIcon();
