@@ -61,11 +61,6 @@
 
   function doSearch() {
     var raw = document.getElementById('searchBox').value.trim();
-
-    // Lazy-load supplemental data on first real interaction
-    if (raw.length >= 2) ensureProfiles();
-    ensureAvailability();
-
     // Parse magic keywords
     var onlyUnavail = raw.indexOf('#unavailable') !== -1;
     var onlyAwarded = raw.indexOf('#awarded') !== -1;
@@ -426,16 +421,9 @@
     return '';
   }
 
-  /* ── Lazy loaders — fetch supplemental data on first need ──────── */
+  /* ── Deferred loaders — fetch after page load to avoid blocking ── */
 
-  var profilesRequested = false;
-  var profilesReady = false;
-
-  /** Kick off author-profiles + institution fetch (once). */
-  function ensureProfiles() {
-    if (profilesRequested) return;
-    profilesRequested = true;
-
+  function loadProfiles() {
     var p1 = fetch(cfg.authorProfiles)
       .then(function(r) { return r.json(); })
       .then(function(data) { authorProfiles = data || []; })
@@ -452,7 +440,6 @@
       .catch(function() { institutionData = []; });
 
     Promise.all([p1, p2]).then(function() {
-      profilesReady = true;
       // Re-render profile cards if the user is already searching
       if (filtered.length > 0 || document.getElementById('searchBox').value.trim().length >= 2) {
         var raw = document.getElementById('searchBox').value.trim();
@@ -463,13 +450,7 @@
     });
   }
 
-  var availRequested = false;
-
-  /** Kick off availability fetch (once). */
-  function ensureAvailability() {
-    if (availRequested) return;
-    availRequested = true;
-
+  function loadAvailability() {
     fetch(cfg.availability)
       .then(function(r) { return r.json(); })
       .then(function(avail) {
@@ -487,6 +468,20 @@
       .catch(function() { /* availability data not critical */ });
   }
 
+  /** Schedule supplemental fetches after page load. */
+  function deferLoad(fn) {
+    if (typeof requestIdleCallback === 'function') {
+      requestIdleCallback(fn);
+    } else {
+      setTimeout(fn, 1);
+    }
+  }
+
+  window.addEventListener('load', function() {
+    deferLoad(loadProfiles);
+    deferLoad(loadAvailability);
+  });
+
   /* ── Primary data load — only search_data.json is fetched eagerly ─ */
 
   fetch(cfg.searchData)
@@ -500,8 +495,6 @@
       // Wire up events
       var debounceTimer;
       document.getElementById('searchBox').addEventListener('input', function() {
-        // Start fetching profiles as soon as user types (don't wait for debounce)
-        if (this.value.trim().length >= 2) ensureProfiles();
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(doSearch, 200);
         updateSearchIcon();
