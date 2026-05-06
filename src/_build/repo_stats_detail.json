@@ -5130,6 +5130,19 @@
     "pushed_at": "2023-05-23T04:59:18Z"
   },
   {
+    "title": "R2C: AOCR-Resilient Diversity with Reactive and Reflective Camouflage",
+    "url": "https://github.com/fberlakovich/r2c-benchmarking",
+    "conference": "EUROSYS",
+    "year": 2023,
+    "area": "systems",
+    "stars": 2,
+    "forks": 0,
+    "description": "Benchmarking infrastructure for \"R2C: AOCR-Resilient Diversity with Reactive and Reflective Camouflage\"",
+    "language": "Python",
+    "name": "ucsrl/r2c-benchmarking",
+    "pushed_at": "2024-05-24T12:05:05Z"
+  },
+  {
     "title": "Omni-Paxos: Breaking the Barriers of Partial Connectivity",
     "url": "https://github.com/haraldng/omnipaxos-artifacts",
     "conference": "EUROSYS",
@@ -6312,6 +6325,19 @@
     "pushed_at": "2024-10-23T03:32:23Z"
   },
   {
+    "title": "THEMIS: Regulating Textual Inversion for Personalized Concept Censorship",
+    "url": "https://github.com/WU-YU-TONG/Themis",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "WU-YU-TONG/Themis",
+    "pushed_at": "2024-09-06T00:39:15Z"
+  },
+  {
     "title": "Unleashing the Power of Generative Model in Recovering Variable Names from Stripped Binary",
     "url": "https://github.com/XZ-X/gennm-ndss-ae",
     "conference": "NDSS",
@@ -6388,6 +6414,19 @@
     "language": "Python",
     "name": "CHENGZ03/MingledPie",
     "pushed_at": "2024-11-30T15:40:13Z"
+  },
+  {
+    "title": "Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
+    "url": "https://github.com/dlgroupuoft/Duumviri-NDSS25",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 1,
+    "forks": 1,
+    "description": "Artifact release of our NDSS 2025 Paper Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
+    "language": "Python",
+    "name": "dlgroupuoft/Duumviri-NDSS25",
+    "pushed_at": "2024-08-31T01:22:22Z"
   },
   {
     "title": "EvoCrawl: Exploring Web Application Code and State using Evolutionary Search",
@@ -6471,6 +6510,32 @@
     "language": "Solidity",
     "name": "scaffino/Alba-Bridge",
     "pushed_at": "2024-11-30T10:40:05Z"
+  },
+  {
+    "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
+    "url": "https://github.com/two-heart/dumpling-artifact-evaluation",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 33,
+    "forks": 4,
+    "description": "",
+    "language": "Python",
+    "name": "two-heart/dumpling-artifact-evaluation",
+    "pushed_at": "2024-11-30T11:16:47Z"
+  },
+  {
+    "title": "Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning via Latent Space Reconstruction",
+    "url": "https://github.com/unknown123489/Scale-MIA",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 6,
+    "forks": 0,
+    "description": "The implementation of NDSS'25 submission \"Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning",
+    "language": "Python",
+    "name": "unknown123489/Scale-MIA",
+    "pushed_at": "2024-11-26T06:54:19Z"
   },
   {
     "title": "Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning",
@@ -6670,6 +6735,19 @@
     "language": "Rust",
     "name": "akinovak/cryptobazaar-impl",
     "pushed_at": "2025-12-14T15:16:07Z"
+  },
+  {
+    "title": "Loki: Proactively discovering online scams by mining toxic search queries",
+    "url": "https://github.com/codepujan/ndss-loki-artifact",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "Companion repository for our NDSS'26 Loki paper ",
+    "language": "Python",
+    "name": "codepujan/ndss-loki-artifact",
+    "pushed_at": "2025-09-01T19:33:32Z"
   },
   {
     "title": "TranSPArent: Taint-style Vulnerability Detection of Generic Single-Page Applications through Automated Framework Abstraction",
@@ -19574,6 +19652,19 @@
     "pushed_at": "2025-03-19T22:53:08Z"
   },
   {
+    "title": "S/MINE: Collecting and Analyzing S/MIME Certificates at Scale",
+    "url": "https://github.com/FHMS-ITS/SMINE",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "Artifacts for the USENIX 2025 S/MINE paper",
+    "language": "Python",
+    "name": "FHMS-ITS/SMINE",
+    "pushed_at": "2025-06-20T15:22:17Z"
+  },
+  {
     "title": "Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators",
     "url": "https://github.com/G2FUZZ/G2FUZZ",
     "conference": "USENIXSEC",
@@ -19717,6 +19808,19 @@
     "pushed_at": "2023-11-24T23:15:09Z"
   },
   {
+    "title": "Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation",
+    "url": "https://github.com/NASP-THU/RUC_PoC",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 3,
+    "forks": 1,
+    "description": "[USENIX Security '25] Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches",
+    "language": "Python",
+    "name": "NASP-THU/RUC_PoC",
+    "pushed_at": "2026-04-23T09:52:10Z"
+  },
+  {
     "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
     "url": "https://github.com/NSSL-SJTU/YaTC",
     "conference": "USENIXSEC",
@@ -19741,6 +19845,19 @@
     "language": "C++",
     "name": "NimishMishra/randomized_caches",
     "pushed_at": "2025-04-11T14:44:41Z"
+  },
+  {
+    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
+    "url": "https://github.com/PKU-Alignment/safe-rlhf",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 1600,
+    "forks": 132,
+    "description": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback",
+    "language": "Python",
+    "name": "PKU-Alignment/safe-rlhf",
+    "pushed_at": "2025-11-24T04:07:51Z"
   },
   {
     "title": "VoiceWukong: Benchmarking Deepfake Voice Detection",
@@ -19897,6 +20014,32 @@
     "language": "Python",
     "name": "YuxinWenRick/tree-ring-watermark",
     "pushed_at": "2024-03-21T17:23:06Z"
+  },
+  {
+    "title": "AutoLabel: Automated Fine-Grained Log Labeling for Cyber Attack Dataset Generation",
+    "url": "https://github.com/autolabel-open/autolabel",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 9,
+    "forks": 1,
+    "description": "Release of security datasets containing attack scripts and labeled logs",
+    "language": "C",
+    "name": "autolabel-open/autolabel",
+    "pushed_at": "2025-10-19T13:31:01Z"
+  },
+  {
+    "title": "Web Execution Bundles: Reproducible, Accurate, and Archivable Web Measurements",
+    "url": "https://github.com/cispa/WebREC",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "This repository provides the code is used in the Usenix paper \"Web Execution Bundles: Reproducible, Accurate, and Archiv",
+    "language": "Jupyter Notebook",
+    "name": "cispa/WebREC",
+    "pushed_at": "2025-03-26T19:12:31Z"
   },
   {
     "title": "SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution",
@@ -20211,6 +20354,19 @@
     "pushed_at": "2016-08-24T18:55:59Z"
   },
   {
+    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
+    "url": "https://github.com/jinzhuoran/RWKU",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 94,
+    "forks": 9,
+    "description": "RWKU: Benchmarking Real-World Knowledge Unlearning for Large Language Models. NeurIPS 2024",
+    "language": "Python",
+    "name": "jinzhuoran/RWKU",
+    "pushed_at": "2024-09-30T13:26:32Z"
+  },
+  {
     "title": "LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models",
     "url": "https://github.com/lekssays/llmxcpg",
     "conference": "USENIXSEC",
@@ -20314,6 +20470,19 @@
     "pushed_at": "2025-10-06T12:12:00Z"
   },
   {
+    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
+    "url": "https://github.com/minkyoo9/Unlearning-safety-alignment",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 4,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "minkyoo9/Unlearning-safety-alignment",
+    "pushed_at": "2025-10-17T08:44:37Z"
+  },
+  {
     "title": "zk-promises: Anonymous Moderation, Reputation, and Blocking",
     "url": "https://github.com/moshih/UpdateableEncryption_Code",
     "conference": "USENIXSEC",
@@ -20362,6 +20531,19 @@
     "language": "Python",
     "name": "namilus/usenix-2025",
     "pushed_at": "2025-06-05T13:11:57Z"
+  },
+  {
+    "title": "GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors",
+    "url": "https://github.com/nmrksic/counter-fitting",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 145,
+    "forks": 28,
+    "description": "Counter-fitting Word Vectors to Linguistic Constraints",
+    "language": "Python",
+    "name": "nmrksic/counter-fitting",
+    "pushed_at": "2020-03-26T09:26:11Z"
   },
   {
     "title": "Precise and Effective Gadget Chain Mining through Deserialization Guided Call Graph Construction",
@@ -20514,6 +20696,19 @@
     "language": "Python",
     "name": "ssloxford/current-affairs",
     "pushed_at": "2025-02-13T15:10:48Z"
+  },
+  {
+    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
+    "url": "https://github.com/swj0419/muse_bench",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 33,
+    "forks": 7,
+    "description": "",
+    "language": "Python",
+    "name": "swj0419/muse_bench",
+    "pushed_at": "2025-03-13T09:59:18Z"
   },
   {
     "title": "Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection",
@@ -20709,6 +20904,19 @@
     "language": "Python",
     "name": "BaiLibl/CoFedMID",
     "pushed_at": "2026-02-23T10:28:59Z"
+  },
+  {
+    "title": "Bridging Bitcoin to Second Layers via BitVM2",
+    "url": "https://github.com/BitVM/BitVM",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 507,
+    "forks": 181,
+    "description": "A Trust-minimized Bitcoin Bridge",
+    "language": "Rust",
+    "name": "BitVM/BitVM",
+    "pushed_at": "2026-01-26T18:49:38Z"
   },
   {
     "title": "HAMLOCK: HArdware-Model LOgically Combined attacK",
@@ -20932,6 +21140,19 @@
     "pushed_at": "2026-01-11T01:50:07Z"
   },
   {
+    "title": "Shred-to-Shine Metamorphosis of (Distributed) Polynomial Commitments",
+    "url": "https://github.com/leeweihanwickham/PIP_FRI-and-DePIP_FRI",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 1,
+    "description": "Efficient (Distributed) Polynomial Commitment Schemes from FRI",
+    "language": "Rust",
+    "name": "leeweihanwickham/PIP_FRI-and-DePIP_FRI",
+    "pushed_at": "2026-02-09T03:22:29Z"
+  },
+  {
     "title": "Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost",
     "url": "https://github.com/localmess/localhost-abuse",
     "conference": "USENIXSEC",
@@ -20956,6 +21177,19 @@
     "language": "",
     "name": "lxyeternal/PyGuard",
     "pushed_at": "2025-12-19T11:51:03Z"
+  },
+  {
+    "title": "You Know Why, but Still Rely: The Impact of Explainable AI on Trust, Task Load, and Performance in Cybersecurity Decision-Making",
+    "url": "https://github.com/neroc100/domain-blocker-prototype",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "Prototype used for the domain blocker task, evaluating the effect of explanations on trust, reliance, task load, usabili",
+    "language": "JavaScript",
+    "name": "neroc100/domain-blocker-prototype",
+    "pushed_at": "2025-12-13T10:16:04Z"
   },
   {
     "title": "Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem",
@@ -21034,6 +21268,19 @@
     "language": "Python",
     "name": "wegodev2/virtual-prompt-injection",
     "pushed_at": "2024-07-06T09:55:50Z"
+  },
+  {
+    "title": "Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier",
+    "url": "https://github.com/ztao10086/Residual-PAC-Privacy",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "Code for USENIX Security 2026 paper: \"Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier\"",
+    "language": "Python",
+    "name": "ztao10086/Residual-PAC-Privacy",
+    "pushed_at": "2025-12-09T18:19:10Z"
   },
   {
     "title": "D-TIME: Distributed Threadless Independent Malware Execution for Runtime Obfuscation",

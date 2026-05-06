@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checked_at": "2026-05-04 22:12:25 UTC",
+    "checked_at": "2026-05-06 22:15:57 UTC",
     "total_urls": 2562,
-    "accessible_urls": 2395,
-    "accessibility_pct": 93.5,
+    "accessible_urls": 2479,
+    "accessibility_pct": 96.8,
     "by_platform": {
       "Bitbucket": {
         "total": 9,
@@ -32,25 +32,25 @@
       },
       "Zenodo": {
         "total": 885,
-        "accessible": 794,
-        "pct": 89.7
+        "accessible": 877,
+        "pct": 99.1
       },
       "other": {
         "total": 312,
-        "accessible": 272,
-        "pct": 87.2
+        "accessible": 273,
+        "pct": 87.5
       }
     },
     "by_area": {
       "security": {
         "total": 2037,
-        "accessible": 1897,
-        "pct": 93.1
+        "accessible": 1977,
+        "pct": 97.1
       },
       "systems": {
         "total": 525,
-        "accessible": 498,
-        "pct": 94.9
+        "accessible": 502,
+        "pct": 95.6
       }
     },
     "by_year": {
@@ -61,8 +61,8 @@
       },
       "2018": {
         "total": 22,
-        "accessible": 18,
-        "pct": 81.8
+        "accessible": 19,
+        "pct": 86.4
       },
       "2019": {
         "total": 24,
@@ -81,13 +81,13 @@
       },
       "2022": {
         "total": 376,
-        "accessible": 359,
-        "pct": 95.5
+        "accessible": 362,
+        "pct": 96.3
       },
       "2023": {
         "total": 358,
-        "accessible": 345,
-        "pct": 96.4
+        "accessible": 346,
+        "pct": 96.6
       },
       "2024": {
         "total": 479,
@@ -96,13 +96,13 @@
       },
       "2025": {
         "total": 707,
-        "accessible": 643,
-        "pct": 90.9
+        "accessible": 700,
+        "pct": 99.0
       },
       "2026": {
         "total": 308,
-        "accessible": 284,
-        "pct": 92.2
+        "accessible": 306,
+        "pct": 99.4
       }
     },
     "by_year_area": {
@@ -116,8 +116,8 @@
       "2018": {
         "security": {
           "total": 22,
-          "accessible": 18,
-          "pct": 81.8
+          "accessible": 19,
+          "pct": 86.4
         }
       },
       "2019": {
@@ -159,8 +159,8 @@
         },
         "systems": {
           "total": 146,
-          "accessible": 136,
-          "pct": 93.2
+          "accessible": 139,
+          "pct": 95.2
         }
       },
       "2023": {
@@ -171,8 +171,8 @@
         },
         "systems": {
           "total": 102,
-          "accessible": 97,
-          "pct": 95.1
+          "accessible": 98,
+          "pct": 96.1
         }
       },
       "2024": {
@@ -190,8 +190,8 @@
       "2025": {
         "security": {
           "total": 663,
-          "accessible": 600,
-          "pct": 90.5
+          "accessible": 657,
+          "pct": 99.1
         },
         "systems": {
           "total": 44,
@@ -202,8 +202,8 @@
       "2026": {
         "security": {
           "total": 308,
-          "accessible": 284,
-          "pct": 92.2
+          "accessible": 306,
+          "pct": 99.4
         }
       }
     },
@@ -233,8 +233,8 @@
         },
         "other": {
           "total": 7,
-          "accessible": 4,
-          "pct": 57.1
+          "accessible": 5,
+          "pct": 71.4
         }
       },
       "2019": {
@@ -341,8 +341,8 @@
         },
         "Zenodo": {
           "total": 52,
-          "accessible": 48,
-          "pct": 92.3
+          "accessible": 51,
+          "pct": 98.1
         },
         "other": {
           "total": 47,
@@ -378,8 +378,8 @@
         },
         "Zenodo": {
           "total": 54,
-          "accessible": 52,
-          "pct": 96.3
+          "accessible": 53,
+          "pct": 98.1
         },
         "other": {
           "total": 48,
@@ -447,8 +447,8 @@
         },
         "Zenodo": {
           "total": 438,
-          "accessible": 377,
-          "pct": 86.1
+          "accessible": 434,
+          "pct": 99.1
         },
         "other": {
           "total": 69,
@@ -474,8 +474,8 @@
         },
         "Zenodo": {
           "total": 246,
-          "accessible": 222,
-          "pct": 90.2
+          "accessible": 244,
+          "pct": 99.2
         },
         "other": {
           "total": 9,
@@ -487,8 +487,8 @@
     "by_conference": {
       "ACSAC": {
         "total": 287,
-        "accessible": 248,
-        "pct": 86.4
+        "accessible": 249,
+        "pct": 86.8
       },
       "ATC": {
         "total": 135,
@@ -502,13 +502,13 @@
       },
       "EUROSYS": {
         "total": 192,
-        "accessible": 185,
-        "pct": 96.4
+        "accessible": 189,
+        "pct": 98.4
       },
       "NDSS": {
         "total": 209,
-        "accessible": 194,
-        "pct": 92.8
+        "accessible": 208,
+        "pct": 99.5
       },
       "OSDI": {
         "total": 173,
@@ -532,8 +532,8 @@
       },
       "USENIXSEC": {
         "total": 970,
-        "accessible": 896,
-        "pct": 92.4
+        "accessible": 961,
+        "pct": 99.1
       },
       "WOOT": {
         "total": 46,
@@ -2681,7 +2681,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6335690",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2701,7 +2701,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6349594",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2721,7 +2721,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6336196",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2791,7 +2791,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.7728972",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -6011,7 +6011,7 @@
       "url_key": "artifact_url",
       "url": "https://itrust.sutd.edu.sg/research/dataset/dataset_characteristics/#swat",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "ACSAC",
@@ -10481,7 +10481,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13621822",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10621,7 +10621,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13732052",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10761,7 +10761,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14213306",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10781,7 +10781,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14249678",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10811,7 +10811,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13863530",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10821,7 +10821,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14225977",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10831,7 +10831,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14261195",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10841,7 +10841,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14248909",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10851,7 +10851,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14188149",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -10881,7 +10881,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14249064",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11371,7 +11371,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16687648",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11591,7 +11591,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17906756",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11651,7 +11651,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17481221",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11661,7 +11661,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17049965",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -21351,7 +21351,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15091772",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21361,7 +21361,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14719309",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21401,7 +21401,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14720824",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21411,7 +21411,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14728440",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21421,7 +21421,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14720651",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21431,7 +21431,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14723002",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21441,7 +21441,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14724513",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21461,7 +21461,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14722605",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21471,7 +21471,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14722866",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21511,7 +21511,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14723872",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21521,7 +21521,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14737533?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjQxYTgyZWU2LTk1YWEtNGEzOS05MjM1LWM0NzYwZjY1ZmFjNiIsImRhdGEiOnt9LCJyYW5kb20iOiI5MDBlMjg0OTg2NGJhOGVkNzE4NzBmZTU5YTRhOTM3YyJ9.h8Z2HxamuZDdBiTIVuEy1U-g4ef0S8nAOikKMxm_XSspAQ-h7fMpoE-ZxCJ0IIF-oDX7IIKPRPs77dvPlwPGjg",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21641,7 +21641,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14567468",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21751,7 +21751,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14728872",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21781,7 +21781,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14660194",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -21971,7 +21971,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14730889",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22191,7 +22191,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14735789",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22481,7 +22481,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14738531",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22491,7 +22491,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14735675",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22511,7 +22511,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14636810",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22531,7 +22531,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15468400",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22551,7 +22551,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15474656",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22581,7 +22581,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15569395",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22591,7 +22591,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15543846",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22601,7 +22601,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15586856",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22681,7 +22681,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15550089",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22791,7 +22791,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15533203",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22961,7 +22961,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15579424",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -22981,7 +22981,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/doi/10.5281/zenodo.13753906",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23321,7 +23321,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15591819",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23421,7 +23421,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15572895",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23431,7 +23431,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15377790",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23451,7 +23451,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15605318",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23461,7 +23461,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15609121",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23471,7 +23471,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16740884",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23481,7 +23481,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15832783",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23491,7 +23491,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15599087",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23501,7 +23501,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15611161",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23771,7 +23771,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15607879",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23811,7 +23811,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15541311",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23851,7 +23851,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15609883",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23871,7 +23871,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15610905",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24051,7 +24051,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15612037",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24151,7 +24151,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15614377",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24161,7 +24161,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15613680",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24201,7 +24201,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15614029",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24211,7 +24211,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16902911",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24241,7 +24241,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15615045",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24281,7 +24281,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17885393",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24301,7 +24301,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17823671",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24411,7 +24411,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17849532",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24511,7 +24511,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/17867141",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24551,7 +24551,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17871622",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24651,7 +24651,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/17972924",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24781,7 +24781,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17905132",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24921,7 +24921,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17965902",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24951,7 +24951,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.18395925",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25011,7 +25011,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17970502",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25071,7 +25071,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.18047962",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25091,7 +25091,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17973972",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25101,7 +25101,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17955052",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25111,7 +25111,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/18939418",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25121,7 +25121,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17949747",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25141,7 +25141,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17958466",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25151,7 +25151,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17969521",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25261,7 +25261,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17964520",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
