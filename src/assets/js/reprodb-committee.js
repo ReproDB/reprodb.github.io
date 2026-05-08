@@ -374,8 +374,8 @@
     if (!el) return;
 
     // Build per-year sets of members and chairs
-    var yearMembers = {}; // year -> Set of names with role 'member'
-    var yearChairs  = {}; // year -> Set of names with role 'chair'
+    var yearMembers = {}; // year -> { name: true }
+    var yearChairs  = {}; // year -> { name: true }
 
     aeMembers.forEach(function(m) {
       if (area !== 'overall') {
@@ -411,11 +411,12 @@
       }
     }
 
-    // Create nodes for each year
+    // Use staggered depths: "New" at i*2, Members/Chairs at i*2+1
+    // This ensures links always flow left-to-right.
     years.forEach(function(y, i) {
-      addNode(y + ' Members', i);
-      addNode(y + ' Chairs', i);
-      addNode(y + ' New', i);
+      addNode(y + ' New', i * 2);
+      addNode(y + ' Members', i * 2 + 1);
+      addNode(y + ' Chairs', i * 2 + 1);
     });
 
     for (var i = 0; i < years.length; i++) {
@@ -459,16 +460,15 @@
         else chairNew++;
       });
 
-      // Links from previous year nodes to current year nodes
+      // Links from previous year's role nodes to current year's role nodes
       if (memberFromMember > 0) links.push({ source: prevYear + ' Members', target: y + ' Members', value: memberFromMember });
       if (memberFromChair > 0)  links.push({ source: prevYear + ' Chairs',  target: y + ' Members', value: memberFromChair });
       if (chairFromMember > 0)  links.push({ source: prevYear + ' Members', target: y + ' Chairs',  value: chairFromMember });
       if (chairFromChair > 0)   links.push({ source: prevYear + ' Chairs',  target: y + ' Chairs',  value: chairFromChair });
 
-      // New entrants
+      // New entrants flow through the "New" node at this year
       var totalNew = memberNew + chairNew;
       if (totalNew > 0) {
-        addNode(y + ' New', i);
         if (memberNew > 0) links.push({ source: y + ' New', target: y + ' Members', value: memberNew });
         if (chairNew > 0)  links.push({ source: y + ' New', target: y + ' Chairs',  value: chairNew });
       }
@@ -481,6 +481,11 @@
       else if (n.name.indexOf('Chairs') !== -1) nodeColors[n.name] = SEC_COLOR;
       else nodeColors[n.name] = '#7f8c8d'; // New — grey
     });
+
+    // Remove "New" nodes that have no links (no new entrants)
+    var linkedNodes = {};
+    links.forEach(function(l) { linkedNodes[l.source] = true; linkedNodes[l.target] = true; });
+    nodes = nodes.filter(function(n) { return linkedNodes[n.name]; });
 
     var chart = ReproDB.initEChart(el);
 
@@ -498,14 +503,13 @@
           trigger: 'item',
           formatter: function(params) {
             if (params.dataType === 'edge') {
-              return params.data.source + ' → ' + params.data.target + ': ' + params.data.value;
+              return params.data.source + ' \u2192 ' + params.data.target + ': ' + params.data.value;
             }
             return params.name + ': ' + params.value;
           }
         },
         series: [{
           type: 'sankey',
-          layout: 'none',
           top: 60,
           bottom: 20,
           left: 30,
