@@ -28,7 +28,7 @@
       <div class="rdb-control-group">
         <label class="rdb-label">Search:</label>
         <input type="text" placeholder="Name or affiliation…" class="rdb-input"
-               x-model="searchText" @input.debounce.400ms="applyFilters()">
+               x-model.debounce.400ms="searchText">
       </div>
     </div>
   </div>
@@ -74,6 +74,7 @@ function combinedRanking() {
 
     boot: function() {
       var self = this;
+      this.$watch('searchText', function() { self.applyFilters(); });
       var el = this.$refs.loading;
       if ('IntersectionObserver' in window && el) {
         var io = new IntersectionObserver(function(entries) {
