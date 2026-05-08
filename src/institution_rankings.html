@@ -1,0 +1,19 @@
+---
+title: Institution Ranking
+skip_chartjs: true
+institution_data_url: /assets/data/institution_rankings.json
+systems_data_url: /assets/data/systems_institution_rankings.json
+security_data_url: /assets/data/security_institution_rankings.json
+---
+
+<h1>Institution Ranking</h1>
+
+<p>Institutions ranked by aggregate contributions of their researchers. Filter by conference area: all, systems, or security.</p>
+
+<hr>
+
+{% include institution_ranking_table.html %}
+
+<hr>
+
+<p><strong>Data:</strong> <a href="{{ '/assets/data/institution_rankings.json' | relative_url }}">All Conferences</a> | <a href="{{ '/assets/data/systems_institution_rankings.json' | relative_url }}">Systems</a> | <a href="{{ '/assets/data/security_institution_rankings.json' | relative_url }}">Security</a></p>
