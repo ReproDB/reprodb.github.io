@@ -80,6 +80,21 @@
 .at-total-info { margin-left: 8px; color: #666; font-size: 0.85em; }
 .at-page-nav { margin-left: auto; }
 
+/* ── Area checkboxes ────────────────────────────────────────────────────── */
+.rdb-area-checks {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+.rdb-area-checks label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  user-select: none;
+}
+
 /* ── Dark-mode overrides ───────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme="light"]) .rdb-legend { color: #aab0b8; }

@@ -98,7 +98,8 @@ Chairs represent **{{ site.data.committee_stats.chair_stats.total_countries }} c
           legend: { bottom: 0, type: 'scroll' },
           series: [{
             type: 'pie', radius: ['35%', '65%'],
-            data: continents.map(function(c) { return { name: c[0], value: c[1], itemStyle: { color: CONTINENT_COLORS[c[0]] || '#95a5a6' } }; })
+            data: continents.map(function(c) { return { name: c[0], value: c[1], itemStyle: { color: CONTINENT_COLORS[c[0]] || '#95a5a6' } }; }),
+            label: { show: false }, emphasis: { label: { show: true, fontSize: 13 } }
           }]
         });
         ReproDB.registerEChart(chart);

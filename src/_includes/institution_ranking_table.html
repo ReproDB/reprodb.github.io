@@ -17,11 +17,10 @@
     <div class="rdb-controls-row">
       <div class="rdb-control-group">
         <label class="rdb-label">Area:</label>
-        <select class="rdb-select" x-model="area" @change="loadArea()">
-          <option value="all">All Conferences</option>
-          <option value="systems">Systems Only</option>
-          <option value="security">Security Only</option>
-        </select>
+        <span class="rdb-area-checks">
+          <label><input type="checkbox" x-model="areaSystems" @change="onAreaChange()"> Systems</label>
+          <label><input type="checkbox" x-model="areaSecurity" @change="onAreaChange()"> Security</label>
+        </span>
       </div>
       <div class="rdb-control-group">
         <label class="rdb-label">Geo:</label>
@@ -111,6 +110,8 @@ function institutionRanking() {
 
   return {
     area: 'all',
+    areaSystems: true,
+    areaSecurity: true,
     contribFilter: 'both',
     geoFilter: 'world',
     searchText: '',
@@ -145,6 +146,14 @@ function institutionRanking() {
     _doLoad: function() {
       this.loadArea();
       this._loadHistory();
+    },
+
+    onAreaChange: function() {
+      if (this.areaSystems && this.areaSecurity) this.area = 'all';
+      else if (this.areaSystems) this.area = 'systems';
+      else if (this.areaSecurity) this.area = 'security';
+      else this.area = 'all'; // neither checked → show all
+      this.loadArea();
     },
 
     _loadHistory: function() {

@@ -57,6 +57,19 @@
   font-size: 0.95em;
   background: #fff;
 }
+.rdb-area-checks {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+.rdb-area-checks label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.95em;
+  cursor: pointer;
+  user-select: none;
+}
 
 /* ── Status & action buttons ───────────────────────────────────────────── */
 #searchStatus {
@@ -136,3 +149,22 @@
 
 /* ── Hidden data element ───────────────────────────────────────────────── */
 #search-data-urls { display: none; }
+
+/* ── Dark mode ─────────────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  #searchBox { background: #1e1e1e; color: #e0e0e0; border-color: #555; }
+  #searchBox:focus { border-color: #4285f4; }
+  #filters select { background: #2a2a2a; color: #e0e0e0; border-color: #555; }
+  .rdb-search-action-btn { background: #2a2a2a; color: #e0e0e0; border-color: #555; }
+  #pagination button { background: #2a2a2a; color: #e0e0e0; border-color: #555; }
+  .profile-card { background: #2a2a2a; border-color: #444; color: #e0e0e0; }
+  .profile-card:hover { border-color: #4285f4; }
+  .profile-card .card-detail { color: #aaa; }
+  .rdb-result-authors { color: #bbb; }
+  .rdb-result-meta { color: #aaa; }
+  .rdb-badge { background: #2e3d2e; color: #c8e6c9; }
+  .rdb-badge--award { background: #3d3525; color: #ffe0b2; }
+  #searchStatus { color: #aaa; }
+  #sort-controls { color: #aaa; }
+  #noResults { color: #888; }
+}

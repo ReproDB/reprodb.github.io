@@ -13,11 +13,10 @@
     <div class="rdb-controls-row">
       <div class="rdb-control-group">
         <label class="rdb-label">Area:</label>
-        <select class="rdb-select" x-model="area" @change="loadArea()">
-          <option value="all">All Conferences</option>
-          <option value="systems">Systems Only</option>
-          <option value="security">Security Only</option>
-        </select>
+        <span class="rdb-area-checks">
+          <label><input type="checkbox" x-model="areaSystems" @change="onAreaChange()"> Systems</label>
+          <label><input type="checkbox" x-model="areaSecurity" @change="onAreaChange()"> Security</label>
+        </span>
       </div>
       <div class="rdb-control-group">
         <label class="rdb-label">Contribution Type:</label>
@@ -64,6 +63,8 @@ function combinedRanking() {
 
   return {
     area: '{{ page.default_area | default: "all" }}',
+    areaSystems: {% if page.default_area == "security" %}false{% else %}true{% endif %},
+    areaSecurity: {% if page.default_area == "systems" %}false{% else %}true{% endif %},
     contribFilter: 'both',
     nameSearch: '',
     affSearch: '',
@@ -94,6 +95,14 @@ function combinedRanking() {
     _doLoad: function() {
       this.loadArea();
       this._loadHistory();
+    },
+
+    onAreaChange: function() {
+      if (this.areaSystems && this.areaSecurity) this.area = 'all';
+      else if (this.areaSystems) this.area = 'systems';
+      else if (this.areaSecurity) this.area = 'security';
+      else this.area = 'all'; // neither checked → show all
+      this.loadArea();
     },
 
     _loadHistory: function() {

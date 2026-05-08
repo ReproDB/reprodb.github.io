@@ -512,7 +512,7 @@
     chart.setOption({
       title: { text: title, left: 'center', textStyle: { fontSize: 13 } },
       tooltip: { trigger: 'axis' },
-      grid: { containLabel: true, left: 20, right: 20, bottom: 30, top: 40 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 30, top: 50 },
       xAxis: { type: 'value', name: 'Members' },
       yAxis: { type: 'category', data: labels },
       series: [{ name: 'Members', type: 'bar', data: data.map(function(i) { return i.count; }).reverse(), itemStyle: { color: color } }]

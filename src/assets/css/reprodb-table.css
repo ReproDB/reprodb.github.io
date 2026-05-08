@@ -47,6 +47,12 @@
 /* Prevents horizontal scrolling by letting long content (titles, names) wrap. */
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
   white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+/* Sortable cols get padding-right:25px for the sort arrow — remove it since we hide arrows */
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title {
+  padding-right: 0;
 }
 .tabulator-row .tabulator-cell {
   white-space: normal;
@@ -95,6 +101,18 @@
   }
   html:not([data-theme="light"]) .tabulator .tabulator-tableholder .tabulator-table .tabulator-row:hover {
     background-color: #2a3038;
+  }
+  html:not([data-theme="light"]) .tabulator-row.tabulator-selectable:hover {
+    background-color: #2a3038;
+  }
+  html:not([data-theme="light"]) .tabulator-row.tabulator-selected {
+    background-color: #2a3a4a;
+  }
+  html:not([data-theme="light"]) .tabulator-row.tabulator-selected:hover {
+    background-color: #30404f;
+  }
+  html:not([data-theme="light"]) .tabulator-row .tabulator-cell.tabulator-range-selected:not(.tabulator-range-only-cell-selected) {
+    background-color: #2a3a4a;
   }
   html:not([data-theme="light"]) .tabulator .tabulator-tableholder .tabulator-table .tabulator-row .tabulator-cell {
     border-color: #4a4f57;
@@ -151,6 +169,18 @@ html[data-theme="dark"] .tabulator .tabulator-tableholder .tabulator-table .tabu
 }
 html[data-theme="dark"] .tabulator .tabulator-tableholder .tabulator-table .tabulator-row:hover {
   background-color: #2a3038;
+}
+html[data-theme="dark"] .tabulator-row.tabulator-selectable:hover {
+  background-color: #2a3038;
+}
+html[data-theme="dark"] .tabulator-row.tabulator-selected {
+  background-color: #2a3a4a;
+}
+html[data-theme="dark"] .tabulator-row.tabulator-selected:hover {
+  background-color: #30404f;
+}
+html[data-theme="dark"] .tabulator-row .tabulator-cell.tabulator-range-selected:not(.tabulator-range-only-cell-selected) {
+  background-color: #2a3a4a;
 }
 html[data-theme="dark"] .tabulator .tabulator-tableholder .tabulator-table .tabulator-row .tabulator-cell {
   border-color: #4a4f57;

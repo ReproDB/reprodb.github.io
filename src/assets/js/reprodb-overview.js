@@ -188,7 +188,7 @@
         title: { text: title + ' \u2014 Top 10 by Combined Score', left: 'center', textStyle: { fontSize: 13 } },
         tooltip: { trigger: 'axis' },
         legend: { bottom: 0 },
-        grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
+        grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 50 },
         xAxis: { type: 'value', name: 'Score' },
         yAxis: { type: 'category', data: labels },
         series: [

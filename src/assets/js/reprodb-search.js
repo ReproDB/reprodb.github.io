@@ -71,7 +71,11 @@
     var query = normalizeText(cleaned);
     var yearVal = document.getElementById('yearFilter').value;
     var venueVal = document.getElementById('venueFilter').value;
-    var areaVal = document.getElementById('areaFilter').value;
+    var areaChecks = document.querySelectorAll('.areaCheck');
+    var selectedAreas = [];
+    areaChecks.forEach(function(cb) { if (cb.checked) selectedAreas.push(cb.value); });
+    // If both or neither checked, show all areas; if one checked, filter to it
+    var areaVal = selectedAreas.length === 1 ? selectedAreas[0] : '';
     var terms = query.split(/\s+/).filter(function(t) { return t.length > 0; });
 
     filtered = allData.filter(function(d) {
@@ -153,7 +157,10 @@
     var terms = normalizeText(cleaned).split(/\s+/).filter(function(t) { return t.length > 0; });
     var yearVal = document.getElementById('yearFilter').value;
     var venueVal = document.getElementById('venueFilter').value;
-    var areaVal = document.getElementById('areaFilter').value;
+    var areaChecks = document.querySelectorAll('.areaCheck');
+    var selAreas = [];
+    areaChecks.forEach(function(cb) { if (cb.checked) selAreas.push(cb.value); });
+    var areaVal = selAreas.length === 1 ? selAreas[0] : '';
 
     if (!query && !yearVal && !venueVal && !areaVal) {
       list.classList.add('rdb-hidden');
@@ -291,7 +298,10 @@
     var q = document.getElementById('searchBox').value.trim();
     var year = document.getElementById('yearFilter').value;
     var venue = document.getElementById('venueFilter').value;
-    var area = document.getElementById('areaFilter').value;
+    var areaChecks = document.querySelectorAll('.areaCheck');
+    var selAreas = [];
+    areaChecks.forEach(function(cb) { if (cb.checked) selAreas.push(cb.value); });
+    var area = selAreas.length === 1 ? selAreas[0] : '';
     if (q) params.set('q', q);
     if (year) params.set('year', year);
     if (venue) params.set('venue', venue);
@@ -343,32 +353,32 @@
     }
 
     // Score: lower = better. Name-starts-with beats name-contains beats affiliation-only.
-    function scoreMatch(name, affiliation) {
-      var normName = normalizeText(name);
-      var normAffil = normalizeText(affiliation || '');
+    // Uses pre-computed _normName / _normAffil fields for speed.
+    function scoreMatch(normName, normAffil) {
       var nameStarts = terms.every(function(t) {
         return normName.split(' ').some(function(w) { return w.indexOf(t) === 0; });
       });
       if (nameStarts) return 0;
       var nameContains = terms.every(function(t) { return normName.indexOf(t) !== -1; });
       if (nameContains) return 1;
-      var fullText = normName + ' ' + normAffil;
-      var fullMatch = terms.every(function(t) { return fullText.indexOf(t) !== -1; });
-      if (fullMatch) {
-        // Only match on affiliation if at least one term hits the name
-        var anyNameHit = terms.some(function(t) { return normName.indexOf(t) !== -1; });
-        if (anyNameHit) return 2;
+      if (normAffil) {
+        var fullText = normName + ' ' + normAffil;
+        var fullMatch = terms.every(function(t) { return fullText.indexOf(t) !== -1; });
+        if (fullMatch) {
+          var anyNameHit = terms.some(function(t) { return normName.indexOf(t) !== -1; });
+          if (anyNameHit) return 2;
+        }
       }
       return -1; // no match
     }
 
     var candidates = [];
     authorProfiles.forEach(function(p) {
-      var s = scoreMatch(p.name, p.affiliation);
+      var s = scoreMatch(p._normName || '', p._normAffil || '');
       if (s >= 0) candidates.push({ type: 'author', data: p, score: s });
     });
     institutionData.forEach(function(inst) {
-      var s = scoreMatch(inst.affiliation, '');
+      var s = scoreMatch(inst._normName || '', '');
       if (s >= 0) candidates.push({ type: 'institution', data: inst, score: s });
     });
 
@@ -426,7 +436,13 @@
   function loadProfiles() {
     var p1 = fetch(cfg.authorProfiles)
       .then(function(r) { return r.json(); })
-      .then(function(data) { authorProfiles = data || []; })
+      .then(function(data) {
+        authorProfiles = data || [];
+        authorProfiles.forEach(function(p) {
+          p._normName = normalizeText(p.name);
+          p._normAffil = normalizeText(p.affiliation || '');
+        });
+      })
       .catch(function() { authorProfiles = []; });
 
     var p2 = fetch(cfg.institutions)
@@ -435,6 +451,9 @@
         institutionData = (data || []).filter(function(inst) {
           var a = (inst.affiliation || '').toLowerCase();
           return a && a !== 'unknown' && !a.startsWith('_');
+        });
+        institutionData.forEach(function(inst) {
+          inst._normName = normalizeText(inst.affiliation);
         });
       })
       .catch(function() { institutionData = []; });
@@ -496,12 +515,14 @@
       var debounceTimer;
       document.getElementById('searchBox').addEventListener('input', function() {
         clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(doSearch, 200);
+        debounceTimer = setTimeout(doSearch, 350);
         updateSearchIcon();
       });
       document.getElementById('yearFilter').addEventListener('change', doSearch);
       document.getElementById('venueFilter').addEventListener('change', doSearch);
-      document.getElementById('areaFilter').addEventListener('change', doSearch);
+      document.querySelectorAll('.areaCheck').forEach(function(cb) {
+        cb.addEventListener('change', doSearch);
+      });
 
       // Check URL params for pre-filled search
       var params = new URLSearchParams(window.location.search);
@@ -519,7 +540,10 @@
         hasParam = true;
       }
       if (params.get('area')) {
-        document.getElementById('areaFilter').value = params.get('area');
+        var areaParam = params.get('area');
+        document.querySelectorAll('.areaCheck').forEach(function(cb) {
+          cb.checked = (cb.value === areaParam);
+        });
         hasParam = true;
       }
       if (hasParam) {

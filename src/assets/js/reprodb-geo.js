@@ -211,9 +211,10 @@
     var labels = sorted.map(function(c) { return c.name; }).reverse();
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'Contributions by Continent', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0 },
-      grid: { containLabel: true, left: 120, right: 20, bottom: 50, top: 10 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
       xAxis: { type: 'value' },
       yAxis: { type: 'category', data: labels },
       series: [
@@ -233,9 +234,10 @@
     var labels = top.map(function(c) { return c.name; }).reverse();
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'Top 15 Countries by Combined Score', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0 },
-      grid: { containLabel: true, left: 120, right: 20, bottom: 50, top: 10 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
       xAxis: { type: 'value' },
       yAxis: { type: 'category', data: labels },
       series: [
@@ -265,8 +267,9 @@
 
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'Artifact Availability vs. Reproducibility', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { formatter: function(p) { var d = p.data; return d.label + ': ' + d.value[0] + '% available, ' + d.value[1] + '% repro, ' + d.inst + ' inst'; } },
-      grid: { containLabel: true, left: 60, right: 20, bottom: 40, top: 20 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 40, top: 40 },
       xAxis: { type: 'value', name: 'Artifact Availability %', min: 0, max: 100 },
       yAxis: { type: 'value', name: 'Reproducibility %', min: 0, max: 100 },
       series: [{ type: 'scatter', data: scatterData }]
@@ -282,9 +285,10 @@
     var sorted = continents.slice().sort(function(a,b) { return b.combined - a.combined; });
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'Activity by Continent Over Time', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0, type: 'scroll' },
-      grid: { containLabel: true, left: 50, right: 20, bottom: 50, top: 20 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
       xAxis: { type: 'category', data: years.map(String), name: 'Year' },
       yAxis: { type: 'value', name: 'Active contributions', min: 0 },
       series: sorted.map(function(c) {
@@ -303,9 +307,10 @@
     var years = allYears(top8);
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'Top 8 Countries Over Time', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0, type: 'scroll' },
-      grid: { containLabel: true, left: 50, right: 20, bottom: 50, top: 20 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
       xAxis: { type: 'category', data: years.map(String), name: 'Year' },
       yAxis: { type: 'value', name: 'Active contributions', min: 0 },
       series: top8.map(function(c, i) {
@@ -324,9 +329,10 @@
     var sorted = aeData.continents.slice().sort(function(a,b) { return b.total - a.total; });
     var chart = ReproDB.initEChart(el);
     chart.setOption({
+      title: { text: 'AE Committee Service by Continent', left: 'center', textStyle: { fontSize: 14 } },
       tooltip: { trigger: 'axis' },
       legend: { bottom: 0, type: 'scroll' },
-      grid: { containLabel: true, left: 50, right: 20, bottom: 50, top: 20 },
+      grid: { containLabel: true, left: 20, right: 20, bottom: 50, top: 40 },
       xAxis: { type: 'category', data: years.map(String), name: 'Year' },
       yAxis: { type: 'value', name: 'AE memberships', min: 0 },
       series: sorted.map(function(c, i) {
