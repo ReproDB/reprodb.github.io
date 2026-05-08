@@ -35,12 +35,11 @@
         </select>
       </div>
       <div class="rdb-control-group">
-        <label class="rdb-label">Contribution Type:</label>
-        <select class="rdb-select" x-model="contribFilter" @change="onContribChange()">
-          <option value="both">Both (Artifacts + AE)</option>
-          <option value="artifacts_only">Artifacts Only</option>
-          <option value="ae_only">AE Service Only</option>
-        </select>
+        <label class="rdb-label">Contribution:</label>
+        <span class="rdb-area-checks">
+          <label><input type="checkbox" x-model="contribArtifacts" @change="onContribChange()"> Artifacts</label>
+          <label><input type="checkbox" x-model="contribAE" @change="onContribChange()"> AE Service</label>
+        </span>
       </div>
       <div class="rdb-control-group">
         <label class="rdb-label">Search:</label>
@@ -112,6 +111,8 @@ function institutionRanking() {
     area: 'all',
     areaSystems: true,
     areaSecurity: true,
+    contribArtifacts: true,
+    contribAE: true,
     contribFilter: 'both',
     geoFilter: 'world',
     searchText: '',
@@ -371,6 +372,10 @@ function institutionRanking() {
     /* ── filtering ─────────────────────────────────────────────────── */
 
     onContribChange: function() {
+      if (this.contribArtifacts && this.contribAE) this.contribFilter = 'both';
+      else if (this.contribArtifacts) this.contribFilter = 'artifacts_only';
+      else if (this.contribAE) this.contribFilter = 'ae_only';
+      else this.contribFilter = 'both';
       if (!this.table) return;
       var sortField = this.contribFilter === 'artifacts_only' ? 'artifact_score' :
                       this.contribFilter === 'ae_only' ? 'ae_score' : 'combined_score';
