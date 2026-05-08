@@ -44,7 +44,7 @@
       <div class="rdb-control-group">
         <label class="rdb-label">Search:</label>
         <input type="text" placeholder="Filter by institution name..." class="rdb-input"
-               x-model.debounce.400ms="searchText">
+               x-ref="searchInput" @input="onSearchInput()">
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@ function institutionRanking() {
     contribAE: true,
     contribFilter: 'both',
     geoFilter: 'world',
-    searchText: '',
+    _searchTimer: null,
     loaded: false,
     loadingMsg: 'Loading institution ranking data…',
     table: null,
@@ -143,7 +143,6 @@ function institutionRanking() {
 
     boot: function() {
       var self = this;
-      this.$watch('searchText', function() { self.applyFilters(); });
       var el = this.$refs.loading;
       if ('IntersectionObserver' in window && el) {
         var io = new IntersectionObserver(function(entries) {
@@ -411,8 +410,9 @@ function institutionRanking() {
         if (fm === 'both' && !(data.combined_score > 0)) return false;
 
         // Text search
-        if (self.searchText.trim()) {
-          var lower = self.searchText.trim().toLowerCase();
+        var searchVal = (self.$refs.searchInput ? self.$refs.searchInput.value : '').trim();
+        if (searchVal) {
+          var lower = searchVal.toLowerCase();
           if ((data.affiliation || '').toLowerCase().indexOf(lower) === -1) return false;
         }
 
@@ -429,6 +429,12 @@ function institutionRanking() {
 
         return true;
       });
+    },
+
+    onSearchInput: function() {
+      var self = this;
+      clearTimeout(this._searchTimer);
+      this._searchTimer = setTimeout(function() { self.applyFilters(); }, 200);
     }
   };
 }

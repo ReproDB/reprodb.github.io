@@ -28,7 +28,7 @@
       <div class="rdb-control-group">
         <label class="rdb-label">Search:</label>
         <input type="text" placeholder="Name or affiliation…" class="rdb-input"
-               x-model.debounce.400ms="searchText">
+               x-ref="searchInput" @input="onSearchInput()">
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ function combinedRanking() {
     contribArtifacts: true,
     contribAE: true,
     contribFilter: 'both',
-    searchText: '',
+    _searchTimer: null,
     loaded: false,
     loadingMsg: 'Loading combined ranking data…',
     table: null,
@@ -74,7 +74,6 @@ function combinedRanking() {
 
     boot: function() {
       var self = this;
-      this.$watch('searchText', function() { self.applyFilters(); });
       var el = this.$refs.loading;
       if ('IntersectionObserver' in window && el) {
         var io = new IntersectionObserver(function(entries) {
@@ -316,8 +315,9 @@ function combinedRanking() {
       filters.push({ field: scoreField, type: '>', value: 0 });
 
       // Unified search (name or affiliation)
-      if (this.searchText.trim()) {
-        var q = this.searchText.trim().toLowerCase();
+      var searchVal = (this.$refs.searchInput ? this.$refs.searchInput.value : '').trim();
+      if (searchVal) {
+        var q = searchVal.toLowerCase();
         filters.push({ field: 'name', type: 'function', value: function(val, data) {
           return (data.name || '').toLowerCase().indexOf(q) >= 0 ||
                  (data.display_name || '').toLowerCase().indexOf(q) >= 0 ||
@@ -326,6 +326,12 @@ function combinedRanking() {
       }
 
       this.table.setFilter(filters);
+    },
+
+    onSearchInput: function() {
+      var self = this;
+      clearTimeout(this._searchTimer);
+      this._searchTimer = setTimeout(function() { self.applyFilters(); }, 200);
     }
   };
 }

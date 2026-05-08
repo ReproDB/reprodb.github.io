@@ -9,12 +9,8 @@
 <div class="rdb-controls">
   <div class="rdb-controls-row">
     <div class="rdb-control-group">
-      <label class="rdb-label">Member:</label>
-      <input id="mNameSearch" type="text" placeholder="Search by name…" class="rdb-input">
-    </div>
-    <div class="rdb-control-group">
-      <label class="rdb-label">Affiliation:</label>
-      <input id="mAffSearch" type="text" placeholder="Search by affiliation…" class="rdb-input">
+      <label class="rdb-label">Search:</label>
+      <input id="mSearch" type="text" placeholder="Name or affiliation…" class="rdb-input">
     </div>
   </div>
 </div>
@@ -33,23 +29,20 @@
   var escHtml = ReproDB.escHtml;
   var dash = '\u2013';
 
-  function wireSearchPair(nameId, affId, table) {
+  function wireSearch(inputId, table) {
     var timer = null;
     function onInput() {
       clearTimeout(timer);
       timer = setTimeout(function() {
-        var nq = (document.getElementById(nameId).value || '').toLowerCase().trim();
-        var aq = (document.getElementById(affId).value || '').toLowerCase().trim();
-        if (!nq && !aq) { table.clearFilter(); return; }
+        var q = (document.getElementById(inputId).value || '').toLowerCase().trim();
+        if (!q) { table.clearFilter(); return; }
         table.setFilter(function(data) {
-          if (nq && (data.display_name || data.name || '').toLowerCase().indexOf(nq) === -1) return false;
-          if (aq && (data.affiliation || '').toLowerCase().indexOf(aq) === -1) return false;
-          return true;
+          return (data.display_name || data.name || '').toLowerCase().indexOf(q) >= 0 ||
+                 (data.affiliation || '').toLowerCase().indexOf(q) >= 0;
         });
       }, 200);
     }
-    document.getElementById(nameId).addEventListener('input', onInput);
-    document.getElementById(affId).addEventListener('input', onInput);
+    document.getElementById(inputId).addEventListener('input', onInput);
   }
 
   fetch(DATA_URL).then(function(r) { return r.json(); }).then(function(data) {
@@ -111,7 +104,7 @@
       columns: cols, data: data,
       initialSort: [{ column: '_aeScore', dir: 'desc' }]
     });
-    wireSearchPair('mNameSearch', 'mAffSearch', tbl);
+    wireSearch('mSearch', tbl);
   }).catch(function(e) {
     document.getElementById('memberLoading').innerHTML =
       '<em>Failed to load AE member data. ' + e + '</em>';
