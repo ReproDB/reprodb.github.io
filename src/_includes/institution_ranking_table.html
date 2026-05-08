@@ -44,7 +44,7 @@
       <div class="rdb-control-group">
         <label class="rdb-label">Search:</label>
         <input type="text" placeholder="Filter by institution name..." class="rdb-input"
-               x-model.debounce.400ms="searchText" @input="applyFilters()">
+               x-model="searchText" @input.debounce.400ms="applyFilters()">
       </div>
     </div>
   </div>
