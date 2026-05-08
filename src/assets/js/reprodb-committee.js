@@ -36,6 +36,7 @@
     renderGrowthChart(stats, area);
     renderServiceFrequency(aeMembers, area);
     renderRetention(aeMembers, area);
+    renderMemberFlow(aeMembers, area);
     renderContinents(stats, area);
     renderCountries(stats, area);
     renderInstitutions(stats, area);
@@ -365,6 +366,177 @@
       series: seriesArr
     });
     ReproDB.registerEChart(chart);
+  }
+
+  /* ===== AE Committee Flow (Sankey) ===== */
+  function renderMemberFlow(aeMembers, area) {
+    var el = document.getElementById('memberFlowSankey');
+    if (!el) return;
+
+    // Build per-year sets of members and chairs
+    var yearMembers = {}; // year -> Set of names with role 'member'
+    var yearChairs  = {}; // year -> Set of names with role 'chair'
+
+    aeMembers.forEach(function(m) {
+      if (area !== 'overall') {
+        if (m.area !== area && m.area !== 'both') return;
+      }
+      (m.conferences || []).forEach(function(c) {
+        var y = c.year;
+        if (c.role === 'chair') {
+          if (!yearChairs[y]) yearChairs[y] = {};
+          yearChairs[y][m.name] = true;
+        } else {
+          if (!yearMembers[y]) yearMembers[y] = {};
+          yearMembers[y][m.name] = true;
+        }
+      });
+    });
+
+    var years = Object.keys(yearMembers).concat(Object.keys(yearChairs));
+    var yearSet = {};
+    years.forEach(function(y) { yearSet[y] = true; });
+    years = Object.keys(yearSet).map(Number).sort(function(a, b) { return a - b; });
+
+    if (years.length < 2) return;
+
+    var nodes = [];
+    var links = [];
+    var nodeSet = {};
+
+    function addNode(name, depth) {
+      if (!nodeSet[name]) {
+        nodeSet[name] = true;
+        nodes.push({ name: name, depth: depth });
+      }
+    }
+
+    // Create nodes for each year
+    years.forEach(function(y, i) {
+      addNode(y + ' Members', i);
+      addNode(y + ' Chairs', i);
+      addNode(y + ' New', i);
+    });
+
+    for (var i = 0; i < years.length; i++) {
+      var y = years[i];
+      var currMembers = yearMembers[y] || {};
+      var currChairs  = yearChairs[y]  || {};
+      var currMemberNames = Object.keys(currMembers);
+      var currChairNames  = Object.keys(currChairs);
+
+      if (i === 0) {
+        // First year: all are "new"
+        if (currMemberNames.length > 0) {
+          links.push({ source: y + ' New', target: y + ' Members', value: currMemberNames.length });
+        }
+        if (currChairNames.length > 0) {
+          links.push({ source: y + ' New', target: y + ' Chairs', value: currChairNames.length });
+        }
+        continue;
+      }
+
+      var prevYear = years[i - 1];
+      var prevAll = {};
+      var prevMembers = yearMembers[prevYear] || {};
+      var prevChairs  = yearChairs[prevYear]  || {};
+      Object.keys(prevMembers).forEach(function(n) { prevAll[n] = 'member'; });
+      Object.keys(prevChairs).forEach(function(n)  { prevAll[n] = 'chair'; });
+
+      // Classify current members
+      var memberFromMember = 0, memberFromChair = 0, memberNew = 0;
+      currMemberNames.forEach(function(n) {
+        if (prevAll[n] === 'member') memberFromMember++;
+        else if (prevAll[n] === 'chair') memberFromChair++;
+        else memberNew++;
+      });
+
+      // Classify current chairs
+      var chairFromMember = 0, chairFromChair = 0, chairNew = 0;
+      currChairNames.forEach(function(n) {
+        if (prevAll[n] === 'member') chairFromMember++;
+        else if (prevAll[n] === 'chair') chairFromChair++;
+        else chairNew++;
+      });
+
+      // Links from previous year nodes to current year nodes
+      if (memberFromMember > 0) links.push({ source: prevYear + ' Members', target: y + ' Members', value: memberFromMember });
+      if (memberFromChair > 0)  links.push({ source: prevYear + ' Chairs',  target: y + ' Members', value: memberFromChair });
+      if (chairFromMember > 0)  links.push({ source: prevYear + ' Members', target: y + ' Chairs',  value: chairFromMember });
+      if (chairFromChair > 0)   links.push({ source: prevYear + ' Chairs',  target: y + ' Chairs',  value: chairFromChair });
+
+      // New entrants
+      var totalNew = memberNew + chairNew;
+      if (totalNew > 0) {
+        addNode(y + ' New', i);
+        if (memberNew > 0) links.push({ source: y + ' New', target: y + ' Members', value: memberNew });
+        if (chairNew > 0)  links.push({ source: y + ' New', target: y + ' Chairs',  value: chairNew });
+      }
+    }
+
+    // Color nodes
+    var nodeColors = {};
+    nodes.forEach(function(n) {
+      if (n.name.indexOf('Members') !== -1) nodeColors[n.name] = SYS_COLOR;
+      else if (n.name.indexOf('Chairs') !== -1) nodeColors[n.name] = SEC_COLOR;
+      else nodeColors[n.name] = '#7f8c8d'; // New — grey
+    });
+
+    var chart = ReproDB.initEChart(el);
+
+    function setOption() {
+      var tc = ReproDB.themeColors();
+      chart.setOption({
+        title: {
+          text: 'AE Committee Year-over-Year Flow',
+          subtext: 'How members and chairs transition between consecutive years',
+          left: 'center',
+          textStyle: { fontSize: 14, color: tc.text },
+          subtextStyle: { fontSize: 11, color: tc.textMuted }
+        },
+        tooltip: {
+          trigger: 'item',
+          formatter: function(params) {
+            if (params.dataType === 'edge') {
+              return params.data.source + ' → ' + params.data.target + ': ' + params.data.value;
+            }
+            return params.name + ': ' + params.value;
+          }
+        },
+        series: [{
+          type: 'sankey',
+          layout: 'none',
+          top: 60,
+          bottom: 20,
+          left: 30,
+          right: 30,
+          nodeGap: 12,
+          nodeWidth: 20,
+          emphasis: { focus: 'adjacency' },
+          data: nodes.map(function(n) {
+            return {
+              name: n.name,
+              depth: n.depth,
+              itemStyle: { color: nodeColors[n.name] || '#999' }
+            };
+          }),
+          links: links,
+          lineStyle: { color: 'gradient', opacity: 0.3, curveness: 0.5 },
+          label: {
+            show: true,
+            fontSize: 10,
+            color: tc.text,
+            formatter: function(params) {
+              return params.name;
+            }
+          }
+        }]
+      });
+    }
+
+    setOption();
+    ReproDB.registerEChart(chart);
+    ReproDB.onThemeChange(setOption);
   }
 
   /* ===== Geographic: Continents ===== */

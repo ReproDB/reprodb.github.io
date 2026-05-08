@@ -75,6 +75,16 @@ Year-over-year retention: what fraction of each year's committee served the prev
 
 ---
 
+## AE Committee Flow
+
+How do AE members and chairs flow between years? This Sankey diagram tracks year-over-year transitions: returning members, new recruits, promotions to chair, and departures.
+
+<div class="rdb-chart-wide" style="overflow-x:auto;">
+  <div id="memberFlowSankey" style="width:100%;height:500px"></div>
+</div>
+
+---
+
 ## Geographic Diversity
 
 <div class="rdb-chart-row">
