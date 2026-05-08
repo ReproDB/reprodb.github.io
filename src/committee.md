@@ -77,10 +77,10 @@ Year-over-year retention: what fraction of each year's committee served the prev
 
 ## AE Committee Flow
 
-How do AE members and chairs flow between years? This Sankey diagram tracks year-over-year transitions: returning members, new recruits, promotions to chair, and departures.
+How do AE committee members flow between conferences? This Sankey diagram shows shared members between conference AECs in consecutive years — revealing which conferences share evaluator pools and how members move across venues.
 
 <div class="rdb-chart-wide" style="overflow-x:auto;">
-  <div id="memberFlowSankey" style="width:100%;height:600px;min-width:900px"></div>
+  <div id="memberFlowSankey" style="width:100%;height:700px;min-width:1000px"></div>
 </div>
 
 ---

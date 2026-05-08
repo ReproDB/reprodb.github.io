@@ -369,35 +369,44 @@
   }
 
   /* ===== AE Committee Flow (Sankey) ===== */
+  var CONF_COLORS = {
+    'ATC': '#2563eb', 'OSDI': '#1d4ed8', 'EUROSYS': '#3b82f6',
+    'SOSP': '#60a5fa', 'FAST': '#93c5fd', 'SC': '#7dd3fc',
+    'USENIXSEC': '#dc2626', 'NDSS': '#ef4444', 'ACSAC': '#f87171',
+    'CHES': '#fb923c', 'PETS': '#f97316', 'WOOT': '#fdba74',
+    'SYSTEX': '#a78bfa', 'VEHICLESEC': '#c084fc', 'CAIS': '#e9d5ff'
+  };
+
+  function confColor(name) {
+    return CONF_COLORS[name] || '#6b7280';
+  }
+
   function renderMemberFlow(aeMembers, area) {
     var el = document.getElementById('memberFlowSankey');
     if (!el) return;
 
-    // Build per-year sets of members and chairs
-    var yearMembers = {}; // year -> { name: true }
-    var yearChairs  = {}; // year -> { name: true }
+    // Build per-conference-year membership sets
+    var confYear = {}; // "CONF|YEAR" -> { name: true }
+    var confAreas = {}; // CONF -> area
 
     aeMembers.forEach(function(m) {
       if (area !== 'overall') {
         if (m.area !== area && m.area !== 'both') return;
       }
       (m.conferences || []).forEach(function(c) {
-        var y = c.year;
-        if (c.role === 'chair') {
-          if (!yearChairs[y]) yearChairs[y] = {};
-          yearChairs[y][m.name] = true;
-        } else {
-          if (!yearMembers[y]) yearMembers[y] = {};
-          yearMembers[y][m.name] = true;
-        }
+        var key = c.conference + '|' + c.year;
+        if (!confYear[key]) confYear[key] = {};
+        confYear[key][m.name] = true;
+        confAreas[c.conference] = m.area;
       });
     });
 
-    var years = Object.keys(yearMembers).concat(Object.keys(yearChairs));
+    // Collect years
     var yearSet = {};
-    years.forEach(function(y) { yearSet[y] = true; });
-    years = Object.keys(yearSet).map(Number).sort(function(a, b) { return a - b; });
-
+    Object.keys(confYear).forEach(function(k) {
+      yearSet[k.split('|')[1]] = true;
+    });
+    var years = Object.keys(yearSet).map(Number).sort(function(a, b) { return a - b; });
     if (years.length < 2) return;
 
     var nodes = [];
@@ -411,81 +420,53 @@
       }
     }
 
-    // Use staggered depths: "New" at i*2, Members/Chairs at i*2+1
-    // This ensures links always flow left-to-right.
-    years.forEach(function(y, i) {
-      addNode(y + ' New', i * 2);
-      addNode(y + ' Members', i * 2 + 1);
-      addNode(y + ' Chairs', i * 2 + 1);
+    // Create a node per conference-year
+    var MIN_SIZE = 5; // skip tiny committees
+    Object.keys(confYear).forEach(function(key) {
+      var parts = key.split('|');
+      var conf = parts[0], yr = Number(parts[1]);
+      if (Object.keys(confYear[key]).length < MIN_SIZE) return;
+      var depth = years.indexOf(yr);
+      var label = conf + ' ' + yr;
+      addNode(label, depth);
     });
 
-    for (var i = 0; i < years.length; i++) {
-      var y = years[i];
-      var currMembers = yearMembers[y] || {};
-      var currChairs  = yearChairs[y]  || {};
-      var currMemberNames = Object.keys(currMembers);
-      var currChairNames  = Object.keys(currChairs);
-
-      if (i === 0) {
-        // First year: all are "new"
-        if (currMemberNames.length > 0) {
-          links.push({ source: y + ' New', target: y + ' Members', value: currMemberNames.length });
-        }
-        if (currChairNames.length > 0) {
-          links.push({ source: y + ' New', target: y + ' Chairs', value: currChairNames.length });
-        }
-        continue;
-      }
-
-      var prevYear = years[i - 1];
-      var prevAll = {};
-      var prevMembers = yearMembers[prevYear] || {};
-      var prevChairs  = yearChairs[prevYear]  || {};
-      Object.keys(prevMembers).forEach(function(n) { prevAll[n] = 'member'; });
-      Object.keys(prevChairs).forEach(function(n)  { prevAll[n] = 'chair'; });
-
-      // Classify current members
-      var memberFromMember = 0, memberFromChair = 0, memberNew = 0;
-      currMemberNames.forEach(function(n) {
-        if (prevAll[n] === 'member') memberFromMember++;
-        else if (prevAll[n] === 'chair') memberFromChair++;
-        else memberNew++;
+    // Build links between consecutive years
+    for (var i = 0; i < years.length - 1; i++) {
+      var y1 = years[i], y2 = years[i + 1];
+      // Find all conferences in both years
+      var confs1 = [], confs2 = [];
+      Object.keys(confYear).forEach(function(key) {
+        var parts = key.split('|');
+        if (Number(parts[1]) === y1 && Object.keys(confYear[key]).length >= MIN_SIZE) confs1.push(parts[0]);
+        if (Number(parts[1]) === y2 && Object.keys(confYear[key]).length >= MIN_SIZE) confs2.push(parts[0]);
       });
 
-      // Classify current chairs
-      var chairFromMember = 0, chairFromChair = 0, chairNew = 0;
-      currChairNames.forEach(function(n) {
-        if (prevAll[n] === 'member') chairFromMember++;
-        else if (prevAll[n] === 'chair') chairFromChair++;
-        else chairNew++;
+      confs1.forEach(function(c1) {
+        var members1 = confYear[c1 + '|' + y1] || {};
+        confs2.forEach(function(c2) {
+          var members2 = confYear[c2 + '|' + y2] || {};
+          var shared = 0;
+          Object.keys(members1).forEach(function(n) {
+            if (members2[n]) shared++;
+          });
+          if (shared >= 2) {
+            links.push({
+              source: c1 + ' ' + y1,
+              target: c2 + ' ' + y2,
+              value: shared
+            });
+          }
+        });
       });
-
-      // Links from previous year's role nodes to current year's role nodes
-      if (memberFromMember > 0) links.push({ source: prevYear + ' Members', target: y + ' Members', value: memberFromMember });
-      if (memberFromChair > 0)  links.push({ source: prevYear + ' Chairs',  target: y + ' Members', value: memberFromChair });
-      if (chairFromMember > 0)  links.push({ source: prevYear + ' Members', target: y + ' Chairs',  value: chairFromMember });
-      if (chairFromChair > 0)   links.push({ source: prevYear + ' Chairs',  target: y + ' Chairs',  value: chairFromChair });
-
-      // New entrants flow through the "New" node at this year
-      var totalNew = memberNew + chairNew;
-      if (totalNew > 0) {
-        if (memberNew > 0) links.push({ source: y + ' New', target: y + ' Members', value: memberNew });
-        if (chairNew > 0)  links.push({ source: y + ' New', target: y + ' Chairs',  value: chairNew });
-      }
     }
 
-    // Color nodes
-    var nodeColors = {};
-    nodes.forEach(function(n) {
-      if (n.name.indexOf('Members') !== -1) nodeColors[n.name] = SYS_COLOR;
-      else if (n.name.indexOf('Chairs') !== -1) nodeColors[n.name] = SEC_COLOR;
-      else nodeColors[n.name] = '#7f8c8d'; // New — grey
-    });
-
-    // Remove "New" nodes that have no links (no new entrants)
+    // Prune nodes with no links
     var linkedNodes = {};
     links.forEach(function(l) { linkedNodes[l.source] = true; linkedNodes[l.target] = true; });
     nodes = nodes.filter(function(n) { return linkedNodes[n.name]; });
+
+    if (nodes.length === 0 || links.length === 0) return;
 
     var chart = ReproDB.initEChart(el);
 
@@ -493,8 +474,8 @@
       var tc = ReproDB.themeColors();
       chart.setOption({
         title: {
-          text: 'AE Committee Year-over-Year Flow',
-          subtext: 'How members and chairs transition between consecutive years',
+          text: 'AE Committee Flow Across Conferences',
+          subtext: 'Shared members between conference AECs in consecutive years (min. 2 shared)',
           left: 'center',
           textStyle: { fontSize: 14, color: tc.text },
           subtextStyle: { fontSize: 11, color: tc.textMuted }
@@ -503,36 +484,34 @@
           trigger: 'item',
           formatter: function(params) {
             if (params.dataType === 'edge') {
-              return params.data.source + ' \u2192 ' + params.data.target + ': ' + params.data.value;
+              return params.data.source + ' \u2192 ' + params.data.target + '<br/>' + params.data.value + ' shared members';
             }
-            return params.name + ': ' + params.value;
+            return params.name + '<br/>' + params.value + ' members linked';
           }
         },
         series: [{
           type: 'sankey',
           top: 60,
           bottom: 20,
-          left: 30,
-          right: 30,
-          nodeGap: 12,
-          nodeWidth: 20,
+          left: 60,
+          right: 60,
+          nodeGap: 14,
+          nodeWidth: 18,
           emphasis: { focus: 'adjacency' },
           data: nodes.map(function(n) {
+            var conf = n.name.split(' ')[0];
             return {
               name: n.name,
               depth: n.depth,
-              itemStyle: { color: nodeColors[n.name] || '#999' }
+              itemStyle: { color: confColor(conf) }
             };
           }),
           links: links,
-          lineStyle: { color: 'gradient', opacity: 0.3, curveness: 0.5 },
+          lineStyle: { color: 'source', opacity: 0.25, curveness: 0.5 },
           label: {
             show: true,
             fontSize: 10,
-            color: tc.text,
-            formatter: function(params) {
-              return params.name;
-            }
+            color: tc.text
           }
         }]
       });
