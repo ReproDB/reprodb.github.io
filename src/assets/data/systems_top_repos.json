@@ -540,6 +540,21 @@
     "area": "systems"
   },
   {
+    "title": "Empowering WebAssembly with Thin Kernel Interfaces",
+    "url": "https://github.com/arjunr2/WALI",
+    "year": 2025,
+    "stars": 187,
+    "forks": 20,
+    "authors": "Arjun Ramesh, Tianshu Huang, Ben L. Titzer, Anthony Rowe 0001",
+    "github_org": "arjunr2",
+    "badges": "available,functional,reproduced",
+    "last_active": "2026-04",
+    "description": "A low-level virtualization interface for Linux-based systems using WebAssembly",
+    "language": "C",
+    "conference": "EUROSYS",
+    "area": "systems"
+  },
+  {
     "title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management",
     "url": "https://github.com/snu-comparch/InfiniGen",
     "year": 2024,
@@ -597,6 +612,21 @@
     "description": "SplitFS: persistent-memory file system that reduces software overhead (SOSP 2019)",
     "language": "C",
     "conference": "SOSP",
+    "area": "systems"
+  },
+  {
+    "title": "MariusGNN: Resource-Efficient Out-of-Core Training of Graph Neural Networks",
+    "url": "https://github.com/marius-team/marius",
+    "year": 2023,
+    "stars": 167,
+    "forks": 47,
+    "authors": "",
+    "github_org": "marius-team",
+    "badges": "",
+    "last_active": "2025-02",
+    "description": "Large scale graph learning on a single machine. ",
+    "language": "C++",
+    "conference": "EUROSYS",
     "area": "systems"
   },
   {
@@ -660,6 +690,21 @@
     "area": "systems"
   },
   {
+    "title": "Dissecting BFT Consensus: In Trusted Components we Trust!",
+    "url": "https://github.com/resilientdb/resilientdb",
+    "year": 2023,
+    "stars": 166,
+    "forks": 274,
+    "authors": "",
+    "github_org": "resilientdb",
+    "badges": "",
+    "last_active": "2026-04",
+    "description": "Global-Scale Sustainable Blockchain Fabric",
+    "language": "TypeScript",
+    "conference": "EUROSYS",
+    "area": "systems"
+  },
+  {
     "title": "Anvil: Verifying Liveness of Cluster Management Controllers",
     "url": "https://github.com/vmware-research/verifiable-controllers",
     "year": 2024,
@@ -702,51 +747,6 @@
     "description": "VectorVisor is a vectorizing binary translator for GPUs, designed to make it easy to run many copies of a single-threade",
     "language": "WebAssembly",
     "conference": "ATC",
-    "area": "systems"
-  },
-  {
-    "title": "DZiG: Sparsity-Aware Incremental Processing of Streaming Graphs",
-    "url": "https://github.com/pdclab/graphbolt/tree/eurosys21-artifact",
-    "year": 2021,
-    "stars": 149,
-    "forks": 25,
-    "authors": "",
-    "github_org": "pdclab",
-    "badges": "",
-    "last_active": "2021-05",
-    "description": "GraphBolt: Dependency-Driven Synchronous Processing of Streaming Graphs ",
-    "language": "C++",
-    "conference": "EUROSYS",
-    "area": "systems"
-  },
-  {
-    "title": "FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs",
-    "url": "https://github.com/carlzhang4/FPGANic",
-    "year": 2022,
-    "stars": 143,
-    "forks": 19,
-    "authors": "",
-    "github_org": "carlzhang4",
-    "badges": "",
-    "last_active": "2023-08",
-    "description": "FpgaNIC is an FPGA-based Versatile 100Gb SmartNIC for GPUs [ATC 22]",
-    "language": "TeX",
-    "conference": "ATC",
-    "area": "systems"
-  },
-  {
-    "title": "FIFO Queues are All You Need for Cache Eviction",
-    "url": "https://github.com/Thesys-lab/sosp23-s3fifo",
-    "year": 2023,
-    "stars": 139,
-    "forks": 18,
-    "authors": "",
-    "github_org": "Thesys-lab",
-    "badges": "",
-    "last_active": "2024-06",
-    "description": "The repo for SOSP23 paper: FIFO queues are all you need for cache evictions",
-    "language": "C",
-    "conference": "SOSP",
     "area": "systems"
   }
 ]
