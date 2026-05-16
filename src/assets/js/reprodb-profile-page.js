@@ -10,7 +10,7 @@
 
   // State
   var allProfiles = [], profileMap = {}, idMap = {};
-  var citedArtifactsMap = {}, artifactUrlMap = {}, paperIndex = {};
+  var citedArtifactsMap = {}, artifactUrlMap = {}, artifactByPaperId = {}, paperIndex = {};
   var authorRankHistory = [], urlAccessible = {}, availCheckedAt = '';
   var allInstitutions = [], instMap = {}, instHistory = [];
 
@@ -56,6 +56,11 @@
     return (p.papers || []).slice();
   }
 
+  function getArtifactUrl(paper) {
+    if (paper.id && artifactByPaperId[paper.id]) return artifactByPaperId[paper.id];
+    return artifactUrlMap[normalizeTitle(paper.title)] || '';
+  }
+
   // === AUTHOR ============================================================
 
   function renderAuthorProfile(p) {
@@ -96,7 +101,7 @@
         columns: [
           { title: '#', formatter: 'rownum', width: 50, headerSort: false },
           { title: 'Title', field: 'title', formatter: function(cell) {
-            var d = cell.getData(), t = normalizeTitle(d.title), u = artifactUrlMap[t] || '';
+            var d = cell.getData(), u = getArtifactUrl(d);
             return (u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(u);
           }, headerSort: false },
           { title: 'Conference', field: 'conference' },
@@ -260,10 +265,9 @@
     // Artifacts table
     var paperMap = {};
     affProfiles.forEach(function(p) {
-      (p.papers || []).forEach(function(paper) {
+      getPapers(p).forEach(function(paper) {
         if (!paperMap[paper.title]) {
-          var t = normalizeTitle(paper.title);
-          paperMap[paper.title] = { title: paper.title, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: artifactUrlMap[t] || '' };
+          paperMap[paper.title] = { title: paper.title, id: paper.id, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: getArtifactUrl(paper) };
         }
         paperMap[paper.title].authors.push(p.name);
       });
@@ -463,6 +467,7 @@
       var urls = a.artifact_urls || [];
       var u = urls.length ? urls[0] : (a.artifact_url || a.repository_url || '');
       if (a.title && u) artifactUrlMap[normalizeTitle(a.title)] = normalizeUrl(u);
+      if (a.paper_id && u) artifactByPaperId[a.paper_id] = normalizeUrl(u);
     });
 
     // Build paper index
