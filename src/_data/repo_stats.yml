@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1622
-  total_stars: 158937
-  total_forks: 23007
+  github_repos: 1623
+  total_stars: 158959
+  total_forks: 23014
   max_stars: 14349
   max_forks: 2196
   zenodo_repos: 919
   total_views: 250423
   total_downloads: 202965
-  avg_stars: 98.0
+  avg_stars: 97.9
   avg_forks: 14.2
-  median_stars: 7.0
-  median_forks: 1.0
+  median_stars: 7
+  median_forks: 1
   p25_stars: 1.0
   p75_stars: 26.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-05-10 13:50:14 UTC
+  last_updated: 2026-05-16 00:21:16 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -414,32 +414,32 @@ by_conference:
     - functional
     - reproduced
 - name: EUROSYS
-  github_repos: 126
-  total_stars: 3926
-  total_forks: 928
-  avg_stars: 31.2
+  github_repos: 127
+  total_stars: 3948
+  total_forks: 935
+  avg_stars: 31.1
   avg_forks: 7.4
-  median_stars: 7.0
-  median_forks: 2.0
+  median_stars: 7
+  median_forks: 2
   p25_stars: 2.0
-  p75_stars: 22.2
+  p75_stars: 22.0
   p25_forks: 0.0
-  p75_forks: 5.2
+  p75_forks: 6.0
   max_stars: 596
   max_forks: 274
   years:
   - year: 2021
-    github_repos: 21
-    total_stars: 1008
-    total_forks: 150
-    avg_stars: 48.0
+    github_repos: 22
+    total_stars: 1030
+    total_forks: 157
+    avg_stars: 46.8
     avg_forks: 7.1
-    median_stars: 6
-    median_forks: 2
+    median_stars: 9.0
+    median_forks: 3.0
     p25_stars: 4.0
-    p75_stars: 32.0
+    p75_stars: 30.5
     p25_forks: 0.0
-    p75_forks: 7.5
+    p75_forks: 7.2
   - year: 2022
     github_repos: 39
     total_stars: 1667
@@ -1855,17 +1855,17 @@ by_year:
   max_stars: 14349
   max_forks: 1854
 - year: 2021
-  github_repos: 137
-  total_stars: 19504
-  total_forks: 1755
-  avg_stars: 142.4
+  github_repos: 138
+  total_stars: 19526
+  total_forks: 1762
+  avg_stars: 141.5
   avg_forks: 12.8
-  median_stars: 13
-  median_forks: 4
+  median_stars: 13.0
+  median_forks: 4.0
   p25_stars: 5.0
   p75_stars: 34.0
   p25_forks: 1.0
-  p75_forks: 8.5
+  p75_forks: 8.2
   max_stars: 12895
   max_forks: 641
 - year: 2022
@@ -1940,13 +1940,13 @@ by_year:
   max_forks: 181
 by_area:
 - name: systems
-  github_repos: 482
-  total_stars: 71778
-  total_forks: 10231
-  median_stars: 15.5
-  median_forks: 3.0
+  github_repos: 483
+  total_stars: 71800
+  total_forks: 10238
+  median_stars: 16
+  median_forks: 3
   p25_stars: 5.0
-  p75_stars: 45.2
+  p75_stars: 45.0
   p25_forks: 1.0
   p75_forks: 8.0
   max_stars: 14349

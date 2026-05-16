@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-05-10 13:51:36 UTC",
+    "checked_at": "2026-05-16 00:22:44 UTC",
     "total_urls": 2562,
-    "accessible_urls": 2479,
+    "accessible_urls": 2480,
     "accessibility_pct": 96.8,
     "by_platform": {
       "Bitbucket": {
@@ -22,7 +22,7 @@
       },
       "GitHub": {
         "total": 1291,
-        "accessible": 1257,
+        "accessible": 1258,
         "pct": 97.4
       },
       "GitLab": {
@@ -49,8 +49,8 @@
       },
       "systems": {
         "total": 525,
-        "accessible": 502,
-        "pct": 95.6
+        "accessible": 503,
+        "pct": 95.8
       }
     },
     "by_year": {
@@ -76,8 +76,8 @@
       },
       "2021": {
         "total": 144,
-        "accessible": 138,
-        "pct": 95.8
+        "accessible": 139,
+        "pct": 96.5
       },
       "2022": {
         "total": 376,
@@ -147,8 +147,8 @@
         },
         "systems": {
           "total": 47,
-          "accessible": 46,
-          "pct": 97.9
+          "accessible": 47,
+          "pct": 100.0
         }
       },
       "2022": {
@@ -294,8 +294,8 @@
       "2021": {
         "GitHub": {
           "total": 101,
-          "accessible": 99,
-          "pct": 98.0
+          "accessible": 100,
+          "pct": 99.0
         },
         "GitLab": {
           "total": 1,
@@ -502,8 +502,8 @@
       },
       "EUROSYS": {
         "total": 192,
-        "accessible": 189,
-        "pct": 98.4
+        "accessible": 190,
+        "pct": 99.0
       },
       "NDSS": {
         "total": 209,
@@ -2011,7 +2011,7 @@
       "url_key": "repository_url",
       "url": "https://github.com/zhen-xie/Tahoe",
       "platform": "GitHub",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",

@@ -15,7 +15,7 @@
     "avg_chairs_per_edition_systems": 2.6,
     "avg_chairs_per_edition_security": 1.7,
     "total_countries": 16,
-    "total_continents": 3,
+    "total_continents": 4,
     "year_trends": [
       {
         "year": 2017,
@@ -1331,7 +1331,7 @@
   "cross_conference": [
     {
       "name": "Anjo Vahldiek-Oberwagner",
-      "affiliation": "Intel",
+      "affiliation": "Intel Labs",
       "series": [
         "EUROSYS",
         "OSDI",
@@ -1351,7 +1351,7 @@
     },
     {
       "name": "Jianyu Jiang",
-      "affiliation": "Huawei",
+      "affiliation": "Huawei Technologies Co.",
       "series": [
         "ATC",
         "OSDI"
@@ -1369,7 +1369,7 @@
     },
     {
       "name": "Cristiano Giuffrida",
-      "affiliation": "Vrije Universiteit Amsterdam",
+      "affiliation": "VU Amsterdam",
       "series": [
         "EUROSYS",
         "USENIXSEC"
@@ -1451,30 +1451,31 @@
   ],
   "geographic": {
     "total_countries": 16,
-    "total_continents": 3,
+    "total_continents": 4,
     "by_country": {
       "United States": 39,
       "China": 6,
-      "Switzerland": 6,
-      "Belgium": 5,
-      "France": 4,
+      "Switzerland": 5,
+      "Germany": 5,
+      "Netherlands": 4,
       "United Kingdom": 4,
-      "Netherlands": 3,
-      "Germany": 3,
+      "Belgium": 4,
       "Spain": 3,
+      "France": 2,
       "Austria": 2,
       "Italy": 2,
-      "Japan": 1,
       "Canada": 1,
-      "Finland": 1,
+      "Australia": 1,
+      "Singapore": 1,
       "Portugal": 1,
       "Sweden": 1
     },
     "by_continent": {
       "North America": 40,
-      "Europe": 35,
-      "Asia": 7
+      "Europe": 33,
+      "Asia": 7,
+      "Oceania": 1
     },
-    "unclassified_count": 0
+    "unclassified_count": 1
   }
 }
