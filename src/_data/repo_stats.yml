@@ -4,9 +4,9 @@ overall:
   total_forks: 23014
   max_stars: 14349
   max_forks: 2196
-  zenodo_repos: 919
-  total_views: 250423
-  total_downloads: 202965
+  zenodo_repos: 885
+  total_views: 241559
+  total_downloads: 201857
   avg_stars: 97.9
   avg_forks: 14.2
   median_stars: 7
@@ -15,7 +15,7 @@ overall:
   p75_stars: 26.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-05-17 13:59:41 UTC
+  last_updated: 2026-05-17 17:49:45 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -244,10 +244,10 @@ by_conference:
   total_forks: 837
   avg_stars: 43.9
   avg_forks: 7.6
-  median_stars: 9.5
+  median_stars: 9.0
   median_forks: 1.0
   p25_stars: 3.0
-  p75_stars: 27.2
+  p75_stars: 27.0
   p25_forks: 1.0
   p75_forks: 5.0
   max_stars: 1652
@@ -414,17 +414,17 @@ by_conference:
     - functional
     - reproduced
 - name: EUROSYS
-  github_repos: 127
-  total_stars: 3948
-  total_forks: 935
-  avg_stars: 31.1
-  avg_forks: 7.4
+  github_repos: 128
+  total_stars: 4115
+  total_forks: 982
+  avg_stars: 32.1
+  avg_forks: 7.7
   median_stars: 7
   median_forks: 2
   p25_stars: 2.0
   p75_stars: 22.0
   p25_forks: 0.0
-  p75_forks: 6.0
+  p75_forks: 5.0
   max_stars: 596
   max_forks: 274
   years:
@@ -453,17 +453,17 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 7.0
   - year: 2023
-    github_repos: 17
-    total_stars: 288
-    total_forks: 300
-    avg_stars: 16.9
-    avg_forks: 17.6
-    median_stars: 5
-    median_forks: 1
+    github_repos: 18
+    total_stars: 455
+    total_forks: 347
+    avg_stars: 25.3
+    avg_forks: 19.3
+    median_stars: 5.5
+    median_forks: 1.0
     p25_stars: 1.0
-    p75_stars: 14.5
+    p75_stars: 17.2
     p25_forks: 0.0
-    p75_forks: 3.5
+    p75_forks: 4.0
   - year: 2024
     github_repos: 14
     total_stars: 215
@@ -667,10 +667,10 @@ by_conference:
     language: C++
     name: autowarefoundation/autoware_universe
     pushed_at: '2026-04-28T06:11:10Z'
-    badges:
+    badges: &id001
     - available
     - functional
-    authors:
+    authors: &id002
     - Shuguang Wang
     - Qian Zhou
     - Kui Wu 0001
@@ -678,6 +678,20 @@ by_conference:
     - Dapeng Wu 0001
     - Wei-Bin Lee
     - Jianping Wang 0001
+  - title: Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception
+      Systems
+    url: https://github.com/autowarefoundation/autoware.universe
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 1606
+    forks: 887
+    description: ''
+    language: C++
+    name: autowarefoundation/autoware_universe
+    pushed_at: '2026-04-28T06:11:10Z'
+    badges: *id001
+    authors: *id002
   - title: 'Corpus Christi: Establishing Replicability when Sharing the Bread is Not
       Allowed'
     url: https://github.com/fkie-cad/FACT_core
@@ -690,10 +704,23 @@ by_conference:
     language: Python
     name: fkie-cad/FACT_core
     pushed_at: '2026-04-28T15:45:11Z'
-    badges:
+    badges: &id003
     - available
     - functional
     - reproduced
+  - title: 'Corpus Christi: Establishing Replicability when Sharing the Bread is Not
+      Allowed'
+    url: https://github.com/fkie-cad/FACT_core
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 1441
+    forks: 249
+    description: Firmware Analysis and Comparison Tool
+    language: Python
+    name: fkie-cad/FACT_core
+    pushed_at: '2026-04-28T15:45:11Z'
+    badges: *id003
   - title: A Deep Dive into Function Inlining and its Security Implications for ML-based
       Binary Analysis
     url: https://github.com/Cisco-Talos/binary_function_similarity
@@ -709,63 +736,16 @@ by_conference:
     badges:
     - available
     - functional
-  - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
-      on IoT Devices'
-    url: https://github.com/IoTAccessControl/MCU-Token
-    conference: NDSS
-    year: 2024
-    area: security
-    stars: 157
-    forks: 90
-    description: A secure IoT authentication framework based on hardware fingerprinting
-    language: C
-    name: IoTAccessControl/MCU-Token
-    pushed_at: '2025-03-01T13:16:21Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Yue Xiao
-    - Yi He 0020
-    - Xiaoli Zhang 0003
-    - Qian Wang 0002
-    - Renjie Xie
-    - Kun Sun 0001
-    - Ke Xu 0002
-    - Qi Li 0002
-  - title: '5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service'
-    url: https://github.com/5GSEC/5G-Spector
-    conference: NDSS
-    year: 2024
-    area: security
-    stars: 56
-    forks: 14
-    description: An O-RAN compliant runtime intrusion detection system (xApp) for
-      layer-3 (L3) celluar attack detection
-    language: ''
-    name: 5GSEC/5G-Spector
-    pushed_at: '2024-11-04T19:27:54Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Haohuang Wen
-    - Phillip A. Porras
-    - Vinod Yegneswaran
-    - Ashish Gehani
-    - Zhiqiang Lin 0001
 - name: OSDI
   github_repos: 135
   total_stars: 38955
   total_forks: 4807
   avg_stars: 288.6
   avg_forks: 35.6
-  median_stars: 30.5
-  median_forks: 5.0
+  median_stars: 31
+  median_forks: 5
   p25_stars: 9.0
-  p75_stars: 74.5
+  p75_stars: 73.0
   p25_forks: 1.0
   p75_forks: 12.0
   max_stars: 14349
@@ -951,8 +931,8 @@ by_conference:
   total_forks: 1667
   avg_stars: 63.5
   avg_forks: 5.7
-  median_stars: 1
-  median_forks: 0
+  median_stars: 1.0
+  median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 5.0
   p25_forks: 0.0
@@ -1421,10 +1401,10 @@ by_conference:
   avg_forks: 19.5
   median_stars: 12
   median_forks: 2
-  p25_stars: 4.0
-  p75_stars: 38.0
-  p25_forks: 1.0
-  p75_forks: 7.0
+  p25_stars: 3.0
+  p75_stars: 41.0
+  p25_forks: 0.0
+  p75_forks: 8.0
   max_stars: 12867
   max_forks: 2196
   years:
@@ -1489,29 +1469,29 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 3.0
   - year: 2025
-    github_repos: 104
-    total_stars: 26354
-    total_forks: 4278
-    avg_stars: 253.4
-    avg_forks: 41.1
+    github_repos: 106
+    total_stars: 26614
+    total_forks: 4340
+    avg_stars: 251.1
+    avg_forks: 40.9
     median_stars: 10.0
     median_forks: 2.0
     p25_stars: 3.0
-    p75_stars: 73.0
+    p75_stars: 80.5
     p25_forks: 0.0
-    p75_forks: 13.5
+    p75_forks: 14.2
   - year: 2026
-    github_repos: 32
-    total_stars: 3573
-    total_forks: 587
-    avg_stars: 111.7
-    avg_forks: 18.3
-    median_stars: 2.0
-    median_forks: 0.0
+    github_repos: 33
+    total_stars: 3575
+    total_forks: 590
+    avg_stars: 108.3
+    avg_forks: 17.9
+    median_stars: 2
+    median_forks: 0
     p25_stars: 0.0
-    p75_stars: 64.5
+    p75_stars: 60.0
     p25_forks: 0.0
-    p75_forks: 7.8
+    p75_forks: 7.5
   top_repos:
   - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
       Penetration Testing'
@@ -1526,11 +1506,11 @@ by_conference:
     language: Python
     name: GreyDGL/PentestGPT
     pushed_at: '2026-02-23T15:48:40Z'
-    badges:
+    badges: &id004
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors:
+    authors: &id005
     - Gelei Deng
     - Yi Liu 0069
     - Víctor Mayoral Vilches
@@ -1541,6 +1521,21 @@ by_conference:
     - Stefan Rass
     - Tianwei Zhang 0004
     - Yang Liu 0003
+  - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
+      Penetration Testing'
+    url: https://github.com/GreyDGL/PentestGPT
+    conference: USENIXSEC
+    year: 2024
+    area: security
+    stars: 12867
+    forks: 2196
+    description: Automated Penetration Testing Agentic Framework Powered by Large
+      Language Models
+    language: Python
+    name: GreyDGL/PentestGPT
+    pushed_at: '2026-02-23T15:48:40Z'
+    badges: *id004
+    authors: *id005
   - title: 'PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs'
     url: https://github.com/llm-attacks/llm-attacks
     conference: USENIXSEC
@@ -1552,9 +1547,9 @@ by_conference:
     language: Python
     name: llm-attacks/llm-attacks
     pushed_at: '2024-08-02T06:02:18Z'
-    badges:
+    badges: &id006
     - 'Badges: Available'
-    authors:
+    authors: &id007
     - Xueluan Gong
     - Mingzhe Li
     - Yilin Zhang
@@ -1563,6 +1558,19 @@ by_conference:
     - Yanjiao Chen
     - Qian Wang 0002
     - Kwok-Yan Lam
+  - title: 'PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs'
+    url: https://github.com/llm-attacks/llm-attacks
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 4638
+    forks: 617
+    description: Universal and Transferable Attacks on Aligned Language Models
+    language: Python
+    name: llm-attacks/llm-attacks
+    pushed_at: '2024-08-02T06:02:18Z'
+    badges: *id006
+    authors: *id007
   - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
     url: https://github.com/richzhang/PerceptualSimilarity
     conference: USENIXSEC
@@ -1581,61 +1589,18 @@ by_conference:
     authors:
     - Junhua Lin
     - Marc Juarez
-  - title: 'Breaking the Layer Barrier: Remodeling Private Transformer Inference with
-      Hybrid CKKS and MPC'
-    url: https://github.com/microsoft/SEAL
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 3968
-    forks: 766
-    description: Microsoft SEAL is an easy-to-use and powerful homomorphic encryption
-      library.
-    language: C++
-    name: microsoft/SEAL
-    pushed_at: '2026-04-28T18:46:29Z'
-    badges:
-    - 'Badges: Available'
-    authors:
-    - Tianshi Xu
-    - Wen-jie Lu
-    - Jiangrui Yu
-    - Yi Chen
-    - Chenqi Lin
-    - Runsheng Wang
-    - Meng Li 0004
-  - title: Lets Move2EVM
-    url: https://github.com/move-language/move
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 2339
-    forks: 700
-    description: ''
-    language: Rust
-    name: move-language/move
-    pushed_at: '2024-05-04T21:17:51Z'
-    badges:
-    - 'Badges: Available'
-    - Functional
-    - Reproduced
-    authors:
-    - Lorenzo Benetollo
-    - Andreas Lackner
-    - Matteo Maffei
-    - Markus Scherer
 - name: WOOT
   github_repos: 31
   total_stars: 16219
   total_forks: 1303
   avg_stars: 523.2
   avg_forks: 42.0
-  median_stars: 10
+  median_stars: 14
   median_forks: 1
   p25_stars: 1.0
-  p75_stars: 36.0
+  p75_stars: 54.0
   p25_forks: 0.0
-  p75_forks: 8.0
+  p75_forks: 10.0
   max_stars: 12381
   max_forks: 997
   years:
@@ -1739,12 +1704,25 @@ by_conference:
     language: C
     name: endrazine/wcc
     pushed_at: '2026-04-25T10:18:02Z'
-    badges:
+    badges: &id008
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors:
+    authors: &id009
     - Jonathan Brossard
+  - title: Introduction to Procedural Debugging through Binary Libification
+    url: https://github.com/endrazine/wcc
+    conference: WOOT
+    year: 2024
+    area: security
+    stars: 1987
+    forks: 115
+    description: The Witchcraft Compiler Collection
+    language: C
+    name: endrazine/wcc
+    pushed_at: '2026-04-25T10:18:02Z'
+    badges: *id008
+    authors: *id009
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -1780,23 +1758,6 @@ by_conference:
     pushed_at: '2023-03-13T16:54:52Z'
     badges:
     - ORO
-  - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
-    url: https://github.com/fgsect/unicorefuzz
-    conference: WOOT
-    year: 2019
-    area: security
-    stars: 305
-    forks: 33
-    description: Fuzzing the Kernel Using Unicornafl and AFL++
-    language: Python
-    name: fgsect/unicorefuzz
-    pushed_at: '2023-01-02T18:12:54Z'
-    badges:
-    - Artifact Evaluated
-    authors:
-    - Dominik Christian Maier
-    - Benedikt Radtke
-    - Bastian Harren
 by_year:
 - year: 2017
   github_repos: 5
@@ -1883,15 +1844,15 @@ by_year:
   max_stars: 14349
   max_forks: 1854
 - year: 2023
-  github_repos: 299
-  total_stars: 12480
-  total_forks: 2387
-  avg_stars: 41.7
-  avg_forks: 8.0
-  median_stars: 10
-  median_forks: 2
+  github_repos: 300
+  total_stars: 12647
+  total_forks: 2434
+  avg_stars: 42.2
+  avg_forks: 8.1
+  median_stars: 10.0
+  median_forks: 2.0
   p25_stars: 3.0
-  p75_stars: 33.0
+  p75_stars: 33.8
   p25_forks: 0.0
   p75_forks: 5.0
   max_stars: 1652
@@ -1911,27 +1872,27 @@ by_year:
   max_stars: 12867
   max_forks: 2196
 - year: 2025
-  github_repos: 314
-  total_stars: 31536
-  total_forks: 5752
-  avg_stars: 100.4
-  avg_forks: 18.3
+  github_repos: 316
+  total_stars: 31796
+  total_forks: 5814
+  avg_stars: 100.6
+  avg_forks: 18.4
   median_stars: 2.0
   median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 11.0
   p25_forks: 0.0
-  p75_forks: 2.2
+  p75_forks: 2.8
   max_stars: 4638
   max_forks: 887
 - year: 2026
-  github_repos: 103
-  total_stars: 4094
-  total_forks: 657
-  avg_stars: 39.7
-  avg_forks: 6.4
-  median_stars: 1
-  median_forks: 0
+  github_repos: 104
+  total_stars: 4096
+  total_forks: 660
+  avg_stars: 39.4
+  avg_forks: 6.3
+  median_stars: 1.0
+  median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 4.0
   p25_forks: 0.0
@@ -1940,24 +1901,24 @@ by_year:
   max_forks: 181
 by_area:
 - name: systems
-  github_repos: 483
-  total_stars: 71800
-  total_forks: 10238
-  median_stars: 16
-  median_forks: 3
-  p25_stars: 5.0
-  p75_stars: 45.0
+  github_repos: 530
+  total_stars: 72852
+  total_forks: 10682
+  median_stars: 14.0
+  median_forks: 3.0
+  p25_stars: 4.0
+  p75_stars: 44.0
   p25_forks: 1.0
-  p75_forks: 8.0
+  p75_forks: 7.0
   max_stars: 14349
 - name: security
-  github_repos: 1151
-  total_stars: 109519
-  total_forks: 15794
-  median_stars: 5
-  median_forks: 1
+  github_repos: 1396
+  total_stars: 162581
+  total_forks: 24844
+  median_stars: 5.0
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 19.0
+  p75_stars: 20.0
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 12895
