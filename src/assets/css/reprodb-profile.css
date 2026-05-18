@@ -1,14 +1,9 @@
-/* reprodb-profile.css — Styles for the unified profile page and profile_common. */
+/* reprodb-profile.css — Styles for the unified profile page and profile_common.
+   Search box & hero base styles are in reprodb-search-hero.css (shared). */
 
-/* ── Search hero container ─────────────────────────────────────────────── */
+/* ── Profile-specific hero overrides ───────────────────────────────────── */
 .profile-search-hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 40vh;
-  text-align: center;
-  transition: min-height 0.4s ease, padding 0.4s ease;
-  padding: 0 16px;
 }
 .profile-search-hero.has-profile {
   min-height: 0;
@@ -16,9 +11,7 @@
   padding-bottom: 0;
 }
 .profile-search-hero-inner {
-  width: 100%;
   max-width: 600px;
-  transition: max-width 0.4s ease;
 }
 .profile-search-hero.has-profile .profile-search-hero-inner {
   max-width: 480px;
@@ -26,7 +19,6 @@
 .profile-search-heading {
   font-size: 1.4em;
   font-weight: 400;
-  color: #555;
   margin-bottom: 16px;
   transition: font-size 0.4s ease, margin 0.4s ease, opacity 0.3s ease;
 }
@@ -36,31 +28,6 @@
   opacity: 0;
   overflow: hidden;
   height: 0;
-}
-
-/* ── Search box ────────────────────────────────────────────────────────── */
-.profile-search-box {
-  display: block;
-  width: 100%;
-  padding: 14px 48px 14px 20px;
-  font-size: 1.1em;
-  border: 2px solid #ddd;
-  border-radius: 28px;
-  outline: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: box-shadow 0.2s, border-color 0.2s;
-  box-sizing: border-box;
-}
-.profile-search-box:focus {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  border-color: #4285f4;
-}
-.profile-search-icon {
-  position: absolute;
-  right: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
 }
 
 /* ── Autocomplete results ──────────────────────────────────────────────── */
@@ -159,11 +126,6 @@
 /* ── Dark-mode overrides ───────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme="light"]) .profile-search-heading { color: #aab0b8; }
-  html:not([data-theme="light"]) .profile-search-box {
-    background-color: #1e2127; color: #d6d9dc; border-color: #4a4f57;
-  }
-  html:not([data-theme="light"]) .profile-search-box:focus { border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
-  html:not([data-theme="light"]) .profile-search-icon { stroke: #888; }
   html:not([data-theme="light"]) .profile-search-results {
     background: #1e2127; border-color: #4a4f57; color: #d6d9dc; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   }
@@ -192,11 +154,6 @@
   html:not([data-theme="light"]) .avail-warn { color: #f0c040; background: #332b00; border-color: #665500; }
 }
 html[data-theme="dark"] .profile-search-heading { color: #aab0b8; }
-html[data-theme="dark"] .profile-search-box {
-  background-color: #1e2127; color: #d6d9dc; border-color: #4a4f57;
-}
-html[data-theme="dark"] .profile-search-box:focus { border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
-html[data-theme="dark"] .profile-search-icon { stroke: #888; }
 html[data-theme="dark"] .profile-search-results {
   background: #1e2127; border-color: #4a4f57; color: #d6d9dc; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }

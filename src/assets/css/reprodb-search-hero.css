@@ -1,0 +1,108 @@
+/* reprodb-search-hero.css — Shared search hero styles for index and profile pages.
+   Provides the collapsible hero container, search box, and search icon. */
+
+/* ── Hero container ────────────────────────────────────────────────────── */
+.rdb-search-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  transition: min-height 0.4s ease, padding 0.4s ease;
+  padding: 0 16px;
+}
+.rdb-search-hero.has-results {
+  min-height: 0;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+.rdb-search-hero-inner {
+  width: 100%;
+  max-width: 720px;
+  transition: max-width 0.4s ease;
+}
+.rdb-search-hero.has-results .rdb-search-hero-inner {
+  max-width: 720px;
+}
+
+/* ── Tagline / heading that fades out ──────────────────────────────────── */
+.rdb-search-tagline {
+  font-size: 0.92em;
+  color: #555;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  transition: font-size 0.35s ease, margin 0.35s ease, opacity 0.3s ease,
+              max-height 0.35s ease, padding 0.35s ease;
+  max-height: 8em;
+  overflow: hidden;
+}
+@media (max-width: 600px) {
+  .rdb-search-tagline { font-size: 0.88em; }
+}
+.rdb-search-hero.has-results .rdb-search-tagline {
+  font-size: 0;
+  margin: 0;
+  opacity: 0;
+  max-height: 0;
+  padding: 0;
+}
+
+/* ── Search box (shared between profile and artifact search) ───────────── */
+.rdb-search-box-wrap {
+  position: relative;
+  width: 100%;
+}
+.rdb-search-input {
+  display: block;
+  width: 100%;
+  padding: 14px 48px 14px 20px;
+  font-size: 1.1em;
+  border: 2px solid #ddd;
+  border-radius: 28px;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  box-sizing: border-box;
+  background: #fff;
+  color: #333;
+}
+.rdb-search-input:focus {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border-color: #4285f4;
+}
+.rdb-search-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.rdb-search-clear {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* ── Dark-mode ─────────────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .rdb-search-tagline { color: #aab0b8; }
+  html:not([data-theme="light"]) .rdb-search-input {
+    background: #1e2127; color: #d6d9dc; border-color: #4a4f57;
+  }
+  html:not([data-theme="light"]) .rdb-search-input:focus {
+    border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+  html:not([data-theme="light"]) .rdb-search-icon { stroke: #888; }
+  html:not([data-theme="light"]) .rdb-search-clear { stroke: #888; }
+}
+html[data-theme="dark"] .rdb-search-tagline { color: #aab0b8; }
+html[data-theme="dark"] .rdb-search-input {
+  background: #1e2127; color: #d6d9dc; border-color: #4a4f57;
+}
+html[data-theme="dark"] .rdb-search-input:focus {
+  border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+html[data-theme="dark"] .rdb-search-icon { stroke: #888; }
+html[data-theme="dark"] .rdb-search-clear { stroke: #888; }

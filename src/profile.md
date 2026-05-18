@@ -6,12 +6,12 @@ layout: default
 
 {% include profile_common.html %}
 
-<div id="profile-search-hero" class="profile-search-hero">
-  <div class="profile-search-hero-inner">
-    <h2 class="profile-search-heading">Find a researcher or institution</h2>
+<div id="profile-search-hero" class="rdb-search-hero profile-search-hero">
+  <div class="rdb-search-hero-inner profile-search-hero-inner">
+    <h2 class="rdb-search-tagline profile-search-heading">Find a researcher or institution</h2>
     <div class="rdb-search-box-wrap">
-      <input type="text" id="profile-search-box" class="profile-search-box" placeholder="Search by name, affiliation, or institution…" autocomplete="off">
-      <svg class="profile-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="profile-search-box" class="rdb-search-input profile-search-box" placeholder="Search by name, affiliation, or institution…" autocomplete="off">
+      <svg class="rdb-search-icon profile-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <ul id="search-results" class="profile-search-results rdb-hidden"></ul>
     </div>
   </div>

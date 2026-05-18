@@ -124,12 +124,24 @@
     });
   }
 
-  window.sortResults = function(field) {
-    if (sortField === field) { sortAsc = !sortAsc; }
-    else { sortField = field; sortAsc = true; }
+  window.sortResults = function(field, asc) {
+    sortField = field;
+    sortAsc = asc;
     doSort();
     renderResults();
   };
+
+  function applySortFromSelect() {
+    var val = document.getElementById('sortSelect').value;
+    var parts = val.split('-');
+    var field = parts[0];
+    var asc = parts[1] === 'asc';
+    sortField = field;
+    sortAsc = asc;
+    doSort();
+    currentPage = 1;
+    renderResults();
+  }
 
   window.changePage = function(delta) {
     var maxPage = Math.ceil(filtered.length / pageSize);
@@ -151,8 +163,8 @@
     var list = document.getElementById('resultsList');
     var noRes = document.getElementById('noResults');
     var pagination = document.getElementById('pagination');
-    var sortCtrl = document.getElementById('sort-controls');
     var status = document.getElementById('searchStatus');
+    var hero = document.getElementById('search-hero');
     var query = document.getElementById('searchBox').value.trim();
     var cleaned = query.replace(/#(unavailable|awarded|github|zenodo|nourl)/g, '').trim();
     var terms = normalizeText(cleaned).split(/\s+/).filter(function(t) { return t.length > 0; });
@@ -163,16 +175,18 @@
     areaChecks.forEach(function(cb) { if (cb.checked) selAreas.push(cb.value); });
     var areaVal = selAreas.length === 1 ? selAreas[0] : '';
 
-    if (!query && !yearVal && !venueVal && !areaVal) {
+    var hasActiveSearch = !!(query || yearVal || venueVal || areaVal);
+
+    // Collapse hero when there are results, expand when idle
+    if (hero) hero.classList.toggle('has-results', hasActiveSearch);
+
+    if (!hasActiveSearch) {
       list.classList.add('rdb-hidden');
       noRes.classList.add('rdb-hidden');
       pagination.classList.add('rdb-hidden');
-      sortCtrl.classList.add('rdb-hidden');
-      document.getElementById('downloadBtn').classList.add('rdb-hidden');
-      document.getElementById('shareBtn').classList.add('rdb-hidden');
       document.getElementById('profileCards').classList.add('rdb-hidden');
       document.getElementById('profileCards').innerHTML = '';
-      status.textContent = allData.length + ' artifacts available. Type a query or select a filter to search.';
+      status.textContent = allData.length + ' artifacts';
       return;
     }
 
@@ -185,13 +199,11 @@
       list.classList.add('rdb-hidden');
       noRes.classList.remove('rdb-hidden');
       pagination.classList.add('rdb-hidden');
-      sortCtrl.classList.add('rdb-hidden');
-      document.getElementById('downloadBtn').classList.add('rdb-hidden');
-      document.getElementById('shareBtn').classList.add('rdb-hidden');
       // Still show profile cards even when no artifact results
       renderProfileCards(query, terms);
       var pcCount = document.getElementById('profileCards').querySelectorAll('.profile-card').length;
-      status.textContent = '0 artifact results' + (pcCount > 0 ? ' (' + pcCount + ' matching profile' + (pcCount !== 1 ? 's' : '') + ')' : '');
+      var total = pcCount;
+      status.textContent = total + ' result' + (total !== 1 ? 's' : '');
       return;
     }
 
@@ -264,12 +276,9 @@
     });
 
     list.classList.remove('rdb-hidden');
-    sortCtrl.classList.remove('rdb-hidden');
-    var profileCardCount = document.getElementById('profileCards').querySelectorAll('.profile-card').length;
-    var statusExtra = profileCardCount > 0 ? ' (' + profileCardCount + ' matching profile' + (profileCardCount !== 1 ? 's' : '') + ')' : '';
-    status.textContent = filtered.length + ' result' + (filtered.length !== 1 ? 's' : '') + ' found' + statusExtra;
-    document.getElementById('downloadBtn').classList.toggle('rdb-hidden', filtered.length <= 0);
-    document.getElementById('shareBtn').classList.toggle('rdb-hidden', filtered.length <= 0);
+    var profileCount = document.getElementById('profileCards').querySelectorAll('.profile-card').length;
+    var totalResults = filtered.length + profileCount;
+    status.textContent = totalResults + ' result' + (totalResults !== 1 ? 's' : '');
     pagination.classList.toggle('rdb-hidden', maxPage <= 1);
     document.getElementById('pageInfo').textContent = 'Page ' + currentPage + ' of ' + maxPage;
     document.getElementById('prevBtn').disabled = currentPage <= 1;
@@ -314,14 +323,19 @@
 
   window.shareSearch = function() {
     var url = window.location.href;
+    var btn = document.getElementById('shareBtn');
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(function() {
-        var btn = document.getElementById('shareBtn');
-        btn.textContent = '✓ Copied!';
-        setTimeout(function() { btn.textContent = '🔗 Share'; }, ReproDB.COPIED_FLASH_MS);
+        btn.title = 'Copied!';
+        setTimeout(function() { btn.title = 'Copy search link'; }, ReproDB.COPIED_FLASH_MS);
       });
     } else {
-      prompt('Copy this URL to share:', url);
+      var ta = document.createElement('textarea');
+      ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
+      btn.title = 'Copied!';
+      setTimeout(function() { btn.title = 'Copy search link'; }, ReproDB.COPIED_FLASH_MS);
     }
   };
 
@@ -510,7 +524,7 @@
       allData = data;
       buildSearchIndex(data);
       populateFilters(data);
-      document.getElementById('searchStatus').textContent = data.length + ' artifacts available. Type a query or select a filter to search.';
+      document.getElementById('searchStatus').textContent = data.length + ' artifacts';
 
       // Wire up events
       var debounceTimer;
@@ -580,6 +594,7 @@
       }
       document.getElementById('yearFilter').addEventListener('change', doSearch);
       document.getElementById('venueFilter').addEventListener('change', doSearch);
+      document.getElementById('sortSelect').addEventListener('change', applySortFromSelect);
       document.querySelectorAll('.areaCheck').forEach(function(cb) {
         cb.addEventListener('change', doSearch);
       });
