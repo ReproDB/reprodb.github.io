@@ -21,7 +21,7 @@
   R.COPIED_FLASH_MS = 1500;
 
   /** Default rows per page for Tabulator and ranking tables. */
-  R.DEFAULT_PAGE_SIZE = 50;
+  R.DEFAULT_PAGE_SIZE = 20;
 
   /** Page-size selector options shown in table footers. */
   R.PAGE_SIZE_OPTIONS = [10, 25, 50, 100];

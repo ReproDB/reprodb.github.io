@@ -1,105 +1,65 @@
-/* reprodb-search.css — Styles for the main search / index page. */
+/* reprodb-search.css — Styles for the main search / index page.
+   Search box & hero styles are in reprodb-search-hero.css (shared). */
 
 /* ── Search container ──────────────────────────────────────────────────── */
+html { overflow-y: scroll; }
 #search-container {
-  max-width: 720px;
-  margin: 2em auto;
-  text-align: center;
-}
-.rdb-search-box-wrap {
-  position: relative;
   width: 100%;
-}
-#searchBox {
-  display: block;
-  width: 100%;
-  padding: 14px 48px 14px 20px;
-  font-size: 1.1em;
-  border: 2px solid #ddd;
-  border-radius: 28px;
-  outline: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: box-shadow 0.2s, border-color 0.2s;
-  box-sizing: border-box;
-  background: #fff;
-  color: #333;
-}
-#searchBox:focus {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  border-color: #4285f4;
-}
-.rdb-search-icon {
-  position: absolute;
-  right: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-#clearIcon {
-  position: absolute;
-  right: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
 }
 
-/* ── Filters row ───────────────────────────────────────────────────────── */
+/* ── Filters / toolbar row ─────────────────────────────────────────── */
 #filters {
-  margin-top: 12px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  gap: 8px;
   align-items: center;
 }
 #filters select {
-  padding: 8px 12px;
+  padding: 6px 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 0.95em;
+  font-size: 0.9em;
   background: #fff;
 }
-.rdb-area-checks {
-  display: inline-flex;
-  gap: 10px;
-  align-items: center;
+.rdb-search-status {
+  margin-left: auto;
+  font-size: 0.85em;
+  color: #666;
+  white-space: nowrap;
 }
-.rdb-area-checks label {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.95em;
-  cursor: pointer;
-  user-select: none;
+#sortSelect {
+  font-size: 0.85em;
 }
 
-/* ── Status & action buttons ───────────────────────────────────────────── */
-#searchStatus {
-  margin-top: 8px;
-  font-size: 0.9em;
-  color: #666;
-  display: inline;
+/* ── Icon action buttons ──────────────────────────────────────────── */
+.rdb-action-btns {
+  display: inline-flex;
+  gap: 2px;
+  align-items: center;
 }
-.rdb-search-action-btn {
-  margin-left: 10px;
-  padding: 4px 14px;
+.rdb-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
   border: 1px solid #ccc;
   border-radius: 4px;
   background: #fff;
   cursor: pointer;
-  font-size: 0.9em;
-  vertical-align: middle;
-}
-#shareBtn.rdb-search-action-btn { margin-left: 6px; }
-
-/* ── Sort controls ─────────────────────────────────────────────────────── */
-#sort-controls {
-  margin-top: 1em;
-  margin-bottom: 8px;
-  font-size: 0.9em;
   color: #555;
+  transition: background 0.15s, color 0.15s;
+  position: relative;
 }
-#sort-controls a { margin-left: 6px; }
+.rdb-icon-btn:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+.rdb-icon-btn svg {
+  display: block;
+}
 
 /* ── Profile cards (author/institution cards in search results) ─────── */
 #profileCards {
@@ -154,10 +114,9 @@
 
 /* ── Dark mode ─────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) #searchBox { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
-  html:not([data-theme="light"]) #searchBox:focus { border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
   html:not([data-theme="light"]) #filters select { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
-  html:not([data-theme="light"]) .rdb-search-action-btn { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
+  html:not([data-theme="light"]) .rdb-icon-btn { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
+  html:not([data-theme="light"]) .rdb-icon-btn:hover { background: #2a3038; color: #fff; }
   html:not([data-theme="light"]) #pagination button { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
   html:not([data-theme="light"]) .profile-card { background: #23272d; border-color: #4a4f57; color: #d6d9dc; }
   html:not([data-theme="light"]) .profile-card:hover { border-color: #5a9cf5; }
@@ -166,14 +125,12 @@
   html:not([data-theme="light"]) .rdb-result-meta { color: #aab0b8; }
   html:not([data-theme="light"]) .rdb-badge { background: #2e3d2e; color: #c8e6c9; }
   html:not([data-theme="light"]) .rdb-badge--award { background: #3d3525; color: #ffe0b2; }
-  html:not([data-theme="light"]) #searchStatus { color: #aab0b8; }
-  html:not([data-theme="light"]) #sort-controls { color: #aab0b8; }
+  html:not([data-theme="light"]) .rdb-search-status { color: #aab0b8; }
   html:not([data-theme="light"]) #noResults { color: #888; }
 }
-html[data-theme="dark"] #searchBox { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
-html[data-theme="dark"] #searchBox:focus { border-color: #5a9cf5; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
 html[data-theme="dark"] #filters select { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
-html[data-theme="dark"] .rdb-search-action-btn { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
+html[data-theme="dark"] .rdb-icon-btn { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
+html[data-theme="dark"] .rdb-icon-btn:hover { background: #2a3038; color: #fff; }
 html[data-theme="dark"] #pagination button { background: #1e2127; color: #d6d9dc; border-color: #4a4f57; }
 html[data-theme="dark"] .profile-card { background: #23272d; border-color: #4a4f57; color: #d6d9dc; }
 html[data-theme="dark"] .profile-card:hover { border-color: #5a9cf5; }
@@ -182,6 +139,5 @@ html[data-theme="dark"] .rdb-result-authors { color: #aab0b8; }
 html[data-theme="dark"] .rdb-result-meta { color: #aab0b8; }
 html[data-theme="dark"] .rdb-badge { background: #2e3d2e; color: #c8e6c9; }
 html[data-theme="dark"] .rdb-badge--award { background: #3d3525; color: #ffe0b2; }
-html[data-theme="dark"] #searchStatus { color: #aab0b8; }
-html[data-theme="dark"] #sort-controls { color: #aab0b8; }
+html[data-theme="dark"] .rdb-search-status { color: #aab0b8; }
 html[data-theme="dark"] #noResults { color: #888; }
