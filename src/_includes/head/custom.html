@@ -3,7 +3,18 @@
 <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 
 <!-- Alpine.js x-cloak: hide elements until Alpine initializes -->
-<style>[x-cloak] { display: none !important; }</style>
+<!-- Kill Minimal Mistakes greedy-nav full-screen white backdrop overlay.
+     The theme's @supports rule (pointer-events:none) creates a fixed, page-wide
+     white ::before on .greedy-nav__toggle.close. We use the theme's native
+     hidden-links mechanism but suppress the overlay. -->
+<style>
+[x-cloak] { display: none !important; }
+.greedy-nav__toggle::before,
+.greedy-nav__toggle.close::before {
+  display: none !important;
+  content: none !important;
+}
+</style>
 
 <!-- Prevent FOUC: apply saved theme before any paint -->
 <script>
