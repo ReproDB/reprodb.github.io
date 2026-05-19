@@ -3,7 +3,24 @@
 <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 
 <!-- Alpine.js x-cloak: hide elements until Alpine initializes -->
-<style>[x-cloak] { display: none !important; }</style>
+<!-- Kill Minimal Mistakes greedy-nav full-screen white backdrop overlay.
+     The theme's @supports rule (pointer-events:none) creates a fixed, page-wide
+     white ::before on .greedy-nav__toggle.close. We use Alpine.js for the menu,
+     so this overlay just blocks the page on mobile. -->
+<style>
+[x-cloak] { display: none !important; }
+.greedy-nav__toggle::before,
+.greedy-nav__toggle.close::before {
+  display: none !important;
+  content: none !important;
+}
+/* Prevent theme's .close class from hiding the navicon */
+.greedy-nav__toggle.close .navicon,
+.greedy-nav__toggle.close .navicon::before,
+.greedy-nav__toggle.close .navicon::after {
+  background: currentColor !important;
+}
+</style>
 
 <!-- Prevent FOUC: apply saved theme before any paint -->
 <script>
@@ -55,3 +72,15 @@
      scripts so Tabulator + ECharts are available when Alpine processes
      x-data directives and calls component boot() functions. -->
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
+
+<!-- Neutralise Minimal Mistakes greedy-nav jQuery click handler.
+     The theme's JS toggles .close on the burger button and shows .hidden-links,
+     causing a white overlay.  We use Alpine.js instead; unbind jQuery's handler
+     after all scripts have loaded so it cannot interfere. -->
+<script>
+window.addEventListener('load', function() {
+  if (window.jQuery) {
+    jQuery('nav.greedy-nav .greedy-nav__toggle').off('click');
+  }
+});
+</script>

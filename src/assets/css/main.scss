@@ -191,6 +191,14 @@ html {
   border: none;
   padding: 4px 8px;
   color: #333;
+
+  // Disable the theme's full-screen white backdrop overlay.
+  // The theme uses ::before on .greedy-nav__toggle.close to create a page-wide
+  // white overlay when .hidden-links is shown. Since we use Alpine.js for the
+  // hamburger menu instead, this overlay just blocks the page.
+  &::before {
+    display: none !important;
+  }
 }
 
 // Desktop (≥768px): show all items, keep hamburger visible
