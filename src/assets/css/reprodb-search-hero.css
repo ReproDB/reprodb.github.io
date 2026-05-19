@@ -4,7 +4,6 @@
 /* ── Hero container ────────────────────────────────────────────────────── */
 .rdb-search-hero {
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 30vh;
   transition: min-height 0.4s ease, padding 0.4s ease;
