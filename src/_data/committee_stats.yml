@@ -1,37 +1,37 @@
-last_updated: '2026-05-24'
-total_members: 4393
-total_systems: 2289
+last_updated: '2026-05-31'
+total_members: 4472
+total_systems: 2368
 total_security: 2104
 total_conferences: 67
 total_countries: 58
 total_continents: 6
-total_institutions: 475
-unique_members: 2458
-unique_members_systems: 1201
+total_institutions: 480
+unique_members: 2502
+unique_members_systems: 1247
 unique_members_security: 1348
-unique_members_both: 91
+unique_members_both: 93
 recurring_chairs: 82
 top_countries:
 - name: United States
-  count: 2115
+  count: 2168
 - name: China
-  count: 375
+  count: 377
 - name: Germany
   count: 211
 - name: Hong Kong
-  count: 189
+  count: 191
 - name: United Kingdom
-  count: 111
+  count: 112
 - name: Taiwan, Province of China
-  count: 91
+  count: 92
 - name: Switzerland
   count: 88
 - name: Singapore
-  count: 68
+  count: 69
 - name: Canada
   count: 68
 - name: Japan
-  count: 63
+  count: 64
 - name: Italy
   count: 61
 - name: Australia
@@ -44,35 +44,35 @@ top_countries:
   count: 45
 top_countries_systems:
 - name: United States
-  count: 1247
+  count: 1300
 - name: China
-  count: 274
+  count: 276
 - name: Hong Kong
-  count: 126
+  count: 128
 - name: United Kingdom
-  count: 60
+  count: 61
+- name: Taiwan, Province of China
+  count: 59
 - name: Switzerland
   count: 58
-- name: Taiwan, Province of China
-  count: 58
 - name: Singapore
-  count: 45
+  count: 46
 - name: Germany
   count: 33
 - name: Spain
-  count: 30
+  count: 32
 - name: Canada
   count: 26
 - name: Japan
-  count: 23
+  count: 24
 - name: Portugal
+  count: 21
+- name: India
   count: 20
 - name: France
   count: 19
 - name: Greece
-  count: 17
-- name: India
-  count: 16
+  count: 18
 top_countries_security:
 - name: United States
   count: 868
@@ -106,26 +106,26 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2185
+  count: 2238
 - name: Asia
-  count: 937
+  count: 957
 - name: Europe
-  count: 792
+  count: 797
 - name: Oceania
   count: 58
 - name: Africa
-  count: 45
+  count: 47
 - name: South America
   count: 14
 top_continents_systems:
 - name: North America
-  count: 1274
+  count: 1327
 - name: Asia
-  count: 582
+  count: 602
 - name: Europe
-  count: 286
+  count: 291
 - name: Africa
-  count: 18
+  count: 20
 - name: Oceania
   count: 13
 - name: South America
@@ -145,72 +145,72 @@ top_continents_security:
   count: 6
 top_institutions:
 - name: University of Illinois Urbana-Champaign
-  count: 135
+  count: 140
 - name: Purdue University
-  count: 100
+  count: 102
 - name: Georgia Institute of Technology
-  count: 97
+  count: 98
 - name: University of Wisconsin - Madison
-  count: 84
+  count: 91
 - name: University of California, Irvine
   count: 75
+- name: National Tsinghua University
+  count: 70
 - name: cispa helmholtz center for information security
   count: 70
-- name: National Tsinghua University
-  count: 69
 - name: institute of parallel and distributed systems, shanghai jiao tong university
-  count: 65
+  count: 66
 - name: University of Michigan - Ann Arbor
-  count: 62
+  count: 63
+- name: Carnegie Mellon University
+  count: 61
 - name: The Hong Kong University of Science and Technology
-  count: 57
+  count: 59
 - name: computing and imaging institute - the university of utah
   count: 57
-- name: Carnegie Mellon University
-  count: 55
 - name: University of California, Berkeley
-  count: 48
+  count: 49
 - name: The Chinese University of Hong Kong
   count: 45
 - name: University of Chicago
   count: 44
+- name: microsoft
+  count: 42
+- name: University of California, San Diego
+  count: 42
 - name: University of California, Riverside
   count: 41
-- name: University of California, San Diego
-  count: 41
-- name: microsoft
-  count: 40
 - name: imec-distrinet, ku leuven
   count: 38
 - name: epfl
   count: 37
 top_institutions_systems:
 - name: University of Illinois Urbana-Champaign
-  count: 125
-- name: Georgia Institute of Technology
-  count: 62
-- name: institute of parallel and distributed systems, shanghai jiao tong university
-  count: 58
+  count: 130
 - name: University of Wisconsin - Madison
-  count: 58
+  count: 65
+- name: Georgia Institute of Technology
+  count: 63
+- name: institute of parallel and distributed systems, shanghai jiao tong university
+  count: 59
 - name: University of Michigan - Ann Arbor
-  count: 56
+  count: 57
 - name: Purdue University
-  count: 51
+  count: 53
+- name: Carnegie Mellon University
+  count: 44
+- name: The Hong Kong University of Science and Technology
+  count: 41
 - name: computing and imaging institute - the university of utah
   count: 40
-- name: The Hong Kong University of Science and Technology
-  count: 39
-- name: Carnegie Mellon University
-  count: 38
 - name: National Tsinghua University
+  count: 38
+- name: University of California, Berkeley
   count: 37
 - name: The Chinese University of Hong Kong
   count: 37
-- name: University of California, Berkeley
-  count: 36
 - name: microsoft
-  count: 34
+  count: 36
 - name: University of Chicago
   count: 34
 - name: University of California, Irvine
@@ -220,7 +220,7 @@ top_institutions_systems:
 - name: The University of Texas at Austin
   count: 28
 - name: Cornell University
-  count: 26
+  count: 27
 - name: University of Massachusetts at Amherst
   count: 26
 - name: Huazhong University of Science and Technology
@@ -300,12 +300,12 @@ institution_timeline:
   systems: 112
   security: 134
 - year: 2025
-  total: 248
+  total: 249
   systems: 139
   security: 169
 - year: 2026
-  total: 223
-  systems: 109
+  total: 231
+  systems: 122
   security: 171
 committee_sizes:
 - conference: ACSAC
@@ -367,7 +367,7 @@ committee_sizes:
   year: 2026
   conf_year: cais2026
   area: systems
-  size: 1
+  size: 80
 - conference: CHES
   year: 2021
   conf_year: ches2021

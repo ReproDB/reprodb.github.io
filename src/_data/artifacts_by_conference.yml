@@ -60,7 +60,7 @@
 - name: ATC
   category: systems
   venue_type: conference
-  total_artifacts: 141
+  total_artifacts: 187
   years:
   - year: 2022
     total: 51
@@ -79,6 +79,12 @@
     functional: 40
     reproducible: 29
     available: 49
+    reusable: 0
+  - year: 2025
+    total: 46
+    functional: 43
+    reproducible: 35
+    available: 45
     reusable: 0
 - name: CHES
   category: security
@@ -234,7 +240,7 @@
 - name: PETS
   category: security
   venue_type: conference
-  total_artifacts: 360
+  total_artifacts: 383
   years:
   - year: 2020
     total: 22
@@ -273,10 +279,10 @@
     available: 99
     reusable: 0
   - year: 2026
-    total: 45
-    functional: 33
-    reproducible: 22
-    available: 45
+    total: 68
+    functional: 50
+    reproducible: 32
+    available: 68
     reusable: 0
 - name: SC
   category: systems

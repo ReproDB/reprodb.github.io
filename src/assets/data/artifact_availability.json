@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checked_at": "2026-05-24 14:16:08 UTC",
-    "total_urls": 2562,
-    "accessible_urls": 2480,
-    "accessibility_pct": 96.8,
+    "checked_at": "2026-05-31 14:33:18 UTC",
+    "total_urls": 2585,
+    "accessible_urls": 2504,
+    "accessibility_pct": 96.9,
     "by_platform": {
       "Bitbucket": {
-        "total": 9,
-        "accessible": 9,
+        "total": 10,
+        "accessible": 10,
         "pct": 100.0
       },
       "DOI-other": {
@@ -21,9 +21,9 @@
         "pct": 97.3
       },
       "GitHub": {
-        "total": 1291,
-        "accessible": 1258,
-        "pct": 97.4
+        "total": 1311,
+        "accessible": 1278,
+        "pct": 97.5
       },
       "GitLab": {
         "total": 13,
@@ -31,20 +31,20 @@
         "pct": 100.0
       },
       "Zenodo": {
-        "total": 885,
-        "accessible": 877,
+        "total": 886,
+        "accessible": 878,
         "pct": 99.1
       },
       "other": {
-        "total": 312,
-        "accessible": 273,
-        "pct": 87.5
+        "total": 313,
+        "accessible": 275,
+        "pct": 87.9
       }
     },
     "by_area": {
       "security": {
-        "total": 2037,
-        "accessible": 1977,
+        "total": 2060,
+        "accessible": 2001,
         "pct": 97.1
       },
       "systems": {
@@ -76,8 +76,8 @@
       },
       "2021": {
         "total": 144,
-        "accessible": 139,
-        "pct": 96.5
+        "accessible": 140,
+        "pct": 97.2
       },
       "2022": {
         "total": 376,
@@ -100,8 +100,8 @@
         "pct": 99.0
       },
       "2026": {
-        "total": 308,
-        "accessible": 306,
+        "total": 331,
+        "accessible": 329,
         "pct": 99.4
       }
     },
@@ -142,8 +142,8 @@
       "2021": {
         "security": {
           "total": 97,
-          "accessible": 92,
-          "pct": 94.8
+          "accessible": 93,
+          "pct": 95.9
         },
         "systems": {
           "total": 47,
@@ -201,8 +201,8 @@
       },
       "2026": {
         "security": {
-          "total": 308,
-          "accessible": 306,
+          "total": 331,
+          "accessible": 329,
           "pct": 99.4
         }
       }
@@ -309,8 +309,8 @@
         },
         "other": {
           "total": 36,
-          "accessible": 32,
-          "pct": 88.9
+          "accessible": 33,
+          "pct": 91.7
         }
       },
       "2022": {
@@ -457,6 +457,11 @@
         }
       },
       "2026": {
+        "Bitbucket": {
+          "total": 1,
+          "accessible": 1,
+          "pct": 100.0
+        },
         "DOI-other": {
           "total": 5,
           "accessible": 5,
@@ -468,18 +473,18 @@
           "pct": 100.0
         },
         "GitHub": {
-          "total": 41,
-          "accessible": 41,
+          "total": 61,
+          "accessible": 61,
           "pct": 100.0
         },
         "Zenodo": {
-          "total": 246,
-          "accessible": 244,
+          "total": 247,
+          "accessible": 245,
           "pct": 99.2
         },
         "other": {
-          "total": 9,
-          "accessible": 9,
+          "total": 10,
+          "accessible": 10,
           "pct": 100.0
         }
       }
@@ -516,9 +521,9 @@
         "pct": 94.2
       },
       "PETS": {
-        "total": 360,
-        "accessible": 351,
-        "pct": 97.5
+        "total": 383,
+        "accessible": 375,
+        "pct": 97.9
       },
       "SOSP": {
         "total": 25,
@@ -12661,7 +12666,7 @@
       "url_key": "artifact_url",
       "url": "https://homepage.np-tokumei.net/publication/publication_2021_popets",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "PETS",
@@ -15800,6 +15805,236 @@
       "title": "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis",
       "url_key": "artifact_url",
       "url": "https://github.com/jqxue1999/Artifact/tree/3146ec3ebb1035300d2ea4e341af2220d8bb53e2",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Dodge: A Client-Side Framework for Application-Layer Video Fingerprinting Defenses",
+      "url_key": "artifact_url",
+      "url": "https://github.com/trafnex/dodge-framework/tree/649479dddb1d4f6087871db166cfd9435c8404b2",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Weight Initialization based on Gradient Similarity for Versatile Machine Unlearning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Ldoun/WIG/tree/99af870ec4ab29732d81bcf3245413ff24588305",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Chatbot Confessions: Large-Scale Analysis of Private Data Disclosure in Shared AI Chatbot Conversations",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Majid-Mollaeefar/chatbot-confessions-artifact/tree/b29076b178d396daeb77befcf52a6d271fef92a6",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ZhengYeah/AudAgent/tree/1744583f6a906a70c9509b80c2196ab5dbec8d4a",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Understanding Privacy and Quality Tradeoffs in Synthetic Network Data",
+      "url_key": "artifact_url",
+      "url": "https://github.com/noise-lab/networking-mia-pets/tree/a7a279e3eb89b56280b0f77081ed7748fc046af2",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "An Improved Entropy Measure for Web Browser Fingerprinting Risk",
+      "url_key": "artifact_url",
+      "url": "https://github.com/google/fingerprinting-risk-measures/tree/f45ee12ca187369aebab0aaa6421b3a6a6be80e6",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Quantifying Classifier Utility under Local Differential Privacy",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ZhengYeah/QCU-LDP/tree/4acd03ee0db439884bab3df789fbd9ced64e7529",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Redefining Website Fingerprinting Attacks with Multi-Agent LLMs",
+      "url_key": "artifact_url",
+      "url": "https://huggingface.co/datasets/steve666666/WFP_datasets/tree/bc1b9be8c5d950bfa6f915dc906fcf8991fbd522",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Pseudonymity at Risk: Linkage Attacks on Blockchain Users with Off-Chain Cues",
+      "url_key": "artifact_url",
+      "url": "https://github.com/LatentSpaceExplorer/de-anonymizing-blockchain-users-through-off-chain-data-linkage/tree/682d1c75f0d005e500d5a188a388a61104c4d3ea",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ObliviousAI/dp-recorder/tree/85d189ebd7ff81a52984708322ee2c2d8c479db4",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "PROVGEN: A Privacy-Preserving Approach for Outcome Validation in Genomic Research",
+      "url_key": "artifact_url",
+      "url": "https://github.com/SpidLab/PROVGEN-A-Privacy-Preserving-Approach-for-Outcome-Validation-in-Genomic-Research/tree/ec4e6daf81f30e17d4e6114333df4245168791e2",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "DP-Hype: Distributed Differentially Private Hyperparameter Search",
+      "url_key": "artifact_url",
+      "url": "https://github.com/UzL-PrivSec/dp-hype/tree/35a327da3105a50aa62d27871f3a5bbe12b3b810",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "CensorLess: Cost-Efficient Censorship Circumvention Through Serverless Cloud Functions",
+      "url_key": "artifact_url",
+      "url": "https://bitbucket.org/umass-lab/censorless/src/ce7a6289204c7a7fdf55dc41f83561e404e2bba3/",
+      "platform": "Bitbucket",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Dynamic Probabilistic Noise Injection for Membership Inference Defense",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Javad-Forough/DynaNoise-PoPETs2026-Artifact/tree/27c6ba5664eb3ba28973d44e2ea4830d15fd3ee5",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Access Granted, Privacy Lost: Formalizing & Quantifying the Hidden Anonymity Risks of Exclusive-Use Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/OSUSecLab/EUF/tree/60212e23a04fa2398fbf32979e56343066b07620",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "OAuthHub: Mitigating OAuth Data Overaccess through a Local Data Hub",
+      "url_key": "artifact_url",
+      "url": "https://github.com/AISmithLab/OAuthHub/tree/8dacd23941a5b87ad884b0e3d436ce158dffb451",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Banned Books: Analysis of Censorship on Amazon.com",
+      "url_key": "artifact_url",
+      "url": "https://github.com/citizenlab/chat-censorship/tree/0acb521837e64d142bbf6f627f95656f6f0d8f3e/amazon",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Practical Semi-Open Chat Groups for Secure Messaging Applications",
+      "url_key": "artifact_url",
+      "url": "https://github.com/luizabrs/semi-open-messaging-groups/tree/313fda3197b5153145d03a365eb4ef78ab5a0928",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "zkRevoke: Configurable Untraceability for Verifiable Credentials using ZKPs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19673896",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem",
+      "url_key": "artifact_url",
+      "url": "https://github.com/AISmithLab/OAuthHub/tree/8dacd23941a5b87ad884b0e3d436ce158dffb451",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "The Masks We (Think We) Wear: Privacy Threats of Browser-Extension Wallets in the Web3 Ecosystem",
+      "url_key": "artifact_url",
+      "url": "https://github.com/podiumdesu/wallet-privacy-threats/tree/0219ebc49acd69ce26640dc2b33329d168d7c310",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "TraCS: Trajectory Collection in Continuous Space under Local Differential Privacy",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ZhengYeah/TraCS/tree/90d9f2f446f32955ec9ac43f5b3d57ad6ae760a7",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "PETS",
+      "year": 2026,
+      "area": "security",
+      "title": "Revisiting the LiRA Membership Inference Attack Under Realistic Assumptions",
+      "url_key": "artifact_url",
+      "url": "https://github.com/najeebjebreel/lira_analysis/tree/193896f1957db7ab6decc32883d913780c868e4e",
       "platform": "GitHub",
       "accessible": true
     },
