@@ -14,6 +14,36 @@
   var authorRankHistory = [], urlAccessible = {}, availCheckedAt = '';
   var allInstitutions = [], instMap = {}, instHistory = [];
 
+  /** Assign dense ranks to an array of objects sorted by scoreField desc. */
+  function assignDenseRanks(items, scoreField) {
+    var sorted = items.slice().sort(function(a, b) {
+      return (b[scoreField] || 0) - (a[scoreField] || 0);
+    });
+    var rank = 1;
+    for (var i = 0; i < sorted.length; i++) {
+      if (i > 0 && (sorted[i][scoreField] || 0) < (sorted[i - 1][scoreField] || 0)) rank++;
+      sorted[i]._denseRank = rank;
+    }
+  }
+
+  /** Recompute dense ranks within each snapshot of a history array (in place). */
+  function fixHistoryRanks(snapshots) {
+    for (var s = 0; s < snapshots.length; s++) {
+      var entries = snapshots[s].entries;
+      if (!entries) continue;
+      var arr = [];
+      for (var name in entries) {
+        if (entries.hasOwnProperty(name)) arr.push({ name: name, data: entries[name] });
+      }
+      arr.sort(function(a, b) { return (b.data.score || 0) - (a.data.score || 0); });
+      var rank = 1;
+      for (var i = 0; i < arr.length; i++) {
+        if (i > 0 && (arr[i].data.score || 0) < (arr[i - 1].data.score || 0)) rank++;
+        arr[i].data.rank = rank;
+      }
+    }
+  }
+
   function hideAll() {
     document.getElementById('author-profile').classList.add('rdb-hidden');
     document.getElementById('inst-profile').classList.add('rdb-hidden');
@@ -84,7 +114,7 @@
     var c = '';
     if (p.combined_score !== undefined) {
       c += card(p.combined_score, 'Combined Score') + card(p.artifact_score || 0, 'Artifact Score') + card(p.ae_score || 0, 'AE Score');
-      if (p.rank) c += card('#' + p.rank, 'Rank');
+      if (p._denseRank) c += card('#' + p._denseRank, 'Rank');
     }
     c += card(p.artifact_count, 'Artifacts') + card(p.total_papers, 'Total Papers') + card(p.artifact_pct + '%', 'Artifact Rate');
     if (p.ae_memberships) c += card(p.ae_memberships, 'AE Memberships');
@@ -223,7 +253,9 @@
     var reproRate = inst.artifact_count > 0 ? Math.round(((inst.badges_reproducible || 0) / inst.artifact_count) * 100) : 0;
     c += card(reproRate + '%', 'Repro Rate') + card(inst.ae_memberships || 0, 'AE Memberships');
     if (inst.chair_count) c += card(inst.chair_count, 'Chair Roles');
-    if (instHistory.length >= 2) {
+    if (inst._denseRank) {
+      c += card('#' + inst._denseRank, 'Rank');
+    } else if (instHistory.length >= 2) {
       var curr = instHistory[instHistory.length - 1].entries[inst.affiliation];
       if (curr) c += card('#' + curr.rank, 'Rank');
     }
@@ -461,6 +493,8 @@
     allProfiles = res[1];
     citedArtifactsMap = res[2] || {};
     authorRankHistory = res[3] || [];
+    // Fix historical ranks to use dense ranking
+    fixHistoryRanks(authorRankHistory);
 
     // Build artifact URL map (normalizeTitle for case+unicode-insensitive lookup)
     (res[4] || []).forEach(function(a) {
@@ -487,6 +521,8 @@
       profileMap[allProfiles[i].name] = allProfiles[i];
       if (allProfiles[i].author_id != null) idMap[allProfiles[i].author_id] = allProfiles[i];
     }
+    // Compute dense ranks for author profiles
+    assignDenseRanks(allProfiles, 'combined_score');
 
     // Institution data
     allInstitutions = res[7].filter(function(inst) {
@@ -495,7 +531,11 @@
     });
     instMap = {};
     allInstitutions.forEach(function(inst) { instMap[inst.affiliation] = inst; });
+    // Compute dense ranks for institutions
+    assignDenseRanks(allInstitutions, 'combined_score');
     instHistory = res[8] || [];
+    // Fix historical ranks to use dense ranking
+    fixHistoryRanks(instHistory);
 
     search.activate();
   }).catch(function(err) {
