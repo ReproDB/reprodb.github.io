@@ -1,12 +1,12 @@
 overall:
   github_repos: 1642
-  total_stars: 161035
-  total_forks: 23368
+  total_stars: 161049
+  total_forks: 23370
   max_stars: 14353
   max_forks: 2314
   zenodo_repos: 922
-  total_views: 269739
-  total_downloads: 223314
+  total_views: 272166
+  total_downloads: 226125
   avg_stars: 98.1
   avg_forks: 14.2
   median_stars: 7.0
@@ -15,7 +15,7 @@ overall:
   p75_stars: 26.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-06-01 04:09:39 UTC
+  last_updated: 2026-06-07 14:32:22 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -605,7 +605,7 @@ by_conference:
     - Anthony Rowe 0001
 - name: NDSS
   github_repos: 74
-  total_stars: 4122
+  total_stars: 4123
   total_forks: 1368
   avg_stars: 55.7
   avg_forks: 18.5
@@ -632,9 +632,9 @@ by_conference:
     p75_forks: 3.0
   - year: 2025
     github_repos: 24
-    total_stars: 3272
+    total_stars: 3273
     total_forks: 1192
-    avg_stars: 136.3
+    avg_stars: 136.4
     avg_forks: 49.7
     median_stars: 8.0
     median_forks: 1.5
@@ -1411,8 +1411,8 @@ by_conference:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
   github_repos: 526
-  total_stars: 64866
-  total_forks: 10433
+  total_stars: 64879
+  total_forks: 10435
   avg_stars: 123.3
   avg_forks: 19.8
   median_stars: 12.0
@@ -1486,11 +1486,11 @@ by_conference:
     p75_forks: 3.0
   - year: 2025
     github_repos: 103
-    total_stars: 26530
-    total_forks: 4300
-    avg_stars: 257.6
-    avg_forks: 41.7
-    median_stars: 10
+    total_stars: 26538
+    total_forks: 4301
+    avg_stars: 257.7
+    avg_forks: 41.8
+    median_stars: 11
     median_forks: 2
     p25_stars: 3.0
     p75_stars: 84.0
@@ -1498,10 +1498,10 @@ by_conference:
     p75_forks: 14.0
   - year: 2026
     github_repos: 32
-    total_stars: 3596
-    total_forks: 587
-    avg_stars: 112.4
-    avg_forks: 18.3
+    total_stars: 3601
+    total_forks: 588
+    avg_stars: 112.5
+    avg_forks: 18.4
     median_stars: 2.5
     median_forks: 0.0
     p25_stars: 0.0
@@ -1908,8 +1908,8 @@ by_year:
   max_forks: 2314
 - year: 2025
   github_repos: 313
-  total_stars: 31795
-  total_forks: 5804
+  total_stars: 31804
+  total_forks: 5805
   avg_stars: 101.6
   avg_forks: 18.5
   median_stars: 2
@@ -1922,8 +1922,8 @@ by_year:
   max_forks: 902
 - year: 2026
   github_repos: 123
-  total_stars: 4878
-  total_forks: 766
+  total_stars: 4883
+  total_forks: 767
   avg_stars: 39.7
   avg_forks: 6.2
   median_stars: 1
@@ -1933,7 +1933,7 @@ by_year:
   p25_forks: 0.0
   p75_forks: 1.0
   max_stars: 1386
-  max_forks: 181
+  max_forks: 182
 by_area:
 - name: systems
   github_repos: 483
@@ -1948,8 +1948,8 @@ by_area:
   max_stars: 14353
 - name: security
   github_repos: 1171
-  total_stars: 111414
-  total_forks: 16112
+  total_stars: 111428
+  total_forks: 16114
   median_stars: 5
   median_forks: 1
   p25_stars: 1.0

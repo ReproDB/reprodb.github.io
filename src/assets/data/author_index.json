@@ -425,13 +425,18 @@
     "id": 23,
     "name": "Matthias Hollick",
     "display_name": "Matthias Hollick",
-    "affiliation": "TU Darmstadt",
+    "affiliation": "IMDEA Networks Institute",
     "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-04-07",
+    "affiliation_updated": "2026-06-07",
     "affiliation_history": [
       {
         "affiliation": "TU Darmstadt, Department of Computer Science, Germany",
         "source": "dblp",
+        "date": "2026-04-07"
+      },
+      {
+        "affiliation": "TU Darmstadt",
+        "source": "csrankings",
         "date": "2026-04-07"
       }
     ],
@@ -85066,10 +85071,16 @@
     "id": 5602,
     "name": "Simin Chen",
     "display_name": "Simin Chen",
-    "affiliation": "Columbia university",
-    "affiliation_source": "ae_committee",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
+    "affiliation": "George Mason University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-06-07",
+    "affiliation_history": [
+      {
+        "affiliation": "Columbia university",
+        "source": "ae_committee",
+        "date": "2026-04-07"
+      }
+    ],
     "external_ids": {
       "dblp_pid": null,
       "orcid": null,
