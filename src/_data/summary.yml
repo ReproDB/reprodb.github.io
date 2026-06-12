@@ -1,11 +1,12 @@
 schema_version: 0.2.0
-total_artifacts: 2900
-total_conferences: 13
-systems_artifacts: 786
-security_artifacts: 2114
+total_artifacts: 3031
+total_conferences: 15
+systems_artifacts: 861
+security_artifacts: 2170
 conferences_list:
 - ACSAC
 - ATC
+- CAIS
 - CHES
 - EUROSYS
 - FAST
@@ -14,11 +15,13 @@ conferences_list:
 - PETS
 - SC
 - SOSP
+- SP
 - SYSTEX
 - USENIXSEC
 - WOOT
 systems_conferences:
 - ATC
+- CAIS
 - EUROSYS
 - FAST
 - OSDI
@@ -29,8 +32,9 @@ security_conferences:
 - CHES
 - NDSS
 - PETS
+- SP
 - SYSTEX
 - USENIXSEC
 - WOOT
 year_range: 2017-2026
-last_updated: 2026-06-12 14:08:53 UTC
+last_updated: 2026-06-12 14:48:27 UTC

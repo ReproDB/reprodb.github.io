@@ -6,14 +6,14 @@ total_conferences: 67
 total_countries: 58
 total_continents: 6
 total_institutions: 480
-unique_members: 2502
-unique_members_systems: 1247
+unique_members: 2503
+unique_members_systems: 1248
 unique_members_security: 1348
 unique_members_both: 93
 recurring_chairs: 82
 top_countries:
 - name: United States
-  count: 2168
+  count: 2167
 - name: China
   count: 377
 - name: Germany
@@ -44,7 +44,7 @@ top_countries:
   count: 45
 top_countries_systems:
 - name: United States
-  count: 1300
+  count: 1299
 - name: China
   count: 276
 - name: Hong Kong
@@ -106,9 +106,9 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2238
+  count: 2237
 - name: Asia
-  count: 957
+  count: 954
 - name: Europe
   count: 797
 - name: Oceania
@@ -119,9 +119,9 @@ top_continents:
   count: 14
 top_continents_systems:
 - name: North America
-  count: 1327
+  count: 1326
 - name: Asia
-  count: 602
+  count: 599
 - name: Europe
   count: 291
 - name: Africa
@@ -161,7 +161,7 @@ top_institutions:
 - name: institute of parallel and distributed systems, shanghai jiao tong university
   count: 66
 - name: University of Michigan - Ann Arbor
-  count: 63
+  count: 62
 - name: Carnegie Mellon University
   count: 61
 - name: The Hong Kong University of Science and Technology
@@ -194,7 +194,7 @@ top_institutions_systems:
 - name: institute of parallel and distributed systems, shanghai jiao tong university
   count: 59
 - name: University of Michigan - Ann Arbor
-  count: 57
+  count: 56
 - name: Purdue University
   count: 53
 - name: Carnegie Mellon University
@@ -300,8 +300,8 @@ institution_timeline:
   systems: 112
   security: 134
 - year: 2025
-  total: 249
-  systems: 139
+  total: 248
+  systems: 138
   security: 169
 - year: 2026
   total: 231

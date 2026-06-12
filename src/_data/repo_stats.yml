@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1642
-  total_stars: 161049
-  total_forks: 23370
-  max_stars: 14353
-  max_forks: 2314
-  zenodo_repos: 922
-  total_views: 272166
-  total_downloads: 226125
-  avg_stars: 98.1
-  avg_forks: 14.2
-  median_stars: 7.0
+  github_repos: 1720
+  total_stars: 205413
+  total_forks: 31318
+  max_stars: 32231
+  max_forks: 6680
+  zenodo_repos: 983
+  total_views: 279794
+  total_downloads: 227510
+  avg_stars: 119.4
+  avg_forks: 18.2
+  median_stars: 6.0
   median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 26.0
+  p75_stars: 24.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-06-12 14:08:56 UTC
+  last_updated: 2026-06-12 14:49:37 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -413,20 +413,127 @@ by_conference:
     - available
     - functional
     - reproduced
-- name: EUROSYS
-  github_repos: 127
-  total_stars: 3964
-  total_forks: 942
-  avg_stars: 31.2
-  avg_forks: 7.4
-  median_stars: 7
-  median_forks: 2
-  p25_stars: 2.0
-  p75_stars: 22.0
+- name: CAIS
+  github_repos: 16
+  total_stars: 95
+  total_forks: 12
+  avg_stars: 5.9
+  avg_forks: 0.8
+  median_stars: 1
+  median_forks: 0
+  p25_stars: 0.5
+  p75_stars: 7.5
   p25_forks: 0.0
-  p75_forks: 6.0
-  max_stars: 597
-  max_forks: 277
+  p75_forks: 1.0
+  max_stars: 53
+  max_forks: 6
+  years:
+  - year: 2026
+    github_repos: 16
+    total_stars: 95
+    total_forks: 12
+    avg_stars: 5.9
+    avg_forks: 0.8
+    median_stars: 1.0
+    median_forks: 0.0
+    p25_stars: 0.2
+    p75_stars: 4.2
+    p25_forks: 0.0
+    p75_forks: 0.0
+  top_repos:
+  - title: Securing Agents With Tracked Capabilities
+    url: https://github.com/lampepfl/tacit
+    conference: CAIS
+    year: 2026
+    area: systems
+    stars: 53
+    forks: 6
+    description: TACIT — Tracked Agent Capabilities In Types
+    language: Scala
+    name: lampepfl/tacit
+    pushed_at: '2026-06-09T20:50:13Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer
+      Devices'
+    url: https://github.com/brave-experiments/AgentStop
+    conference: CAIS
+    year: 2026
+    area: systems
+    stars: 17
+    forks: 0
+    description: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer
+      Devices'
+    language: Python
+    name: brave-experiments/AgentStop
+    pushed_at: '2026-06-11T23:06:52Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'Glia: A Human-Inspired AI for Automated Systems Design and Optimization'
+    url: https://github.com/mit-nms/Engram
+    conference: CAIS
+    year: 2026
+    area: systems
+    stars: 10
+    forks: 4
+    description: '[ACM CAIS 2026] Improving Coherence and Persistence in Agentic AI
+      for System Optimization'
+    language: Jupyter Notebook
+    name: mit-nms/Engram
+    pushed_at: '2026-05-27T19:13:23Z'
+    badges:
+    - available
+    - functional
+  - title: Improving Coherence and Persistence in Agentic AI for System Optimization
+    url: https://github.com/mit-nms/Engram
+    conference: CAIS
+    year: 2026
+    area: systems
+    stars: 10
+    forks: 4
+    description: '[ACM CAIS 2026] Improving Coherence and Persistence in Agentic AI
+      for System Optimization'
+    language: Jupyter Notebook
+    name: mit-nms/Engram
+    pushed_at: '2026-05-27T19:13:23Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
+      Copywriting'
+    url: https://github.com/yangalan123/AI-Realtor-Codebase
+    conference: CAIS
+    year: 2026
+    area: systems
+    stars: 5
+    forks: 0
+    description: 'Official Codebase for "AI Reatlor: Towards Grounded Persuasive Language
+      Generation for Automated Copywriting"'
+    language: Python
+    name: yangalan123/AI-Realtor-Codebase
+    pushed_at: '2026-05-11T03:44:54Z'
+    badges:
+    - available
+    - functional
+- name: EUROSYS
+  github_repos: 174
+  total_stars: 14465
+  total_forks: 2087
+  avg_stars: 83.1
+  avg_forks: 12.0
+  median_stars: 5.5
+  median_forks: 1.0
+  p25_stars: 2.0
+  p75_stars: 18.0
+  p25_forks: 0.0
+  p75_forks: 4.0
+  max_stars: 10080
+  max_forks: 1094
   years:
   - year: 2021
     github_repos: 22
@@ -488,7 +595,34 @@ by_conference:
     p75_stars: 16.0
     p25_forks: 0.0
     p75_forks: 5.0
+  - year: 2026
+    github_repos: 47
+    total_stars: 10501
+    total_forks: 1145
+    avg_stars: 223.4
+    avg_forks: 24.4
+    median_stars: 2
+    median_forks: 0
+    p25_stars: 1.0
+    p75_stars: 6.0
+    p25_forks: 0.0
+    p75_forks: 2.0
   top_repos:
+  - title: 'SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference'
+    url: https://github.com/skypilot-org/skypilot
+    conference: EUROSYS
+    year: 2026
+    area: systems
+    stars: 10080
+    forks: 1094
+    description: Run, manage, and scale AI workloads on any AI infrastructure. Use
+      one system to access & manage all AI compute (Kubernet
+    language: Python
+    name: skypilot-org/skypilot
+    pushed_at: '2026-06-12T05:33:48Z'
+    badges:
+    - available
+    - functional
   - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
     url: https://github.com/andromeda/pash
     conference: EUROSYS
@@ -561,48 +695,22 @@ by_conference:
     - Muthian Sivathanu
     - Ramachandran Ramjee
     - Nipun Kwatra
-  - title: 'D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles'
-    url: https://github.com/erdos-project/erdos
+  - title: Efficient and Adaptable Overlapping for Computation and Communication via
+      Signaling and Reordering
+    url: https://github.com/infinigence/FlashOverlap
     conference: EUROSYS
-    year: 2022
+    year: 2026
     area: systems
-    stars: 208
-    forks: 48
-    description: Dataflow system for building self-driving car and robotics applications.
-    language: Rust
-    name: erdos-project/erdos
-    pushed_at: '2022-08-27T19:25:37Z'
+    stars: 237
+    forks: 15
+    description: A lightweight design for computation-communication overlap.
+    language: Python
+    name: infinigence/FlashOverlap
+    pushed_at: '2026-01-20T16:21:11Z'
     badges:
     - available
     - functional
     - reproduced
-    authors:
-    - Ionel Gog
-    - Sukrit Kalra
-    - Peter Schafhalter
-    - Joseph E. Gonzalez
-    - Ion Stoica
-  - title: Empowering WebAssembly with Thin Kernel Interfaces
-    url: https://github.com/arjunr2/WALI
-    conference: EUROSYS
-    year: 2025
-    area: systems
-    stars: 191
-    forks: 20
-    description: A low-level virtualization interface for Linux-based systems using
-      WebAssembly
-    language: C
-    name: Wasm-Thin-Kernel-Interfaces/WALI
-    pushed_at: '2026-05-31T03:35:47Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Arjun Ramesh
-    - Tianshu Huang
-    - Ben L. Titzer
-    - Anthony Rowe 0001
 - name: NDSS
   github_repos: 74
   total_stars: 4123
@@ -1288,6 +1396,104 @@ by_conference:
     - Yu Jiang 0001
     - Ting Chen 0002
     - Aiguo Cui
+- name: SP
+  github_repos: 15
+  total_stars: 33768
+  total_forks: 6791
+  avg_stars: 2251.2
+  avg_forks: 452.7
+  median_stars: 4
+  median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 31.0
+  p25_forks: 0.0
+  p75_forks: 2.0
+  max_stars: 32231
+  max_forks: 6680
+  years:
+  - year: 2026
+    github_repos: 15
+    total_stars: 33768
+    total_forks: 6791
+    avg_stars: 2251.2
+    avg_forks: 452.7
+    median_stars: 4
+    median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 31.0
+    p25_forks: 0.0
+    p75_forks: 2.0
+  top_repos:
+  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
+      Auditory Prompt Injection
+    url: https://github.com/facebookresearch/fairseq
+    conference: SP
+    year: 2026
+    area: security
+    stars: 32231
+    forks: 6680
+    description: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+    language: Python
+    name: facebookresearch/fairseq
+    pushed_at: '2025-09-30T11:16:06Z'
+    badges: &id001
+    - available
+  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
+      Auditory Prompt Injection
+    url: https://github.com/0nutation/SpeechGPT
+    conference: SP
+    year: 2026
+    area: security
+    stars: 1404
+    forks: 96
+    description: 'SpeechGPT Series: Speech Large Language Models'
+    language: Python
+    name: 0nutation/SpeechGPT
+    pushed_at: '2024-07-22T10:08:09Z'
+    badges: *id001
+  - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
+    url: https://github.com/comsec-group/phoenix
+    conference: SP
+    year: 2026
+    area: security
+    stars: 70
+    forks: 9
+    description: 'Artifacts for "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting
+      Synchronization" (IEEE S&P ''26)'
+    language: Python
+    name: comsec-group/phoenix
+    pushed_at: '2026-05-14T19:57:38Z'
+    badges:
+    - reproduced
+  - title: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing
+      LLM-Augmented Harnesses'
+    url: https://github.com/purseclab/deepSURF
+    conference: SP
+    year: 2026
+    area: security
+    stars: 31
+    forks: 2
+    description: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through
+      Fuzzing LLM-Augmented Harnesses'
+    language: LLVM
+    name: purseclab/deepSURF
+    pushed_at: '2025-11-28T22:32:00Z'
+    badges:
+    - reproduced
+  - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
+    url: https://github.com/Yuuoniy/SpecAuditor
+    conference: SP
+    year: 2026
+    area: security
+    stars: 15
+    forks: 0
+    description: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug
+      Detection (S&P 2026)'
+    language: HTML
+    name: Yuuoniy/SpecAuditor
+    pushed_at: '2026-06-08T13:31:25Z'
+    badges:
+    - reproduced
 - name: SYSTEX
   github_repos: 17
   total_stars: 60
@@ -1921,39 +2127,39 @@ by_year:
   max_stars: 4685
   max_forks: 902
 - year: 2026
-  github_repos: 123
-  total_stars: 4883
-  total_forks: 767
-  avg_stars: 39.7
-  avg_forks: 6.2
+  github_repos: 201
+  total_stars: 49247
+  total_forks: 8715
+  avg_stars: 245.0
+  avg_forks: 43.4
   median_stars: 1
   median_forks: 0
   p25_stars: 0.0
-  p75_stars: 4.0
+  p75_stars: 5.0
   p25_forks: 0.0
   p75_forks: 1.0
-  max_stars: 1386
-  max_forks: 182
+  max_stars: 32231
+  max_forks: 6680
 by_area:
 - name: systems
-  github_repos: 483
-  total_stars: 72004
-  total_forks: 10288
-  median_stars: 16
+  github_repos: 547
+  total_stars: 82610
+  total_forks: 11449
+  median_stars: 12
   median_forks: 3
-  p25_stars: 5.0
-  p75_stars: 46.0
-  p25_forks: 1.0
-  p75_forks: 8.0
+  p25_stars: 3.0
+  p75_stars: 41.0
+  p25_forks: 0.0
+  p75_forks: 7.0
   max_stars: 14353
 - name: security
-  github_repos: 1171
-  total_stars: 111428
-  total_forks: 16114
-  median_stars: 5
-  median_forks: 1
+  github_repos: 1186
+  total_stars: 145196
+  total_forks: 22905
+  median_stars: 5.0
+  median_forks: 1.0
   p25_stars: 1.0
   p75_stars: 19.0
   p25_forks: 0.0
   p75_forks: 4.0
-  max_stars: 13393
+  max_stars: 32231

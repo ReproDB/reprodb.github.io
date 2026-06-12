@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-06-12 14:10:38 UTC",
-    "total_urls": 2585,
-    "accessible_urls": 2504,
+    "checked_at": "2026-06-12 14:51:14 UTC",
+    "total_urls": 2716,
+    "accessible_urls": 2632,
     "accessibility_pct": 96.9,
     "by_platform": {
       "Bitbucket": {
@@ -11,18 +11,18 @@
         "pct": 100.0
       },
       "DOI-other": {
-        "total": 15,
-        "accessible": 14,
-        "pct": 93.3
+        "total": 16,
+        "accessible": 15,
+        "pct": 93.8
       },
       "Figshare": {
-        "total": 37,
-        "accessible": 36,
-        "pct": 97.3
+        "total": 38,
+        "accessible": 37,
+        "pct": 97.4
       },
       "GitHub": {
-        "total": 1311,
-        "accessible": 1278,
+        "total": 1377,
+        "accessible": 1342,
         "pct": 97.5
       },
       "GitLab": {
@@ -31,25 +31,25 @@
         "pct": 100.0
       },
       "Zenodo": {
-        "total": 886,
-        "accessible": 878,
-        "pct": 99.1
+        "total": 947,
+        "accessible": 939,
+        "pct": 99.2
       },
       "other": {
-        "total": 313,
-        "accessible": 275,
-        "pct": 87.9
+        "total": 315,
+        "accessible": 276,
+        "pct": 87.6
       }
     },
     "by_area": {
       "security": {
-        "total": 2060,
-        "accessible": 2001,
-        "pct": 97.1
+        "total": 2116,
+        "accessible": 2057,
+        "pct": 97.2
       },
       "systems": {
-        "total": 525,
-        "accessible": 503,
+        "total": 600,
+        "accessible": 575,
         "pct": 95.8
       }
     },
@@ -100,9 +100,9 @@
         "pct": 99.0
       },
       "2026": {
-        "total": 331,
-        "accessible": 329,
-        "pct": 99.4
+        "total": 462,
+        "accessible": 457,
+        "pct": 98.9
       }
     },
     "by_year_area": {
@@ -201,9 +201,14 @@
       },
       "2026": {
         "security": {
-          "total": 331,
-          "accessible": 329,
-          "pct": 99.4
+          "total": 387,
+          "accessible": 385,
+          "pct": 99.5
+        },
+        "systems": {
+          "total": 75,
+          "accessible": 72,
+          "pct": 96.0
         }
       }
     },
@@ -463,29 +468,29 @@
           "pct": 100.0
         },
         "DOI-other": {
-          "total": 5,
-          "accessible": 5,
+          "total": 6,
+          "accessible": 6,
           "pct": 100.0
         },
         "Figshare": {
-          "total": 7,
-          "accessible": 7,
+          "total": 8,
+          "accessible": 8,
           "pct": 100.0
         },
         "GitHub": {
-          "total": 61,
-          "accessible": 61,
-          "pct": 100.0
+          "total": 127,
+          "accessible": 125,
+          "pct": 98.4
         },
         "Zenodo": {
-          "total": 247,
-          "accessible": 245,
-          "pct": 99.2
+          "total": 308,
+          "accessible": 306,
+          "pct": 99.4
         },
         "other": {
-          "total": 10,
-          "accessible": 10,
-          "pct": 100.0
+          "total": 12,
+          "accessible": 11,
+          "pct": 91.7
         }
       }
     },
@@ -500,15 +505,20 @@
         "accessible": 125,
         "pct": 92.6
       },
+      "CAIS": {
+        "total": 21,
+        "accessible": 19,
+        "pct": 90.5
+      },
       "CHES": {
         "total": 145,
         "accessible": 145,
         "pct": 100.0
       },
       "EUROSYS": {
-        "total": 192,
-        "accessible": 190,
-        "pct": 99.0
+        "total": 246,
+        "accessible": 243,
+        "pct": 98.8
       },
       "NDSS": {
         "total": 209,
@@ -528,6 +538,11 @@
       "SOSP": {
         "total": 25,
         "accessible": 25,
+        "pct": 100.0
+      },
+      "SP": {
+        "total": 56,
+        "accessible": 56,
         "pct": 100.0
       },
       "SYSTEX": {
@@ -1896,6 +1911,216 @@
       "url_key": "repository_url",
       "url": "https://github.com/TNET-SNU/mmTLS",
       "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "AI Realtor: Towards Grounded Persuasive Language Generation for Automated Copywriting",
+      "url_key": "artifact_url",
+      "url": "https://github.com/yangalan123/AI-Realtor-Codebase",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Robust Batch-Level Query Routing for Large Language Models under Cost and Capacity Constraints",
+      "url_key": "artifact_url",
+      "url": "https://github.com/CoreAI-Optimization/robust-llm-router",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "CAMI: Cost-Aware Agent-Guided Multi-Indexing for Semantic Retrieval",
+      "url_key": "artifact_url",
+      "url": "n/a",
+      "platform": "other",
+      "accessible": false
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Glia: A Human-Inspired AI for Automated Systems Design and Optimization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mit-nms/Engram",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "OpaqueToolsBench: Learning Nuances of Tool Behavior Through Interaction",
+      "url_key": "artifact_url",
+      "url": "https://github.com/shallinan1/OpaqueToolsBench/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Robust Agent Compensation (RAC): Teaching AI Agents to Compensate",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19753969",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "ViBench: A Benchmark on Vibe Coding",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19881536",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices",
+      "url_key": "artifact_url",
+      "url": "https://github.com/brave-experiments/AgentStop",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound LLM Agent Design in an Adversarial POMDP",
+      "url_key": "artifact_url",
+      "url": "https://github.com/isbogdanov/agent-design-study",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric Tool Calling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/megagonlabs/cais26-planning-horizon",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Exploring and Developing a Pre-Model Safeguard with Draft Models",
+      "url_key": "artifact_url",
+      "url": "https://github.com/standbyme/proj-jailbreak-sandbox",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+      "url_key": "artifact_url",
+      "url": "https://github.com/isbogdanov/forge-protocol",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "How To Steer Your Multi-Agent System: Human-LLM Collaborative Planning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/megagonlabs/ambipom",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Improving Coherence and Persistence in Agentic AI for System Optimization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mit-nms/Engram",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Learning from Supervision with Semantic and Episodic Memory: A Reflective Approach to Agent Adaptation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/megagonlabs/critique-learning",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "optimize_anything: Unified Text Optimization can Outperform Specialized Systems",
+      "url_key": "artifact_url",
+      "url": "github.com/lukeleeai/optimize_anything_artifact",
+      "platform": "GitHub",
+      "accessible": false
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Retrieval-Augmented LLMs for Security Incident Analysis",
+      "url_key": "artifact_url",
+      "url": "https://github.com/neu-nds2/llm-sec-incident-analysis",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Securing Agents With Tracked Capabilities",
+      "url_key": "artifact_url",
+      "url": "https://github.com/lampepfl/tacit",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+      "url_key": "artifact_url",
+      "url": "https://github.com/varshaprasad96/ogx-evals",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Vista: Verifier-in-the-Loop Agentic Reinforcement Learning for Quantum Program Synthesis",
+      "url_key": "artifact_url",
+      "url": "https://github.com/benyucong/rl-quantum",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "CAIS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Who Decides the Trade-off? Resolution Policy as Delegation Governance in Autonomous Agents",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20043263",
+      "platform": "Zenodo",
       "accessible": true
     },
     {
@@ -3815,6 +4040,546 @@
       "title": "NeuStream: Bridging Deep Learning Serving and Stream Processing",
       "url_key": "artifact_url",
       "url": "https://github.com/Fjallraven-hc/NeuStream-AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "OptiLog: Assigning Roles in Byzantine Consensus",
+      "url_key": "artifact_url",
+      "url": "[https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts)",
+      "platform": "GitHub",
+      "accessible": false
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO",
+      "url_key": "artifact_url",
+      "url": "https://github.com/intellabs/tierscape",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "STAlloc: Enhancing Memory Efficiency in Large-Scale Model Training with Spatio-Temporal Planning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/infinigence/STAlloc",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Scheduling Cloud Block Storage Proactively and Reactively with Omar",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Master-Chen-Xin-Qi/EuroSys26_AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "CSnake: Detecting Self-Sustaining Cascading Failure via Causal Stitching of Fault Propagations",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Purdue-PFL/CSnake",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading",
+      "url_key": "artifact_url",
+      "url": "https://github.com/IntelliSys-Lab/FineMoE-EuroSys26",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "MinatoLoader: Accelerating Machine Learning Training Through Efficient Data Preprocessing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Rahm-no/MinatoLoader",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "2DIO: Configurable and Cache-Accurate Trace Generation for Storage Benchmarking",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Effygal/trace-gen",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Canopy: Property-Driven Learning for Congestion Control",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ldos-project/Canopy",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "ECCB: Boosting Block Propagation of Blockchain with Erasure-Coded Compact Block",
+      "url_key": "artifact_url",
+      "url": "https://github.com/cbysal/eccbae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "iRoute: Local Routing Table-based Workflow Management in Serverless Computing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/tanksys/iRoute",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual Machines",
+      "url_key": "artifact_url",
+      "url": "https://github.com/shina-lab/artifact_NecoFuzz",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "PatternSketch: General and Runtime Reconfigurable Time-series Network Traffic Pattern Detection",
+      "url_key": "artifact_url",
+      "url": "https://github.com/duyang92/patternsketch/",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Chimera: Transparent and High-Performance ISAX Heterogeneous Computing via Binary Rewriting",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Eurosys26p57/Chimera",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference",
+      "url_key": "artifact_url",
+      "url": "https://github.com/skypilot-org/skypilot",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Untangling GPU Power Consumption: Job-Level Inference in Cloud Shared Settings",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/16981547",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "SmartNS: Enabling Line-rate and Flexible Network Stack with SmartNIC",
+      "url_key": "artifact_url",
+      "url": "https://github.com/RC4ML/SmartNS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Not A DPU in Name Only! Unleashing RDMA-capable DPUs in Multi-Tenant Serverless Clouds with NADINO",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ucr-serverless/NADINO.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Rose: Reproducing External-Fault-Induced Failures in Distributed Systems with Lighweight Instrumentation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sebastiaoamaro/rose",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design",
+      "url_key": "artifact_url",
+      "url": "https://github.com/sjtu-epcc/arena/tree/ae-eurosys",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Queqiao: A Dynamic Binary Translation Framework for Efficient x86-64 Emulation on RISC-V",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/18611831",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "RoPeerTo: A Datacenter-Scale Architecture for Peer-To-Peer DMA between GPUs and FPGAs",
+      "url_key": "artifact_url",
+      "url": "https://github.com/necst/ropeerto",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "A Logically Disaggregated Cache for Replicated Storage Systems",
+      "url_key": "artifact_url",
+      "url": "https://github.com/dassl-uiuc/Logically-Disaggregated-Caches",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Lssyes/harp",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Efficient ML Model Updates for Deeply Embedded Microcontrollers",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ShishirPatil/minerva",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Serverless Replication of Dynamic Objects across Clouds and Regions",
+      "url_key": "artifact_url",
+      "url": "https://github.com/pkusys/LambdaReplicaCLI",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "In-Production Characterization of an Open Source Serverless Platform and New Scaling Strategies",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ubc-cirrus-lab/femux",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "SCServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding",
+      "url_key": "artifact_url",
+      "url": "https://github.com/zikun-li/AdaServe-Artifact-Evaluation",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "DROPS: Managing Resource Pools in a Large-Scale Commercial Serverless Platform",
+      "url_key": "artifact_url",
+      "url": "https://github.com/UWASL/DROPS.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "PASS: A Power Adaptive Storage Server",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ddxxdd-code/PASS/tree/main",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "MTTM: Dynamic Fast Memory Partitioning with Bandwidth Optimization for Multi-tenant Cloud",
+      "url_key": "artifact_url",
+      "url": "https://github.com/casys-kaist/MTTM_ae_EuroSys26",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Sylvia-16/FlashPS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Fast and Parallelized Crash Consistency with Opportunistic Order Elimination",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Straho-Chen/ChimeraFS",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Turnstile: Hybrid Information Flow Control Framework for Managing Privacy in Internet-of-Things Applications",
+      "url_key": "artifact_url",
+      "url": "https://github.com/DependableSystemsLab/Turnstile-EuroSys26",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17054270",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "BASK: Batch And SmartNIC-offloaded KSM",
+      "url_key": "artifact_url",
+      "url": "https://github.com/casys-kaist/bask_ae_eurosys26",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Fix: externalizing network I/O in serverless computing",
+      "url_key": "artifact_url",
+      "url": "https://github.com/fix-project/fix",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "REPS: Recycled Entropy Packet Spraying for Adaptive Load Balancing and Failure Mitigation",
+      "url_key": "artifact_url",
+      "url": "https://github.com/tommasobo/REPS_EuroSys_Artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "PaCaR: Improved Buffered I/O Locality on NUMA Systems with Page Cache Replication",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jeromecst/pacar_artifact_eurosys_26",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "LoRAFusion: Efficient LoRA Fine-Tuning for LLMs",
+      "url_key": "artifact_url",
+      "url": "https://github.com/CentML/LoRAFusion",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "GeDES: GPU-Driven Discrete Event Network Simulator",
+      "url_key": "artifact_url",
+      "url": "https://github.com/mobinets/GeDES",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "LightDSA: Enabling Efficient DSA Through Hardware-Aware Transparent Optimization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/izumihanako/LightDSA-AE",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Demystifying Serverless Costs on Public Platforms: Bridging Billing, Architecture, and OS Scheduling",
+      "url_key": "artifact_url",
+      "url": "https://github.com/ubc-cirrus-lab/demystifying-serverless-costs",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering",
+      "url_key": "artifact_url",
+      "url": "https://github.com/infinigence/FlashOverlap",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Reducing the GPU Memory Bottleneck with Lossless Compression for ML",
+      "url_key": "artifact_url",
+      "url": "https://github.com/AKKamath/InvariantBitPacking",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Prediction-Informed Power Management for General-Purpose Compute Servers",
+      "url_key": "artifact_url",
+      "url": "https://github.com/jonggyup/PIP",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "LCMP: Distributed Long-Haul Cost-Aware Multi-Path Routing for Inter-Datacenter RDMA Networks",
+      "url_key": "artifact_url",
+      "url": "https://github.com/dyyuCS/LCMP",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "On-device Semantic Selection Made Low Latency and Memory Efficient with Monolithic Forwarding",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18809731",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "A Case for Elastic Quantum Error Correction Decoders",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18555903",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning",
+      "url_key": "artifact_url",
+      "url": "https://github.com/grueyg/swiftfl_ae",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "TCO-driven Storage Provisioning for Exascale Data Centers",
+      "url_key": "artifact_url",
+      "url": "https://github.com/Thesys-lab/storage-tco-eurosys-2026-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Proteus: Heterogeneous FPGA Virtualization",
+      "url_key": "artifact_url",
+      "url": "https://github.com/TUM-DSE/proteus.git",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "Suika: Efficient and High-quality Re-scheduling of 3D-parallelized LLM Training Jobs in Shared Clusters",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/18617527",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2026,
+      "area": "systems",
+      "title": "FicusDB: Scalable Multi-Versioned Authenticated Storage",
+      "url_key": "artifact_url",
+      "url": "https://github.com/0x486F626F/ficusdb-evaluation",
       "platform": "GitHub",
       "accessible": true
     },
@@ -16036,6 +16801,566 @@
       "url_key": "artifact_url",
       "url": "https://github.com/najeebjebreel/lira_analysis/tree/193896f1957db7ab6decc32883d913780c868e4e",
       "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "The Secrets Must Not Flow: Scaling Security Verification to Large Codebases",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17099763",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17114340",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Towards Practical Zero-Knowledge Proof for PSPACE",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17381317",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17232400",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17248489",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.48804/JTDMSJ",
+      "platform": "DOI-other",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17338383",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Fizzle: A Framework for Deterministic and Reproduced Network Fuzzing",
+      "url_key": "artifact_url",
+      "url": "https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/determsim/fizzle-artifact",
+      "platform": "GitHub",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17374123",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17115101",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17364183",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17368240",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17376076",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17254163",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol under the LiDO-DAG Framework",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17345693",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17345506",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "InsPIRe: Communication-Efficient PIR with Server-side Preprocessing",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17361471",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17163312",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17369838",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17361618",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17230472",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Practical Anonymous Two-Party Gradient Boosting Decision Tree",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17373936",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17364307",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Artifact for \"Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis\"",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17348614",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "CenRL: A Framework for Performing Intelligent Censorship Measurements",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17382167",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Sealing the Window: Efficient Tamper Protection for Provenance Logs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17283436",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17366780",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "On the (In)Security of Loading Machine Learning Models",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19224108",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Chorus: Secret Recovery with Ephemeral Client Committees",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19480357",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19004741",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Fractal: An Operating System Designed for Microarchitecture Reverse Engineering",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19556693",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19490033",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "KeyChaser: Unveiling API Keys in Browser Extensions",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.6084/m9.figshare.31859023",
+      "platform": "Figshare",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "The Interplay of Effective Model Checking and Secure Processor Design: From Insights to Practice",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19270883",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism between AES and Polynomial Hash",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18993067",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19480020",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19015208",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19565490",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "On the Detectability of Active Gradient Inversion Attacks in Federated Learning",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19479725",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from Modern GPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19488504",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19309781",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Papers, Please: A First Look at Age Verification on the Web",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19515393",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19478814",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19518987",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "PLATYPUS: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19501267",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Scalable Registration-Based Encryption from Lattices",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19479490",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Acoustic Hijacking Attacks on Gimbal-Stabilized Visual Tracking Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19372980",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "The Person Behind the Sound: Demystifying Audio Private Attribute Profiling via Multimodal Large Language Models",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19103789",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "TREVEX: A Black-Box Detection Framework For Generic Transient Execution Vulnerabilities",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19489147",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19498819",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19476314",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19127138",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Efficient Fuzzy Private Set Intersection from Secret-shared OPRF",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19478220",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol",
+      "url_key": "artifact_url",
+      "url": "https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/CD30CC",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "Sealing the Window: Efficient Tamper Protection for Provenance Logs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19371297",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "SP",
+      "year": 2026,
+      "area": "security",
+      "title": "It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.19009015",
+      "platform": "Zenodo",
       "accessible": true
     },
     {

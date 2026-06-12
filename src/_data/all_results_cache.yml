@@ -622,6 +622,81 @@ atc2025:
 - title: 'μEFI: A Microkernel-Style UEFI with Isolation and Transparency'
   paper_url: https://www.usenix.org/system/files/atc25-chen-le.pdf
   badges: available,functional,reproduced
+cais2026:
+- title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
+    Copywriting'
+  artifact_url: https://github.com/yangalan123/AI-Realtor-Codebase
+  badges: available,functional
+- title: Robust Batch-Level Query Routing for Large Language Models under Cost and
+    Capacity Constraints
+  artifact_url: https://github.com/CoreAI-Optimization/robust-llm-router
+  badges: available,functional
+- title: 'CAMI: Cost-Aware Agent-Guided Multi-Indexing for Semantic Retrieval'
+  artifact_url: n/a
+  badges: available,functional
+- title: 'Glia: A Human-Inspired AI for Automated Systems Design and Optimization'
+  artifact_url: https://github.com/mit-nms/Engram
+  badges: available,functional
+- title: 'OpaqueToolsBench: Learning Nuances of Tool Behavior Through Interaction'
+  artifact_url: https://github.com/shallinan1/OpaqueToolsBench/
+  badges: available,functional
+- title: 'Robust Agent Compensation (RAC): Teaching AI Agents to Compensate'
+  artifact_url: https://zenodo.org/records/19753969
+  badges: available,functional
+- title: 'ViBench: A Benchmark on Vibe Coding'
+  artifact_url: https://zenodo.org/records/19881536
+  badges: available,functional
+- title: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer
+    Devices'
+  artifact_url: https://github.com/brave-experiments/AgentStop
+  badges: available,functional,reproduced
+- title: 'Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound
+    LLM Agent Design in an Adversarial POMDP'
+  artifact_url: https://github.com/isbogdanov/agent-design-study
+  badges: available,functional,reproduced
+- title: Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric
+    Tool Calling
+  artifact_url: https://github.com/megagonlabs/cais26-planning-horizon
+  badges: available,functional,reproduced
+- title: Exploring and Developing a Pre-Model Safeguard with Draft Models
+  artifact_url: https://github.com/standbyme/proj-jailbreak-sandbox
+  badges: available,functional,reproduced
+- title: 'FORGE: Self-Evolving Agent Memory With No Weight Updates via Population
+    Broadcast'
+  artifact_url: https://github.com/isbogdanov/forge-protocol
+  badges: available,functional,reproduced
+- title: 'How To Steer Your Multi-Agent System: Human-LLM Collaborative Planning'
+  artifact_url: https://github.com/megagonlabs/ambipom
+  badges: available,functional,reproduced
+- title: Improving Coherence and Persistence in Agentic AI for System Optimization
+  artifact_url: https://github.com/mit-nms/Engram
+  badges: available,functional,reproduced
+- title: 'Learning from Supervision with Semantic and Episodic Memory: A Reflective
+    Approach to Agent Adaptation'
+  artifact_url: https://github.com/megagonlabs/critique-learning
+  badges: available,functional,reproduced
+- title: 'optimize_anything: Unified Text Optimization can Outperform Specialized
+    Systems'
+  artifact_url: github.com/lukeleeai/optimize_anything_artifact
+  badges: available,functional,reproduced
+- title: Retrieval-Augmented LLMs for Security Incident Analysis
+  artifact_url: https://github.com/neu-nds2/llm-sec-incident-analysis
+  badges: available,functional,reproduced
+- title: Securing Agents With Tracked Capabilities
+  artifact_url: https://github.com/lampepfl/tacit
+  badges: available,functional,reproduced
+- title: 'Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and
+    Tool Use'
+  artifact_url: https://github.com/varshaprasad96/ogx-evals
+  badges: available,functional,reproduced
+- title: 'Vista: Verifier-in-the-Loop Agentic Reinforcement Learning for Quantum Program
+    Synthesis'
+  artifact_url: https://github.com/benyucong/rl-quantum
+  badges: available,functional,reproduced
+- title: Who Decides the Trade-off? Resolution Policy as Delegation Governance in
+    Autonomous Agents
+  artifact_url: https://doi.org/10.5281/zenodo.20043263
+  badges: available,functional,reproduced
 eurosys2021:
 - title: Accelerating Graph Sampling for Graph Machine Learning using GPUs
   badges: available,functional,reproduced
@@ -1312,6 +1387,193 @@ eurosys2025:
 - title: 'NeuStream: Bridging Deep Learning Serving and Stream Processing'
   artifact_url: https://github.com/Fjallraven-hc/NeuStream-AE
   badges: available,functional
+eurosys2026:
+- title: 'OptiLog: Assigning Roles in Byzantine Consensus'
+  artifact_url: '[https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts)'
+  badges: available,functional
+- title: 'TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO'
+  artifact_url: https://github.com/intellabs/tierscape
+  badges: available,functional
+- title: 'STAlloc: Enhancing Memory Efficiency in Large-Scale Model Training with
+    Spatio-Temporal Planning'
+  artifact_url: https://github.com/infinigence/STAlloc
+  badges: available,functional
+- title: Scheduling Cloud Block Storage Proactively and Reactively with Omar
+  artifact_url: https://github.com/Master-Chen-Xin-Qi/EuroSys26_AE
+  badges: available,functional
+- title: 'CSnake: Detecting Self-Sustaining Cascading Failure via Causal Stitching
+    of Fault Propagations'
+  artifact_url: https://github.com/Purdue-PFL/CSnake
+  badges: available,functional
+- title: Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained
+    Expert Offloading
+  artifact_url: https://github.com/IntelliSys-Lab/FineMoE-EuroSys26
+  badges: available,functional
+- title: 'MinatoLoader: Accelerating Machine Learning Training Through Efficient Data
+    Preprocessing'
+  artifact_url: https://github.com/Rahm-no/MinatoLoader
+  badges: available,functional
+- title: '2DIO: Configurable and Cache-Accurate Trace Generation for Storage Benchmarking'
+  artifact_url: https://github.com/Effygal/trace-gen
+  badges: available,functional
+- title: 'Canopy: Property-Driven Learning for Congestion Control'
+  artifact_url: https://github.com/ldos-project/Canopy
+  badges: available,functional
+- title: 'ECCB: Boosting Block Propagation of Blockchain with Erasure-Coded Compact
+    Block'
+  artifact_url: https://github.com/cbysal/eccbae
+  badges: available,functional
+- title: 'iRoute: Local Routing Table-based Workflow Management in Serverless Computing'
+  artifact_url: https://github.com/tanksys/iRoute
+  badges: available,functional
+- title: 'NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual
+    Machines'
+  artifact_url: https://github.com/shina-lab/artifact_NecoFuzz
+  badges: available,functional
+- title: 'PatternSketch: General and Runtime Reconfigurable Time-series Network Traffic
+    Pattern Detection'
+  artifact_url: https://github.com/duyang92/patternsketch/
+  badges: available,functional
+- title: 'Chimera: Transparent and High-Performance ISAX Heterogeneous Computing via
+    Binary Rewriting'
+  artifact_url: https://github.com/Eurosys26p57/Chimera
+  badges: available,functional
+- title: 'SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference'
+  artifact_url: https://github.com/skypilot-org/skypilot
+  badges: available,functional
+- title: 'Untangling GPU Power Consumption: Job-Level Inference in Cloud Shared Settings'
+  artifact_url: https://zenodo.org/records/16981547
+  badges: available,functional
+- title: 'SmartNS: Enabling Line-rate and Flexible Network Stack with SmartNIC'
+  artifact_url: https://github.com/RC4ML/SmartNS
+  badges: available,functional
+- title: Not A DPU in Name Only! Unleashing RDMA-capable DPUs in Multi-Tenant Serverless
+    Clouds with NADINO
+  artifact_url: https://github.com/ucr-serverless/NADINO.git
+  badges: available,functional
+- title: 'Rose: Reproducing External-Fault-Induced Failures in Distributed Systems
+    with Lighweight Instrumentation'
+  artifact_url: https://github.com/sebastiaoamaro/rose
+  badges: available,functional
+- title: 'Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive
+    Parallelism Co-Design'
+  artifact_url: https://github.com/sjtu-epcc/arena/tree/ae-eurosys
+  badges: available,functional
+- title: 'Queqiao: A Dynamic Binary Translation Framework for Efficient x86-64 Emulation
+    on RISC-V'
+  artifact_url: https://zenodo.org/records/18611831
+  badges: available,functional
+- title: 'RoPeerTo: A Datacenter-Scale Architecture for Peer-To-Peer DMA between GPUs
+    and FPGAs'
+  artifact_url: https://github.com/necst/ropeerto
+  badges: available,functional
+- title: A Logically Disaggregated Cache for Replicated Storage Systems
+  artifact_url: https://github.com/dassl-uiuc/Logically-Disaggregated-Caches
+  badges: available,functional
+- title: 'HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters'
+  artifact_url: https://github.com/Lssyes/harp
+  badges: available,functional
+- title: Efficient ML Model Updates for Deeply Embedded Microcontrollers
+  artifact_url: https://github.com/ShishirPatil/minerva
+  badges: available,functional
+- title: Serverless Replication of Dynamic Objects across Clouds and Regions
+  artifact_url: https://github.com/pkusys/LambdaReplicaCLI
+  badges: available,functional,reproduced
+- title: In-Production Characterization of an Open Source Serverless Platform and
+    New Scaling Strategies
+  artifact_url: https://github.com/ubc-cirrus-lab/femux
+  badges: available,functional,reproduced
+- title: 'SCServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative
+    Decoding'
+  artifact_url: https://github.com/zikun-li/AdaServe-Artifact-Evaluation
+  badges: available,functional,reproduced
+- title: 'DROPS: Managing Resource Pools in a Large-Scale Commercial Serverless Platform'
+  artifact_url: https://github.com/UWASL/DROPS.git
+  badges: available,functional,reproduced
+- title: 'PASS: A Power Adaptive Storage Server'
+  artifact_url: https://github.com/ddxxdd-code/PASS/tree/main
+  badges: available,functional,reproduced
+- title: 'MTTM: Dynamic Fast Memory Partitioning with Bandwidth Optimization for Multi-tenant
+    Cloud'
+  artifact_url: https://github.com/casys-kaist/MTTM_ae_EuroSys26
+  badges: available,functional,reproduced
+- title: 'FlashPS: Efficient Generative Image Editing with Mask-aware Caching and
+    Scheduling'
+  artifact_url: https://github.com/Sylvia-16/FlashPS
+  badges: available,functional,reproduced
+- title: Fast and Parallelized Crash Consistency with Opportunistic Order Elimination
+  artifact_url: https://github.com/Straho-Chen/ChimeraFS
+  badges: available,functional,reproduced
+- title: 'Turnstile: Hybrid Information Flow Control Framework for Managing Privacy
+    in Internet-of-Things Applications'
+  artifact_url: https://github.com/DependableSystemsLab/Turnstile-EuroSys26
+  badges: available,functional,reproduced
+- title: 'TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone'
+  artifact_url: https://zenodo.org/records/17054270
+  badges: available,functional,reproduced
+- title: 'BASK: Batch And SmartNIC-offloaded KSM'
+  artifact_url: https://github.com/casys-kaist/bask_ae_eurosys26
+  badges: available,functional,reproduced
+- title: 'Fix: externalizing network I/O in serverless computing'
+  artifact_url: https://github.com/fix-project/fix
+  badges: available,functional,reproduced
+- title: 'REPS: Recycled Entropy Packet Spraying for Adaptive Load Balancing and Failure
+    Mitigation'
+  artifact_url: https://github.com/tommasobo/REPS_EuroSys_Artifact
+  badges: available,functional,reproduced
+- title: 'PaCaR: Improved Buffered I/O Locality on NUMA Systems with Page Cache Replication'
+  artifact_url: https://github.com/jeromecst/pacar_artifact_eurosys_26
+  badges: available,functional,reproduced
+- title: 'LoRAFusion: Efficient LoRA Fine-Tuning for LLMs'
+  artifact_url: https://github.com/CentML/LoRAFusion
+  badges: available,functional,reproduced
+- title: 'GeDES: GPU-Driven Discrete Event Network Simulator'
+  artifact_url: https://github.com/mobinets/GeDES
+  badges: available,functional,reproduced
+- title: 'LightDSA: Enabling Efficient DSA Through Hardware-Aware Transparent Optimization'
+  artifact_url: https://github.com/izumihanako/LightDSA-AE
+  badges: available,functional,reproduced
+- title: 'Demystifying Serverless Costs on Public Platforms: Bridging Billing, Architecture,
+    and OS Scheduling'
+  artifact_url: https://github.com/ubc-cirrus-lab/demystifying-serverless-costs
+  badges: available,functional,reproduced
+- title: Efficient and Adaptable Overlapping for Computation and Communication via
+    Signaling and Reordering
+  artifact_url: https://github.com/infinigence/FlashOverlap
+  badges: available,functional,reproduced
+- title: Reducing the GPU Memory Bottleneck with Lossless Compression for ML
+  artifact_url: https://github.com/AKKamath/InvariantBitPacking
+  badges: available,functional,reproduced
+- title: Prediction-Informed Power Management for General-Purpose Compute Servers
+  artifact_url: https://github.com/jonggyup/PIP
+  badges: available,functional,reproduced
+- title: 'LCMP: Distributed Long-Haul Cost-Aware Multi-Path Routing for Inter-Datacenter
+    RDMA Networks'
+  artifact_url: https://github.com/dyyuCS/LCMP
+  badges: available,functional,reproduced
+- title: On-device Semantic Selection Made Low Latency and Memory Efficient with Monolithic
+    Forwarding
+  artifact_url: https://doi.org/10.5281/zenodo.18809731
+  badges: available,functional,reproduced
+- title: A Case for Elastic Quantum Error Correction Decoders
+  artifact_url: https://doi.org/10.5281/zenodo.18555903
+  badges: available,functional,reproduced
+- title: 'SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning'
+  artifact_url: https://github.com/grueyg/swiftfl_ae
+  badges: available,functional,reproduced
+- title: TCO-driven Storage Provisioning for Exascale Data Centers
+  artifact_url: https://github.com/Thesys-lab/storage-tco-eurosys-2026-artifact
+  badges: available,functional,reproduced
+- title: 'Proteus: Heterogeneous FPGA Virtualization'
+  artifact_url: https://github.com/TUM-DSE/proteus.git
+  badges: available,functional,reproduced
+- title: 'Suika: Efficient and High-quality Re-scheduling of 3D-parallelized LLM Training
+    Jobs in Shared Clusters'
+  artifact_url: https://zenodo.org/records/18617527
+  badges: available,functional,reproduced
+- title: 'FicusDB: Scalable Multi-Versioned Authenticated Storage'
+  artifact_url: https://github.com/0x486F626F/ficusdb-evaluation
+  badges: available,functional,reproduced
 fast2024:
 - title: 'RFUSE: Modernizing Userspace Filesystem Framework through Scalable Kernel-Userspace
     Communication'
@@ -7116,6 +7378,200 @@ pets2026:
   title: Revisiting the LiRA Membership Inference Attack Under Realistic Assumptions
   artifact_url: https://github.com/najeebjebreel/lira_analysis/tree/193896f1957db7ab6decc32883d913780c868e4e
   badges: available, functional, reproduced
+sp2026:
+- title: 'The Secrets Must Not Flow: Scaling Security Verification to Large Codebases'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17099763
+- title: 'Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases'
+  badges: available
+  artifact_url: https://doi.org/10.5281/zenodo.17114340
+- title: Towards Practical Zero-Knowledge Proof for PSPACE
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17381317
+- title: 'Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware'
+  badges: available
+  artifact_url: https://zenodo.org/records/17232400
+- title: 'SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache
+    Attacks With Reduced Cache Misses and Performance Overhead'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17248489
+- title: 'Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via
+    Dynamic Memory Aliasing'
+  badges: available
+  artifact_url: https://doi.org/10.48804/JTDMSJ
+- title: 'AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX'
+  badges: available
+  artifact_url: https://zenodo.org/records/17338383
+- title: 'Fizzle: A Framework for Deterministic and Reproduced Network Fuzzing'
+  badges: reproduced
+  artifact_url: https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/determsim/fizzle-artifact
+- title: 'WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents
+    as Intelligent Scrapers'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17374123
+- title: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing
+    LLM-Augmented Harnesses'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17115101
+- title: 'Transient Architectural Execution: From Weird Gates to Weird Programs'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17364183
+- title: Practical Covert Channel across Isolated Browser Instances via GPU Command
+    Queue Contention
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17368240
+- title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in
+    Cloud Environments'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17376076
+- title: 'KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17254163
+- title: Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol
+    under the LiDO-DAG Framework
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17345693
+- title: 'Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static
+    Analysis'
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.17345506
+- title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
+  badges: available
+  artifact_url: https://zenodo.org/records/17361471
+- title: 'SoK: Robustness in Large Language Models against Jailbreak Attacks'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17163312
+- title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.17369838
+- title: '2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17361618
+- title: 'EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language
+    Models'
+  badges: available
+  artifact_url: https://zenodo.org/records/17230472
+- title: Practical Anonymous Two-Party Gradient Boosting Decision Tree
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17373936
+- title: 'GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17364307
+- title: 'Artifact for "Best of Both Worlds: Effective Foreign Bridge Identification
+    in V8 Embedders for Security Analysis"'
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.17348614
+- title: 'CenRL: A Framework for Performing Intelligent Censorship Measurements'
+  badges: available
+  artifact_url: https://doi.org/10.5281/zenodo.17382167
+- title: 'Sealing the Window: Efficient Tamper Protection for Provenance Logs'
+  badges: available
+  artifact_url: https://doi.org/10.5281/zenodo.17283436
+- title: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/17366780
+- title: On the (In)Security of Loading Machine Learning Models
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19224108
+- title: 'Chorus: Secret Recovery with Ephemeral Client Committees'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19480357
+- title: 'GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19004741
+- title: 'Fractal: An Operating System Designed for Microarchitecture Reverse Engineering'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19556693
+- title: 'NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection
+    on ARM MTE'
+  badges: functional
+  artifact_url: https://zenodo.org/records/19490033
+- title: 'KeyChaser: Unveiling API Keys in Browser Extensions'
+  badges: functional
+  artifact_url: https://doi.org/10.6084/m9.figshare.31859023
+- title: 'The Interplay of Effective Model Checking and Secure Processor Design: From
+    Insights to Practice'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19270883
+- title: 'AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism
+    between AES and Polynomial Hash'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.18993067
+- title: 'xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using
+    Fuzzy PSI'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19480020
+- title: 'APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19015208
+- title: 'Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard
+    Cell Libraries'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19565490
+- title: On the Detectability of Active Gradient Inversion Attacks in Federated Learning
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.19479725
+- title: 'GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from
+    Modern GPUs'
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.19488504
+- title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
+    Auditory Prompt Injection
+  badges: available
+  artifact_url: https://zenodo.org/records/19309781
+- title: 'Papers, Please: A First Look at Age Verification on the Web'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19515393
+- title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19478814
+- title: 'Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel
+    CET'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19518987
+- title: 'PLATYPUS: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks'
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19501267
+- title: Scalable Registration-Based Encryption from Lattices
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19479490
+- title: Acoustic Hijacking Attacks on Gimbal-Stabilized Visual Tracking Systems
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.19372980
+- title: 'The Person Behind the Sound: Demystifying Audio Private Attribute Profiling
+    via Multimodal Large Language Models'
+  badges: available
+  artifact_url: https://zenodo.org/records/19103789
+- title: 'TREVEX: A Black-Box Detection Framework For Generic Transient Execution
+    Vulnerabilities'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19489147
+- title: 'Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent
+    Software Emulation'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19498819
+- title: 'TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World
+    Workloads'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19476314
+- title: 'RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data
+    Cache Incoherence'
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.19127138
+- title: Efficient Fuzzy Private Set Intersection from Secret-shared OPRF
+  badges: reproduced
+  artifact_url: https://zenodo.org/records/19478220
+- title: 'One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair
+    Protocol'
+  badges: reproduced
+  artifact_url: https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/CD30CC
+- title: 'Sealing the Window: Efficient Tamper Protection for Provenance Logs'
+  badges: reproduced
+  artifact_url: https://doi.org/10.5281/zenodo.19371297
+- title: 'It''s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential
+    Cloud Applications'
+  badges: functional
+  artifact_url: https://doi.org/10.5281/zenodo.19009015
 systex2024:
 - title: Delegating Verification for Remote Attestation using TEE
   badges: Artifacts Available + Functional

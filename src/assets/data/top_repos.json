@@ -1,5 +1,20 @@
 [
   {
+    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+    "url": "https://github.com/facebookresearch/fairseq",
+    "year": 2026,
+    "stars": 32231,
+    "forks": 6680,
+    "authors": "",
+    "github_org": "facebookresearch",
+    "badges": "available",
+    "last_active": "2025-09",
+    "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+    "language": "Python",
+    "conference": "SP",
+    "area": "security"
+  },
+  {
     "title": "Retiarii: A Deep Learning Exploratory-Training Framework",
     "url": "https://github.com/microsoft/nni/tree/retiarii_artifact",
     "year": 2020,
@@ -73,6 +88,21 @@
     "language": "Python",
     "conference": "WOOT",
     "area": "security"
+  },
+  {
+    "title": "SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference",
+    "url": "https://github.com/skypilot-org/skypilot",
+    "year": 2026,
+    "stars": 10080,
+    "forks": 1094,
+    "authors": "",
+    "github_org": "skypilot-org",
+    "badges": "available,functional",
+    "last_active": "2026-06",
+    "description": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernet",
+    "language": "Python",
+    "conference": "EUROSYS",
+    "area": "systems"
   },
   {
     "title": "PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs",
@@ -357,6 +387,21 @@
     "description": "Firmware Analysis and Comparison Tool",
     "language": "Python",
     "conference": "NDSS",
+    "area": "security"
+  },
+  {
+    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+    "url": "https://github.com/0nutation/SpeechGPT",
+    "year": 2026,
+    "stars": 1404,
+    "forks": 96,
+    "authors": "",
+    "github_org": "0nutation",
+    "badges": "available",
+    "last_active": "2024-07",
+    "description": "SpeechGPT Series: Speech Large Language Models",
+    "language": "Python",
+    "conference": "SP",
     "area": "security"
   },
   {
@@ -702,51 +747,6 @@
     "description": "A Series of Baseband & LMP Exploits against Bluetooth Classic Controllers",
     "language": "",
     "conference": "USENIXSEC",
-    "area": "security"
-  },
-  {
-    "title": "Inference Attacks Against Graph Generative Diffusion Models",
-    "url": "https://github.com/cvignac/DiGress",
-    "year": 2026,
-    "stars": 518,
-    "forks": 106,
-    "authors": "",
-    "github_org": "cvignac",
-    "badges": "",
-    "last_active": "2025-04",
-    "description": "code for the paper \"DiGress: Discrete Denoising diffusion for graph generation\"",
-    "language": "Python",
-    "conference": "USENIXSEC",
-    "area": "security"
-  },
-  {
-    "title": "Bridging Bitcoin to Second Layers via BitVM2",
-    "url": "https://github.com/BitVM/BitVM",
-    "year": 2026,
-    "stars": 511,
-    "forks": 182,
-    "authors": "",
-    "github_org": "BitVM",
-    "badges": "",
-    "last_active": "2026-01",
-    "description": "A Trust-minimized Bitcoin Bridge",
-    "language": "Rust",
-    "conference": "USENIXSEC",
-    "area": "security"
-  },
-  {
-    "title": "AVclass2: Massive Malware Tag Extraction from AV Labels",
-    "url": "https://github.com/malicialab/avclass",
-    "year": 2020,
-    "stars": 486,
-    "forks": 118,
-    "authors": "Silvia Sebastián, Juan Caballero",
-    "github_org": "malicialab",
-    "badges": "reusable",
-    "last_active": "2024-10",
-    "description": "AVClass malware labeling tool",
-    "language": "Python",
-    "conference": "ACSAC",
     "area": "security"
   }
 ]

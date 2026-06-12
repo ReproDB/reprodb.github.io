@@ -1094,65 +1094,6 @@
     "last_year": 2024
   },
   {
-    "name": "Yibo Huang",
-    "display_name": "Yibo Huang",
-    "affiliation": "University of Michigan",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 8,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "ATC",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "ATC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "EUROSYS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "FAST",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2024": 2,
-      "2025": 4,
-      "2026": 2
-    },
-    "first_year": 2024,
-    "last_year": 2026
-  },
-  {
     "name": "Jianyu Jiang",
     "display_name": "Jianyu Jiang",
     "affiliation": "Huawei Technologies Co.",
@@ -1523,6 +1464,60 @@
       }
     ],
     "area": "systems",
+    "years": {
+      "2024": 2,
+      "2025": 3,
+      "2026": 2
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
+    "name": "Yibo Huang",
+    "display_name": "Yibo Huang",
+    "affiliation": "University of Michigan",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 7,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "FAST",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "both",
     "years": {
       "2024": 2,
       "2025": 3,
@@ -22811,9 +22806,9 @@
   {
     "name": "Gihwan Oh",
     "display_name": "Gihwan Oh",
-    "affiliation": "None",
-    "country": "Iran",
-    "continent": "Asia",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -22995,28 +22990,6 @@
     "conferences": [
       {
         "conference": "FAST",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "systems",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
-    "name": "HONG FUNG HENG COLIN",
-    "display_name": "HONG FUNG HENG COLIN",
-    "affiliation": "Nanyang Technological University",
-    "country": "Singapore",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SOSP",
         "year": 2025,
         "role": "member"
       }
@@ -23413,6 +23386,28 @@
     "conferences": [
       {
         "conference": "FAST",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025
+  },
+  {
+    "name": "Hong Fung Heng Colin",
+    "display_name": "Hong Fung Heng Colin",
+    "affiliation": "Nanyang Technological University",
+    "country": "Singapore",
+    "continent": "Asia",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
         "year": 2025,
         "role": "member"
       }
@@ -27717,9 +27712,9 @@
   {
     "name": "Ram Sharan Chaulagain",
     "display_name": "Ram Sharan Chaulagain",
-    "affiliation": "None",
-    "country": "Iran",
-    "continent": "Asia",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -27915,9 +27910,9 @@
   {
     "name": "Reza Shams",
     "display_name": "Reza Shams",
-    "affiliation": "None",
-    "country": "Iran",
-    "continent": "Asia",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -30177,6 +30172,28 @@
     },
     "first_year": 2024,
     "last_year": 2024
+  },
+  {
+    "name": "This list was extracted from HotCRP but has not been validated by the conference's AE chairs yet.",
+    "display_name": "This list was extracted from HotCRP but has not been validated by the conference's AE chairs yet.",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1
+    },
+    "first_year": 2025,
+    "last_year": 2025
   },
   {
     "name": "Thomas Lemberger",

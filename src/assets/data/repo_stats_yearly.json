@@ -254,22 +254,31 @@
   {
     "year": 2026,
     "all": {
-      "github_repos": 123,
-      "avg_stars": 39.7,
-      "avg_forks": 6.2,
+      "github_repos": 201,
+      "avg_stars": 245.0,
+      "avg_forks": 43.4,
       "min_stars": 0.8,
-      "max_stars": 112.5,
+      "max_stars": 2251.2,
       "min_forks": 0.3,
-      "max_forks": 18.4
+      "max_forks": 452.7
+    },
+    "systems": {
+      "github_repos": 63,
+      "avg_stars": 168.2,
+      "avg_forks": 18.4,
+      "min_stars": 5.9,
+      "max_stars": 223.4,
+      "min_forks": 0.8,
+      "max_forks": 24.4
     },
     "security": {
-      "github_repos": 123,
-      "avg_stars": 39.7,
-      "avg_forks": 6.2,
+      "github_repos": 138,
+      "avg_stars": 280.1,
+      "avg_forks": 54.8,
       "min_stars": 0.8,
-      "max_stars": 112.5,
+      "max_stars": 2251.2,
       "min_forks": 0.3,
-      "max_forks": 18.4
+      "max_forks": 452.7
     }
   }
 ]

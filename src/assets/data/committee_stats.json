@@ -11,7 +11,7 @@
     "overall": [
       {
         "name": "United States",
-        "count": 2168
+        "count": 2167
       },
       {
         "name": "China",
@@ -82,12 +82,12 @@
         "count": 31
       },
       {
-        "name": "Iran",
-        "count": 26
-      },
-      {
         "name": "Portugal",
         "count": 24
+      },
+      {
+        "name": "Iran",
+        "count": 23
       },
       {
         "name": "South Korea",
@@ -245,7 +245,7 @@
     "systems": [
       {
         "name": "United States",
-        "count": 1300
+        "count": 1299
       },
       {
         "name": "China",
@@ -336,10 +336,6 @@
         "count": 7
       },
       {
-        "name": "Iran",
-        "count": 6
-      },
-      {
         "name": "South Korea",
         "count": 5
       },
@@ -366,6 +362,10 @@
       {
         "name": "Sweden",
         "count": 4
+      },
+      {
+        "name": "Iran",
+        "count": 3
       },
       {
         "name": "Norway",
@@ -639,11 +639,11 @@
     "overall": [
       {
         "name": "North America",
-        "count": 2238
+        "count": 2237
       },
       {
         "name": "Asia",
-        "count": 957
+        "count": 954
       },
       {
         "name": "Europe",
@@ -665,11 +665,11 @@
     "systems": [
       {
         "name": "North America",
-        "count": 1327
+        "count": 1326
       },
       {
         "name": "Asia",
-        "count": 602
+        "count": 599
       },
       {
         "name": "Europe",
@@ -751,7 +751,7 @@
       },
       {
         "name": "University of Michigan - Ann Arbor",
-        "count": 63
+        "count": 62
       },
       {
         "name": "Carnegie Mellon University",
@@ -1398,10 +1398,6 @@
         "count": 5
       },
       {
-        "name": "Islamic Azad University, Region One",
-        "count": 5
-      },
-      {
         "name": "George Washington University",
         "count": 5
       },
@@ -1927,6 +1923,10 @@
       },
       {
         "name": "Weizmann Institute of Science",
+        "count": 2
+      },
+      {
+        "name": "Islamic Azad University, Region One",
         "count": 2
       },
       {
@@ -2657,7 +2657,7 @@
       },
       {
         "name": "University of Michigan - Ann Arbor",
-        "count": 57
+        "count": 56
       },
       {
         "name": "Purdue University",
@@ -3201,10 +3201,6 @@
       },
       {
         "name": "Arizona State University",
-        "count": 3
-      },
-      {
-        "name": "Islamic Azad University, Region One",
         "count": 3
       },
       {
@@ -5436,7 +5432,7 @@
         "Denmark": 1
       },
       "2025": {
-        "United States": 517,
+        "United States": 516,
         "France": 11,
         "Nigeria": 6,
         "India": 10,
@@ -5459,7 +5455,7 @@
         "Japan": 13,
         "Austria": 3,
         "Switzerland": 12,
-        "Iran": 9,
+        "Iran": 6,
         "Netherlands": 11,
         "Sweden": 2,
         "Iraq": 2,
@@ -5653,7 +5649,7 @@
         "Nigeria": 1
       },
       "2025": {
-        "United States": 336,
+        "United States": 335,
         "France": 9,
         "Nigeria": 4,
         "India": 7,
@@ -5676,7 +5672,7 @@
         "Japan": 4,
         "Austria": 1,
         "Switzerland": 4,
-        "Iran": 4,
+        "Iran": 1,
         "Netherlands": 1,
         "Sweden": 1,
         "Iraq": 1,
@@ -6015,10 +6011,10 @@
         "Africa": 6
       },
       "2025": {
-        "North America": 534,
+        "North America": 533,
         "Europe": 158,
         "Africa": 10,
-        "Asia": 242,
+        "Asia": 239,
         "Oceania": 18,
         "South America": 1
       },
@@ -6074,10 +6070,10 @@
         "Africa": 1
       },
       "2025": {
-        "North America": 345,
+        "North America": 344,
         "Europe": 61,
         "Africa": 8,
-        "Asia": 151,
+        "Asia": 148,
         "Oceania": 1
       },
       "2026": {
@@ -7031,6 +7027,11 @@
     },
     {
       "conference": "sosp2025",
+      "name": "This list was extracted from HotCRP but has not been validated by the conference's AE chairs yet.",
+      "affiliation": ""
+    },
+    {
+      "conference": "sosp2025",
       "name": "Aakash Sharma",
       "affiliation": "UiT - The Arctic University of Norway"
     },
@@ -7051,6 +7052,11 @@
     },
     {
       "conference": "sosp2025",
+      "name": "Gihwan Oh",
+      "affiliation": ""
+    },
+    {
+      "conference": "sosp2025",
       "name": "Jonghyeon Kim",
       "affiliation": "Mangoboost"
     },
@@ -7058,6 +7064,16 @@
       "conference": "sosp2025",
       "name": "Nihal Balivada",
       "affiliation": "University of Oregon/Computer Science"
+    },
+    {
+      "conference": "sosp2025",
+      "name": "Ram Sharan Chaulagain",
+      "affiliation": ""
+    },
+    {
+      "conference": "sosp2025",
+      "name": "Reza Shams",
+      "affiliation": ""
     },
     {
       "conference": "sosp2025",
