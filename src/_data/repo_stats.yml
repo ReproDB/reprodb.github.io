@@ -15,7 +15,7 @@ overall:
   p75_stars: 24.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-06-12 23:23:47 UTC
+  last_updated: 2026-06-12 23:46:38 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -1464,6 +1464,8 @@ by_conference:
     name: comsec-group/phoenix
     pushed_at: '2026-05-14T19:57:38Z'
     badges:
+    - available
+    - functional
     - reproduced
   - title: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing
       LLM-Augmented Harnesses'
@@ -1479,6 +1481,8 @@ by_conference:
     name: purseclab/deepSURF
     pushed_at: '2025-11-28T22:32:00Z'
     badges:
+    - available
+    - functional
     - reproduced
   - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
     url: https://github.com/Yuuoniy/SpecAuditor
@@ -1493,6 +1497,8 @@ by_conference:
     name: Yuuoniy/SpecAuditor
     pushed_at: '2026-06-08T13:31:25Z'
     badges:
+    - available
+    - functional
     - reproduced
 - name: SYSTEX
   github_repos: 17
