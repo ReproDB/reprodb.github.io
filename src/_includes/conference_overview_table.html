@@ -65,8 +65,8 @@
   partData.forEach(function(e) {
     if (!confMap[e.conf]) confMap[e.conf] = { years: [], total_papers: 0, ae_papers: 0, available: 0, reproduced: 0 };
     var c = confMap[e.conf];
-    /* Replace seed years with participation years on first entry */
-    if (!c._seenPart) { c.years = []; c.ae_papers = 0; c._seenPart = true; }
+    /* Replace seed values with participation data on first entry */
+    if (!c._seenPart) { c.years = []; c.ae_papers = 0; c.available = 0; c.reproduced = 0; c._seenPart = true; }
     c.years.push(e.year);
     c.total_papers += e.total_papers;
     c.ae_papers += e.ae_papers;
