@@ -1,15 +1,15 @@
 {
   "summary": {
-    "total_chairs": 82,
+    "total_chairs": 83,
     "total_chairs_systems": 54,
-    "total_chairs_security": 30,
+    "total_chairs_security": 31,
     "repeat_chairs": 23,
-    "repeat_chairs_pct": 28.0,
+    "repeat_chairs_pct": 27.7,
     "repeat_chairs_systems": 13,
     "repeat_chairs_security": 11,
-    "cross_conference_chairs": 13,
+    "cross_conference_chairs": 14,
     "pipeline_promoted": 31,
-    "pipeline_promoted_pct": 37.8,
+    "pipeline_promoted_pct": 37.3,
     "pipeline_avg_years": 2.7,
     "avg_chairs_per_edition": 2.2,
     "avg_chairs_per_edition_systems": 2.6,
@@ -64,8 +64,8 @@
       },
       {
         "year": 2026,
-        "new_chairs": 11,
-        "active_chairs": 16
+        "new_chairs": 12,
+        "active_chairs": 18
       }
     ]
   },
@@ -429,6 +429,15 @@
       ]
     },
     {
+      "conference": "SP",
+      "year": 2026,
+      "chair_count": 2,
+      "chairs": [
+        "Jelena Mirkovic",
+        "Manuel Egele"
+      ]
+    },
+    {
       "conference": "SYSTEX",
       "year": 2025,
       "chair_count": 1,
@@ -549,7 +558,7 @@
   ],
   "pipeline": {
     "promoted_count": 31,
-    "promoted_pct": 37.8,
+    "promoted_pct": 37.3,
     "avg_years_to_chair": 2.7,
     "min_years": 1,
     "max_years": 9,
@@ -745,13 +754,20 @@
   "retention": {
     "repeat_count": 23,
     "distribution": {
-      "1": 59,
-      "2": 18,
-      "3": 2,
+      "1": 60,
+      "2": 17,
+      "3": 3,
       "4": 2,
       "5": 1
     },
     "tenure_spans": [
+      {
+        "name": "Manuel Egele",
+        "span_years": 10,
+        "chair_count": 3,
+        "first_year": 2017,
+        "last_year": 2026
+      },
       {
         "name": "Christian Wressnegger",
         "span_years": 10,
@@ -809,6 +825,13 @@
         "last_year": 2026
       },
       {
+        "name": "Salvatore Signorello",
+        "span_years": 6,
+        "chair_count": 1,
+        "first_year": 2021,
+        "last_year": 2026
+      },
+      {
         "name": "Taegyu Kim",
         "span_years": 6,
         "chair_count": 1,
@@ -826,13 +849,6 @@
         "name": "Huaicheng Li",
         "span_years": 5,
         "chair_count": 2,
-        "first_year": 2021,
-        "last_year": 2025
-      },
-      {
-        "name": "Salvatore Signorello",
-        "span_years": 5,
-        "chair_count": 1,
         "first_year": 2021,
         "last_year": 2025
       },
@@ -961,13 +977,6 @@
         "chair_count": 2,
         "first_year": 2025,
         "last_year": 2026
-      },
-      {
-        "name": "Manuel Egele",
-        "span_years": 2,
-        "chair_count": 2,
-        "first_year": 2017,
-        "last_year": 2018
       },
       {
         "name": "Roberto Perdisci",
@@ -1180,6 +1189,13 @@
         "last_year": 2024
       },
       {
+        "name": "Jelena Mirkovic",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
         "name": "Jo Van Bulck",
         "span_years": 1,
         "chair_count": 1,
@@ -1377,6 +1393,15 @@
       "chair_count": 3
     },
     {
+      "name": "Manuel Egele",
+      "affiliation": "Boston University",
+      "series": [
+        "ACSAC",
+        "SP"
+      ],
+      "chair_count": 3
+    },
+    {
       "name": "Anuj Kalia",
       "affiliation": "Microsoft",
       "series": [
@@ -1453,17 +1478,17 @@
     "total_countries": 16,
     "total_continents": 4,
     "by_country": {
-      "United States": 39,
+      "United States": 40,
       "China": 6,
       "Switzerland": 5,
       "Germany": 5,
       "Netherlands": 4,
       "United Kingdom": 4,
       "Belgium": 4,
-      "Spain": 3,
       "France": 2,
       "Austria": 2,
       "Italy": 2,
+      "Spain": 2,
       "Canada": 1,
       "Australia": 1,
       "Singapore": 1,
@@ -1471,11 +1496,11 @@
       "Sweden": 1
     },
     "by_continent": {
-      "North America": 40,
-      "Europe": 33,
+      "North America": 41,
+      "Europe": 32,
       "Asia": 7,
       "Oceania": 1
     },
-    "unclassified_count": 1
+    "unclassified_count": 2
   }
 }

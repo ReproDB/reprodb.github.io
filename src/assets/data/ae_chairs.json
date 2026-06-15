@@ -398,6 +398,65 @@
     "years_to_chair": null
   },
   {
+    "name": "Manuel Egele",
+    "display_name": "Manuel Egele",
+    "affiliation": "Boston University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 3,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "chair"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2017": 1,
+      "2018": 1,
+      "2026": 1
+    },
+    "first_year": 2017,
+    "last_year": 2026,
+    "first_chair_year": 2017,
+    "chaired_series": [
+      "ACSAC",
+      "SP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "chair"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "chair"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Nathan Rutherford",
     "display_name": "Nathan Rutherford",
     "affiliation": "Royal Holloway",
@@ -1174,53 +1233,6 @@
     "years_to_chair": null
   },
   {
-    "name": "Manuel Egele",
-    "display_name": "Manuel Egele",
-    "affiliation": "Boston University",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 2,
-    "chair_count": 2,
-    "member_count": 0,
-    "conferences": [
-      {
-        "conference": "ACSAC",
-        "year": 2017,
-        "role": "chair"
-      },
-      {
-        "conference": "ACSAC",
-        "year": 2018,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2017": 1,
-      "2018": 1
-    },
-    "first_year": 2017,
-    "last_year": 2018,
-    "first_chair_year": 2017,
-    "chaired_series": [
-      "ACSAC"
-    ],
-    "chaired_conferences": [
-      {
-        "conference": "ACSAC",
-        "year": 2017,
-        "role": "chair"
-      },
-      {
-        "conference": "ACSAC",
-        "year": 2018,
-        "role": "chair"
-      }
-    ],
-    "promoted_from_member": false,
-    "years_to_chair": null
-  },
-  {
     "name": "Neeraja J. Yadwadkar",
     "display_name": "Neeraja J. Yadwadkar",
     "affiliation": "University of Texas at Austin",
@@ -1499,12 +1511,12 @@
   {
     "name": "Salvatore Signorello",
     "display_name": "Salvatore Signorello",
-    "affiliation": "Telefonica Research Spain",
-    "country": "Spain",
-    "continent": "Europe",
-    "total_memberships": 6,
+    "affiliation": "Nova University Lisbon",
+    "country": null,
+    "continent": null,
+    "total_memberships": 7,
     "chair_count": 1,
-    "member_count": 5,
+    "member_count": 6,
     "conferences": [
       {
         "conference": "ATC",
@@ -1532,6 +1544,11 @@
         "role": "member"
       },
       {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
         "conference": "USENIXSEC",
         "year": 2024,
         "role": "member"
@@ -1542,10 +1559,11 @@
       "2021": 1,
       "2022": 1,
       "2024": 3,
-      "2025": 1
+      "2025": 1,
+      "2026": 1
     },
     "first_year": 2021,
-    "last_year": 2025,
+    "last_year": 2026,
     "first_chair_year": 2022,
     "chaired_series": [
       "EUROSYS"
@@ -3010,6 +3028,42 @@
       {
         "conference": "FAST",
         "year": 2024,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Jelena Mirkovic",
+    "display_name": "Jelena Mirkovic",
+    "affiliation": "University of Southern California",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "SP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SP",
+        "year": 2026,
         "role": "chair"
       }
     ],

@@ -562,6 +562,47 @@
     "scope": null
   },
   {
+    "affiliation": "Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 198,
+    "artifact_score": 93,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 105,
+    "ae_ratio": 0.89,
+    "role": "Balanced",
+    "artifact_count": 34,
+    "badges_functional": 31,
+    "badges_reproducible": 29,
+    "ae_memberships": 35,
+    "chair_count": 0,
+    "total_papers": 51,
+    "artifact_pct": 66.7,
+    "author_count": 31,
+    "conferences": [
+      "ATC",
+      "CAIS",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "SC",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 8,
+      "2025": 23,
+      "2024": 7,
+      "2023": 10,
+      "2022": 12,
+      "2021": 5,
+      "2020": 0,
+      "2019": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Purdue University",
     "country": "United States",
     "country_code": "US",
@@ -638,47 +679,6 @@
       "2021": 12,
       "2020": 1,
       "2019": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Hong Kong University of Science and Technology",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 192,
-    "artifact_score": 93,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 99,
-    "ae_ratio": 0.94,
-    "role": "Balanced",
-    "artifact_count": 34,
-    "badges_functional": 31,
-    "badges_reproducible": 29,
-    "ae_memberships": 33,
-    "chair_count": 0,
-    "total_papers": 51,
-    "artifact_pct": 66.7,
-    "author_count": 30,
-    "conferences": [
-      "ATC",
-      "CAIS",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "SC",
-      "SOSP"
-    ],
-    "years": {
-      "2026": 6,
-      "2025": 23,
-      "2024": 7,
-      "2023": 10,
-      "2022": 12,
-      "2021": 5,
-      "2020": 0,
-      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -6718,9 +6718,9 @@
     "scope": null
   },
   {
-    "affiliation": "Telefonica Research Spain",
-    "country": "Spain",
-    "country_code": "ES",
+    "affiliation": "Nova University Lisbon",
+    "country": null,
+    "country_code": null,
     "combined_score": 14,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -11232,35 +11232,6 @@
     ],
     "years": {
       "2025": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Guangzhou",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "CAIS",
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 2
     },
     "top_authors": [],
     "scope": null
