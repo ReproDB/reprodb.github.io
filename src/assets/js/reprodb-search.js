@@ -413,22 +413,28 @@
         var url = baseUrl + '/profile.html?name=' + encodeURIComponent(inst.affiliation) + '&type=institution';
         var caps = (inst.affiliation || '').replace(/[^A-Z]/g, '');
         var initials = caps.length > 0 ? caps.slice(0, 4) : (inst.affiliation || '?')[0].toUpperCase();
+        var starsHtml = ReproDBProfile.chairStarsCard(inst.chair_count);
         html += '<a class="profile-card" href="' + url + '">' +
           '<div class="avatar inst-avatar">' + escHtml(initials) + '</div>' +
           '<div class="card-info">' +
             '<div class="card-name">' + escHtml(inst.affiliation) + '</div>' +
             '<div class="card-detail">' + (inst.author_count || 0) + ' researchers</div>' +
-          '</div></a>';
+          '</div>' +
+          (starsHtml ? '<div class="card-stars">' + starsHtml + '</div>' : '') +
+          '</a>';
       } else {
         var p = c.data;
         var cleanN = (p.name || '').replace(/\s+\d{4}$/, '').replace(/\t/g, ' ');
         var url = baseUrl + '/profile.html?name=' + encodeURIComponent(p.name) + (p.author_id != null ? '&id=' + p.author_id : '');
+        var starsHtml = ReproDBProfile.chairStarsCard(p.chair_count);
         html += '<a class="profile-card" href="' + url + '">' +
           '<div class="avatar author-avatar">' + escHtml(getInitials(cleanN)) + '</div>' +
           '<div class="card-info">' +
             '<div class="card-name">' + escHtml(cleanN) + '</div>' +
             '<div class="card-detail">' + escHtml(p.affiliation || '') + '</div>' +
-          '</div></a>';
+          '</div>' +
+          (starsHtml ? '<div class="card-stars">' + starsHtml + '</div>' : '') +
+          '</a>';
       }
     });
     html += '</div>';
