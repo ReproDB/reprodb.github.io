@@ -27,6 +27,8 @@
 .rdb-card-value {
   font-size: 1.6em;
   font-weight: bold;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .rdb-card-label {
   font-size: 0.85em;
