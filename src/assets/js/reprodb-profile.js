@@ -58,6 +58,16 @@ var ReproDBProfile = (function() {
     return '<span class="chair-stars-card" aria-label="' + chairs + ' chair roles">' + renderStars(chairs) + '</span>';
   }
 
+  // Institution card: stars then number in parentheses for search result cards.
+  // Format: "★★ (5)"
+  function chairStarsCardInstitution(chairCount) {
+    var chairs = Number(chairCount) || 0;
+    if (chairs <= 0) return '';
+    var stars = Math.max(1, Math.floor(chairs / 2));
+    return '<span class="chair-stars-card" aria-label="' + stars + ' stars from ' + chairs + ' chair roles">' + 
+      renderStars(stars) + ' (' + chairs + ')</span>';
+  }
+
   /**
    * Initialise search/autocomplete, share button, and URL management.
    *
@@ -263,6 +273,7 @@ var ReproDBProfile = (function() {
     chairDisplayAuthor: chairDisplayAuthor,
     chairDisplayInstitution: chairDisplayInstitution,
     chairStarsCard: chairStarsCard,
+    chairStarsCardInstitution: chairStarsCardInstitution,
     initSearch: initSearch,
     parseAEEntry: parseAEEntry,
     renderHistoryChart: renderHistoryChart

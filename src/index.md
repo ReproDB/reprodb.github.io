@@ -71,5 +71,6 @@ skip_chartjs: true
   data-institutions='{{ "/assets/data/institution_rankings.json" | relative_url }}'
   data-search-data='{{ "/assets/data/search_data.json" | relative_url }}'
 ></div>
+<script src="{{ '/assets/js/reprodb-profile.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/reprodb-search.js' | relative_url }}"></script>
 
