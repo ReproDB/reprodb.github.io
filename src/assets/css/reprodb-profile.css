@@ -111,6 +111,13 @@
 .role-artifact { background:#2980b9; }
 .role-evaluation { background:#27ae60; }
 
+/* Chair-star indicator used in author/institution profile cards and tables. */
+.chair-stars {
+  color: #d18c00;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 /* ── Unified search result type labels ─────────────────────────────────── */
 .sr-type { display:inline-block; padding:1px 6px; border-radius:3px; font-size:0.72em; color:#fff; margin-right:6px; vertical-align:middle; }
 .sr-type-author { background:#2980b9; }
@@ -180,3 +187,4 @@ html[data-theme="dark"] .ae-detail-row td,
 html[data-theme="dark"] .ae-detail-row:hover { background: #23272d; }
 html[data-theme="dark"] .ranking-history-details summary::before { color: #aab0b8; }
 html[data-theme="dark"] .avail-warn { color: #f0c040; background: #332b00; border-color: #665500; }
+html[data-theme="dark"] .chair-stars { color: #f5c44c; }
