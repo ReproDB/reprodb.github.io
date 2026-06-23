@@ -14,6 +14,13 @@
   var authorRankHistory = [], urlAccessible = {}, availCheckedAt = '';
   var allInstitutions = [], instMap = {}, instHistory = [];
 
+  function institutionStars(chairCount) {
+    var chairs = Number(chairCount) || 0;
+    if (chairs <= 0) return '';
+    var stars = Math.max(1, Math.floor(chairs / 2));
+    return '<span class="chair-stars profile-name-stars" aria-label="' + stars + ' stars from ' + chairs + ' chair roles">' + Array(stars + 1).join('\u2605') + '</span>';
+  }
+
   /** Assign dense ranks to an array of objects sorted by scoreField desc. */
   function assignDenseRanks(items, scoreField) {
     var sorted = items.slice().sort(function(a, b) {
@@ -102,7 +109,8 @@
     if (p.category === 'both') catTag = '<span class="category-tag cat-both">Systems & Security</span>';
     else if (p.category === 'systems') catTag = '<span class="category-tag cat-systems">Systems</span>';
     else if (p.category === 'security') catTag = '<span class="category-tag cat-security">Security</span>';
-    document.getElementById('prof-name').innerHTML = escHtml(cleanName(p.name)) + catTag;
+    var authorStars = p.chair_count ? '<span class="profile-name-stars">' + P.chairDisplayAuthor(p.chair_count) + '</span>' : '';
+    document.getElementById('prof-name').innerHTML = escHtml(cleanName(p.name)) + authorStars + catTag;
     var affilEl = document.getElementById('prof-affil');
     if (p.affiliation) {
       affilEl.innerHTML = '<a href="' + baseUrl + '/profile.html?type=institution&name=' + encodeURIComponent(p.affiliation) + '">' + escHtml(p.affiliation) + '</a>';
@@ -118,7 +126,7 @@
     }
     c += card(p.artifact_count, 'Artifacts') + card(p.total_papers, 'Total Papers') + card(p.artifact_pct + '%', 'Artifact Rate');
     if (p.ae_memberships) c += card(p.ae_memberships, 'AE Memberships');
-    if (p.chair_count) c += card(P.chairDisplayAuthor(p.chair_count), 'Chair Roles');
+    if (p.chair_count) c += card(p.chair_count, 'Chair Roles');
     document.getElementById('score-cards').innerHTML = c;
 
     // Papers table
@@ -239,7 +247,9 @@
     document.getElementById('inst-profile').classList.remove('rdb-hidden');
 
     // Header
-    document.getElementById('inst-name').textContent = inst.affiliation;
+    var instName = escHtml(inst.affiliation || '');
+    var instStars = inst.chair_count ? institutionStars(inst.chair_count) : '';
+    document.getElementById('inst-name').innerHTML = instName + instStars;
 
     var affProfiles = allProfiles.filter(function(p) { return p.affiliation === inst.affiliation; });
 
@@ -252,7 +262,7 @@
     c += card((inst.artifact_pct || 0) + '%', 'Artifact Rate');
     var reproRate = inst.artifact_count > 0 ? Math.round(((inst.badges_reproducible || 0) / inst.artifact_count) * 100) : 0;
     c += card(reproRate + '%', 'Repro Rate') + card(inst.ae_memberships || 0, 'AE Memberships');
-    if (inst.chair_count) c += card(P.chairDisplayInstitution(inst.chair_count), 'Chair Roles');
+    if (inst.chair_count) c += card(inst.chair_count, 'Chair Roles');
     if (inst._denseRank) {
       c += card('#' + inst._denseRank, 'Rank');
     } else if (instHistory.length >= 2) {
