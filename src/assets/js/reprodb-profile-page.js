@@ -125,7 +125,7 @@
       if (p._denseRank) c += card('#' + p._denseRank, 'Rank');
     }
     c += card(p.artifact_count, 'Artifacts') + card(p.total_papers, 'Total Papers') + card(p.artifact_pct + '%', 'Artifact Rate');
-    if (p.ae_memberships) c += card(p.ae_memberships, 'AE Memberships');
+    if (p.ae_memberships) c += card(p.ae_memberships, 'AE Service');
     if (p.chair_count) c += card(p.chair_count, 'Chair Roles');
     document.getElementById('score-cards').innerHTML = c;
 
@@ -261,7 +261,7 @@
     c += card(inst.artifact_count || 0, 'Artifacts') + card(inst.total_papers || 0, 'Total Papers');
     c += card((inst.artifact_pct || 0) + '%', 'Artifact Rate');
     var reproRate = inst.artifact_count > 0 ? Math.round(((inst.badges_reproducible || 0) / inst.artifact_count) * 100) : 0;
-    c += card(reproRate + '%', 'Repro Rate') + card(inst.ae_memberships || 0, 'AE Memberships');
+    c += card(reproRate + '%', 'Repro Rate') + card(inst.ae_memberships || 0, 'AE Service');
     if (inst.chair_count) c += card(inst.chair_count, 'Chair Roles');
     if (inst._denseRank) {
       c += card('#' + inst._denseRank, 'Rank');
@@ -296,7 +296,7 @@
           { title: 'AE', field: 'ae_score', sorter: 'number' },
           { title: 'Artifacts', field: 'artifact_count', sorter: 'number' },
           { title: 'Papers', field: 'total_papers', sorter: 'number' },
-          { title: 'AE Svc', field: 'ae_memberships', sorter: 'number' },
+          { title: 'AE Srv', field: 'ae_memberships', sorter: 'number' },
           { title: 'Chair', field: 'chair_count', sorter: 'number', formatter: function(cell) {
             var v = Number(cell.getValue()) || 0;
             if (!v) return '';
