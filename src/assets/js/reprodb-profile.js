@@ -34,20 +34,28 @@ var ReproDBProfile = (function() {
     return Array(count + 1).join('\u2605');
   }
 
-  // Author profile: direct one-star-per-chair mapping.
+  // Author profile: direct one-star-per-chair mapping, display only stars.
   function chairDisplayAuthor(chairCount) {
     var chairs = Number(chairCount) || 0;
-    if (chairs <= 0) return '0';
-    return chairs + ' <span class="chair-stars" aria-label="' + chairs + ' chair roles">' + renderStars(chairs) + '</span>';
+    if (chairs <= 0) return '';
+    return '<span class="chair-stars" aria-label="' + chairs + ' chair roles">' + renderStars(chairs) + '</span>';
   }
 
   // Institution profile: compressed mapping to reduce skew.
   // Formula: stars = max(1, floor(chair_count / 2)), so 1->1, 2->1, 3->1, 4->2, 5->2.
+  // Display: (number of chairs) followed by stars
   function chairDisplayInstitution(chairCount) {
     var chairs = Number(chairCount) || 0;
-    if (chairs <= 0) return '0';
+    if (chairs <= 0) return '';
     var stars = Math.max(1, Math.floor(chairs / 2));
-    return chairs + ' <span class="chair-stars" aria-label="' + stars + ' stars from ' + chairs + ' chair roles">' + renderStars(stars) + '</span>';
+    return '(' + chairs + ') <span class="chair-stars" aria-label="' + stars + ' stars from ' + chairs + ' chair roles">' + renderStars(stars) + '</span>';
+  }
+
+  // Card-style star display (compact, for profile search cards).
+  function chairStarsCard(chairCount) {
+    var chairs = Number(chairCount) || 0;
+    if (chairs <= 0) return '';
+    return '<span class="chair-stars-card" aria-label="' + chairs + ' chair roles">' + renderStars(chairs) + '</span>';
   }
 
   /**
@@ -254,6 +262,7 @@ var ReproDBProfile = (function() {
     card: card,
     chairDisplayAuthor: chairDisplayAuthor,
     chairDisplayInstitution: chairDisplayInstitution,
+    chairStarsCard: chairStarsCard,
     initSearch: initSearch,
     parseAEEntry: parseAEEntry,
     renderHistoryChart: renderHistoryChart
