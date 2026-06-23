@@ -118,7 +118,7 @@
     }
     c += card(p.artifact_count, 'Artifacts') + card(p.total_papers, 'Total Papers') + card(p.artifact_pct + '%', 'Artifact Rate');
     if (p.ae_memberships) c += card(p.ae_memberships, 'AE Memberships');
-    if (p.chair_count) c += card(p.chair_count, 'Chair Roles');
+    if (p.chair_count) c += card(P.chairDisplayAuthor(p.chair_count), 'Chair Roles');
     document.getElementById('score-cards').innerHTML = c;
 
     // Papers table
@@ -252,7 +252,7 @@
     c += card((inst.artifact_pct || 0) + '%', 'Artifact Rate');
     var reproRate = inst.artifact_count > 0 ? Math.round(((inst.badges_reproducible || 0) / inst.artifact_count) * 100) : 0;
     c += card(reproRate + '%', 'Repro Rate') + card(inst.ae_memberships || 0, 'AE Memberships');
-    if (inst.chair_count) c += card(inst.chair_count, 'Chair Roles');
+    if (inst.chair_count) c += card(P.chairDisplayInstitution(inst.chair_count), 'Chair Roles');
     if (inst._denseRank) {
       c += card('#' + inst._denseRank, 'Rank');
     } else if (instHistory.length >= 2) {
@@ -287,7 +287,11 @@
           { title: 'Artifacts', field: 'artifact_count', sorter: 'number' },
           { title: 'Papers', field: 'total_papers', sorter: 'number' },
           { title: 'AE Svc', field: 'ae_memberships', sorter: 'number' },
-          { title: 'Chair', field: 'chair_count', sorter: 'number', formatter: function(cell) { var v = cell.getValue(); return v ? v + ' \u2605' : ''; } }
+          { title: 'Chair', field: 'chair_count', sorter: 'number', formatter: function(cell) {
+            var v = Number(cell.getValue()) || 0;
+            if (!v) return '';
+            return P.chairDisplayAuthor(v);
+          } }
         ]
       });
     } else {
