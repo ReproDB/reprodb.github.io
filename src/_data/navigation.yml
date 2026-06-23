@@ -1,91 +1,93 @@
 main:
-  - title: "Search"
-    url: index.html
-  - title: "Ranking"
+- title: Search
+  url: index.html
+- title: Ranking
+  url: combined_rankings.html
+  children:
+  - title: Author Ranking
     url: combined_rankings.html
-    children:
-      - title: "Author Ranking"
-        url: combined_rankings.html
-      - title: "Institution Ranking"
-        url: institution_rankings.html
-      - title: "Systems vs. Security"
-        url: overview.html
-      - title: "Geographic Statistics"
-        url: statistics/
-      - title: "Profiles"
-        url: profile.html
-  - title: "Security"
+  - title: Institution Ranking
+    url: institution_rankings.html
+  - title: Systems vs. Security
+    url: overview.html
+  - title: Geographic Statistics
+    url: statistics/
+  - title: Profiles
+    url: profile.html
+- title: Security
+  url: security/
+  children:
+  - title: Overview
     url: security/
-    children:
-      - title: "Overview"
-        url: security/
-      - title: "ACSAC"
-        url: security/acsac.html
-      - title: "CHES"
-        url: security/ches.html
-      - title: "NDSS"
-        url: security/ndss.html
-      - title: "IEEE S&P"
-        url: security/sp.html
-      - title: "PETS"
-        url: security/pets.html
-      - title: "SysTEX"
-        url: security/systex.html
-      - title: "USENIX Security"
-        url: security/usenixsec.html
-      - title: "WOOT"
-        url: security/woot.html
-  - title: "Systems"
+  - title: ACSAC
+    url: security/acsac.html
+  - title: CHES
+    url: security/ches.html
+  - title: IEEE S&P
+    url: security/sp.html
+  - title: NDSS
+    url: security/ndss.html
+  - title: PETS
+    url: security/pets.html
+  - title: SysTEX
+    url: security/systex.html
+  - title: USENIX Security
+    url: security/usenixsec.html
+  - title: USENIX VehicleSec
+    url: security/vehiclesec.html
+  - title: WOOT
+    url: security/woot.html
+- title: Systems
+  url: systems/
+  children:
+  - title: Overview
     url: systems/
-    children:
-      - title: "Overview"
-        url: systems/
-      - title: "ATC"
-        url: systems/atc.html
-      - title: "CAIS"
-        url: systems/cais.html
-      - title: "EuroSys"
-        url: systems/eurosys.html
-      - title: "FAST"
-        url: systems/fast.html
-      - title: "OSDI"
-        url: systems/osdi.html
-      - title: "SC"
-        url: systems/sc.html
-      - title: "SOSP"
-        url: systems/sosp.html
-  - title: "AE Committees"
+  - title: ACM CAIS
+    url: systems/cais.html
+  - title: EuroSys
+    url: systems/eurosys.html
+  - title: OSDI
+    url: systems/osdi.html
+  - title: SC
+    url: systems/sc.html
+  - title: SOSP
+    url: systems/sosp.html
+  - title: USENIX ATC
+    url: systems/atc.html
+  - title: USENIX FAST
+    url: systems/fast.html
+- title: AE Committees
+  url: committee.html
+  children:
+  - title: Overview
     url: committee.html
-    children:
-      - title: "Overview"
-        url: committee.html
-      - title: "Ranking"
-        url: combined_rankings.html?contrib=ae
-      - title: "Chair Statistics"
-        url: ae_chairs.html
-      - title: "Systems Statistics"
-        url: systems/committee.html
-      - title: "Security Statistics"
-        url: security/committee.html
-  - title: "Repository Stats"
+  - title: Ranking
+    url: combined_rankings.html?contrib=ae
+  - title: Chair Statistics
+    url: ae_chairs.html
+  - title: Systems Statistics
+    url: systems/committee.html
+  - title: Security Statistics
+    url: security/committee.html
+- title: Repository Stats
+  url: repo_stats.html
+  children:
+  - title: Overview
     url: repo_stats.html
-    children:
-      - title: "Overview"
-        url: repo_stats.html
-      - title: "Systems"
-        url: systems/repo_stats.html
-      - title: "Security"
-        url: security/repo_stats.html
-  - title: "Methodology"
-    url: methodology.html
-  - title: "Contribute"
+  - title: Systems
+    url: systems/repo_stats.html
+  - title: Security
+    url: security/repo_stats.html
+- title: Methodology
+  url: methodology.html
+- title: Contribute
+  url: about.html
+  children:
+  - title: Overview
     url: about.html
-    children:
-      - title: "Overview"
-        url: about.html
-      - title: "Repositories"
-        url: https://github.com/reprodb
-      - title: "Documentation"
-        url: https://reprodb.github.io/reprodb-pipeline/
-      - title: "Data Schemas"
-        url: https://reprodb.github.io/data-schemas/
+  - title: Repositories
+    url: https://github.com/reprodb
+  - title: Documentation
+    url: https://reprodb.github.io/reprodb-pipeline/
+  - title: Data Schemas
+    url: https://reprodb.github.io/data-schemas/
