@@ -1,14 +1,14 @@
-last_updated: '2026-06-21'
-total_members: 4582
+last_updated: '2026-06-23'
+total_members: 4591
 total_systems: 2368
-total_security: 2214
-total_conferences: 68
+total_security: 2223
+total_conferences: 69
 total_countries: 59
 total_continents: 6
 total_institutions: 486
-unique_members: 2552
+unique_members: 2554
 unique_members_systems: 1248
-unique_members_security: 1400
+unique_members_security: 1402
 unique_members_both: 96
 recurring_chairs: 83
 top_countries:
@@ -17,7 +17,7 @@ top_countries:
 - name: China
   count: 382
 - name: Germany
-  count: 211
+  count: 214
 - name: Hong Kong
   count: 198
 - name: United Kingdom
@@ -36,11 +36,11 @@ top_countries:
   count: 64
 - name: Australia
   count: 61
+- name: Belgium
+  count: 50
 - name: Netherlands
   count: 49
 - name: France
-  count: 46
-- name: Belgium
   count: 46
 top_countries_systems:
 - name: United States
@@ -77,7 +77,7 @@ top_countries_security:
 - name: United States
   count: 932
 - name: Germany
-  count: 178
+  count: 181
 - name: China
   count: 106
 - name: Hong Kong
@@ -88,11 +88,11 @@ top_countries_security:
   count: 51
 - name: Australia
   count: 49
+- name: Belgium
+  count: 46
 - name: Japan
   count: 43
 - name: Netherlands
-  count: 42
-- name: Belgium
   count: 42
 - name: Canada
   count: 42
@@ -108,9 +108,9 @@ top_continents:
 - name: North America
   count: 2301
 - name: Asia
-  count: 976
+  count: 977
 - name: Europe
-  count: 804
+  count: 811
 - name: Oceania
   count: 62
 - name: Africa
@@ -134,9 +134,9 @@ top_continents_security:
 - name: North America
   count: 975
 - name: Europe
-  count: 513
+  count: 520
 - name: Asia
-  count: 377
+  count: 378
 - name: Oceania
   count: 49
 - name: Africa
@@ -178,11 +178,11 @@ top_institutions:
   count: 44
 - name: University of Chicago
   count: 44
+- name: imec-distrinet, ku leuven
+  count: 43
 - name: University of California, Riverside
   count: 42
 - name: Boston University
-  count: 39
-- name: imec-distrinet, ku leuven
   count: 39
 top_institutions_systems:
 - name: University of Illinois Urbana-Champaign
@@ -232,9 +232,9 @@ top_institutions_security:
   count: 53
 - name: University of California, Irvine
   count: 44
-- name: Georgia Institute of Technology
-  count: 36
 - name: imec-distrinet, ku leuven
+  count: 40
+- name: Georgia Institute of Technology
   count: 36
 - name: National Tsinghua University
   count: 33
@@ -296,9 +296,9 @@ institution_timeline:
   systems: 105
   security: 106
 - year: 2024
-  total: 196
+  total: 198
   systems: 112
-  security: 134
+  security: 136
 - year: 2025
   total: 248
   systems: 138
@@ -564,6 +564,11 @@ committee_sizes:
   area: security
   size: 110
 - conference: SYSTEX
+  year: 2024
+  conf_year: systex2024
+  area: security
+  size: 9
+- conference: SYSTEX
   year: 2025
   conf_year: systex2025
   area: security
@@ -652,15 +657,15 @@ chair_stats:
   total_chairs: 83
   total_chairs_systems: 54
   total_chairs_security: 31
-  repeat_chairs: 23
-  repeat_chairs_pct: 27.7
+  repeat_chairs: 24
+  repeat_chairs_pct: 28.9
   repeat_chairs_systems: 13
-  repeat_chairs_security: 11
+  repeat_chairs_security: 12
   cross_conference_chairs: 14
   pipeline_promoted: 31
   pipeline_promoted_pct: 37.3
   pipeline_avg_years: 2.7
-  avg_chairs_per_edition: 2.2
+  avg_chairs_per_edition: 2.1
   avg_chairs_per_edition_systems: 2.6
   avg_chairs_per_edition_security: 1.7
   total_countries: 16
@@ -688,10 +693,10 @@ chair_stats:
     new_chairs: 14
     active_chairs: 19
   - year: 2024
-    new_chairs: 10
-    active_chairs: 16
+    new_chairs: 11
+    active_chairs: 17
   - year: 2025
-    new_chairs: 12
+    new_chairs: 11
     active_chairs: 15
   - year: 2026
     new_chairs: 12

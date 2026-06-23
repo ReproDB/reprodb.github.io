@@ -1186,6 +1186,53 @@
     "years_to_chair": null
   },
   {
+    "name": "Jo Van Bulck",
+    "display_name": "Jo Van Bulck",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 1
+    },
+    "first_year": 2024,
+    "last_year": 2025,
+    "first_chair_year": 2024,
+    "chaired_series": [
+      "SYSTEX"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Juncheng Yang",
     "display_name": "Juncheng Yang",
     "affiliation": "Harvard University",
@@ -1744,6 +1791,59 @@
     "years_to_chair": 2
   },
   {
+    "name": "Marton Bognar",
+    "display_name": "Marton Bognar",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026,
+    "first_chair_year": 2026,
+    "chaired_series": [
+      "SYSTEX"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
     "name": "Jiayi Meng",
     "display_name": "Jiayi Meng",
     "affiliation": "University of Texas at Arlington",
@@ -1789,53 +1889,6 @@
     ],
     "promoted_from_member": true,
     "years_to_chair": 2
-  },
-  {
-    "name": "Marton Bognar",
-    "display_name": "Marton Bognar",
-    "affiliation": "KU Leuven",
-    "country": "Belgium",
-    "continent": "Europe",
-    "total_memberships": 3,
-    "chair_count": 1,
-    "member_count": 2,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 2,
-      "2026": 1
-    },
-    "first_year": 2025,
-    "last_year": 2026,
-    "first_chair_year": 2026,
-    "chaired_series": [
-      "SYSTEX"
-    ],
-    "chaired_conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "promoted_from_member": true,
-    "years_to_chair": 1
   },
   {
     "name": "Matthew Burke",
@@ -3064,42 +3117,6 @@
       {
         "conference": "SP",
         "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "promoted_from_member": false,
-    "years_to_chair": null
-  },
-  {
-    "name": "Jo Van Bulck",
-    "display_name": "Jo Van Bulck",
-    "affiliation": "KU Leuven",
-    "country": "Belgium",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 1,
-    "member_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2025,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025,
-    "first_chair_year": 2025,
-    "chaired_series": [
-      "SYSTEX"
-    ],
-    "chaired_conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2025,
         "role": "chair"
       }
     ],

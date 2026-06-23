@@ -1951,6 +1951,45 @@
     "last_year": 2026
   },
   {
+    "name": "Marton Bognar",
+    "display_name": "Marton Bognar",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
     "name": "Abdullah Al Ishtiaq",
     "display_name": "Abdullah Al Ishtiaq",
     "affiliation": "University of Pennsylvania",
@@ -3910,39 +3949,6 @@
     "last_year": 2022
   },
   {
-    "name": "Marton Bognar",
-    "display_name": "Marton Bognar",
-    "affiliation": "KU Leuven",
-    "country": "Belgium",
-    "continent": "Europe",
-    "total_memberships": 3,
-    "chair_count": 1,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 2,
-      "2026": 1
-    },
-    "first_year": 2025,
-    "last_year": 2026
-  },
-  {
     "name": "Abhinaya S.B.",
     "display_name": "Abhinaya S.B.",
     "affiliation": "North Carolina State University",
@@ -5183,6 +5189,40 @@
     "last_year": 2025
   },
   {
+    "name": "Gianluca Scopelliti",
+    "display_name": "Gianluca Scopelliti",
+    "affiliation": "Politecnico di Torino, Dromt",
+    "country": null,
+    "continent": null,
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
     "name": "Grégoire Menguy",
     "display_name": "Grégoire Menguy",
     "affiliation": "CEA LIST",
@@ -5913,6 +5953,39 @@
       "2024": 1,
       "2025": 1,
       "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
+    "name": "Luca Wilke",
+    "display_name": "Luca Wilke",
+    "affiliation": "Microsoft Research",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2026": 2
     },
     "first_year": 2024,
     "last_year": 2026
@@ -7692,6 +7765,34 @@
     "last_year": 2023
   },
   {
+    "name": "Jo Van Bulck",
+    "display_name": "Jo Van Bulck",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 2,
+    "chair_count": 2,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "chair"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 1
+    },
+    "first_year": 2024,
+    "last_year": 2025
+  },
+  {
     "name": "Roberto Perdisci",
     "display_name": "Roberto Perdisci",
     "affiliation": "University of Georgia",
@@ -8277,6 +8378,34 @@
     "last_year": 2024
   },
   {
+    "name": "Anna Pätschke",
+    "display_name": "Anna Pätschke",
+    "affiliation": "University of Luebeck",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
+  },
+  {
     "name": "Annika Wilde",
     "display_name": "Annika Wilde",
     "affiliation": "Ruhr University Bochum",
@@ -8778,6 +8907,34 @@
     "last_year": 2024
   },
   {
+    "name": "Cristiano Rodrigues",
+    "display_name": "Cristiano Rodrigues",
+    "affiliation": "University of Minho",
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2025": 1
+    },
+    "first_year": 2024,
+    "last_year": 2025
+  },
+  {
     "name": "Daniel Arp",
     "display_name": "Daniel Arp",
     "affiliation": "TU Wien",
@@ -8804,6 +8961,34 @@
     },
     "first_year": 2022,
     "last_year": 2023
+  },
+  {
+    "name": "Daniel Castro",
+    "display_name": "Daniel Castro",
+    "affiliation": "Universidade de Lisboa",
+    "country": "Portugal",
+    "continent": "Europe",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "SYSTEX",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1,
+      "2026": 1
+    },
+    "first_year": 2024,
+    "last_year": 2026
   },
   {
     "name": "Dario Nisi",
@@ -9443,34 +9628,6 @@
     },
     "first_year": 2020,
     "last_year": 2021
-  },
-  {
-    "name": "Gianluca Scopelliti",
-    "display_name": "Gianluca Scopelliti",
-    "affiliation": "Politecnico di Torino, Dromt",
-    "country": null,
-    "continent": null,
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 1
-    },
-    "first_year": 2025,
-    "last_year": 2026
   },
   {
     "name": "Giorgia Di Pietro",
@@ -11219,33 +11376,6 @@
     },
     "first_year": 2022,
     "last_year": 2023
-  },
-  {
-    "name": "Luca Wilke",
-    "display_name": "Luca Wilke",
-    "affiliation": "Microsoft Research",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 2
-    },
-    "first_year": 2026,
-    "last_year": 2026
   },
   {
     "name": "Malvika Jadhav",
@@ -14895,28 +15025,6 @@
     "last_year": 2026
   },
   {
-    "name": "Jo Van Bulck",
-    "display_name": "Jo Van Bulck",
-    "affiliation": "KU Leuven",
-    "country": "Belgium",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 1,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2025,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
     "name": "Markku-Juhani O. Saarinen",
     "display_name": "Markku-Juhani O. Saarinen",
     "affiliation": "PQShield Ltd., Oxford, UK",
@@ -16137,28 +16245,6 @@
     "conferences": [
       {
         "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 1
-    },
-    "first_year": 2026,
-    "last_year": 2026
-  },
-  {
-    "name": "Anna Pätschke",
-    "display_name": "Anna Pätschke",
-    "affiliation": "University of Luebeck",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
         "year": 2026,
         "role": "member"
       }
@@ -17953,28 +18039,6 @@
     "last_year": 2024
   },
   {
-    "name": "Cristiano Rodrigues",
-    "display_name": "Cristiano Rodrigues",
-    "affiliation": "University of Minho",
-    "country": "Saudi Arabia",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1
-    },
-    "first_year": 2025,
-    "last_year": 2025
-  },
-  {
     "name": "Daan Vanoverloop",
     "display_name": "Daan Vanoverloop",
     "affiliation": "KU Leuven",
@@ -18061,28 +18125,6 @@
     },
     "first_year": 2021,
     "last_year": 2021
-  },
-  {
-    "name": "Daniel Castro",
-    "display_name": "Daniel Castro",
-    "affiliation": "Universidade de Lisboa",
-    "country": "Portugal",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "SYSTEX",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 1
-    },
-    "first_year": 2026,
-    "last_year": 2026
   },
   {
     "name": "Daniel De Almeida Braga",
@@ -21691,6 +21733,28 @@
     },
     "first_year": 2023,
     "last_year": 2023
+  },
+  {
+    "name": "Jan Wichelmann",
+    "display_name": "Jan Wichelmann",
+    "affiliation": "Universität zu Lübeck, Lübeck, Germany",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024
   },
   {
     "name": "Janak Chandarana",
@@ -32185,6 +32249,28 @@
     },
     "first_year": 2023,
     "last_year": 2023
+  },
+  {
+    "name": "Tom Van Eyck",
+    "display_name": "Tom Van Eyck",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SYSTEX",
+        "year": 2024,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2024": 1
+    },
+    "first_year": 2024,
+    "last_year": 2024
   },
   {
     "name": "Tomer Laor",
