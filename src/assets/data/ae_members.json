@@ -1787,6 +1787,62 @@
     "last_year": 2024
   },
   {
+    "name": "Solal Pirelli",
+    "display_name": "Solal Pirelli",
+    "affiliation": "EPFL",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "total_memberships": 7,
+    "chair_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2020,
+    "last_year": 2027
+  },
+  {
     "name": "Bogdan Alexandru Stoica",
     "display_name": "Bogdan Alexandru Stoica",
     "affiliation": "University of Illinois Urbana-Champaign",
@@ -2278,56 +2334,6 @@
     },
     "first_year": 2022,
     "last_year": 2024
-  },
-  {
-    "name": "Solal Pirelli",
-    "display_name": "Solal Pirelli",
-    "affiliation": "EPFL",
-    "country": "Switzerland",
-    "continent": "Europe",
-    "total_memberships": 6,
-    "chair_count": 2,
-    "conferences": [
-      {
-        "conference": "EUROSYS",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "EUROSYS",
-        "year": 2022,
-        "role": "chair"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2020,
-        "role": "member"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "area": "systems",
-    "years": {
-      "2020": 1,
-      "2021": 3,
-      "2022": 1,
-      "2026": 1
-    },
-    "first_year": 2020,
-    "last_year": 2026
   },
   {
     "name": "Anna Lorimer",
@@ -34400,6 +34406,28 @@
     },
     "first_year": 2026,
     "last_year": 2026
+  },
+  {
+    "name": "Redha Gouicem",
+    "display_name": "Redha Gouicem",
+    "affiliation": "RWTH Aachen University",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027
   },
   {
     "name": "Robert Ricci",

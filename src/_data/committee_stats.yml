@@ -1,23 +1,23 @@
-last_updated: '2026-06-23'
-total_members: 4591
-total_systems: 2368
+last_updated: '2026-06-28'
+total_members: 4593
+total_systems: 2370
 total_security: 2223
-total_conferences: 69
+total_conferences: 70
 total_countries: 59
 total_continents: 6
-total_institutions: 486
-unique_members: 2554
-unique_members_systems: 1248
+total_institutions: 487
+unique_members: 2555
+unique_members_systems: 1249
 unique_members_security: 1402
 unique_members_both: 96
-recurring_chairs: 83
+recurring_chairs: 84
 top_countries:
 - name: United States
   count: 2231
 - name: China
   count: 382
 - name: Germany
-  count: 214
+  count: 215
 - name: Hong Kong
   count: 198
 - name: United Kingdom
@@ -25,7 +25,7 @@ top_countries:
 - name: Taiwan, Province of China
   count: 93
 - name: Switzerland
-  count: 89
+  count: 90
 - name: Singapore
   count: 71
 - name: Canada
@@ -51,14 +51,14 @@ top_countries_systems:
   count: 128
 - name: United Kingdom
   count: 61
+- name: Switzerland
+  count: 59
 - name: Taiwan, Province of China
   count: 59
-- name: Switzerland
-  count: 58
 - name: Singapore
   count: 46
 - name: Germany
-  count: 33
+  count: 34
 - name: Spain
   count: 32
 - name: Canada
@@ -110,7 +110,7 @@ top_continents:
 - name: Asia
   count: 977
 - name: Europe
-  count: 811
+  count: 813
 - name: Oceania
   count: 62
 - name: Africa
@@ -123,7 +123,7 @@ top_continents_systems:
 - name: Asia
   count: 599
 - name: Europe
-  count: 291
+  count: 293
 - name: Africa
   count: 20
 - name: Oceania
@@ -216,7 +216,7 @@ top_institutions_systems:
 - name: University of California, Irvine
   count: 33
 - name: epfl
-  count: 29
+  count: 30
 - name: The University of Texas at Austin
   count: 28
 - name: Cornell University
@@ -307,6 +307,10 @@ institution_timeline:
   total: 245
   systems: 122
   security: 188
+- year: 2027
+  total: 2
+  systems: 2
+  security: 0
 committee_sizes:
 - conference: ACSAC
   year: 2017
@@ -423,6 +427,11 @@ committee_sizes:
   conf_year: eurosys2026
   area: systems
   size: 105
+- conference: EUROSYS
+  year: 2027
+  conf_year: eurosys2027
+  area: systems
+  size: 2
 - conference: FAST
   year: 2024
   conf_year: fast2024
@@ -654,16 +663,16 @@ committee_sizes:
   area: security
   size: 16
 chair_stats:
-  total_chairs: 83
-  total_chairs_systems: 54
+  total_chairs: 84
+  total_chairs_systems: 55
   total_chairs_security: 31
   repeat_chairs: 24
-  repeat_chairs_pct: 28.9
+  repeat_chairs_pct: 28.6
   repeat_chairs_systems: 13
   repeat_chairs_security: 12
   cross_conference_chairs: 14
   pipeline_promoted: 31
-  pipeline_promoted_pct: 37.3
+  pipeline_promoted_pct: 36.9
   pipeline_avg_years: 2.7
   avg_chairs_per_edition: 2.1
   avg_chairs_per_edition_systems: 2.6
@@ -701,3 +710,6 @@ chair_stats:
   - year: 2026
     new_chairs: 12
     active_chairs: 18
+  - year: 2027
+    new_chairs: 1
+    active_chairs: 2

@@ -1361,6 +1361,10 @@
       "Baylor University": 1,
       "Worcester Polytechnic Institute": 1,
       "Zaporizhzhe National Technical University": 1
+    },
+    "2027": {
+      "rwth aachen": 1,
+      "epfl": 1
     }
   },
   "systems": {
@@ -2130,6 +2134,10 @@
       "University of Science and Technology of China": 2,
       "Boston University": 1,
       "Xiamen University": 1
+    },
+    "2027": {
+      "rwth aachen": 1,
+      "epfl": 1
     }
   },
   "security": {
@@ -3640,6 +3648,19 @@
           "count": 13
         }
       ]
+    },
+    {
+      "year": 2027,
+      "institutions": [
+        {
+          "name": "rwth aachen",
+          "count": 1
+        },
+        {
+          "name": "epfl",
+          "count": 1
+        }
+      ]
     }
   ],
   "unique_by_year": [
@@ -3702,6 +3723,12 @@
       "total": 245,
       "systems": 122,
       "security": 188
+    },
+    {
+      "year": 2027,
+      "total": 2,
+      "systems": 2,
+      "security": 0
     }
   ]
 }

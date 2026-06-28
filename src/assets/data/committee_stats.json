@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total_members": 4591,
-    "total_systems": 2368,
+    "total_members": 4593,
+    "total_systems": 2370,
     "total_security": 2223,
     "total_countries": 59,
     "total_continents": 6,
-    "total_institutions": 486
+    "total_institutions": 487
   },
   "by_country": {
     "overall": [
@@ -19,7 +19,7 @@
       },
       {
         "name": "Germany",
-        "count": 214
+        "count": 215
       },
       {
         "name": "Hong Kong",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Switzerland",
-        "count": 89
+        "count": 90
       },
       {
         "name": "Singapore",
@@ -264,12 +264,12 @@
         "count": 61
       },
       {
-        "name": "Taiwan, Province of China",
+        "name": "Switzerland",
         "count": 59
       },
       {
-        "name": "Switzerland",
-        "count": 58
+        "name": "Taiwan, Province of China",
+        "count": 59
       },
       {
         "name": "Singapore",
@@ -277,7 +277,7 @@
       },
       {
         "name": "Germany",
-        "count": 33
+        "count": 34
       },
       {
         "name": "Spain",
@@ -655,7 +655,7 @@
       },
       {
         "name": "Europe",
-        "count": 811
+        "count": 813
       },
       {
         "name": "Oceania",
@@ -681,7 +681,7 @@
       },
       {
         "name": "Europe",
-        "count": 291
+        "count": 293
       },
       {
         "name": "Africa",
@@ -807,7 +807,7 @@
       },
       {
         "name": "epfl",
-        "count": 37
+        "count": 38
       },
       {
         "name": "Virginia Tech",
@@ -2222,6 +2222,10 @@
         "count": 1
       },
       {
+        "name": "rwth aachen",
+        "count": 1
+      },
+      {
         "name": "University of Warsaw",
         "count": 1
       },
@@ -2733,7 +2737,7 @@
       },
       {
         "name": "epfl",
-        "count": 29
+        "count": 30
       },
       {
         "name": "The University of Texas at Austin",
@@ -3725,6 +3729,10 @@
       },
       {
         "name": "Waseda University",
+        "count": 1
+      },
+      {
+        "name": "rwth aachen",
         "count": 1
       },
       {
@@ -5588,6 +5596,10 @@
         "Pakistan": 1,
         "Turkiye": 2,
         "Ukraine": 1
+      },
+      "2027": {
+        "Germany": 1,
+        "Switzerland": 1
       }
     },
     "country_systems": {
@@ -5783,6 +5795,10 @@
         "Netherlands": 1,
         "Turkiye": 2,
         "Sweden": 1
+      },
+      "2027": {
+        "Germany": 1,
+        "Switzerland": 1
       }
     },
     "country_security": {
@@ -6103,6 +6119,9 @@
         "Europe": 127,
         "Africa": 15,
         "Oceania": 16
+      },
+      "2027": {
+        "Europe": 2
       }
     },
     "continent_systems": {
@@ -6160,6 +6179,9 @@
         "Asia": 68,
         "Europe": 27,
         "Africa": 7
+      },
+      "2027": {
+        "Europe": 2
       }
     },
     "continent_security": {
@@ -6393,6 +6415,13 @@
       "conf_year": "eurosys2026",
       "area": "systems",
       "size": 105
+    },
+    {
+      "conference": "EUROSYS",
+      "year": 2027,
+      "conf_year": "eurosys2027",
+      "area": "systems",
+      "size": 2
     },
     {
       "conference": "FAST",

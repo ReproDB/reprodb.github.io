@@ -280,6 +280,87 @@
     "years_to_chair": 1
   },
   {
+    "name": "Solal Pirelli",
+    "display_name": "Solal Pirelli",
+    "affiliation": "EPFL",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "total_memberships": 7,
+    "chair_count": 3,
+    "member_count": 4,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2020,
+    "last_year": 2027,
+    "first_chair_year": 2022,
+    "chaired_series": [
+      "EUROSYS",
+      "SOSP"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2022,
+        "role": "chair"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
     "name": "Clémentine Maurice",
     "display_name": "Clémentine Maurice",
     "affiliation": "CNRS",
@@ -620,76 +701,6 @@
     ],
     "promoted_from_member": true,
     "years_to_chair": 5
-  },
-  {
-    "name": "Solal Pirelli",
-    "display_name": "Solal Pirelli",
-    "affiliation": "EPFL",
-    "country": "Switzerland",
-    "continent": "Europe",
-    "total_memberships": 6,
-    "chair_count": 2,
-    "member_count": 4,
-    "conferences": [
-      {
-        "conference": "EUROSYS",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "EUROSYS",
-        "year": 2022,
-        "role": "chair"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2020,
-        "role": "member"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "area": "systems",
-    "years": {
-      "2020": 1,
-      "2021": 3,
-      "2022": 1,
-      "2026": 1
-    },
-    "first_year": 2020,
-    "last_year": 2026,
-    "first_chair_year": 2022,
-    "chaired_series": [
-      "EUROSYS",
-      "SOSP"
-    ],
-    "chaired_conferences": [
-      {
-        "conference": "EUROSYS",
-        "year": 2022,
-        "role": "chair"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "promoted_from_member": true,
-    "years_to_chair": 2
   },
   {
     "name": "Aurore Fass",
@@ -3477,6 +3488,42 @@
       {
         "conference": "EUROSYS",
         "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Redha Gouicem",
+    "display_name": "Redha Gouicem",
+    "affiliation": "RWTH Aachen University",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
