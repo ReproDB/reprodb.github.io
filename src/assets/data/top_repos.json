@@ -15,6 +15,21 @@
     "area": "security"
   },
   {
+    "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+    "url": "https://github.com/kvcache-ai/ktransformers",
+    "year": 2025,
+    "stars": 17348,
+    "forks": 1329,
+    "authors": "",
+    "github_org": "kvcache-ai",
+    "badges": "Available,Functional,Reproduced",
+    "last_active": "2026-06",
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "language": "Python",
+    "conference": "SOSP",
+    "area": "systems"
+  },
+  {
     "title": "Retiarii: A Deep Learning Exploratory-Training Framework",
     "url": "https://github.com/microsoft/nni/tree/retiarii_artifact",
     "year": 2020,
@@ -732,21 +747,6 @@
     "description": "A Series of Baseband & LMP Exploits against Bluetooth Classic Controllers",
     "language": "",
     "conference": "USENIXSEC",
-    "area": "security"
-  },
-  {
-    "title": "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
-    "url": "https://github.com/MAIAN-tool/MAIAN",
-    "year": 2018,
-    "stars": 567,
-    "forks": 160,
-    "authors": "Ivica Nikolic, Aashish Kolluri, Ilya Sergey, Prateek Saxena, Aquinas Hobor",
-    "github_org": "MAIAN-tool",
-    "badges": "functional",
-    "last_active": "2023-10",
-    "description": "MAIAN: automatic tool for finding trace vulnerabilities in Ethereum smart contracts",
-    "language": "Python",
-    "conference": "ACSAC",
     "area": "security"
   }
 ]

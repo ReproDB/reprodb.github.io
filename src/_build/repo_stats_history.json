@@ -380845,5 +380845,645 @@
         "forks": 1
       }
     ]
+  },
+  "https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 20,
+        "forks": 5
+      }
+    ]
+  },
+  "https://doi.org/10.5281/zenodo.16912877": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
+      "source": "zenodo"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "views": 435,
+        "downloads": 229
+      }
+    ]
+  },
+  "https://github.com/eth-easl/sailor": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 44,
+        "forks": 14
+      }
+    ]
+  },
+  "https://github.com/CHERIoT-Platform/cheriot-rtos": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 163,
+        "forks": 66
+      }
+    ]
+  },
+  "https://github.com/yale-nova/spirit": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 5,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/epfl-dcsl/miralis-sosp25-artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "The Design and Implementation of a Virtual Firmware Monitor",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 4,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/rs3lab/mage-artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Scalable Far Memory: Balancing Faults and Evictions",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 4,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/verify-llm/TrainVerify": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 13,
+        "forks": 0
+      }
+    ]
+  },
+  "https://doi.org/10.5281/zenodo.16921000": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+      "source": "zenodo"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "views": 158,
+        "downloads": 30
+      }
+    ]
+  },
+  "https://github.com/OrderLab/Atropos": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 6,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/pie-project/pie": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 178,
+        "forks": 24
+      }
+    ]
+  },
+  "https://github.com/OrderLab/phoenix": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 6,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/zyqCSL/DiffKV": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 44,
+        "forks": 11
+      }
+    ]
+  },
+  "https://github.com/ICTPLSys/Orthrus": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 9,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/dslab-epfl/NEXDSIM_AE": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 1,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/heheda12345/Jenga-SOSP25-AE": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 15,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/cache-ext/cache_ext": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "cache_ext: Customizing the Page Cache with eBPF",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 90,
+        "forks": 19
+      }
+    ]
+  },
+  "https://github.com/fsuri/Pequin-Artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Pesto: Cooking up High Performance BFT Queries",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 2,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/fsolleza/loom": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 7,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/TELOS-syslab/Aeolia": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 11,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/New-Consensus-Concurrency-Control/Tiga": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 11,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/LSDS/Tempo": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 29,
+        "forks": 3
+      }
+    ]
+  },
+  "https://github.com/Leo9660/HedraRAG_AE": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 21,
+        "forks": 4
+      }
+    ]
+  },
+  "https://doi.org/10.5281/zenodo.16972909": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
+      "source": "zenodo"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "views": 104,
+        "downloads": 19
+      }
+    ]
+  },
+  "https://github.com/ise-uiuc/KNighter": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 181,
+        "forks": 22
+      }
+    ]
+  },
+  "https://github.com/SunHao-0/BCF/tree/artifact-evaluation": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 18,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/yagehu/wasit": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 2,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/rs3lab/veritas": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 6,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/CASP-Systems-BU/orq": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 18,
+        "forks": 6
+      }
+    ]
+  },
+  "https://github.com/mars-research/atmosphere-sosp25-artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 1,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/stonysystems/automan": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 2,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/ChandlerGuan/mercury_artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 27,
+        "forks": 6
+      }
+    ]
+  },
+  "https://github.com/dedis/votegral": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 2,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/eniac/quilt": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Quilt: Resource-aware Merging of Serverless Workflows",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 7,
+        "forks": 1
+      }
+    ]
+  },
+  "https://github.com/kvcache-ai/ktransformers": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 17348,
+        "forks": 1329
+      }
+    ]
+  },
+  "https://github.com/eth-easl/dandelion": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 33,
+        "forks": 5
+      }
+    ]
+  },
+  "https://github.com/SJTU-IPADS/Copier": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 27,
+        "forks": 6
+      }
+    ]
+  },
+  "https://github.com/TELOS-syslab/CortenMM-Artifact": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 43,
+        "forks": 2
+      }
+    ]
+  },
+  "https://github.com/kaist-cp/interval-vm.git": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 6,
+        "forks": 0
+      }
+    ]
+  },
+  "https://github.com/chenyu-jiang/dcp": {
+    "meta": {
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+      "source": "github"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "stars": 21,
+        "forks": 2
+      }
+    ]
   }
 }

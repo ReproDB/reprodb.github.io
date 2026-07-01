@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1719
-  total_stars: 206714
-  total_forks: 31570
+  github_repos: 1755
+  total_stars: 225119
+  total_forks: 33107
   max_stars: 32231
   max_forks: 6680
-  zenodo_repos: 984
-  total_views: 303440
-  total_downloads: 244297
-  avg_stars: 120.3
-  avg_forks: 18.4
+  zenodo_repos: 987
+  total_views: 304137
+  total_downloads: 244575
+  avg_stars: 128.3
+  avg_forks: 18.9
   median_stars: 7
   median_forks: 1
   p25_stars: 1.0
-  p75_stars: 24.0
+  p75_stars: 25.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-07-01 10:24:04 UTC
+  last_updated: 2026-07-01 11:49:19 UTC
 by_conference:
 - name: ACSAC
   github_repos: 205
@@ -1235,19 +1235,19 @@ by_conference:
     - Nishanth Chandran
     - Divya Gupta 0001
 - name: SOSP
-  github_repos: 106
-  total_stars: 6741
-  total_forks: 1311
-  avg_stars: 63.6
-  avg_forks: 12.4
-  median_stars: 19.5
-  median_forks: 5.0
-  p25_stars: 6.8
-  p75_stars: 49.5
+  github_repos: 143
+  total_stars: 25563
+  total_forks: 2958
+  avg_stars: 178.8
+  avg_forks: 20.7
+  median_stars: 18.0
+  median_forks: 4.0
+  p25_stars: 6.0
+  p75_stars: 47.8
   p25_forks: 1.0
-  p75_forks: 12.2
-  max_stars: 1231
-  max_forks: 167
+  p75_forks: 11.8
+  max_stars: 17348
+  max_forks: 1329
   years:
   - year: 2019
     github_repos: 19
@@ -1297,7 +1297,36 @@ by_conference:
     p75_stars: 43.0
     p25_forks: 0.0
     p75_forks: 7.8
+  - year: 2025
+    github_repos: 38
+    total_stars: 18842
+    total_forks: 1652
+    avg_stars: 495.8
+    avg_forks: 43.5
+    median_stars: 14.0
+    median_forks: 2.0
+    p25_stars: 5.8
+    p75_stars: 35.5
+    p25_forks: 1.0
+    p75_forks: 6.0
   top_repos:
+  - title: 'KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference
+      for MoE Models'
+    url: https://github.com/kvcache-ai/ktransformers
+    conference: SOSP
+    year: 2025
+    area: systems
+    stars: 17348
+    forks: 1329
+    description: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune
+      Optimizations
+    language: Python
+    name: kvcache-ai/ktransformers
+    pushed_at: '2026-06-25T14:49:40Z'
+    badges:
+    - Available
+    - Functional
+    - Reproduced
   - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
       Systems
     url: https://github.com/demikernel/demikernel
@@ -1338,6 +1367,20 @@ by_conference:
     - Xuanhua Shi
     - Fan Yang 0024
     - Mao Yang 0004
+  - title: 'Coyote v2: Raising the Level of Abstraction for Data Center FPGAs'
+    url: https://github.com/fpgasystems/Coyote
+    conference: SOSP
+    year: 2025
+    area: systems
+    stars: 417
+    forks: 110
+    description: Framework providing operating system abstractions and a range of
+      shared networking and memory services for common modern
+    language: SystemVerilog
+    name: fpgasystems/Coyote
+    pushed_at: '2026-06-13T18:28:15Z'
+    badges:
+    - Available
   - title: Generalized Pipeline Parallelism for DNN Training
     url: https://github.com/msr-fiddle/pipedream
     conference: SOSP
@@ -1352,50 +1395,6 @@ by_conference:
     badges:
     - Available
     - Functional
-  - title: Reducing Energy Bloat in Large Model Training
-    url: https://github.com/ml-energy/zeus/tree/kronos
-    conference: SOSP
-    year: 2024
-    area: systems
-    stars: 366
-    forks: 45
-    description: Measure and optimize the energy consumption of your AI applications!
-    language: Python
-    name: ml-energy/zeus
-    pushed_at: '2026-06-23T23:48:26Z'
-    badges:
-    - Available
-    - Functional
-    - Reproduced
-    authors:
-    - Jae-Won Chung
-    - Yile Gu
-    - Insu Jang
-    - Luoxi Meng
-    - Nikhil Bansal 0001
-    - Mosharaf Chowdhury
-  - title: 'HEALER: Relation Learning Guided Kernel Fuzzing'
-    url: https://github.com/SunHao-0/healer
-    conference: SOSP
-    year: 2021
-    area: systems
-    stars: 290
-    forks: 48
-    description: Kernel fuzzer inspired by Syzkaller.
-    language: Rust
-    name: SunHao-0/healer
-    pushed_at: '2022-02-23T01:30:05Z'
-    badges:
-    - Available
-    - Functional
-    authors:
-    - Hao Sun 0021
-    - Yuheng Shen
-    - Cong Wang 0020
-    - Jianzhong Liu
-    - Yu Jiang 0001
-    - Ting Chen 0002
-    - Aiguo Cui
 - name: SP
   github_repos: 15
   total_stars: 33768
@@ -2119,19 +2118,19 @@ by_year:
   max_stars: 14036
   max_forks: 2444
 - year: 2025
-  github_repos: 313
-  total_stars: 32056
-  total_forks: 5858
-  avg_stars: 102.4
-  avg_forks: 18.7
-  median_stars: 2
-  median_forks: 0
+  github_repos: 351
+  total_stars: 50898
+  total_forks: 7510
+  avg_stars: 145.0
+  avg_forks: 21.4
+  median_stars: 3
+  median_forks: 1
   p25_stars: 0.0
-  p75_stars: 11.5
+  p75_stars: 14.0
   p25_forks: 0.0
-  p75_forks: 2.5
-  max_stars: 4718
-  max_forks: 921
+  p75_forks: 3.0
+  max_stars: 17348
+  max_forks: 1329
 - year: 2026
   github_repos: 201
   total_stars: 49291
@@ -2148,16 +2147,16 @@ by_year:
   max_forks: 6680
 by_area:
 - name: systems
-  github_repos: 546
-  total_stars: 82739
-  total_forks: 11468
+  github_repos: 584
+  total_stars: 101581
+  total_forks: 13120
   median_stars: 12.0
-  median_forks: 3.0
+  median_forks: 2.0
   p25_stars: 3.0
   p75_stars: 41.0
   p25_forks: 0.0
   p75_forks: 7.0
-  max_stars: 14357
+  max_stars: 17348
 - name: security
   github_repos: 1186
   total_stars: 146386

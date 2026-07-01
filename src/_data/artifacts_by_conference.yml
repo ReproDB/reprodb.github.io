@@ -315,7 +315,7 @@
 - name: SOSP
   category: systems
   venue_type: conference
-  total_artifacts: 121
+  total_artifacts: 166
   years:
   - year: 2019
     total: 22
@@ -340,6 +340,12 @@
     functional: 23
     reproducible: 21
     available: 25
+    reusable: 0
+  - year: 2025
+    total: 45
+    functional: 41
+    reproducible: 33
+    available: 42
     reusable: 0
 - name: SP
   category: security

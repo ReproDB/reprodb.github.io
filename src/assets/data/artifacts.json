@@ -15706,6 +15706,836 @@
     "award": null
   },
   {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Proto: A Guided Journey through Modern OS Construction",
+    "badges": [
+      "Functional"
+    ],
+    "artifact_urls": [],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764811",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/CHERIoT-Platform/cheriot-rtos"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764844",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "The Design and Implementation of a Virtual Firmware Monitor",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/epfl-dcsl/miralis-sosp25-artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764826",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization",
+    "badges": [
+      "Available"
+    ],
+    "artifact_urls": [
+      "https://bitbucket.org/yuhong_zhong/oasis"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764812",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/yale-nova/spirit"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764805",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Scalable Far Memory: Balancing Faults and Evictions",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/rs3lab/mage-artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764842",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.16912877"
+    ],
+    "doi": "10.5281/zenodo.16912877",
+    "paper_url": "https://doi.org/10.1145/3731569.3764801",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/eth-easl/sailor"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764839",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.16921000"
+    ],
+    "doi": "10.5281/zenodo.16921000",
+    "paper_url": "https://doi.org/10.1145/3731569.3764849",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/verify-llm/TrainVerify"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764850",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+    "badges": [
+      "Available"
+    ],
+    "artifact_urls": [
+      "https://github.com/OrderLab/Atropos"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764835",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/ICTPLSys/Orthrus"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764832",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/OrderLab/phoenix"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764858",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/dslab-epfl/NEXDSIM_AE"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764825",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.16972909"
+    ],
+    "doi": "10.5281/zenodo.16972909",
+    "paper_url": "https://doi.org/10.1145/3731569.3764834",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/pie-project/pie"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764814",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
+    "badges": [
+      "Available"
+    ],
+    "artifact_urls": [
+      "https://github.com/zyqCSL/DiffKV"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764810",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/heheda12345/Jenga-SOSP25-AE"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764823",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "cache_ext: Customizing the Page Cache with eBPF",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/cache-ext/cache_ext"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764820",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/TELOS-syslab/Aeolia"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764816",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/fsolleza/loom"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764853",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Pesto: Cooking up High Performance BFT Queries",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/fsuri/Pequin-Artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764799",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/New-Consensus-Concurrency-Control/Tiga"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764854",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/LSDS/Tempo"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764840",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/Leo9660/HedraRAG_AE"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764806",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs",
+    "badges": [
+      "Available"
+    ],
+    "artifact_urls": [
+      "https://github.com/fpgasystems/Coyote"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764845",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/ise-uiuc/KNighter"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764827",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/rs3lab/veritas"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764797",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/yagehu/wasit"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764819",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/SunHao-0/BCF/tree/artifact-evaluation"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764796",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+    "badges": [
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/mars-research/atmosphere-sosp25-artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764821",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/stonysystems/automan"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764822",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/CASP-Systems-BU/orq"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764833",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/dedis/votegral"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764837",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Quilt: Resource-aware Merging of Serverless Workflows",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/eniac/quilt"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764830",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage Services",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764824",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/eth-easl/dandelion"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764803",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Managing Scalable Direct Storage Accesses for GPUs with GoFS",
+    "badges": [
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764857",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/kvcache-ai/ktransformers"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764843",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/ChandlerGuan/mercury_artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764798",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://github.com/SJTU-IPADS/Copier"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764800",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/TELOS-syslab/CortenMM-Artifact"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764836",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "FlexGuard: Fast Mutual Exclusion Independent of Subscription",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://gitlab.inria.fr/flexguard/flexguard"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764852",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/kaist-cp/interval-vm.git"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3764807",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "SOSP",
+    "category": "systems",
+    "year": 2025,
+    "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/vmexit/trio-sosp23-ae/tree/sosp25ae-snapshot"
+    ],
+    "doi": "",
+    "paper_url": "https://doi.org/10.1145/3731569.3768291",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
     "conference": "ACSAC",
     "category": "security",
     "year": 2017,

@@ -85018,5 +85018,770 @@
         "citations_semantic_scholar": null
       }
     ]
+  },
+  "SOSP/2025/bf5a0ed9b669": {
+    "meta": {
+      "title": "Proto: A Guided Journey through Modern OS Construction",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764811"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/92ab297fe0c9": {
+    "meta": {
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764844"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/25fcf1e6089a": {
+    "meta": {
+      "title": "The Design and Implementation of a Virtual Firmware Monitor",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764826"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/d4577a6c1673": {
+    "meta": {
+      "title": "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764812"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/0932cad086ff": {
+    "meta": {
+      "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764805"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/77437ca73c5c": {
+    "meta": {
+      "title": "Scalable Far Memory: Balancing Faults and Evictions",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764842"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/62b8c8ade25d": {
+    "meta": {
+      "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764801"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/426babdeb200": {
+    "meta": {
+      "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764839"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/b20ed844ea14": {
+    "meta": {
+      "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764849"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/401618db1238": {
+    "meta": {
+      "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764850"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/6080ff875ec1": {
+    "meta": {
+      "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764835"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/8d4f4e322315": {
+    "meta": {
+      "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764832"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/ba44c4e39a95": {
+    "meta": {
+      "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764858"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/d0bdb429ff6f": {
+    "meta": {
+      "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764825"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/33890d809d2f": {
+    "meta": {
+      "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764834"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 4,
+        "citations_openalex": 4,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/da6e571c58ab": {
+    "meta": {
+      "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764814"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/09f56b8d2745": {
+    "meta": {
+      "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764810"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/4e17c1f09f58": {
+    "meta": {
+      "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764823"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/4e47a5034d2f": {
+    "meta": {
+      "title": "cache_ext: Customizing the Page Cache with eBPF",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764820"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/3952231134cb": {
+    "meta": {
+      "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764816"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/2652d1268b22": {
+    "meta": {
+      "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764853"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/86058e3cff57": {
+    "meta": {
+      "title": "Pesto: Cooking up High Performance BFT Queries",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764799"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/5667604fdf63": {
+    "meta": {
+      "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764854"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/26907be1c9f5": {
+    "meta": {
+      "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764840"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/f905076220da": {
+    "meta": {
+      "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764806"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/e244159dcf70": {
+    "meta": {
+      "title": "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764845"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 6,
+        "citations_openalex": 6,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/7de8b129f0e8": {
+    "meta": {
+      "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764827"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/2d2252c40157": {
+    "meta": {
+      "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764797"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/6141207dca8c": {
+    "meta": {
+      "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764819"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/fa7a8fb39365": {
+    "meta": {
+      "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764796"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/32ef9030f66f": {
+    "meta": {
+      "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764821"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/025f05336198": {
+    "meta": {
+      "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764822"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/7c665179d67d": {
+    "meta": {
+      "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764833"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 4,
+        "citations_openalex": 4,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/90fe8cc9e85a": {
+    "meta": {
+      "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764837"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/661970b00531": {
+    "meta": {
+      "title": "Quilt: Resource-aware Merging of Serverless Workflows",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764830"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/5e90824c9c19": {
+    "meta": {
+      "title": "Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage Services",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764824"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/45439c37930e": {
+    "meta": {
+      "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764803"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/4aff8a962500": {
+    "meta": {
+      "title": "Managing Scalable Direct Storage Accesses for GPUs with GoFS",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764857"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/036123217c4e": {
+    "meta": {
+      "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764843"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 3,
+        "citations_openalex": 3,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/68660e692a31": {
+    "meta": {
+      "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764798"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 2,
+        "citations_openalex": 2,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/3f625a908acf": {
+    "meta": {
+      "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764800"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/22fe74fbc573": {
+    "meta": {
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764836"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 1,
+        "citations_openalex": 1,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/a17207522277": {
+    "meta": {
+      "title": "FlexGuard: Fast Mutual Exclusion Independent of Subscription",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764852"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/158275f4554e": {
+    "meta": {
+      "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3764807"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
+  },
+  "SOSP/2025/ae6d3f081847": {
+    "meta": {
+      "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
+      "conference": "SOSP",
+      "year": 2025,
+      "area": "systems",
+      "paper_doi": "10.1145/3731569.3768291"
+    },
+    "snapshots": [
+      {
+        "date": "2026-07-01",
+        "cited_by_count": 0,
+        "citations_openalex": 0,
+        "citations_semantic_scholar": null
+      }
+    ]
   }
 }
