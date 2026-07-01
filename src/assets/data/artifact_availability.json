@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-06-28 14:26:36 UTC",
+    "checked_at": "2026-07-01 04:08:13 UTC",
     "total_urls": 2716,
-    "accessible_urls": 2632,
+    "accessible_urls": 2633,
     "accessibility_pct": 96.9,
     "by_platform": {
       "Bitbucket": {
@@ -37,15 +37,15 @@
       },
       "other": {
         "total": 315,
-        "accessible": 276,
-        "pct": 87.6
+        "accessible": 277,
+        "pct": 87.9
       }
     },
     "by_area": {
       "security": {
         "total": 2116,
-        "accessible": 2057,
-        "pct": 97.2
+        "accessible": 2058,
+        "pct": 97.3
       },
       "systems": {
         "total": 600,
@@ -71,8 +71,8 @@
       },
       "2020": {
         "total": 132,
-        "accessible": 124,
-        "pct": 93.9
+        "accessible": 125,
+        "pct": 94.7
       },
       "2021": {
         "total": 144,
@@ -130,8 +130,8 @@
       "2020": {
         "security": {
           "total": 84,
-          "accessible": 81,
-          "pct": 96.4
+          "accessible": 82,
+          "pct": 97.6
         },
         "systems": {
           "total": 48,
@@ -292,8 +292,8 @@
         },
         "other": {
           "total": 26,
-          "accessible": 23,
-          "pct": 88.5
+          "accessible": 24,
+          "pct": 92.3
         }
       },
       "2021": {
@@ -552,8 +552,8 @@
       },
       "USENIXSEC": {
         "total": 970,
-        "accessible": 961,
-        "pct": 99.1
+        "accessible": 962,
+        "pct": 99.2
       },
       "WOOT": {
         "total": 46,
@@ -17871,7 +17871,7 @@
       "url_key": "artifact_url",
       "url": "https://usenix2020-aec.rlbox.dev/",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
