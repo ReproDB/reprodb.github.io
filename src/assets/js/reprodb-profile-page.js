@@ -11,7 +11,7 @@
   // State
   var allProfiles = [], profileMap = {}, idMap = {};
   var citedArtifactsMap = {}, artifactUrlMap = {}, artifactByPaperId = {}, paperIndex = {};
-  var artifinderByPaperId = {}, artifinderByTitle = {};
+  var artifinderByPaperId = {}, artifinderByTitle = {}, artifinderByAuthor = {};
   var authorRankHistory = [], urlAccessible = {}, availCheckedAt = '';
   var allInstitutions = [], instMap = {}, instHistory = [];
 
@@ -69,6 +69,12 @@
       .replace(/[\u201c\u201d]/g, '"');
   }
 
+  // Normalised author key — must match _author_key() in the pipeline generator.
+  function afKey(name) {
+    return (name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+
   function availTag(url) {
     if (!url) return '';
     var n = url.replace(/\/+$/, '');
@@ -83,12 +89,20 @@
     return artifinderByTitle[normalizeTitle(paper.title)] || [];
   }
 
-  function artifinderTag(paper) {
-    if (!getArtifinderUrls(paper).length) return '';
+  // Non-AE ArtiFinder-discovered papers for an author (marked, not scored).
+  function getAuthorAfPapers(name) {
+    return artifinderByAuthor[afKey(name)] || [];
+  }
+
+  function afMarker() {
     var logo = baseUrl + '/assets/images/artifinder-logo.svg';
-    var tip = 'Includes a link found by ArtiFinder \u2014 not manually verified by an artifact evaluation committee.';
+    var tip = 'Found by ArtiFinder \u2014 not manually verified by an artifact evaluation committee; excluded from all scores.';
     return ' <span class="artifinder-tag"><img class="artifinder-logo" src="' + escHtml(logo) +
       '" alt="" aria-hidden="true"> Artifinder<span class="avail-tip">' + escHtml(tip) + '</span></span>';
+  }
+
+  function artifinderTag(paper) {
+    return getArtifinderUrls(paper).length ? afMarker() : '';
   }
 
   // Artifact URL for a paper: prefer the AE-provided link; fall back to an
@@ -152,17 +166,30 @@
     if (p.chair_count) c += card(p.chair_count, 'Chair Roles');
     document.getElementById('score-cards').innerHTML = c;
 
-    // Papers table
+    // Papers table (AE artifacts + ArtiFinder-discovered, marked & coloured)
     var papers = getPapers(p);
-    if (papers.length) {
+    var afPapersRaw = getAuthorAfPapers(p.name);
+    var aeKeys = {};
+    papers.forEach(function(pp) { aeKeys[normalizeTitle(pp.title) + '|' + (pp.year || '')] = true; });
+    var afRows = afPapersRaw
+      .filter(function(pp) { return !aeKeys[normalizeTitle(pp.title) + '|' + (pp.year || '')]; })
+      .map(function(pp) { return { title: pp.title, conference: pp.conference, year: pp.year, badges: [], url: pp.url, _af: true }; });
+    var tableData = papers.concat(afRows);
+    if (tableData.length) {
       document.getElementById('papers-section').classList.remove('rdb-hidden');
-      papers.sort(function(a, b) { return (b.year || 0) - (a.year || 0); });
+      tableData.sort(function(a, b) { return (b.year || 0) - (a.year || 0); });
       ReproDB.createTable('#papers-table', {
-        data: papers,
+        data: tableData,
         columns: [
           { title: '#', formatter: 'rownum', width: 50, headerSort: false },
           { title: 'Title', field: 'title', formatter: function(cell) {
-            var d = cell.getData(), u = paperLinkUrl(d);
+            var d = cell.getData();
+            if (d._af) {
+              var au = normalizeUrl(d.url || '');
+              var t = au ? '<a class="af-title" href="' + escHtml(au) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : '<span class="af-title">' + escHtml(d.title) + '</span>';
+              return t + afMarker();
+            }
+            var u = paperLinkUrl(d);
             return (u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(u) + artifinderTag(d);
           }, headerSort: false },
           { title: 'Conference', field: 'conference' },
@@ -228,15 +255,17 @@
     }
 
     // Timeline chart (ECharts bar)
-    renderTimelineChart(p, papers);
+    renderTimelineChart(p, papers, afRows);
     // History chart (shared helper)
     P.renderHistoryChart('authorHistoryChart', 'author-history-section', authorRankHistory, p.name);
   }
 
-  function renderTimelineChart(p, papers) {
+  function renderTimelineChart(p, papers, afPapers) {
+    afPapers = afPapers || [];
     var aeYears = p.ae_years || {};
     var yearSet = {};
     papers.forEach(function(pp) { if (pp.year) yearSet[pp.year] = true; });
+    afPapers.forEach(function(pp) { if (pp.year) yearSet[pp.year] = true; });
     Object.keys(aeYears).forEach(function(y) { yearSet[y] = true; });
     var years = Object.keys(yearSet).map(Number).sort();
     if (years.length < 1) { document.getElementById('chart-section').classList.add('rdb-hidden'); return; }
@@ -245,10 +274,15 @@
     for (var y = years[0]; y <= years[years.length - 1]; y++) allYears.push(y);
     var pc = {};
     papers.forEach(function(pp) { if (pp.year) pc[pp.year] = (pc[pp.year] || 0) + 1; });
+    var afc = {};
+    afPapers.forEach(function(pp) { if (pp.year) afc[pp.year] = (afc[pp.year] || 0) + 1; });
 
     document.getElementById('chart-section').classList.remove('rdb-hidden');
     var chart = ReproDB.initEChart('timelineChart');
     var series = [{ name: 'Artifact Papers', type: 'bar', data: allYears.map(function(y) { return pc[y] || 0; }), itemStyle: { color: 'rgba(52,152,219,0.7)' } }];
+    if (afPapers.length) {
+      series.push({ name: 'ArtiFinder (discovered)', type: 'bar', data: allYears.map(function(y) { return afc[y] || 0; }), itemStyle: { color: 'rgba(74,90,168,0.75)' } });
+    }
     if (Object.keys(aeYears).length) {
       series.push({ name: 'AE Committee Service', type: 'bar', data: allYears.map(function(y) { return aeYears[y] || 0; }), itemStyle: { color: 'rgba(46,204,113,0.7)' } });
     }
@@ -342,6 +376,18 @@
       });
     });
     var artData = Object.values(paperMap).sort(function(a, b) { return (b.year || 0) - (a.year || 0); });
+    // Append ArtiFinder-discovered papers of this institution's researchers.
+    var afMap = {};
+    affProfiles.forEach(function(p) {
+      getAuthorAfPapers(p.name).forEach(function(pp) {
+        if (paperMap[pp.title]) return;  // already an AE row
+        var key = normalizeTitle(pp.title) + '|' + (pp.year || '');
+        if (!afMap[key]) {
+          afMap[key] = { title: pp.title, conference: pp.conference, year: pp.year, badges: [], url: pp.url, authors: (pp.authors || []).slice(), _af: true };
+        }
+      });
+    });
+    artData = artData.concat(Object.values(afMap).sort(function(a, b) { return (b.year || 0) - (a.year || 0); }));
     if (artData.length) {
       document.getElementById('inst-artifacts-section').classList.remove('rdb-hidden');
       ReproDB.createTable('#artifacts-table', {
@@ -350,6 +396,11 @@
           { title: '#', formatter: 'rownum', width: 50, headerSort: false },
           { title: 'Title', field: 'title', formatter: function(cell) {
             var d = cell.getData();
+            if (d._af) {
+              var au = normalizeUrl(d.url || '');
+              var t = au ? '<a class="af-title" href="' + escHtml(au) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : '<span class="af-title">' + escHtml(d.title) + '</span>';
+              return t + afMarker();
+            }
             var afTag = d.artifinder ? artifinderTag({ id: d.id, title: d.title }) : '';
             return (d.url ? '<a href="' + escHtml(d.url) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(d.url) + afTag;
           }, headerSort: false },
@@ -526,11 +577,13 @@
     fetch(cfg.papers).then(function(r) { return r.json(); }).catch(function() { return []; }),
     fetch(cfg.availability).then(function(r) { return r.json(); }).catch(function() { return { records: [] }; }),
     fetch(cfg.institutions).then(function(r) { return r.json(); }),
-    fetch(cfg.instHistory).then(function(r) { return r.json(); }).catch(function() { return []; })
+    fetch(cfg.instHistory).then(function(r) { return r.json(); }).catch(function() { return []; }),
+    fetch(cfg.artifinderAuthors).then(function(r) { return r.json(); }).catch(function() { return {}; })
   ]).then(function(res) {
     allProfiles = res[1];
     citedArtifactsMap = res[2] || {};
     authorRankHistory = res[3] || [];
+    artifinderByAuthor = res[9] || {};
     // Fix historical ranks to use dense ranking
     fixHistoryRanks(authorRankHistory);
 

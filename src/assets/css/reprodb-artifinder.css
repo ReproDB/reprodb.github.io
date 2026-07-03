@@ -54,6 +54,13 @@
   color: #4a5aa8;
 }
 
+/* ArtiFinder-discovered paper rows in profile tables (author + institution). */
+.af-title,
+a.af-title {
+  color: #4a5aa8;
+  font-style: italic;
+}
+
 /* ── Statistics page ──────────────────────────────────────────────── */
 .artifinder-note {
   font-size: 0.92em;
@@ -72,6 +79,10 @@ html[data-theme="dark"] .artifinder-tag {
   border-color: #3d445f;
 }
 html[data-theme="dark"] .rdb-result-links .artifinder-link {
+  color: #aeb8ea;
+}
+html[data-theme="dark"] .af-title,
+html[data-theme="dark"] a.af-title {
   color: #aeb8ea;
 }
 html[data-theme="dark"] .artifinder-note {
