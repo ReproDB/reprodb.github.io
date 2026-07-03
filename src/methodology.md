@@ -221,10 +221,23 @@ See the [verification scripts and detailed results](https://github.com/ReproDB/r
 
 ---
 
+## ArtiFinder-Discovered Artifacts
+
+[ArtiFinder](https://github.com/DistriNet/ArtiFinder) scrapes conference papers directly to discover links to their artifacts, independently of any artifact-evaluation process. ReproDB ingests the published [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) set and integrates it as follows:
+
+- **Matching.** Each ArtiFinder link is matched to a ReproDB paper by **normalised title + author list** (ArtiFinder uses DBLP author names, as we do), requiring the same conference and year. When author lists are known on both sides, at least one author must overlap to guard against title collisions.
+- **No badges, no scores.** ArtiFinder links are **not manually verified** and carry **no badges**. They **never** contribute to the Artifact Rate, Reproducibility Rate, combined score, or any author/institution ranking. The list also contains many papers that never went through artifact evaluation; these do not count towards any denominator either.
+- **Configurable start year.** Only editions from **2017 onwards** (the start of the AE era) are ingested by default; this is configurable in the pipeline (`artifinder_min_year`).
+- **Repository-statistics exception.** When ArtiFinder discovers a **GitHub** repository for a paper that *did* go through AE, that repository *may* be counted in the [repository statistics](#repository-statistics), since those stats are descriptive and separate from scoring.
+- **Display.** Wherever an ArtiFinder link appears in search results or profiles it is marked with an **Artifinder** sign indicating it was found automatically and has not been manually verified. A dedicated [ArtiFinder discovery page](/artifinder.html) reports discovery counts and rates over time.
+
+Throughout the site, statistics focus on **AE-evaluated** artifacts; ArtiFinder figures are reported separately (here and on the ArtiFinder page) and are always distinguished from AE results.
+
 ## Data Sources
 
 - **[sysartifacts.github.io](https://sysartifacts.github.io)** — Systems conference artifact evaluation results ({{ site.data.summary.systems_conferences | join: ", " }})
 - **[secartifacts.github.io](https://secartifacts.github.io)** — Security conference artifact evaluation results ({{ site.data.summary.security_conferences | join: ", " }})
+- **[ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data)** — Automatically discovered artifact links (unverified, no badges, excluded from all scores)
 - **[usenix.org](https://www.usenix.org)** — Badge information and AE committee data for USENIX conferences
 - **[DBLP](https://dblp.org)** — Author name matching, disambiguation, and total publication counts
 - **[OpenAlex](https://openalex.org)** — Author affiliation enrichment

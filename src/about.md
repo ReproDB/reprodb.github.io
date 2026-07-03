@@ -20,6 +20,7 @@ AE results and committee lists live in the upstream community sites. Contribute 
 
 - [sysartifacts.github.io](https://github.com/sysartifacts/sysartifacts.github.io) — systems conferences (OSDI, SOSP, ATC, EuroSys, FAST, …)
 - [secartifacts.github.io](https://github.com/secartifacts/secartifacts.github.io) — security conferences (USENIX Security, CCS, NDSS, S&P, …)
+- [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) — automatically discovered artifact links (open to manual corrections via pull requests). These links are unverified, carry no badges, and never affect ReproDB scores; see the [ArtiFinder discovery page](/artifinder.html) and [methodology](/methodology.html#artifinder-discovered-artifacts).
 
 ### Suggest New Analyses
 

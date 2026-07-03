@@ -11,6 +11,7 @@
   // State
   var allProfiles = [], profileMap = {}, idMap = {};
   var citedArtifactsMap = {}, artifactUrlMap = {}, artifactByPaperId = {}, paperIndex = {};
+  var artifinderByPaperId = {}, artifinderByTitle = {};
   var authorRankHistory = [], urlAccessible = {}, availCheckedAt = '';
   var allInstitutions = [], instMap = {}, instHistory = [];
 
@@ -77,6 +78,28 @@
     return '';
   }
 
+  function getArtifinderUrls(paper) {
+    if (paper.id && artifinderByPaperId[paper.id]) return artifinderByPaperId[paper.id];
+    return artifinderByTitle[normalizeTitle(paper.title)] || [];
+  }
+
+  function artifinderTag(paper) {
+    if (!getArtifinderUrls(paper).length) return '';
+    var logo = baseUrl + '/assets/images/artifinder-logo.svg';
+    var tip = 'Includes a link found by ArtiFinder \u2014 not manually verified by an artifact evaluation committee.';
+    return ' <span class="artifinder-tag"><img class="artifinder-logo" src="' + escHtml(logo) +
+      '" alt="" aria-hidden="true"> Artifinder<span class="avail-tip">' + escHtml(tip) + '</span></span>';
+  }
+
+  // Artifact URL for a paper: prefer the AE-provided link; fall back to an
+  // ArtiFinder-discovered link so the title still resolves somewhere.
+  function paperLinkUrl(paper) {
+    var ae = getArtifactUrl(paper);
+    if (ae) return ae;
+    var af = getArtifinderUrls(paper);
+    return af.length ? af[0] : '';
+  }
+
   function profLink(name, id) {
     return baseUrl + '/profile.html?name=' + encodeURIComponent(name) + (id != null ? '&id=' + id : '');
   }
@@ -139,8 +162,8 @@
         columns: [
           { title: '#', formatter: 'rownum', width: 50, headerSort: false },
           { title: 'Title', field: 'title', formatter: function(cell) {
-            var d = cell.getData(), u = getArtifactUrl(d);
-            return (u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(u);
+            var d = cell.getData(), u = paperLinkUrl(d);
+            return (u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(u) + artifinderTag(d);
           }, headerSort: false },
           { title: 'Conference', field: 'conference' },
           { title: 'Year', field: 'year', sorter: 'number' },
@@ -313,7 +336,7 @@
     affProfiles.forEach(function(p) {
       getPapers(p).forEach(function(paper) {
         if (!paperMap[paper.title]) {
-          paperMap[paper.title] = { title: paper.title, id: paper.id, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: getArtifactUrl(paper) };
+          paperMap[paper.title] = { title: paper.title, id: paper.id, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: paperLinkUrl(paper), artifinder: getArtifinderUrls(paper).length > 0 };
         }
         paperMap[paper.title].authors.push(p.name);
       });
@@ -327,7 +350,8 @@
           { title: '#', formatter: 'rownum', width: 50, headerSort: false },
           { title: 'Title', field: 'title', formatter: function(cell) {
             var d = cell.getData();
-            return (d.url ? '<a href="' + escHtml(d.url) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(d.url);
+            var afTag = d.artifinder ? artifinderTag({ id: d.id, title: d.title }) : '';
+            return (d.url ? '<a href="' + escHtml(d.url) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(d.url) + afTag;
           }, headerSort: false },
           { title: 'Authors', field: 'authors', formatter: function(cell) {
             return (cell.getValue() || []).map(function(n) { return '<a href="' + profLink(n) + '">' + escHtml(cleanName(n)) + '</a>'; }).join(', ');
@@ -516,6 +540,11 @@
       var u = urls.length ? urls[0] : (a.artifact_url || a.repository_url || '');
       if (a.title && u) artifactUrlMap[normalizeTitle(a.title)] = normalizeUrl(u);
       if (a.paper_id && u) artifactByPaperId[a.paper_id] = normalizeUrl(u);
+      var af = (a.artifinder_urls || []).map(normalizeUrl).filter(Boolean);
+      if (af.length) {
+        if (a.title) artifinderByTitle[normalizeTitle(a.title)] = af;
+        if (a.paper_id) artifinderByPaperId[a.paper_id] = af;
+      }
     });
 
     // Build paper index
