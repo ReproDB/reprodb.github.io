@@ -27908,28 +27908,6 @@
     "paper_url": "https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/"
   },
   {
-    "title": "Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption",
-    "conference": "NDSS",
-    "category": "security",
-    "year": 2024,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/lightbulb128/Pencil"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Xuanqi Liu",
-      "Zhuotao Liu",
-      "Qi Li",
-      "Ke Xu",
-      "Mingwei Xu"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.ndss-symposium.org/ndss-paper/pencil-private-and-extensible-collaborative-learning-without-the-non-colluding-assumption/"
-  },
-  {
     "title": "Powers of Tau in Asynchrony",
     "conference": "NDSS",
     "category": "security",
@@ -28066,28 +28044,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.ndss-symposium.org/ndss-paper/proof-of-backhaul-trustfree-measurement-of-broadband-bandwidth/"
-  },
-  {
-    "title": "QUACK: Hindering Deserialization Attacks via Static Duck Typing",
-    "conference": "NDSS",
-    "category": "security",
-    "year": 2024,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://figshare.com/articles/software/QUACK_Hindering_Deserialization_Attacks_via_Static_Duck_Typing/24578644"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Yaniv David",
-      "Neophytos Christou",
-      "Andreas D. Kellas",
-      "Vasileios P. Kemerlis",
-      "Junfeng Yang"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.ndss-symposium.org/ndss-paper/quack-hindering-deserialization-attacks-via-static-duck-typing/"
   },
   {
     "title": "Scrappy: SeCure Rate Assuring Protocol with PrivacY",
@@ -30009,28 +29965,6 @@
     "paper_url": "https://www.ndss-symposium.org/ndss-paper/impact-tracing-identifying-the-culprit-of-misinformation-in-encrypted-messaging-systems/"
   },
   {
-    "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
-    "conference": "NDSS",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/llm-platform-security/SecGPT"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Yuhao Wu",
-      "Franziska Roesner",
-      "Tadayoshi Kohno",
-      "Ning Zhang",
-      "Umar Iqbal"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.ndss-symposium.org/ndss-paper/isolategpt-an-execution-isolation-architecture-for-llm-based-agentic-systems/"
-  },
-  {
     "title": "L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target",
     "conference": "NDSS",
     "category": "security",
@@ -30462,28 +30396,6 @@
     "paper_url": "https://www.ndss-symposium.org/ndss-paper/statically-discover-cross-entry-use-after-free-vulnerabilities-in-the-linux-kernel/"
   },
   {
-    "title": "The Guardians of Name Street: Studying the Defensive Registration Practices of the Fortune 500",
-    "conference": "NDSS",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.14188149"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Boladji Vinny Adjibi",
-      "Athanasios Avgetidis",
-      "Manos Antonakakis",
-      "Michael Bailey",
-      "Fabian Monrose"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.ndss-symposium.org/ndss-paper/the-guardians-of-name-street-studying-the-defensive-registration-practices-of-the-fortune-500/"
-  },
-  {
     "title": "The Forking Way: When TEEs Meet Consensus",
     "conference": "NDSS",
     "category": "security",
@@ -30527,27 +30439,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.ndss-symposium.org/ndss-paper/truman-constructing-device-behavior-models-from-os-drivers-to-fuzz-virtual-devices/"
-  },
-  {
-    "title": "Uncovering the iceberg from the tip: Generating API Specifications for Bug Detection via Specification Propagation Analysis",
-    "conference": "NDSS",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/Yuuoniy/APISpecGen"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Miaoqian Lin",
-      "Kai Chen",
-      "Yi Yang",
-      "Jinghua Liu"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.ndss-symposium.org/ndss-paper/uncovering-the-iceberg-from-the-tip-generating-api-specifications-for-bug-detection-via-specification-propagation-analysis/"
   },
   {
     "title": "URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning",
@@ -52079,29 +51970,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/yang-zhuolin"
   },
   {
-    "title": "Auditory Eyesight: Demystifying ms-Precision Keystroke Tracking Attacks on Unconstrained Keyboard Inputs",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2023,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/auditoryeye/auditoryeyesight"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Yazhou Tu",
-      "Liqun Shan",
-      "Md. Imran Hossen",
-      "Sara Rampazzi",
-      "Kevin R. B. Butler",
-      "Xiali Hei"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/tu"
-  },
-  {
     "title": "Watch your Watch: Inferring Personality Traits from Wearable Activity Trackers",
     "conference": "USENIXSEC",
     "category": "security",
@@ -52566,30 +52434,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/islam"
-  },
-  {
-    "title": "Lalaine: Measuring and Characterizing Non-Compliance of Apple Privacy Labels",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2023,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://sites.google.com/view/privacylabel/home"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Yue Xiao",
-      "Zhengyi Li",
-      "Yue Qin",
-      "Xiaolong Bai",
-      "Jiale Guan",
-      "Xiaojing Liao",
-      "Luyi Xing"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity23/presentation/xiao-yue"
   },
   {
     "title": "Continuous Learning for Android Malware Detection",
@@ -55536,29 +55380,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/thudi"
-  },
-  {
-    "title": "SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2024,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://sites.google.com/view/thegoodthebadandtheunbalanced"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Seth Layton",
-      "Tyler Tucker",
-      "Daniel Olszewski",
-      "Kevin Warren",
-      "Kevin R. B. Butler",
-      "Patrick Traynor"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity24/presentation/layton"
   },
   {
     "title": "Can I Hear Your Face? Pervasive Attack on Voice Authentication Systems with a Single Face Image",
@@ -58588,51 +58409,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shirley"
   },
   {
-    "title": "Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs' Refusal Boundaries",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/sherdencooper/XLLM"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Jiahao Yu",
-      "Haozheng Luo",
-      "Jerry Yao-Chieh Hu",
-      "Yan Chen",
-      "Wenbo Guo",
-      "Han Liu",
-      "Xinyu Xing"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yu-jiahao"
-  },
-  {
-    "title": "SoK: Towards a Unified Approach to Applied Replicability for Computer Security",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://zenodo.org/records/15616973"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Daniel Olszewski",
-      "Tyler Tucker",
-      "Kevin R. B. Butler",
-      "Patrick Traynor"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/olszewski"
-  },
-  {
     "title": "Neural Invisibility Cloak: Concealing Adversary in Images via Compromised AI-driven Image Signal Processing",
     "conference": "USENIXSEC",
     "category": "security",
@@ -58768,31 +58544,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-jianqiang"
   },
   {
-    "title": "Efficient 2PC for Constant Round Secure Equality Testing and Comparison",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.14580231"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Tianpei Lu",
-      "Xin Kang",
-      "Bingsheng Zhang",
-      "Zhuo Ma",
-      "Xiaoyuan Zhang",
-      "Yang Liu",
-      "Kui Ren",
-      "Chun Chen"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/lu"
-  },
-  {
     "title": "Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions",
     "conference": "USENIXSEC",
     "category": "security",
@@ -58856,31 +58607,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/chen-sizhe"
   },
   {
-    "title": "TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.15592842"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Hannes Weissteiner",
-      "Fabian Rauscher",
-      "Robin Leander Schröder",
-      "Jonas Juffinger",
-      "Stefan Gast",
-      "Jan Wichelmann",
-      "Thomas Eisenbarth",
-      "Daniel Gruss"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner"
-  },
-  {
     "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
     "conference": "USENIXSEC",
     "category": "security",
@@ -58903,50 +58629,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/chakraborty"
   },
   {
-    "title": "General-Purpose f-DP Estimation and Auditing in a Black-Box Setting",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/stoneboat/fdp-estimation"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Önder Askin",
-      "Holger Dette",
-      "Martin Dunsche",
-      "Tim Kutta",
-      "Yun Lu",
-      "Yu Wei",
-      "Vassilis Zikas"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/askin"
-  },
-  {
-    "title": "FastLloyd: Federated, Accurate, Secure, and Tunable k-Means Clustering with Differential Privacy",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.15530617"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Abdulrahman Diaa",
-      "Thomas Humphries",
-      "Florian Kerschbaum"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/diaa"
-  },
-  {
     "title": "\"I'm regretting that I hit run\": In-situ Assessment of Potential Malware",
     "conference": "USENIXSEC",
     "category": "security",
@@ -58966,28 +58648,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/lit"
-  },
-  {
-    "title": "\"I'm trying to learn...and I'm shooting myself in the foot\": Beginners' Struggles When Solving Binary Exploitation Exercises",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://github.com/Anonymous-Giraffe/Just-Google-It-Challenges"
-    ],
-    "doi_url": "",
-    "authors": [
-      "James Mattei",
-      "Christopher Pellegrini",
-      "Matthew Soto",
-      "Marina Sanusi Bohuk",
-      "Daniel Votipka"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/mattei"
   },
   {
     "title": "DP-BREM: Differentially-Private and Byzantine-Robust Federated Learning with Client Momentum",
@@ -59028,30 +58688,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/li-weitong"
-  },
-  {
-    "title": "DiskSpy: Exploring a Long-Range Covert-Channel Attack via mmWave Sensing of mm-level HDD Vibrations",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.14649224"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Weiye Xu",
-      "Danli Wen",
-      "Jianwei Liu",
-      "Zixin Lin",
-      "Yuanqing Zheng",
-      "Xian Xu",
-      "Jinsong Han"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/xu-weiye"
   },
   {
     "title": "The Ghost Navigator: Revisiting the Hidden Vulnerability of Localization in Autonomous Driving",
@@ -59126,31 +58762,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wu-ruoyu"
   },
   {
-    "title": "On the Atomicity and Efficiency of Blockchain Payment Channels",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.15559635"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Di Wu",
-      "Shoupeng Ren",
-      "Yuman Bai",
-      "Lipeng He",
-      "Jian Liu",
-      "Wu Wen",
-      "Kui Ren",
-      "Chun Chen"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wu-di"
-  },
-  {
     "title": "Thunderdome: Timelock-Free Rationally-Secure Virtual Channels",
     "conference": "USENIXSEC",
     "category": "security",
@@ -59193,29 +58804,6 @@
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/li-ying"
   },
   {
-    "title": "High Stakes, Low Certainty: Evaluating the Efficacy of High-Level Indicators of Compromise in Ransomware Attribution",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.14732550"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Max van der Horst",
-      "Ricky Kho",
-      "Olga Gadyatskaya",
-      "Michel Mollema",
-      "Michel Van Eeten",
-      "Yury Zhauniarovich"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/van-der-horst"
-  },
-  {
     "title": "'Hey mum, I dropped my phone down the toilet': Investigating Hi Mum and Dad SMS Scams in the United Kingdom",
     "conference": "USENIXSEC",
     "category": "security",
@@ -59236,27 +58824,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/agarwal-sharad"
-  },
-  {
-    "title": "\"Please don't send that bot anything\": A Mixed-methods Study of Personal Impersonation Attacks Targeting Digital Payments on Social Media",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.5281/zenodo.15611471"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Hoang Dai Nguyen",
-      "Sumit Dhungana",
-      "Madhulika Itha",
-      "Phani Vadrevu"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/nguyen"
   },
   {
     "title": "Improved Secure Two-party Computation from a Geometric Perspective",
@@ -59434,27 +59001,6 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/olivier-anclin"
-  },
-  {
-    "title": "Privacy Solution or Menace? Investigating Perceptions of Radio-Frequency Sensing",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://doi.org/10.1007/978-3-642-21599-5_11"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Maximiliane Windl",
-      "Omer Akgul",
-      "Nathan Malkin",
-      "Lorrie Faith Cranor"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/windl"
   },
   {
     "title": "As Advertised? Understanding the Impact of Influencer VPN Ads",
@@ -59637,27 +59183,5 @@
     "affiliations": [],
     "source": "artifinder",
     "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/daffalla"
-  },
-  {
-    "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "year": 2025,
-    "badges": [],
-    "artifact_urls": [],
-    "artifinder_urls": [
-      "https://zenodo.org/records/15638825"
-    ],
-    "doi_url": "",
-    "authors": [
-      "Wouter Legiest",
-      "Jan-Pieter D'Anvers",
-      "Bojan Spasic",
-      "Nam-Luc Tran",
-      "Ingrid Verbauwhede"
-    ],
-    "affiliations": [],
-    "source": "artifinder",
-    "paper_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/legiest"
   }
 ]
