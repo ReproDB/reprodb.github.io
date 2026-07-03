@@ -101,18 +101,21 @@
       '" alt="" aria-hidden="true"> Artifinder<span class="avail-tip">' + escHtml(tip) + '</span></span>';
   }
 
+  // Clickable ArtiFinder link (used as a secondary link next to the AE link).
+  function afLink(url) {
+    var u = normalizeUrl(url || '');
+    if (!u) return '';
+    var logo = baseUrl + '/assets/images/artifinder-logo.svg';
+    var tip = 'Found by ArtiFinder \u2014 not manually verified by an artifact evaluation committee; excluded from all scores.';
+    return ' <a class="artifinder-tag" href="' + escHtml(u) + '" target="_blank" rel="noopener"><img class="artifinder-logo" src="' + escHtml(logo) +
+      '" alt="" aria-hidden="true"> Artifinder<span class="avail-tip">' + escHtml(tip) + '</span></a>';
+  }
+
   function artifinderTag(paper) {
     return getArtifinderUrls(paper).length ? afMarker() : '';
   }
-
-  // Artifact URL for a paper: prefer the AE-provided link; fall back to an
-  // ArtiFinder-discovered link so the title still resolves somewhere.
-  function paperLinkUrl(paper) {
-    var ae = getArtifactUrl(paper);
-    if (ae) return ae;
-    var af = getArtifinderUrls(paper);
-    return af.length ? af[0] : '';
-  }
+  // NOTE: artifinderTag kept for potential reuse; profile tables now render a
+  // clickable secondary afLink() instead of a bare marker.
 
   function profLink(name, id) {
     return baseUrl + '/profile.html?name=' + encodeURIComponent(name) + (id != null ? '&id=' + id : '');
@@ -189,8 +192,12 @@
               var t = au ? '<a class="af-title" href="' + escHtml(au) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : '<span class="af-title">' + escHtml(d.title) + '</span>';
               return t + afMarker();
             }
-            var u = paperLinkUrl(d);
-            return (u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(u) + artifinderTag(d);
+            // AE row: title links to the originally-collected AE artifact URL;
+            // any ArtiFinder-discovered link is shown as a secondary marked link.
+            var u = getArtifactUrl(d);
+            var afUrls = getArtifinderUrls(d);
+            var head = u ? '<a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title);
+            return head + availTag(u) + (afUrls.length ? afLink(afUrls[0]) : '');
           }, headerSort: false },
           { title: 'Conference', field: 'conference' },
           { title: 'Year', field: 'year', sorter: 'number' },
@@ -370,7 +377,7 @@
     affProfiles.forEach(function(p) {
       getPapers(p).forEach(function(paper) {
         if (!paperMap[paper.title]) {
-          paperMap[paper.title] = { title: paper.title, id: paper.id, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: paperLinkUrl(paper), artifinder: getArtifinderUrls(paper).length > 0 };
+          paperMap[paper.title] = { title: paper.title, id: paper.id, authors: [], conference: paper.conference, year: paper.year, badges: paper.badges, url: getArtifactUrl(paper), afUrl: (getArtifinderUrls(paper)[0] || '') };
         }
         paperMap[paper.title].authors.push(p.name);
       });
@@ -401,8 +408,8 @@
               var t = au ? '<a class="af-title" href="' + escHtml(au) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : '<span class="af-title">' + escHtml(d.title) + '</span>';
               return t + afMarker();
             }
-            var afTag = d.artifinder ? artifinderTag({ id: d.id, title: d.title }) : '';
-            return (d.url ? '<a href="' + escHtml(d.url) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title)) + availTag(d.url) + afTag;
+            var head = d.url ? '<a href="' + escHtml(d.url) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>' : escHtml(d.title);
+            return head + availTag(d.url) + (d.afUrl ? afLink(d.afUrl) : '');
           }, headerSort: false },
           { title: 'Authors', field: 'authors', formatter: function(cell) {
             return (cell.getValue() || []).map(function(n) { return '<a href="' + profLink(n) + '">' + escHtml(cleanName(n)) + '</a>'; }).join(', ');
