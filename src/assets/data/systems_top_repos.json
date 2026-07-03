@@ -570,6 +570,21 @@
     "area": "systems"
   },
   {
+    "title": "Empowering WebAssembly with Thin Kernel Interfaces",
+    "url": "https://github.com/arjunr2/WALI",
+    "year": 2025,
+    "stars": 195,
+    "forks": 20,
+    "authors": "",
+    "github_org": "arjunr2",
+    "badges": "",
+    "last_active": "2026-06",
+    "description": "A low-level virtualization interface for Linux-based systems using WebAssembly",
+    "language": "C",
+    "conference": "EUROSYS",
+    "area": "systems"
+  },
+  {
     "title": "RECIPE: Converting Concurrent DRAM Indexes to Persistent-Memory Indexes",
     "url": "https://github.com/utsaslab/RECIPE",
     "year": 2019,
@@ -732,21 +747,6 @@
     "description": "Global-Scale Sustainable Blockchain Fabric",
     "language": "TypeScript",
     "conference": "EUROSYS",
-    "area": "systems"
-  },
-  {
-    "title": "Marius: Learning Massive Graph Embeddings on a Single Machine",
-    "url": "https://github.com/marius-team/marius/tree/osdi2021",
-    "year": 2021,
-    "stars": 167,
-    "forks": 47,
-    "authors": "",
-    "github_org": "marius-team",
-    "badges": "",
-    "last_active": "2025-02",
-    "description": "Large scale graph learning on a single machine. ",
-    "language": "C++",
-    "conference": "OSDI",
     "area": "systems"
   }
 ]
