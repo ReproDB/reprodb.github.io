@@ -7,9 +7,12 @@
 (function() {
   'use strict';
 
-  var SEC_COLOR = ReproDB.COLORS.security;
-  var AF_COLOR = '#4a5aa8';      // ArtiFinder brand-ish indigo
-  var MATCHED_COLOR = '#e08a2b'; // matched-to-AE accent
+  // Consistent 2-colour scheme across every chart on this page:
+  //   AF_COLOR (indigo)   = the ArtiFinder measure (discovered / rate / heatmap)
+  //   MATCHED_COLOR (orange) = the subset also matched to an AE-evaluated paper
+  var AF_COLOR = '#4a5aa8';      // ArtiFinder indigo (primary)
+  var MATCHED_COLOR = '#e08a2b'; // matched-to-AE overlap accent
+  var AF_AREA = 'rgba(74,90,168,0.12)'; // translucent AF_COLOR for area fills
 
   document.addEventListener('DOMContentLoaded', function() {
     var dataEl = document.getElementById('artifinder-data');
@@ -59,8 +62,8 @@
         yAxis: { type: 'value', name: 'Discovery rate (%)', min: 0, max: 100 },
         series: [
           { name: 'Discovery rate', type: 'line', data: rate, smooth: true,
-            itemStyle: { color: SEC_COLOR }, lineStyle: { width: 2 }, symbolSize: 6,
-            areaStyle: { color: 'rgba(74,90,168,0.12)' } }
+            itemStyle: { color: AF_COLOR }, lineStyle: { width: 2, color: AF_COLOR }, symbolSize: 6,
+            areaStyle: { color: AF_AREA } }
         ]
       });
       ReproDB.registerEChart(chart2);
