@@ -226,7 +226,10 @@
 
       // Line 1: Bold title (linked to artifact)
       var artUrls = (d.artifact_urls || []).map(normalizeUrl);
-      var titleLink = artUrls.length > 0 ? artUrls[0] : normalizeUrl(d.repository_url || d.artifact_url || '');
+      var afTitleUrls = (d.artifinder_urls || []).map(normalizeUrl);
+      var titleLink = artUrls.length > 0
+        ? artUrls[0]
+        : (afTitleUrls[0] || normalizeUrl(d.repository_url || d.artifact_url || ''));
       var titleHtml = titleLink
         ? '<a href="' + escHtml(titleLink) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>'
         : escHtml(d.title);
