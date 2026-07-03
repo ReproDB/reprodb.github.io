@@ -69,8 +69,13 @@
       .replace(/[\u201c\u201d]/g, '"');
   }
 
-  // Normalised author key — must match _author_key() in the pipeline generator.
-  function afKey(name) {
+  // Normalised author key. MUST produce byte-identical output to
+  // _af_author_key() in reprodb-pipeline (src/generators/artifinder/generate_artifinder.py).
+  // Shared test vector (keep in sync with the Python docstring + tests):
+  //   "Manuel V\u00f6gele"            -> "manuel vogele"
+  //   "Anjo Vahldiek-Oberwagner"     -> "anjo vahldiek oberwagner"
+  //   "Jane  Q.  Doe"                -> "jane q doe"
+  function afAuthorKey(name) {
     return (name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
       .toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   }
@@ -91,7 +96,7 @@
 
   // Non-AE ArtiFinder-discovered papers for an author (marked, not scored).
   function getAuthorAfPapers(name) {
-    return artifinderByAuthor[afKey(name)] || [];
+    return artifinderByAuthor[afAuthorKey(name)] || [];
   }
 
   function afMarker() {
