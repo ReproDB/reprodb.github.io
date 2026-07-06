@@ -218,6 +218,51 @@
     return url;
   };
 
+  /* ─── Analytics helpers (GA4) ───────────────────────────────────── */
+
+  // Avoid flooding GA when the same search term is emitted repeatedly
+  // (e.g., URL updates and debounced input landing in close succession).
+  R._lastSearchEvent = { key: '', ts: 0 };
+
+  /**
+   * Emit a GA4 site-search signal for client-side (SPA-like) searches.
+   * opts.searchTerm   (required)  - user-entered query string
+   * opts.resultsCount (optional)  - number of matched results
+   * opts.context      (optional)  - logical source (landing/profile)
+   */
+  R.trackViewSearchResults = function(opts) {
+    if (typeof window.gtag !== 'function') return false;
+    opts = opts || {};
+
+    var searchTerm = (opts.searchTerm || '').trim();
+    if (!searchTerm) return false;
+
+    var context = (opts.context || 'search').trim();
+    var key = context + '|' + searchTerm.toLowerCase();
+    var now = Date.now();
+    if (R._lastSearchEvent.key === key && now - R._lastSearchEvent.ts < 1500) return false;
+    R._lastSearchEvent = { key: key, ts: now };
+
+    var eventParams = { search_term: searchTerm };
+    if (opts.resultsCount != null) {
+      var n = Number(opts.resultsCount);
+      if (!isNaN(n)) eventParams.results_count = n;
+    }
+    if (context) eventParams.search_context = context;
+
+    window.gtag('event', 'view_search_results', eventParams);
+
+    // In SPA flows, URL changes via history API do not automatically create
+    // page_view events; send one so GA4 reports align with the current URL.
+    window.gtag('event', 'page_view', {
+      page_title: document.title,
+      page_location: window.location.href,
+      page_path: window.location.pathname + window.location.search
+    });
+
+    return true;
+  };
+
   /* ─── Country / continent geo maps (shared across pages) ──────────── */
 
   R.CODE_TO_NAME = {

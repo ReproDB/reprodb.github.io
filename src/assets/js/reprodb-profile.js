@@ -154,6 +154,11 @@ var ReproDBProfile = (function() {
       }
       history.pushState(null, '', url);
       showShare();
+      ReproDB.trackViewSearchResults({
+        searchTerm: (result.displayValue !== undefined ? result.displayValue : searchBox.value),
+        resultsCount: 1,
+        context: 'profile'
+      });
     }
 
     searchBox.addEventListener('input', function() {
