@@ -7,17 +7,20 @@ skip_chartjs: true
 This page explains how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site.
 
 {% if site.data.summary %}
+{% assign af = site.data.artifinder_summary %}
 
 ## Overview
 
 <table class="page__content">
-<tr><td><strong>Data Schema Version</strong></td><td>{{ site.data.summary.schema_version }}</td></tr>
-<tr><td><strong>Total Artifacts</strong></td><td>{{ site.data.summary.total_artifacts }}</td></tr>
-<tr><td><strong>Conferences Tracked</strong></td><td>{{ site.data.summary.total_conferences }} ({{ site.data.summary.conferences_list | join: ", " }})</td></tr>
-<tr><td><strong>Years Covered</strong></td><td>{{ site.data.summary.year_range }}</td></tr>
-<tr><td><strong>Total Authors</strong></td><td>{{ site.data.author_summary.total_authors }}</td></tr>
-<tr><td><strong>AE Committee Members</strong></td><td>{{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.unique_members }} unique)</td></tr>
-<tr><td><strong>Last Updated</strong></td><td><a href="https://github.com/ReproDB/reprodb-pipeline-results">{{ site.data.summary.last_updated }}</a></td></tr>
+<tr><th></th><th>AE-evaluated</th><th>ArtiFinder-discovered</th></tr>
+<tr><td><strong>Data Schema Version</strong></td><td>{{ site.data.summary.schema_version }}</td><td>&mdash;</td></tr>
+<tr><td><strong>Artifacts / discovered links</strong></td><td>{{ site.data.summary.total_artifacts }}</td><td>{{ af.total_discovered | default: "&mdash;" }}</td></tr>
+<tr><td><strong>Conferences</strong></td><td>{{ site.data.summary.total_conferences }} ({{ site.data.summary.conferences_list | join: ", " }})</td><td>{% if af %}{{ af.conferences | size }} ({{ af.conferences | join: ", " }}){% else %}&mdash;{% endif %}</td></tr>
+<tr><td><strong>Years Covered</strong></td><td>{{ site.data.summary.year_range }}</td><td>{{ af.year_range | default: "&mdash;" }}</td></tr>
+<tr><td><strong>Authors</strong></td><td>{{ site.data.author_summary.total_authors }}</td><td>{{ af.author_count | default: "&mdash;" }}</td></tr>
+<tr><td><strong>AE Committee Members</strong></td><td>{{ site.data.committee_stats.total_members }} ({{ site.data.committee_stats.unique_members }} unique)</td><td>&mdash;</td></tr>
+<tr><td><strong>Badges / scores</strong></td><td>Yes</td><td>No (unverified)</td></tr>
+<tr><td><strong>Last Updated</strong></td><td><a href="https://github.com/ReproDB/reprodb-pipeline-results">{{ site.data.summary.last_updated }}</a></td><td>{{ af.data_updated | default: "&mdash;" }}</td></tr>
 </table>
 
 {% endif %}
@@ -32,6 +35,8 @@ Data is collected from conferences tracked by [sysartifacts](https://sysartifact
 ## Data Collection
 
 We scrape artifact evaluation results from sysartifacts/secartifacts websites, extract paper titles, authors, badges (Available, Functional, Reproducible, Reusable) and repository URLs. For USENIX conferences (ATC, FAST) we also scrape badge data from technical session pages. AE committee data is gathered from sysartifacts/secartifacts plus direct scraping (USENIX, CHES, PETS websites).
+
+In addition to AE results, we ingest **automatically-discovered** artifact links from [ArtiFinder](https://github.com/DistriNet/ArtiFinder) (via the [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) dataset) and match them to papers by normalized title and author list. These links are **unverified**, carry no badges, and are **excluded from every score**; see [ArtiFinder-Discovered Artifacts](#artifinder-discovered-artifacts) below.
 
 Repository statistics (GitHub stars/forks, Zenodo/Figshare downloads) are collected via their public APIs. Artifact URLs are checked monthly for availability (HTTP HEAD requests).
 
