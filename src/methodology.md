@@ -302,3 +302,18 @@ The [search bar]({{ '/' | relative_url }}) supports special `#` keywords that fi
 Keywords also work alongside the year, venue, and area dropdown filters.
 
 **Note on `#unavailable`:** Availability is determined by automated URL checks that run as part of the monthly pipeline. A URL marked as unavailable may be temporarily down, rate-limited, or require authentication. The hover tooltip on each flagged artifact shows when the check was last performed.
+
+---
+
+## How to Cite
+
+If you use ReproDB in your research, please cite:
+
+```bibtex
+@inproceedings{vahldiek2026reprodb,
+ author = {Vahldiek-Oberwagner, Anjo and Bognar, Marton and Signorello, Salvatore},
+ title = {ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems},
+ booktitle = {Proceedings of the ACM Conference on Reproducibility and Replicability (ACM REP)},
+ year = {2026}
+}
+```
