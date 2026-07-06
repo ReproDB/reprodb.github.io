@@ -110,6 +110,11 @@
     doSort();
     updateUrl();
     renderResults();
+    ReproDB.trackViewSearchResults({
+      searchTerm: cleaned,
+      resultsCount: filtered.length,
+      context: 'landing'
+    });
   }
 
   function doSort() {
