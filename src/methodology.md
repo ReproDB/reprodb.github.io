@@ -4,7 +4,7 @@ permalink: /methodology.html
 skip_chartjs: true
 ---
 
-This page explains how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site.
+This page explains how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site. For the analysis and additional details, see the [paper citation at the bottom of this page](#how-to-cite).
 
 {% if site.data.summary %}
 {% assign af = site.data.artifinder_summary %}
