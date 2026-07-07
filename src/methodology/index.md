@@ -4,11 +4,7 @@ permalink: /methodology.html
 skip_chartjs: true
 ---
 
-This page explains how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site.
-
-ReproDB and its underlying methodology are described in *ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems* by Vahldiek-Oberwagner, Bognar, and Signorello (ACM REP 2026); see the citation at the bottom of this page [here](#how-to-cite).
-
-## Methodology Sections
+The following pages explain how we collect, process, and analyze artifact evaluation data, including detailed calculation formulas for all metrics displayed on this site. ReproDB also includes automatically discovered artifact links from [ArtiFinder](/methodology/artifinder.html), documented on the dedicated ArtiFinder page below.
 
 - [Data Collection](/methodology/data-collection.html)
 - [Pipeline](/methodology/pipeline.html)
@@ -44,16 +40,6 @@ Data is collected from conferences tracked by [sysartifacts](https://sysartifact
 - **Systems**: {{ site.data.summary.systems_conferences | join: ", " }}
 - **Security**: {{ site.data.summary.security_conferences | join: ", " }}
 
-## Badge Definitions
-
-We rely on each conference's official badge definitions. We treat the same badge name as comparable across venues (e.g., Available in one venue is assumed to mean the same or similar level of availability in another). We make the same assumption for Functional. For the highest tier, Reproduced (security) and Reusable (systems) are treated as equivalent.
-
----
-
-## Acknowledgements
-
-This project celebrates the work of **artifact authors** who go the extra mile to make research reproducible, and **artifact evaluation committees** (AE chairs and members) who invest time reviewing and certifying artifacts. Their contributions strengthen our scientific record. We thank the communities maintaining [sysartifacts](https://sysartifacts.github.io) and [secartifacts](https://secartifacts.github.io) for publishing detailed evaluation results. Inspired by [Systems Circus](https://nebelwelt.net/pubstats/) and [csrankings.org](https://csrankings.org).
-
 ---
 
 ## API Access
@@ -77,19 +63,4 @@ data = json.load(sys.stdin)
 results = [a for a in data if 'fuzz' in a['title'].lower() and a['year'] == 2024]
 print(json.dumps(results, indent=2))
 "
-```
-
----
-
-## How to Cite
-
-If you use ReproDB in your research, please cite:
-
-```bibtex
-@inproceedings{vahldiek2026reprodb,
- author = {Vahldiek-Oberwagner, Anjo and Bognar, Marton and Signorello, Salvatore},
- title = {ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems},
- booktitle = {Proceedings of the ACM Conference on Reproducibility and Replicability (ACM REP)},
- year = {2026}
-}
 ```
