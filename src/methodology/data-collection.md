@@ -34,7 +34,7 @@ All scripts are in the [reprodb-pipeline](https://github.com/ReproDB/reprodb-pip
 - **No badges, no scores.** ArtiFinder links are **not manually verified** and carry **no badges**. They **never** contribute to the Artifact Rate, Reproducibility Rate, combined score, or any author/institution ranking. The list also contains many papers that never went through artifact evaluation; these do not count towards any denominator either.
 - **Configurable start year.** Only editions from **2017 onwards** (the start of the AE era) are ingested by default; this is configurable in the pipeline (`artifinder_min_year`).
 - **Repository-statistics exception.** When ArtiFinder discovers a **GitHub** repository for a paper that *did* go through AE, that repository *may* be counted in the [repository statistics](/methodology/repository-statistics.html), since those stats are descriptive and separate from scoring.
-- **Display.** Wherever an ArtiFinder link appears in search results or profiles it is marked with an **Artifinder** sign indicating it was found automatically and has not been manually verified. A dedicated [ArtiFinder discovery page](/artifinder.html) reports discovery counts and rates over time.
+- **Display.** Wherever an ArtiFinder link appears in search results or profiles it is marked with an **Artifinder** sign indicating it was found automatically and has not been manually verified. A dedicated [ArtiFinder discovery page](/methodology/artifinder.html) reports discovery counts and rates over time.
 
 Throughout the site, statistics focus on **AE-evaluated** artifacts; ArtiFinder figures are reported separately (here and on the ArtiFinder page) and are always distinguished from AE results.
 

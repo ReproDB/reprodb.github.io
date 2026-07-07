@@ -16,7 +16,7 @@ ReproDB and its underlying methodology are described in *ReproDB: An Open Platfo
 - [Institution Metrics](/methodology/institution-metrics.html)
 - [Repository Statistics](/methodology/repository-statistics.html)
 - [Search Keywords](/methodology/search-keywords.html)
-- [ArtiFinder Discovery](/artifinder.html)
+- [ArtiFinder Discovery](/methodology/artifinder.html)
 
 {% if site.data.summary %}
 {% assign af = site.data.artifinder_summary %}

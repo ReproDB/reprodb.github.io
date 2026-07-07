@@ -1,6 +1,6 @@
 ---
 title: "ArtiFinder — Automatically Discovered Artifacts"
-permalink: /artifinder.html
+permalink: /methodology/artifinder.html
 ---
 
 [ArtiFinder](https://github.com/DistriNet/ArtiFinder) scrapes conference papers directly and identifies links to their artifacts, independently of any artifact-evaluation (AE) process. This page summarises the ArtiFinder links that ReproDB ingests from the [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) repository and how they have grown over time.
