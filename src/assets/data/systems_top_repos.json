@@ -165,6 +165,21 @@
     "area": "systems"
   },
   {
+    "title": "𝜇Slope: High Compression and Fast Search on Semi-Structured Logs",
+    "url": "https://github.com/y-scope/clp",
+    "year": 2024,
+    "stars": 1070,
+    "forks": 91,
+    "authors": "",
+    "github_org": "y-scope",
+    "badges": "",
+    "last_active": "2026-07",
+    "description": "Compressed Log Processor (CLP) is a free log management tool capable of compressing logs and searching the compressed lo",
+    "language": "C++",
+    "conference": "OSDI",
+    "area": "systems"
+  },
+  {
     "title": "Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks",
     "url": "https://github.com/microsoft/nnfusion/tree/osdi20_artifact/artifacts",
     "year": 2020,
@@ -566,21 +581,6 @@
     "last_active": "2022-08",
     "description": "Dataflow system for building self-driving car and robotics applications.",
     "language": "Rust",
-    "conference": "EUROSYS",
-    "area": "systems"
-  },
-  {
-    "title": "Empowering WebAssembly with Thin Kernel Interfaces",
-    "url": "https://github.com/arjunr2/WALI",
-    "year": 2025,
-    "stars": 195,
-    "forks": 20,
-    "authors": "",
-    "github_org": "arjunr2",
-    "badges": "",
-    "last_active": "2026-06",
-    "description": "A low-level virtualization interface for Linux-based systems using WebAssembly",
-    "language": "C",
     "conference": "EUROSYS",
     "area": "systems"
   },
