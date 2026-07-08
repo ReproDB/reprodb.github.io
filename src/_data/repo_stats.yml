@@ -1,32 +1,32 @@
 overall:
-  github_repos: 1755
-  total_stars: 225119
-  total_forks: 33107
-  max_stars: 32231
-  max_forks: 6680
+  github_repos: 1790
+  total_stars: 163684
+  total_forks: 21179
+  max_stars: 17348
+  max_forks: 2444
   zenodo_repos: 987
-  total_views: 304137
-  total_downloads: 244575
-  avg_stars: 128.3
-  avg_forks: 18.9
-  median_stars: 7
-  median_forks: 1
+  total_views: 315591
+  total_downloads: 255946
+  avg_stars: 91.4
+  avg_forks: 11.8
+  median_stars: 6.0
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 25.0
+  p75_stars: 21.0
   p25_forks: 0.0
-  p75_forks: 5.0
-  last_updated: 2026-07-05 14:17:57 UTC
+  p75_forks: 4.0
+  last_updated: 2026-07-08 07:51:57 UTC
 by_conference:
 - name: ACSAC
-  github_repos: 205
-  total_stars: 3113
-  total_forks: 754
-  avg_stars: 15.2
-  avg_forks: 3.7
-  median_stars: 2
-  median_forks: 0
+  github_repos: 208
+  total_stars: 3121
+  total_forks: 757
+  avg_stars: 15.0
+  avg_forks: 3.6
+  median_stars: 2.0
+  median_forks: 0.0
   p25_stars: 0.0
-  p75_stars: 8.5
+  p75_stars: 8.0
   p25_forks: 0.0
   p75_forks: 2.0
   max_stars: 567
@@ -129,15 +129,15 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 1.0
   - year: 2025
-    github_repos: 47
-    total_stars: 93
-    total_forks: 19
+    github_repos: 50
+    total_stars: 101
+    total_forks: 22
     avg_stars: 2.0
     avg_forks: 0.4
-    median_stars: 0
-    median_forks: 0
+    median_stars: 0.0
+    median_forks: 0.0
     p25_stars: 0.0
-    p75_stars: 2.0
+    p75_stars: 2.5
     p25_forks: 0.0
     p75_forks: 0.0
   top_repos:
@@ -239,32 +239,32 @@ by_conference:
     - Christopher Kruegel
     - Taesoo Kim
 - name: ATC
-  github_repos: 109
-  total_stars: 4828
-  total_forks: 849
-  avg_stars: 44.3
-  avg_forks: 7.8
-  median_stars: 10
-  median_forks: 1
+  github_repos: 108
+  total_stars: 4820
+  total_forks: 848
+  avg_stars: 44.6
+  avg_forks: 7.9
+  median_stars: 10.0
+  median_forks: 1.0
   p25_stars: 3.0
-  p75_stars: 27.5
+  p75_stars: 27.8
   p25_forks: 1.0
   p75_forks: 5.0
   max_stars: 1683
   max_forks: 211
   years:
   - year: 2022
-    github_repos: 38
-    total_stars: 924
-    total_forks: 187
-    avg_stars: 24.3
-    avg_forks: 4.9
-    median_stars: 10.0
-    median_forks: 2.5
-    p25_stars: 1.8
-    p75_stars: 21.5
+    github_repos: 37
+    total_stars: 916
+    total_forks: 186
+    avg_stars: 24.8
+    avg_forks: 5.0
+    median_stars: 11
+    median_forks: 3
+    p25_stars: 1.5
+    p75_stars: 22.0
     p25_forks: 1.0
-    p75_forks: 6.2
+    p75_forks: 6.5
   - year: 2023
     github_repos: 34
     total_stars: 3107
@@ -521,13 +521,13 @@ by_conference:
     - available
     - functional
 - name: EUROSYS
-  github_repos: 174
-  total_stars: 14492
-  total_forks: 2091
-  avg_stars: 83.3
-  avg_forks: 12.0
-  median_stars: 5.5
-  median_forks: 1.0
+  github_repos: 167
+  total_stars: 14408
+  total_forks: 2079
+  avg_stars: 86.3
+  avg_forks: 12.4
+  median_stars: 5
+  median_forks: 1
   p25_stars: 2.0
   p75_stars: 18.0
   p25_forks: 0.0
@@ -560,35 +560,35 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 7.0
   - year: 2023
-    github_repos: 17
-    total_stars: 292
-    total_forks: 304
-    avg_stars: 17.2
-    avg_forks: 17.9
-    median_stars: 5
-    median_forks: 1
-    p25_stars: 1.5
-    p75_stars: 14.5
-    p25_forks: 0.0
-    p75_forks: 3.5
-  - year: 2024
     github_repos: 14
-    total_stars: 217
-    total_forks: 43
-    avg_stars: 15.5
-    avg_forks: 3.1
-    median_stars: 7.0
-    median_forks: 1.0
-    p25_stars: 4.0
-    p75_stars: 14.5
+    total_stars: 286
+    total_forks: 303
+    avg_stars: 20.4
+    avg_forks: 21.6
+    median_stars: 8.0
+    median_forks: 1.5
+    p25_stars: 1.8
+    p75_stars: 17.2
     p25_forks: 0.0
-    p75_forks: 3.2
+    p75_forks: 4.0
+  - year: 2024
+    github_repos: 13
+    total_stars: 188
+    total_forks: 40
+    avg_stars: 14.5
+    avg_forks: 3.1
+    median_stars: 6
+    median_forks: 1
+    p25_stars: 2.5
+    p75_stars: 10.5
+    p25_forks: 0.5
+    p75_forks: 3.0
   - year: 2025
-    github_repos: 35
-    total_stars: 769
-    total_forks: 138
-    avg_stars: 22.0
-    avg_forks: 3.9
+    github_repos: 31
+    total_stars: 717
+    total_forks: 130
+    avg_stars: 23.1
+    avg_forks: 4.2
     median_stars: 5
     median_forks: 1
     p25_stars: 1.0
@@ -596,13 +596,13 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 5.0
   - year: 2026
-    github_repos: 47
-    total_stars: 10501
+    github_repos: 48
+    total_stars: 10504
     total_forks: 1145
-    avg_stars: 223.4
-    avg_forks: 24.4
-    median_stars: 2
-    median_forks: 0
+    avg_stars: 218.8
+    avg_forks: 23.9
+    median_stars: 2.5
+    median_forks: 0.0
     p25_stars: 1.0
     p75_stars: 6.0
     p25_forks: 0.0
@@ -712,111 +712,57 @@ by_conference:
     - functional
     - reproduced
 - name: NDSS
-  github_repos: 74
-  total_stars: 4184
-  total_forks: 1390
-  avg_stars: 56.5
-  avg_forks: 18.8
-  median_stars: 5.0
+  github_repos: 98
+  total_stars: 840
+  total_forks: 200
+  avg_stars: 8.6
+  avg_forks: 2.0
+  median_stars: 4.0
   median_forks: 1.0
-  p25_stars: 2.0
-  p75_stars: 13.0
+  p25_stars: 1.0
+  p75_stars: 12.0
   p25_forks: 0.0
   p75_forks: 2.0
-  max_stars: 1682
-  max_forks: 921
+  max_stars: 157
+  max_forks: 90
   years:
   - year: 2024
-    github_repos: 21
-    total_stars: 417
-    total_forks: 126
-    avg_stars: 19.9
-    avg_forks: 6.0
-    median_stars: 11
+    github_repos: 17
+    total_stars: 305
+    total_forks: 107
+    avg_stars: 17.9
+    avg_forks: 6.3
+    median_stars: 7
     median_forks: 1
     p25_stars: 2.5
-    p75_stars: 21.5
+    p75_stars: 20.0
     p25_forks: 0.0
-    p75_forks: 3.0
+    p75_forks: 2.5
   - year: 2025
-    github_repos: 24
-    total_stars: 3323
-    total_forks: 1213
-    avg_stars: 138.5
-    avg_forks: 50.5
-    median_stars: 8.5
-    median_forks: 1.5
-    p25_stars: 2.0
-    p75_stars: 13.0
-    p25_forks: 0.0
-    p75_forks: 4.0
-  - year: 2026
-    github_repos: 29
-    total_stars: 444
-    total_forks: 51
-    avg_stars: 15.3
+    github_repos: 32
+    total_stars: 275
+    total_forks: 58
+    avg_stars: 8.6
     avg_forks: 1.8
+    median_stars: 6.0
+    median_forks: 1.0
+    p25_stars: 2.0
+    p75_stars: 12.8
+    p25_forks: 0.0
+    p75_forks: 2.8
+  - year: 2026
+    github_repos: 49
+    total_stars: 260
+    total_forks: 35
+    avg_stars: 5.3
+    avg_forks: 0.7
     median_stars: 2
     median_forks: 0
     p25_stars: 1.0
-    p75_stars: 6.5
+    p75_stars: 7.5
     p25_forks: 0.0
     p75_forks: 1.0
   top_repos:
-  - title: Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception
-      Systems
-    url: https://github.com/autowarefoundation/autoware.universe
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 1682
-    forks: 921
-    description: ''
-    language: C++
-    name: autowarefoundation/autoware_universe
-    pushed_at: '2026-07-01T02:48:53Z'
-    badges:
-    - available
-    - functional
-    authors:
-    - Shuguang Wang
-    - Qian Zhou 0008
-    - Kui Wu 0001
-    - Jinghuai Deng
-    - Dapeng Wu 0001
-    - Wei-Bin Lee
-    - Jianping Wang 0001
-  - title: 'Corpus Christi: Establishing Replicability when Sharing the Bread is Not
-      Allowed'
-    url: https://github.com/fkie-cad/FACT_core
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 1450
-    forks: 251
-    description: Firmware Analysis and Comparison Tool
-    language: Python
-    name: fkie-cad/FACT_core
-    pushed_at: '2026-06-30T16:08:52Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-  - title: A Deep Dive into Function Inlining and its Security Implications for ML-based
-      Binary Analysis
-    url: https://github.com/Cisco-Talos/binary_function_similarity
-    conference: NDSS
-    year: 2026
-    area: security
-    stars: 313
-    forks: 37
-    description: ''
-    language: Jupyter Notebook
-    name: Cisco-Talos/binary_function_similarity
-    pushed_at: '2024-07-30T20:58:16Z'
-    badges:
-    - available
-    - functional
   - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
       on IoT Devices'
     url: https://github.com/IoTAccessControl/MCU-Token
@@ -842,40 +788,91 @@ by_conference:
     - Kun Sun 0001
     - Ke Xu 0002
     - Qi Li 0002
-  - title: '5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service'
-    url: https://github.com/5GSEC/5G-Spector
+  - title: 'SHAFT: Secure, Handy, Accurate and Fast Transformer Inference'
+    url: https://github.com/andeskyl/SHAFT
     conference: NDSS
-    year: 2024
+    year: 2025
     area: security
-    stars: 58
-    forks: 15
-    description: An O-RAN compliant runtime intrusion detection system (xApp) for
-      layer-3 (L3) celluar attack detection
-    language: ''
-    name: 5GSEC/5G-Spector
-    pushed_at: '2024-11-04T19:27:54Z'
+    stars: 29
+    forks: 10
+    description: A framework for secure, handy, accurate, and fast transformer inference
+    language: Python
+    name: andeskyl/SHAFT
+    pushed_at: '2025-08-29T06:32:55Z'
     badges:
     - available
     - functional
     - reproduced
     authors:
-    - Haohuang Wen
-    - Phillip A. Porras
-    - Vinod Yegneswaran
-    - Ashish Gehani
-    - Zhiqiang Lin 0001
+    - Andes Y. L. Kei
+    - Sherman S. M. Chow
+  - title: 'Corpus Christi: Establishing Replicability when Sharing the Bread is Not
+      Allowed'
+    url: https://github.com/fkie-cad/linux-firmware-corpus
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 26
+    forks: 2
+    description: ''
+    language: HTML
+    name: fkie-cad/linux-firmware-corpus
+    pushed_at: '2025-08-20T17:28:16Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'FlippyR.AM: A Large-Scale Study of Rowhammer Prevalence'
+    url: https://github.com/iisys-sns/FlippyRAM
+    conference: NDSS
+    year: 2026
+    area: security
+    stars: 25
+    forks: 3
+    description: FlippyRAM is an automated framework for testing and analyzing Rowhammer
+      vulnerabilities in DRAM. It combines rowhammer t
+    language: C++
+    name: iisys-sns/FlippyRAM
+    pushed_at: '2025-10-30T07:55:24Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'Cascading Spy Sheets: Exploiting the Complexity of Modern CSS for Email
+      and Browser Fingerprinting'
+    url: https://github.com/cispa/cascading-spy-sheets
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 24
+    forks: 6
+    description: 'This repository contains the artifact for our paper "Cascading Spy
+      Sheets: Exploiting the Complexity of Modern CSS for E'
+    language: HTML
+    name: cispa/cascading-spy-sheets
+    pushed_at: '2024-09-06T14:55:06Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Leon Trampert
+    - Daniel Weber 0007
+    - Lukas Gerlach 0001
+    - Christian Rossow
+    - Michael Schwarz 0001
 - name: OSDI
-  github_repos: 135
-  total_stars: 39170
-  total_forks: 4833
-  avg_stars: 290.1
-  avg_forks: 35.8
-  median_stars: 31.0
-  median_forks: 5.0
+  github_repos: 136
+  total_stars: 40240
+  total_forks: 4924
+  avg_stars: 295.9
+  avg_forks: 36.2
+  median_stars: 32
+  median_forks: 5
   p25_stars: 9.0
-  p75_stars: 74.8
+  p75_stars: 76.0
   p25_forks: 1.0
-  p75_forks: 13.0
+  p75_forks: 13.5
   max_stars: 14357
   max_forks: 1858
   years:
@@ -928,17 +925,17 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 9.0
   - year: 2024
-    github_repos: 30
-    total_stars: 2246
-    total_forks: 269
-    avg_stars: 74.9
-    avg_forks: 9.0
-    median_stars: 28.0
-    median_forks: 5.0
+    github_repos: 31
+    total_stars: 3316
+    total_forks: 360
+    avg_stars: 107.0
+    avg_forks: 11.6
+    median_stars: 32
+    median_forks: 5
     p25_stars: 7.0
-    p75_stars: 66.2
+    p75_stars: 67.0
     p25_forks: 1.0
-    p75_forks: 8.5
+    p75_forks: 10.0
   top_repos:
   - title: 'Retiarii: A Deep Learning Exploratory-Training Framework'
     url: https://github.com/microsoft/nni/tree/retiarii_artifact
@@ -1054,15 +1051,15 @@ by_conference:
     - functional
     - reproduced
 - name: PETS
-  github_repos: 314
-  total_stars: 19695
-  total_forks: 1806
-  avg_stars: 62.7
-  avg_forks: 5.8
+  github_repos: 312
+  total_stars: 19644
+  total_forks: 1790
+  avg_stars: 63.0
+  avg_forks: 5.7
   median_stars: 1.0
   median_forks: 0.0
   p25_stars: 0.0
-  p75_stars: 5.0
+  p75_stars: 4.8
   p25_forks: 0.0
   p75_forks: 1.0
   max_stars: 13082
@@ -1129,25 +1126,25 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 1.0
   - year: 2025
-    github_repos: 90
+    github_repos: 89
     total_stars: 410
-    total_forks: 85
+    total_forks: 84
     avg_stars: 4.6
     avg_forks: 0.9
-    median_stars: 0.5
-    median_forks: 0.0
+    median_stars: 1
+    median_forks: 0
     p25_stars: 0.0
     p75_stars: 2.0
     p25_forks: 0.0
     p75_forks: 1.0
   - year: 2026
-    github_repos: 56
-    total_stars: 857
-    total_forks: 128
-    avg_stars: 15.3
-    avg_forks: 2.3
-    median_stars: 0.0
-    median_forks: 0.0
+    github_repos: 55
+    total_stars: 806
+    total_forks: 113
+    avg_stars: 14.7
+    avg_forks: 2.1
+    median_stars: 0
+    median_forks: 0
     p25_stars: 0.0
     p75_stars: 3.0
     p25_forks: 0.0
@@ -1396,60 +1393,33 @@ by_conference:
     - Available
     - Functional
 - name: SP
-  github_repos: 15
-  total_stars: 33768
-  total_forks: 6791
-  avg_stars: 2251.2
-  avg_forks: 452.7
-  median_stars: 4
+  github_repos: 25
+  total_stars: 267
+  total_forks: 36
+  avg_stars: 10.7
+  avg_forks: 1.4
+  median_stars: 2
   median_forks: 0
   p25_stars: 0.0
-  p75_stars: 31.0
+  p75_stars: 11.0
   p25_forks: 0.0
-  p75_forks: 2.0
-  max_stars: 32231
-  max_forks: 6680
+  p75_forks: 1.0
+  max_stars: 70
+  max_forks: 15
   years:
   - year: 2026
-    github_repos: 15
-    total_stars: 33768
-    total_forks: 6791
-    avg_stars: 2251.2
-    avg_forks: 452.7
-    median_stars: 4
+    github_repos: 25
+    total_stars: 267
+    total_forks: 36
+    avg_stars: 10.7
+    avg_forks: 1.4
+    median_stars: 2
     median_forks: 0
     p25_stars: 0.0
-    p75_stars: 31.0
+    p75_stars: 11.0
     p25_forks: 0.0
-    p75_forks: 2.0
+    p75_forks: 1.0
   top_repos:
-  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
-      Auditory Prompt Injection
-    url: https://github.com/facebookresearch/fairseq
-    conference: SP
-    year: 2026
-    area: security
-    stars: 32231
-    forks: 6680
-    description: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
-    language: Python
-    name: facebookresearch/fairseq
-    pushed_at: '2025-09-30T11:16:06Z'
-    badges: &id001
-    - available
-  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
-      Auditory Prompt Injection
-    url: https://github.com/0nutation/SpeechGPT
-    conference: SP
-    year: 2026
-    area: security
-    stars: 1404
-    forks: 96
-    description: 'SpeechGPT Series: Speech Large Language Models'
-    language: Python
-    name: 0nutation/SpeechGPT
-    pushed_at: '2024-07-22T10:08:09Z'
-    badges: *id001
   - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
     url: https://github.com/comsec-group/phoenix
     conference: SP
@@ -1466,39 +1436,66 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing
-      LLM-Augmented Harnesses'
-    url: https://github.com/purseclab/deepSURF
+  - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
+    url: https://github.com/google/private-membership
     conference: SP
     year: 2026
     area: security
-    stars: 31
+    stars: 67
+    forks: 15
+    description: ''
+    language: C++
+    name: google/private-membership
+    pushed_at: '2026-06-30T15:22:39Z'
+    badges:
+    - available
+  - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation
+      in Cloud Environments'
+    url: https://github.com/comsec-group/vmscape
+    conference: SP
+    year: 2026
+    area: security
+    stars: 42
     forks: 2
-    description: 'deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through
-      Fuzzing LLM-Augmented Harnesses'
-    language: LLVM
-    name: purseclab/deepSURF
-    pushed_at: '2025-11-28T22:32:00Z'
+    description: 'Artefacts for: "VMScape: Exposing and Exploiting Incomplete Branch
+      Predictor Isolation in Cloud Environments"'
+    language: C
+    name: comsec-group/vmscape
+    pushed_at: '2026-05-05T13:39:27Z'
     badges:
     - available
     - functional
     - reproduced
-  - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
-    url: https://github.com/Yuuoniy/SpecAuditor
+  - title: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    url: https://github.com/vusec/rain
     conference: SP
     year: 2026
     area: security
-    stars: 15
-    forks: 0
-    description: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug
-      Detection (S&P 2026)'
-    language: HTML
-    name: Yuuoniy/SpecAuditor
-    pushed_at: '2026-06-08T13:31:25Z'
+    stars: 20
+    forks: 1
+    description: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    language: C
+    name: vusec/rain
+    pushed_at: '2025-10-16T08:45:08Z'
     badges:
     - available
     - functional
     - reproduced
+  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
+      Auditory Prompt Injection
+    url: https://github.com/zju-muslab/AudioHijack
+    conference: SP
+    year: 2026
+    area: security
+    stars: 18
+    forks: 2
+    description: This is the artifact of the IEEE S&P 2026 paper "Hijacking Large
+      Audio-Language Models via Context-agnostic Auditory Pro
+    language: Python
+    name: zju-muslab/AudioHijack
+    pushed_at: '2026-03-29T10:57:38Z'
+    badges:
+    - available
 - name: SYSTEX
   github_repos: 17
   total_stars: 60
@@ -1621,17 +1618,17 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 526
-  total_stars: 65807
-  total_forks: 10614
-  avg_stars: 125.1
-  avg_forks: 20.2
-  median_stars: 12.0
-  median_forks: 2.0
-  p25_stars: 4.0
-  p75_stars: 38.5
-  p25_forks: 1.0
-  p75_forks: 7.0
+  github_repos: 534
+  total_stars: 40423
+  total_forks: 6576
+  avg_stars: 75.7
+  avg_forks: 12.3
+  median_stars: 10
+  median_forks: 2
+  p25_stars: 3.0
+  p75_stars: 28.0
+  p25_forks: 0.0
+  p75_forks: 5.0
   max_stars: 14036
   max_forks: 2444
   years:
@@ -1660,65 +1657,65 @@ by_conference:
     p25_forks: 2.0
     p75_forks: 11.5
   - year: 2022
-    github_repos: 92
-    total_stars: 7963
-    total_forks: 1094
-    avg_stars: 86.6
-    avg_forks: 11.9
-    median_stars: 14.0
+    github_repos: 90
+    total_stars: 5755
+    total_forks: 844
+    avg_stars: 63.9
+    avg_forks: 9.4
+    median_stars: 13.5
     median_forks: 2.0
-    p25_stars: 5.0
-    p75_stars: 46.2
+    p25_stars: 4.8
+    p75_stars: 41.8
     p25_forks: 1.0
     p75_forks: 8.0
   - year: 2023
-    github_repos: 122
-    total_stars: 4883
-    total_forks: 858
-    avg_stars: 40.0
+    github_repos: 118
+    total_stars: 4606
+    total_forks: 826
+    avg_stars: 39.0
     avg_forks: 7.0
-    median_stars: 13.5
+    median_stars: 13.0
     median_forks: 2.0
-    p25_stars: 6.0
-    p75_stars: 34.5
+    p25_stars: 5.8
+    p75_stars: 34.0
     p25_forks: 1.0
     p75_forks: 6.0
   - year: 2024
     github_repos: 128
-    total_stars: 16761
-    total_forks: 2812
-    avg_stars: 130.9
-    avg_forks: 22.0
+    total_stars: 16839
+    total_forks: 2825
+    avg_stars: 131.6
+    avg_forks: 22.1
     median_stars: 9.0
     median_forks: 2.0
     p25_stars: 4.0
-    p75_stars: 24.8
-    p25_forks: 0.0
-    p75_forks: 3.0
+    p75_stars: 25.0
+    p25_forks: 1.0
+    p75_forks: 3.8
   - year: 2025
-    github_repos: 103
-    total_stars: 26704
-    total_forks: 4325
-    avg_stars: 259.3
-    avg_forks: 42.0
-    median_stars: 11
-    median_forks: 2
-    p25_stars: 3.0
-    p75_stars: 93.0
+    github_repos: 110
+    total_stars: 6401
+    total_forks: 870
+    avg_stars: 58.2
+    avg_forks: 7.9
+    median_stars: 6.0
+    median_forks: 1.0
+    p25_stars: 2.0
+    p75_stars: 14.0
     p25_forks: 0.0
-    p75_forks: 15.0
+    p75_forks: 2.0
   - year: 2026
-    github_repos: 32
-    total_stars: 3621
-    total_forks: 590
-    avg_stars: 113.2
-    avg_forks: 18.4
-    median_stars: 3.0
-    median_forks: 0.0
+    github_repos: 39
+    total_stars: 947
+    total_forks: 276
+    avg_stars: 24.3
+    avg_forks: 7.1
+    median_stars: 2
+    median_forks: 0
     p25_stars: 0.0
-    p75_stars: 64.8
+    p75_stars: 5.0
     p25_forks: 0.0
-    p75_forks: 7.8
+    p75_forks: 1.0
   top_repos:
   - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
       Penetration Testing'
@@ -1748,28 +1745,6 @@ by_conference:
     - Stefan Rass
     - Tianwei Zhang 0004
     - Yang Liu 0003
-  - title: 'PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs'
-    url: https://github.com/llm-attacks/llm-attacks
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 4718
-    forks: 630
-    description: Universal and Transferable Attacks on Aligned Language Models
-    language: Python
-    name: llm-attacks/llm-attacks
-    pushed_at: '2024-08-02T06:02:18Z'
-    badges:
-    - 'Badges: Available'
-    authors:
-    - Xueluan Gong
-    - Mingzhe Li
-    - Yilin Zhang
-    - Fengyuan Ran
-    - Chen Chen 0115
-    - Yanjiao Chen
-    - Qian Wang 0002
-    - Kwok-Yan Lam
   - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
     url: https://github.com/richzhang/PerceptualSimilarity
     conference: USENIXSEC
@@ -1788,61 +1763,79 @@ by_conference:
     authors:
     - Junhua Lin
     - Marc Juarez
-  - title: 'Breaking the Layer Barrier: Remodeling Private Transformer Inference with
-      Hybrid CKKS and MPC'
-    url: https://github.com/microsoft/SEAL
+  - title: 'BlockSci: Design and applications of a blockchain analysis platform'
+    url: https://github.com/citp/BlockSci
     conference: USENIXSEC
-    year: 2025
+    year: 2020
     area: security
-    stars: 3989
-    forks: 773
-    description: Microsoft SEAL is an easy-to-use and powerful homomorphic encryption
-      library.
+    stars: 1394
+    forks: 273
+    description: A high-performance tool for blockchain science and exploration
     language: C++
-    name: microsoft/SEAL
-    pushed_at: '2026-05-29T18:13:45Z'
+    name: citp/BlockSci
+    pushed_at: '2021-12-13T09:59:46Z'
     badges:
-    - 'Badges: Available'
+    - Artifact Evaluated
     authors:
-    - Tianshi Xu
-    - Wen-jie Lu
-    - Jiangrui Yu
-    - Yi Chen
-    - Chenqi Lin
-    - Runsheng Wang
-    - Meng Li 0004
-  - title: Lets Move2EVM
-    url: https://github.com/move-language/move
+    - Harry A. Kalodner
+    - Malte Möser
+    - Kevin Lee
+    - Steven Goldfeder
+    - Martin Plattner
+    - Alishah Chator
+    - Arvind Narayanan
+  - title: 'Trojan Source: Invisible Vulnerabilities'
+    url: https://github.com/nickboucher/trojan-source/tree/e3dc153fcf465f4a84424ea874ff39be29adb1f7
     conference: USENIXSEC
-    year: 2025
+    year: 2023
     area: security
-    stars: 2334
-    forks: 693
-    description: ''
-    language: Rust
-    name: move-language/move
-    pushed_at: '2024-05-04T21:17:51Z'
+    stars: 1287
+    forks: 268
+    description: 'Trojan Source: Invisible Vulnerabilities'
+    language: SCSS
+    name: nickboucher/trojan-source
+    pushed_at: '2023-04-26T08:22:53Z'
     badges:
     - 'Badges: Available'
     - Functional
     - Reproduced
     authors:
-    - Lorenzo Benetollo
-    - Andreas Lackner
-    - Matteo Maffei
-    - Markus Scherer
+    - Nicholas Boucher
+    - Ross Anderson 0001
+  - title: How to Abuse and Fix Authenticated Encryption Without Key Commitment
+    url: https://github.com/corkami/mitra/tree/Usenix22
+    conference: USENIXSEC
+    year: 2022
+    area: security
+    stars: 1281
+    forks: 82
+    description: A generator of weird files (binary polyglots, near polyglots, polymocks...)
+    language: Python
+    name: corkami/mitra
+    pushed_at: '2024-12-22T20:29:32Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Ange Albertini
+    - Thai Duong
+    - Shay Gueron
+    - Stefan Kölbl
+    - Atul Luykx
+    - Sophie Schmieg
 - name: WOOT
-  github_repos: 31
-  total_stars: 16367
-  total_forks: 1327
-  avg_stars: 528.0
-  avg_forks: 42.8
-  median_stars: 10
-  median_forks: 1
+  github_repos: 30
+  total_stars: 16226
+  total_forks: 1317
+  avg_stars: 540.9
+  avg_forks: 43.9
+  median_stars: 9.5
+  median_forks: 1.0
   p25_stars: 1.0
   p75_stars: 36.0
   p25_forks: 0.0
-  p75_forks: 8.0
+  p75_forks: 7.2
   max_stars: 12494
   max_forks: 1011
   years:
@@ -1883,17 +1876,17 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 7.0
   - year: 2023
-    github_repos: 5
-    total_stars: 576
-    total_forks: 40
-    avg_stars: 115.2
-    avg_forks: 8.0
-    median_stars: 21
-    median_forks: 1
-    p25_stars: 2.0
-    p75_stars: 275.5
+    github_repos: 4
+    total_stars: 435
+    total_forks: 30
+    avg_stars: 108.8
+    avg_forks: 7.5
+    median_stars: 12.0
+    median_forks: 1.0
+    p25_stars: 1.5
+    p75_stars: 312.8
     p25_forks: 1.0
-    p75_forks: 18.5
+    p75_forks: 20.5
   - year: 2024
     github_repos: 9
     total_stars: 2128
@@ -2076,13 +2069,13 @@ by_year:
   max_stars: 13082
   max_forks: 656
 - year: 2022
-  github_repos: 271
-  total_stars: 37384
-  total_forks: 5171
-  avg_stars: 137.9
-  avg_forks: 19.1
-  median_stars: 9
-  median_forks: 2
+  github_repos: 268
+  total_stars: 35168
+  total_forks: 4920
+  avg_stars: 131.2
+  avg_forks: 18.4
+  median_stars: 8.5
+  median_forks: 2.0
   p25_stars: 2.0
   p75_stars: 28.0
   p25_forks: 0.0
@@ -2090,25 +2083,25 @@ by_year:
   max_stars: 14357
   max_forks: 1858
 - year: 2023
-  github_repos: 298
-  total_stars: 12539
-  total_forks: 2419
-  avg_stars: 42.1
-  avg_forks: 8.1
+  github_repos: 290
+  total_stars: 12115
+  total_forks: 2376
+  avg_stars: 41.8
+  avg_forks: 8.2
   median_stars: 10.0
   median_forks: 2.0
   p25_stars: 3.0
-  p75_stars: 32.5
+  p75_stars: 32.0
   p25_forks: 0.0
   p75_forks: 5.0
   max_stars: 1683
   max_forks: 278
 - year: 2024
-  github_repos: 359
-  total_stars: 25042
-  total_forks: 3891
-  avg_stars: 69.8
-  avg_forks: 10.8
+  github_repos: 355
+  total_stars: 26049
+  total_forks: 3973
+  avg_stars: 73.4
+  avg_forks: 11.2
   median_stars: 7
   median_forks: 1
   p25_stars: 2.0
@@ -2118,53 +2111,53 @@ by_year:
   max_stars: 14036
   max_forks: 2444
 - year: 2025
-  github_repos: 351
-  total_stars: 50898
-  total_forks: 7510
-  avg_stars: 145.0
-  avg_forks: 21.4
-  median_stars: 3
-  median_forks: 1
+  github_repos: 364
+  total_stars: 27503
+  total_forks: 2894
+  avg_stars: 75.6
+  avg_forks: 8.0
+  median_stars: 3.0
+  median_forks: 0.0
   p25_stars: 0.0
-  p75_stars: 14.0
+  p75_stars: 11.0
   p25_forks: 0.0
-  p75_forks: 3.0
+  p75_forks: 2.0
   max_stars: 17348
   max_forks: 1329
 - year: 2026
-  github_repos: 201
-  total_stars: 49291
-  total_forks: 8718
-  avg_stars: 245.2
-  avg_forks: 43.4
-  median_stars: 1
-  median_forks: 0
+  github_repos: 238
+  total_stars: 12884
+  total_forks: 1618
+  avg_stars: 54.1
+  avg_forks: 6.8
+  median_stars: 2.0
+  median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 5.0
   p25_forks: 0.0
   p75_forks: 1.0
-  max_stars: 32231
-  max_forks: 6680
+  max_stars: 10080
+  max_forks: 1094
 by_area:
 - name: systems
-  github_repos: 584
-  total_stars: 101581
-  total_forks: 13120
-  median_stars: 12.0
-  median_forks: 2.0
+  github_repos: 577
+  total_stars: 102559
+  total_forks: 13198
+  median_stars: 12
+  median_forks: 3
   p25_stars: 3.0
-  p75_stars: 41.0
+  p75_stars: 43.0
   p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 17348
 - name: security
-  github_repos: 1186
-  total_stars: 146386
-  total_forks: 23140
-  median_stars: 5.0
-  median_forks: 1.0
+  github_repos: 1229
+  total_stars: 83973
+  total_forks: 11134
+  median_stars: 4
+  median_forks: 1
   p25_stars: 1.0
-  p75_stars: 19.0
+  p75_stars: 15.0
   p25_forks: 0.0
-  p75_forks: 4.0
-  max_stars: 32231
+  p75_forks: 3.0
+  max_stars: 14036

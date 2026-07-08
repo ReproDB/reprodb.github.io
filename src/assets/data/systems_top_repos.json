@@ -165,6 +165,21 @@
     "area": "systems"
   },
   {
+    "title": "𝜇Slope: High Compression and Fast Search on Semi-Structured Logs",
+    "url": "https://github.com/y-scope/clp",
+    "year": 2024,
+    "stars": 1070,
+    "forks": 91,
+    "authors": "",
+    "github_org": "y-scope",
+    "badges": "",
+    "last_active": "2026-07",
+    "description": "Compressed Log Processor (CLP) is a free log management tool capable of compressing logs and searching the compressed lo",
+    "language": "C++",
+    "conference": "OSDI",
+    "area": "systems"
+  },
+  {
     "title": "Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks",
     "url": "https://github.com/microsoft/nnfusion/tree/osdi20_artifact/artifacts",
     "year": 2020,
@@ -732,21 +747,6 @@
     "description": "Global-Scale Sustainable Blockchain Fabric",
     "language": "TypeScript",
     "conference": "EUROSYS",
-    "area": "systems"
-  },
-  {
-    "title": "Marius: Learning Massive Graph Embeddings on a Single Machine",
-    "url": "https://github.com/marius-team/marius/tree/osdi2021",
-    "year": 2021,
-    "stars": 167,
-    "forks": 47,
-    "authors": "",
-    "github_org": "marius-team",
-    "badges": "",
-    "last_active": "2025-02",
-    "description": "Large scale graph learning on a single machine. ",
-    "language": "C++",
-    "conference": "OSDI",
     "area": "systems"
   }
 ]

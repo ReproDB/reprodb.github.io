@@ -2531,6 +2531,19 @@
     "pushed_at": "2025-11-17T17:29:38Z"
   },
   {
+    "title": "Fooling Machine's Eyes: Unicode Modifier Letter Evasion Attack",
+    "url": "https://github.com/gc-chao/uead",
+    "conference": "ACSAC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "Unicode Encoding Attacks and Detection",
+    "language": "Java",
+    "name": "gc-chao/uead",
+    "pushed_at": "2026-06-28T03:16:14Z"
+  },
+  {
     "title": "Fix it - If you Can! Towards Understanding the Impact of Tool Support and Domain Owners’ Reactions to SSHFP Misconfigurations",
     "url": "https://github.com/gehaxelt/SSHFP-Notification-Study-AE",
     "conference": "ACSAC",
@@ -2542,6 +2555,19 @@
     "language": "Python",
     "name": "gehaxelt/SSHFP-Notification-Study-AE",
     "pushed_at": "2025-10-17T11:37:41Z"
+  },
+  {
+    "title": "Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information",
+    "url": "https://github.com/harshvp1621/VPChecker",
+    "conference": "ACSAC",
+    "year": 2025,
+    "area": "security",
+    "stars": 7,
+    "forks": 3,
+    "description": "Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information",
+    "language": "Python",
+    "name": "harshvp1621/VPChecker",
+    "pushed_at": "2026-02-28T18:57:21Z"
   },
   {
     "title": "Uncovering Bigger Truths: Deobfuscating PHP with Phoebe",
@@ -2687,6 +2713,19 @@
     "pushed_at": "2025-10-19T14:53:02Z"
   },
   {
+    "title": "R+R: IoT Device Identification Under Realistic Conditions",
+    "url": "https://github.com/utwente-scs/evaliot",
+    "conference": "ACSAC",
+    "year": 2025,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "An evaluation framework for IoT Device Identification methods.",
+    "language": "Python",
+    "name": "utwente-scs/evaliot",
+    "pushed_at": "2025-10-29T14:39:00Z"
+  },
+  {
     "title": "Enabling Plausible Deniability in Flash-based Storage through Data Permutation",
     "url": "https://github.com/weidong-zhu/MUTE-ACSAC",
     "conference": "ACSAC",
@@ -2828,19 +2867,6 @@
     "language": "C++",
     "name": "JelixLi/Tetris",
     "pushed_at": "2023-01-10T13:37:07Z"
-  },
-  {
-    "title": "Vinter: Automatic Non-Volatile Memory Crash Consistency Testing for Full Systems",
-    "url": "https://github.com/KIT-OSGroup/vinter",
-    "conference": "ATC",
-    "year": 2022,
-    "area": "systems",
-    "stars": 8,
-    "forks": 1,
-    "description": "Automatic Non-Volatile Memory Crash Consistency Testing for Full Systems",
-    "language": "Python",
-    "name": "KIT-OSGroup/vinter",
-    "pushed_at": "2023-09-14T09:12:28Z"
   },
   {
     "title": "Modulo: Finding Convergence Failure Bugs in Distributed Systems with Divergence Resync Models",
@@ -5349,19 +5375,6 @@
     "pushed_at": "2023-01-13T22:52:29Z"
   },
   {
-    "title": "WAFL: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection",
-    "url": "https://github.com/bastoica/waffle",
-    "conference": "EUROSYS",
-    "year": 2023,
-    "area": "systems",
-    "stars": 1,
-    "forks": 1,
-    "description": "Waffle - a delay injection tool to help expose memory ordering bugs in .NET",
-    "language": "C#",
-    "name": "bastoica/waffle",
-    "pushed_at": "2023-05-23T04:59:18Z"
-  },
-  {
     "title": "R2C: AOCR-Resilient Diversity with Reactive and Reflective Camouflage",
     "url": "https://github.com/fberlakovich/r2c-benchmarking",
     "conference": "EUROSYS",
@@ -5375,19 +5388,6 @@
     "pushed_at": "2024-05-24T12:05:05Z"
   },
   {
-    "title": "Omni-Paxos: Breaking the Barriers of Partial Connectivity",
-    "url": "https://github.com/haraldng/omnipaxos-artifacts",
-    "conference": "EUROSYS",
-    "year": 2023,
-    "area": "systems",
-    "stars": 2,
-    "forks": 0,
-    "description": "",
-    "language": "Rust",
-    "name": "haraldng/omnipaxos-artifacts",
-    "pushed_at": "2023-03-15T14:47:21Z"
-  },
-  {
     "title": "FlexPass: A Case for Flexible Credit-based Transport for Datacenter Networks",
     "url": "https://github.com/kaist-ina/ns2-flexpass",
     "conference": "EUROSYS",
@@ -5399,19 +5399,6 @@
     "language": "C++",
     "name": "kaist-ina/ns2-flexpass",
     "pushed_at": "2023-03-15T15:56:03Z"
-  },
-  {
-    "title": "OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers",
-    "url": "https://github.com/oksdfncsj/OLPart",
-    "conference": "EUROSYS",
-    "year": 2023,
-    "area": "systems",
-    "stars": 3,
-    "forks": 0,
-    "description": "",
-    "language": "Python",
-    "name": "OpenOLPart/OLPart",
-    "pushed_at": "2022-08-23T08:15:48Z"
   },
   {
     "title": "Dissecting BFT Consensus: In Trusted Components we Trust!",
@@ -5544,19 +5531,6 @@
     "pushed_at": "2023-09-30T01:43:31Z"
   },
   {
-    "title": "HD-IOV: SW-HW Co-designed I/O Virtualization with Scalability and Flexibility for Hyper-Density Cloud",
-    "url": "https://github.com/Maphist0/hdiov-ae",
-    "conference": "EUROSYS",
-    "year": 2024,
-    "area": "systems",
-    "stars": 6,
-    "forks": 1,
-    "description": "HD-IOV EuroSys'24 Artifact",
-    "language": "Shell",
-    "name": "Maphist0/hdiov-ae",
-    "pushed_at": "2023-10-31T03:48:26Z"
-  },
-  {
     "title": "Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel",
     "url": "https://github.com/NASA-NJU/UNISON-for-ns-3",
     "conference": "EUROSYS",
@@ -5583,30 +5557,17 @@
     "pushed_at": "2025-04-28T12:37:07Z"
   },
   {
-    "title": "Draconis: Network-Accelerated Scheduling for Micro-Scale Workloads",
-    "url": "https://github.com/UWASL/Draconis",
+    "title": "TTLs Matter: Efficient Cache Sizing with TTL-Aware Miss Ratio Curves and Working Set Sizes",
+    "url": "https://github.com/SariSultan/TTLsMatter-EuroSys24",
     "conference": "EUROSYS",
     "year": 2024,
     "area": "systems",
-    "stars": 6,
-    "forks": 0,
-    "description": "Draconis is a centralized network-accelerated scheduler which uses P4 programmable switches to support microsecond-scale",
-    "language": "C++",
-    "name": "UWASL/Draconis",
-    "pushed_at": "2024-02-22T17:42:48Z"
-  },
-  {
-    "title": "Transparent Multicore Scaling of Single-Threaded Network Functions",
-    "url": "https://github.com/dslab-epfl/nfos",
-    "conference": "EUROSYS",
-    "year": 2024,
-    "area": "systems",
-    "stars": 9,
-    "forks": 0,
-    "description": "A framework for productive development of scalable network functions",
-    "language": "C",
-    "name": "dslab-epfl/nfos",
-    "pushed_at": "2023-11-13T10:18:11Z"
+    "stars": 4,
+    "forks": 2,
+    "description": "TTLs Matter: Efficient Cache Sizing with TTL-Aware Miss Ratio Curves and Working Set Sizes",
+    "language": "C#",
+    "name": "SariSultan/TTLsMatter-EuroSys24",
+    "pushed_at": "2024-02-18T21:34:24Z"
   },
   {
     "title": "Concealing Compression-accelerated I/O for HPC Applications through In Situ Task Scheduling",
@@ -5648,19 +5609,6 @@
     "pushed_at": "2024-03-07T14:43:10Z"
   },
   {
-    "title": "Pronghorn: Effective Checkpoint Orchestration for Serverless Hot-Starts",
-    "url": "https://github.com/rssys/pronghorn-artifact",
-    "conference": "EUROSYS",
-    "year": 2024,
-    "area": "systems",
-    "stars": 22,
-    "forks": 5,
-    "description": "This artifact accompanies the paper 'Pronghorn: Effective Checkpoint Orchestration for Serverless Hot-Starts,' which has",
-    "language": "Jupyter Notebook",
-    "name": "rssys/pronghorn-artifact",
-    "pushed_at": "2023-11-08T15:43:41Z"
-  },
-  {
     "title": "Enoki: High Velocity Linux Kernel Scheduler Development",
     "url": "https://github.com/smiller123/enoki",
     "conference": "EUROSYS",
@@ -5685,6 +5633,32 @@
     "language": "Java",
     "name": "tinysystems/ARTEMIS",
     "pushed_at": "2024-03-07T07:42:15Z"
+  },
+  {
+    "title": "On the Limitations of Carbon-Aware Temporal and Spatial Workload Shifting in the Cloud",
+    "url": "https://github.com/umassos/decarbonization-potential",
+    "conference": "EUROSYS",
+    "year": 2024,
+    "area": "systems",
+    "stars": 4,
+    "forks": 0,
+    "description": "CO2 emission and runtime analysis of different scheduling strategies",
+    "language": "Python",
+    "name": "umassos/decarbonization-potential",
+    "pushed_at": "2024-03-06T23:45:27Z"
+  },
+  {
+    "title": "WiseGraph: Optimizing GNN with Joint Workload Partition of Graph and Operations",
+    "url": "https://github.com/xxcclong/CxGNN-Compute",
+    "conference": "EUROSYS",
+    "year": 2024,
+    "area": "systems",
+    "stars": 6,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "xxcclong/CxGNN-Compute",
+    "pushed_at": "2024-11-14T05:00:30Z"
   },
   {
     "title": "Erebor: A Drop-In Sandbox Solution for Private Data Processing in Untrusted Confidential Virtual Machines",
@@ -5713,6 +5687,19 @@
     "pushed_at": "2025-06-04T02:51:55Z"
   },
   {
+    "title": "CAPSys: Contention-aware task placement for data stream processing",
+    "url": "https://github.com/CASP-Systems-BU/CAPSys",
+    "conference": "EUROSYS",
+    "year": 2025,
+    "area": "systems",
+    "stars": 6,
+    "forks": 4,
+    "description": "CAPSys: Contention-aware task placement for data stream processing",
+    "language": "Java",
+    "name": "CASP-Systems-BU/CAPSys",
+    "pushed_at": "2025-02-14T23:09:39Z"
+  },
+  {
     "title": "NeuStream: Bridging Deep Learning Serving and Stream Processing",
     "url": "https://github.com/Fjallraven-hc/NeuStream-AE",
     "conference": "EUROSYS",
@@ -5739,19 +5726,6 @@
     "pushed_at": "2025-07-05T08:10:37Z"
   },
   {
-    "title": "Multi-Grained Specifications for Distributed System Model Checking and Verification",
-    "url": "https://github.com/Lingzhi-Ouyang/Remix",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "area": "systems",
-    "stars": 13,
-    "forks": 0,
-    "description": "",
-    "language": "Java",
-    "name": "Lingzhi-Ouyang/Remix",
-    "pushed_at": "2025-04-10T11:20:03Z"
-  },
-  {
     "title": "SpotHedge: Serving AI Models on Spot Instances",
     "url": "https://github.com/MaoZiming/spothedge_ae",
     "conference": "EUROSYS",
@@ -5776,32 +5750,6 @@
     "language": "",
     "name": "Nan-Ge/eurosys25_ae",
     "pushed_at": "2024-09-03T08:28:25Z"
-  },
-  {
-    "title": "Comprehensive Deadlock Prevention for GPU Collective Communication",
-    "url": "https://github.com/Oneflow-Inc/dfccl",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "area": "systems",
-    "stars": 26,
-    "forks": 7,
-    "description": "",
-    "language": "C++",
-    "name": "Oneflow-Inc/dfccl",
-    "pushed_at": "2025-02-17T05:24:11Z"
-  },
-  {
-    "title": "Chrono: Meticulous Hotness Measurement and Flexible Page Migration for Memory Tiering",
-    "url": "https://github.com/SJTU-DDST/chrono-project",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "area": "systems",
-    "stars": 8,
-    "forks": 0,
-    "description": "Tiering solution based on Linux kernel.",
-    "language": "C",
-    "name": "SJTU-DDST/chrono-project",
-    "pushed_at": "2025-05-27T09:27:26Z"
   },
   {
     "title": "Revealing the Unstable Foundations of eBPF-Based Kernel Extensions",
@@ -5856,19 +5804,6 @@
     "pushed_at": "2025-07-15T22:09:11Z"
   },
   {
-    "title": "Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches",
-    "url": "https://github.com/ants-xjtu/Occamy",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "area": "systems",
-    "stars": 11,
-    "forks": 5,
-    "description": "Occamy is a preemptive buffer management for on-chip shared-memory switches",
-    "language": "Verilog",
-    "name": "ants-xjtu/Occamy",
-    "pushed_at": "2026-02-28T05:30:09Z"
-  },
-  {
     "title": "Empowering WebAssembly with Thin Kernel Interfaces",
     "url": "https://github.com/arjunr2/WALI",
     "conference": "EUROSYS",
@@ -5880,19 +5815,6 @@
     "language": "C",
     "name": "Wasm-Thin-Kernel-Interfaces/WALI",
     "pushed_at": "2026-06-03T16:25:42Z"
-  },
-  {
-    "title": "Empowering WebAssembly with Thin Kernel Interfaces",
-    "url": "https://github.com/arjunr2/wali-eurosys25-data",
-    "conference": "EUROSYS",
-    "year": 2025,
-    "area": "systems",
-    "stars": 0,
-    "forks": 0,
-    "description": "",
-    "language": "C",
-    "name": "arjunr2/wali-eurosys25-data",
-    "pushed_at": "2025-02-25T22:15:35Z"
   },
   {
     "title": "Efficiently Packing Privacy Budget with DPack",
@@ -6628,6 +6550,19 @@
     "pushed_at": "2025-11-24T01:51:18Z"
   },
   {
+    "title": "A Case for Elastic Quantum Error Correction Decoders",
+    "url": "https://github.com/satvikmaurya/decoder-resources",
+    "conference": "EUROSYS",
+    "year": 2026,
+    "area": "systems",
+    "stars": 3,
+    "forks": 0,
+    "description": "Capacity planning and scheduling for QEC decoders",
+    "language": "Python",
+    "name": "satvikmaurya/decoder-resources",
+    "pushed_at": "2026-07-01T19:17:54Z"
+  },
+  {
     "title": "Rose: Reproducing External-Fault-Induced Failures in Distributed Systems with Lighweight Instrumentation",
     "url": "https://github.com/sebastiaoamaro/rose",
     "conference": "EUROSYS",
@@ -6762,31 +6697,6 @@
     "pushed_at": "2025-09-19T04:09:58Z"
   },
   {
-    "title": "5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service",
-    "url": "https://github.com/5GSEC/5G-Spector",
-    "conference": "NDSS",
-    "year": 2024,
-    "area": "security",
-    "stars": 58,
-    "forks": 15,
-    "description": "An O-RAN compliant runtime intrusion detection system (xApp) for layer-3 (L3) celluar attack detection",
-    "language": "",
-    "name": "5GSEC/5G-Spector",
-    "pushed_at": "2024-11-04T19:27:54Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "authors": [
-      "Haohuang Wen",
-      "Phillip A. Porras",
-      "Vinod Yegneswaran",
-      "Ashish Gehani",
-      "Zhiqiang Lin 0001"
-    ]
-  },
-  {
     "title": "Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction",
     "url": "https://github.com/DependableSystemsLab/MIA_defense_HAMP",
     "conference": "NDSS",
@@ -6811,19 +6721,6 @@
     "language": "Python",
     "name": "GraphGuard/GraphGuard-Proactive",
     "pushed_at": "2023-11-23T19:29:14Z"
-  },
-  {
-    "title": "VETEOS: Statically Vetting EOSIO Contracts for the Groundhog Day Vulnerabilities",
-    "url": "https://github.com/HKJL10201/VetEOS",
-    "conference": "NDSS",
-    "year": 2024,
-    "area": "security",
-    "stars": 2,
-    "forks": 0,
-    "description": "VetEOS",
-    "language": "Python",
-    "name": "HKJL10201/VetEOS",
-    "pushed_at": "2023-11-20T23:14:02Z"
   },
   {
     "title": "From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices",
@@ -6852,19 +6749,6 @@
       "Ke Xu 0002",
       "Qi Li 0002"
     ]
-  },
-  {
-    "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
-    "url": "https://github.com/MCUSec/IPEA",
-    "conference": "NDSS",
-    "year": 2024,
-    "area": "security",
-    "stars": 17,
-    "forks": 1,
-    "description": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
-    "language": "C",
-    "name": "MCUSec/IPEA",
-    "pushed_at": "2026-01-28T18:54:57Z"
   },
   {
     "title": "Sharing cyber threat intelligence: Does it really help?",
@@ -6917,19 +6801,6 @@
     "language": "Jupyter Notebook",
     "name": "guyAmit/Transpose-Attack-paper-NDSS24-",
     "pushed_at": "2024-03-01T01:02:33Z"
-  },
-  {
-    "title": "HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation",
-    "url": "https://github.com/heir-compiler/HEIR",
-    "conference": "NDSS",
-    "year": 2024,
-    "area": "security",
-    "stars": 35,
-    "forks": 3,
-    "description": "",
-    "language": "C++",
-    "name": "heir-compiler/HEIR",
-    "pushed_at": "2023-08-20T13:01:44Z"
   },
   {
     "title": "ORL-Auditor: Dataset Auditing in Offline Deep Reinforcement Learning",
@@ -7075,6 +6946,58 @@
     "pushed_at": "2024-09-11T17:44:37Z"
   },
   {
+    "title": "GAP-Diff: Protecting JPEG-Compressed Images from Diffusion-based Facial Customization",
+    "url": "https://github.com/AIASLab/GAP-Diff",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 4,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "AIASLab/GAP-Diff",
+    "pushed_at": "2024-11-30T09:20:52Z"
+  },
+  {
+    "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces",
+    "url": "https://github.com/BreakingBoot/FuzzUEr",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 19,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "BreakingBoot/FuzzUEr",
+    "pushed_at": "2024-12-01T14:33:19Z"
+  },
+  {
+    "title": "TWINFUZZ: Differential Testing of Video Hardware Acceleration Stacks",
+    "url": "https://github.com/CISPA-SysSec/twinfuzz",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 11,
+    "forks": 0,
+    "description": "",
+    "language": "C",
+    "name": "CISPA-SysSec/twinfuzz",
+    "pushed_at": "2024-12-02T16:02:31Z"
+  },
+  {
+    "title": "Oreo: Protecting ASLR Against Microarchitectural Attacks",
+    "url": "https://github.com/CSAIL-Arch-Sec/Oreo",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "",
+    "language": "",
+    "name": "MATCHA-MIT/Oreo",
+    "pushed_at": "2024-11-30T09:17:20Z"
+  },
+  {
     "title": "Defending Against Membership Inference Attacks on Iteratively Pruned Deep Neural Networks",
     "url": "https://github.com/CactiLab/WeMeM",
     "conference": "NDSS",
@@ -7127,6 +7050,19 @@
     "pushed_at": "2025-08-10T16:20:17Z"
   },
   {
+    "title": "Onion Franking: Abuse Reports for Mix-Based Private Messaging",
+    "url": "https://github.com/MatthewGregoire42/message_franking_crypto",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Rust",
+    "name": "MatthewGregoire42/message_franking_crypto",
+    "pushed_at": "2024-11-26T18:57:40Z"
+  },
+  {
     "title": "The Road to Trust: Building Enclaves within Confidential VMs",
     "url": "https://github.com/NestedSGX/nestedsgx-ndss25-ae",
     "conference": "NDSS",
@@ -7151,6 +7087,19 @@
     "language": "TypeScript",
     "name": "NodeMedicAnalysis/NodeMedic-FINE",
     "pushed_at": "2025-11-24T21:38:19Z"
+  },
+  {
+    "title": "Probe-Me-Not: Protecting Pre-trained Encoders from Malicious Probing",
+    "url": "https://github.com/RollinDing/EncoderLock",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "RollinDing/EncoderLock",
+    "pushed_at": "2024-11-29T23:31:32Z"
   },
   {
     "title": "Time-varying Bottleneck Links in LEO Satellite Networks: Identification, Exploits, and Countermeasures",
@@ -7205,43 +7154,39 @@
     "pushed_at": "2024-10-07T15:46:07Z"
   },
   {
-    "title": "Uncovering iceberg from the tip: Generating API Specifications for Bug Detection via Specification Propagation Analysis",
-    "url": "https://github.com/Yuuoniy/APISpecGen",
+    "title": "SHAFT: Secure, Handy, Accurate and Fast Transformer Inference",
+    "url": "https://github.com/andeskyl/SHAFT",
     "conference": "NDSS",
     "year": 2025,
     "area": "security",
-    "stars": 10,
-    "forks": 2,
-    "description": "APISpecGen: Generating API Specifications for Bug Detection via Specification Propagation Analysis (NDSS 2025）",
+    "stars": 29,
+    "forks": 10,
+    "description": "A framework for secure, handy, accurate, and fast transformer inference",
     "language": "Python",
-    "name": "Yuuoniy/APISpecGen",
-    "pushed_at": "2025-01-10T02:26:32Z"
-  },
-  {
-    "title": "Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception Systems",
-    "url": "https://github.com/autowarefoundation/autoware.universe",
-    "conference": "NDSS",
-    "year": 2025,
-    "area": "security",
-    "stars": 1682,
-    "forks": 921,
-    "description": "",
-    "language": "C++",
-    "name": "autowarefoundation/autoware_universe",
-    "pushed_at": "2026-07-01T02:48:53Z",
+    "name": "andeskyl/SHAFT",
+    "pushed_at": "2025-08-29T06:32:55Z",
     "badges": [
       "available",
-      "functional"
+      "functional",
+      "reproduced"
     ],
     "authors": [
-      "Shuguang Wang",
-      "Qian Zhou 0008",
-      "Kui Wu 0001",
-      "Jinghuai Deng",
-      "Dapeng Wu 0001",
-      "Wei-Bin Lee",
-      "Jianping Wang 0001"
+      "Andes Y. L. Kei",
+      "Sherman S. M. Chow"
     ]
+  },
+  {
+    "title": "Iris: Dynamic Privacy Preserving Search in Authenticated Chord Peer-to-Peer Networks",
+    "url": "https://github.com/angakt/iris",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "MATLAB",
+    "name": "angakt/iris",
+    "pushed_at": "2024-12-01T18:42:58Z"
   },
   {
     "title": "MingledPie: A Cluster Mingling Approach for Mitigating Preference Profiling in CFL",
@@ -7257,17 +7202,29 @@
     "pushed_at": "2024-11-30T15:40:13Z"
   },
   {
-    "title": "Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
-    "url": "https://github.com/dlgroupuoft/Duumviri-NDSS25",
+    "title": "Cascading Spy Sheets: Exploiting the Complexity of Modern CSS for Email and Browser Fingerprinting",
+    "url": "https://github.com/cispa/cascading-spy-sheets",
     "conference": "NDSS",
     "year": 2025,
     "area": "security",
-    "stars": 2,
-    "forks": 1,
-    "description": "Artifact release of our NDSS 2025 Paper Duumviri: Detecting Trackers and Mixed Trackers with a Breakage Detector",
-    "language": "Python",
-    "name": "dlgroupuoft/Duumviri-NDSS25",
-    "pushed_at": "2024-08-31T01:22:22Z"
+    "stars": 24,
+    "forks": 6,
+    "description": "This repository contains the artifact for our paper \"Cascading Spy Sheets: Exploiting the Complexity of Modern CSS for E",
+    "language": "HTML",
+    "name": "cispa/cascading-spy-sheets",
+    "pushed_at": "2024-09-06T14:55:06Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "authors": [
+      "Leon Trampert",
+      "Daniel Weber 0007",
+      "Lukas Gerlach 0001",
+      "Christian Rossow",
+      "Michael Schwarz 0001"
+    ]
   },
   {
     "title": "EvoCrawl: Exploring Web Application Code and State using Evolutionary Search",
@@ -7297,21 +7254,47 @@
   },
   {
     "title": "Corpus Christi: Establishing Replicability when Sharing the Bread is Not Allowed",
-    "url": "https://github.com/fkie-cad/FACT_core",
+    "url": "https://github.com/fkie-cad/linux-firmware-corpus",
     "conference": "NDSS",
     "year": 2025,
     "area": "security",
-    "stars": 1450,
-    "forks": 251,
-    "description": "Firmware Analysis and Comparison Tool",
-    "language": "Python",
-    "name": "fkie-cad/FACT_core",
-    "pushed_at": "2026-06-30T16:08:52Z",
+    "stars": 26,
+    "forks": 2,
+    "description": "",
+    "language": "HTML",
+    "name": "fkie-cad/linux-firmware-corpus",
+    "pushed_at": "2025-08-20T17:28:16Z",
     "badges": [
       "available",
       "functional",
       "reproduced"
     ]
+  },
+  {
+    "title": "PBP: Post-training Backdoor Purification for Malware Classifiers",
+    "url": "https://github.com/judydnguyen/pbp-backdoor-purification-official",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 9,
+    "forks": 2,
+    "description": "PBP: Post-training Backdoor Purification for Malware Classification (NDSS'25)",
+    "language": "Python",
+    "name": "judydnguyen/pbp-backdoor-purification-official",
+    "pushed_at": "2025-01-21T00:20:41Z"
+  },
+  {
+    "title": "Rediscovering Method Confusion in Proposed Security Fixes for Bluetooth",
+    "url": "https://github.com/maxdos64/advanced_mc",
+    "conference": "NDSS",
+    "year": 2025,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "",
+    "language": "C",
+    "name": "maxdos64/advanced_mc",
+    "pushed_at": "2024-12-05T09:35:32Z"
   },
   {
     "title": "ICS-QUARTZ: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems",
@@ -7353,17 +7336,17 @@
     "pushed_at": "2024-11-30T10:40:05Z"
   },
   {
-    "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
-    "url": "https://github.com/two-heart/dumpling-artifact-evaluation",
+    "title": "Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception Systems",
+    "url": "https://github.com/sgNicola/ACsim",
     "conference": "NDSS",
     "year": 2025,
     "area": "security",
-    "stars": 33,
-    "forks": 4,
-    "description": "",
-    "language": "Python",
-    "name": "two-heart/dumpling-artifact-evaluation",
-    "pushed_at": "2024-11-30T11:16:47Z"
+    "stars": 1,
+    "forks": 2,
+    "description": "This is the code for IRCA",
+    "language": "C++",
+    "name": "sgNicola/ACsim",
+    "pushed_at": "2024-12-02T11:44:10Z"
   },
   {
     "title": "Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning via Latent Space Reconstruction",
@@ -7418,21 +7401,17 @@
     "pushed_at": "2026-06-08T10:13:41Z"
   },
   {
-    "title": "A Deep Dive into Function Inlining and its Security Implications for ML-based Binary Analysis",
-    "url": "https://github.com/Cisco-Talos/binary_function_similarity",
+    "title": "VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distributed Obliviousness",
+    "url": "https://github.com/BDS-SDU/vdoram-artifacts",
     "conference": "NDSS",
     "year": 2026,
     "area": "security",
-    "stars": 313,
-    "forks": 37,
-    "description": "",
-    "language": "Jupyter Notebook",
-    "name": "Cisco-Talos/binary_function_similarity",
-    "pushed_at": "2024-07-30T20:58:16Z",
-    "badges": [
-      "available",
-      "functional"
-    ]
+    "stars": 3,
+    "forks": 0,
+    "description": "The artifact for the NDSS'26 paper \"VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distribut",
+    "language": "Rust",
+    "name": "BDS-SDU/vdoram-artifacts",
+    "pushed_at": "2026-04-28T02:49:05Z"
   },
   {
     "title": "Pando: Extremely Scalable BFT Based on Committee Sampling",
@@ -7446,6 +7425,19 @@
     "language": "Go",
     "name": "DSSLab-Tsinghua/Pando",
     "pushed_at": "2026-02-02T03:23:59Z"
+  },
+  {
+    "title": "FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems",
+    "url": "https://github.com/Daniel-xsy/FlyTrap",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 19,
+    "forks": 4,
+    "description": "[NDSS 2026] FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems",
+    "language": "Python",
+    "name": "ASGuard-UCI/FlyTrap",
+    "pushed_at": "2026-04-22T16:56:03Z"
   },
   {
     "title": "Chasing Shadows: Pitfalls in LLM Security Research",
@@ -7474,6 +7466,32 @@
     "pushed_at": "2025-09-02T02:11:22Z"
   },
   {
+    "title": "There is No War in Ba Sing Se: A Global Analysis of Content Moderation in Large Language Models",
+    "url": "https://github.com/Fredddi43/llm_content_moderation_artifacts",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "Fredddi43/llm_content_moderation_artifacts",
+    "pushed_at": "2025-12-11T12:13:31Z"
+  },
+  {
+    "title": "Mirage: Private, Mobility-based Routing for Censorship Evasion",
+    "url": "https://github.com/GUSecLab/cadence",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 1,
+    "description": "Cadence Simulator",
+    "language": "C",
+    "name": "GUSecLab/cadence",
+    "pushed_at": "2025-09-08T21:51:57Z"
+  },
+  {
     "title": "OSAVRoute: Advancing Outbound Source Address Validation Deployment Detection with Non-Cooperative Measurement",
     "url": "https://github.com/Goserizz/OSAVRoute",
     "conference": "NDSS",
@@ -7500,6 +7518,19 @@
     "pushed_at": "2026-01-20T07:15:31Z"
   },
   {
+    "title": "Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination",
+    "url": "https://github.com/Kim-Hammar/llm_incident_response_ndss26",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 17,
+    "forks": 1,
+    "description": "Artifacts for the paper \"Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination\"",
+    "language": "Python",
+    "name": "Kim-Hammar/llm_incident_response_ndss26",
+    "pushed_at": "2026-06-02T11:45:14Z"
+  },
+  {
     "title": "PrivCode: When Code Synthesis Meets Differential Privacy",
     "url": "https://github.com/Liuzzyg/PrivCode",
     "conference": "NDSS",
@@ -7513,17 +7544,56 @@
     "pushed_at": "2025-12-07T06:40:58Z"
   },
   {
-    "title": "SACK: Systematic Generation of Function Substitution Attacks Against Control-Flow Integrity",
-    "url": "https://github.com/PSU-Security-Universe/sack",
+    "title": "On the Security Risks of Memory Adaptation and Augmentation in Data-plane DoS Mitigation",
+    "url": "https://github.com/NetSP-KAIST/shield",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 1,
+    "description": "This is Github repository for \"Shield\" published in NDSS'26",
+    "language": "Python",
+    "name": "NetSP-KAIST/shield",
+    "pushed_at": "2025-12-07T07:29:44Z"
+  },
+  {
+    "title": "vSim: Semantics-Aware Value Extraction for Efficient Binary Code Similarity Analysis",
+    "url": "https://github.com/OSUSecLab/vSim",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 16,
+    "forks": 0,
+    "description": "The artifact of \"vSim: Semantics-Aware Value Extraction for Efficient Binary Code Similarity Analysis,\" NDSS 2026. You m",
+    "language": "Python",
+    "name": "OSUSecLab/vSim",
+    "pushed_at": "2025-12-29T14:57:04Z"
+  },
+  {
+    "title": "In-Context Probing for Membership Inference in Fine-Tuned Language Models",
+    "url": "https://github.com/RPI-DSPlab/ICP-MIA",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 12,
+    "forks": 2,
+    "description": "The repository for the paper \"In-Context Probing for Membership Inference in Fine-Tuned Language Models\", accepted by ND",
+    "language": "Python",
+    "name": "RPI-DSPlab/ICP-MIA",
+    "pushed_at": "2025-12-30T23:54:26Z"
+  },
+  {
+    "title": "CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning",
+    "url": "https://github.com/Saisai-Xia/CryptPEFT",
     "conference": "NDSS",
     "year": 2026,
     "area": "security",
     "stars": 5,
-    "forks": 0,
-    "description": "A pipeline for constructing end-to-end SUB attacks under precise CFI protection",
-    "language": "HTML",
-    "name": "PSU-Security-Universe/sack",
-    "pushed_at": "2025-12-19T19:14:07Z"
+    "forks": 2,
+    "description": "The official implementation of \"CRYPTPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-T",
+    "language": "Python",
+    "name": "Saisai-Xia/CryptPEFT",
+    "pushed_at": "2025-09-02T13:01:32Z"
   },
   {
     "title": "Achieving Interpretable DL-based Web Attack Detection through Malicious Payload Localization",
@@ -7537,6 +7607,32 @@
     "language": "Python",
     "name": "Sec-AI-research/WebSpotter",
     "pushed_at": "2025-08-28T07:22:55Z"
+  },
+  {
+    "title": "Faster Than Ever: A New Lightweight Private Set Intersection and Its Variants",
+    "url": "https://github.com/ShallMate/OurPSI",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "C++",
+    "name": "ShallMate/OurPSI",
+    "pushed_at": "2026-03-15T18:19:11Z"
+  },
+  {
+    "title": "Unshaken by Weak Embedding: Robust Probabilistic Watermarking for Dataset Copyright Protection",
+    "url": "https://github.com/SixLab6/DIP",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "SixLab6/DIP",
+    "pushed_at": "2025-12-10T00:34:46Z"
   },
   {
     "title": "Consensus in the Known Participation Model with Byzantine Failures and Sleepy Replicas",
@@ -7578,17 +7674,30 @@
     "pushed_at": "2025-12-14T15:16:07Z"
   },
   {
-    "title": "Loki: Proactively discovering online scams by mining toxic search queries",
-    "url": "https://github.com/codepujan/ndss-loki-artifact",
+    "title": "CatBack: Universal Backdoor Attacks on Tabular Data via Categorical Encoding",
+    "url": "https://github.com/catback-tabular/catback",
     "conference": "NDSS",
     "year": 2026,
     "area": "security",
     "stars": 0,
     "forks": 0,
-    "description": "Companion repository for our NDSS'26 Loki paper ",
+    "description": "",
     "language": "Python",
-    "name": "codepujan/ndss-loki-artifact",
-    "pushed_at": "2025-09-01T19:33:32Z"
+    "name": "catback-tabular/catback",
+    "pushed_at": "2026-03-20T13:40:57Z"
+  },
+  {
+    "title": "Characterizing the Implementation of Censorship Policies in Chinese LLM Services",
+    "url": "https://github.com/censoredplanet/chinese-llm-blocking",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 2,
+    "description": "",
+    "language": "Python",
+    "name": "censoredplanet/chinese-llm-blocking",
+    "pushed_at": "2025-07-16T14:21:32Z"
   },
   {
     "title": "TranSPArent: Taint-style Vulnerability Detection of Generic Single-Page Applications through Automated Framework Abstraction",
@@ -7604,6 +7713,19 @@
     "pushed_at": "2026-02-24T21:58:52Z"
   },
   {
+    "title": "BKPIR: Keyword PIR for Private Boolean Retrieval",
+    "url": "https://github.com/gimmehug/bkpir",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "BKPIR: Keyword PIR for Private Boolean Retrieval",
+    "language": "C++",
+    "name": "gimmehug/bkpir",
+    "pushed_at": "2025-08-28T08:34:41Z"
+  },
+  {
     "title": "FARFETCH'D: Side-Channel Analysis for Privacy Applications on Confidential VMs",
     "url": "https://github.com/google-parfait/cvm-side-channel-analysis",
     "conference": "NDSS",
@@ -7617,6 +7739,19 @@
     "pushed_at": "2025-08-12T10:20:44Z"
   },
   {
+    "title": "Cirrus: Performant and Accountable Distributed SNARK",
+    "url": "https://github.com/hackingdecentralized/cirrus",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "",
+    "language": "Rust",
+    "name": "hackingdecentralized/cirrus",
+    "pushed_at": "2026-01-30T04:41:57Z"
+  },
+  {
     "title": "FlippyR.AM: A Large-Scale Study of Rowhammer Prevalence",
     "url": "https://github.com/iisys-sns/FlippyRAM",
     "conference": "NDSS",
@@ -7627,7 +7762,25 @@
     "description": "FlippyRAM is an automated framework for testing and analyzing Rowhammer vulnerabilities in DRAM. It combines rowhammer t",
     "language": "C++",
     "name": "iisys-sns/FlippyRAM",
-    "pushed_at": "2025-10-30T07:55:24Z"
+    "pushed_at": "2025-10-30T07:55:24Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ]
+  },
+  {
+    "title": "Reviving and Advancing Page Cache Attacks",
+    "url": "https://github.com/isec-tugraz/eviction-notice",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 4,
+    "forks": 0,
+    "description": "",
+    "language": "C",
+    "name": "isec-tugraz/Eviction-Notice",
+    "pushed_at": "2026-01-15T21:01:40Z"
   },
   {
     "title": "CTng: Secure Certificate and Revocation Transparency",
@@ -7643,17 +7796,30 @@
     "pushed_at": "2025-10-31T16:54:54Z"
   },
   {
-    "title": "Huma: Censorship Circumvention via Web Protocol Tunneling with Deferred Traffic Replacement",
-    "url": "https://github.com/kamali-sina/huma",
+    "title": "Identifying Logical Vulnerabilities in QUIC Implementations",
+    "url": "https://github.com/k4ra5u/MerCuriuzz",
     "conference": "NDSS",
     "year": 2026,
     "area": "security",
-    "stars": 4,
+    "stars": 10,
     "forks": 0,
-    "description": "Repository for the Huma paper accepted in NDSS '26",
+    "description": "",
+    "language": "Rust",
+    "name": "k4ra5u/MerCuriuzz",
+    "pushed_at": "2026-05-27T09:43:02Z"
+  },
+  {
+    "title": "Beyond Raw Bytes: Towards Large Malware Language Models",
+    "url": "https://github.com/lkurlandski/RawByteClf",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "Classifying malware from raw bytes with Transformers.",
     "language": "Jupyter Notebook",
-    "name": "thesinakamali/huma",
-    "pushed_at": "2025-12-16T01:40:55Z"
+    "name": "lkurlandski/RawByteClf",
+    "pushed_at": "2026-03-17T13:06:07Z"
   },
   {
     "title": "Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE",
@@ -7682,17 +7848,43 @@
     "pushed_at": "2025-12-04T09:19:57Z"
   },
   {
-    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
-    "url": "https://github.com/rvassantlal/MVPORAM",
+    "title": "Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents",
+    "url": "https://github.com/river-li/Chord",
     "conference": "NDSS",
     "year": 2026,
     "area": "security",
-    "stars": 2,
-    "forks": 1,
+    "stars": 14,
+    "forks": 3,
     "description": "",
+    "language": "Python",
+    "name": "systemsecurity-uiuc/Chord",
+    "pushed_at": "2025-12-18T02:22:03Z"
+  },
+  {
+    "title": "CellShift: RTT-Aware Trace Transduction for Real-World Website Fingerprinting",
+    "url": "https://github.com/robgjansen/cellshift",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 5,
+    "forks": 2,
+    "description": "A utility to transduce Tor exit cell traces into entry cell traces.",
+    "language": "Rust",
+    "name": "robgjansen/cellshift",
+    "pushed_at": "2025-08-26T14:25:56Z"
+  },
+  {
+    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+    "url": "https://github.com/rvassantlal/MVP-ORAM-Artifact",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "MVP-ORAM software artifact.",
     "language": "Java",
-    "name": "rvassantlal/MVPORAM",
-    "pushed_at": "2025-12-18T11:37:46Z"
+    "name": "rvassantlal/MVP-ORAM-Artifact",
+    "pushed_at": "2025-12-18T11:38:06Z"
   },
   {
     "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
@@ -7721,6 +7913,19 @@
     "pushed_at": "2025-12-14T08:48:03Z"
   },
   {
+    "title": "SECV: Securing Connected Vehicles with Hardware Trust Anchors",
+    "url": "https://github.com/secv-ndss2026/secv",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 1,
+    "description": "This is the open-source for the SECV: Securing Connected Vehicles with Hardware Trust Anchors, NDSS 2026 Fall paper.",
+    "language": "Shell",
+    "name": "secv-ndss2026/secv",
+    "pushed_at": "2025-12-02T08:26:33Z"
+  },
+  {
     "title": "Are your Sites Truly Isolated? Automatically Detecting Logic Bugs in Site Isolation Implementations",
     "url": "https://github.com/si-bypass-fuzzing/fuzzer",
     "conference": "NDSS",
@@ -7732,6 +7937,32 @@
     "language": "HTML",
     "name": "si-bypass-fuzzing/fuzzer",
     "pushed_at": "2025-11-28T12:58:22Z"
+  },
+  {
+    "title": "BunnyFinder: Finding Incentive Flaws for Ethereum Consensus",
+    "url": "https://github.com/tsinghua-cel/bf_workspace",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Go",
+    "name": "tsinghua-cel/bf_workspace",
+    "pushed_at": "2025-09-03T02:17:40Z"
+  },
+  {
+    "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+    "url": "https://github.com/wu-lichao/NeuroStrike-Neuron-Level-Attacks-on-Aligned-LLMs",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 17,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "wu-lichao/NeuroStrike-Neuron-Level-Attacks-on-Aligned-LLMs",
+    "pushed_at": "2026-01-09T10:15:43Z"
   },
   {
     "title": "Accurate Identification of the Vulnerability-introducing Commit based on Differential Analysis of Patching Patterns",
@@ -7747,19 +7978,6 @@
     "pushed_at": "2025-09-05T17:08:45Z"
   },
   {
-    "title": "Understanding the Stealthy BGP Hijacking Risk in the ROV Era",
-    "url": "https://github.com/yhchen-tsinghua/stealthy-bgp-hijacking",
-    "conference": "NDSS",
-    "year": 2026,
-    "area": "security",
-    "stars": 3,
-    "forks": 0,
-    "description": "Artefact for NDSS26 Summer Paper: Understanding the Stealthy BGP Hijacking Risk in the ROV Era",
-    "language": "Python",
-    "name": "FIND-Lab/stealthy-bgp-hijacking",
-    "pushed_at": "2025-09-13T09:48:11Z"
-  },
-  {
     "title": "Action Required: A Mixed-Methods Study of Security Practices in GitHub Actions",
     "url": "https://github.com/yksec14/gha_security_research",
     "conference": "NDSS",
@@ -7771,6 +7989,32 @@
     "language": "Python",
     "name": "yksec14/gha_security_research",
     "pushed_at": "2026-01-06T09:12:51Z"
+  },
+  {
+    "title": "The Dark Side of Flexibility : Detecting Exploitable Over-Permissions in Serverless Applications",
+    "url": "https://github.com/younaman/Serverless-tools",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "younaman/Serverless-tools",
+    "pushed_at": "2025-08-27T03:40:28Z"
+  },
+  {
+    "title": "Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing",
+    "url": "https://github.com/yuzhengcuhk/caribou-public",
+    "conference": "NDSS",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 1,
+    "description": "[NDSS‘26] Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing",
+    "language": "Jupyter Notebook",
+    "name": "yuzhengcuhk/caribou-public",
+    "pushed_at": "2026-05-16T00:31:22Z"
   },
   {
     "title": "Cobra: Making Transactional Key-Value Stores Verifiably Serializable",
@@ -9627,6 +9871,19 @@
     "language": "Rust",
     "name": "anvil-verifier/anvil",
     "pushed_at": "2026-06-30T20:51:52Z"
+  },
+  {
+    "title": "𝜇Slope: High Compression and Fast Search on Semi-Structured Logs",
+    "url": "https://github.com/y-scope/clp",
+    "conference": "OSDI",
+    "year": 2024,
+    "area": "systems",
+    "stars": 1070,
+    "forks": 91,
+    "description": "Compressed Log Processor (CLP) is a free log management tool capable of compressing logs and searching the compressed lo",
+    "language": "C++",
+    "name": "y-scope/clp",
+    "pushed_at": "2026-07-07T20:32:21Z"
   },
   {
     "title": "IntOS: Persistent Embedded Operating System and Language Support for Multi-threaded Intermittent Computing",
@@ -12918,19 +13175,6 @@
     "pushed_at": "2025-03-01T01:33:41Z"
   },
   {
-    "title": "Path to Encrypted DNS with DDR: Adoption, Configuration Patterns, and Privacy Implications",
-    "url": "https://github.com/steffsas/doe-hunter",
-    "conference": "PETS",
-    "year": 2025,
-    "area": "security",
-    "stars": 0,
-    "forks": 1,
-    "description": "Provides tools to discover and query DoE endpoints from DNS resolvers using DDR.",
-    "language": "Go",
-    "name": "steffsas/doe-hunter",
-    "pushed_at": "2026-05-22T05:33:49Z"
-  },
-  {
     "title": "PrivDiffuser: Privacy-Guided Diffusion Model for Data Obfuscation in Sensor Networks",
     "url": "https://github.com/sustainable-computing/PrivDiffuser/tree/26b17a921274b0224e8985d6be10945aedeb360f",
     "conference": "PETS",
@@ -13413,19 +13657,6 @@
     "language": "Jupyter Notebook",
     "name": "csienslab/bot-among-us",
     "pushed_at": "2025-09-21T08:14:31Z"
-  },
-  {
-    "title": "Gaze3P: Gaze-Based Prediction of Perceived Privacy",
-    "url": "https://github.com/davidrpugh/machine-learning-for-tabular-data",
-    "conference": "PETS",
-    "year": 2026,
-    "area": "security",
-    "stars": 51,
-    "forks": 15,
-    "description": "Repository of course materials for a multi-day course on machine learning for tabular data using Scikit-Learn and XGBoos",
-    "language": "Jupyter Notebook",
-    "name": "davidrpugh/machine-learning-for-tabular-data",
-    "pushed_at": "2026-04-13T14:31:58Z"
   },
   {
     "title": "PriVA-C: Defending Voice Assistants from Fingerprinting Attacks",
@@ -15733,20 +15964,56 @@
     "pushed_at": "2025-10-15T16:59:20Z"
   },
   {
-    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
-    "url": "https://github.com/0nutation/SpeechGPT",
+    "title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+    "url": "https://github.com/Jumpst3r/AEX-NStep",
     "conference": "SP",
     "year": 2026,
     "area": "security",
-    "stars": 1404,
-    "forks": 96,
-    "description": "SpeechGPT Series: Speech Large Language Models",
-    "language": "Python",
-    "name": "0nutation/SpeechGPT",
-    "pushed_at": "2024-07-22T10:08:09Z",
-    "badges": [
-      "available"
-    ]
+    "stars": 4,
+    "forks": 0,
+    "description": "Artifact Repo for our paper \"AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX\" (to appear, 2026 IEEE Sym",
+    "language": "",
+    "name": "Jumpst3r/AEX-NStep",
+    "pushed_at": "2025-10-16T10:53:07Z"
+  },
+  {
+    "title": "The Interplay of Effective Model Checking and Secure Processor Design: From Insights to Practice",
+    "url": "https://github.com/MATCHA-MIT/shuffle",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "SystemVerilog",
+    "name": "MATCHA-MIT/shuffle",
+    "pushed_at": "2026-04-13T18:06:57Z"
+  },
+  {
+    "title": "It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications",
+    "url": "https://github.com/MadSP-McDaniel/rebound",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "This repo contains the source code for our paper \"It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Con",
+    "language": "Go",
+    "name": "MadSP-McDaniel/rebound",
+    "pushed_at": "2026-04-11T05:07:36Z"
+  },
+  {
+    "title": "Towards Practical Zero-Knowledge Proof for PSPACE",
+    "url": "https://github.com/PP-FM/zkqbf-suite",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 1,
+    "description": "",
+    "language": "C++",
+    "name": "PP-FM/zkqbf-suite",
+    "pushed_at": "2025-11-29T00:06:01Z"
   },
   {
     "title": "Acoustic Hijacking Attacks on Gimbal-Stabilized Visual Tracking Systems",
@@ -15762,6 +16029,32 @@
     "pushed_at": "2026-04-27T19:27:08Z"
   },
   {
+    "title": "KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction",
+    "url": "https://github.com/UNITES-Lab/keylogging",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "JavaScript",
+    "name": "UNITES-Lab/keylogging",
+    "pushed_at": "2025-09-14T20:22:47Z"
+  },
+  {
+    "title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+    "url": "https://github.com/XOTaichi/Security-Cube-Artifact",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 7,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "XOTaichi/Security-Cube-Artifact",
+    "pushed_at": "2025-10-07T14:16:23Z"
+  },
+  {
     "title": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection",
     "url": "https://github.com/Yuuoniy/SpecAuditor",
     "conference": "SP",
@@ -15772,12 +16065,33 @@
     "description": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection (S&P 2026)",
     "language": "HTML",
     "name": "Yuuoniy/SpecAuditor",
-    "pushed_at": "2026-06-08T13:31:25Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ]
+    "pushed_at": "2026-06-08T13:31:25Z"
+  },
+  {
+    "title": "RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence",
+    "url": "https://github.com/cispa/RISCy-cache-coherence",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 7,
+    "forks": 1,
+    "description": "Artifact for the paper \"RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoher",
+    "language": "C",
+    "name": "cispa/RISCy-cache-coherence",
+    "pushed_at": "2026-04-13T12:20:26Z"
+  },
+  {
+    "title": "SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead",
+    "url": "https://github.com/comparch-security/sp2026-seqass",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "",
+    "language": "C++",
+    "name": "comparch-security/sp2026-seqass",
+    "pushed_at": "2025-10-16T02:29:32Z"
   },
   {
     "title": "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization",
@@ -15798,6 +16112,24 @@
     ]
   },
   {
+    "title": "VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",
+    "url": "https://github.com/comsec-group/vmscape",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 42,
+    "forks": 2,
+    "description": "Artefacts for: \"VMScape: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments\"",
+    "language": "C",
+    "name": "comsec-group/vmscape",
+    "pushed_at": "2026-05-05T13:39:27Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ]
+  },
+  {
     "title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
     "url": "https://github.com/cvluca/APEX",
     "conference": "SP",
@@ -15809,6 +16141,19 @@
     "language": "C++",
     "name": "cvluca/APEX",
     "pushed_at": "2026-04-10T07:37:17Z"
+  },
+  {
+    "title": "Chorus: Secret Recovery with Ephemeral Client Committees",
+    "url": "https://github.com/deevashwer/chorus",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Rust",
+    "name": "deevashwer/chorus",
+    "pushed_at": "2026-04-09T08:32:05Z"
   },
   {
     "title": "Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries",
@@ -15824,33 +16169,20 @@
     "pushed_at": "2026-04-14T09:07:05Z"
   },
   {
-    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
-    "url": "https://github.com/facebookresearch/fairseq",
+    "title": "InsPIRe: Communication-Efficient PIR with Server-side Preprocessing",
+    "url": "https://github.com/google/private-membership",
     "conference": "SP",
     "year": 2026,
     "area": "security",
-    "stars": 32231,
-    "forks": 6680,
-    "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
-    "language": "Python",
-    "name": "facebookresearch/fairseq",
-    "pushed_at": "2025-09-30T11:16:06Z",
+    "stars": 67,
+    "forks": 15,
+    "description": "",
+    "language": "C++",
+    "name": "google/private-membership",
+    "pushed_at": "2026-06-30T15:22:39Z",
     "badges": [
       "available"
     ]
-  },
-  {
-    "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
-    "url": "https://github.com/ice-rlab/NanoTag",
-    "conference": "SP",
-    "year": 2026,
-    "area": "security",
-    "stars": 6,
-    "forks": 0,
-    "description": "[Oakland '26] NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE.",
-    "language": "C++",
-    "name": "ice-rlab/NanoTag",
-    "pushed_at": "2026-04-20T16:18:01Z"
   },
   {
     "title": "Scalable Registration-Based Encryption from Lattices",
@@ -15879,24 +16211,6 @@
     "pushed_at": "2026-03-24T22:29:48Z"
   },
   {
-    "title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
-    "url": "https://github.com/purseclab/deepSURF",
-    "conference": "SP",
-    "year": 2026,
-    "area": "security",
-    "stars": 31,
-    "forks": 2,
-    "description": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
-    "language": "LLVM",
-    "name": "purseclab/deepSURF",
-    "pushed_at": "2025-11-28T22:32:00Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ]
-  },
-  {
     "title": "CenRL: A Framework for Performing Intelligent Censorship Measurements",
     "url": "https://github.com/r-andlab/cenrl",
     "conference": "SP",
@@ -15908,6 +16222,19 @@
     "language": "Python",
     "name": "r-andlab/cenrl",
     "pushed_at": "2026-02-18T01:54:33Z"
+  },
+  {
+    "title": "Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+    "url": "https://github.com/s3c2/cosseter",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "Final evaluated artifact for our paper accepted to Security and Privacy 2026",
+    "language": "Python",
+    "name": "s3c2/cosseter",
+    "pushed_at": "2026-05-29T13:09:13Z"
   },
   {
     "title": "Papers, Please: A First Look at Age Verification on the Web",
@@ -15934,6 +16261,40 @@
     "language": "Go",
     "name": "viperproject/diodon-artifact",
     "pushed_at": "2026-01-01T09:04:11Z"
+  },
+  {
+    "title": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+    "url": "https://github.com/vusec/rain",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 20,
+    "forks": 1,
+    "description": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+    "language": "C",
+    "name": "vusec/rain",
+    "pushed_at": "2025-10-16T08:45:08Z",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ]
+  },
+  {
+    "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+    "url": "https://github.com/zju-muslab/AudioHijack",
+    "conference": "SP",
+    "year": 2026,
+    "area": "security",
+    "stars": 18,
+    "forks": 2,
+    "description": "This is the artifact of the IEEE S&P 2026 paper \"Hijacking Large Audio-Language Models via Context-agnostic Auditory Pro",
+    "language": "Python",
+    "name": "zju-muslab/AudioHijack",
+    "pushed_at": "2026-03-29T10:57:38Z",
+    "badges": [
+      "available"
+    ]
   },
   {
     "title": "PraaS: Verifiable Proofs of Property as-a-Service with Intel SGX",
@@ -16325,7 +16686,19 @@
     "description": "A high-performance tool for blockchain science and exploration",
     "language": "C++",
     "name": "citp/BlockSci",
-    "pushed_at": "2021-12-13T09:59:46Z"
+    "pushed_at": "2021-12-13T09:59:46Z",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "authors": [
+      "Harry A. Kalodner",
+      "Malte Möser",
+      "Kevin Lee",
+      "Steven Goldfeder",
+      "Martin Plattner",
+      "Alishah Chator",
+      "Arvind Narayanan"
+    ]
   },
   {
     "title": "Chaperone: Real-time Locking and Loss Prevention for Smartphones",
@@ -16978,19 +17351,6 @@
     "pushed_at": "2022-04-11T10:10:31Z"
   },
   {
-    "title": "GET /out: Automated Discovery of Application-Layer Censorship Evasion Strategies",
-    "url": "https://github.com/Kkevsterrr/geneva",
-    "conference": "USENIXSEC",
-    "year": 2022,
-    "area": "security",
-    "stars": 2136,
-    "forks": 205,
-    "description": "automated censorship evasion for the client-side and server-side ",
-    "language": "Python",
-    "name": "Kkevsterrr/geneva",
-    "pushed_at": "2023-11-16T08:35:05Z"
-  },
-  {
     "title": "Membership Inference Attacks and Defenses in Neural Network Pruning",
     "url": "https://github.com/Machine-Learning-Security-Lab/mia_prune/tree/v1.0.0",
     "conference": "USENIXSEC",
@@ -17339,7 +17699,20 @@
     "description": "A generator of weird files (binary polyglots, near polyglots, polymocks...)",
     "language": "Python",
     "name": "corkami/mitra",
-    "pushed_at": "2024-12-22T20:29:32Z"
+    "pushed_at": "2024-12-22T20:29:32Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Ange Albertini",
+      "Thai Duong",
+      "Shay Gueron",
+      "Stefan Kölbl",
+      "Atul Luykx",
+      "Sophie Schmieg"
+    ]
   },
   {
     "title": "Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies",
@@ -17600,19 +17973,6 @@
     "language": "Jupyter Notebook",
     "name": "leakuidatorplusteam/artifacts",
     "pushed_at": "2022-08-26T19:30:10Z"
-  },
-  {
-    "title": "HyperDegrade: From GHz to MHz Effective CPU Frequencies",
-    "url": "https://github.com/mageec/beebs",
-    "conference": "USENIXSEC",
-    "year": 2022,
-    "area": "security",
-    "stars": 72,
-    "forks": 45,
-    "description": "A set of benchmarks chosen to show the energy consumption of embedded devices under different conditions",
-    "language": "Makefile",
-    "name": "mageec/beebs",
-    "pushed_at": "2023-03-30T01:57:05Z"
   },
   {
     "title": "How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes",
@@ -18642,32 +19002,6 @@
     "pushed_at": "2023-08-18T06:10:06Z"
   },
   {
-    "title": "CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software",
-    "url": "https://github.com/Yuanyuan-Yuan/CacheQL",
-    "conference": "USENIXSEC",
-    "year": 2023,
-    "area": "security",
-    "stars": 173,
-    "forks": 9,
-    "description": "Research Artifact of USENIX Security 2023 paper: CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities ",
-    "language": "Python",
-    "name": "Yuanyuan-Yuan/CacheQL",
-    "pushed_at": "2023-06-29T20:14:38Z"
-  },
-  {
-    "title": "Precise and Generalized Robustness Certification for Neural Networks",
-    "url": "https://github.com/Yuanyuan-Yuan/GCert",
-    "conference": "USENIXSEC",
-    "year": 2023,
-    "area": "security",
-    "stars": 13,
-    "forks": 0,
-    "description": "Research Artifact of USENIX Security 2023 Paper: Precise and Generalized Robustness Certification for Neural Networks",
-    "language": "Python",
-    "name": "Yuanyuan-Yuan/GCert",
-    "pushed_at": "2023-06-20T23:15:00Z"
-  },
-  {
     "title": "One Server for the Price of Two: Simple and Fast Single-Server Private Information Retrieval",
     "url": "https://github.com/ahenzinger/simplepir/tree/438b4590aceedf76c7588b03125dfc0db39e361f",
     "conference": "USENIXSEC",
@@ -19019,19 +19353,6 @@
     "pushed_at": "2024-04-04T21:04:35Z"
   },
   {
-    "title": "Unique Identification of 50,000+ Virtual Reality Users from Head & Hand Motion Data",
-    "url": "https://github.com/metaguard/identification",
-    "conference": "USENIXSEC",
-    "year": 2023,
-    "area": "security",
-    "stars": 14,
-    "forks": 10,
-    "description": "Unique identification of 50,000+ virtual reality users from their head and hand motion data",
-    "language": "Python",
-    "name": "MetaGuard/Identification",
-    "pushed_at": "2023-05-14T21:17:18Z"
-  },
-  {
     "title": "ICSPatch: Automated Vulnerability Localization and Non-Intrusive Hotpatching in Industrial Control Systems using Data Dependence Graphs",
     "url": "https://github.com/momalab/ICSPatch/tree/v1.0",
     "conference": "USENIXSEC",
@@ -19094,7 +19415,16 @@
     "description": "Trojan Source: Invisible Vulnerabilities",
     "language": "SCSS",
     "name": "nickboucher/trojan-source",
-    "pushed_at": "2023-04-26T08:22:53Z"
+    "pushed_at": "2023-04-26T08:22:53Z",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "authors": [
+      "Nicholas Boucher",
+      "Ross Anderson 0001"
+    ]
   },
   {
     "title": "EnigMap: External-Memory Oblivious Map for Secure Enclaves",
@@ -19251,19 +19581,6 @@
     "language": "C",
     "name": "seclab-yonsei/BoKASAN",
     "pushed_at": "2023-06-26T17:40:42Z"
-  },
-  {
-    "title": "Greenhouse: Single-Service Rehosting of Linux-Based Firmware Binaries in User-Space Emulation",
-    "url": "https://github.com/sefcom/greenhouse",
-    "conference": "USENIXSEC",
-    "year": 2023,
-    "area": "security",
-    "stars": 77,
-    "forks": 13,
-    "description": "",
-    "language": "Python",
-    "name": "sefcom/greenhouse",
-    "pushed_at": "2023-11-01T21:58:26Z"
   },
   {
     "title": "Formal Analysis of Session-Handling in Secure Messaging: Lifting Security from Sessions to Conversations",
@@ -19641,19 +19958,6 @@
     "language": "Python",
     "name": "BUseclab/Pandawan",
     "pushed_at": "2024-09-10T22:18:18Z"
-  },
-  {
-    "title": "Argus: All your (PHP) Injection-sinks are belong to us.",
-    "url": "https://github.com/BUseclab/argus",
-    "conference": "USENIXSEC",
-    "year": 2024,
-    "area": "security",
-    "stars": 8,
-    "forks": 0,
-    "description": "",
-    "language": "Shell",
-    "name": "BUseclab/argus",
-    "pushed_at": "2024-07-24T03:08:01Z"
   },
   {
     "title": "The Imitation Game: Exploring Brand Impersonation Attacks on Social Media Platforms",
@@ -20622,19 +20926,6 @@
     "pushed_at": "2025-10-03T16:44:09Z"
   },
   {
-    "title": "PIXELMOD: Improving Soft Moderation of Visual Misleading Information on Twitter",
-    "url": "https://github.com/idramalab/pixelmod",
-    "conference": "USENIXSEC",
-    "year": 2024,
-    "area": "security",
-    "stars": 0,
-    "forks": 0,
-    "description": "",
-    "language": "Python",
-    "name": "idramalab/pixelmod",
-    "pushed_at": "2024-07-21T19:43:45Z"
-  },
-  {
     "title": "PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses",
     "url": "https://github.com/inspire-group/PatchCURE/tree/40695a870e018b76cf5ec105ab36346c780e756d",
     "conference": "USENIXSEC",
@@ -20776,6 +21067,19 @@
     "language": "Batchfile",
     "name": "martonbognar/ipe-exposure",
     "pushed_at": "2025-11-27T22:41:07Z"
+  },
+  {
+    "title": "YPIR: High-Throughput Single-Server PIR with Silent Preprocessing",
+    "url": "https://github.com/menonsamir/ypir",
+    "conference": "USENIXSEC",
+    "year": 2024,
+    "area": "security",
+    "stars": 25,
+    "forks": 12,
+    "description": "",
+    "language": "Rust",
+    "name": "menonsamir/ypir",
+    "pushed_at": "2025-04-01T21:18:20Z"
   },
   {
     "title": "Closed-Form Bounds for DP-SGD against Record-level Inference",
@@ -21181,6 +21485,19 @@
     "pushed_at": "2025-04-14T15:23:03Z"
   },
   {
+    "title": "ChainReactor: Automated Privilege Escalation Chain Discovery via AI Planning",
+    "url": "https://github.com/ucsb-seclab/chainreactor",
+    "conference": "USENIXSEC",
+    "year": 2024,
+    "area": "security",
+    "stars": 61,
+    "forks": 1,
+    "description": "ChainReactor is a research project that leverages AI planning to discover exploitation chains for privilege escalation o",
+    "language": "PDDL",
+    "name": "ucsb-seclab/chainreactor",
+    "pushed_at": "2024-11-03T23:31:08Z"
+  },
+  {
     "title": "\"I chose to fight, be brave, and to deal with it\": Threat Experiences and Security Practices of Pakistani Content Creators",
     "url": "https://github.com/usrgroup/USENIX24-pakistancreators/tree/d2a29e7e506824b4cc23e7cf1fb5ee2c7958164c",
     "conference": "USENIXSEC",
@@ -21311,6 +21628,58 @@
     "pushed_at": "2025-01-14T09:41:24Z"
   },
   {
+    "title": "Shechi: A Secure Distributed Computation Compiler Based on Multiparty Homomorphic Encryption",
+    "url": "https://github.com/0xTCG/sequre",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 27,
+    "forks": 4,
+    "description": "A high-performance, Pythonic framework for secure computing",
+    "language": "Jupyter Notebook",
+    "name": "0xTCG/sequre",
+    "pushed_at": "2026-07-04T22:36:56Z"
+  },
+  {
+    "title": "H2O2RAM: A High-Performance Hierarchical Doubly Oblivious RAM",
+    "url": "https://github.com/55199789/H2O2RAM",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 8,
+    "forks": 1,
+    "description": "A High-performance Hierarchical Doubly Oblivious RAM",
+    "language": "C++",
+    "name": "55199789/H2O2RAM",
+    "pushed_at": "2025-03-14T16:15:43Z"
+  },
+  {
+    "title": "Tady: A Neural Disassembler without Structural Constraint Violations",
+    "url": "https://github.com/5c4lar/tady",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 14,
+    "forks": 1,
+    "description": "[Usenix Sec'25] Tady: A Neural Disassembler without Structural Constraint Violations",
+    "language": "C++",
+    "name": "5c4lar/tady",
+    "pushed_at": "2025-12-23T01:27:13Z"
+  },
+  {
+    "title": "Enhanced Label-Only Membership Inference Attacks with Fewer Queries",
+    "url": "https://github.com/AIPAG/DHAttack",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 8,
+    "forks": 0,
+    "description": "This is the repository for the USENIX Security'25 paper \"Enhanced Label-Only Membership Inference Attacks with Fewer Que",
+    "language": "Python",
+    "name": "AIPAG/DHAttack",
+    "pushed_at": "2025-03-29T09:43:13Z"
+  },
+  {
     "title": "Generated Data with Fake Privacy: Hidden Dangers of Fine-tuning Large Language Models on Generated Data",
     "url": "https://github.com/ASAP-Bilkent/fake-privacy-finetuning-llms",
     "conference": "USENIXSEC",
@@ -21337,17 +21706,43 @@
     "pushed_at": "2025-01-16T14:36:52Z"
   },
   {
-    "title": "HyTrack: Resurrectable and Persistent Tracking Across Android Apps and the Web",
-    "url": "https://github.com/App-Analysis/scala-appanalyzer",
+    "title": "Stack Overflow Meets Replication: Security Research Amid Evolving Code Snippets",
+    "url": "https://github.com/Alfusainey/stackoverflow-meets-replication",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 8,
-    "forks": 5,
-    "description": "A tool to run, interact with, and collect transmitted traffic of iOS and Android apps",
-    "language": "Scala",
-    "name": "App-Analysis/scala-appanalyzer",
-    "pushed_at": "2025-08-06T19:20:08Z"
+    "stars": 0,
+    "forks": 0,
+    "description": "USENIX 2025 paper artifacts",
+    "language": "TeX",
+    "name": "Alfusainey/stackoverflow-meets-replication",
+    "pushed_at": "2025-01-24T11:03:44Z"
+  },
+  {
+    "title": "Oblivious Digital Tokens",
+    "url": "https://github.com/Anonymous-Usenix-25/Oblivious-Digital-Tokens",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "C++",
+    "name": "Anonymous-Usenix-25/Oblivious-Digital-Tokens",
+    "pushed_at": "2025-04-02T07:11:23Z"
+  },
+  {
+    "title": "SoK: So, You Think You Know All About Secure Randomized Caches?",
+    "url": "https://github.com/AnubhavBhatla/systematization-of-secure-randomized-caches",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 1,
+    "description": "",
+    "language": "C++",
+    "name": "AnubhavBhatla/systematization-of-secure-randomized-caches",
+    "pushed_at": "2025-08-05T17:35:29Z"
   },
   {
     "title": "V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads",
@@ -21363,19 +21758,6 @@
     "pushed_at": "2025-04-29T04:44:43Z"
   },
   {
-    "title": "Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges",
-    "url": "https://github.com/Chapoly1305/nroottag",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 65,
-    "forks": 15,
-    "description": "Framework for abuse Apple Find My Network to perform unprivileged device tracking. USENIX Security '25 and DEFCON Demo L",
-    "language": "C++",
-    "name": "Chapoly1305/nroottag",
-    "pushed_at": "2026-06-12T21:41:26Z"
-  },
-  {
     "title": "FastLloyd: Federated, Accurate, Secure, and Tunable kk-Means Clustering with Differential Privacy",
     "url": "https://github.com/D-Diaa/FastLloyd",
     "conference": "USENIXSEC",
@@ -21387,6 +21769,19 @@
     "language": "Python",
     "name": "D-Diaa/FastLloyd",
     "pushed_at": "2026-05-12T13:30:19Z"
+  },
+  {
+    "title": "Voting-Bloc Entropy: A New Metric for DAO Decentralization",
+    "url": "https://github.com/DAO-Decentralization/VBE",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "DAO-Decentralization/VBE",
+    "pushed_at": "2025-03-20T03:57:39Z"
   },
   {
     "title": "Cloak, Honey, Trap: Proactive Defenses Against LLM Agents",
@@ -21402,19 +21797,6 @@
     "pushed_at": "2025-07-09T12:37:56Z"
   },
   {
-    "title": "From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception",
-    "url": "https://github.com/DerrickXuNu/OpenCOOD",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 818,
-    "forks": 129,
-    "description": "[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V.",
-    "language": "Python",
-    "name": "DerrickXuNu/OpenCOOD",
-    "pushed_at": "2024-08-17T05:45:28Z"
-  },
-  {
     "title": "GlitchFHE: Attacking Fully Homomorphic Encryption Using Fault Injection",
     "url": "https://github.com/DfX-NYUAD/GlitchFHE",
     "conference": "USENIXSEC",
@@ -21426,19 +21808,6 @@
     "language": "C++",
     "name": "DfX-NYUAD/GlitchFHE",
     "pushed_at": "2025-06-11T09:59:00Z"
-  },
-  {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/Dovermore/randomized-deletion",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 3,
-    "forks": 0,
-    "description": "",
-    "language": "Python",
-    "name": "Dovermore/randomized-deletion",
-    "pushed_at": "2023-11-02T12:31:57Z"
   },
   {
     "title": "Easy As Child’s Play: An Empirical Study on Age Verification of Adult-Oriented Android Apps",
@@ -21454,6 +21823,19 @@
     "pushed_at": "2025-03-19T22:53:08Z"
   },
   {
+    "title": "EKC: A Portable and Extensible Kernel Compartment for De-Privileging Commodity OS",
+    "url": "https://github.com/EmbeddedKC/RustEKC",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 2,
+    "forks": 1,
+    "description": "",
+    "language": "Rust",
+    "name": "EmbeddedKC/RustEKC",
+    "pushed_at": "2025-07-14T11:45:50Z"
+  },
+  {
     "title": "S/MINE: Collecting and Analyzing S/MIME Certificates at Scale",
     "url": "https://github.com/FHMS-ITS/SMINE",
     "conference": "USENIXSEC",
@@ -21467,43 +21849,43 @@
     "pushed_at": "2025-06-20T15:22:17Z"
   },
   {
-    "title": "Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators",
-    "url": "https://github.com/G2FUZZ/G2FUZZ",
+    "title": "Efficient Ranking, Order Statistics, and Sorting under CKKS",
+    "url": "https://github.com/FedericoMazzone/openfhe-statistics",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 28,
+    "stars": 17,
+    "forks": 2,
+    "description": "Implementation of ranking, order statistics, and sorting algorithms using the CKKS homomorphic encryption scheme for pri",
+    "language": "C++",
+    "name": "FedericoMazzone/openfhe-statistics",
+    "pushed_at": "2025-04-01T13:22:43Z"
+  },
+  {
+    "title": "Evaluating the Effectiveness and Robustness of Visual Similarity-based Phishing Detection Models",
+    "url": "https://github.com/Fujiaoji/PhishingEval",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 11,
+    "forks": 2,
+    "description": "Evaluating Different Phishing Detectors",
+    "language": "HTML",
+    "name": "Fujiaoji/PhishingEval",
+    "pushed_at": "2025-03-17T00:45:52Z"
+  },
+  {
+    "title": "NASS: Fuzzing All Native Android System Services with Interface Awareness and Coverage",
+    "url": "https://github.com/HexHive/NASS",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 44,
     "forks": 4,
-    "description": "",
-    "language": "C",
-    "name": "G2FUZZ/G2FUZZ",
-    "pushed_at": "2025-11-05T06:50:11Z"
-  },
-  {
-    "title": "Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness",
-    "url": "https://github.com/Happy2Git/Unlearning_Inference_IAM",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 7,
-    "forks": 0,
-    "description": "Usenix Security’25: Measuring Sample-level Unlearning Completeness",
+    "description": "Fuzzing All Native Android System Services with Interface Awareness and Coverage",
     "language": "Python",
-    "name": "Happy2Git/Unlearning_Inference_IAM",
-    "pushed_at": "2025-07-06T09:35:29Z"
-  },
-  {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/IDP-code/TrafficFormer",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 105,
-    "forks": 30,
-    "description": "",
-    "language": "Python",
-    "name": "IDP-code/TrafficFormer",
-    "pushed_at": "2025-01-18T02:09:54Z"
+    "name": "HexHive/NASS",
+    "pushed_at": "2025-09-08T13:35:24Z"
   },
   {
     "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
@@ -21519,19 +21901,6 @@
     "pushed_at": "2025-06-20T11:57:41Z"
   },
   {
-    "title": "GPC Web Crawler",
-    "url": "https://github.com/InteractiveAdvertisingBureau/Global-Privacy-Platform",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 115,
-    "forks": 48,
-    "description": "IAB Tech Lab Global Privacy Platform specification",
-    "language": "",
-    "name": "InteractiveAdvertisingBureau/Global-Privacy-Platform",
-    "pushed_at": "2026-06-19T18:21:12Z"
-  },
-  {
     "title": "MAESTRO: Multi-party AES using Lookup Tables",
     "url": "https://github.com/KULeuven-COSIC/maestro",
     "conference": "USENIXSEC",
@@ -21545,43 +21914,17 @@
     "pushed_at": "2026-06-05T17:15:57Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/KaiWangGitHub/BARS",
+    "title": "Assuring Certified Database Utility in Privacy-Preserving Database Fingerprinting",
+    "url": "https://github.com/MYSong6/UtiliClear",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 12,
-    "forks": 4,
-    "description": "BARS: Local Robustness Certification for Deep Learning based Traffic Analysis Systems (NDSS'23)",
-    "language": "Python",
-    "name": "KaiWangGitHub/BARS",
-    "pushed_at": "2023-02-09T11:16:31Z"
-  },
-  {
-    "title": "Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents",
-    "url": "https://github.com/LFYSec/AgentFuzz",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 93,
-    "forks": 10,
-    "description": "The source code of [Sec'25] Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Age",
-    "language": "Python",
-    "name": "LFYSec/AgentFuzz",
-    "pushed_at": "2026-04-13T09:27:02Z"
-  },
-  {
-    "title": "Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models",
-    "url": "https://github.com/LauJames/Topic-FlipRAG",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 14,
-    "forks": 2,
-    "description": "[USENIX Security 2025] Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented G",
-    "language": "Jupyter Notebook",
-    "name": "LauJames/Topic-FlipRAG",
-    "pushed_at": "2025-06-21T10:11:12Z"
+    "stars": 3,
+    "forks": 0,
+    "description": "",
+    "language": "C++",
+    "name": "MYSong6/UtiliClear",
+    "pushed_at": "2025-03-19T08:29:02Z"
   },
   {
     "title": "Dormant: Defending against Pose-driven Human Image Animation",
@@ -21597,17 +21940,17 @@
     "pushed_at": "2025-08-01T04:49:51Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/Mobile-Intelligence-Lab/Amoeba",
+    "title": "eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem",
+    "url": "https://github.com/MaryamMG/eSIM-security-and-privacy",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 7,
+    "stars": 6,
     "forks": 1,
-    "description": "Pytorch implementation of Amoeba",
+    "description": "",
     "language": "Python",
-    "name": "Mobile-Intelligence-Lab/Amoeba",
-    "pushed_at": "2023-11-24T23:15:09Z"
+    "name": "MaryamMG/eSIM-security-and-privacy",
+    "pushed_at": "2025-06-03T17:42:13Z"
   },
   {
     "title": "Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation",
@@ -21623,17 +21966,17 @@
     "pushed_at": "2026-04-23T09:52:10Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/NSSL-SJTU/YaTC",
+    "title": "CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization",
+    "url": "https://github.com/NeuralSec/camp-robust-rl",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 155,
-    "forks": 29,
-    "description": "Code for the AAAI'23 paper \"Yet Another Traffic Classifier: A Masked Autoencoder Based Traffic Transformer with Multi-Le",
+    "stars": 4,
+    "forks": 1,
+    "description": "[USENIX Security'25] \"{CAMP} in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization\"",
     "language": "Python",
-    "name": "NSSL-SJTU/YaTC",
-    "pushed_at": "2024-04-29T17:05:07Z"
+    "name": "NeuralSec/camp-robust-rl",
+    "pushed_at": "2026-05-18T07:49:03Z"
   },
   {
     "title": "Systematic Evaluation of Randomized Cache Designs against Occupancy Attack",
@@ -21649,30 +21992,30 @@
     "pushed_at": "2025-04-11T14:44:41Z"
   },
   {
-    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
-    "url": "https://github.com/PKU-Alignment/safe-rlhf",
+    "title": "AUTOVR: Automated UI Exploration for Detecting Sensitive Data Flow Exposures in Virtual Reality Apps",
+    "url": "https://github.com/OSUSecLab/AutoVR",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 1603,
-    "forks": 133,
-    "description": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback",
-    "language": "Python",
-    "name": "PKU-Alignment/safe-rlhf",
-    "pushed_at": "2025-11-24T04:07:51Z"
+    "stars": 3,
+    "forks": 0,
+    "description": "An automated UI and event tester for Unity VR games.",
+    "language": "TypeScript",
+    "name": "OSUSecLab/AutoVR",
+    "pushed_at": "2026-02-27T15:11:54Z"
   },
   {
-    "title": "VoiceWukong: Benchmarking Deepfake Voice Detection",
-    "url": "https://github.com/QwenLM/Qwen2-Audio",
+    "title": "Replication Package of ELFuzz",
+    "url": "https://github.com/OSUSecLab/elfuzz",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 2088,
-    "forks": 165,
-    "description": "The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.",
+    "stars": 15,
+    "forks": 5,
+    "description": "Replication package of  ELFuzz",
     "language": "Python",
-    "name": "QwenLM/Qwen2-Audio",
-    "pushed_at": "2025-04-21T08:50:49Z"
+    "name": "OSUSecLab/elfuzz",
+    "pushed_at": "2026-02-08T16:04:56Z"
   },
   {
     "title": "Further Study on Frequency Estimation under Local Differential Privacy",
@@ -21688,17 +22031,17 @@
     "pushed_at": "2026-02-03T05:22:39Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/SPIN-UMass/BLANKET",
+    "title": "SLOTHE : Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data",
+    "url": "https://github.com/SNUSOR-PECT/SLOTHE",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 29,
-    "forks": 4,
+    "stars": 3,
+    "forks": 1,
     "description": "",
-    "language": "Python",
-    "name": "SPIN-UMass/BLANKET",
-    "pushed_at": "2021-05-06T15:15:43Z"
+    "language": "C++",
+    "name": "SNUSOR-PECT/SLOTHE",
+    "pushed_at": "2025-06-05T11:17:11Z"
   },
   {
     "title": "Enabling Low-Cost Secure Computing on Untrusted In-Memory Architectures",
@@ -21727,17 +22070,17 @@
     "pushed_at": "2025-01-25T08:51:37Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/SecTeamPolaris/Prism",
+    "title": "Data-Free Model-Related Attacks: Unleashing the Potential of Generative AI",
+    "url": "https://github.com/SixLab6/model_stealing",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 10,
-    "forks": 2,
+    "stars": 3,
+    "forks": 0,
     "description": "",
-    "language": "Jupyter Notebook",
-    "name": "SecTeamPolaris/Prism",
-    "pushed_at": "2025-01-24T06:57:05Z"
+    "language": "Python",
+    "name": "SixLab6/model_stealing",
+    "pushed_at": "2024-12-24T09:47:18Z"
   },
   {
     "title": "SoK: Automated Vulnerability Repair: Methods, Tools, and Assessments",
@@ -21753,30 +22096,43 @@
     "pushed_at": "2026-02-06T14:54:00Z"
   },
   {
-    "title": "VoiceWukong: Benchmarking Deepfake Voice Detection",
-    "url": "https://github.com/TakHemlata/SSL_Anti-spoofing",
+    "title": "HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns",
+    "url": "https://github.com/TrustAIRLab/HateBench",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 176,
-    "forks": 40,
-    "description": "This repository includes the code to reproduce our paper \"Automatic speaker verification spoofing and deepfake detection",
-    "language": "Python",
-    "name": "TakHemlata/SSL_Anti-spoofing",
-    "pushed_at": "2023-09-26T04:35:06Z"
+    "stars": 14,
+    "forks": 3,
+    "description": "[USENIX'25] HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns",
+    "language": "",
+    "name": "TrustAIRLab/HateBench",
+    "pushed_at": "2025-03-01T21:51:31Z"
   },
   {
-    "title": "VoiceWukong: Benchmarking Deepfake Voice Detection",
-    "url": "https://github.com/VoiceWukong/VoiceWukong",
+    "title": "TracLLM: A Generic Framework for Attributing Long Context LLMs",
+    "url": "https://github.com/Wang-Yanting/TracLLM",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 11,
-    "forks": 2,
+    "stars": 13,
+    "forks": 3,
     "description": "",
     "language": "Python",
-    "name": "VoiceWukong/VoiceWukong",
-    "pushed_at": "2025-01-22T12:44:24Z"
+    "name": "Wang-Yanting/TracLLM",
+    "pushed_at": "2025-08-09T22:44:25Z"
+  },
+  {
+    "title": "From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception",
+    "url": "https://github.com/WiSeR-Lab/SOMBRA_LUCIA",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 7,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "WiSeR-Lab/SOMBRA_LUCIA",
+    "pushed_at": "2025-07-23T18:50:47Z"
   },
   {
     "title": "Arbitrary-Threshold Fully Homomorphic Encryption with Lower Complexity",
@@ -21818,17 +22174,82 @@
     "pushed_at": "2024-03-21T17:23:06Z"
   },
   {
+    "title": "Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis",
+    "url": "https://github.com/acorn421/san2patch",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 13,
+    "forks": 4,
+    "description": "Code for San2Patch(\"Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis\")",
+    "language": "Python",
+    "name": "acorn421/san2patch",
+    "pushed_at": "2025-06-11T06:34:27Z"
+  },
+  {
+    "title": "SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR",
+    "url": "https://github.com/asset-group/Sni5Gect-5GNR-sniffing-and-exploitation",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 302,
+    "forks": 58,
+    "description": "A 5G Sniffer and Downlink Injector Framework on steroids... And yes, Wireshark supported!!!",
+    "language": "C++",
+    "name": "asset-group/Sni5Gect-5GNR-sniffing-and-exploitation",
+    "pushed_at": "2026-06-16T14:31:43Z"
+  },
+  {
+    "title": "AUDIO WATERMARK: Dynamic and Harmless Watermark for Black-box Voice Dataset Copyright Protection",
+    "url": "https://github.com/audiowatermark/audiowatermark.github.io",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 5,
+    "forks": 3,
+    "description": "",
+    "language": "Python",
+    "name": "audiowatermark/audiowatermark.github.io",
+    "pushed_at": "2025-04-03T11:56:35Z"
+  },
+  {
     "title": "AutoLabel: Automated Fine-Grained Log Labeling for Cyber Attack Dataset Generation",
     "url": "https://github.com/autolabel-open/autolabel",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 11,
+    "stars": 12,
     "forks": 1,
     "description": "Release of security datasets containing attack scripts and labeled logs",
     "language": "C",
     "name": "autolabel-open/autolabel",
     "pushed_at": "2025-10-19T13:31:01Z"
+  },
+  {
+    "title": "TapTrap: Animation-Driven Tapjacking on Android",
+    "url": "https://github.com/beerphilipp/taptrap",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 77,
+    "forks": 14,
+    "description": "TapTrap is a new attack on Android that lures you into performing actions you did not intend to do. This allows an app t",
+    "language": "Rust",
+    "name": "beerphilipp/taptrap",
+    "pushed_at": "2025-07-28T11:31:59Z"
+  },
+  {
+    "title": "Navigating Cookie Consent Violations Across the Globe",
+    "url": "https://github.com/byron123t/cookie-consent",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Jupyter Notebook",
+    "name": "byron123t/cookie-consent",
+    "pushed_at": "2025-06-11T03:48:00Z"
   },
   {
     "title": "Web Execution Bundles: Reproducible, Accurate, and Archivable Web Measurements",
@@ -21870,17 +22291,30 @@
     "pushed_at": "2026-04-16T14:40:52Z"
   },
   {
-    "title": "Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness",
-    "url": "https://github.com/computationalprivacy/mia_llms_benchmark",
+    "title": "Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions",
+    "url": "https://github.com/comsec-group/bprc",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 29,
+    "stars": 80,
     "forks": 5,
-    "description": "Benchmarking MIAs against LLMs. ",
-    "language": "Python",
-    "name": "imperial-aisp/mia_llms_benchmark",
-    "pushed_at": "2024-10-08T15:59:09Z"
+    "description": "",
+    "language": "C",
+    "name": "comsec-group/bprc",
+    "pushed_at": "2025-09-03T14:22:05Z"
+  },
+  {
+    "title": "Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection",
+    "url": "https://github.com/comsec-group/encarsia",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 33,
+    "forks": 4,
+    "description": "",
+    "language": "Scala",
+    "name": "comsec-group/encarsia",
+    "pushed_at": "2025-03-31T19:02:34Z"
   },
   {
     "title": "McSee: Evaluating Advanced Rowhammer Attacks and Defenses via Automated DRAM Traffic Analysis",
@@ -21894,6 +22328,19 @@
     "language": "",
     "name": "comsec-group/mcsee",
     "pushed_at": "2025-06-25T07:51:44Z"
+  },
+  {
+    "title": "Posthammer: Pervasive Browser-based Rowhammer Attacks with Postponed Refresh Commands",
+    "url": "https://github.com/comsec-group/posthammer",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 12,
+    "forks": 1,
+    "description": "",
+    "language": "TypeScript",
+    "name": "comsec-group/posthammer",
+    "pushed_at": "2025-04-03T15:11:45Z"
   },
   {
     "title": "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines",
@@ -21922,17 +22369,17 @@
     "pushed_at": "2025-01-24T06:53:45Z"
   },
   {
-    "title": "Replication Package of ELFuzz",
-    "url": "https://github.com/cychen2021/elfuzz",
+    "title": "Cross-Modal Prompt Inversion: Unifying Threats to Text and Image Generative AI Models",
+    "url": "https://github.com/cyprivlab/reverse-prompt-engineering",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 13,
-    "forks": 5,
-    "description": "Replication package of  ELFuzz",
+    "stars": 5,
+    "forks": 0,
+    "description": "",
     "language": "Python",
-    "name": "OSUSecLab/elfuzz",
-    "pushed_at": "2026-02-08T16:04:56Z"
+    "name": "cyprivlab/reverse-prompt-engineering",
+    "pushed_at": "2025-07-03T08:54:02Z"
   },
   {
     "title": "Dumbo-MPC: Efficient Fully Asynchronous MPC with Optimal Resilience",
@@ -21948,108 +22395,43 @@
     "pushed_at": "2025-04-02T04:19:18Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/deep-fingerprinting/df",
+    "title": "Lemon: Network-wide DDoS Detection with Routing-Oblivious Per-flow Measurement",
+    "url": "https://github.com/f-555/Lemon",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 204,
-    "forks": 69,
-    "description": "The source code and dataset are used to demonstrate the DF model, and reproduce the results of the ACM CCS2018 paper",
+    "stars": 2,
+    "forks": 1,
+    "description": "Network-wide DDoS Detection with Routing-Oblivious Per-flow Measurement",
+    "language": "P4",
+    "name": "f-555/Lemon",
+    "pushed_at": "2025-02-26T12:19:29Z"
+  },
+  {
+    "title": "Pretender: Universal Active Defense against Diffusion Finetuning Attacks",
+    "url": "https://github.com/frederickszk/Pretender",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 6,
+    "forks": 1,
+    "description": "Pretender: Universal Active Defense against Diffusion Finetuning Attacks",
+    "language": "",
+    "name": "frederickszk/Pretender",
+    "pushed_at": "2025-03-22T04:17:38Z"
+  },
+  {
+    "title": "Exposing and Circumventing SNI-based QUIC Censorship of the Great Firewall of China",
+    "url": "https://github.com/gfw-report/usenixsecurity25-quic-sni",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 36,
+    "forks": 4,
+    "description": "This repo includes the artifacts for the USENIX Security 2025 paper \"Exposing and Circumventing SNI-based QUIC Censorshi",
     "language": "Python",
-    "name": "deep-fingerprinting/df",
-    "pushed_at": "2023-03-25T00:07:38Z"
-  },
-  {
-    "title": "Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC",
-    "url": "https://github.com/encryptorion-lab/phantom-fhe",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 158,
-    "forks": 32,
-    "description": "PhantomFHE: A CUDA-Accelerated Homomorphic Encryption Library",
-    "language": "Cuda",
-    "name": "encryptorion-lab/phantom-fhe",
-    "pushed_at": "2025-01-01T16:35:08Z"
-  },
-  {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/fuchuanpu/Whisper",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 144,
-    "forks": 28,
-    "description": "Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis",
-    "language": "C++",
-    "name": "fuchuanpu/Whisper",
-    "pushed_at": "2023-10-30T11:36:53Z"
-  },
-  {
-    "title": "Recover from Excessive Faults in Partially-Synchronous BFT SMR",
-    "url": "https://github.com/gFrancoCamilo/f-shadows-recovery",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 0,
-    "forks": 0,
-    "description": "Implementation of a recovery algorithm for Hotstuff in an excessive fault setting, where each Byzantine replica is imple",
-    "language": "Rust",
-    "name": "gFrancoCamilo/f-shadows-recovery",
-    "pushed_at": "2025-04-03T22:43:33Z"
-  },
-  {
-    "title": "Recover from Excessive Faults in Partially-Synchronous BFT SMR",
-    "url": "https://github.com/gFrancoCamilo/fault-free-recovery",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 1,
-    "forks": 0,
-    "description": "Implementation of a recovery algorithm for Hotstuff in a fault-free setting",
-    "language": "Rust",
-    "name": "gFrancoCamilo/fault-free-recovery",
-    "pushed_at": "2025-04-03T22:30:39Z"
-  },
-  {
-    "title": "Recover from Excessive Faults in Partially-Synchronous BFT SMR",
-    "url": "https://github.com/gFrancoCamilo/one-shadow-recovery",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 1,
-    "forks": 0,
-    "description": "Implementation of a recovery algorithm for Hotstuff in an excessive fault setting, where each Byzantine replica is imple",
-    "language": "Rust",
-    "name": "gFrancoCamilo/one-shadow-recovery",
-    "pushed_at": "2025-04-03T22:34:11Z"
-  },
-  {
-    "title": "CloudFlow Framework and CloudBench Suite",
-    "url": "https://github.com/giusepperaffa/cloudbench",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 1,
-    "forks": 0,
-    "description": "Microbenchmarks suite developed to test the CloudFlow framework.",
-    "language": "Python",
-    "name": "giusepperaffa/cloudbench",
-    "pushed_at": "2025-09-15T21:40:47Z"
-  },
-  {
-    "title": "CloudFlow Framework and CloudBench Suite",
-    "url": "https://github.com/giusepperaffa/cloudflow",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 1,
-    "forks": 0,
-    "description": "Framework to identify security-sensitive data flows in serverless applications",
-    "language": "Python",
-    "name": "giusepperaffa/cloudflow",
-    "pushed_at": "2026-04-25T12:29:19Z"
+    "name": "gfw-report/usenixsecurity25-quic-sni",
+    "pushed_at": "2025-08-05T06:16:25Z"
   },
   {
     "title": "DeepFold: Efficient Multilinear Polynomial Commitment from Reed-Solomon Code and Its Application to Zero-knowledge Proofs",
@@ -22091,6 +22473,19 @@
     "pushed_at": "2025-03-05T12:21:15Z"
   },
   {
+    "title": "Practical Mempool Privacy via One-time Setup Batched Threshold Encryption",
+    "url": "https://github.com/guruvamsi-policharla/batched-threshold-pp",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 6,
+    "forks": 2,
+    "description": "A batched-threshold encryption scheme where decrypting a batch of ciphertexts requires constant communication",
+    "language": "Rust",
+    "name": "guruvamsi-policharla/batched-threshold-pp",
+    "pushed_at": "2025-05-02T20:06:03Z"
+  },
+  {
     "title": "Tracking the Takes and Trajectories of News Narratives from Trustworthy and Worrisome Websites",
     "url": "https://github.com/hanshanley/tracking-takes",
     "conference": "USENIXSEC",
@@ -22102,6 +22497,19 @@
     "language": "Python",
     "name": "hanshanley/tracking-takes",
     "pushed_at": "2025-02-18T20:04:09Z"
+  },
+  {
+    "title": " The DOMino Effect: Detecting and Exploiting DOM Clobbering Gadgets via Concolic Execution with Symbolic DOM",
+    "url": "https://github.com/jackfromeast/TheHulk",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 97,
+    "forks": 6,
+    "description": "TheHulk is a dynamic analysis tool designed to detect and exploit DOM Clobbering vulnerabilities.",
+    "language": "JavaScript",
+    "name": "jackfromeast/TheHulk",
+    "pushed_at": "2025-08-25T04:53:50Z"
   },
   {
     "title": "A Mixed-Methods Study of Open-Source Software Maintainers On Vulnerability Management and Platform Security Features",
@@ -22130,133 +22538,17 @@
     "pushed_at": "2025-06-07T09:04:26Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/jhayes14/k-FP",
+    "title": "Lets Move2EVM",
+    "url": "https://github.com/lets-move-to-evm/lets-move-to-evm",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 34,
-    "forks": 14,
-    "description": "Benchmarks for the k-FP WF attack",
-    "language": "Python",
-    "name": "jhayes14/k-FP",
-    "pushed_at": "2016-08-24T18:55:59Z"
-  },
-  {
-    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
-    "url": "https://github.com/jinzhuoran/RWKU",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 96,
-    "forks": 9,
-    "description": "RWKU: Benchmarking Real-World Knowledge Unlearning for Large Language Models. NeurIPS 2024",
-    "language": "Python",
-    "name": "jinzhuoran/RWKU",
-    "pushed_at": "2024-09-30T13:26:32Z"
-  },
-  {
-    "title": "LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models",
-    "url": "https://github.com/lekssays/llmxcpg",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 154,
-    "forks": 25,
-    "description": "Source code for LLMxCPG paper",
-    "language": "Jupyter Notebook",
-    "name": "qcri/llmxcpg",
-    "pushed_at": "2026-03-26T12:29:04Z"
-  },
-  {
-    "title": "PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs",
-    "url": "https://github.com/llm-attacks/llm-attacks",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 4718,
-    "forks": 630,
-    "description": "Universal and Transferable Attacks on Aligned Language Models",
-    "language": "Python",
-    "name": "llm-attacks/llm-attacks",
-    "pushed_at": "2024-08-02T06:02:18Z",
-    "badges": [
-      "Badges: Available"
-    ],
-    "authors": [
-      "Xueluan Gong",
-      "Mingzhe Li",
-      "Yilin Zhang",
-      "Fengyuan Ran",
-      "Chen Chen 0115",
-      "Yanjiao Chen",
-      "Qian Wang 0002",
-      "Kwok-Yan Lam"
-    ]
-  },
-  {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/locuslab/smoothing",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 413,
-    "forks": 80,
-    "description": "Provable adversarial robustness at ImageNet scale",
-    "language": "Python",
-    "name": "locuslab/smoothing",
-    "pushed_at": "2019-05-20T04:50:04Z"
-  },
-  {
-    "title": "VAPD: An Anomaly Detection Model for PDF Malware Forensics with Adversarial Robustness",
-    "url": "https://github.com/lzylucy/Malware-GAN-attack",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 27,
-    "forks": 10,
-    "description": "We implement MalGAN to attack several PDF classifiers and evaluate the robustness of those models.",
-    "language": "Python",
-    "name": "lzylucy/Malware-GAN-attack",
-    "pushed_at": "2022-07-04T15:22:15Z"
-  },
-  {
-    "title": "Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC",
-    "url": "https://github.com/microsoft/SEAL",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 3989,
-    "forks": 773,
-    "description": "Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.",
-    "language": "C++",
-    "name": "microsoft/SEAL",
-    "pushed_at": "2026-05-29T18:13:45Z",
-    "badges": [
-      "Badges: Available"
-    ],
-    "authors": [
-      "Tianshi Xu",
-      "Wen-jie Lu",
-      "Jiangrui Yu",
-      "Yi Chen",
-      "Chenqi Lin",
-      "Runsheng Wang",
-      "Meng Li 0004"
-    ]
-  },
-  {
-    "title": "Transparent Attested DNS for Confidential Computing Services",
-    "url": "https://github.com/microsoft/ccfdns",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 15,
-    "forks": 4,
-    "description": "A CCF-based, attested DNS server",
-    "language": "C++",
-    "name": "microsoft/ccfdns",
-    "pushed_at": "2025-10-06T12:12:00Z"
+    "stars": 2,
+    "forks": 0,
+    "description": "",
+    "language": "Rust",
+    "name": "lets-move-to-evm/lets-move-to-evm",
+    "pushed_at": "2025-06-20T15:07:58Z"
   },
   {
     "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
@@ -22272,41 +22564,17 @@
     "pushed_at": "2025-10-17T08:44:37Z"
   },
   {
-    "title": "zk-promises: Anonymous Moderation, Reputation, and Blocking",
-    "url": "https://github.com/moshih/UpdateableEncryption_Code",
+    "title": "Confusing Value with Enumeration: Studying the Use of CVEs in Academia",
+    "url": "https://github.com/mu00d8/cves_in_academia",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
     "stars": 8,
-    "forks": 1,
-    "description": "",
-    "language": "C",
-    "name": "moshih/UpdateableEncryption_Code",
-    "pushed_at": "2020-06-14T23:45:44Z"
-  },
-  {
-    "title": "Lets Move2EVM",
-    "url": "https://github.com/move-language/move",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 2334,
-    "forks": 693,
-    "description": "",
-    "language": "Rust",
-    "name": "move-language/move",
-    "pushed_at": "2024-05-04T21:17:51Z",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "authors": [
-      "Lorenzo Benetollo",
-      "Andreas Lackner",
-      "Matteo Maffei",
-      "Markus Scherer"
-    ]
+    "forks": 0,
+    "description": "Artifact for our USENIX Security'25 paper \"Confusing Value with Enumeration: Studying the Use of CVEs in Academia\"",
+    "language": "Python",
+    "name": "mu00d8/cves_in_academia",
+    "pushed_at": "2025-06-06T19:14:02Z"
   },
   {
     "title": "Towards a Re-evaluation of Data Forging Attacks in Practice",
@@ -22322,43 +22590,30 @@
     "pushed_at": "2025-06-05T13:11:57Z"
   },
   {
-    "title": "GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors",
-    "url": "https://github.com/nmrksic/counter-fitting",
+    "title": "Flexway O-Sort: Enclave-Friendly and Optimal Oblivious Sorting",
+    "url": "https://github.com/odslib/oblsort",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 146,
-    "forks": 28,
-    "description": "Counter-fitting Word Vectors to Linguistic Constraints",
-    "language": "Python",
-    "name": "nmrksic/counter-fitting",
-    "pushed_at": "2020-03-26T09:26:11Z"
+    "stars": 8,
+    "forks": 2,
+    "description": "Oblivious sorting in SGX",
+    "language": "C",
+    "name": "odslib/oblsort",
+    "pushed_at": "2024-12-20T15:34:52Z"
   },
   {
-    "title": "Precise and Effective Gadget Chain Mining through Deserialization Guided Call Graph Construction",
-    "url": "https://github.com/pascal-lab/Tai-e",
+    "title": "My ZIP isn’t your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers",
+    "url": "https://github.com/ouuan/ZipDiff",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 1784,
-    "forks": 197,
-    "description": "An easy-to-learn/use static analysis framework for Java and Android",
-    "language": "Java",
-    "name": "pascal-lab/Tai-e",
-    "pushed_at": "2026-06-28T05:45:24Z"
-  },
-  {
-    "title": "Fuzzing the PHP Interpreter via Dataflow Fusion",
-    "url": "https://github.com/php/flowfusion",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 48,
-    "forks": 3,
-    "description": "A Dataflow-Driven and Automated Fuzzer for the PHP Interpreter",
-    "language": "PHP",
-    "name": "php/flowfusion",
-    "pushed_at": "2025-06-19T03:48:11Z"
+    "stars": 39,
+    "forks": 4,
+    "description": "[USENIX Security '25] My ZIP isn’t your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers",
+    "language": "Rust",
+    "name": "ouuan/ZipDiff",
+    "pushed_at": "2026-03-20T18:10:58Z"
   },
   {
     "title": "GPC Web Crawler",
@@ -22372,6 +22627,32 @@
     "language": "Python",
     "name": "privacy-tech-lab/gpc-web-crawler",
     "pushed_at": "2026-06-30T14:25:30Z"
+  },
+  {
+    "title": "Shadows in Cipher Spaces: Exploiting Tweak Repetition in Hardware Memory Encryption",
+    "url": "https://github.com/pw0rld/CSV-CipherShadow",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 2,
+    "forks": 1,
+    "description": "",
+    "language": "Python",
+    "name": "pw0rld/CSV-CipherShadow",
+    "pushed_at": "2025-08-11T04:10:15Z"
+  },
+  {
+    "title": "LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models",
+    "url": "https://github.com/qcri/llmxcpg",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 154,
+    "forks": 25,
+    "description": "Source code for LLMxCPG paper",
+    "language": "Jupyter Notebook",
+    "name": "qcri/llmxcpg",
+    "pushed_at": "2026-03-26T12:29:04Z"
   },
   {
     "title": "Provably Robust Multi-bit Watermarking for AI-generated Text",
@@ -22409,19 +22690,6 @@
     ]
   },
   {
-    "title": "X.509DoS: Exploiting and Detecting Denial-of-Service Vulnerabilities in Cryptographic Libraries using Crafted X.509 Certificates",
-    "url": "https://github.com/roadicing/x509dostool",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 7,
-    "forks": 1,
-    "description": "A tool for facilitating the research of X.509DoS attack.",
-    "language": "Python",
-    "name": "roadicing/x509dostool",
-    "pushed_at": "2025-07-15T09:35:40Z"
-  },
-  {
     "title": "Distributional Private Information Retrieval",
     "url": "https://github.com/ryanleh/crowdsurf",
     "conference": "USENIXSEC",
@@ -22433,6 +22701,45 @@
     "language": "Go",
     "name": "ryanleh/crowdsurf",
     "pushed_at": "2025-04-10T23:12:35Z"
+  },
+  {
+    "title": "OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries",
+    "url": "https://github.com/secure-foundations/owl",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 34,
+    "forks": 2,
+    "description": "Compositional Verification of Security Protocols",
+    "language": "Rust",
+    "name": "secure-foundations/owl",
+    "pushed_at": "2026-05-07T22:04:06Z"
+  },
+  {
+    "title": "TRex: Practical Type Reconstruction for Binary Code",
+    "url": "https://github.com/secure-foundations/trex-usenix25",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 6,
+    "forks": 1,
+    "description": "Top-level companion software artifact for the paper \"TRex: Practical Type Reconstruction for Binary Code\"",
+    "language": "Rust",
+    "name": "secure-foundations/trex-usenix25",
+    "pushed_at": "2026-01-31T01:05:41Z"
+  },
+  {
+    "title": "Towards Practical, End-to-End Formally Verified X.509 Certificate Validators with Verdict",
+    "url": "https://github.com/secure-foundations/verdict",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 15,
+    "forks": 0,
+    "description": "Formally Verified X.509 Certificate Validation",
+    "language": "Rust",
+    "name": "secure-foundations/verdict",
+    "pushed_at": "2025-11-19T02:59:37Z"
   },
   {
     "title": "Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust",
@@ -22448,95 +22755,82 @@
     "pushed_at": "2026-06-03T03:33:04Z"
   },
   {
-    "title": "PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs",
-    "url": "https://github.com/sherdencooper/GPTFuzz",
+    "title": "I have no idea how to make it safer: Studying Security and Privacy Mindsets of Browser Extension Developers",
+    "url": "https://github.com/shubh401/extension-developer-study",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 589,
-    "forks": 86,
-    "description": "Official repo for GPTFUZZER : Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts",
+    "stars": 2,
+    "forks": 0,
+    "description": "I have no idea how to make it safer: Studying Security and Privacy Mindsets of Browser Extension Developers",
     "language": "Python",
-    "name": "sherdencooper/GPTFuzz",
-    "pushed_at": "2026-02-27T17:19:03Z"
+    "name": "shubh401/extension-developer-study",
+    "pushed_at": "2025-07-11T07:16:16Z"
   },
   {
-    "title": "VAPD: An Anomaly Detection Model for PDF Malware Forensics with Adversarial Robustness",
-    "url": "https://github.com/srndic/hidost",
+    "title": "Chimera: Creating Digitally Signed Fake Photos by Fooling Image Recapture and Deepfake Detectors",
+    "url": "https://github.com/ssysarch/Chimera",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 24,
-    "forks": 7,
-    "description": "Toolset for extracting document structures from PDF and SWF files",
-    "language": "C++",
-    "name": "srndic/hidost",
-    "pushed_at": "2020-09-20T10:12:50Z"
+    "stars": 8,
+    "forks": 2,
+    "description": "",
+    "language": "Python",
+    "name": "ssysarch/Chimera",
+    "pushed_at": "2026-03-17T02:35:53Z"
   },
   {
-    "title": "Current Affairs: A Security Measurement Study of CCS EV Charging Deployments",
-    "url": "https://github.com/ssloxford/current-affairs",
+    "title": "General-Purpose ff-DP Estimation and Auditing in a Black-Box Setting",
+    "url": "https://github.com/stoneboat/fdp-estimation",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 5,
+    "forks": 2,
+    "description": "A proof-of-concept implementation of a blackbox $f$-DP estimator/auditor framework",
+    "language": "Jupyter Notebook",
+    "name": "stoneboat/fdp-estimation",
+    "pushed_at": "2025-07-08T10:53:47Z"
+  },
+  {
+    "title": "A Formal Analysis of Apple’s iMessage PQ3 Protocol",
+    "url": "https://github.com/tamarin-pq3/tamarin-pq3",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 19,
+    "forks": 0,
+    "description": "The formal proofs for iMessage PQ3 using the Tamarin Prover",
+    "language": "Python",
+    "name": "tamarin-pq3/tamarin-pq3",
+    "pushed_at": "2025-03-18T02:13:15Z"
+  },
+  {
+    "title": "FABLE: Batched Evaluation on Confidential Lookup Tables in 2PC",
+    "url": "https://github.com/timzsu/FABLE",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
     "stars": 3,
+    "forks": 1,
+    "description": "Source code repository for USENIX '25 paper \"FABLE: Batched Evaluation on Confidential Lookup Tables in 2PC\"",
+    "language": "C++",
+    "name": "cmu-cryptosystems/FABLE",
+    "pushed_at": "2025-11-04T07:01:39Z"
+  },
+  {
+    "title": "TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts",
+    "url": "https://github.com/tkr-research/twinbreak",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 5,
     "forks": 0,
-    "description": "Code and hardware design for our CCS DC EV charger measurement system.",
+    "description": "The respository contains the artifact for the USENIX Security 2025 paper: \"TwinBreak: Jailbreaking LLM Security Alignmen",
     "language": "Python",
-    "name": "ssloxford/current-affairs",
-    "pushed_at": "2025-02-13T15:10:48Z"
-  },
-  {
-    "title": "Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models",
-    "url": "https://github.com/swj0419/muse_bench",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 34,
-    "forks": 7,
-    "description": "",
-    "language": "Python",
-    "name": "swj0419/muse_bench",
-    "pushed_at": "2025-03-13T09:59:18Z"
-  },
-  {
-    "title": "Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection",
-    "url": "https://github.com/tier4/AWSIM",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 720,
-    "forks": 153,
-    "description": "Open sourced digital twin simulator for Autoware",
-    "language": "C#",
-    "name": "autowarefoundation/AWSIM",
-    "pushed_at": "2026-05-13T23:00:51Z"
-  },
-  {
-    "title": "Synthesis of Code-Reuse Attacks from p-code Programs",
-    "url": "https://github.com/toolCHAINZ/crackers",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 24,
-    "forks": 3,
-    "description": "A tool for synthesizing code-reuse attacks (aka ROP) from a reference program, powered by logical modeling of Ghidra's `",
-    "language": "Rust",
-    "name": "toolCHAINZ/crackers",
-    "pushed_at": "2025-12-25T12:50:43Z"
-  },
-  {
-    "title": "Synthesis of Code-Reuse Attacks from p-code Programs",
-    "url": "https://github.com/toolCHAINZ/jingle",
-    "conference": "USENIXSEC",
-    "year": 2025,
-    "area": "security",
-    "stars": 37,
-    "forks": 4,
-    "description": "An FFI for Ghidra's Sleigh also providing SMT modeling and analysis",
-    "language": "Rust",
-    "name": "toolCHAINZ/jingle",
-    "pushed_at": "2026-06-06T04:16:14Z"
+    "name": "tkr-research/twinbreak",
+    "pushed_at": "2025-06-04T09:51:05Z"
   },
   {
     "title": "Endangered Privacy: Large-Scale Monitoring of Video Streaming Services",
@@ -22550,6 +22844,19 @@
     "language": "Go",
     "name": "trustcom/endangered-privacy",
     "pushed_at": "2025-09-04T13:21:11Z"
+  },
+  {
+    "title": "Does Finality Gadget Finalize Your Block? A Case Study of Binance Consensus",
+    "url": "https://github.com/tsinghua-cel/bsc-attack-experiment",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 2,
+    "forks": 2,
+    "description": "",
+    "language": "Dockerfile",
+    "name": "tsinghua-cel/bsc-attack-experiment",
+    "pushed_at": "2026-03-13T02:55:31Z"
   },
   {
     "title": "Sometimes Simpler is Better: A Comprehensive Analysis of State-of-the-Art Provenance-Based Intrusion Detection Systems",
@@ -22591,17 +22898,69 @@
     "pushed_at": "2026-05-11T11:38:12Z"
   },
   {
-    "title": "VAPD: An Anomaly Detection Model for PDF Malware Forensics with Adversarial Robustness",
-    "url": "https://github.com/uvasrg/EvadeML",
+    "title": "Haunted by Legacy: Discovering and Exploiting Vulnerable Tunnelling Hosts",
+    "url": "https://github.com/vanhoefm/tunneltester",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 111,
-    "forks": 41,
-    "description": "An evolutionary framework for evading machine learning-based malware classifiers.",
-    "language": "CSS",
-    "name": "uvasrg/EvadeML",
-    "pushed_at": "2022-09-12T01:42:35Z"
+    "stars": 78,
+    "forks": 3,
+    "description": "",
+    "language": "Python",
+    "name": "vanhoefm/tunneltester",
+    "pushed_at": "2025-07-12T20:42:21Z"
+  },
+  {
+    "title": "Sound and Efficient Generation of Data-Oriented Exploits via Programming Language Synthesis",
+    "url": "https://github.com/verse-lab/doppler",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 3,
+    "forks": 0,
+    "description": "artifact of doppler",
+    "language": "LLVM",
+    "name": "verse-lab/doppler",
+    "pushed_at": "2025-03-21T05:46:43Z"
+  },
+  {
+    "title": "RangeSanitizer: Detecting Memory Errors with Efficient Range Checks",
+    "url": "https://github.com/vusec/rangesanitizer",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 18,
+    "forks": 7,
+    "description": "RangeSanitizer (RSan) detects spatial and temporal memory errors in C/C++ programs using efficient range checks.",
+    "language": "C++",
+    "name": "vusec/rangesanitizer",
+    "pushed_at": "2025-11-04T17:58:33Z"
+  },
+  {
+    "title": "HawkEye: Statically and Accurately Profiling the Communication Cost of Models in Multi-party Learning",
+    "url": "https://github.com/wqruan/HawkEye",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 0,
+    "forks": 1,
+    "description": "",
+    "language": "C++",
+    "name": "wqruan/HawkEye",
+    "pushed_at": "2025-04-02T10:56:38Z"
+  },
+  {
+    "title": "Seeing Through: Analyzing and Attacking Virtual Backgrounds in Video Calls",
+    "url": "https://github.com/wsbrg/vader",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 6,
+    "forks": 2,
+    "description": "Spying through virtual backgrounds in video calls.",
+    "language": "Python",
+    "name": "wsbrg/vader",
+    "pushed_at": "2025-07-15T15:42:50Z"
   },
   {
     "title": "Qelect: Lattice-based Single Secret Leader Election Made Practical",
@@ -22630,17 +22989,17 @@
     "pushed_at": "2025-06-06T22:07:58Z"
   },
   {
-    "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
-    "url": "https://github.com/ymirsky/Kitsune-py",
+    "title": "Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks",
+    "url": "https://github.com/yale-nova/found-in-translation",
     "conference": "USENIXSEC",
     "year": 2025,
     "area": "security",
-    "stars": 391,
-    "forks": 114,
-    "description": "A network intrusion detection system based on incremental statistics (AfterImage) and an ensemble of autoencoders (KitNE",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
     "language": "Python",
-    "name": "ymirsky/Kitsune-py",
-    "pushed_at": "2026-03-24T14:32:49Z"
+    "name": "yale-nova/found-in-translation",
+    "pushed_at": "2025-06-24T05:49:37Z"
   },
   {
     "title": "TockOwl: Asynchronous Consensus with Fault and Network Adaptability",
@@ -22654,6 +23013,19 @@
     "language": "Go",
     "name": "yrdsm666/tockowl",
     "pushed_at": "2025-05-13T06:03:06Z"
+  },
+  {
+    "title": "BLuEMan: A Stateful Simulation-based Fuzzing Framework for Open-Source RTOS Bluetooth Low Energy Protocol Stacks",
+    "url": "https://github.com/zoolab-org/blueman.artifact",
+    "conference": "USENIXSEC",
+    "year": 2025,
+    "area": "security",
+    "stars": 7,
+    "forks": 1,
+    "description": "",
+    "language": "C",
+    "name": "zoolab-org/blueman.artifact",
+    "pushed_at": "2026-04-18T07:49:24Z"
   },
   {
     "title": "From Easy to Hard++: Promoting Differentially Private Image Synthesis Through Spatial-Frequency Curriculum",
@@ -22682,6 +23054,19 @@
     "pushed_at": "2025-12-12T04:17:19Z"
   },
   {
+    "title": "A Midsummer Meme’s Dream: Investigating Market Manipulations in the Meme Coin Ecosystem",
+    "url": "https://github.com/Alb4tro/Code-and-Dataset-for-A-Midsummer-Meme-s-Dream-",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "",
+    "language": "Jupyter Notebook",
+    "name": "am-mong/Code-and-Dataset-for-A-Midsummer-Meme-s-Dream-",
+    "pushed_at": "2025-12-05T14:08:35Z"
+  },
+  {
     "title": "United We Defend: Collaborative Membership Inference Defenses in Federated Learning",
     "url": "https://github.com/BaiLibl/CoFedMID",
     "conference": "USENIXSEC",
@@ -22695,17 +23080,56 @@
     "pushed_at": "2026-02-23T10:28:59Z"
   },
   {
+    "title": "Streaming Function Secret Sharing and Its Applications",
+    "url": "https://github.com/BintaSong/SFSS-public",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "C++",
+    "name": "BintaSong/SFSS-public",
+    "pushed_at": "2025-12-23T15:06:53Z"
+  },
+  {
     "title": "Bridging Bitcoin to Second Layers via BitVM2",
     "url": "https://github.com/BitVM/BitVM",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
     "stars": 511,
-    "forks": 182,
+    "forks": 183,
     "description": "A Trust-minimized Bitcoin Bridge",
     "language": "Rust",
     "name": "BitVM/BitVM",
     "pushed_at": "2026-01-26T18:49:38Z"
+  },
+  {
+    "title": "DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption",
+    "url": "https://github.com/DDR-SSE/DDR-SSE",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "DDR-SSE/DDR-SSE",
+    "pushed_at": "2026-03-04T23:49:14Z"
+  },
+  {
+    "title": "PrivacyShield: Relaying BLE Beacons to Counter Unsolicited Tracking",
+    "url": "https://github.com/HexHive/privacyshield",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 1,
+    "description": "The repository containing the PrivacyShield (USENIX Security '26) artifact",
+    "language": "C",
+    "name": "HexHive/privacyshield",
+    "pushed_at": "2026-03-04T17:32:54Z"
   },
   {
     "title": "HAMLOCK: HArdware-Model LOgically Combined attacK",
@@ -22747,6 +23171,19 @@
     "pushed_at": "2026-01-24T17:46:49Z"
   },
   {
+    "title": "Differential Trust: Dynamic Multi-Authority Anonymous Credentials with Epoch-Weighted Updates",
+    "url": "https://github.com/MA-ACEW/MA-ACEW-scheme",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Go",
+    "name": "MA-ACEW/MA-ACEW-scheme",
+    "pushed_at": "2026-01-14T23:21:13Z"
+  },
+  {
     "title": "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore",
     "url": "https://github.com/PurdueDualityLab/USENIX-26-Johnny-Usability-Study",
     "conference": "USENIXSEC",
@@ -22771,6 +23208,19 @@
     "language": "Jupyter Notebook",
     "name": "RUB-NDS/state-of-passkeys-artifacts",
     "pushed_at": "2026-04-21T12:01:17Z"
+  },
+  {
+    "title": "Trustworthy and Confidential SBOM Exchange",
+    "url": "https://github.com/TSELab/SBOMCtl",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 7,
+    "forks": 4,
+    "description": "SBOMCtl Supply Chain Control Plane",
+    "language": "Python",
+    "name": "TSELab/SBOMCtl",
+    "pushed_at": "2026-05-22T03:59:23Z"
   },
   {
     "title": "Efficient Threshold ML-DSA",
@@ -22812,6 +23262,32 @@
     "pushed_at": "2025-12-18T15:15:18Z"
   },
   {
+    "title": "Chameleon Channels: Measuring YouTube Accounts Repurposed for Deception and Profit",
+    "url": "https://github.com/aledcuevas/ChameleonChannels",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "aledcuevas/ChameleonChannels",
+    "pushed_at": "2025-12-16T20:16:19Z"
+  },
+  {
+    "title": "A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality",
+    "url": "https://github.com/anon-research374/paper-artifact",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "language": "Python",
+    "name": "Xavier-Shang/DMW",
+    "pushed_at": "2026-01-09T02:11:31Z"
+  },
+  {
     "title": "PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks",
     "url": "https://github.com/arashd021/pdm",
     "conference": "USENIXSEC",
@@ -22825,95 +23301,30 @@
     "pushed_at": "2026-04-10T18:06:41Z"
   },
   {
-    "title": "Lethe: Purifying Backdoored Large Language Models with Knowledge Dilution",
-    "url": "https://github.com/azshue/AutoPoison",
+    "title": "Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption",
+    "url": "https://github.com/cmu-cryptosystems/Rotom",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
-    "stars": 69,
-    "forks": 7,
-    "description": "The official repository of the paper \"On the Exploitability of Instruction Tuning\".",
-    "language": "Python",
-    "name": "azshue/AutoPoison",
-    "pushed_at": "2024-02-05T07:35:47Z"
-  },
-  {
-    "title": "Inference Attacks Against Graph Generative Diffusion Models",
-    "url": "https://github.com/cvignac/DiGress",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 524,
-    "forks": 108,
-    "description": "code for the paper \"DiGress: Discrete Denoising diffusion for graph generation\"",
-    "language": "Python",
-    "name": "cvignac/DiGress",
-    "pushed_at": "2025-04-03T08:02:14Z"
-  },
-  {
-    "title": "Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles",
-    "url": "https://github.com/d-nabokov/DForacle_true_potential",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 0,
-    "forks": 0,
+    "stars": 14,
+    "forks": 2,
     "description": "",
     "language": "Python",
-    "name": "d-nabokov/DForacle_true_potential",
-    "pushed_at": "2025-12-11T13:35:52Z"
+    "name": "cmu-cryptosystems/Rotom",
+    "pushed_at": "2026-05-13T21:39:44Z"
   },
   {
-    "title": "Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles",
-    "url": "https://github.com/d-nabokov/GoFetch",
+    "title": "Hop: A Modern Transport and Remote Access Protocol",
+    "url": "https://github.com/hop-proto/hop-go",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
-    "stars": 0,
+    "stars": 9,
     "forks": 0,
-    "description": "GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers -- USENIX Security",
-    "language": "C",
-    "name": "d-nabokov/GoFetch",
-    "pushed_at": "2025-10-12T17:28:41Z"
-  },
-  {
-    "title": "Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles",
-    "url": "https://github.com/d-nabokov/SCA-LDPC",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 0,
-    "forks": 0,
-    "description": "Public implementation of the framework behind SCA-LDPC paper",
-    "language": "Python",
-    "name": "d-nabokov/SCA-LDPC",
-    "pushed_at": "2025-12-11T10:33:57Z"
-  },
-  {
-    "title": "Inference Attacks Against Graph Generative Diffusion Models",
-    "url": "https://github.com/ermongroup/GraphScoreMatching",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 115,
-    "forks": 21,
-    "description": "Official implementation for the paper: Permutation Invariant Graph Generation via Score-Based Generative Modeling",
-    "language": "Python",
-    "name": "ermongroup/GraphScoreMatching",
-    "pushed_at": "2023-07-06T21:42:56Z"
-  },
-  {
-    "title": "Inference Attacks Against Graph Generative Diffusion Models",
-    "url": "https://github.com/harryjo97/GDSS",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 191,
-    "forks": 27,
-    "description": "Official Code Repository for the paper \"Score-based Generative Modeling of Graphs via the System of Stochastic Different",
-    "language": "Python",
-    "name": "harryjo97/GDSS",
-    "pushed_at": "2023-11-16T05:27:28Z"
+    "description": "Hop is a transport and remote access protocol addressing many of SSH's shortcomings.",
+    "language": "Go",
+    "name": "hop-proto/hop-go",
+    "pushed_at": "2026-02-24T19:10:08Z"
   },
   {
     "title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection",
@@ -22927,6 +23338,19 @@
     "language": "Python",
     "name": "jpjy/WILD-Attack",
     "pushed_at": "2026-01-11T01:50:07Z"
+  },
+  {
+    "title": "The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy–Utility Tradeoff (USENIX Security 2026 Artifact)",
+    "url": "https://github.com/kit-ps/Sampling-and-Suppression-in-DP-USENIX-26",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "This repository includes the complete code for the experiments and plots on the effects of sampling and outlier-score su",
+    "language": "Python",
+    "name": "kit-ps/Sampling-and-Suppression-in-DP-USENIX-26",
+    "pushed_at": "2026-03-10T16:05:20Z"
   },
   {
     "title": "Shred-to-Shine Metamorphosis of (Distributed) Polynomial Commitments",
@@ -22968,6 +23392,19 @@
     "pushed_at": "2025-12-19T11:51:03Z"
   },
   {
+    "title": "mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal",
+    "url": "https://github.com/ml-kem/mmcipher-artifact",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 1,
+    "description": "artifact relatated to mmCipher implementations",
+    "language": "C",
+    "name": "ml-kem/mmcipher-artifact",
+    "pushed_at": "2026-01-09T12:58:22Z"
+  },
+  {
     "title": "You Know Why, but Still Rely: The Impact of Explainable AI on Trust, Task Load, and Performance in Cybersecurity Decision-Making",
     "url": "https://github.com/neroc100/domain-blocker-prototype",
     "conference": "USENIXSEC",
@@ -22981,30 +23418,17 @@
     "pushed_at": "2025-12-13T10:16:04Z"
   },
   {
-    "title": "Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem",
-    "url": "https://github.com/nevillegrech/gigahorse-toolchain",
+    "title": "OS-Sanitizer: System-wide Latent Defect Inference in Linux Applications",
+    "url": "https://github.com/os-sanitizer/os-sanitizer",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
-    "stars": 374,
-    "forks": 78,
-    "description": "A binary lifter and analysis framework for Ethereum smart contracts",
-    "language": "HTML",
-    "name": "nevillegrech/gigahorse-toolchain",
-    "pushed_at": "2026-06-09T15:03:24Z"
-  },
-  {
-    "title": "Attacks on Approximate Caches in Text-to-Image Diffusion Models",
-    "url": "https://github.com/poloclub/diffusiondb",
-    "conference": "USENIXSEC",
-    "year": 2026,
-    "area": "security",
-    "stars": 1389,
-    "forks": 79,
-    "description": "A large-scale text-to-image prompt gallery dataset based on Stable Diffusion",
-    "language": "Python",
-    "name": "poloclub/diffusiondb",
-    "pushed_at": "2024-07-11T16:10:02Z"
+    "stars": 7,
+    "forks": 0,
+    "description": "A full-system sanitizer that detects latent defects from benign behavior.",
+    "language": "Rust",
+    "name": "os-sanitizer/os-sanitizer",
+    "pushed_at": "2026-03-16T13:21:30Z"
   },
   {
     "title": "VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions",
@@ -23033,30 +23457,82 @@
     "pushed_at": "2026-03-21T17:30:14Z"
   },
   {
-    "title": "Attacks on Approximate Caches in Text-to-Image Diffusion Models",
-    "url": "https://github.com/verazuo/prompt-stealing-attack",
+    "title": "Concretely efficient blind signatures based on VOLE-in-the-head proofs and the MAYO trapdoor",
+    "url": "https://github.com/shibammukherjee/pq_blind_signatures",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
-    "stars": 52,
-    "forks": 8,
-    "description": "[USENIX'24] Prompt Stealing Attacks Against Text-to-Image Generation Models ",
-    "language": "Python",
-    "name": "verazuo/prompt-stealing-attack",
-    "pushed_at": "2025-01-11T16:01:50Z"
+    "stars": 10,
+    "forks": 4,
+    "description": "",
+    "language": "C++",
+    "name": "shibammukherjee/pq_blind_signatures",
+    "pushed_at": "2026-03-16T22:44:40Z"
   },
   {
-    "title": "Lethe: Purifying Backdoored Large Language Models with Knowledge Dilution",
-    "url": "https://github.com/wegodev2/virtual-prompt-injection",
+    "title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+    "url": "https://github.com/umass-aisec/wra",
     "conference": "USENIXSEC",
     "year": 2026,
     "area": "security",
-    "stars": 27,
+    "stars": 4,
     "forks": 1,
-    "description": "Unofficial implementation of \"Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection\"",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "name": "umass-aisec/wra",
+    "pushed_at": "2025-12-18T17:46:27Z"
+  },
+  {
+    "title": "Shadowfax: Hybrid Security and Deniability for AKEMs",
+    "url": "https://github.com/vincentvbh/shadowfax",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 2,
+    "forks": 0,
+    "description": "",
+    "language": "C",
+    "name": "vincentvbh/shadowfax",
+    "pushed_at": "2026-05-10T03:51:47Z"
+  },
+  {
+    "title": "InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability",
+    "url": "https://github.com/xiangxiecrypto/tfhe-omr",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 1,
+    "forks": 0,
+    "description": "",
+    "language": "Rust",
+    "name": "xiangxiecrypto/tfhe-omr",
+    "pushed_at": "2026-05-27T03:13:11Z"
+  },
+  {
+    "title": "KernelRCA: Facilitating Root Cause Analysis of Memory Corruptions in Linux Kernel with Contextual Causality Chain",
+    "url": "https://github.com/xiaoguai0992/KernelRCA",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 3,
+    "forks": 1,
+    "description": "",
+    "language": "C",
+    "name": "xiaoguai0992/KernelRCA",
+    "pushed_at": "2026-01-29T05:49:24Z"
+  },
+  {
+    "title": "Inference Attacks Against Graph Generative Diffusion Models",
+    "url": "https://github.com/xiulingwang33/Inference-attacks-against-GGDM",
+    "conference": "USENIXSEC",
+    "year": 2026,
+    "area": "security",
+    "stars": 0,
+    "forks": 0,
+    "description": "",
     "language": "Python",
-    "name": "wegodev2/virtual-prompt-injection",
-    "pushed_at": "2024-07-06T09:55:50Z"
+    "name": "xiulingwang33/Inference-attacks-against-GGDM",
+    "pushed_at": "2025-12-16T01:57:50Z"
   },
   {
     "title": "Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier",
@@ -23218,19 +23694,6 @@
     "badges": [
       "ORO"
     ]
-  },
-  {
-    "title": "Hakuin: Optimizing Blind SQL Injection with Probabilistic Language Models",
-    "url": "https://github.com/pruzko/hakuin",
-    "conference": "WOOT",
-    "year": 2023,
-    "area": "security",
-    "stars": 141,
-    "forks": 10,
-    "description": "A blazing fast and fully configurable Blind SQL Injection optimization and automation framework.",
-    "language": "Python",
-    "name": "pruzko/hakuin",
-    "pushed_at": "2025-06-07T16:48:08Z"
   },
   {
     "title": "ROPfuscator: Robust Obfuscation with ROP",
