@@ -4,8 +4,6 @@ permalink: /methodology/data-collection.html
 skip_chartjs: true
 ---
 
-## Data Collection
-
 We scrape artifact evaluation results from sysartifacts/secartifacts websites, extract paper titles, authors, badges (Available, Functional, Reproducible, Reusable) and repository URLs. For USENIX conferences (ATC, FAST) we also scrape badge data from technical session pages. AE committee data is gathered from sysartifacts/secartifacts plus direct scraping (USENIX, CHES, PETS websites).
 
 In addition to AE results, we ingest **automatically-discovered** artifact links from [ArtiFinder](https://github.com/DistriNet/ArtiFinder) (via the [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) dataset) and match them to papers by normalized title and author list. These links are **unverified**, carry no badges, and are **excluded from every score**; see [ArtiFinder-Discovered Artifacts](#artifinder-discovered-artifacts) below.

@@ -14,8 +14,8 @@ Authors ranked by number of evaluated artifacts, split by research area. Click a
 | **Total Authors** | {{ site.data.author_summary.total_authors }} |
 {% endif %}
 
-- [Systems Authors]({{ '/systems_authors.html' | relative_url }}) — Authors at systems conferences
-- [Security Authors]({{ '/security_authors.html' | relative_url }}) — Authors at security conferences
+- [Systems Authors]({{ '/combined_rankings.html' | relative_url }}?area=systems&contrib=artifacts) — Authors at systems conferences
+- [Security Authors]({{ '/combined_rankings.html' | relative_url }}?area=security&contrib=artifacts) — Authors at security conferences
 
 ---
 

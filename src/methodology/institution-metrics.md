@@ -4,8 +4,6 @@ permalink: /methodology/institution-metrics.html
 skip_chartjs: true
 ---
 
-## Institution Metrics
-
 Institution-level statistics aggregate contributions from all authors affiliated with that institution. Affiliations are determined from DBLP person pages and CSRankings faculty data.
 
 ### How Institution Data is Aggregated
