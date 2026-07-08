@@ -25,4 +25,15 @@ The [search bar]({{ '/' | relative_url }}) supports special `#` keywords that fi
 
 Keywords also work alongside the year, venue, and area dropdown filters.
 
+## Result Link Order
+
+In each search result card, links are displayed in this order:
+
+1. Paper
+2. Appendix
+3. Artifact links from scraped sources (for example, Zenodo or GitHub)
+4. Artifact links discovered by ArtiFinder
+
+When multiple artifact links are present, scraped links are shown before ArtiFinder links.
+
 **Note on `#unavailable`:** Availability is determined by automated URL checks that run as part of the monthly pipeline. A URL marked as unavailable may be temporarily down, rate-limited, or require authentication. The hover tooltip on each flagged artifact shows when the check was last performed.
