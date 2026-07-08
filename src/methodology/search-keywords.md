@@ -4,8 +4,6 @@ permalink: /methodology/search-keywords.html
 skip_chartjs: true
 ---
 
-## Search Keywords
-
 The [search bar]({{ '/' | relative_url }}) supports special `#` keywords that filter results by specific criteria. Keywords can be combined with each other and with free text.
 
 | Keyword | Description |

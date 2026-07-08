@@ -4,9 +4,11 @@ permalink: /methodology/author-metrics.html
 skip_chartjs: true
 ---
 
-## Author Metrics
-
 Individual author statistics are computed by matching artifact papers to DBLP records. Each metric is calculated as follows:
+
+## Badge Definitions
+
+We rely on each conference's official badge definitions. We treat the same badge name as comparable across venues (e.g., Available in one venue is assumed to mean the same or similar level of availability in another). We make the same assumption for Functional. For the highest tier, Reproduced (security) and Reusable (systems) are treated as equivalent.
 
 ### Artifacts
 The total number of evaluated artifacts (papers with at least one badge) authored by this person across all tracked conferences.

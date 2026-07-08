@@ -4,8 +4,6 @@ permalink: /methodology/repository-statistics.html
 skip_chartjs: true
 ---
 
-## Repository Statistics
-
 For artifacts with GitHub/GitLab repositories or Zenodo/Figshare archives, we collect engagement metrics as supplementary signals of community uptake:
 
 ### GitHub/GitLab Metrics

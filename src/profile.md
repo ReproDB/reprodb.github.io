@@ -1,7 +1,7 @@
 ---
 title: "Profile"
 permalink: /profile.html
-layout: default
+layout: single
 ---
 
 {% include profile_common.html %}
