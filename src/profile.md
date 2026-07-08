@@ -100,5 +100,6 @@ layout: default
   data-availability='{{ "/assets/data/artifact_availability.json" | relative_url }}'
   data-institutions='{{ "/assets/data/institution_rankings.json" | relative_url }}'
   data-inst-history='{{ "/assets/data/institution_ranking_history.json" | relative_url }}'
+  data-artifinder-authors='{{ "/assets/data/artifinder_authors.json" | relative_url }}'
 ></div>
 <script src="{{ '/assets/js/reprodb-profile-page.js' | relative_url }}"></script>

@@ -68,7 +68,8 @@
     var onlyGithub = raw.indexOf('#github') !== -1;
     var onlyZenodo = raw.indexOf('#zenodo') !== -1;
     var onlyNourl = raw.indexOf('#nourl') !== -1;
-    var cleaned = raw.replace(/#(unavailable|awarded|github|zenodo|nourl)/g, '').trim();
+    var onlyArtifinder = raw.indexOf('#artifinder') !== -1;
+    var cleaned = raw.replace(/#(unavailable|awarded|github|zenodo|nourl|artifinder)/g, '').trim();
     var query = normalizeText(cleaned);
     var yearVal = document.getElementById('yearFilter').value;
     var venueVal = document.getElementById('venueFilter').value;
@@ -101,6 +102,9 @@
       }
       if (onlyNourl) {
         if (d.artifact_urls && d.artifact_urls.length > 0) return false;
+      }
+      if (onlyArtifinder) {
+        if (!d.artifinder_urls || d.artifinder_urls.length === 0) return false;
       }
       if (terms.length === 0) return true;
       return terms.every(function(t) { return d._search.indexOf(t) !== -1; });
@@ -222,7 +226,10 @@
 
       // Line 1: Bold title (linked to artifact)
       var artUrls = (d.artifact_urls || []).map(normalizeUrl);
-      var titleLink = artUrls.length > 0 ? artUrls[0] : normalizeUrl(d.repository_url || d.artifact_url || '');
+      var afTitleUrls = (d.artifinder_urls || []).map(normalizeUrl);
+      var titleLink = artUrls.length > 0
+        ? artUrls[0]
+        : (afTitleUrls[0] || normalizeUrl(d.repository_url || d.artifact_url || ''));
       var titleHtml = titleLink
         ? '<a href="' + escHtml(titleLink) + '" target="_blank" rel="noopener">' + escHtml(d.title) + '</a>'
         : escHtml(d.title);
@@ -269,6 +276,14 @@
         });
       }
       if (d.appendix_url) links.push('<a href="' + escHtml(normalizeUrl(d.appendix_url)) + '" target="_blank" rel="noopener">📋 Appendix</a>');
+      // ArtiFinder-discovered links: not manually verified, no badges.
+      var afUrls = (d.artifinder_urls || []).map(normalizeUrl);
+      afUrls.forEach(function(u) {
+        if (!u) return;
+        var isGH = u.indexOf('github.com') !== -1;
+        var lbl = isGH ? '💻 GitHub' : '📦 Artifact';
+        links.push('<a class="artifinder-link" href="' + escHtml(u) + '" target="_blank" rel="noopener">' + lbl + '</a>' + artifinderTag());
+      });
       var linksLine = links.length > 0 ? links.join(' &middot; ') : '';
 
       entry.innerHTML =
@@ -295,6 +310,7 @@
       var e = {title: d.title, conference: d.conference, category: d.category, year: d.year, badges: d.badges, authors: d.authors, affiliations: d.affiliations};
       if (d.doi_url) e.doi_url = d.doi_url;
       if (d.artifact_urls && d.artifact_urls.length) e.artifact_urls = d.artifact_urls;
+      if (d.artifinder_urls && d.artifinder_urls.length) e.artifinder_urls = d.artifinder_urls;
       if (d.paper_url) e.paper_url = d.paper_url;
       if (d.appendix_url) e.appendix_url = d.appendix_url;
       if (d.award) e.award = d.award;
@@ -455,6 +471,13 @@
       return ' <span class="avail-warn">\u26a0 may be unavailable<span class="avail-tip">' + escHtml(tip) + '</span></span>';
     }
     return '';
+  }
+
+  function artifinderTag() {
+    var logo = baseUrl + '/assets/images/artifinder-logo.svg';
+    var tip = 'Found automatically by ArtiFinder — not manually verified by an artifact evaluation committee.';
+    return ' <span class="artifinder-tag"><img class="artifinder-logo" src="' + escHtml(logo) +
+      '" alt="" aria-hidden="true"> Artifinder<span class="avail-tip">' + escHtml(tip) + '</span></span>';
   }
 
   /* ── Deferred loaders — fetch after page load to avoid blocking ── */
