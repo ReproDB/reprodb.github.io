@@ -84,22 +84,20 @@ main:
   - title: Overview
     url: methodology.html
   - title: Data Collection
-    url: methodology.html#data-collection
+    url: methodology/data-collection.html
   - title: Pipeline
-    url: methodology.html#pipeline
+    url: methodology/pipeline.html
   - title: Author Metrics
-    url: methodology.html#author-metrics
+    url: methodology/author-metrics.html
   - title: Institution Metrics
-    url: methodology.html#institution-metrics
+    url: methodology/institution-metrics.html
   - title: Repository Statistics
-    url: methodology.html#repository-statistics
+    url: methodology/repository-statistics.html
   - title: Search Keywords
-    url: methodology.html#search-keywords
-  - title: How to Cite
-    url: methodology.html#how-to-cite
+    url: methodology/search-keywords.html
   - title: ArtiFinder Discovery
-    url: artifinder.html
-- title: Contribute
+    url: methodology/artifinder.html
+- title: About
   url: about.html
   children:
   - title: Overview
