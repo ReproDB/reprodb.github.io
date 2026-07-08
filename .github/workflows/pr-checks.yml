@@ -85,7 +85,10 @@ jobs:
           for data in "$DATA_DIR"/*_conf_authors.json; do
             [ -f "$data" ] && validate "$data" "$SCHEMA_DIR/conf_authors.schema.json"
           done
-          for data in "$DATA_DIR"/*_institution_rankings.json; do
+          # Only validate files that match the full InstitutionRanking schema.
+          # Per-conference *_institution_rankings.json variants intentionally
+          # omit fields such as top_authors and should not be validated here.
+          for data in "$DATA_DIR"/systems_institution_rankings.json "$DATA_DIR"/security_institution_rankings.json; do
             [ -f "$data" ] && validate "$data" "$SCHEMA_DIR/institution_rankings.schema.json"
           done
 
