@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1790
-  total_stars: 163684
-  total_forks: 21179
+  github_repos: 1894
+  total_stars: 169035
+  total_forks: 22002
   max_stars: 17348
   max_forks: 2444
   zenodo_repos: 953
   total_views: 305879
   total_downloads: 254627
-  avg_stars: 91.4
-  avg_forks: 11.8
+  avg_stars: 89.2
+  avg_forks: 11.6
   median_stars: 6.0
   median_forks: 1.0
   p25_stars: 1.0
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-07-08 08:40:04 UTC
+  last_updated: 2026-07-08 09:24:04 UTC
 by_conference:
 - name: ACSAC
   github_repos: 208
@@ -23,8 +23,8 @@ by_conference:
   total_forks: 757
   avg_stars: 15.0
   avg_forks: 3.6
-  median_stars: 2
-  median_forks: 0
+  median_stars: 2.0
+  median_forks: 0.0
   p25_stars: 0.0
   p75_stars: 8.0
   p25_forks: 0.0
@@ -244,10 +244,10 @@ by_conference:
   total_forks: 848
   avg_stars: 44.6
   avg_forks: 7.9
-  median_stars: 10
-  median_forks: 1
+  median_stars: 9.5
+  median_forks: 1.5
   p25_stars: 3.0
-  p75_stars: 27.5
+  p75_stars: 27.2
   p25_forks: 1.0
   p75_forks: 5.0
   max_stars: 1683
@@ -419,12 +419,12 @@ by_conference:
   total_forks: 12
   avg_stars: 5.9
   avg_forks: 0.8
-  median_stars: 1.0
-  median_forks: 0.0
+  median_stars: 1
+  median_forks: 0
   p25_stars: 0.0
-  p75_stars: 6.2
+  p75_stars: 5.0
   p25_forks: 0.0
-  p75_forks: 0.5
+  p75_forks: 0.0
   max_stars: 53
   max_forks: 6
   years:
@@ -526,10 +526,10 @@ by_conference:
   total_forks: 2126
   avg_stars: 86.8
   avg_forks: 12.7
-  median_stars: 5.0
-  median_forks: 1.0
+  median_stars: 6
+  median_forks: 1
   p25_stars: 2.0
-  p75_stars: 17.0
+  p75_stars: 16.5
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 10080
@@ -712,44 +712,44 @@ by_conference:
     - functional
     - reproduced
 - name: NDSS
-  github_repos: 98
-  total_stars: 840
-  total_forks: 200
-  avg_stars: 8.6
-  avg_forks: 2.0
+  github_repos: 123
+  total_stars: 1706
+  total_forks: 333
+  avg_stars: 13.9
+  avg_forks: 2.7
   median_stars: 4.0
   median_forks: 1.0
-  p25_stars: 1.0
+  p25_stars: 1.2
   p75_stars: 12.0
   p25_forks: 0.0
   p75_forks: 2.0
-  max_stars: 157
+  max_stars: 390
   max_forks: 90
   years:
   - year: 2024
-    github_repos: 17
-    total_stars: 305
-    total_forks: 107
-    avg_stars: 17.9
-    avg_forks: 6.3
-    median_stars: 7
-    median_forks: 1
-    p25_stars: 2.5
-    p75_stars: 20.0
+    github_repos: 26
+    total_stars: 832
+    total_forks: 189
+    avg_stars: 32.0
+    avg_forks: 7.3
+    median_stars: 10.0
+    median_forks: 1.0
+    p25_stars: 3.0
+    p75_stars: 21.2
     p25_forks: 0.0
-    p75_forks: 2.5
+    p75_forks: 3.0
   - year: 2025
-    github_repos: 32
-    total_stars: 275
-    total_forks: 58
-    avg_stars: 8.6
-    avg_forks: 1.8
-    median_stars: 6.0
+    github_repos: 48
+    total_stars: 614
+    total_forks: 109
+    avg_stars: 12.8
+    avg_forks: 2.3
+    median_stars: 6.5
     median_forks: 1.0
     p25_stars: 2.0
-    p75_stars: 12.8
+    p75_stars: 15.5
     p25_forks: 0.0
-    p75_forks: 2.8
+    p75_forks: 3.0
   - year: 2026
     github_repos: 49
     total_stars: 260
@@ -763,6 +763,26 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 1.0
   top_repos:
+  - title: Large Language Model guided Protocol Fuzzing
+    url: https://github.com/ChatAFLndss/ChatAFL
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 390
+    forks: 54
+    description: Large Language Model guided Protocol Fuzzing (NDSS'24)
+    language: C
+    name: ChatAFLndss/ChatAFL
+    pushed_at: '2025-06-30T12:32:33Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Ruijie Meng
+    - Martin Mirchev
+    - Marcel Böhme
+    - Abhik Roychoudhury
   - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
       on IoT Devices'
     url: https://github.com/IoTAccessControl/MCU-Token
@@ -802,49 +822,31 @@ by_conference:
     pushed_at: '2025-03-01T13:16:21Z'
     badges: *id001
     authors: *id002
-  - title: 'SHAFT: Secure, Handy, Accurate and Fast Transformer Inference'
-    url: https://github.com/andeskyl/SHAFT
+  - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
+      on IoT Devices'
+    url: https://github.com/IoTAccessControl/MCU-Token/tree/master
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 157
+    forks: 90
+    description: A secure IoT authentication framework based on hardware fingerprinting
+    language: C
+    name: IoTAccessControl/MCU-Token
+    pushed_at: '2025-03-01T13:16:21Z'
+    badges: *id001
+    authors: *id002
+  - title: 'IsolateGPT: An Execution Isolation Architecture for LLM-Based Systems'
+    url: https://github.com/llm-platform-security/SecGPT
     conference: NDSS
     year: 2025
     area: security
-    stars: 29
-    forks: 10
-    description: A framework for secure, handy, accurate, and fast transformer inference
+    stars: 117
+    forks: 13
+    description: An Execution Isolation Architecture for LLM-Based Agentic Systems
     language: Python
-    name: andeskyl/SHAFT
-    pushed_at: '2025-08-29T06:32:55Z'
-    badges: &id003
-    - available
-    - functional
-    - reproduced
-    authors: &id004
-    - Andes Y. L. Kei
-    - Sherman S. M. Chow
-  - title: 'SHAFT: Secure, Handy, Accurate and Fast Transformer Inference'
-    url: https://github.com/andeskyl/SHAFT
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 29
-    forks: 10
-    description: A framework for secure, handy, accurate, and fast transformer inference
-    language: Python
-    name: andeskyl/SHAFT
-    pushed_at: '2025-08-29T06:32:55Z'
-    badges: *id003
-    authors: *id004
-  - title: 'Corpus Christi: Establishing Replicability when Sharing the Bread is Not
-      Allowed'
-    url: https://github.com/fkie-cad/linux-firmware-corpus
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 26
-    forks: 2
-    description: ''
-    language: HTML
-    name: fkie-cad/linux-firmware-corpus
-    pushed_at: '2025-08-20T17:28:16Z'
+    name: llm-platform-security/SecGPT
+    pushed_at: '2025-01-31T18:47:41Z'
     badges:
     - available
     - functional
@@ -855,12 +857,12 @@ by_conference:
   total_forks: 4924
   avg_stars: 295.9
   avg_forks: 36.2
-  median_stars: 32
+  median_stars: 34
   median_forks: 5
-  p25_stars: 9.0
-  p75_stars: 76.0
+  p25_stars: 9.5
+  p75_stars: 76.5
   p25_forks: 1.0
-  p75_forks: 14.0
+  p75_forks: 14.5
   max_stars: 14357
   max_forks: 1858
   years:
@@ -1047,7 +1049,7 @@ by_conference:
   median_stars: 1.0
   median_forks: 0.0
   p25_stars: 0.0
-  p75_stars: 4.2
+  p75_stars: 4.0
   p25_forks: 0.0
   p75_forks: 1.0
   max_stars: 13082
@@ -1225,12 +1227,12 @@ by_conference:
   total_forks: 2958
   avg_stars: 178.8
   avg_forks: 20.7
-  median_stars: 18
-  median_forks: 4
+  median_stars: 18.0
+  median_forks: 4.0
   p25_stars: 6.0
-  p75_stars: 47.5
+  p75_stars: 47.2
   p25_forks: 1.0
-  p75_forks: 11.5
+  p75_forks: 11.2
   max_stars: 17348
   max_forks: 1329
   years:
@@ -1420,7 +1422,7 @@ by_conference:
     language: Python
     name: comsec-group/phoenix
     pushed_at: '2026-05-14T19:57:38Z'
-    badges: &id005
+    badges: &id003
     - available
     - functional
     - reproduced
@@ -1436,7 +1438,20 @@ by_conference:
     language: Python
     name: comsec-group/phoenix
     pushed_at: '2026-05-14T19:57:38Z'
-    badges: *id005
+    badges: *id003
+  - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
+    url: https://github.com/comsec-group/phoenix
+    conference: SP
+    year: 2026
+    area: security
+    stars: 70
+    forks: 9
+    description: 'Artifacts for "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting
+      Synchronization" (IEEE S&P ''26)'
+    language: Python
+    name: comsec-group/phoenix
+    pushed_at: '2026-05-14T19:57:38Z'
+    badges: *id003
   - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
     url: https://github.com/google/private-membership
     conference: SP
@@ -1448,7 +1463,7 @@ by_conference:
     language: C++
     name: google/private-membership
     pushed_at: '2026-06-30T15:22:39Z'
-    badges: &id006
+    badges: &id004
     - available
   - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
     url: https://github.com/google/private-membership
@@ -1461,24 +1476,7 @@ by_conference:
     language: C++
     name: google/private-membership
     pushed_at: '2026-06-30T15:22:39Z'
-    badges: *id006
-  - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation
-      in Cloud Environments'
-    url: https://github.com/comsec-group/vmscape
-    conference: SP
-    year: 2026
-    area: security
-    stars: 42
-    forks: 2
-    description: 'Artefacts for: "VMScape: Exposing and Exploiting Incomplete Branch
-      Predictor Isolation in Cloud Environments"'
-    language: C
-    name: comsec-group/vmscape
-    pushed_at: '2026-05-05T13:39:27Z'
-    badges:
-    - available
-    - functional
-    - reproduced
+    badges: *id004
 - name: SYSTEX
   github_repos: 17
   total_stars: 60
@@ -1601,90 +1599,90 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 534
-  total_stars: 40423
-  total_forks: 6576
-  avg_stars: 75.7
-  avg_forks: 12.3
+  github_repos: 613
+  total_stars: 44908
+  total_forks: 7266
+  avg_stars: 73.3
+  avg_forks: 11.9
   median_stars: 8
   median_forks: 1
   p25_stars: 3.0
-  p75_stars: 25.0
+  p75_stars: 27.5
   p25_forks: 0.0
-  p75_forks: 4.0
+  p75_forks: 5.0
   max_stars: 14036
   max_forks: 2444
   years:
   - year: 2020
-    github_repos: 24
-    total_stars: 3811
-    total_forks: 652
-    avg_stars: 158.8
-    avg_forks: 27.2
+    github_repos: 26
+    total_stars: 3971
+    total_forks: 682
+    avg_stars: 152.7
+    avg_forks: 26.2
     median_stars: 41.0
     median_forks: 10.5
-    p25_stars: 12.0
-    p75_stars: 149.0
-    p25_forks: 3.2
-    p75_forks: 24.0
-  - year: 2021
-    github_repos: 25
-    total_stars: 2064
-    total_forks: 283
-    avg_stars: 82.6
-    avg_forks: 11.3
-    median_stars: 25
-    median_forks: 6
     p25_stars: 11.0
-    p75_stars: 73.5
+    p75_stars: 156.8
+    p25_forks: 3.0
+    p75_forks: 26.0
+  - year: 2021
+    github_repos: 26
+    total_stars: 2082
+    total_forks: 287
+    avg_stars: 80.1
+    avg_forks: 11.0
+    median_stars: 24.5
+    median_forks: 5.5
+    p25_stars: 11.0
+    p75_stars: 70.2
     p25_forks: 2.0
-    p75_forks: 11.5
+    p75_forks: 11.2
   - year: 2022
-    github_repos: 90
-    total_stars: 5755
-    total_forks: 844
-    avg_stars: 63.9
+    github_repos: 101
+    total_stars: 6686
+    total_forks: 945
+    avg_stars: 66.2
     avg_forks: 9.4
-    median_stars: 13.5
-    median_forks: 2.0
-    p25_stars: 4.8
-    p75_stars: 41.8
+    median_stars: 14
+    median_forks: 2
+    p25_stars: 5.0
+    p75_stars: 55.5
     p25_forks: 1.0
     p75_forks: 8.0
   - year: 2023
-    github_repos: 118
-    total_stars: 4606
-    total_forks: 826
-    avg_stars: 39.0
-    avg_forks: 7.0
-    median_stars: 13.0
-    median_forks: 2.0
-    p25_stars: 5.8
-    p75_stars: 34.0
+    github_repos: 133
+    total_stars: 6330
+    total_forks: 1118
+    avg_stars: 47.6
+    avg_forks: 8.4
+    median_stars: 13
+    median_forks: 2
+    p25_stars: 6.0
+    p75_stars: 37.5
     p25_forks: 1.0
     p75_forks: 6.0
   - year: 2024
-    github_repos: 128
-    total_stars: 16839
-    total_forks: 2825
-    avg_stars: 131.6
-    avg_forks: 22.1
-    median_stars: 9.0
-    median_forks: 2.0
+    github_repos: 143
+    total_stars: 17668
+    total_forks: 2993
+    avg_stars: 123.6
+    avg_forks: 20.9
+    median_stars: 9
+    median_forks: 2
     p25_stars: 4.0
-    p75_stars: 25.0
+    p75_stars: 28.0
     p25_forks: 1.0
-    p75_forks: 3.8
+    p75_forks: 4.0
   - year: 2025
-    github_repos: 111
-    total_stars: 6661
-    total_forks: 931
-    avg_stars: 60.0
-    avg_forks: 8.4
-    median_stars: 6
+    github_repos: 149
+    total_stars: 7768
+    total_forks: 1083
+    avg_stars: 52.1
+    avg_forks: 7.3
+    median_stars: 7
     median_forks: 1
-    p25_stars: 2.0
-    p75_stars: 14.0
+    p25_stars: 3.0
+    p75_stars: 15.0
     p25_forks: 0.0
     p75_forks: 2.0
   - year: 2026
@@ -1713,11 +1711,11 @@ by_conference:
     language: Python
     name: GreyDGL/PentestGPT
     pushed_at: '2026-06-07T07:25:45Z'
-    badges: &id007
+    badges: &id005
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id008
+    authors: &id006
     - Gelei Deng
     - Yi Liu 0069
     - Víctor Mayoral Vilches
@@ -1741,8 +1739,23 @@ by_conference:
     language: Python
     name: GreyDGL/PentestGPT
     pushed_at: '2026-06-07T07:25:45Z'
-    badges: *id007
-    authors: *id008
+    badges: *id005
+    authors: *id006
+  - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
+      Penetration Testing'
+    url: https://github.com/GreyDGL/PentestGPT
+    conference: USENIXSEC
+    year: 2024
+    area: security
+    stars: 14036
+    forks: 2444
+    description: Automated Penetration Testing Agentic Framework Powered by Large
+      Language Models
+    language: Python
+    name: GreyDGL/PentestGPT
+    pushed_at: '2026-06-07T07:25:45Z'
+    badges: *id005
+    authors: *id006
   - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
     url: https://github.com/richzhang/PerceptualSimilarity
     conference: USENIXSEC
@@ -1754,11 +1767,11 @@ by_conference:
     language: Python
     name: richzhang/PerceptualSimilarity
     pushed_at: '2024-07-02T17:30:14Z'
-    badges: &id009
+    badges: &id007
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id010
+    authors: &id008
     - Junhua Lin
     - Marc Juarez
   - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
@@ -1772,41 +1785,20 @@ by_conference:
     language: Python
     name: richzhang/PerceptualSimilarity
     pushed_at: '2024-07-02T17:30:14Z'
-    badges: *id009
-    authors: *id010
-  - title: 'BlockSci: Design and applications of a blockchain analysis platform'
-    url: https://github.com/citp/BlockSci
-    conference: USENIXSEC
-    year: 2020
-    area: security
-    stars: 1394
-    forks: 273
-    description: A high-performance tool for blockchain science and exploration
-    language: C++
-    name: citp/BlockSci
-    pushed_at: '2021-12-13T09:59:46Z'
-    badges:
-    - Artifact Evaluated
-    authors:
-    - Harry A. Kalodner
-    - Malte Möser
-    - Kevin Lee
-    - Steven Goldfeder
-    - Martin Plattner
-    - Alishah Chator
-    - Arvind Narayanan
+    badges: *id007
+    authors: *id008
 - name: WOOT
   github_repos: 30
   total_stars: 16226
   total_forks: 1317
   avg_stars: 540.9
   avg_forks: 43.9
-  median_stars: 10
-  median_forks: 1
+  median_stars: 12.0
+  median_forks: 1.0
   p25_stars: 1.0
   p75_stars: 36.0
   p25_forks: 0.0
-  p75_forks: 7.5
+  p75_forks: 7.8
   max_stars: 12494
   max_forks: 1011
   years:
@@ -1910,11 +1902,11 @@ by_conference:
     language: C
     name: endrazine/wcc
     pushed_at: '2026-05-22T09:40:28Z'
-    badges: &id011
+    badges: &id009
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id012
+    authors: &id010
     - Jonathan Brossard
   - title: Introduction to Procedural Debugging through Binary Libification
     url: https://github.com/endrazine/wcc
@@ -1927,8 +1919,21 @@ by_conference:
     language: C
     name: endrazine/wcc
     pushed_at: '2026-05-22T09:40:28Z'
-    badges: *id011
-    authors: *id012
+    badges: *id009
+    authors: *id010
+  - title: Introduction to Procedural Debugging through Binary Libification
+    url: https://github.com/endrazine/wcc
+    conference: WOOT
+    year: 2024
+    area: security
+    stars: 1994
+    forks: 117
+    description: The Witchcraft Compiler Collection
+    language: C
+    name: endrazine/wcc
+    pushed_at: '2026-05-22T09:40:28Z'
+    badges: *id009
+    authors: *id010
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -1951,19 +1956,6 @@ by_conference:
     - Tommaso Sacchetti
     - Daniele Antonioli
     - Martin Strohmeier
-  - title: 'CustomProcessingUnit: Reverse Engineering and Customization of Intel Microcode'
-    url: https://github.com/pietroborrello/CustomProcessingUnit
-    conference: WOOT
-    year: 2023
-    area: security
-    stars: 410
-    forks: 27
-    description: The first analysis framework for CPU microcode
-    language: C
-    name: pietroborrello/CustomProcessingUnit
-    pushed_at: '2023-03-13T16:54:52Z'
-    badges:
-    - ORO
 by_year:
 - year: 2017
   github_repos: 5
@@ -2008,85 +2000,85 @@ by_year:
   max_stars: 12494
   max_forks: 1011
 - year: 2020
-  github_repos: 91
-  total_stars: 36345
-  total_forks: 4754
-  avg_stars: 399.4
-  avg_forks: 52.2
+  github_repos: 93
+  total_stars: 36505
+  total_forks: 4784
+  avg_stars: 392.5
+  avg_forks: 51.4
   median_stars: 19
   median_forks: 4
   p25_stars: 4.0
-  p75_stars: 67.0
+  p75_stars: 78.5
   p25_forks: 1.0
   p75_forks: 18.0
   max_stars: 14357
   max_forks: 1858
 - year: 2021
-  github_repos: 138
-  total_stars: 19753
-  total_forks: 1782
-  avg_stars: 143.1
-  avg_forks: 12.9
-  median_stars: 13.5
-  median_forks: 4.0
+  github_repos: 139
+  total_stars: 19771
+  total_forks: 1786
+  avg_stars: 142.2
+  avg_forks: 12.8
+  median_stars: 14
+  median_forks: 4
   p25_stars: 5.0
   p75_stars: 34.0
   p25_forks: 1.0
-  p75_forks: 8.2
+  p75_forks: 8.0
   max_stars: 13082
   max_forks: 656
 - year: 2022
-  github_repos: 268
-  total_stars: 35168
-  total_forks: 4920
-  avg_stars: 131.2
-  avg_forks: 18.4
-  median_stars: 8.5
-  median_forks: 2.0
+  github_repos: 279
+  total_stars: 36099
+  total_forks: 5021
+  avg_stars: 129.4
+  avg_forks: 18.0
+  median_stars: 9
+  median_forks: 2
   p25_stars: 2.0
   p75_stars: 28.0
-  p25_forks: 0.0
+  p25_forks: 1.0
   p75_forks: 7.0
   max_stars: 14357
   max_forks: 1858
 - year: 2023
-  github_repos: 291
-  total_stars: 12282
-  total_forks: 2423
-  avg_stars: 42.2
-  avg_forks: 8.3
-  median_stars: 10
-  median_forks: 2
+  github_repos: 306
+  total_stars: 14006
+  total_forks: 2715
+  avg_stars: 45.8
+  avg_forks: 8.9
+  median_stars: 10.0
+  median_forks: 2.0
   p25_stars: 3.0
-  p75_stars: 32.0
+  p75_stars: 36.2
   p25_forks: 0.0
   p75_forks: 5.0
   max_stars: 1683
   max_forks: 278
 - year: 2024
-  github_repos: 355
-  total_stars: 26049
-  total_forks: 3973
-  avg_stars: 73.4
-  avg_forks: 11.2
+  github_repos: 379
+  total_stars: 27405
+  total_forks: 4223
+  avg_stars: 72.3
+  avg_forks: 11.1
   median_stars: 7
   median_forks: 1
   p25_stars: 2.0
-  p75_stars: 21.0
+  p75_stars: 22.0
   p25_forks: 0.0
   p75_forks: 3.0
   max_stars: 14036
   max_forks: 2444
 - year: 2025
-  github_repos: 365
-  total_stars: 27763
-  total_forks: 2955
-  avg_stars: 76.1
-  avg_forks: 8.1
+  github_repos: 419
+  total_stars: 29209
+  total_forks: 3158
+  avg_stars: 69.7
+  avg_forks: 7.5
   median_stars: 3
-  median_forks: 0
-  p25_stars: 0.0
-  p75_stars: 11.0
+  median_forks: 1
+  p25_stars: 1.0
+  p75_stars: 12.0
   p25_forks: 0.0
   p75_forks: 2.0
   max_stars: 17348
@@ -2107,24 +2099,24 @@ by_year:
   max_forks: 1094
 by_area:
 - name: systems
-  github_repos: 619
-  total_stars: 104629
-  total_forks: 13729
+  github_repos: 661
+  total_stars: 106699
+  total_forks: 14260
   median_stars: 11
   median_forks: 2
   p25_stars: 3.0
-  p75_stars: 41.0
+  p75_stars: 40.0
   p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 17348
 - name: security
-  github_repos: 1529
-  total_stars: 110099
-  total_forks: 15307
-  median_stars: 4
+  github_repos: 2133
+  total_stars: 152344
+  total_forks: 22040
+  median_stars: 5
   median_forks: 1
   p25_stars: 1.0
-  p75_stars: 14.5
+  p75_stars: 17.0
   p25_forks: 0.0
   p75_forks: 3.0
   max_stars: 14036
