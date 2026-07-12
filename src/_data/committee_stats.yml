@@ -1,16 +1,16 @@
-last_updated: '2026-07-08'
-total_members: 4593
-total_systems: 2370
+last_updated: '2026-07-12'
+total_members: 4594
+total_systems: 2371
 total_security: 2223
-total_conferences: 70
+total_conferences: 71
 total_countries: 59
 total_continents: 6
 total_institutions: 487
-unique_members: 2555
-unique_members_systems: 1249
+unique_members: 2556
+unique_members_systems: 1250
 unique_members_security: 1402
 unique_members_both: 96
-recurring_chairs: 84
+recurring_chairs: 85
 top_countries:
 - name: United States
   count: 2231
@@ -19,7 +19,7 @@ top_countries:
 - name: Germany
   count: 215
 - name: Hong Kong
-  count: 198
+  count: 199
 - name: United Kingdom
   count: 112
 - name: Taiwan, Province of China
@@ -48,7 +48,7 @@ top_countries_systems:
 - name: China
   count: 276
 - name: Hong Kong
-  count: 128
+  count: 129
 - name: United Kingdom
   count: 61
 - name: Switzerland
@@ -108,7 +108,7 @@ top_continents:
 - name: North America
   count: 2301
 - name: Asia
-  count: 977
+  count: 978
 - name: Europe
   count: 813
 - name: Oceania
@@ -121,7 +121,7 @@ top_continents_systems:
 - name: North America
   count: 1326
 - name: Asia
-  count: 599
+  count: 600
 - name: Europe
   count: 293
 - name: Africa
@@ -170,9 +170,9 @@ top_institutions:
   count: 57
 - name: University of California, Berkeley
   count: 49
-- name: microsoft
-  count: 45
 - name: The Chinese University of Hong Kong
+  count: 46
+- name: microsoft
   count: 45
 - name: University of California, San Diego
   count: 44
@@ -205,9 +205,9 @@ top_institutions_systems:
   count: 40
 - name: National Tsinghua University
   count: 38
-- name: University of California, Berkeley
-  count: 37
 - name: The Chinese University of Hong Kong
+  count: 38
+- name: University of California, Berkeley
   count: 37
 - name: microsoft
   count: 36
@@ -367,6 +367,11 @@ committee_sizes:
   conf_year: atc2025
   area: systems
   size: 174
+- conference: ATC
+  year: 2026
+  conf_year: atc2026
+  area: systems
+  size: 1
 - conference: CAIS
   year: 2026
   conf_year: cais2026
@@ -663,21 +668,21 @@ committee_sizes:
   area: security
   size: 16
 chair_stats:
-  total_chairs: 84
-  total_chairs_systems: 55
+  total_chairs: 85
+  total_chairs_systems: 56
   total_chairs_security: 31
   repeat_chairs: 24
-  repeat_chairs_pct: 28.6
+  repeat_chairs_pct: 28.2
   repeat_chairs_systems: 13
   repeat_chairs_security: 12
   cross_conference_chairs: 14
   pipeline_promoted: 31
-  pipeline_promoted_pct: 36.9
+  pipeline_promoted_pct: 36.5
   pipeline_avg_years: 2.7
   avg_chairs_per_edition: 2.1
-  avg_chairs_per_edition_systems: 2.6
+  avg_chairs_per_edition_systems: 2.5
   avg_chairs_per_edition_security: 1.7
-  total_countries: 16
+  total_countries: 17
   total_continents: 4
   year_trends:
   - year: 2017
@@ -708,8 +713,8 @@ chair_stats:
     new_chairs: 11
     active_chairs: 15
   - year: 2026
-    new_chairs: 12
-    active_chairs: 18
+    new_chairs: 13
+    active_chairs: 19
   - year: 2027
     new_chairs: 1
     active_chairs: 2

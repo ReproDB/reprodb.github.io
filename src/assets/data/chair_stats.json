@@ -1,20 +1,20 @@
 {
   "summary": {
-    "total_chairs": 84,
-    "total_chairs_systems": 55,
+    "total_chairs": 85,
+    "total_chairs_systems": 56,
     "total_chairs_security": 31,
     "repeat_chairs": 24,
-    "repeat_chairs_pct": 28.6,
+    "repeat_chairs_pct": 28.2,
     "repeat_chairs_systems": 13,
     "repeat_chairs_security": 12,
     "cross_conference_chairs": 14,
     "pipeline_promoted": 31,
-    "pipeline_promoted_pct": 36.9,
+    "pipeline_promoted_pct": 36.5,
     "pipeline_avg_years": 2.7,
     "avg_chairs_per_edition": 2.1,
-    "avg_chairs_per_edition_systems": 2.6,
+    "avg_chairs_per_edition_systems": 2.5,
     "avg_chairs_per_edition_security": 1.7,
-    "total_countries": 16,
+    "total_countries": 17,
     "total_continents": 4,
     "year_trends": [
       {
@@ -64,8 +64,8 @@
       },
       {
         "year": 2026,
-        "new_chairs": 12,
-        "active_chairs": 18
+        "new_chairs": 13,
+        "active_chairs": 19
       },
       {
         "year": 2027,
@@ -171,6 +171,14 @@
       "chairs": [
         "Alain Tchana",
         "Vijay Chidambaram"
+      ]
+    },
+    {
+      "conference": "ATC",
+      "year": 2026,
+      "chair_count": 1,
+      "chairs": [
+        "Patrick P. C. Lee"
       ]
     },
     {
@@ -580,7 +588,7 @@
   ],
   "pipeline": {
     "promoted_count": 31,
-    "promoted_pct": 36.9,
+    "promoted_pct": 36.5,
     "avg_years_to_chair": 2.7,
     "min_years": 1,
     "max_years": 9,
@@ -776,7 +784,7 @@
   "retention": {
     "repeat_count": 24,
     "distribution": {
-      "1": 60,
+      "1": 61,
       "2": 17,
       "3": 4,
       "4": 2,
@@ -1288,6 +1296,13 @@
         "last_year": 2022
       },
       {
+        "name": "Patrick P. C. Lee",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2026,
+        "last_year": 2026
+      },
+      {
         "name": "Pierre Olivier",
         "span_years": 1,
         "chair_count": 1,
@@ -1504,7 +1519,7 @@
     }
   ],
   "geographic": {
-    "total_countries": 16,
+    "total_countries": 17,
     "total_continents": 4,
     "by_country": {
       "United States": 40,
@@ -1522,12 +1537,13 @@
       "Australia": 1,
       "Singapore": 1,
       "Portugal": 1,
+      "Hong Kong": 1,
       "Sweden": 1
     },
     "by_continent": {
       "North America": 41,
       "Europe": 33,
-      "Asia": 7,
+      "Asia": 8,
       "Oceania": 1
     },
     "unclassified_count": 2

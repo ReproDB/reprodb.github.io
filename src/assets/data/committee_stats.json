@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_members": 4593,
-    "total_systems": 2370,
+    "total_members": 4594,
+    "total_systems": 2371,
     "total_security": 2223,
     "total_countries": 59,
     "total_continents": 6,
@@ -23,7 +23,7 @@
       },
       {
         "name": "Hong Kong",
-        "count": 198
+        "count": 199
       },
       {
         "name": "United Kingdom",
@@ -257,7 +257,7 @@
       },
       {
         "name": "Hong Kong",
-        "count": 128
+        "count": 129
       },
       {
         "name": "United Kingdom",
@@ -651,7 +651,7 @@
       },
       {
         "name": "Asia",
-        "count": 977
+        "count": 978
       },
       {
         "name": "Europe",
@@ -677,7 +677,7 @@
       },
       {
         "name": "Asia",
-        "count": 599
+        "count": 600
       },
       {
         "name": "Europe",
@@ -778,11 +778,11 @@
         "count": 49
       },
       {
-        "name": "microsoft",
-        "count": 45
+        "name": "The Chinese University of Hong Kong",
+        "count": 46
       },
       {
-        "name": "The Chinese University of Hong Kong",
+        "name": "microsoft",
         "count": 45
       },
       {
@@ -2716,11 +2716,11 @@
         "count": 38
       },
       {
-        "name": "University of California, Berkeley",
-        "count": 37
+        "name": "The Chinese University of Hong Kong",
+        "count": 38
       },
       {
-        "name": "The Chinese University of Hong Kong",
+        "name": "University of California, Berkeley",
         "count": 37
       },
       {
@@ -5557,6 +5557,7 @@
         "Israel": 1
       },
       "2026": {
+        "Hong Kong": 39,
         "United States": 518,
         "India": 11,
         "Singapore": 11,
@@ -5566,7 +5567,6 @@
         "China": 62,
         "Korea, Republic of": 12,
         "Ethiopia": 6,
-        "Hong Kong": 38,
         "Japan": 13,
         "United Kingdom": 7,
         "Greece": 3,
@@ -5769,6 +5769,7 @@
         "Australia": 1
       },
       "2026": {
+        "Hong Kong": 13,
         "United States": 227,
         "India": 5,
         "Singapore": 3,
@@ -5778,7 +5779,6 @@
         "China": 28,
         "Korea, Republic of": 6,
         "Ethiopia": 2,
-        "Hong Kong": 12,
         "Japan": 3,
         "United Kingdom": 5,
         "Greece": 3,
@@ -6114,8 +6114,8 @@
         "South America": 1
       },
       "2026": {
+        "Asia": 181,
         "North America": 535,
-        "Asia": 180,
         "Europe": 127,
         "Africa": 15,
         "Oceania": 16
@@ -6175,8 +6175,8 @@
         "Oceania": 1
       },
       "2026": {
+        "Asia": 69,
         "North America": 229,
-        "Asia": 68,
         "Europe": 27,
         "Africa": 7
       },
@@ -6331,6 +6331,13 @@
       "conf_year": "atc2025",
       "area": "systems",
       "size": 174
+    },
+    {
+      "conference": "ATC",
+      "year": 2026,
+      "conf_year": "atc2026",
+      "area": "systems",
+      "size": 1
     },
     {
       "conference": "CAIS",

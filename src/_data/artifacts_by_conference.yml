@@ -257,7 +257,7 @@
 - name: PETS
   category: security
   venue_type: conference
-  total_artifacts: 383
+  total_artifacts: 425
   years:
   - year: 2020
     total: 22
@@ -296,10 +296,10 @@
     available: 99
     reusable: 0
   - year: 2026
-    total: 68
-    functional: 50
-    reproducible: 32
-    available: 68
+    total: 110
+    functional: 77
+    reproducible: 51
+    available: 110
     reusable: 0
 - name: SC
   category: systems
