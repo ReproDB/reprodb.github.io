@@ -1,13 +1,13 @@
 overall:
   github_repos: 1933
-  total_stars: 169540
-  total_forks: 22137
+  total_stars: 169828
+  total_forks: 22200
   max_stars: 17348
   max_forks: 2444
   zenodo_repos: 988
   total_views: 315651
   total_downloads: 255955
-  avg_stars: 87.7
+  avg_stars: 87.9
   avg_forks: 11.5
   median_stars: 6
   median_forks: 1
@@ -15,7 +15,7 @@ overall:
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-07-12 13:59:04 UTC
+  last_updated: 2026-07-19 13:57:31 UTC
 by_conference:
 - name: ACSAC
   github_repos: 208
@@ -415,29 +415,29 @@ by_conference:
     - reproduced
 - name: CAIS
   github_repos: 16
-  total_stars: 95
-  total_forks: 12
-  avg_stars: 5.9
-  avg_forks: 0.8
-  median_stars: 1
+  total_stars: 113
+  total_forks: 19
+  avg_stars: 7.1
+  avg_forks: 1.2
+  median_stars: 2
   median_forks: 0
   p25_stars: 0.5
-  p75_stars: 7.5
+  p75_stars: 8.0
   p25_forks: 0.0
   p75_forks: 1.0
-  max_stars: 53
-  max_forks: 6
+  max_stars: 59
+  max_forks: 10
   years:
   - year: 2026
     github_repos: 16
-    total_stars: 95
-    total_forks: 12
-    avg_stars: 5.9
-    avg_forks: 0.8
-    median_stars: 1.0
+    total_stars: 113
+    total_forks: 19
+    avg_stars: 7.1
+    avg_forks: 1.2
+    median_stars: 2.0
     median_forks: 0.0
     p25_stars: 0.2
-    p75_stars: 4.2
+    p75_stars: 5.0
     p25_forks: 0.0
     p75_forks: 0.0
   top_repos:
@@ -446,12 +446,12 @@ by_conference:
     conference: CAIS
     year: 2026
     area: systems
-    stars: 53
-    forks: 6
+    stars: 59
+    forks: 10
     description: TACIT — Tracked Agent Capabilities In Types
     language: Scala
     name: lampepfl/tacit
-    pushed_at: '2026-06-09T20:50:13Z'
+    pushed_at: '2026-06-28T02:33:34Z'
     badges:
     - available
     - functional
@@ -462,13 +462,13 @@ by_conference:
     conference: CAIS
     year: 2026
     area: systems
-    stars: 17
+    stars: 18
     forks: 0
     description: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer
       Devices'
     language: Python
     name: brave-experiments/AgentStop
-    pushed_at: '2026-06-11T23:06:52Z'
+    pushed_at: '2026-07-18T20:39:43Z'
     badges:
     - available
     - functional
@@ -478,8 +478,8 @@ by_conference:
     conference: CAIS
     year: 2026
     area: systems
-    stars: 10
-    forks: 4
+    stars: 11
+    forks: 7
     description: '[ACM CAIS 2026] Improving Coherence and Persistence in Agentic AI
       for System Optimization'
     language: Jupyter Notebook
@@ -493,8 +493,8 @@ by_conference:
     conference: CAIS
     year: 2026
     area: systems
-    stars: 10
-    forks: 4
+    stars: 11
+    forks: 7
     description: '[ACM CAIS 2026] Improving Coherence and Persistence in Agentic AI
       for System Optimization'
     language: Jupyter Notebook
@@ -522,18 +522,18 @@ by_conference:
     - functional
 - name: EUROSYS
   github_repos: 167
-  total_stars: 14408
-  total_forks: 2079
-  avg_stars: 86.3
-  avg_forks: 12.4
+  total_stars: 14664
+  total_forks: 2132
+  avg_stars: 87.8
+  avg_forks: 12.8
   median_stars: 5
   median_forks: 1
   p25_stars: 2.0
   p75_stars: 18.0
   p25_forks: 0.0
   p75_forks: 4.0
-  max_stars: 10080
-  max_forks: 1094
+  max_stars: 10311
+  max_forks: 1138
   years:
   - year: 2021
     github_repos: 22
@@ -597,14 +597,14 @@ by_conference:
     p75_forks: 5.0
   - year: 2026
     github_repos: 48
-    total_stars: 10504
-    total_forks: 1145
-    avg_stars: 218.8
-    avg_forks: 23.9
-    median_stars: 2.5
-    median_forks: 0.0
+    total_stars: 10760
+    total_forks: 1198
+    avg_stars: 224.2
+    avg_forks: 25.0
+    median_stars: 3.0
+    median_forks: 0.5
     p25_stars: 1.0
-    p75_stars: 6.0
+    p75_stars: 7.0
     p25_forks: 0.0
     p75_forks: 2.0
   top_repos:
@@ -613,13 +613,13 @@ by_conference:
     conference: EUROSYS
     year: 2026
     area: systems
-    stars: 10080
-    forks: 1094
+    stars: 10311
+    forks: 1138
     description: Run, manage, and scale AI workloads on any AI infrastructure. Use
       one system to access & manage all AI compute (Kubernet
     language: Python
     name: skypilot-org/skypilot
-    pushed_at: '2026-06-12T05:33:48Z'
+    pushed_at: '2026-07-18T05:41:31Z'
     badges:
     - available
     - functional
@@ -701,8 +701,8 @@ by_conference:
     conference: EUROSYS
     year: 2026
     area: systems
-    stars: 237
-    forks: 15
+    stars: 242
+    forks: 16
     description: A lightweight design for computation-communication overlap.
     language: Python
     name: infinigence/FlashOverlap
@@ -1398,38 +1398,38 @@ by_conference:
     - Functional
 - name: SP
   github_repos: 25
-  total_stars: 267
-  total_forks: 36
-  avg_stars: 10.7
-  avg_forks: 1.4
+  total_stars: 281
+  total_forks: 39
+  avg_stars: 11.2
+  avg_forks: 1.6
   median_stars: 2
-  median_forks: 0
-  p25_stars: 0.0
-  p75_stars: 11.0
+  median_forks: 1
+  p25_stars: 0.5
+  p75_stars: 12.5
   p25_forks: 0.0
-  p75_forks: 1.0
-  max_stars: 70
+  p75_forks: 1.5
+  max_stars: 75
   max_forks: 15
   years:
   - year: 2026
     github_repos: 25
-    total_stars: 267
-    total_forks: 36
-    avg_stars: 10.7
-    avg_forks: 1.4
+    total_stars: 281
+    total_forks: 39
+    avg_stars: 11.2
+    avg_forks: 1.6
     median_stars: 2
-    median_forks: 0
-    p25_stars: 0.0
-    p75_stars: 11.0
+    median_forks: 1
+    p25_stars: 0.5
+    p75_stars: 12.5
     p25_forks: 0.0
-    p75_forks: 1.0
+    p75_forks: 1.5
   top_repos:
   - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
     url: https://github.com/comsec-group/phoenix
     conference: SP
     year: 2026
     area: security
-    stars: 70
+    stars: 75
     forks: 9
     description: 'Artifacts for "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting
       Synchronization" (IEEE S&P ''26)'
@@ -1470,6 +1470,22 @@ by_conference:
     - available
     - functional
     - reproduced
+  - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
+    url: https://github.com/Yuuoniy/SpecAuditor
+    conference: SP
+    year: 2026
+    area: security
+    stars: 21
+    forks: 0
+    description: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug
+      Detection (S&P 2026)'
+    language: HTML
+    name: Yuuoniy/SpecAuditor
+    pushed_at: '2026-06-08T13:31:25Z'
+    badges:
+    - available
+    - functional
+    - reproduced
   - title: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
     url: https://github.com/vusec/rain
     conference: SP
@@ -1485,21 +1501,6 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
-      Auditory Prompt Injection
-    url: https://github.com/zju-muslab/AudioHijack
-    conference: SP
-    year: 2026
-    area: security
-    stars: 18
-    forks: 2
-    description: This is the artifact of the IEEE S&P 2026 paper "Hijacking Large
-      Audio-Language Models via Context-agnostic Auditory Pro
-    language: Python
-    name: zju-muslab/AudioHijack
-    pushed_at: '2026-03-29T10:57:38Z'
-    badges:
-    - available
 - name: SYSTEX
   github_repos: 17
   total_stars: 60
@@ -2130,24 +2131,24 @@ by_year:
   max_forks: 1329
 - year: 2026
   github_repos: 277
-  total_stars: 13388
-  total_forks: 1752
-  avg_stars: 48.3
-  avg_forks: 6.3
+  total_stars: 13676
+  total_forks: 1815
+  avg_stars: 49.4
+  avg_forks: 6.6
   median_stars: 1
   median_forks: 0
   p25_stars: 0.0
   p75_stars: 4.0
   p25_forks: 0.0
   p75_forks: 1.0
-  max_stars: 10080
-  max_forks: 1094
+  max_stars: 10311
+  max_forks: 1138
 by_area:
 - name: systems
   github_repos: 577
-  total_stars: 102559
-  total_forks: 13198
-  median_stars: 12
+  total_stars: 102834
+  total_forks: 13261
+  median_stars: 13
   median_forks: 3
   p25_stars: 3.0
   p75_stars: 43.0
@@ -2156,8 +2157,8 @@ by_area:
   max_stars: 17348
 - name: security
   github_repos: 1387
-  total_stars: 91376
-  total_forks: 12348
+  total_stars: 91390
+  total_forks: 12351
   median_stars: 5
   median_forks: 1
   p25_stars: 1.0
