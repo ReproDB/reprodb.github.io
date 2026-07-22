@@ -30,16 +30,19 @@ Data is automatically collected from:
 
 ### With Docker (recommended)
 
+The Jekyll site lives under `src/`, not the repo root, so use the provided
+script, which builds the image from the repo's `Dockerfile` (installing the
+gems pinned in `Gemfile`) and mounts only `src/` into the container:
+
 ```bash
-docker run --rm -v "$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.2.2 \
-  sh -c "bundle install --quiet && jekyll serve"
+./serve.sh                                # Serve at http://localhost:4000/
 ```
 
 ### With Ruby
 
 ```bash
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --source src
 # View at http://localhost:4000
 ```
 

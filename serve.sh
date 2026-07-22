@@ -26,13 +26,16 @@ if [ -n "$BASEURL" ]; then
     echo "Serving with baseurl: $BASEURL"
 fi
 
+echo "Building local image (installs gems from Gemfile)..."
+docker build -t reprodb-jekyll "$SITE_DIR"
+
 echo "Starting Jekyll at http://localhost:${PORT}${BASEURL}/"
 echo "Press Ctrl+C to stop."
 
 docker run --rm \
-    -v "$SITE_DIR:/srv/jekyll:Z" \
+    -v "$SITE_DIR/src:/srv/jekyll/src:Z" \
     -p "${PORT}:${PORT}" \
     -p 35729:35729 \
     -e JEKYLL_ENV=development \
-    jekyll/jekyll:4 \
-    jekyll serve $JEKYLL_ARGS
+    reprodb-jekyll \
+    bundle exec jekyll serve $JEKYLL_ARGS
