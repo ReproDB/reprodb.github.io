@@ -5,7 +5,7 @@ permalink: /methodology/artifinder.html
 
 [ArtiFinder](https://github.com/DistriNet/ArtiFinder) scrapes conference papers directly and identifies links to their artifacts, independently of any artifact-evaluation (AE) process. This page summarises the ArtiFinder links that ReproDB ingests from the [ArtiFinder-Data](https://github.com/DistriNet/ArtiFinder-Data) repository and how they have grown over time.
 
-ArtiFinder and its underlying longitudinal study are described by Vansteenhuyse et al., *[Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery](https://github.com/DistriNet/ArtiFinder)* (USENIX Security 2026).
+ArtiFinder and its underlying longitudinal study are described by Vansteenhuyse et al., *[Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery](https://daanvs.be/files/usenix-share.pdf)* (USENIX Security 2026).
 
 {: .artifinder-note}
 **These links are _not_ manually verified.** ArtiFinder-discovered artifacts carry **no badges** and are **excluded from every ReproDB score** (artifact rate, reproducibility rate, combined score, institution and author rankings). They are shown for discovery purposes only, marked with an <img src="{{ '/assets/images/artifinder-logo.svg' | relative_url }}" alt="" style="height:1em;vertical-align:-0.15em"> **Artifinder** sign wherever they appear in search and profiles. The one exception is repository statistics: when ArtiFinder finds a GitHub repository for a paper that _did_ go through AE, that repository may be counted in the repository stats.

@@ -4,7 +4,7 @@ permalink: /about.html
 skip_chartjs: true
 ---
 
-ReproDB and its underlying methodology are described in *ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems* by Vahldiek-Oberwagner, Bognar, and Signorello (ACM REP 2026).
+ReproDB and its underlying methodology are described in [*ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems*](https://vahldiek.github.io/files/acmrep26-reprodb.pdf) by Vahldiek-Oberwagner, Bognar, and Signorello (ACM REP 2026).
 
 If you use ReproDB in your research, please cite:
 
