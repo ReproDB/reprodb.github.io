@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_members": 4594,
+    "total_members": 4603,
     "total_systems": 2371,
-    "total_security": 2223,
+    "total_security": 2232,
     "total_countries": 59,
     "total_continents": 6,
     "total_institutions": 487
@@ -11,7 +11,7 @@
     "overall": [
       {
         "name": "United States",
-        "count": 2231
+        "count": 2237
       },
       {
         "name": "China",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Canada",
-        "count": 68
+        "count": 71
       },
       {
         "name": "Japan",
@@ -443,7 +443,7 @@
     "security": [
       {
         "name": "United States",
-        "count": 932
+        "count": 938
       },
       {
         "name": "Germany",
@@ -474,15 +474,15 @@
         "count": 46
       },
       {
+        "name": "Canada",
+        "count": 45
+      },
+      {
         "name": "Japan",
         "count": 43
       },
       {
         "name": "Netherlands",
-        "count": 42
-      },
-      {
-        "name": "Canada",
         "count": 42
       },
       {
@@ -647,7 +647,7 @@
     "overall": [
       {
         "name": "North America",
-        "count": 2301
+        "count": 2310
       },
       {
         "name": "Asia",
@@ -699,7 +699,7 @@
     "security": [
       {
         "name": "North America",
-        "count": 975
+        "count": 984
       },
       {
         "name": "Europe",
@@ -739,7 +739,7 @@
       },
       {
         "name": "University of Wisconsin - Madison",
-        "count": 97
+        "count": 98
       },
       {
         "name": "University of California, Irvine",
@@ -758,16 +758,16 @@
         "count": 66
       },
       {
+        "name": "Carnegie Mellon University",
+        "count": 62
+      },
+      {
         "name": "University of Michigan - Ann Arbor",
         "count": 62
       },
       {
         "name": "The Hong Kong University of Science and Technology",
         "count": 62
-      },
-      {
-        "name": "Carnegie Mellon University",
-        "count": 61
       },
       {
         "name": "computing and imaging institute - the university of utah",
@@ -778,12 +778,12 @@
         "count": 49
       },
       {
-        "name": "The Chinese University of Hong Kong",
+        "name": "microsoft",
         "count": 46
       },
       {
-        "name": "microsoft",
-        "count": 45
+        "name": "The Chinese University of Hong Kong",
+        "count": 46
       },
       {
         "name": "University of California, San Diego",
@@ -811,7 +811,7 @@
       },
       {
         "name": "Virginia Tech",
-        "count": 37
+        "count": 38
       },
       {
         "name": "eth zurich",
@@ -1006,6 +1006,10 @@
         "count": 18
       },
       {
+        "name": "University of California, Davis",
+        "count": 18
+      },
+      {
         "name": "Louisiana State University",
         "count": 18
       },
@@ -1023,10 +1027,6 @@
       },
       {
         "name": "Duke University",
-        "count": 17
-      },
-      {
-        "name": "University of California, Davis",
         "count": 17
       },
       {
@@ -1207,6 +1207,10 @@
       },
       {
         "name": "University of Fribourg",
+        "count": 9
+      },
+      {
+        "name": "University of Calgary",
         "count": 9
       },
       {
@@ -1418,7 +1422,7 @@
         "count": 5
       },
       {
-        "name": "University of Calgary",
+        "name": "University of Arizona",
         "count": 5
       },
       {
@@ -1534,10 +1538,6 @@
         "count": 4
       },
       {
-        "name": "University of Alberta",
-        "count": 4
-      },
-      {
         "name": "KTH Royal Institute of Technology",
         "count": 4
       },
@@ -1551,10 +1551,6 @@
       },
       {
         "name": "Bloomsburg University of Pennsylvania",
-        "count": 4
-      },
-      {
-        "name": "University of Arizona",
         "count": 4
       },
       {
@@ -1647,6 +1643,10 @@
       },
       {
         "name": "Washington State University",
+        "count": 3
+      },
+      {
+        "name": "University of Alberta",
         "count": 3
       },
       {
@@ -3930,12 +3930,12 @@
         "count": 36
       },
       {
-        "name": "National Tsinghua University",
+        "name": "University of Wisconsin - Madison",
         "count": 33
       },
       {
-        "name": "University of Wisconsin - Madison",
-        "count": 32
+        "name": "National Tsinghua University",
+        "count": 33
       },
       {
         "name": "Ruhr-Universität Bochum",
@@ -4010,6 +4010,10 @@
         "count": 19
       },
       {
+        "name": "Carnegie Mellon University",
+        "count": 18
+      },
+      {
         "name": "Technische Universität Carolo-Wilhelmina zu Braunschweig",
         "count": 18
       },
@@ -4018,7 +4022,7 @@
         "count": 17
       },
       {
-        "name": "Carnegie Mellon University",
+        "name": "Virginia Tech",
         "count": 17
       },
       {
@@ -4028,10 +4032,6 @@
       {
         "name": "kaist",
         "count": 17
-      },
-      {
-        "name": "Virginia Tech",
-        "count": 16
       },
       {
         "name": "Johns Hopkins University",
@@ -4062,11 +4062,11 @@
         "count": 14
       },
       {
-        "name": "sapienza university of rome",
-        "count": 13
+        "name": "University of California, Davis",
+        "count": 14
       },
       {
-        "name": "University of California, Davis",
+        "name": "sapienza university of rome",
         "count": 13
       },
       {
@@ -4154,6 +4154,10 @@
         "count": 10
       },
       {
+        "name": "microsoft",
+        "count": 10
+      },
+      {
         "name": "Nankai University",
         "count": 10
       },
@@ -4170,7 +4174,7 @@
         "count": 9
       },
       {
-        "name": "microsoft",
+        "name": "University of Calgary",
         "count": 9
       },
       {
@@ -4338,7 +4342,7 @@
         "count": 5
       },
       {
-        "name": "University of Calgary",
+        "name": "University of Arizona",
         "count": 5
       },
       {
@@ -4386,10 +4390,6 @@
         "count": 4
       },
       {
-        "name": "University of Alberta",
-        "count": 4
-      },
-      {
         "name": "Dartmouth College",
         "count": 4
       },
@@ -4411,10 +4411,6 @@
       },
       {
         "name": "Bloomsburg University of Pennsylvania",
-        "count": 4
-      },
-      {
-        "name": "University of Arizona",
         "count": 4
       },
       {
@@ -4463,6 +4459,10 @@
       },
       {
         "name": "Washington State University",
+        "count": 3
+      },
+      {
+        "name": "University of Alberta",
         "count": 3
       },
       {
@@ -5558,7 +5558,7 @@
       },
       "2026": {
         "Hong Kong": 39,
-        "United States": 518,
+        "United States": 524,
         "India": 11,
         "Singapore": 11,
         "Portugal": 4,
@@ -5579,7 +5579,7 @@
         "Switzerland": 10,
         "Hungary": 1,
         "Poland": 2,
-        "Canada": 17,
+        "Canada": 20,
         "Netherlands": 7,
         "Belgium": 11,
         "Australia": 16,
@@ -6012,7 +6012,7 @@
         "Portugal": 1
       },
       "2026": {
-        "United States": 291,
+        "United States": 297,
         "Japan": 10,
         "Belgium": 11,
         "Singapore": 8,
@@ -6032,7 +6032,7 @@
         "Croatia": 1,
         "Korea, Republic of": 6,
         "Portugal": 2,
-        "Canada": 15,
+        "Canada": 18,
         "South Korea": 4,
         "Finland": 1,
         "Switzerland": 7,
@@ -6115,7 +6115,7 @@
       },
       "2026": {
         "Asia": 181,
-        "North America": 535,
+        "North America": 544,
         "Europe": 127,
         "Africa": 15,
         "Oceania": 16
@@ -6246,7 +6246,7 @@
         "Africa": 2
       },
       "2026": {
-        "North America": 306,
+        "North America": 315,
         "Asia": 112,
         "Europe": 100,
         "Oceania": 16,
@@ -6568,7 +6568,7 @@
       "year": 2026,
       "conf_year": "pets2026",
       "area": "security",
-      "size": 80
+      "size": 89
     },
     {
       "conference": "SC",

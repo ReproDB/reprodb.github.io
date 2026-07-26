@@ -1,19 +1,19 @@
-last_updated: '2026-07-19'
-total_members: 4594
+last_updated: '2026-07-26'
+total_members: 4603
 total_systems: 2371
-total_security: 2223
+total_security: 2232
 total_conferences: 71
 total_countries: 59
 total_continents: 6
 total_institutions: 487
-unique_members: 2556
+unique_members: 2563
 unique_members_systems: 1250
-unique_members_security: 1402
-unique_members_both: 96
+unique_members_security: 1410
+unique_members_both: 97
 recurring_chairs: 85
 top_countries:
 - name: United States
-  count: 2231
+  count: 2237
 - name: China
   count: 382
 - name: Germany
@@ -29,7 +29,7 @@ top_countries:
 - name: Singapore
   count: 71
 - name: Canada
-  count: 68
+  count: 71
 - name: Japan
   count: 67
 - name: Italy
@@ -75,7 +75,7 @@ top_countries_systems:
   count: 18
 top_countries_security:
 - name: United States
-  count: 932
+  count: 938
 - name: Germany
   count: 181
 - name: China
@@ -90,11 +90,11 @@ top_countries_security:
   count: 49
 - name: Belgium
   count: 46
+- name: Canada
+  count: 45
 - name: Japan
   count: 43
 - name: Netherlands
-  count: 42
-- name: Canada
   count: 42
 - name: Taiwan, Province of China
   count: 34
@@ -106,7 +106,7 @@ top_countries_security:
   count: 25
 top_continents:
 - name: North America
-  count: 2301
+  count: 2310
 - name: Asia
   count: 978
 - name: Europe
@@ -132,7 +132,7 @@ top_continents_systems:
   count: 8
 top_continents_security:
 - name: North America
-  count: 975
+  count: 984
 - name: Europe
   count: 520
 - name: Asia
@@ -151,7 +151,7 @@ top_institutions:
 - name: Georgia Institute of Technology
   count: 99
 - name: University of Wisconsin - Madison
-  count: 97
+  count: 98
 - name: University of California, Irvine
   count: 77
 - name: National Tsinghua University
@@ -160,20 +160,20 @@ top_institutions:
   count: 70
 - name: institute of parallel and distributed systems, shanghai jiao tong university
   count: 66
+- name: Carnegie Mellon University
+  count: 62
 - name: University of Michigan - Ann Arbor
   count: 62
 - name: The Hong Kong University of Science and Technology
   count: 62
-- name: Carnegie Mellon University
-  count: 61
 - name: computing and imaging institute - the university of utah
   count: 57
 - name: University of California, Berkeley
   count: 49
+- name: microsoft
+  count: 46
 - name: The Chinese University of Hong Kong
   count: 46
-- name: microsoft
-  count: 45
 - name: University of California, San Diego
   count: 44
 - name: University of Chicago
@@ -236,10 +236,10 @@ top_institutions_security:
   count: 40
 - name: Georgia Institute of Technology
   count: 36
+- name: University of Wisconsin - Madison
+  count: 33
 - name: National Tsinghua University
   count: 33
-- name: University of Wisconsin - Madison
-  count: 32
 - name: Ruhr-Universität Bochum
   count: 30
 - name: Boston University
@@ -536,7 +536,7 @@ committee_sizes:
   year: 2026
   conf_year: pets2026
   area: security
-  size: 80
+  size: 89
 - conference: SC
   year: 2021
   conf_year: sc2021
