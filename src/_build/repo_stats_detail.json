@@ -4295,12 +4295,7 @@
     "description": "Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP",
     "language": "Python",
     "name": "isbogdanov/agent-design-study",
-    "pushed_at": "2026-05-02T17:41:24Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ]
+    "pushed_at": "2026-05-02T17:41:24Z"
   },
   {
     "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
@@ -4470,7 +4465,11 @@
     "description": "Official Codebase for \"AI Reatlor: Towards Grounded Persuasive Language Generation for Automated Copywriting\"",
     "language": "Python",
     "name": "yangalan123/AI-Realtor-Codebase",
-    "pushed_at": "2026-05-11T03:44:54Z"
+    "pushed_at": "2026-05-11T03:44:54Z",
+    "badges": [
+      "available",
+      "functional"
+    ]
   },
   {
     "title": "Characterizing, Exploiting, and Detecting DMA Code Injection Vulnerabilities in the Presence of an IOMMU",
