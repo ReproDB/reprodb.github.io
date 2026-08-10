@@ -57447,7 +57447,7 @@
     "conference": "USENIXSEC",
     "category": "security",
     "year": 2026,
-    "title": "'Abuse Risks are Often Inherent to Product Features': Exploring AI Vendors’ Bug Bounty and Responsible Disclosure Policies",
+    "title": "Abuse Risks are Often Inherent to Product Features: Exploring AI Vendors’ Bug Bounty and Responsible Disclosure Policies",
     "badges": [
       "Badges: Available"
     ],
@@ -58098,7 +58098,7 @@
     "conference": "USENIXSEC",
     "category": "security",
     "year": 2026,
-    "title": "\"Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted\": An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures",
+    "title": "Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted: An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures",
     "badges": [
       "Badges: Available"
     ],
@@ -58752,6 +58752,3834 @@
     "doi": "10.5281/zenodo.17984167",
     "paper_url": null,
     "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/17906589"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.17906589",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final28.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Adversarial Patch EXterminator: Zero-Shot and Patch-Agnostic Defense Framework Against Adversarial Patch Attacks",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18426998"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18426998",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final69.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Zero Knowledge (About) Encryption: A Comparative Security Analysis of Three Cloud-based Password Managers",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.17977565"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.17977565",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DNS Cache Poisoning Like its 2006",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.17762025"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.17762025",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final143.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPUs Stack Engine",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/19108605"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.19108605",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final53.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "LoongLeak: Architectural Cross-Privilege-Boundary Data Leakage on LoongArch CPUs",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.17974799"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.17974799",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final60.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "sigma-rs: A Modular Approach for Keyed-Verification Anonymous Credentials",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20190651"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20190651",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final1.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Security and Privacy Considerations for Confirming Payments in Rwandan Mobile Money Systems",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20314699"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20314699",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Non-Interactive Key Exchange from Lattices in the Standard Model",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20323531"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20323531",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20187973"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20187973",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final5.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Icefish: Practical zk-SNARKs for Verifiable Genomics",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20343574",
+      "https://github.com/sashafrolov/zk-genomics"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20343574",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "One Bad Token Spoils the Barrel: Assessment, Detection, and Remediation of Glitch Tokens in Large Language Models",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20437816"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20437816",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "A Formal Security Analysis of CAN XL",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20262062"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20262062",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final8.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "XCFI: Comprehensive Control-Flow Integrity for Arm TrustZone-M",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20195744"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20195744",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final9.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Trust Nothing: RTOS Security without Run-Time Software TCB",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20259753",
+      "https://github.com/CISPA/Northcape"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20259753",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final10.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20201878",
+      "https://github.com/JieJayCao/MarkNull"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20201878",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "FRAGJAM: DoS Attacks Using IP Reassembly Congestion",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20407155"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20407155",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.21771706",
+      "https://github.com/1234wangtr/PRC_estimator"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.21771706",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final16.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20308739"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20308739",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: The Pitfalls of Deep Reinforcement Learning for Cybersecurity",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20209122"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20209122",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final18.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "HasteBoots: Proving TFHE Programmable Bootstrapping in Seconds",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20275781",
+      "https://github.com/f7ed/HasteBoots"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20275781",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20338101"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20338101",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Connect the Dots: Knowledge Graph–Guided Crawler Attack on Retrieval-Augmented Generation Systems",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20389019"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20389019",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Tap Without Tapping: A Tag Discovery Forgery Attack on Android NFC",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20303896"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20303896",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final22.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20232924"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20232924",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final23.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Enjoy the Free Lunch, Someone Paid for Us: Escaping Resource Limits of MicroVM-based Containers",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20279307"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20279307",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Secure Distributed RSA Modulus Generation Revisited: A Faster and More Communication-Efficient Construction",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/doi/10.5281/zenodo.20237927"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20237927",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Artifacts for X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20184278"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20184278",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "RecStruct: Recovering Nested Struct Types from Stripped Binaries via Stack-Driven Unification",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20628819"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20628819",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final28.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20233998"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20233998",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final29.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Efficiently Provable Approximations for Non-Polynomial Functions",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20246456",
+      "https://github.com/SS-C4/non-linear-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20246456",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final31.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Ira: Efficient Transaction Replay for Ethereum",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20262361",
+      "https://github.com/adithyabhatkajake/ira-rs"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20262361",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Breaking the Boundaries: Analyzing QUIC Frame-Packet Interactions With QUIC-Attacker",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20280316"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20280316",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final34.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BugAuditor: Detecting Bugs via Inconsistent Defensive Code Auditing",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20267685"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20267685",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final35.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "What Adults Will (and Wont) Do to Prove Their Age: Empirical Evidence from a Deceptive Web Experiment",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20343090"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20343090",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final36.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Boosting Efficiency and Security in Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20307357"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20307357",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Technical Analysis of the Geedge Networks Firewall Source Code Leak ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20274003"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20274003",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "The Perils of Flexibility: Uncovering Application-Layer Vulnerabilities in Cosmos SDK Customization Points",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20339215",
+      "https://github.com/cosmos-bug-finder/Cosmos-Pitfalls"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20339215",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Maybe there’s only one passkey?: Challenges Investigating and Remediating Adversarial Passkeys ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20420527"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20420527",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20335970"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20335970",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final41.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SPIRIT: Batch Hintless Single-Server PIR via Stateful Ciphertext Conversion",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20528536"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20528536",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: DARPAs AI Cyber Challenge (AIxCC): Competition Design, Architectures, and Lessons Learned ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20367274"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20367274",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Cross-National Information Attacks: A Two-Decade Analysis of Troll Behavior in Korea",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20257085"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20257085",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final44.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20328961",
+      "https://doi.org/10.5281/zenodo.20329070"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20328961",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final45.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Information Security in Small-Scale Protests: Surveillance of Ugandan Anti-EACOP Protesters",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.17637/rh.32305794"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "A Cuckoo in the Nest: Multi‑Stage, Multi‑Identifier Hijacking in BACnet/SC ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20280902"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20280902",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20287796",
+      "https://github.com/2019ChenGong/DP-SAPF"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20287796",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Do They Get With the Program? Measuring Mitigation in a Solicited Vulnerability Notification Program",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SafeAdapt: Safety Alignment with Adaptive Thinking Allocation for Large Reasoning Models ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20371728"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20371728",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Another Arms Race -- 20 Years of (Anti-)Cheating in Video Games ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18428151"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18428151",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "The Impact of S&P Controls on U.S. Users Emotional Engagement with Generative AI Chatbots (Artifact)",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20290032"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20290032",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Plaintext Recovery Against Post-Filtering Access Control",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20370280"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20370280",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final53.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Orbit: Optimizing Rescale and Bootstrap Placement with Integer Linear Programming Techniques for Secure Inference",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20278435",
+      "https://github.com/cmu-cryptosystems/Orbit"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20278435",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final54.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Fuzzing Open-Source GPU Hardware with SIMT Program Generation",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20321391"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20321391",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final55.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "TrioFuzz: A Three-Tier Architecture for Adaptive Strategy Selection in Fuzzing",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20624509",
+      "https://github.com/OldTruckDriver/triofuzz"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20624509",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Do Not Mention This to the User: Detecting and Understanding Malicious Agent Skills in the Wild",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20285751",
+      "https://github.com/protectskills/MaliciousAgentSkillsBench"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20285751",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final57.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Shielding QR Codes: Unveiling the Real-World Illicit Promotion Behind Adversarial QR Code",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20322613"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20322613",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Prezta: Provable Remote Execution of Zero-Trust Authorization using SNARKs",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20303462",
+      "https://github.com/walotta/ZK_Zero_Trust"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20303462",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final59.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "When Authorization Loses Its Meaning: Breaking and Fixing Third-Party Online Payments",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20303820"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20303820",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20657291",
+      "https://github.com/S3IC-Lab/when-aggregator-cheats-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20657291",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20551685"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20551685",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "When Address Learning Goes Wrong: Inducing Forwarding Loops and DoS Amplification in SDN",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20307092",
+      "https://github.com/JiangYingEr/LoopGen"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20307092",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final63.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20323807"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20323807",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final64.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Message Injection Attacks Against Signal",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.6084/m9.figshare.31272589"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.6084/m9.figshare.31272589",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final65.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Cutting the Fuse: Actionable APT Attack Blocking in Provenance-based IDS ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20310415"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20310415",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Sok: Private Transformer-based Model Inference ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20319561",
+      "https://github.com/yuntion/SoK-Ppti"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20319561",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BlockMeNot: Automatic Selection of Domain and URL Blocking Granularity to Minimize Collateral Damage and Evasion",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20284621"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20284621",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Selling the Dream: Threat Modeling Intimate Insiders in Micro-businesses",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20330076"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20330076",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: On the Fragility of Memory Error Exploit Mitigations",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20759147",
+      "https://github.com/adriaanjacobs/sok-fragility"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20759147",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final71.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Reference Implementation for Facade: High-Precision Insider Threat Detection Using Deep Contextual Anomaly Detection",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20316179",
+      "https://github.com/google/facade"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20316179",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Analyzing Cryptography in Context: A Cryptography-Native Approach to Threat Modeling",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BULBASAUR: Branch-Guided Online Mutator Generation for Greybox Fuzzing",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20388457"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20388457",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Exploiting PoH Time Semantics in Solana via Re-Anchoring and Forking",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20337197"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20337197",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Rarus: A Succinct and Efficient Range Proof for Polynomial-based Vector Commitment",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20322978",
+      "https://github.com/Montayang/rangeproof"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20322978",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final77.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MHOT: Height-Optimized Authenticated Data Structure for Blockchain State Commitment",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20338741"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20338741",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Securing Retrieval-Augmented Code Generation via Contextual Knowledge Injection: A Case for Embedded IoT Applications",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20338641",
+      "https://github.com/suntong30/IoTRAGuarder"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20338641",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Wormholes in the File System: Understanding the Misunderstanding of Symlinks",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20325582"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20325582",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final80.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "From Assistance to Autonomy: An Empirical Study of AI Use in a Live Capture-the-Flag (CTF) Competition",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20309511"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20309511",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final81.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "TensorZKP: Repurposing GPU Tensor Cores for High-Performance Zero-Knowledge Proofs",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20337923"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20337923",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "On Improving Robustness of Deepfake Image Detectors",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20327568",
+      "https://github.com/shahjahan0275/semantic_adv"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20327568",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final83.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20331553",
+      "https://github.com/SamCollins1327/Download-More-RAM"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20331553",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final84.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Anamorphic Messaging: Analyzing the Double Ratchet, Triple Ratchet, PQ3, and MLS",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20335299"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20335299",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final86.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Sliced Rényi Pufferfish Privacy: Tractable Privatization Mechanism and Private Learning with Gradient Clipping",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20433043"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20433043",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Meerkat: Pushing the Practical Limits of Dynamic Bisection with PoC Mutation",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20317981"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20317981",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final88.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Charting the Cache Side-Channel Frontier: A Systematic Study of Eviction Set Construction on Apple Silicon",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20336892"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20336892",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final89.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Low-Cost Hard-Label Adversarial Attack with Theoretical Foundations",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20322560"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20322560",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final90.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20337317"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20337317",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final91.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Anchors that Don’t Lift: Understanding Supply Chain Driven Kernel Lock-In and Governance-Mediated Mitigation Strategies in SOHO Devices",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20323581"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20323581",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion ",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20337559"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20337559",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final94.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MOTION IN THE CLEAR: Reconstructing VR User Behavior from Network Traffic",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20343460",
+      "https://github.com/jihoLee96/PacMo"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20343460",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Regular Expression Denial of Service Induced by Backreferences",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20339748"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20339748",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Towards Generality: Task-Adaptive Binary Analysis via Semantic Retrieval and Verifiable Reasoning",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20340098"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20340098",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20319778"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20319778",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20437876"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20437876",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Retrofit: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20339141"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20339141",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final102.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Resilience amid Diffused Surveillance During a Political Movement in Bangladesh",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20438524"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20438524",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DRVFuzz: Data-Sensitive RISC-V CPU Fuzzing",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20343559"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20343559",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final104.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Health Hazard, Handle with Care: Investigating the Privacy Risks of Androids Health Connect",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18409978"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18409978",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "CULPA: Universal Detection of Memory-Safety Bugs in Unsafe Rust Through the Lens of Safety Requirements",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20359382"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20359382",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final106.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20362596"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20362596",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Robust Watermarks Meet Backdoored Models: Evading Diffusion Semantic Watermarks via Stealthy Backdoor",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20391190"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20391190",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MEPS: Privacy-preserving Edge-cloud Video Foundation Model Inference with Privacy Protectability",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20342549"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20342549",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DualSentinel: A Lightweight Framework for Detecting Targeted Attacks in Black-box LLM via Dual Entropy Lull Pattern",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20627780"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20627780",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "PICASSO: Scaling CHERI Use-After-Free Protection to Millions of Allocations using Colored Capabilities",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20353117"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20353117",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final111.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "ARTO: Efficient Execution Integrity Attestation for Real-Time Operation of Cyber-Physical Systems",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20355901",
+      "https://github.com/zz-fz-john/ARTO-Project"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20355901",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final112.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "What Users Ask, Policies Miss: Unveiling the Gap Between Community-Expressed Privacy Concerns and LLM Provider Policies",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20310585",
+      "https://github.com/TheFatInsect/LLM-Privacy-Gap"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20310585",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Just One Bit Vector: Complement-Free Ring Confidential Transactions with Transparent Setup",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20376707"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20376707",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "From Length to Content: Token-Length Side-Channel Attacks on Merged LLM API Outputs",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20441510"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20441510",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Death by a Thousand Drips: Uncovering Critical Resource Leaks in the Windows Ecosystem",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20623257"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20623257",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "From Symmetry toward Weak Asymmetry: Secure Steganography under the Receiver’s Partial Channel Knowledge",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20428322"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20428322",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20557145",
+      "https://github.com/Rookie143/mtk"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20557145",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20404927",
+      "https://github.com/LeGai325/TED"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20404927",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Firmenstein: Scaling Dynamic Analysis for Linux-Based Firmware Services via API-Centric Intervention Code Synthesis",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20355629"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20355629",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: History Doesnt Repeat Itself, but Android Design-Level Vulnerabilities Rhyme in OpenHarmony",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20655878"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20655878",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Lost in Encapsulation: Exploiting Open Tunnelling Hosts and Attacking Private Networks",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20401535"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20401535",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20385622"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20385622",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final123.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Exposing Resource-Exhaustion DoS Vulnerabilities with Leak-Oriented Minimum Path Covers",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18476387"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18476387",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final124.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20355588"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20355588",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final125.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "JScamd: An Automated Static Taint Analysis Framework for Detecting Cryptographic API Misuses in JavaScript",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20395867"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20395867",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20534406"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20534406",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Injected and Leaked: Actively Inducing Side-channel Leakage Using Electromagnetic Injection And Hardware Non-Linearity",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20432240"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20432240",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final128.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20433788",
+      "https://github.com/encryptogroup/PRC"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20433788",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final129.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Plain Text, Plain Risks: Measuring and Understanding HTTP Inclusion in Android WebViews at Scale",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20393171",
+      "https://github.com/beerphilipp/plaintext-artifacts"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20393171",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final130.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Colluding Adversaries in Machine Learning Pipelines",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20429643",
+      "https://github.com/ssg-research/sok-collusion"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20429643",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "The Ivory Tower Syndrome: Operators Reflections on Academic BGP Security Solutions",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20440753"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20440753",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DUPIN: Attack Learning Is Still Needed! Demonstrating Few-Shot after Unsupervised Pretraining Is A Nimble Forensics Learner",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20598994"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20598994",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20347718",
+      "https://github.com/encryptogroup/SING"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20347718",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Single-Server Secure Aggregation with O(1) Server-Committee Communication at Scale",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20409642"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20409642",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Sequential Auditing for f-Differential Privacy",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20398258"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20398258",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Generating Precise Format Specification for Network Protocols Through Adversarial LLM Interactions",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20409471",
+      "https://github.com/SpadeMomo/SPAR-AE"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20409471",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "ASRogue: Manipulating ASRank-Inferred AS Relationships",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20397489",
+      "https://github.com/y-xu22/ASRogue"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20397489",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Fence2Pwn: KFENCE-Enabled Kernel Exploitation Bypassing Slab Hardening and Memory Tagging",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20411196"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20411196",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Alias Equals Zone? Large-Scale and Stealthy Takeover of Domain Hosting Service via CNAME-Following Cross-Domain Verification",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20404540"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20404540",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "H3Act: Automated Measuring Semantic Conversion Anomalies of HTTP/3-to-HTTP/1.1 Translation in CDNs",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20398181"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20398181",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Characterizing Security and Privacy Teaching Standards for Schools in the United States",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://osf.io/hwkuc/overview?view_only=c226130f34fb4c28be314426390d6656"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final143.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BadGraph: Structural Knowledge Isolation Attacks against Graph Retrieval-Augmented Generation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20398798",
+      "https://github.com/st4ckoverf1ow/BadGraph"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20398798",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Certification of Machine Learning Models via Directional Sharpness",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20385823"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20385823",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "iROV: Breaking the Silence of RPKI with Interactive Validation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20399386"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20399386",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20267198",
+      "https://github.com/UNITES-Lab/resume-injection-measurement"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20267198",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "WarrInt: Integrity Validation for Criminal Legal Process",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20386813",
+      "https://github.com/alisha/warrint"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20386813",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Cordyceps: Covert Control Attacks on LLMs via Data Poisoning",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20399738",
+      "https://github.com/Sadcardation/cordyceps"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20399738",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Exploiting Hidden Resource Contention in Selective Speculation Defenses",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20364721"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20364721",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final150.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Beyond the Stars: Multimodal Detection of Scams on GitHub",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20537440"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20537440",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Bypassing Prompt Guards in Production with Controlled-Release Prompting",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20400669"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20400669",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20399450"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20399450",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Beyond Burnout -- A Gap Analysis of Psychological Harm in Cybersecurity Work",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20401452"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20401452",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "PatchWeaver: Risk-Bounded Autonomous Vulnerability Remediation Under Change-Management Policies",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20477170"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20477170",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final155.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Security in the Air: Understanding IoT Vendor Practices and the Economics of Over-the-Air Updates",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20544041"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20544041",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "FLOSS: Fast Linear Online Secret-Shared Shuffling",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20278557",
+      "https://github.com/iachang/floss"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20278557",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final157.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Melting the Flesh of PHPs Memory Hardening",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20401796"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20401796",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final158.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20402220"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20402220",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "HijackKV: New Threat in Position-Independent KV Cache Reuse",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20403785",
+      "https://github.com/YichiCS/KV-Cache-Hijack"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20403785",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final161.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Credible Threat Detection? Measuring Contribution Dynamics and Quality Control in a Crowdsourced Threat Detection Ecosystem",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20437918"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20437918",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Toward Understanding the Security Implications in Python Configuration Files",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20438139"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20438139",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20287113",
+      "https://github.com/FODP/FODP"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20287113",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Butterfly: Scalable Multi-Party Circuit-PSI via Triplet Zero-Sharing",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20282807"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20282807",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Unveiling the Pitfalls of Data-Free Backdoor Detection Against Pre-Trained Models",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20440930"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20440930",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "High-Accuracy, Poisoning-Resilient Frequency Estimation in the Shuffle Model",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20405419"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20405419",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final167.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Enhanced Private Set Union from Secret-shared Private Membership Test",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20411093"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20411093",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final168.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20411319"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20411319",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Relay and Betray: Exploiting Client-Side Authority in Multi-User Mixed Reality",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20434355"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20434355",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final170.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "PVMark: Enabling Public Verifiability for LLM Watermarking Schemes",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20406335"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20406335",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18452278",
+      "https://github.com/s8lvg/riscv-spectre-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18452278",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final172.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "COGNITION: From Evaluation to Defense against Multimodal LLM CAPTCHA Solvers",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20406852"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20406852",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "ORPHEUS: A Separation-Robust Proactive Defense for Singing Voice Conversion",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20407256"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20407256",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Cloud-Native Carjacking: Fleet-wide Compromise via Telematics Authorization Failures",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20487750"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20487750",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Deep Learning-based Physical Side-channel Analysis",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20340778",
+      "https://github.com/Sengim/scraping_scholar"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20340778",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20432040"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20432040",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "InSPECtor: Improving SLEIGH Specification Veracity via Proxy",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.6084/m9.figshare.32507811.v1"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.6084/m9.figshare.32507811.v1",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Concurrency Fuzzing of the Linux Kernel with eBPF",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.6084/m9.figshare.32468280",
+      "https://github.com/m0ck1ng/sect"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.6084/m9.figshare.32468280",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BUIzz: Finding Policy Enforcement Bugs via Interaction Simulation on the Browser User Interface",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20422485"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20422485",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final186.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Sticking their heads out above the parapets: Lived Experiences of Legal Risks in Research",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.15129/a0eae2f6-aa2a-4016-ab0a-3ed2ce7908d8"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "GoodVibe: Security-by-Vibe for LLM-Based Code Generation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20412229"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20412229",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20412201",
+      "https://github.com/DistriNet/ArtiFinder"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20412201",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final189.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Discovering, characterizing and exploiting controllable-copy objects for kernel data-only attacks with CopyKat",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18500424",
+      "https://github.com/IBM/CopyKat"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18500424",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final190.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Designing Wallet-Based User Intervention for Approval Phishing Mitigation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20414886"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20414886",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "CTA: Clip-then-Aggregate, a Differentially Private Learning Algorithm for Graph Data",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20416326"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20416326",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "HyperAudit: Towards User Transparent and Highly Efficient System Auditing for Cloud Platforms",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20416094"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20416094",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Principled Design of Indexing Functions for Memory Coloring",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18494189"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18494189",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20409592"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20409592",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final195.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Towards Practical Few-shot Multi-tab Website Fingerpinting",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20416451",
+      "https://github.com/nl77-seraph/MMF"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20416451",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20425141"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20425141",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "PHANTOM: Undermining Mobile System Availability via Malformed Installation Metadata",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20409885"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20409885",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Large-scale online deanonymization with LLMs",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Raising the Flag: Detecting Missing Permission Controls in Mini-Program APIs",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20498351",
+      "https://github.com/capy-zhiao/PERMSCOPE_"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20498351",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20568623",
+      "https://github.com/lifeng10/DuetORAM"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20568623",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "What You Decode Depends on Where You Stand: Distance-Based Optical QR Code",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20423215"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20423215",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Secpoline: A Scalable Approach to Build Secure In-Process Syscall Interposers",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20432296",
+      "https://github.com/lazypoline/secpoline"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20432296",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final205.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Systematically Detecting Privacy Violations in Video Conferencing via Cross-Modal Consistency",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20430914"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20430914",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Take the RedPill: Boosting MCU Firmware Fuzzing with Faithful Hardware Emulation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20440595"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20440595",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Trusting What You Cannot See: Auditable Fine-Tuning and Inference for Proprietary AI",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20438270"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20438270",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Revelio: A Global Study of VoIP Blocking",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20362017"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20362017",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final209.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Oblivious Signaling",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20437084"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20437084",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Capability Operating Systems: Is the Future Finally Here?",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20435520"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20435520",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20436935"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20436935",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Remise: Authorized Anonymous Communication Systems",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20438384"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20438384",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final213.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "AutoFail: Breaking Web Boundaries using Android’s Autofill Framework",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20443308"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20443308",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final214.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20508351"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20508351",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "HAMLOCK: HArdware-Model LOgically Combined attacK",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.17980434",
+      "https://github.com/Imsanskar/HAMLOCK"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.17980434",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final217.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20656773"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20656773",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final218.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "USENIXSEC",
+    "category": "security",
+    "year": 2026,
+    "title": "SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://zenodo.org/records/20646913"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20646913",
+    "paper_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final219.pdf",
     "paper_id": null,
     "award": null
   },

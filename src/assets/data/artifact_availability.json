@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checked_at": "2026-08-02 14:01:08 UTC",
-    "total_urls": 2800,
-    "accessible_urls": 2607,
-    "accessibility_pct": 93.1,
+    "checked_at": "2026-08-10 15:22:51 UTC",
+    "total_urls": 2997,
+    "accessible_urls": 2861,
+    "accessibility_pct": 95.5,
     "by_platform": {
       "Bitbucket": {
         "total": 11,
@@ -11,14 +11,14 @@
         "pct": 100.0
       },
       "DOI-other": {
-        "total": 17,
-        "accessible": 16,
-        "pct": 94.1
+        "total": 19,
+        "accessible": 18,
+        "pct": 94.7
       },
       "Figshare": {
-        "total": 38,
-        "accessible": 37,
-        "pct": 97.4
+        "total": 41,
+        "accessible": 40,
+        "pct": 97.6
       },
       "GitHub": {
         "total": 1452,
@@ -31,26 +31,26 @@
         "pct": 100.0
       },
       "Zenodo": {
-        "total": 951,
-        "accessible": 835,
-        "pct": 87.8
+        "total": 1142,
+        "accessible": 1083,
+        "pct": 94.8
       },
       "other": {
-        "total": 318,
-        "accessible": 279,
-        "pct": 87.7
+        "total": 319,
+        "accessible": 280,
+        "pct": 87.8
       }
     },
     "by_area": {
       "security": {
-        "total": 2158,
-        "accessible": 2006,
-        "pct": 93.0
+        "total": 2355,
+        "accessible": 2254,
+        "pct": 95.7
       },
       "systems": {
         "total": 642,
-        "accessible": 601,
-        "pct": 93.6
+        "accessible": 607,
+        "pct": 94.5
       }
     },
     "by_year": {
@@ -71,8 +71,8 @@
       },
       "2020": {
         "total": 132,
-        "accessible": 124,
-        "pct": 93.9
+        "accessible": 125,
+        "pct": 94.7
       },
       "2021": {
         "total": 144,
@@ -81,28 +81,28 @@
       },
       "2022": {
         "total": 376,
-        "accessible": 352,
-        "pct": 93.6
+        "accessible": 359,
+        "pct": 95.5
       },
       "2023": {
         "total": 358,
-        "accessible": 341,
-        "pct": 95.3
+        "accessible": 345,
+        "pct": 96.4
       },
       "2024": {
         "total": 479,
-        "accessible": 453,
-        "pct": 94.6
+        "accessible": 448,
+        "pct": 93.5
       },
       "2025": {
         "total": 749,
-        "accessible": 686,
-        "pct": 91.6
+        "accessible": 725,
+        "pct": 96.8
       },
       "2026": {
-        "total": 504,
-        "accessible": 463,
-        "pct": 91.9
+        "total": 701,
+        "accessible": 671,
+        "pct": 95.7
       }
     },
     "by_year_area": {
@@ -130,8 +130,8 @@
       "2020": {
         "security": {
           "total": 84,
-          "accessible": 81,
-          "pct": 96.4
+          "accessible": 82,
+          "pct": 97.6
         },
         "systems": {
           "total": 48,
@@ -154,56 +154,56 @@
       "2022": {
         "security": {
           "total": 230,
-          "accessible": 220,
-          "pct": 95.7
+          "accessible": 223,
+          "pct": 97.0
         },
         "systems": {
           "total": 146,
-          "accessible": 132,
-          "pct": 90.4
+          "accessible": 136,
+          "pct": 93.2
         }
       },
       "2023": {
         "security": {
           "total": 256,
-          "accessible": 246,
-          "pct": 96.1
+          "accessible": 248,
+          "pct": 96.9
         },
         "systems": {
           "total": 102,
-          "accessible": 95,
-          "pct": 93.1
+          "accessible": 97,
+          "pct": 95.1
         }
       },
       "2024": {
         "security": {
           "total": 341,
-          "accessible": 321,
-          "pct": 94.1
+          "accessible": 318,
+          "pct": 93.3
         },
         "systems": {
           "total": 138,
-          "accessible": 132,
-          "pct": 95.7
+          "accessible": 130,
+          "pct": 94.2
         }
       },
       "2025": {
         "security": {
           "total": 663,
-          "accessible": 605,
-          "pct": 91.3
+          "accessible": 642,
+          "pct": 96.8
         },
         "systems": {
           "total": 86,
-          "accessible": 81,
-          "pct": 94.2
+          "accessible": 83,
+          "pct": 96.5
         }
       },
       "2026": {
         "security": {
-          "total": 429,
-          "accessible": 391,
-          "pct": 91.1
+          "total": 626,
+          "accessible": 599,
+          "pct": 95.7
         },
         "systems": {
           "total": 75,
@@ -287,8 +287,8 @@
         },
         "Zenodo": {
           "total": 2,
-          "accessible": 1,
-          "pct": 50.0
+          "accessible": 2,
+          "pct": 100.0
         },
         "other": {
           "total": 26,
@@ -346,8 +346,8 @@
         },
         "Zenodo": {
           "total": 52,
-          "accessible": 41,
-          "pct": 78.8
+          "accessible": 48,
+          "pct": 92.3
         },
         "other": {
           "total": 47,
@@ -383,8 +383,8 @@
         },
         "Zenodo": {
           "total": 54,
-          "accessible": 49,
-          "pct": 90.7
+          "accessible": 53,
+          "pct": 98.1
         },
         "other": {
           "total": 48,
@@ -420,8 +420,8 @@
         },
         "Zenodo": {
           "total": 85,
-          "accessible": 84,
-          "pct": 98.8
+          "accessible": 79,
+          "pct": 92.9
         },
         "other": {
           "total": 63,
@@ -457,8 +457,8 @@
         },
         "Zenodo": {
           "total": 441,
-          "accessible": 381,
-          "pct": 86.4
+          "accessible": 420,
+          "pct": 95.2
         },
         "other": {
           "total": 70,
@@ -473,13 +473,13 @@
           "pct": 100.0
         },
         "DOI-other": {
-          "total": 7,
-          "accessible": 7,
+          "total": 9,
+          "accessible": 9,
           "pct": 100.0
         },
         "Figshare": {
-          "total": 8,
-          "accessible": 8,
+          "total": 11,
+          "accessible": 11,
           "pct": 100.0
         },
         "GitHub": {
@@ -488,14 +488,14 @@
           "pct": 98.8
         },
         "Zenodo": {
-          "total": 309,
-          "accessible": 271,
-          "pct": 87.7
+          "total": 500,
+          "accessible": 473,
+          "pct": 94.6
         },
         "other": {
-          "total": 14,
-          "accessible": 13,
-          "pct": 92.9
+          "total": 15,
+          "accessible": 14,
+          "pct": 93.3
         }
       }
     },
@@ -522,13 +522,13 @@
       },
       "EUROSYS": {
         "total": 246,
-        "accessible": 229,
-        "pct": 93.1
+        "accessible": 235,
+        "pct": 95.5
       },
       "NDSS": {
         "total": 209,
-        "accessible": 184,
-        "pct": 88.0
+        "accessible": 182,
+        "pct": 87.1
       },
       "OSDI": {
         "total": 173,
@@ -547,8 +547,8 @@
       },
       "SP": {
         "total": 56,
-        "accessible": 56,
-        "pct": 100.0
+        "accessible": 53,
+        "pct": 94.6
       },
       "SYSTEX": {
         "total": 20,
@@ -556,14 +556,14 @@
         "pct": 100.0
       },
       "USENIXSEC": {
-        "total": 970,
-        "accessible": 894,
-        "pct": 92.2
+        "total": 1167,
+        "accessible": 1145,
+        "pct": 98.1
       },
       "WOOT": {
         "total": 46,
-        "accessible": 41,
-        "pct": 89.1
+        "accessible": 43,
+        "pct": 93.5
       }
     }
   },
@@ -2756,7 +2756,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6345869",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2776,7 +2776,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6353717",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2796,7 +2796,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6359660",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2816,7 +2816,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6344032",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2856,7 +2856,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6354775",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2876,7 +2876,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6360235",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2896,7 +2896,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6360833",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -2916,7 +2916,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6335690",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -2956,7 +2956,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6336196",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -2976,7 +2976,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.6374411",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -3016,7 +3016,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.7654817",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -3056,7 +3056,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.7734815",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -3546,7 +3546,7 @@
       "url_key": "artifact_url",
       "url": "http://doi.org/10.5281/zenodo.10078917",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -3586,7 +3586,7 @@
       "url_key": "artifact_url",
       "url": "http://doi.org/10.5281/zenodo.10783873",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -3596,7 +3596,7 @@
       "url_key": "artifact_url",
       "url": "http://doi.org/10.5281/zenodo.10077300",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -3606,7 +3606,7 @@
       "url_key": "artifact_url",
       "url": "http://doi.org/10.5281/zenodo.10791372",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -3636,7 +3636,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13710732",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "EUROSYS",
@@ -3646,7 +3646,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13800029",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -3706,7 +3706,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/doi/10.5281/zenodo.13734520",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -3736,7 +3736,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13712326",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "EUROSYS",
@@ -11546,7 +11546,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.10136987",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11616,7 +11616,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.10148256",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11626,7 +11626,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.10158696",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11776,7 +11776,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13706131",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11806,7 +11806,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13687049",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11816,7 +11816,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.13732052",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11826,7 +11826,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14209303",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -11846,7 +11846,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14250642",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -11996,7 +11996,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14249993",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12016,7 +12016,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14225977",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12026,7 +12026,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14261195",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12036,7 +12036,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14248909",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12066,7 +12066,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14257920",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12086,7 +12086,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14187988",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12126,7 +12126,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14253770",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12336,7 +12336,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17916232",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12346,7 +12346,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17905485 ",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12366,7 +12366,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17750615",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12396,7 +12396,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17671926",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12416,7 +12416,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16946146",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12426,7 +12426,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17047102",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12446,7 +12446,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17943483",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12456,7 +12456,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17042549",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12466,7 +12466,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.16999030",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12476,7 +12476,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17035715",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12486,7 +12486,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17677722",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12706,7 +12706,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17051835",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12786,7 +12786,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17906756",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12806,7 +12806,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17008411",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -12816,7 +12816,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17055770",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -12826,7 +12826,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17725706",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -13046,7 +13046,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17524720",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -13066,7 +13066,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17845611",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "NDSS",
@@ -13096,7 +13096,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17540919",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "NDSS",
@@ -18016,7 +18016,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.19015208",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "SP",
@@ -18066,7 +18066,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.19515393",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "SP",
@@ -18086,7 +18086,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/19518987",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "SP",
@@ -18566,7 +18566,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.3736311",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -19176,7 +19176,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.5565170",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -19286,7 +19286,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/record/5655839",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -19346,7 +19346,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.5838646",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23726,7 +23726,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14736885",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23736,7 +23736,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14722182",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23756,7 +23756,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15091772",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23796,7 +23796,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14713949",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23806,7 +23806,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14720824",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -23866,7 +23866,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14722605",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24046,7 +24046,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14567468",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24156,7 +24156,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14728872",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24196,7 +24196,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14740844",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24296,7 +24296,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14728863",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24306,7 +24306,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/doi/10.5281/zenodo.13691327",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24616,7 +24616,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14733676",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24666,7 +24666,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14738503",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24806,7 +24806,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14737431",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24826,7 +24826,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14737023",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24876,7 +24876,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/14738036?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNkZGY5ODAxLTAyMjUtNGE4MC04MzJmLTg0M2Q5OGRiMmEwMSIsImRhdGEiOnt9LCJyYW5kb20iOiI5NjY2ZWI2NWFmNzJlNTFjZTlkZjZlYWQxZjhjZTUyOCJ9.J7bS0HP1heXRpctmsk4YnB8S0bKEeX-7ymHADj8fUB5MBdgjfG3p7l5IVaJmhClghEhqqVEpV4xROoiP0EnbPA",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24886,7 +24886,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14738531",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24896,7 +24896,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.14735675",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -24956,7 +24956,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15474656",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -24996,7 +24996,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15543846",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25006,7 +25006,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15586856",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25016,7 +25016,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15529618",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25256,7 +25256,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15706733",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25356,7 +25356,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15592036",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25426,7 +25426,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15571694",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25546,7 +25546,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15699920",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25576,7 +25576,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15576155",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25616,7 +25616,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15582110",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25716,7 +25716,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15589806",
       "platform": "Zenodo",
-      "accessible": true
+      "accessible": false
     },
     {
       "conference": "USENIXSEC",
@@ -25746,7 +25746,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15602651",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25756,7 +25756,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15587623",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25766,7 +25766,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15594622",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25776,7 +25776,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15594022",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25786,7 +25786,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15595739",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -25826,7 +25826,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15572895",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26006,7 +26006,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15606165",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26036,7 +26036,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15603263",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26246,7 +26246,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/15611790",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26266,7 +26266,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15608186",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26396,7 +26396,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15595719",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26416,7 +26416,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15613620",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26436,7 +26436,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15609299",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26466,7 +26466,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15612433",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26566,7 +26566,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15613680",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26576,7 +26576,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.15613816",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -26706,7 +26706,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17823671",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27036,7 +27036,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/doi/10.5281/zenodo.17939551",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27046,7 +27046,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17888654",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27116,7 +27116,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17880120",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27146,7 +27146,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17898577",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27186,7 +27186,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17905132",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27226,7 +27226,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17908629",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27306,7 +27306,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/17936337",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27316,7 +27316,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17970580",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27326,7 +27326,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17965902",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27442,7 +27442,7 @@
       "conference": "USENIXSEC",
       "year": 2026,
       "area": "security",
-      "title": "'Abuse Risks are Often Inherent to Product Features': Exploring AI Vendors’ Bug Bounty and Responsible Disclosure Policies",
+      "title": "Abuse Risks are Often Inherent to Product Features: Exploring AI Vendors’ Bug Bounty and Responsible Disclosure Policies",
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17957266",
       "platform": "Zenodo",
@@ -27656,7 +27656,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17959835",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27666,7 +27666,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17964520",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27706,7 +27706,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17976648",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27762,7 +27762,7 @@
       "conference": "USENIXSEC",
       "year": 2026,
       "area": "security",
-      "title": "\"Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted\": An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures",
+      "title": "Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted: An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures",
       "url_key": "artifact_url",
       "url": "https://osf.io/ahjp3/overview?view_only=8442f58f00ca4dfdbf2ed2dfa90baba0",
       "platform": "other",
@@ -27776,7 +27776,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17980434",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27806,7 +27806,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/17977527",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27946,7 +27946,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17978903",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -27956,7 +27956,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17974792",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -28046,7 +28046,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17986461",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -28086,7 +28086,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17982729",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
@@ -28105,6 +28105,1976 @@
       "title": "Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact",
       "url_key": "artifact_url",
       "url": "https://zenodo.org/records/17984167",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/17906589",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Adversarial Patch EXterminator: Zero-Shot and Patch-Agnostic Defense Framework Against Adversarial Patch Attacks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18426998",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Zero Knowledge (About) Encryption: A Comparative Security Analysis of Three Cloud-based Password Managers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17977565",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DNS Cache Poisoning Like its 2006",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17762025",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPUs Stack Engine",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/19108605",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "LoongLeak: Architectural Cross-Privilege-Boundary Data Leakage on LoongArch CPUs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17974799",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "sigma-rs: A Modular Approach for Keyed-Verification Anonymous Credentials",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20190651",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Security and Privacy Considerations for Confirming Payments in Rwandan Mobile Money Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20314699",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Non-Interactive Key Exchange from Lattices in the Standard Model",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20323531",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20187973",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Icefish: Practical zk-SNARKs for Verifiable Genomics",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20343574",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "One Bad Token Spoils the Barrel: Assessment, Detection, and Remediation of Glitch Tokens in Large Language Models",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20437816",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "A Formal Security Analysis of CAN XL",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20262062",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "XCFI: Comprehensive Control-Flow Integrity for Arm TrustZone-M",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20195744",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Trust Nothing: RTOS Security without Run-Time Software TCB",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20259753",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20201878",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "FRAGJAM: DoS Attacks Using IP Reassembly Congestion",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20407155",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.21771706",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20308739",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: The Pitfalls of Deep Reinforcement Learning for Cybersecurity",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20209122",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "HasteBoots: Proving TFHE Programmable Bootstrapping in Seconds",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20275781",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20338101",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Connect the Dots: Knowledge Graph–Guided Crawler Attack on Retrieval-Augmented Generation Systems",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20389019",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Tap Without Tapping: A Tag Discovery Forgery Attack on Android NFC",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20303896",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20232924",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Enjoy the Free Lunch, Someone Paid for Us: Escaping Resource Limits of MicroVM-based Containers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20279307",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Secure Distributed RSA Modulus Generation Revisited: A Faster and More Communication-Efficient Construction",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.20237927",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Artifacts for X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20184278",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "RecStruct: Recovering Nested Struct Types from Stripped Binaries via Stack-Driven Unification",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20628819",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20233998",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Efficiently Provable Approximations for Non-Polynomial Functions",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20246456",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Ira: Efficient Transaction Replay for Ethereum",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20262361",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Breaking the Boundaries: Analyzing QUIC Frame-Packet Interactions With QUIC-Attacker",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20280316",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BugAuditor: Detecting Bugs via Inconsistent Defensive Code Auditing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20267685",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "What Adults Will (and Wont) Do to Prove Their Age: Empirical Evidence from a Deceptive Web Experiment",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20343090",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Boosting Efficiency and Security in Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20307357",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Technical Analysis of the Geedge Networks Firewall Source Code Leak ",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20274003",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "The Perils of Flexibility: Uncovering Application-Layer Vulnerabilities in Cosmos SDK Customization Points",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20339215",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Maybe there’s only one passkey?: Challenges Investigating and Remediating Adversarial Passkeys ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20420527",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20335970",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SPIRIT: Batch Hintless Single-Server PIR via Stateful Ciphertext Conversion",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20528536",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: DARPAs AI Cyber Challenge (AIxCC): Competition Design, Architectures, and Lessons Learned ",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20367274",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Cross-National Information Attacks: A Two-Decade Analysis of Troll Behavior in Korea",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20257085",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Information Security in Small-Scale Protests: Surveillance of Ugandan Anti-EACOP Protesters",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.17637/rh.32305794",
+      "platform": "DOI-other",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "A Cuckoo in the Nest: Multi‑Stage, Multi‑Identifier Hijacking in BACnet/SC ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20280902",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20287796",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SafeAdapt: Safety Alignment with Adaptive Thinking Allocation for Large Reasoning Models ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20371728",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Another Arms Race -- 20 Years of (Anti-)Cheating in Video Games ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18428151",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "The Impact of S&P Controls on U.S. Users Emotional Engagement with Generative AI Chatbots (Artifact)",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20290032",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Plaintext Recovery Against Post-Filtering Access Control",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20370280",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Orbit: Optimizing Rescale and Bootstrap Placement with Integer Linear Programming Techniques for Secure Inference",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20278435",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Fuzzing Open-Source GPU Hardware with SIMT Program Generation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20321391",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "TrioFuzz: A Three-Tier Architecture for Adaptive Strategy Selection in Fuzzing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20624509",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Do Not Mention This to the User: Detecting and Understanding Malicious Agent Skills in the Wild",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20285751",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Shielding QR Codes: Unveiling the Real-World Illicit Promotion Behind Adversarial QR Code",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20322613",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Prezta: Provable Remote Execution of Zero-Trust Authorization using SNARKs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20303462",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "When Authorization Loses Its Meaning: Breaking and Fixing Third-Party Online Payments",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20303820",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems ",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20657291",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20551685",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "When Address Learning Goes Wrong: Inducing Forwarding Loops and DoS Amplification in SDN",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20307092",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20323807",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Message Injection Attacks Against Signal",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.6084/m9.figshare.31272589",
+      "platform": "Figshare",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Cutting the Fuse: Actionable APT Attack Blocking in Provenance-based IDS ",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20310415",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Sok: Private Transformer-based Model Inference ",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20319561",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BlockMeNot: Automatic Selection of Domain and URL Blocking Granularity to Minimize Collateral Damage and Evasion",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20284621",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Selling the Dream: Threat Modeling Intimate Insiders in Micro-businesses",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20330076",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: On the Fragility of Memory Error Exploit Mitigations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20759147",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Reference Implementation for Facade: High-Precision Insider Threat Detection Using Deep Contextual Anomaly Detection",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20316179",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BULBASAUR: Branch-Guided Online Mutator Generation for Greybox Fuzzing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20388457",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Exploiting PoH Time Semantics in Solana via Re-Anchoring and Forking",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20337197",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Rarus: A Succinct and Efficient Range Proof for Polynomial-based Vector Commitment",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20322978",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MHOT: Height-Optimized Authenticated Data Structure for Blockchain State Commitment",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20338741",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Securing Retrieval-Augmented Code Generation via Contextual Knowledge Injection: A Case for Embedded IoT Applications",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20338641",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Wormholes in the File System: Understanding the Misunderstanding of Symlinks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20325582",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "From Assistance to Autonomy: An Empirical Study of AI Use in a Live Capture-the-Flag (CTF) Competition",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20309511",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "TensorZKP: Repurposing GPU Tensor Cores for High-Performance Zero-Knowledge Proofs",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20337923",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "On Improving Robustness of Deepfake Image Detectors",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20327568",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20331553",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20335299",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Sliced Rényi Pufferfish Privacy: Tractable Privatization Mechanism and Private Learning with Gradient Clipping",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20433043",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Meerkat: Pushing the Practical Limits of Dynamic Bisection with PoC Mutation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20317981",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Charting the Cache Side-Channel Frontier: A Systematic Study of Eviction Set Construction on Apple Silicon",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20336892",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Low-Cost Hard-Label Adversarial Attack with Theoretical Foundations",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20322560",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20337317",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Anchors that Don’t Lift: Understanding Supply Chain Driven Kernel Lock-In and Governance-Mediated Mitigation Strategies in SOHO Devices",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20323581",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion ",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20337559",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MOTION IN THE CLEAR: Reconstructing VR User Behavior from Network Traffic",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20343460",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Regular Expression Denial of Service Induced by Backreferences",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20339748",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Towards Generality: Task-Adaptive Binary Analysis via Semantic Retrieval and Verifiable Reasoning",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20340098",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20319778",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20437876",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Retrofit: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20339141",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Resilience amid Diffused Surveillance During a Political Movement in Bangladesh",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20438524",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DRVFuzz: Data-Sensitive RISC-V CPU Fuzzing",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20343559",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Health Hazard, Handle with Care: Investigating the Privacy Risks of Androids Health Connect",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18409978",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "CULPA: Universal Detection of Memory-Safety Bugs in Unsafe Rust Through the Lens of Safety Requirements",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20359382",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20362596",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Robust Watermarks Meet Backdoored Models: Evading Diffusion Semantic Watermarks via Stealthy Backdoor",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20391190",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MEPS: Privacy-preserving Edge-cloud Video Foundation Model Inference with Privacy Protectability",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20342549",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DualSentinel: A Lightweight Framework for Detecting Targeted Attacks in Black-box LLM via Dual Entropy Lull Pattern",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20627780",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "PICASSO: Scaling CHERI Use-After-Free Protection to Millions of Allocations using Colored Capabilities",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20353117",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "ARTO: Efficient Execution Integrity Attestation for Real-Time Operation of Cyber-Physical Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20355901",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "What Users Ask, Policies Miss: Unveiling the Gap Between Community-Expressed Privacy Concerns and LLM Provider Policies",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20310585",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Just One Bit Vector: Complement-Free Ring Confidential Transactions with Transparent Setup",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20376707",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "From Length to Content: Token-Length Side-Channel Attacks on Merged LLM API Outputs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20441510",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Death by a Thousand Drips: Uncovering Critical Resource Leaks in the Windows Ecosystem",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20623257",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "From Symmetry toward Weak Asymmetry: Secure Steganography under the Receiver’s Partial Channel Knowledge",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20428322",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20557145",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20404927",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Firmenstein: Scaling Dynamic Analysis for Linux-Based Firmware Services via API-Centric Intervention Code Synthesis",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20355629",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: History Doesnt Repeat Itself, but Android Design-Level Vulnerabilities Rhyme in OpenHarmony",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20655878",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Lost in Encapsulation: Exploiting Open Tunnelling Hosts and Attacking Private Networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20401535",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20385622",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Exposing Resource-Exhaustion DoS Vulnerabilities with Leak-Oriented Minimum Path Covers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18476387",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20355588",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "JScamd: An Automated Static Taint Analysis Framework for Detecting Cryptographic API Misuses in JavaScript",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20395867",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20534406",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Injected and Leaked: Actively Inducing Side-channel Leakage Using Electromagnetic Injection And Hardware Non-Linearity",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20432240",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20433788",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Plain Text, Plain Risks: Measuring and Understanding HTTP Inclusion in Android WebViews at Scale",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20393171",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Colluding Adversaries in Machine Learning Pipelines",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20429643",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20440753",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DUPIN: Attack Learning Is Still Needed! Demonstrating Few-Shot after Unsupervised Pretraining Is A Nimble Forensics Learner",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20598994",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20347718",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Single-Server Secure Aggregation with O(1) Server-Committee Communication at Scale",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20409642",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Sequential Auditing for f-Differential Privacy",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20398258",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Generating Precise Format Specification for Network Protocols Through Adversarial LLM Interactions",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20409471",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "ASRogue: Manipulating ASRank-Inferred AS Relationships",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20397489",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Fence2Pwn: KFENCE-Enabled Kernel Exploitation Bypassing Slab Hardening and Memory Tagging",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20411196",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Alias Equals Zone? Large-Scale and Stealthy Takeover of Domain Hosting Service via CNAME-Following Cross-Domain Verification",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20404540",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "H3Act: Automated Measuring Semantic Conversion Anomalies of HTTP/3-to-HTTP/1.1 Translation in CDNs",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20398181",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Characterizing Security and Privacy Teaching Standards for Schools in the United States",
+      "url_key": "artifact_url",
+      "url": "https://osf.io/hwkuc/overview?view_only=c226130f34fb4c28be314426390d6656",
+      "platform": "other",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BadGraph: Structural Knowledge Isolation Attacks against Graph Retrieval-Augmented Generation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20398798",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Certification of Machine Learning Models via Directional Sharpness",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20385823",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "iROV: Breaking the Silence of RPKI with Interactive Validation",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20399386",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20267198",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "WarrInt: Integrity Validation for Criminal Legal Process",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20386813",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Cordyceps: Covert Control Attacks on LLMs via Data Poisoning",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20399738",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Exploiting Hidden Resource Contention in Selective Speculation Defenses",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20364721",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Beyond the Stars: Multimodal Detection of Scams on GitHub",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20537440",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Bypassing Prompt Guards in Production with Controlled-Release Prompting",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20400669",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20399450",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Beyond Burnout -- A Gap Analysis of Psychological Harm in Cybersecurity Work",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20401452",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "PatchWeaver: Risk-Bounded Autonomous Vulnerability Remediation Under Change-Management Policies",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20477170",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Security in the Air: Understanding IoT Vendor Practices and the Economics of Over-the-Air Updates",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20544041",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "FLOSS: Fast Linear Online Secret-Shared Shuffling",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20278557",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Melting the Flesh of PHPs Memory Hardening",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20401796",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20402220",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "HijackKV: New Threat in Position-Independent KV Cache Reuse",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20403785",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Credible Threat Detection? Measuring Contribution Dynamics and Quality Control in a Crowdsourced Threat Detection Ecosystem",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20437918",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Toward Understanding the Security Implications in Python Configuration Files",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20438139",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20287113",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Butterfly: Scalable Multi-Party Circuit-PSI via Triplet Zero-Sharing",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20282807",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Unveiling the Pitfalls of Data-Free Backdoor Detection Against Pre-Trained Models",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20440930",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "High-Accuracy, Poisoning-Resilient Frequency Estimation in the Shuffle Model",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20405419",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Enhanced Private Set Union from Secret-shared Private Membership Test",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20411093",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20411319",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Relay and Betray: Exploiting Client-Side Authority in Multi-User Mixed Reality",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20434355",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "PVMark: Enabling Public Verifiability for LLM Watermarking Schemes",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20406335",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18452278",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "COGNITION: From Evaluation to Defense against Multimodal LLM CAPTCHA Solvers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20406852",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "ORPHEUS: A Separation-Robust Proactive Defense for Singing Voice Conversion",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20407256",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Cloud-Native Carjacking: Fleet-wide Compromise via Telematics Authorization Failures",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20487750",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Deep Learning-based Physical Side-channel Analysis",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20340778",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20432040",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "InSPECtor: Improving SLEIGH Specification Veracity via Proxy",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.6084/m9.figshare.32507811.v1",
+      "platform": "Figshare",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Concurrency Fuzzing of the Linux Kernel with eBPF",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.6084/m9.figshare.32468280",
+      "platform": "Figshare",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BUIzz: Finding Policy Enforcement Bugs via Interaction Simulation on the Browser User Interface",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20422485",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Sticking their heads out above the parapets: Lived Experiences of Legal Risks in Research",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.15129/a0eae2f6-aa2a-4016-ab0a-3ed2ce7908d8",
+      "platform": "DOI-other",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "GoodVibe: Security-by-Vibe for LLM-Based Code Generation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20412229",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20412201",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Discovering, characterizing and exploiting controllable-copy objects for kernel data-only attacks with CopyKat",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18500424",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Designing Wallet-Based User Intervention for Approval Phishing Mitigation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20414886",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "CTA: Clip-then-Aggregate, a Differentially Private Learning Algorithm for Graph Data",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20416326",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "HyperAudit: Towards User Transparent and Highly Efficient System Auditing for Cloud Platforms",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20416094",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Principled Design of Indexing Functions for Memory Coloring",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.18494189",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20409592",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Towards Practical Few-shot Multi-tab Website Fingerpinting",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20416451",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20425141",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "PHANTOM: Undermining Mobile System Availability via Malformed Installation Metadata",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20409885",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Raising the Flag: Detecting Missing Permission Controls in Mini-Program APIs",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20498351",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20568623",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "What You Decode Depends on Where You Stand: Distance-Based Optical QR Code",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20423215",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Secpoline: A Scalable Approach to Build Secure In-Process Syscall Interposers",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20432296",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Systematically Detecting Privacy Violations in Video Conferencing via Cross-Modal Consistency",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20430914",
+      "platform": "Zenodo",
+      "accessible": false
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Take the RedPill: Boosting MCU Firmware Fuzzing with Faithful Hardware Emulation",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20440595",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Trusting What You Cannot See: Auditable Fine-Tuning and Inference for Proprietary AI",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20438270",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Revelio: A Global Study of VoIP Blocking",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20362017",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Oblivious Signaling",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20437084",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SoK: Capability Operating Systems: Is the Future Finally Here?",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20435520",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20436935",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Remise: Authorized Anonymous Communication Systems",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20438384",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "AutoFail: Breaking Web Boundaries using Android’s Autofill Framework",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20443308",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.20508351",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "HAMLOCK: HArdware-Model LOgically Combined attacK",
+      "url_key": "artifact_url",
+      "url": "https://doi.org/10.5281/zenodo.17980434",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20656773",
+      "platform": "Zenodo",
+      "accessible": true
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2026,
+      "area": "security",
+      "title": "SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput",
+      "url_key": "artifact_url",
+      "url": "https://zenodo.org/records/20646913",
       "platform": "Zenodo",
       "accessible": true
     },
@@ -28286,7 +30256,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/record/7733387",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "WOOT",
@@ -28296,7 +30266,7 @@
       "url_key": "artifact_url",
       "url": "https://zenodo.org/record/7749186",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "WOOT",

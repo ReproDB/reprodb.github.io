@@ -384,7 +384,7 @@
 - name: USENIXSEC
   category: security
   venue_type: conference
-  total_artifacts: 1010
+  total_artifacts: 1213
   years:
   - year: 2020
     total: 37
@@ -423,10 +423,10 @@
     available: 394
     reusable: 0
   - year: 2026
-    total: 149
-    functional: 51
-    reproducible: 44
-    available: 149
+    total: 352
+    functional: 126
+    reproducible: 102
+    available: 352
     reusable: 0
 - name: WOOT
   category: security
