@@ -80,6 +80,10 @@ html {
   padding-inline: 0;
 }
 
+.page__content h2 {
+  padding-bottom: 0.2em;
+}
+
 // Dropdown submenus for masthead navigation
 // Override theme's overflow:hidden on .visible-links which clips dropdowns
 .greedy-nav .visible-links {
