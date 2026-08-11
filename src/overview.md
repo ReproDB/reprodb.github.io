@@ -118,6 +118,7 @@ Top-10 institutions by combined score (artifact creation + AE service) for each 
 <script id="overview-data" type="application/json">
 {
   "years": [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+  "committeeYears": [{% if site.data.committee_stats.committee_sizes %}{% assign _cot_yrs = site.data.committee_stats.committee_sizes | map: "year" | uniq | sort %}{% for y in _cot_yrs %}"{{ y }}"{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}],
   "sysCounts": [{% for y in site.data.artifacts_by_year %}{{ y.systems }}{% unless forloop.last %},{% endunless %}{% endfor %}],
   "secCounts": [{% for y in site.data.artifacts_by_year %}{{ y.security }}{% unless forloop.last %},{% endunless %}{% endfor %}],
   "totCounts": [{% for y in site.data.artifacts_by_year %}{{ y.count }}{% unless forloop.last %},{% endunless %}{% endfor %}],

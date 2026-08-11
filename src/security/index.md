@@ -84,7 +84,11 @@ Artifact evaluation statistics for security conferences ({{ site.data.summary.se
 {% if site.data.artifacts_by_conference %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var years = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+  /* Build year list from artifact data, extended by committee year coverage */
+  var _artYears = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+  var _cmtYears = [{% if site.data.committee_stats.committee_sizes %}{% for s in site.data.committee_stats.committee_sizes %}{% if s.area == 'security' %}"{{ s.year }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endif %}];
+  var _yrSet = {}; _artYears.concat(_cmtYears).forEach(function(y) { _yrSet[y] = true; });
+  var years = Object.keys(_yrSet).sort();
   var confColors = ['#c0392b','#2980b9','#27ae60','#8e44ad','#e67e22','#1abc9c','#34495e','#d4ac0d'];
   var confDatasets = [];
   {% assign ci = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "security" %}
