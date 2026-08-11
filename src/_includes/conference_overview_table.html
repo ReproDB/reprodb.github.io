@@ -21,6 +21,18 @@
   {% endfor %}
   ];
 
+  /* ── Committee year coverage per conference (extends year ranges when AE
+        committee is announced ahead of artifact submissions) ── */
+  var committeeYearsByConf = {};
+  {% if site.data.committee_stats.committee_sizes %}
+  {% for s in site.data.committee_stats.committee_sizes %}
+    {% if s.area == _cot_cat %}
+    if (!committeeYearsByConf[{{ s.conference | jsonify }}]) committeeYearsByConf[{{ s.conference | jsonify }}] = [];
+    committeeYearsByConf[{{ s.conference | jsonify }}].push({{ s.year }});
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+
   /* ── Repo stats per conference ── */
   var repoByConf = {};
   {% for item in site.data.repo_stats.by_conference %}
@@ -77,6 +89,17 @@
     c.last_ae_papers = e.ae_papers;
     c.last_available = e.available;
     c.last_reproduced = e.reproduced;
+  });
+
+  /* Extend year ranges with committee year coverage (AE committee may be
+     announced before artifact submissions are collected) */
+  Object.keys(committeeYearsByConf).forEach(function(conf) {
+    if (!confMap[conf]) confMap[conf] = { years: [], total_papers: 0, ae_papers: 0, available: 0, reproduced: 0 };
+    var c = confMap[conf];
+    var yearSet = {};
+    c.years.forEach(function(y) { yearSet[y] = true; });
+    committeeYearsByConf[conf].forEach(function(y) { yearSet[y] = true; });
+    c.years = Object.keys(yearSet).map(Number).sort(function(a, b) { return a - b; });
   });
 
   /* For conferences with no participation data, populate last_* from totals */

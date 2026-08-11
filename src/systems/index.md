@@ -84,7 +84,11 @@ Artifact evaluation statistics for systems conferences ({{ site.data.summary.sys
 {% if site.data.artifacts_by_conference %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var years = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+  /* Build year list from artifact data, extended by committee year coverage */
+  var _artYears = [{% for y in site.data.artifacts_by_year %}"{{ y.year }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+  var _cmtYears = [{% if site.data.committee_stats.committee_sizes %}{% for s in site.data.committee_stats.committee_sizes %}{% if s.area == 'systems' %}"{{ s.year }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endif %}];
+  var _yrSet = {}; _artYears.concat(_cmtYears).forEach(function(y) { _yrSet[y] = true; });
+  var years = Object.keys(_yrSet).sort();
   var confColors = ['#E6194B','#3CB44B','#4363D8','#F58231','#911EB4','#42D4F4'];
   var confDatasets = [];
   {% assign ci = 0 %}{% for conf in site.data.artifacts_by_conference %}{% if conf.category == "systems" %}
