@@ -14,8 +14,8 @@
     "avg_chairs_per_edition": 2.1,
     "avg_chairs_per_edition_systems": 2.5,
     "avg_chairs_per_edition_security": 1.7,
-    "total_countries": 17,
-    "total_continents": 4,
+    "total_countries": 16,
+    "total_continents": 3,
     "year_trends": [
       {
         "year": 2017,
@@ -1519,8 +1519,8 @@
     }
   ],
   "geographic": {
-    "total_countries": 17,
-    "total_continents": 4,
+    "total_countries": 16,
+    "total_continents": 3,
     "by_country": {
       "United States": 40,
       "China": 6,
@@ -1534,7 +1534,6 @@
       "Italy": 2,
       "Spain": 2,
       "Canada": 1,
-      "Australia": 1,
       "Singapore": 1,
       "Portugal": 1,
       "Hong Kong": 1,
@@ -1543,9 +1542,8 @@
     "by_continent": {
       "North America": 41,
       "Europe": 33,
-      "Asia": 8,
-      "Oceania": 1
+      "Asia": 8
     },
-    "unclassified_count": 2
+    "unclassified_count": 3
   }
 }
