@@ -4,9 +4,9 @@ overall:
   total_forks: 22701
   max_stars: 19214
   max_forks: 2575
-  zenodo_repos: 1098
-  total_views: 339519
-  total_downloads: 279282
+  zenodo_repos: 1129
+  total_views: 348848
+  total_downloads: 280660
   avg_stars: 88.4
   avg_forks: 11.6
   median_stars: 6
@@ -15,7 +15,7 @@ overall:
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-08-11 15:21:41 UTC
+  last_updated: 2026-08-11 16:30:07 UTC
 by_conference:
 - name: ACSAC
   github_repos: 212
@@ -244,8 +244,8 @@ by_conference:
   total_forks: 859
   avg_stars: 44.9
   avg_forks: 8.0
-  median_stars: 10
-  median_forks: 1
+  median_stars: 10.0
+  median_forks: 1.0
   p25_stars: 3.0
   p75_stars: 27.0
   p25_forks: 1.0
@@ -419,12 +419,12 @@ by_conference:
   total_forks: 22
   avg_stars: 7.6
   avg_forks: 1.4
-  median_stars: 2.0
-  median_forks: 0.0
-  p25_stars: 0.0
-  p75_stars: 6.5
+  median_stars: 2
+  median_forks: 0
+  p25_stars: 0.5
+  p75_stars: 8.0
   p25_forks: 0.0
-  p75_forks: 1.2
+  p75_forks: 1.5
   max_stars: 67
   max_forks: 11
   years:
@@ -504,33 +504,32 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: 'Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound
-      LLM Agent Design in an Adversarial POMDP'
-    url: https://github.com/isbogdanov/agent-design-study
+  - title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
+      Copywriting'
+    url: https://github.com/yangalan123/AI-Realtor-Codebase
     conference: CAIS
     year: 2026
     area: systems
     stars: 5
     forks: 0
-    description: 'Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound
-      LLM Agent Design in an Adversarial POMDP'
+    description: 'Official Codebase for "AI Reatlor: Towards Grounded Persuasive Language
+      Generation for Automated Copywriting"'
     language: Python
-    name: isbogdanov/agent-design-study
-    pushed_at: '2026-05-02T17:41:24Z'
+    name: yangalan123/AI-Realtor-Codebase
+    pushed_at: '2026-05-11T03:44:54Z'
     badges:
     - available
     - functional
-    - reproduced
 - name: EUROSYS
-  github_repos: 165
-  total_stars: 14907
-  total_forks: 2197
-  avg_stars: 90.3
-  avg_forks: 13.3
-  median_stars: 6.0
+  github_repos: 164
+  total_stars: 14738
+  total_forks: 2150
+  avg_stars: 89.9
+  avg_forks: 13.1
+  median_stars: 5.0
   median_forks: 1.0
   p25_stars: 2.0
-  p75_stars: 17.0
+  p75_stars: 17.8
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 10465
@@ -561,15 +560,15 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 7.0
   - year: 2023
-    github_repos: 15
-    total_stars: 459
-    total_forks: 351
-    avg_stars: 30.6
-    avg_forks: 23.4
-    median_stars: 10
-    median_forks: 2
-    p25_stars: 2.0
-    p75_stars: 25.0
+    github_repos: 14
+    total_stars: 290
+    total_forks: 304
+    avg_stars: 20.7
+    avg_forks: 21.7
+    median_stars: 8.0
+    median_forks: 1.5
+    p25_stars: 1.8
+    p75_stars: 17.5
     p25_forks: 0.0
     p75_forks: 4.0
   - year: 2024
@@ -718,8 +717,8 @@ by_conference:
   total_forks: 311
   avg_stars: 14.5
   avg_forks: 2.8
-  median_stars: 4.0
-  median_forks: 1.0
+  median_stars: 4
+  median_forks: 1
   p25_stars: 2.0
   p75_stars: 13.0
   p25_forks: 0.0
@@ -775,28 +774,15 @@ by_conference:
     language: C
     name: ChatAFLndss/ChatAFL
     pushed_at: '2025-06-30T12:32:33Z'
-    badges: &id001
+    badges:
     - available
     - functional
     - reproduced
-    authors: &id002
+    authors:
     - Ruijie Meng
     - Martin Mirchev
     - Marcel Böhme
     - Abhik Roychoudhury
-  - title: Large Language Model guided Protocol Fuzzing
-    url: https://github.com/ChatAFLndss/ChatAFL
-    conference: NDSS
-    year: 2024
-    area: security
-    stars: 392
-    forks: 52
-    description: Large Language Model guided Protocol Fuzzing (NDSS'24)
-    language: C
-    name: ChatAFLndss/ChatAFL
-    pushed_at: '2025-06-30T12:32:33Z'
-    badges: *id001
-    authors: *id002
   - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
       on IoT Devices'
     url: https://github.com/IoTAccessControl/MCU-Token/tree/master
@@ -809,11 +795,11 @@ by_conference:
     language: C
     name: IoTAccessControl/MCU-Token
     pushed_at: '2025-03-01T13:16:21Z'
-    badges: &id003
+    badges:
     - available
     - functional
     - reproduced
-    authors: &id004
+    authors:
     - Yue Xiao
     - Yi He 0020
     - Xiaoli Zhang 0003
@@ -822,20 +808,6 @@ by_conference:
     - Kun Sun 0001
     - Ke Xu 0002
     - Qi Li 0002
-  - title: 'From Hardware Fingerprint to Access Token: Enhancing the Authentication
-      on IoT Devices'
-    url: https://github.com/IoTAccessControl/MCU-Token/tree/master
-    conference: NDSS
-    year: 2024
-    area: security
-    stars: 156
-    forks: 90
-    description: A secure IoT authentication framework based on hardware fingerprinting
-    language: C
-    name: IoTAccessControl/MCU-Token
-    pushed_at: '2025-03-01T13:16:21Z'
-    badges: *id003
-    authors: *id004
   - title: 'IsolateGPT: An Execution Isolation Architecture for LLM-Based Systems'
     url: https://github.com/llm-platform-security/SecGPT
     conference: NDSS
@@ -851,6 +823,48 @@ by_conference:
     - available
     - functional
     - reproduced
+  - title: 'YuraScanner: Leveraging LLMs for Task-driven Web App Scanning'
+    url: https://github.com/pixelindigo/yurascanner/tree/ndss25
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 84
+    forks: 17
+    description: YuraScanner
+    language: JavaScript
+    name: pixelindigo/yurascanner
+    pushed_at: '2025-02-13T11:25:22Z'
+    badges:
+    - functional
+    - reproduced
+    authors:
+    - Aleksei Stafeev
+    - Tim Recktenwald
+    - Gianluca De Stefano
+    - Soheil Khodayari
+    - Giancarlo Pellegrino
+  - title: '5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service'
+    url: https://github.com/5GSEC/5G-Spector
+    conference: NDSS
+    year: 2024
+    area: security
+    stars: 59
+    forks: 15
+    description: An O-RAN compliant runtime intrusion detection system (xApp) for
+      layer-3 (L3) celluar attack detection
+    language: ''
+    name: 5GSEC/5G-Spector
+    pushed_at: '2024-11-04T19:27:54Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+    authors:
+    - Haohuang Wen
+    - Phillip A. Porras
+    - Vinod Yegneswaran
+    - Ashish Gehani
+    - Zhiqiang Lin 0001
 - name: OSDI
   github_repos: 136
   total_stars: 40343
@@ -862,7 +876,7 @@ by_conference:
   p25_stars: 9.0
   p75_stars: 76.0
   p25_forks: 1.0
-  p75_forks: 15.0
+  p75_forks: 14.0
   max_stars: 14365
   max_forks: 1856
   years:
@@ -1227,8 +1241,8 @@ by_conference:
   total_forks: 3172
   avg_stars: 192.7
   avg_forks: 22.2
-  median_stars: 19
-  median_forks: 4
+  median_stars: 18.5
+  median_forks: 4.0
   p25_stars: 6.0
   p75_stars: 48.0
   p25_forks: 1.0
@@ -1422,23 +1436,10 @@ by_conference:
     language: Python
     name: comsec-group/phoenix
     pushed_at: '2026-05-14T19:57:38Z'
-    badges: &id005
+    badges:
     - available
     - functional
     - reproduced
-  - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
-    url: https://github.com/comsec-group/phoenix
-    conference: SP
-    year: 2026
-    area: security
-    stars: 75
-    forks: 9
-    description: 'Artifacts for "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting
-      Synchronization" (IEEE S&P ''26)'
-    language: Python
-    name: comsec-group/phoenix
-    pushed_at: '2026-05-14T19:57:38Z'
-    badges: *id005
   - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
     url: https://github.com/google/private-membership
     conference: SP
@@ -1450,20 +1451,8 @@ by_conference:
     language: C++
     name: google/private-membership
     pushed_at: '2026-06-30T15:22:39Z'
-    badges: &id006
+    badges:
     - available
-  - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
-    url: https://github.com/google/private-membership
-    conference: SP
-    year: 2026
-    area: security
-    stars: 67
-    forks: 17
-    description: ''
-    language: C++
-    name: google/private-membership
-    pushed_at: '2026-06-30T15:22:39Z'
-    badges: *id006
   - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation
       in Cloud Environments'
     url: https://github.com/comsec-group/vmscape
@@ -1477,6 +1466,37 @@ by_conference:
     language: C
     name: comsec-group/vmscape
     pushed_at: '2026-05-05T13:39:27Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
+    url: https://github.com/Yuuoniy/SpecAuditor
+    conference: SP
+    year: 2026
+    area: security
+    stars: 23
+    forks: 0
+    description: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug
+      Detection (S&P 2026)'
+    language: HTML
+    name: Yuuoniy/SpecAuditor
+    pushed_at: '2026-06-08T13:31:25Z'
+    badges:
+    - available
+    - functional
+    - reproduced
+  - title: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    url: https://github.com/vusec/rain
+    conference: SP
+    year: 2026
+    area: security
+    stars: 19
+    forks: 1
+    description: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    language: C
+    name: vusec/rain
+    pushed_at: '2025-10-16T08:45:08Z'
     badges:
     - available
     - functional
@@ -1608,8 +1628,8 @@ by_conference:
   total_forks: 7476
   avg_stars: 70.3
   avg_forks: 11.3
-  median_stars: 8.0
-  median_forks: 1.0
+  median_stars: 9
+  median_forks: 2
   p25_stars: 3.0
   p75_stars: 28.0
   p25_forks: 0.0
@@ -1715,11 +1735,11 @@ by_conference:
     language: Python
     name: GreyDGL/PentestGPT
     pushed_at: '2026-07-14T12:58:31Z'
-    badges: &id007
+    badges:
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id008
+    authors:
     - Gelei Deng
     - Yi Liu 0069
     - Víctor Mayoral Vilches
@@ -1730,21 +1750,6 @@ by_conference:
     - Stefan Rass
     - Tianwei Zhang 0004
     - Yang Liu 0003
-  - title: 'PentestGPT: Evaluating and Harnessing Large Language Models for Automated
-      Penetration Testing'
-    url: https://github.com/GreyDGL/PentestGPT
-    conference: USENIXSEC
-    year: 2024
-    area: security
-    stars: 14784
-    forks: 2575
-    description: Automated Penetration Testing Agentic Framework Powered by Large
-      Language Models
-    language: Python
-    name: GreyDGL/PentestGPT
-    pushed_at: '2026-07-14T12:58:31Z'
-    badges: *id007
-    authors: *id008
   - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
     url: https://github.com/richzhang/PerceptualSimilarity
     conference: USENIXSEC
@@ -1756,26 +1761,13 @@ by_conference:
     language: Python
     name: richzhang/PerceptualSimilarity
     pushed_at: '2024-07-02T17:30:14Z'
-    badges: &id009
+    badges:
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id010
+    authors:
     - Junhua Lin
     - Marc Juarez
-  - title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
-    url: https://github.com/richzhang/PerceptualSimilarity
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 4266
-    forks: 523
-    description: LPIPS metric. pip install lpips
-    language: Python
-    name: richzhang/PerceptualSimilarity
-    pushed_at: '2024-07-02T17:30:14Z'
-    badges: *id009
-    authors: *id010
   - title: 'BlockSci: Design and applications of a blockchain analysis platform'
     url: https://github.com/citp/BlockSci
     conference: USENIXSEC
@@ -1797,18 +1789,58 @@ by_conference:
     - Martin Plattner
     - Alishah Chator
     - Arvind Narayanan
+  - title: 'Trojan Source: Invisible Vulnerabilities'
+    url: https://github.com/nickboucher/trojan-source/tree/e3dc153fcf465f4a84424ea874ff39be29adb1f7
+    conference: USENIXSEC
+    year: 2023
+    area: security
+    stars: 1287
+    forks: 268
+    description: 'Trojan Source: Invisible Vulnerabilities'
+    language: SCSS
+    name: nickboucher/trojan-source
+    pushed_at: '2023-04-26T08:22:53Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Nicholas Boucher
+    - Ross Anderson 0001
+  - title: How to Abuse and Fix Authenticated Encryption Without Key Commitment
+    url: https://github.com/corkami/mitra/tree/Usenix22
+    conference: USENIXSEC
+    year: 2022
+    area: security
+    stars: 1286
+    forks: 83
+    description: A generator of weird files (binary polyglots, near polyglots, polymocks...)
+    language: Python
+    name: corkami/mitra
+    pushed_at: '2024-12-22T20:29:32Z'
+    badges:
+    - 'Badges: Available'
+    - Functional
+    - Reproduced
+    authors:
+    - Ange Albertini
+    - Thai Duong
+    - Shay Gueron
+    - Stefan Kölbl
+    - Atul Luykx
+    - Sophie Schmieg
 - name: WOOT
   github_repos: 30
   total_stars: 16310
   total_forks: 1336
   avg_stars: 543.7
   avg_forks: 44.5
-  median_stars: 10
-  median_forks: 1
+  median_stars: 10.0
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 35.5
+  p75_stars: 35.2
   p25_forks: 0.0
-  p75_forks: 7.5
+  p75_forks: 7.2
   max_stars: 12559
   max_forks: 1032
   years:
@@ -1912,25 +1944,12 @@ by_conference:
     language: C
     name: endrazine/wcc
     pushed_at: '2026-07-17T09:15:28Z'
-    badges: &id011
+    badges:
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors: &id012
+    authors:
     - Jonathan Brossard
-  - title: Introduction to Procedural Debugging through Binary Libification
-    url: https://github.com/endrazine/wcc
-    conference: WOOT
-    year: 2024
-    area: security
-    stars: 2003
-    forks: 115
-    description: The Witchcraft Compiler Collection
-    language: C
-    name: endrazine/wcc
-    pushed_at: '2026-07-17T09:15:28Z'
-    badges: *id011
-    authors: *id012
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -1966,6 +1985,23 @@ by_conference:
     pushed_at: '2023-03-13T16:54:52Z'
     badges:
     - ORO
+  - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
+    url: https://github.com/fgsect/unicorefuzz
+    conference: WOOT
+    year: 2019
+    area: security
+    stars: 305
+    forks: 35
+    description: Fuzzing the Kernel Using Unicornafl and AFL++
+    language: Python
+    name: fgsect/unicorefuzz
+    pushed_at: '2023-01-02T18:12:54Z'
+    badges:
+    - Artifact Evaluated
+    authors:
+    - Dominik Christian Maier
+    - Benedikt Radtke
+    - Bastian Harren
 by_year:
 - year: 2017
   github_repos: 7
@@ -2052,15 +2088,15 @@ by_year:
   max_stars: 14365
   max_forks: 1856
 - year: 2023
-  github_repos: 306
-  total_stars: 14111
-  total_forks: 2735
-  avg_stars: 46.1
-  avg_forks: 8.9
-  median_stars: 10.0
-  median_forks: 2.0
+  github_repos: 305
+  total_stars: 13942
+  total_forks: 2688
+  avg_stars: 45.7
+  avg_forks: 8.8
+  median_stars: 10
+  median_forks: 2
   p25_stars: 3.0
-  p75_stars: 35.2
+  p75_stars: 35.0
   p25_forks: 0.0
   p75_forks: 6.0
   max_stars: 1707
@@ -2109,24 +2145,24 @@ by_year:
   max_forks: 1179
 by_area:
 - name: systems
-  github_repos: 613
-  total_stars: 107021
-  total_forks: 14029
-  median_stars: 12
-  median_forks: 3
+  github_repos: 574
+  total_stars: 105053
+  total_forks: 13521
+  median_stars: 13.0
+  median_forks: 3.0
   p25_stars: 3.0
-  p75_stars: 40.5
+  p75_stars: 43.2
   p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 19214
 - name: security
-  github_repos: 2053
-  total_stars: 136516
-  total_forks: 19523
-  median_stars: 5
-  median_forks: 1
+  github_repos: 1422
+  total_stars: 93077
+  total_forks: 12598
+  median_stars: 4.0
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 18.0
+  p75_stars: 15.2
   p25_forks: 0.0
   p75_forks: 3.0
   max_stars: 14784
