@@ -16936,12 +16936,7 @@
     "description": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
     "language": "C",
     "name": "vusec/rain",
-    "pushed_at": "2025-10-16T08:45:08Z",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ]
+    "pushed_at": "2025-10-16T08:45:08Z"
   },
   {
     "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
@@ -16954,7 +16949,10 @@
     "description": "This is the artifact of the IEEE S&P 2026 paper \"Hijacking Large Audio-Language Models via Context-agnostic Auditory Pro",
     "language": "Python",
     "name": "zju-muslab/AudioHijack",
-    "pushed_at": "2026-03-29T10:57:38Z"
+    "pushed_at": "2026-03-29T10:57:38Z",
+    "badges": [
+      "available"
+    ]
   },
   {
     "title": "PraaS: Verifiable Proofs of Property as-a-Service with Intel SGX",
