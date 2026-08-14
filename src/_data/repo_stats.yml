@@ -15,7 +15,7 @@ overall:
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-08-13 06:55:35 UTC
+  last_updated: 2026-08-14 18:20:29 UTC
 by_conference:
 - name: ACSAC
   github_repos: 212
@@ -1486,21 +1486,21 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
-      Auditory Prompt Injection
-    url: https://github.com/zju-muslab/AudioHijack
+  - title: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    url: https://github.com/vusec/rain
     conference: SP
     year: 2026
     area: security
     stars: 19
-    forks: 2
-    description: This is the artifact of the IEEE S&P 2026 paper "Hijacking Large
-      Audio-Language Models via Context-agnostic Auditory Pro
-    language: Python
-    name: zju-muslab/AudioHijack
-    pushed_at: '2026-03-29T10:57:38Z'
+    forks: 1
+    description: 'Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities'
+    language: C
+    name: vusec/rain
+    pushed_at: '2025-10-16T08:45:08Z'
     badges:
     - available
+    - functional
+    - reproduced
 - name: SYSTEX
   github_repos: 17
   total_stars: 59

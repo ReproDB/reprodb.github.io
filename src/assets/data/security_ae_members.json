@@ -3211,45 +3211,6 @@
     "last_year": 2020
   },
   {
-    "name": "Felix Lange",
-    "display_name": "Felix Lange",
-    "affiliation": "Paderborn University",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
-  },
-  {
     "name": "Fuman Xie",
     "display_name": "Fuman Xie",
     "affiliation": "The University of Queensland",
@@ -5830,6 +5791,40 @@
     },
     "first_year": 2023,
     "last_year": 2025
+  },
+  {
+    "name": "Felix Lange",
+    "display_name": "Felix Lange",
+    "affiliation": "Paderborn University",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2027,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2025,
+    "last_year": 2027
   },
   {
     "name": "Fujiao Ji",
@@ -21482,6 +21477,28 @@
     "display_name": "Federico Mazzone",
     "affiliation": "University of Twente",
     "country": "Netherlands",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
+    "name": "Felix Graf Lange",
+    "display_name": "Felix Graf Lange",
+    "affiliation": "Paderborn University",
+    "country": "Germany",
     "continent": "Europe",
     "total_memberships": 1,
     "chair_count": 0,

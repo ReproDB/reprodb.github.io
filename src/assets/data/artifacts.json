@@ -57230,7 +57230,8 @@
     "title": "Side-Channel Attacks on Open vSwitch",
     "badges": [
       "Badges: Available",
-      "Functional"
+      "Functional",
+      "Reproduced"
     ],
     "artifact_urls": [
       "https://doi.org/10.5281/zenodo.17965902"
@@ -62164,7 +62165,9 @@
     "year": 2026,
     "title": "Principled Design of Indexing Functions for Memory Coloring",
     "badges": [
-      "Badges: Available"
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
     ],
     "artifact_urls": [
       "https://doi.org/10.5281/zenodo.18494189"
@@ -62172,7 +62175,7 @@
     "artifinder_urls": [],
     "doi": "10.5281/zenodo.18494189",
     "paper_url": null,
-    "appendix_url": null,
+    "appendix_url": "https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle2ae-final194.pdf",
     "paper_id": null,
     "award": null
   },
