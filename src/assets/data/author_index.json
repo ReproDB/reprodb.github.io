@@ -18492,7 +18492,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "both"
+    "category": "systems"
   },
   {
     "id": 1064,
@@ -27882,21 +27882,6 @@
     "name": "Kazuki Nomoto",
     "display_name": "Kazuki Nomoto",
     "affiliation": "Waseda University",
-    "affiliation_source": "crossref_doi",
-    "affiliation_updated": "2026-04-09",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 1697,
-    "name": "Tatsuya Mori",
-    "display_name": "Tatsuya Mori",
-    "affiliation": "Waseda University/NICT/RIKEN AIP",
     "affiliation_source": "crossref_doi",
     "affiliation_updated": "2026-04-09",
     "affiliation_history": [],
@@ -64081,21 +64066,6 @@
     "category": "security"
   },
   {
-    "id": 4223,
-    "name": "Aikata Aikata",
-    "display_name": "Aikata Aikata",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 4224,
     "name": "Dhiman Saha",
     "display_name": "Dhiman Saha",
@@ -80906,21 +80876,6 @@
     "category": "security"
   },
   {
-    "id": 5358,
-    "name": "Zhihong Tian",
-    "display_name": "Zhihong Tian",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 5359,
     "name": "Yuxin (Myles) Liu",
     "display_name": "Yuxin (Myles) Liu",
@@ -84902,21 +84857,6 @@
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 5620,
-    "name": "Tian Dong",
-    "display_name": "Tian Dong",
-    "affiliation": "The University of Hong Kong",
-    "affiliation_source": "ae_committee",
-    "affiliation_updated": "2026-04-07",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -143760,21 +143700,6 @@
     "category": "security"
   },
   {
-    "id": 9726,
-    "name": "Dongjie Wang",
-    "display_name": "Dongjie Wang",
-    "affiliation": "University of Kansas",
-    "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-08-10",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 9727,
     "name": "Jiafeng Xie",
     "display_name": "Jiafeng Xie",
@@ -148656,6 +148581,66 @@
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10053,
+    "name": "Zhihong Tian 0001",
+    "display_name": "Zhihong Tian",
+    "affiliation": "Harbin Institute of Technology",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-08-23",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10054,
+    "name": "Tian Dong 0003",
+    "display_name": "Tian Dong",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10055,
+    "name": "Meng Xu 0025",
+    "display_name": "Meng Xu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10056,
+    "name": "Dongjie Wang 0001",
+    "display_name": "Dongjie Wang",
+    "affiliation": "Hong Kong Baptist University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-08-23",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,

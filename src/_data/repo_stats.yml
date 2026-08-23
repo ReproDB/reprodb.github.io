@@ -1,21 +1,21 @@
 overall:
-  github_repos: 1965
-  total_stars: 173679
-  total_forks: 22701
+  github_repos: 1985
+  total_stars: 173966
+  total_forks: 22750
   max_stars: 19214
   max_forks: 2575
-  zenodo_repos: 1129
-  total_views: 348848
-  total_downloads: 280660
-  avg_stars: 88.4
-  avg_forks: 11.6
+  zenodo_repos: 1180
+  total_views: 359040
+  total_downloads: 285484
+  avg_stars: 87.6
+  avg_forks: 11.5
   median_stars: 6
   median_forks: 1
   p25_stars: 1.0
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-08-16 13:16:52 UTC
+  last_updated: 2026-08-23 13:19:14 UTC
 by_conference:
 - name: ACSAC
   github_repos: 212
@@ -504,32 +504,33 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
-      Copywriting'
-    url: https://github.com/yangalan123/AI-Realtor-Codebase
+  - title: 'Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound
+      LLM Agent Design in an Adversarial POMDP'
+    url: https://github.com/isbogdanov/agent-design-study
     conference: CAIS
     year: 2026
     area: systems
     stars: 5
     forks: 0
-    description: 'Official Codebase for "AI Reatlor: Towards Grounded Persuasive Language
-      Generation for Automated Copywriting"'
+    description: 'Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound
+      LLM Agent Design in an Adversarial POMDP'
     language: Python
-    name: yangalan123/AI-Realtor-Codebase
-    pushed_at: '2026-05-11T03:44:54Z'
+    name: isbogdanov/agent-design-study
+    pushed_at: '2026-05-02T17:41:24Z'
     badges:
     - available
     - functional
+    - reproduced
 - name: EUROSYS
-  github_repos: 164
-  total_stars: 14738
-  total_forks: 2150
-  avg_stars: 89.9
-  avg_forks: 13.1
-  median_stars: 5.0
-  median_forks: 1.0
+  github_repos: 167
+  total_stars: 14868
+  total_forks: 2178
+  avg_stars: 89.0
+  avg_forks: 13.0
+  median_stars: 5
+  median_forks: 1
   p25_stars: 2.0
-  p75_stars: 17.8
+  p75_stars: 18.0
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 10465
@@ -572,27 +573,27 @@ by_conference:
     p25_forks: 0.0
     p75_forks: 4.0
   - year: 2024
-    github_repos: 11
-    total_stars: 76
-    total_forks: 18
-    avg_stars: 6.9
-    avg_forks: 1.6
+    github_repos: 13
+    total_stars: 190
+    total_forks: 43
+    avg_stars: 14.6
+    avg_forks: 3.3
     median_stars: 6
     median_forks: 1
-    p25_stars: 1.0
-    p75_stars: 9.0
-    p25_forks: 0.0
+    p25_stars: 2.5
+    p75_stars: 10.5
+    p25_forks: 0.5
     p75_forks: 3.0
   - year: 2025
-    github_repos: 30
-    total_stars: 727
-    total_forks: 128
-    avg_stars: 24.2
-    avg_forks: 4.3
-    median_stars: 5.0
-    median_forks: 1.0
+    github_repos: 31
+    total_stars: 743
+    total_forks: 131
+    avg_stars: 24.0
+    avg_forks: 4.2
+    median_stars: 5
+    median_forks: 1
     p25_stars: 1.0
-    p75_stars: 16.5
+    p75_stars: 16.0
     p25_forks: 0.0
     p75_forks: 5.0
   - year: 2026
@@ -712,54 +713,54 @@ by_conference:
     - functional
     - reproduced
 - name: NDSS
-  github_repos: 110
-  total_stars: 1597
-  total_forks: 311
-  avg_stars: 14.5
-  avg_forks: 2.8
-  median_stars: 4
-  median_forks: 1
+  github_repos: 123
+  total_stars: 1747
+  total_forks: 330
+  avg_stars: 14.2
+  avg_forks: 2.7
+  median_stars: 5.0
+  median_forks: 1.0
   p25_stars: 2.0
-  p75_stars: 13.0
+  p75_stars: 13.8
   p25_forks: 0.0
   p75_forks: 2.0
   max_stars: 392
   max_forks: 90
   years:
   - year: 2024
-    github_repos: 25
-    total_stars: 827
+    github_repos: 26
+    total_stars: 838
     total_forks: 187
-    avg_stars: 33.1
-    avg_forks: 7.5
-    median_stars: 9
-    median_forks: 1
+    avg_stars: 32.2
+    avg_forks: 7.2
+    median_stars: 10.0
+    median_forks: 1.0
     p25_stars: 3.0
     p75_stars: 22.0
     p25_forks: 0.0
     p75_forks: 3.0
   - year: 2025
-    github_repos: 42
-    total_stars: 575
-    total_forks: 97
-    avg_stars: 13.7
-    avg_forks: 2.3
+    github_repos: 48
+    total_stars: 631
+    total_forks: 108
+    avg_stars: 13.1
+    avg_forks: 2.2
     median_stars: 6.5
     median_forks: 1.0
     p25_stars: 2.0
-    p75_stars: 14.2
+    p75_stars: 14.8
     p25_forks: 0.0
     p75_forks: 3.0
   - year: 2026
-    github_repos: 43
-    total_stars: 195
-    total_forks: 27
-    avg_stars: 4.5
-    avg_forks: 0.6
+    github_repos: 49
+    total_stars: 278
+    total_forks: 35
+    avg_stars: 5.7
+    avg_forks: 0.7
     median_stars: 3
     median_forks: 0
     p25_stars: 1.0
-    p75_stars: 5.0
+    p75_stars: 8.0
     p25_forks: 0.0
     p75_forks: 1.0
   top_repos:
@@ -1397,32 +1398,32 @@ by_conference:
     - Available
     - Functional
 - name: SP
-  github_repos: 23
-  total_stars: 284
-  total_forks: 39
-  avg_stars: 12.3
-  avg_forks: 1.7
+  github_repos: 25
+  total_stars: 285
+  total_forks: 41
+  avg_stars: 11.4
+  avg_forks: 1.6
   median_stars: 2
   median_forks: 1
   p25_stars: 1.0
-  p75_stars: 19.0
+  p75_stars: 13.0
   p25_forks: 0.0
-  p75_forks: 1.0
+  p75_forks: 1.5
   max_stars: 75
   max_forks: 17
   years:
   - year: 2026
-    github_repos: 23
-    total_stars: 284
-    total_forks: 39
-    avg_stars: 12.3
-    avg_forks: 1.7
+    github_repos: 25
+    total_stars: 285
+    total_forks: 41
+    avg_stars: 11.4
+    avg_forks: 1.6
     median_stars: 2
     median_forks: 1
     p25_stars: 1.0
-    p75_stars: 19.0
+    p75_stars: 13.0
     p25_forks: 0.0
-    p75_forks: 1.0
+    p75_forks: 1.5
   top_repos:
   - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
     url: https://github.com/comsec-group/phoenix
@@ -1623,10 +1624,10 @@ by_conference:
     badges:
     - Artifacts Available + Functional + Reusable
 - name: USENIXSEC
-  github_repos: 659
-  total_stars: 46342
+  github_repos: 661
+  total_stars: 46348
   total_forks: 7476
-  avg_stars: 70.3
+  avg_stars: 70.1
   avg_forks: 11.3
   median_stars: 9
   median_forks: 2
@@ -1698,25 +1699,25 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 4.0
   - year: 2025
-    github_repos: 147
-    total_stars: 7669
+    github_repos: 148
+    total_stars: 7674
     total_forks: 1047
-    avg_stars: 52.2
+    avg_stars: 51.9
     avg_forks: 7.1
-    median_stars: 7
-    median_forks: 1
+    median_stars: 7.0
+    median_forks: 1.0
     p25_stars: 3.0
-    p75_stars: 16.0
+    p75_stars: 15.8
     p25_forks: 0.0
     p75_forks: 2.0
   - year: 2026
-    github_repos: 86
-    total_stars: 1254
+    github_repos: 87
+    total_stars: 1255
     total_forks: 321
-    avg_stars: 14.6
+    avg_stars: 14.4
     avg_forks: 3.7
-    median_stars: 1.0
-    median_forks: 0.0
+    median_stars: 1
+    median_forks: 0
     p25_stars: 0.0
     p75_stars: 4.0
     p25_forks: 0.0
@@ -2102,13 +2103,13 @@ by_year:
   max_stars: 1707
   max_forks: 278
 - year: 2024
-  github_repos: 378
-  total_stars: 28137
-  total_forks: 4348
-  avg_stars: 74.4
+  github_repos: 381
+  total_stars: 28262
+  total_forks: 4373
+  avg_stars: 74.2
   avg_forks: 11.5
-  median_stars: 7.0
-  median_forks: 1.0
+  median_stars: 7
+  median_forks: 1
   p25_stars: 2.0
   p75_stars: 22.0
   p25_forks: 0.0
@@ -2116,11 +2117,11 @@ by_year:
   max_stars: 14784
   max_forks: 2575
 - year: 2025
-  github_repos: 410
-  total_stars: 31056
-  total_forks: 3315
-  avg_stars: 75.7
-  avg_forks: 8.1
+  github_repos: 418
+  total_stars: 31133
+  total_forks: 3329
+  avg_stars: 74.5
+  avg_forks: 8.0
   median_stars: 3.0
   median_forks: 1.0
   p25_stars: 1.0
@@ -2130,13 +2131,13 @@ by_year:
   max_stars: 19214
   max_forks: 1517
 - year: 2026
-  github_repos: 316
-  total_stars: 14112
-  total_forks: 1909
-  avg_stars: 44.7
-  avg_forks: 6.0
-  median_stars: 1.0
-  median_forks: 0.0
+  github_repos: 325
+  total_stars: 14197
+  total_forks: 1919
+  avg_stars: 43.7
+  avg_forks: 5.9
+  median_stars: 1
+  median_forks: 0
   p25_stars: 0.0
   p75_stars: 4.0
   p25_forks: 0.0
@@ -2145,24 +2146,24 @@ by_year:
   max_forks: 1179
 by_area:
 - name: systems
-  github_repos: 574
-  total_stars: 105053
-  total_forks: 13521
-  median_stars: 13.0
-  median_forks: 3.0
+  github_repos: 577
+  total_stars: 105183
+  total_forks: 13549
+  median_stars: 13
+  median_forks: 3
   p25_stars: 3.0
-  p75_stars: 43.2
-  p25_forks: 0.0
+  p75_stars: 43.5
+  p25_forks: 0.5
   p75_forks: 7.0
   max_stars: 19214
 - name: security
-  github_repos: 1422
-  total_stars: 93077
-  total_forks: 12598
-  median_stars: 4.0
-  median_forks: 1.0
+  github_repos: 1439
+  total_stars: 93234
+  total_forks: 12619
+  median_stars: 4
+  median_forks: 1
   p25_stars: 1.0
-  p75_stars: 15.2
+  p75_stars: 16.0
   p25_forks: 0.0
   p75_forks: 3.0
   max_stars: 14784
