@@ -4237,44 +4237,6 @@
     "last_year": 2025
   },
   {
-    "name": "Enguang Fan",
-    "display_name": "Enguang Fan",
-    "affiliation": "University of Illinois Urbana-Champaign",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "ATC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "CAIS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "EUROSYS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "OSDI",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "systems",
-    "years": {
-      "2025": 2,
-      "2026": 2
-    },
-    "first_year": 2025,
-    "last_year": 2026
-  },
-  {
     "name": "Feng Cheng",
     "display_name": "Feng Cheng",
     "affiliation": "Duke University",
@@ -7006,6 +6968,39 @@
     },
     "first_year": 2022,
     "last_year": 2025
+  },
+  {
+    "name": "Enguang Fan",
+    "display_name": "Enguang Fan",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 2,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Fanjiang Ye",
