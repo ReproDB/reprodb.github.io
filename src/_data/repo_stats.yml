@@ -15,7 +15,7 @@ overall:
   p75_stars: 21.0
   p25_forks: 0.0
   p75_forks: 4.0
-  last_updated: 2026-08-30 16:51:01 UTC
+  last_updated: 2026-09-01 03:55:34 UTC
 by_conference:
 - name: ACSAC
   github_repos: 212
@@ -504,22 +504,23 @@ by_conference:
     - available
     - functional
     - reproduced
-  - title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
-      Copywriting'
-    url: https://github.com/yangalan123/AI-Realtor-Codebase
+  - title: 'Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound
+      LLM Agent Design in an Adversarial POMDP'
+    url: https://github.com/isbogdanov/agent-design-study
     conference: CAIS
     year: 2026
     area: systems
     stars: 5
     forks: 0
-    description: 'Official Codebase for "AI Reatlor: Towards Grounded Persuasive Language
-      Generation for Automated Copywriting"'
+    description: 'Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound
+      LLM Agent Design in an Adversarial POMDP'
     language: Python
-    name: yangalan123/AI-Realtor-Codebase
-    pushed_at: '2026-05-11T03:44:54Z'
+    name: isbogdanov/agent-design-study
+    pushed_at: '2026-05-02T17:41:24Z'
     badges:
     - available
     - functional
+    - reproduced
 - name: EUROSYS
   github_repos: 167
   total_stars: 14868
