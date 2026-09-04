@@ -45,6 +45,18 @@
                base-uri 'self';
                form-action 'self'">
 
+<!-- Global site tag (gtag.js) - Google Analytics
+     Placed in <head> (not injected by the theme's analytics.provider, which
+     emits near end of <body>) so Google Search Console's Analytics
+     verification method — which requires <head> placement — works. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-05FSD581Y6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-05FSD581Y6', { 'anonymize_ip': false});
+</script>
+
 <!-- ReproDB shared assets (utils, table helpers) — loaded synchronously so
      inline page scripts can reference window.ReproDB during parsing. -->
 <link rel="stylesheet" href="{{ '/assets/css/reprodb-table.css' | relative_url }}">
