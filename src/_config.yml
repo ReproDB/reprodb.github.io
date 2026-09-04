@@ -8,6 +8,12 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-sitemap
+
+# Jekyll excludes dotfiles/dot-directories by default; include .well-known so
+# security.txt is copied into the built site.
+include:
+  - .well-known
 
 title: ReproDB
 name: ReproDB
