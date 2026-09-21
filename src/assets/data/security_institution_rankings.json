@@ -177,17 +177,17 @@
     "affiliation": "Georgia Institute of Technology",
     "country": "United States",
     "country_code": "US",
-    "combined_score": 252,
+    "combined_score": 249,
     "artifact_score": 129,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 123,
-    "ae_ratio": 1.05,
+    "ae_score": 120,
+    "ae_ratio": 1.07,
     "role": "Balanced",
     "artifact_count": 66,
     "badges_functional": 49,
     "badges_reproducible": 24,
-    "ae_memberships": 41,
+    "ae_memberships": 40,
     "chair_count": 0,
     "total_papers": 154,
     "artifact_pct": 42.9,
@@ -211,7 +211,7 @@
       "2019": 3,
       "2018": 1,
       "2017": 0,
-      "2027": 3
+      "2027": 2
     },
     "top_authors": [],
     "scope": null
@@ -436,21 +436,21 @@
     "affiliation": "University of California, Irvine",
     "country": "United States",
     "country_code": "US",
-    "combined_score": 182,
+    "combined_score": 185,
     "artifact_score": 56,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 126,
-    "ae_ratio": 0.44,
+    "ae_score": 129,
+    "ae_ratio": 0.43,
     "role": "Consumer",
     "artifact_count": 27,
     "badges_functional": 15,
     "badges_reproducible": 14,
-    "ae_memberships": 42,
+    "ae_memberships": 43,
     "chair_count": 0,
     "total_papers": 34,
     "artifact_pct": 79.4,
-    "author_count": 17,
+    "author_count": 18,
     "conferences": [
       "NDSS",
       "PETS",
@@ -469,7 +469,7 @@
       "2019": 0,
       "2018": 0,
       "2017": 0,
-      "2027": 4
+      "2027": 5
     },
     "top_authors": [],
     "scope": null
@@ -642,6 +642,48 @@
     "scope": null
   },
   {
+    "affiliation": "University of Wisconsin-Madison",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 144,
+    "artifact_score": 45,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 99,
+    "ae_ratio": 0.45,
+    "role": "Consumer",
+    "artifact_count": 26,
+    "badges_functional": 12,
+    "badges_reproducible": 8,
+    "ae_memberships": 33,
+    "chair_count": 0,
+    "total_papers": 59,
+    "artifact_pct": 44.1,
+    "author_count": 20,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "PETS",
+      "SP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 19,
+      "2025": 11,
+      "2024": 8,
+      "2023": 3,
+      "2022": 9,
+      "2021": 1,
+      "2020": 1,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0,
+      "2027": 4
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Shanghai Jiao Tong University",
     "country": "China",
     "country_code": "CN",
@@ -761,48 +803,6 @@
       "2018": 0,
       "2017": 0,
       "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Wisconsin-Madison",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 141,
-    "artifact_score": 45,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 96,
-    "ae_ratio": 0.47,
-    "role": "Consumer",
-    "artifact_count": 26,
-    "badges_functional": 12,
-    "badges_reproducible": 8,
-    "ae_memberships": 32,
-    "chair_count": 0,
-    "total_papers": 59,
-    "artifact_pct": 44.1,
-    "author_count": 20,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "PETS",
-      "SP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 19,
-      "2025": 11,
-      "2024": 8,
-      "2023": 3,
-      "2022": 9,
-      "2021": 1,
-      "2020": 1,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0,
-      "2027": 3
     },
     "top_authors": [],
     "scope": null
@@ -2594,6 +2594,48 @@
     "scope": null
   },
   {
+    "affiliation": "Louisiana State University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 66,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 52,
+    "ae_ratio": 0.27,
+    "role": "Consumer",
+    "artifact_count": 9,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 16,
+    "chair_count": 2,
+    "total_papers": 13,
+    "artifact_pct": 69.2,
+    "author_count": 9,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "PETS",
+      "USENIXSEC",
+      "VEHICLESEC"
+    ],
+    "years": {
+      "2026": 5,
+      "2025": 8,
+      "2024": 4,
+      "2023": 2,
+      "2022": 0,
+      "2021": 1,
+      "2020": 1,
+      "2019": 1,
+      "2018": 0,
+      "2017": 0,
+      "2027": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "King's College London",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -2630,48 +2672,6 @@
       "2019": 2,
       "2018": 2,
       "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Louisiana State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 63,
-    "artifact_score": 14,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 49,
-    "ae_ratio": 0.29,
-    "role": "Consumer",
-    "artifact_count": 9,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 15,
-    "chair_count": 2,
-    "total_papers": 13,
-    "artifact_pct": 69.2,
-    "author_count": 8,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "PETS",
-      "USENIXSEC",
-      "VEHICLESEC"
-    ],
-    "years": {
-      "2026": 5,
-      "2025": 8,
-      "2024": 4,
-      "2023": 2,
-      "2022": 0,
-      "2021": 1,
-      "2020": 1,
-      "2019": 1,
-      "2018": 0,
-      "2017": 0,
-      "2027": 1
     },
     "top_authors": [],
     "scope": null
@@ -3326,47 +3326,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Michigan",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 51,
-    "artifact_score": 30,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 21,
-    "ae_ratio": 1.43,
-    "role": "Balanced",
-    "artifact_count": 17,
-    "badges_functional": 9,
-    "badges_reproducible": 7,
-    "ae_memberships": 7,
-    "chair_count": 0,
-    "total_papers": 54,
-    "artifact_pct": 31.5,
-    "author_count": 12,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2024": 4,
-      "2025": 7,
-      "2026": 2,
-      "2023": 3,
-      "2022": 4,
-      "2021": 1,
-      "2020": 0,
-      "2019": 0,
-      "2018": 2,
-      "2017": 0,
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Nanjing University",
     "country": "China",
     "country_code": "CN",
@@ -3488,6 +3447,48 @@
     "scope": null
   },
   {
+    "affiliation": "University College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 48,
+    "artifact_score": 21,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 27,
+    "ae_ratio": 0.78,
+    "role": "Balanced",
+    "artifact_count": 12,
+    "badges_functional": 7,
+    "badges_reproducible": 4,
+    "ae_memberships": 9,
+    "chair_count": 0,
+    "total_papers": 17,
+    "artifact_pct": 70.6,
+    "author_count": 8,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "PETS",
+      "SP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 7,
+      "2025": 1,
+      "2024": 4,
+      "2023": 2,
+      "2022": 2,
+      "2021": 1,
+      "2020": 0,
+      "2019": 1,
+      "2018": 1,
+      "2017": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Sapienza University of Rome",
     "country": "Italy",
     "country_code": "IT",
@@ -3523,6 +3524,46 @@
       "2020": 1,
       "2019": 1,
       "2018": 0,
+      "2017": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Michigan",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 48,
+    "artifact_score": 30,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 1.67,
+    "role": "Balanced",
+    "artifact_count": 17,
+    "badges_functional": 9,
+    "badges_reproducible": 7,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 54,
+    "artifact_pct": 31.5,
+    "author_count": 11,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2024": 4,
+      "2025": 7,
+      "2026": 2,
+      "2023": 3,
+      "2022": 4,
+      "2021": 1,
+      "2020": 0,
+      "2019": 0,
+      "2018": 2,
       "2017": 0
     },
     "top_authors": [],
@@ -4452,46 +4493,6 @@
     "scope": null
   },
   {
-    "affiliation": "University College London",
-    "country": "United Kingdom",
-    "country_code": "GB",
-    "combined_score": 36,
-    "artifact_score": 21,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 1.4,
-    "role": "Balanced",
-    "artifact_count": 12,
-    "badges_functional": 7,
-    "badges_reproducible": 4,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 17,
-    "artifact_pct": 70.6,
-    "author_count": 7,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 4,
-      "2025": 1,
-      "2024": 4,
-      "2023": 2,
-      "2022": 2,
-      "2021": 1,
-      "2020": 0,
-      "2019": 1,
-      "2018": 1,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Univ. of California - San Diego",
     "country": "United States",
     "country_code": "US",
@@ -5294,6 +5295,46 @@
     "scope": null
   },
   {
+    "affiliation": "University of Texas at Austin",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 30,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifact_count": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_pct": 80.0,
+    "author_count": 6,
+    "conferences": [
+      "CHES",
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 2,
+      "2023": 5,
+      "2022": 2,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Minnesota",
     "country": "United States",
     "country_code": "US",
@@ -5330,6 +5371,48 @@
       "2018": 0,
       "2017": 0,
       "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Monash University",
+    "country": "Australia",
+    "country_code": "AU",
+    "combined_score": 30,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 8,
+    "artifact_pct": 62.5,
+    "author_count": 6,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "PETS",
+      "SP",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 3,
+      "2027": 2,
+      "2025": 4,
+      "2024": 1,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0
     },
     "top_authors": [],
     "scope": null
@@ -6129,44 +6212,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Texas at Austin",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 27,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.8,
-    "role": "Balanced",
-    "artifact_count": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_pct": 80.0,
-    "author_count": 5,
-    "conferences": [
-      "CHES",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 2,
-      "2023": 5,
-      "2022": 2,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Cagliari",
     "country": "Italy",
     "country_code": "IT",
@@ -6438,6 +6483,46 @@
     "scope": null
   },
   {
+    "affiliation": "Rice University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 26,
+    "artifact_score": 20,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 3.33,
+    "role": "Producer",
+    "artifact_count": 9,
+    "badges_functional": 8,
+    "badges_reproducible": 5,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 10,
+    "artifact_pct": 90.0,
+    "author_count": 5,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 2,
+      "2024": 3,
+      "2023": 1,
+      "2022": 1,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 1,
+      "2017": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Indiana University",
     "country": "United States",
     "country_code": "US",
@@ -6703,48 +6788,6 @@
     "scope": null
   },
   {
-    "affiliation": "Monash University",
-    "country": "Australia",
-    "country_code": "AU",
-    "combined_score": 24,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifact_count": 5,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 62.5,
-    "author_count": 5,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "PETS",
-      "SP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 3,
-      "2027": 1,
-      "2025": 3,
-      "2024": 1,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "BITS Pilani",
     "country": "India",
     "country_code": "IN",
@@ -6936,45 +6979,6 @@
       "2020": 1,
       "2019": 0,
       "2018": 2,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Rice University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 23,
-    "artifact_score": 20,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 6.67,
-    "role": "Producer",
-    "artifact_count": 9,
-    "badges_functional": 8,
-    "badges_reproducible": 5,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_pct": 90.0,
-    "author_count": 4,
-    "conferences": [
-      "ACSAC",
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 2,
-      "2024": 3,
-      "2023": 1,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 1,
       "2017": 0
     },
     "top_authors": [],
@@ -7677,6 +7681,46 @@
     "scope": null
   },
   {
+    "affiliation": "Meta",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 21,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 0.17,
+    "role": "Consumer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_pct": 25.0,
+    "author_count": 6,
+    "conferences": [
+      "NDSS",
+      "PETS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2022": 2,
+      "2023": 1,
+      "2026": 1,
+      "2025": 0,
+      "2024": 1,
+      "2021": 0,
+      "2020": 1,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Brave",
     "country": "United States",
     "country_code": "US",
@@ -8247,44 +8291,6 @@
       "2022": 0,
       "2021": 1,
       "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Meta",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 18,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.2,
-    "role": "Consumer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_pct": 25.0,
-    "author_count": 5,
-    "conferences": [
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2022": 2,
-      "2023": 1,
-      "2026": 1,
-      "2025": 0,
-      "2024": 1,
-      "2021": 0,
-      "2020": 1,
       "2019": 0,
       "2018": 0,
       "2017": 0
@@ -8910,9 +8916,9 @@
     "scope": null
   },
   {
-    "affiliation": "Lab-STICC/ENSTA",
-    "country": null,
-    "country_code": null,
+    "affiliation": "ENSTA Bretagne",
+    "country": "France",
+    "country_code": "FR",
     "combined_score": 15,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -10136,37 +10142,6 @@
     "scope": null
   },
   {
-    "affiliation": "UCL & The Hong Kong Polytechnic University",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 12,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS",
-      "SP",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 3,
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Advanced Micro Devices",
     "country": null,
     "country_code": null,
@@ -10619,6 +10594,36 @@
     "scope": null
   },
   {
+    "affiliation": "University of Salerno",
+    "country": "Italy",
+    "country_code": "IT",
+    "combined_score": 12,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 3,
+    "conferences": [
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 1,
+      "2027": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "NXP Semiconductors",
     "country": "Netherlands",
     "country_code": "NL",
@@ -10682,6 +10687,36 @@
       "2019": 0,
       "2018": 0,
       "2017": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Louisiana at Lafayette",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 12,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 3,
+    "conferences": [
+      "NDSS",
+      "PETS"
+    ],
+    "years": {
+      "2026": 1,
+      "2027": 3
     },
     "top_authors": [],
     "scope": null
@@ -10826,6 +10861,36 @@
     "years": {
       "2026": 1,
       "2025": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Missouri-Kansas City",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 12,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 4,
+    "conferences": [
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2027": 3,
+      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -11320,46 +11385,6 @@
       "2025": 0,
       "2024": 0,
       "2021": 1,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "PhD Candidate",
-    "country": null,
-    "country_code": null,
-    "combined_score": 10,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.11,
-    "role": "Consumer",
-    "artifact_count": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 2,
-    "conferences": [
-      "NDSS",
-      "PETS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2025": 1,
-      "2027": 2,
-      "2026": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
       "2020": 0,
       "2019": 0,
       "2018": 0,
@@ -12806,36 +12831,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Salerno",
-    "country": "Italy",
-    "country_code": "IT",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 1,
-      "2027": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Manchester",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -12860,36 +12855,6 @@
     "years": {
       "2023": 2,
       "2024": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Louisiana at Lafayette",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "NDSS",
-      "PETS"
-    ],
-    "years": {
-      "2026": 1,
-      "2027": 2
     },
     "top_authors": [],
     "scope": null
@@ -13139,36 +13104,6 @@
     ],
     "years": {
       "2020": 3
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Missouri-Kansas City",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 3,
-    "conferences": [
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2027": 2,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -15579,9 +15514,9 @@
     "scope": null
   },
   {
-    "affiliation": "University of Verona",
-    "country": "Italy",
-    "country_code": "IT",
+    "affiliation": "Fondazione Bruno Kessler",
+    "country": null,
+    "country_code": null,
     "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -16071,6 +16006,46 @@
     ],
     "years": {
       "2026": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Griffith University",
+    "country": "Australia",
+    "country_code": "AU",
+    "combined_score": 6,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifact_count": 4,
+    "badges_functional": 0,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_pct": 66.7,
+    "author_count": 2,
+    "conferences": [
+      "ACSAC",
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 3,
+      "2024": 1,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0,
+      "2027": 1
     },
     "top_authors": [],
     "scope": null
@@ -17274,6 +17249,36 @@
     "scope": null
   },
   {
+    "affiliation": "University of Texas at San Antonio",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 6,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 2,
+    "conferences": [
+      "NDSS",
+      "USENIXSEC"
+    ],
+    "years": {
+      "2024": 1,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Tennessee Technological University",
     "country": "United States",
     "country_code": "US",
@@ -17297,36 +17302,6 @@
     ],
     "years": {
       "2027": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "UCI",
-    "country": null,
-    "country_code": null,
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "NDSS",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2027": 1,
-      "2025": 1
     },
     "top_authors": [],
     "scope": null
@@ -19208,6 +19183,45 @@
     "scope": null
   },
   {
+    "affiliation": "PhD Candidate",
+    "country": null,
+    "country_code": null,
+    "combined_score": 4,
+    "artifact_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.33,
+    "role": "Consumer",
+    "artifact_count": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "NDSS",
+      "PETS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0,
+      "2018": 0,
+      "2017": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Universitat Rovira i Virgili",
     "country": "Spain",
     "country_code": "ES",
@@ -19348,44 +19362,6 @@
       "2025": 0,
       "2024": 1,
       "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Griffith University",
-    "country": "Australia",
-    "country_code": "AU",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 4,
-    "badges_functional": 0,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 6,
-    "artifact_pct": 66.7,
-    "author_count": 1,
-    "conferences": [
-      "ACSAC",
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 3,
-      "2024": 1,
-      "2023": 0,
       "2022": 0,
       "2021": 0,
       "2020": 0,
@@ -21964,6 +21940,34 @@
     "scope": null
   },
   {
+    "affiliation": "Zscaler",
+    "country": null,
+    "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "UiT - The Arctic University of Norway",
     "country": "Norway",
     "country_code": "NO",
@@ -22160,7 +22164,7 @@
     "scope": null
   },
   {
-    "affiliation": "MOSA!C Lab / ICTFICIAL",
+    "affiliation": "ICTFICIAL Oy",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -22272,37 +22276,9 @@
     "scope": null
   },
   {
-    "affiliation": "Research Assistant at Louisiana State University",
-    "country": null,
-    "country_code": null,
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Information Security Program",
-    "country": "Germany",
-    "country_code": "DE",
+    "affiliation": "Air University",
+    "country": "Pakistan",
+    "country_code": "PK",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -22524,34 +22500,6 @@
     "scope": null
   },
   {
-    "affiliation": "Department of Information Engineering",
-    "country": null,
-    "country_code": null,
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Institute of Computing Technology",
     "country": "China",
     "country_code": "CN",
@@ -22720,9 +22668,9 @@
     "scope": null
   },
   {
-    "affiliation": "Technical University of Clausthal",
-    "country": "Greece",
-    "country_code": "GR",
+    "affiliation": "TU Clausthal",
+    "country": "Germany",
+    "country_code": "DE",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -22804,7 +22752,7 @@
     "scope": null
   },
   {
-    "affiliation": "University Hospital Bonn / University Bonn",
+    "affiliation": "University Hospital Bonn and University Bonn",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -23336,34 +23284,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Louisiana Lafayette",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of North Georgia",
     "country": "United States",
     "country_code": "US",
@@ -23812,9 +23732,9 @@
     "scope": null
   },
   {
-    "affiliation": "Center of AI",
-    "country": "Israel",
-    "country_code": "IL",
+    "affiliation": "Prince Mohammad bin Fahd University",
+    "country": "Saudi Arabia",
+    "country_code": "SA",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -23863,6 +23783,34 @@
     ],
     "years": {
       "2025": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Insubria",
+    "country": "Italy",
+    "country_code": "IT",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2027": 1
     },
     "top_authors": [],
     "scope": null
@@ -24008,34 +23956,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Insubria",
-    "country": "Italy",
-    "country_code": "IT",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "AMD",
     "country": "India",
     "country_code": "IN",
@@ -24064,7 +23984,7 @@
     "scope": null
   },
   {
-    "affiliation": "Aeronautics Institute of Technology - ITA/BR",
+    "affiliation": "Aeronautics Institute of Technology",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -24260,34 +24180,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Texas at San Antonio",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2024": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Institute for Network Sciences and Cyberspace of Tsinghua University",
     "country": null,
     "country_code": null,
@@ -24344,34 +24236,6 @@
     "scope": null
   },
   {
-    "affiliation": "UT San Antonio",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Zentrale Stelle für Informationstechnik im Sicherheitsbereich",
     "country": null,
     "country_code": null,
@@ -24400,7 +24264,7 @@
     "scope": null
   },
   {
-    "affiliation": "Wipro",
+    "affiliation": "Wipro Limited",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -25100,6 +24964,34 @@
     "scope": null
   },
   {
+    "affiliation": "UCI",
+    "country": null,
+    "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2025": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "New York University Shanghai",
     "country": "United Arab Emirates",
     "country_code": "AE",
@@ -25179,90 +25071,6 @@
     ],
     "years": {
       "2020": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Missouri - Kansas City",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Griffith",
-    "country": "Australia",
-    "country_code": "AU",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Electrical and Computer Engineering",
-    "country": null,
-    "country_code": null,
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
     },
     "top_authors": [],
     "scope": null

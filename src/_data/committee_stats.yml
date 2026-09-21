@@ -1,19 +1,19 @@
-last_updated: '2026-09-17'
-total_members: 4911
+last_updated: '2026-09-21'
+total_members: 4913
 total_systems: 2464
-total_security: 2447
+total_security: 2449
 total_conferences: 72
 total_countries: 57
 total_continents: 6
-total_institutions: 496
-unique_members: 2729
+total_institutions: 498
+unique_members: 2732
 unique_members_systems: 1318
-unique_members_security: 1523
-unique_members_both: 112
+unique_members_security: 1525
+unique_members_both: 111
 recurring_chairs: 85
 top_countries:
 - name: United States
-  count: 2428
+  count: 2435
 - name: China
   count: 498
 - name: Germany
@@ -21,7 +21,7 @@ top_countries:
 - name: Hong Kong
   count: 217
 - name: United Kingdom
-  count: 112
+  count: 113
 - name: Switzerland
   count: 79
 - name: Canada
@@ -29,11 +29,11 @@ top_countries:
 - name: Singapore
   count: 74
 - name: Australia
-  count: 70
+  count: 72
 - name: Italy
   count: 69
 - name: France
-  count: 66
+  count: 68
 - name: Belgium
   count: 59
 - name: South Korea
@@ -75,7 +75,7 @@ top_countries_systems:
   count: 14
 top_countries_security:
 - name: United States
-  count: 1069
+  count: 1076
 - name: Germany
   count: 249
 - name: China
@@ -83,17 +83,17 @@ top_countries_security:
 - name: Hong Kong
   count: 75
 - name: Australia
-  count: 58
+  count: 60
 - name: Italy
   count: 57
+- name: United Kingdom
+  count: 54
 - name: Belgium
   count: 54
-- name: United Kingdom
-  count: 53
+- name: France
+  count: 49
 - name: Canada
   count: 48
-- name: France
-  count: 47
 - name: Netherlands
   count: 44
 - name: Austria
@@ -106,13 +106,13 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2508
+  count: 2515
 - name: Asia
-  count: 952
+  count: 953
 - name: Europe
-  count: 925
+  count: 927
 - name: Oceania
-  count: 71
+  count: 73
 - name: South America
   count: 16
 - name: Africa
@@ -132,13 +132,13 @@ top_continents_systems:
   count: 5
 top_continents_security:
 - name: North America
-  count: 1118
+  count: 1125
 - name: Europe
-  count: 631
+  count: 633
 - name: Asia
-  count: 348
+  count: 349
 - name: Oceania
-  count: 58
+  count: 60
 - name: South America
   count: 8
 - name: Africa
@@ -149,21 +149,21 @@ top_institutions:
 - name: Purdue University
   count: 110
 - name: University of Wisconsin - Madison
-  count: 97
+  count: 98
 - name: Georgia Institute of Technology
-  count: 87
+  count: 86
 - name: University of California, Irvine
-  count: 81
+  count: 82
 - name: Tsinghua University
   count: 78
 - name: cispa helmholtz center for information security
-  count: 76
+  count: 75
 - name: Shanghai Jiao Tong University
   count: 66
 - name: The Hong Kong University of Science and Technology
   count: 66
 - name: University of Michigan
-  count: 64
+  count: 63
 - name: Carnegie Mellon University
   count: 62
 - name: University of Utah
@@ -227,17 +227,17 @@ top_institutions_systems:
   count: 26
 top_institutions_security:
 - name: cispa helmholtz center for information security
-  count: 75
+  count: 74
 - name: Purdue University
   count: 55
 - name: University of California, Irvine
-  count: 48
+  count: 49
 - name: KU Leuven
   count: 44
 - name: Georgia Institute of Technology
-  count: 39
+  count: 38
 - name: University of Wisconsin - Madison
-  count: 36
+  count: 37
 - name: Tsinghua University
   count: 36
 - name: Ruhr-University Bochum
@@ -264,8 +264,8 @@ top_institutions_security:
   count: 23
 - name: The Hong Kong University of Science and Technology
   count: 22
-- name: University of Twente
-  count: 20
+- name: North Carolina State University
+  count: 21
 institution_timeline:
 - year: 2017
   total: 9
@@ -308,9 +308,9 @@ institution_timeline:
   systems: 140
   security: 187
 - year: 2027
-  total: 129
+  total: 136
   systems: 2
-  security: 127
+  security: 134
 committee_sizes:
 - conference: ACSAC
   year: 2017
@@ -471,7 +471,7 @@ committee_sizes:
   year: 2027
   conf_year: ndss2027
   area: security
-  size: 215
+  size: 217
 - conference: OSDI
   year: 2020
   conf_year: osdi2020
