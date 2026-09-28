@@ -63293,5 +63293,498 @@
     "appendix_url": null,
     "paper_id": null,
     "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "LIMA: Defining, Benchmarking and Detecting Cross-Layer Vulnerabilities in LLM Inference Frameworks",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20075284",
+      "https://github.com/apace-lab/LIMA"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20075284",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/sen",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper1.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Squeezing Juicy Variant Bugs Out of Modern Browsers",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20020117"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20020117",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/zheng",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper2.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Breaking Infrared Recapture Detection: Optical-Synthesis Attacks and Depth-Aware In-Sensor Countermeasures",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.19704181"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.19704181",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/ishizue",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper3.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Real-Time Compromise: Investigating RTC Security in Consumer IoT",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/kuleuven-msec/RTCInspect"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/goeman",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper4.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: 20 Years of Power, Privilege, and Peril in x86 System Management Mode",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20395121",
+      "https://github.com/antonislouca/SoK-SMM"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20395121",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/louka",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper5.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.19699792"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.19699792",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/bitsikas",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper6.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "HotWire: Real-World Impersonation and Discharge Attacks on Electric Vehicle Charging Systems",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.19754104",
+      "https://github.com/uhi22/pyPLC",
+      "https://github.com/sickcell6000/HotWire"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.19754104",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/chen",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper7.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Defective by Design: Universal Recovery of All Widevine-Protected Content on Desktop Environments",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20024534"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20024534",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/roudot",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper8.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "FuzzBT: Holistic-State-Guided Fuzzing for Bluetooth Host Stack in Kernels",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20076507"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20076507",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/kim",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper9.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "DisARMed: Attacking ARM TrustZone from Userspace with Memory Aliasing",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/bhamsec/disarmed/tree/bbdcd21fb57c2f60484974f020b86b09033b3139"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/henes",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Evading and crashing anti-malware solutions via data collection overloading during analysis serialization",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/eGkritsis/PoC-Evidence-WOOT"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/gkritsis",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper11.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "SEMSAN: a Configurable Sanitizer for Detecting System-Level Semantic Bugs",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20020039",
+      "https://github.com/AutoSecLab/SemanticSanitizer"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20020039",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/sanft",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper12.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Onelogon: Taking over Active Directory Accounts via Netlogon",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/rub-softsec/onelogon"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/neff",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Flash [Re]Loaded: Body Bias Injection on Flash Memory",
+    "badges": [
+      "Badges: Functional"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/huber",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "PowerHooK: Enabling Software-Based Power Side Channels Against AMD SEV Technologies via Transient-Execution Replay",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20080425"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20080425",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/oberhuber",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper15.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Exploiting Android Apps with Counterfeit Art",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20076101"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20076101",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/fall",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper16.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Are Neuro-Inspired Multi-Modal Vision-Language Models Resilient to Membership Inference Privacy Leakage?",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/Trust-AI-ua/Neuro-VLM-resilience"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/amebley",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper17.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Protocol Prying: Systematic Vulnerability Research in the AirDrop and Android Quick Share Proximity Transfer Protocols",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20662313"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20662313",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/ebrahim",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper18.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Practical Attacks on a Decentralized Secure Messenger Session",
+    "badges": [
+      "Badges: Available"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20071660",
+      "https://github.com/kota5140/session-woot"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20071660",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/urushigaki",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: Multi-Layer Indirect Call Analysis in the Real World",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://github.com/yufeidu/SoK-MLTA"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/du",
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "You Have Been LaTeXpOsEd: A Large-Scale Systematic Analysis of Information Leakage in Preprint Archives Using Large Language Models",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20035860"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20035860",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/dubniczky",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper21.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20072038",
+      "https://github.com/ossf/oss-crs"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20072038",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/chin",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper22.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "SoK: The Constant Time Model",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://gitlab.com/platsec/boringssl-keyload-vuln"
+    ],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/brumley",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper23.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "CATana: On the Dangers of SIM-Originating AT Commands",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.21864220"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.21864220",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/lisowski",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper24.pdf",
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "WOOT",
+    "category": "security",
+    "year": 2026,
+    "title": "Swarm in EM Hay: Particle Swarm-guided Probe Placement for EM SCA",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.20078659",
+      "https://github.com/vernamlab/Swarm-in-EM-Hay-WOOT26-artifacts"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.20078659",
+    "paper_url": "https://www.usenix.org/conference/woot26/presentation/mehta",
+    "appendix_url": "https://secartifacts.github.io/woot2026/appendix-files/woot26ae-paper25.pdf",
+    "paper_id": null,
+    "award": null
   }
 ]

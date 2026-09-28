@@ -720,6 +720,21 @@
     "area": "systems"
   },
   {
+    "title": "CustomProcessingUnit: Reverse Engineering and Customization of Intel Microcode",
+    "url": "https://github.com/pietroborrello/CustomProcessingUnit",
+    "year": 2023,
+    "stars": 415,
+    "forks": 28,
+    "authors": "",
+    "github_org": "pietroborrello",
+    "badges": "ORO",
+    "last_active": "2023-03",
+    "description": "The first analysis framework for CPU microcode",
+    "language": "C",
+    "conference": "WOOT",
+    "area": "security"
+  },
+  {
     "title": "Generalized Pipeline Parallelism for DNN Training",
     "url": "https://github.com/msr-fiddle/pipedream",
     "year": 2019,
@@ -733,20 +748,5 @@
     "language": "Python",
     "conference": "SOSP",
     "area": "systems"
-  },
-  {
-    "title": "Blind Backdoors in Deep Learning Models",
-    "url": "https://github.com/ebagdasa/backdoors101/releases/tag/v1.0",
-    "year": 2021,
-    "stars": 386,
-    "forks": 83,
-    "authors": "",
-    "github_org": "ebagdasa",
-    "badges": "",
-    "last_active": "2023-02",
-    "description": "Backdoors Framework for Deep Learning and Federated Learning. A light-weight tool to conduct your research on backdoors.",
-    "language": "Python",
-    "conference": "USENIXSEC",
-    "area": "security"
   }
 ]

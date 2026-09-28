@@ -437,7 +437,7 @@
 - name: WOOT
   category: security
   venue_type: workshop
-  total_artifacts: 52
+  total_artifacts: 77
   years:
   - year: 2019
     total: 6
@@ -474,4 +474,10 @@
     functional: 13
     reproducible: 3
     available: 13
+    reusable: 0
+  - year: 2026
+    total: 25
+    functional: 22
+    reproducible: 16
+    available: 24
     reusable: 0
