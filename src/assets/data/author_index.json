@@ -699,32 +699,6 @@
     "category": "systems"
   },
   {
-    "id": 40,
-    "name": "Diyu Zhou",
-    "display_name": "Diyu Zhou",
-    "affiliation": "Peking University",
-    "affiliation_source": "crossref_doi",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [
-      {
-        "affiliation": "Peking University",
-        "source": "csrankings",
-        "date": "2026-04-07"
-      },
-      {
-        "affiliation": "EPFL, Lausanne, Switzerland",
-        "source": "crossref_doi",
-        "date": "2026-04-07"
-      }
-    ],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "both"
-  },
-  {
     "id": 41,
     "name": "Taesoo Kim",
     "display_name": "Taesoo Kim",
@@ -7053,21 +7027,6 @@
     "category": "systems"
   },
   {
-    "id": 386,
-    "name": "Jiacheng Shen",
-    "display_name": "Jiacheng Shen",
-    "affiliation": "Duke Kunshan University, Kunshan, China",
-    "affiliation_source": "crossref_doi",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
     "id": 387,
     "name": "Xuchuan Luo",
     "display_name": "Xuchuan Luo",
@@ -9125,9 +9084,9 @@
     "id": 498,
     "name": "Juwon Kim",
     "display_name": "Juwon Kim",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
+    "affiliation": "KAIST",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -21562,13 +21521,18 @@
     "id": 1278,
     "name": "Jiaxiang Liu 0001",
     "display_name": "Jiaxiang Liu",
-    "affiliation": "Manipal Academy of Higher Education",
+    "affiliation": "Shenzhen University",
     "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-04-07",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [
       {
         "affiliation": "Shenzhen University",
         "source": "dblp",
+        "date": "2026-04-07"
+      },
+      {
+        "affiliation": "Manipal Academy of Higher Education",
+        "source": "csrankings",
         "date": "2026-04-07"
       }
     ],
@@ -26882,13 +26846,18 @@
     "id": 1633,
     "name": "Thomas Pasquier",
     "display_name": "Thomas Pasquier",
-    "affiliation": "University of British Columbia",
+    "affiliation": "University of Oxford",
     "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-04-07",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [
       {
         "affiliation": "Harvard University",
         "source": "dblp",
+        "date": "2026-04-07"
+      },
+      {
+        "affiliation": "University of British Columbia",
+        "source": "csrankings",
         "date": "2026-04-07"
       }
     ],
@@ -38231,21 +38200,6 @@
     "category": "systems"
   },
   {
-    "id": 2378,
-    "name": "Zeyu Li",
-    "display_name": "Zeyu Li",
-    "affiliation": "Hong Kong University of Science and Technology",
-    "affiliation_source": "ae_committee",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
     "id": 2379,
     "name": "Gu Gong",
     "display_name": "Gu Gong",
@@ -40665,10 +40619,16 @@
     "id": 2540,
     "name": "Wonsup Yoon",
     "display_name": "Wonsup Yoon",
-    "affiliation": "KAIST, Daejeon, Republic of Korea",
-    "affiliation_source": "crossref_doi",
-    "affiliation_updated": "2026-04-19",
-    "affiliation_history": [],
+    "affiliation": "Hanyang University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [
+      {
+        "affiliation": "KAIST, Daejeon, Republic of Korea",
+        "source": "crossref_doi",
+        "date": "2026-04-19"
+      }
+    ],
     "external_ids": {
       "dblp_pid": null,
       "orcid": null,
@@ -46509,21 +46469,6 @@
     "category": "systems"
   },
   {
-    "id": 2929,
-    "name": "Yuanyuan Dong",
-    "display_name": "Yuanyuan Dong",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
     "id": 2930,
     "name": "Tianqi Tang 0001",
     "display_name": "Tianqi Tang",
@@ -47754,10 +47699,16 @@
     "id": 3007,
     "name": "Minhui Xie",
     "display_name": "Minhui Xie",
-    "affiliation": "Tsinghua University",
-    "affiliation_source": "ae_committee",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
+    "affiliation": "Nanjing University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [
+      {
+        "affiliation": "Tsinghua University",
+        "source": "ae_committee",
+        "date": "2026-04-07"
+      }
+    ],
     "external_ids": {
       "dblp_pid": null,
       "orcid": null,
@@ -49430,21 +49381,6 @@
     "id": 3116,
     "name": "Wenhao Zhu",
     "display_name": "Wenhao Zhu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 3117,
-    "name": "Yuhao Zhang",
-    "display_name": "Yuhao Zhang",
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
@@ -60947,21 +60883,6 @@
     "category": "security"
   },
   {
-    "id": 3994,
-    "name": "Yu Dai",
-    "display_name": "Yu Dai",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 3995,
     "name": "Elisabeth Krahmer",
     "display_name": "Elisabeth Krahmer",
@@ -67187,10 +67108,16 @@
     "id": 4432,
     "name": "Onur Mutlu",
     "display_name": "Onur Mutlu",
-    "affiliation": "ETH Zurich",
-    "affiliation_source": "dblp",
-    "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
+    "affiliation": "New York University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [
+      {
+        "affiliation": "ETH Zurich",
+        "source": "dblp",
+        "date": "2026-04-07"
+      }
+    ],
     "external_ids": {
       "dblp_pid": null,
       "orcid": null,
@@ -79633,21 +79560,6 @@
     "category": "security"
   },
   {
-    "id": 5272,
-    "name": "Ziqi Zhang",
-    "display_name": "Ziqi Zhang",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 5273,
     "name": "Haowen Pan",
     "display_name": "Haowen Pan",
@@ -81041,21 +80953,6 @@
     "category": "security"
   },
   {
-    "id": 5366,
-    "name": "Mingyang Song",
-    "display_name": "Mingyang Song",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 5367,
     "name": "Yifeng Zheng 0001",
     "display_name": "Yifeng Zheng",
@@ -82195,21 +82092,6 @@
     "affiliation": "National Research Council (NRC) of Canada, Fredericton, NB, Canada",
     "affiliation_source": "dblp",
     "affiliation_updated": "2026-04-07",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 5441,
-    "name": "Xueyuan Han",
-    "display_name": "Xueyuan Han",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -91343,21 +91225,6 @@
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 6042,
-    "name": "Zhibo Sun",
-    "display_name": "Zhibo Sun",
-    "affiliation": "Drexel University",
-    "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-04-07",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -105706,21 +105573,6 @@
     "category": "security"
   },
   {
-    "id": 7027,
-    "name": "Yue Niu",
-    "display_name": "Yue Niu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 7028,
     "name": "Salman Avestimehr",
     "display_name": "Salman Avestimehr",
@@ -110241,21 +110093,6 @@
         "date": "2026-04-07"
       }
     ],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 7335,
-    "name": "Haotian Zhu",
-    "display_name": "Haotian Zhu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
       "orcid": null,
@@ -120805,21 +120642,6 @@
     "category": "systems"
   },
   {
-    "id": 8179,
-    "name": "Jian Gao",
-    "display_name": "Jian Gao",
-    "affiliation": "Tsinghua University",
-    "affiliation_source": "ae_committee",
-    "affiliation_updated": "2026-05-04",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
     "id": 8180,
     "name": "Sven Argo",
     "display_name": "Sven Argo",
@@ -124390,9 +124212,9 @@
     "id": 8420,
     "name": "Yuanming Ren",
     "display_name": "Yuanming Ren",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
+    "affiliation": "Chinese University of Hong Kong",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -124840,9 +124662,9 @@
     "id": 8451,
     "name": "Pengyu Gong",
     "display_name": "Pengyu Gong",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
+    "affiliation": "Huazhong University of Science and Technology",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -136687,9 +136509,9 @@
     "id": 9251,
     "name": "Juncheng Zhang",
     "display_name": "Juncheng Zhang",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
+    "affiliation": "Chinese University of Hong Kong",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -140569,246 +140391,6 @@
     "id": 9511,
     "name": "Stan Zdonik",
     "display_name": "Stan Zdonik",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9512,
-    "name": "Jiahao Li",
-    "display_name": "Jiahao Li",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9513,
-    "name": "Biao Cao",
-    "display_name": "Biao Cao",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9514,
-    "name": "Jielong Jian",
-    "display_name": "Jielong Jian",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9515,
-    "name": "Sen Han",
-    "display_name": "Sen Han",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9516,
-    "name": "Yufei Wu 0011",
-    "display_name": "Yufei Wu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9517,
-    "name": "Zhihui Yin",
-    "display_name": "Zhihui Yin",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9518,
-    "name": "Qiushi Chen",
-    "display_name": "Qiushi Chen",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9519,
-    "name": "Jiwei Xiong",
-    "display_name": "Jiwei Xiong",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9520,
-    "name": "Jie Zhao 0020",
-    "display_name": "Jie Zhao",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9521,
-    "name": "Fengyuan Liu",
-    "display_name": "Fengyuan Liu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9522,
-    "name": "Yan Xing",
-    "display_name": "Yan Xing",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9523,
-    "name": "Liguo Duan",
-    "display_name": "Liguo Duan",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9524,
-    "name": "Miao Yu 0029",
-    "display_name": "Miao Yu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9525,
-    "name": "Ran Zheng",
-    "display_name": "Ran Zheng",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9526,
-    "name": "Feng Wu 0001",
-    "display_name": "Feng Wu",
-    "affiliation": "USTC",
-    "affiliation_source": "csrankings",
-    "affiliation_updated": "2026-07-05",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "systems"
-  },
-  {
-    "id": 9527,
-    "name": "Xianjun Meng",
-    "display_name": "Xianjun Meng",
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
@@ -146386,21 +145968,6 @@
     "category": "security"
   },
   {
-    "id": 9901,
-    "name": "Mingxuan Li",
-    "display_name": "Mingxuan Li",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 9902,
     "name": "Shuai Ma 0001",
     "display_name": "Shuai Ma",
@@ -146497,21 +146064,6 @@
     "affiliation": "Shanghai Jiao Tong University",
     "affiliation_source": "csrankings",
     "affiliation_updated": "2026-08-10",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 9909,
-    "name": "Xiaoyun Xu",
-    "display_name": "Xiaoyun Xu",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
@@ -148831,21 +148383,6 @@
     "category": "security"
   },
   {
-    "id": 10064,
-    "name": "Qiyu Li",
-    "display_name": "Qiyu Li",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
     "id": 10065,
     "name": "Andrea Rizzini",
     "display_name": "Andrea Rizzini",
@@ -149104,21 +148641,6 @@
     "id": 10082,
     "name": "Chi-Hua Wang",
     "display_name": "Chi-Hua Wang",
-    "affiliation": "",
-    "affiliation_source": "",
-    "affiliation_updated": "",
-    "affiliation_history": [],
-    "external_ids": {
-      "dblp_pid": null,
-      "orcid": null,
-      "openalex_id": null
-    },
-    "category": "security"
-  },
-  {
-    "id": 10083,
-    "name": "Guang Cheng",
-    "display_name": "Guang Cheng",
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
@@ -150994,6 +150516,921 @@
     "id": 10208,
     "name": "Esfandiar Mohammadi",
     "display_name": "Esfandiar Mohammadi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10209,
+    "name": "Diyu Zhou 0001",
+    "display_name": "Diyu Zhou",
+    "affiliation": "Hong Kong Baptist University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "both"
+  },
+  {
+    "id": 10210,
+    "name": "Jiacheng Shen 0001",
+    "display_name": "Jiacheng Shen",
+    "affiliation": "Manipal Academy of Higher Education",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10211,
+    "name": "Guo Li 0016",
+    "display_name": "Guo Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10212,
+    "name": "Yuanyuan Dong 0002",
+    "display_name": "Yuanyuan Dong",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10213,
+    "name": "Jian Gao 0039",
+    "display_name": "Jian Gao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10214,
+    "name": "Zeyu Li 0006",
+    "display_name": "Zeyu Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10215,
+    "name": "Yu Dai 0003",
+    "display_name": "Yu Dai",
+    "affiliation": "Temple University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10216,
+    "name": "Kota Urushigaki",
+    "display_name": "Kota Urushigaki",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10217,
+    "name": "Atsushi Tanaka",
+    "display_name": "Atsushi Tanaka",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10218,
+    "name": "Dev Mehta 0001",
+    "display_name": "Dev Mehta",
+    "affiliation": "Hong Kong Baptist University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10219,
+    "name": "Seyedmohammad Nouraniboosjin",
+    "display_name": "Seyedmohammad Nouraniboosjin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10220,
+    "name": "Maryam Saadat-Safa",
+    "display_name": "Maryam Saadat-Safa",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10221,
+    "name": "Shahin Tajik",
+    "display_name": "Shahin Tajik",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10222,
+    "name": "Fatemeh Ganji",
+    "display_name": "Fatemeh Ganji",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10223,
+    "name": "Moritz Sanft",
+    "display_name": "Moritz Sanft",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10224,
+    "name": "Kuan-Yu Chen",
+    "display_name": "Kuan-Yu Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10225,
+    "name": "Md Hasan Shahriar",
+    "display_name": "Md Hasan Shahriar",
+    "affiliation": "Virginia Tech",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10226,
+    "name": "Wen-Wei Li",
+    "display_name": "Wen-Wei Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10227,
+    "name": "Shi-Cho Cha 0001",
+    "display_name": "Shi-Cho Cha",
+    "affiliation": "IIT Bombay",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10228,
+    "name": "Tetsu Ishizue",
+    "display_name": "Tetsu Ishizue",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10229,
+    "name": "Rokhaya-Diamil Fall",
+    "display_name": "Rokhaya-Diamil Fall",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10230,
+    "name": "Martin Wagner",
+    "display_name": "Martin Wagner",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10231,
+    "name": "Sungwoo Kim 0005",
+    "display_name": "Sungwoo Kim",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10232,
+    "name": "Hui Peng",
+    "display_name": "Hui Peng",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10233,
+    "name": "Richard A. Dubniczky",
+    "display_name": "Richard A. Dubniczky",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10234,
+    "name": "Bertalan Borsos",
+    "display_name": "Bertalan Borsos",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10235,
+    "name": "Tamás Bisztray",
+    "display_name": "Tamás Bisztray",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10236,
+    "name": "Norbert Tihanyi",
+    "display_name": "Norbert Tihanyi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10237,
+    "name": "Arash Ale Ebrahim",
+    "display_name": "Arash Ale Ebrahim",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10238,
+    "name": "Evgenios Gkritsis",
+    "display_name": "Evgenios Gkritsis",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10239,
+    "name": "Constantinos Patsakis",
+    "display_name": "Constantinos Patsakis",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10240,
+    "name": "George Stergiopoulos",
+    "display_name": "George Stergiopoulos",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10241,
+    "name": "Christoph Sanders",
+    "display_name": "Christoph Sanders",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10242,
+    "name": "Qiang Liu 0034",
+    "display_name": "Qiang Liu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10243,
+    "name": "Jacqueline Henes",
+    "display_name": "Jacqueline Henes",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10244,
+    "name": "Matthew Bowden",
+    "display_name": "Matthew Bowden",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10245,
+    "name": "David Oswald",
+    "display_name": "David Oswald",
+    "affiliation": "University of Birmingham",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10246,
+    "name": "Martin Wistauder",
+    "display_name": "Martin Wistauder",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10247,
+    "name": "Sanjib Kumar Sen",
+    "display_name": "Sanjib Kumar Sen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10248,
+    "name": "Hannah Longoria",
+    "display_name": "Hannah Longoria",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10249,
+    "name": "Bozhen Liu",
+    "display_name": "Bozhen Liu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10250,
+    "name": "David Amebley",
+    "display_name": "David Amebley",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10251,
+    "name": "Kristian Covic",
+    "display_name": "Kristian Covic",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10252,
+    "name": "Antonis Louka",
+    "display_name": "Antonis Louka",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10253,
+    "name": "Andrew Chin",
+    "display_name": "Andrew Chin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10254,
+    "name": "Fabian Fleischer 0001",
+    "display_name": "Fabian Fleischer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10255,
+    "name": "Youngjoon Kim",
+    "display_name": "Youngjoon Kim",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10256,
+    "name": "Brian J. Lee",
+    "display_name": "Brian J. Lee",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10257,
+    "name": "Alexander Neff",
+    "display_name": "Alexander Neff",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10258,
+    "name": "Tobias Holl",
+    "display_name": "Tobias Holl",
+    "affiliation": "Ruhr University Bochum",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10259,
+    "name": "Kevin Borgolte",
+    "display_name": "Kevin Borgolte",
+    "affiliation": "Ruhr-University Bochum",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10260,
+    "name": "Ziqi Zhang 0017",
+    "display_name": "Ziqi Zhang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10261,
+    "name": "Mingyang Song 0005",
+    "display_name": "Mingyang Song",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10262,
+    "name": "Xueyuan Han 0002",
+    "display_name": "Xueyuan Han",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10263,
+    "name": "Zhibo Sun 0004",
+    "display_name": "Zhibo Sun",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10264,
+    "name": "Yue Niu 0001",
+    "display_name": "Yue Niu",
+    "affiliation": "IISc Bangalore",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-28",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10265,
+    "name": "Qiyu Li 0001",
+    "display_name": "Qiyu Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10266,
+    "name": "Guang Cheng 0003",
+    "display_name": "Guang Cheng",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10267,
+    "name": "Mingxuan Li 0003",
+    "display_name": "Mingxuan Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10268,
+    "name": "Xiaoyun Xu 0005",
+    "display_name": "Xiaoyun Xu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10269,
+    "name": "Haotian Zhu 0004",
+    "display_name": "Haotian Zhu",
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
