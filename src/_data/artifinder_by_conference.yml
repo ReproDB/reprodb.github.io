@@ -1,168 +1,210 @@
+- name: ACSAC
+  category: security
+  total_papers: 617
+  discovered: 290
+  matched_ae: 195
+  years:
+  - year: 2017
+    total_papers: 48
+    discovered: 13
+    matched_ae: 7
+  - year: 2018
+    total_papers: 60
+    discovered: 19
+    matched_ae: 11
+  - year: 2019
+    total_papers: 60
+    discovered: 26
+    matched_ae: 16
+  - year: 2020
+    total_papers: 70
+    discovered: 29
+    matched_ae: 17
+  - year: 2021
+    total_papers: 80
+    discovered: 37
+    matched_ae: 17
+  - year: 2022
+    total_papers: 73
+    discovered: 40
+    matched_ae: 32
+  - year: 2023
+    total_papers: 59
+    discovered: 28
+    matched_ae: 23
+  - year: 2024
+    total_papers: 83
+    discovered: 48
+    matched_ae: 36
+  - year: 2025
+    total_papers: 84
+    discovered: 50
+    matched_ae: 36
 - name: CCS
   category: security
   total_papers: 1896
-  discovered: 0
+  discovered: 999
   matched_ae: 0
   years:
   - year: 2017
     total_papers: 151
-    discovered: 0
+    discovered: 46
     matched_ae: 0
   - year: 2018
     total_papers: 146
-    discovered: 0
+    discovered: 53
     matched_ae: 0
   - year: 2019
     total_papers: 157
-    discovered: 0
+    discovered: 64
     matched_ae: 0
   - year: 2020
     total_papers: 135
-    discovered: 0
+    discovered: 57
     matched_ae: 0
   - year: 2021
     total_papers: 204
-    discovered: 0
+    discovered: 100
     matched_ae: 0
   - year: 2022
     total_papers: 219
-    discovered: 0
+    discovered: 123
     matched_ae: 0
   - year: 2023
     total_papers: 235
-    discovered: 0
+    discovered: 145
     matched_ae: 0
   - year: 2024
     total_papers: 328
-    discovered: 0
+    discovered: 200
     matched_ae: 0
   - year: 2025
     total_papers: 321
-    discovered: 0
+    discovered: 211
     matched_ae: 0
 - name: NDSS
   category: security
   total_papers: 928
-  discovered: 0
-  matched_ae: 0
+  discovered: 523
+  matched_ae: 87
   years:
   - year: 2017
     total_papers: 67
-    discovered: 0
+    discovered: 16
     matched_ae: 0
   - year: 2018
     total_papers: 71
-    discovered: 0
+    discovered: 29
     matched_ae: 0
   - year: 2019
     total_papers: 86
-    discovered: 0
+    discovered: 38
     matched_ae: 0
   - year: 2020
     total_papers: 85
-    discovered: 0
+    discovered: 41
     matched_ae: 0
   - year: 2021
     total_papers: 90
-    discovered: 0
+    discovered: 49
     matched_ae: 0
   - year: 2022
     total_papers: 84
-    discovered: 0
+    discovered: 44
     matched_ae: 0
   - year: 2023
     total_papers: 94
-    discovered: 0
+    discovered: 63
     matched_ae: 0
   - year: 2024
     total_papers: 140
-    discovered: 0
-    matched_ae: 0
+    discovered: 95
+    matched_ae: 33
   - year: 2025
     total_papers: 211
-    discovered: 0
-    matched_ae: 0
+    discovered: 148
+    matched_ae: 54
 - name: SP
   category: security
   total_papers: 1288
-  discovered: 0
+  discovered: 636
   matched_ae: 0
   years:
   - year: 2017
     total_papers: 60
-    discovered: 0
+    discovered: 24
     matched_ae: 0
   - year: 2018
     total_papers: 63
-    discovered: 0
+    discovered: 14
     matched_ae: 0
   - year: 2019
     total_papers: 84
-    discovered: 0
+    discovered: 28
     matched_ae: 0
   - year: 2020
     total_papers: 104
-    discovered: 0
+    discovered: 41
     matched_ae: 0
   - year: 2021
     total_papers: 115
-    discovered: 0
+    discovered: 62
     matched_ae: 0
   - year: 2022
     total_papers: 147
-    discovered: 0
+    discovered: 80
     matched_ae: 0
   - year: 2023
     total_papers: 199
-    discovered: 0
+    discovered: 95
     matched_ae: 0
   - year: 2024
     total_papers: 261
-    discovered: 0
+    discovered: 155
     matched_ae: 0
   - year: 2025
     total_papers: 255
-    discovered: 0
+    discovered: 137
     matched_ae: 0
 - name: USENIXSEC
   category: security
   total_papers: 2234
-  discovered: 0
-  matched_ae: 0
+  discovered: 1412
+  matched_ae: 731
   years:
   - year: 2017
     total_papers: 85
-    discovered: 0
+    discovered: 28
     matched_ae: 0
   - year: 2018
     total_papers: 100
-    discovered: 0
+    discovered: 41
     matched_ae: 0
   - year: 2019
     total_papers: 113
-    discovered: 0
+    discovered: 56
     matched_ae: 0
   - year: 2020
     total_papers: 157
-    discovered: 0
-    matched_ae: 0
+    discovered: 79
+    matched_ae: 31
   - year: 2021
     total_papers: 246
-    discovered: 0
-    matched_ae: 0
+    discovered: 130
+    matched_ae: 27
   - year: 2022
     total_papers: 256
-    discovered: 0
-    matched_ae: 0
+    discovered: 163
+    matched_ae: 87
   - year: 2023
     total_papers: 422
-    discovered: 0
-    matched_ae: 0
+    discovered: 260
+    matched_ae: 121
   - year: 2024
     total_papers: 417
-    discovered: 0
-    matched_ae: 0
+    discovered: 265
+    matched_ae: 111
   - year: 2025
     total_papers: 438
-    discovered: 0
-    matched_ae: 0
+    discovered: 390
+    matched_ae: 354

@@ -1,15 +1,16 @@
-total_papers: 6346
-total_discovered: 0
-total_matched_ae: 0
-total_unmatched: 0
-github_count: 0
-discovery_pct: 0.0
+total_papers: 6963
+total_discovered: 3860
+total_matched_ae: 1013
+total_unmatched: 2847
+github_count: 2783
+discovery_pct: 55.4
 conferences:
+- ACSAC
 - CCS
 - NDSS
 - SP
 - USENIXSEC
 year_range: 2017–2025
 data_updated: '2026-09-09'
-generated_at: 2026-09-28 11:00 UTC
-author_count: 0
+generated_at: 2026-09-30 08:38 UTC
+author_count: 9360
