@@ -15,7 +15,7 @@ overall:
   p75_stars: 23.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-09-30 15:52:13 UTC
+  last_updated: 2026-09-30 16:31:51 UTC
 by_conference:
 - name: ACSAC
   github_repos: 284
@@ -448,6 +448,12 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Martin Odersky
+    - Yaoyu Zhao
+    - Yichen Xu 0008
+    - Oliver Bracevac
+    - Cao Nguyen Pham
   - title: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer
       Devices'
     url: https://github.com/brave-experiments/AgentStop
@@ -465,6 +471,11 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Dzung Pham 0002
+    - Kleomenis Katevas
+    - Ali Shahin Shamsabadi
+    - Hamed Haddadi 0001
   - title: 'Glia: A Human-Inspired AI for Automated Systems Design and Optimization'
     url: https://github.com/mit-nms/Engram
     conference: CAIS
@@ -480,6 +491,15 @@ by_conference:
     badges:
     - available
     - functional
+    authors:
+    - Pouya Hamadanian
+    - Pantea Karimi
+    - Arash Nasr-Esfahany
+    - Kimia Noorbakhsh
+    - Joseph Chandler
+    - Ali ParandehGheibi
+    - Mohammad Alizadeh
+    - Hari Balakrishnan
   - title: Improving Coherence and Persistence in Agentic AI for System Optimization
     url: https://github.com/mit-nms/Engram
     conference: CAIS
@@ -496,6 +516,11 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Pantea Karimi
+    - Kimia Noorbakhsh
+    - Mohammad Alizadeh
+    - Hari Balakrishnan
   - title: 'Context, Reasoning, and Hierarchy: A Cost–Performance Study of Compound
       LLM Agent Design in an Adversarial POMDP'
     url: https://github.com/isbogdanov/agent-design-study
@@ -513,6 +538,13 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Igor Bogdanov
+    - Chung-Horng Lung
+    - Thomas Kunz
+    - Jie Gao 0002
+    - Adrian Taylor
+    - Marzia Zaman
 - name: EUROSYS
   github_repos: 168
   total_stars: 15052
@@ -616,6 +648,15 @@ by_conference:
     badges:
     - available
     - functional
+    authors:
+    - Tian Xia
+    - Ziming Mao
+    - Jamison Kerney
+    - Ethan J. Jackson
+    - Zhifei Li 0006
+    - Jiarong Xing
+    - Scott Shenker
+    - Ion Stoica
   - title: 'PaSh: Light-touch Data-Parallel Shell Processing'
     url: https://github.com/andromeda/pash
     conference: EUROSYS
@@ -704,6 +745,19 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Ke Hong
+    - Xiuhong Li
+    - Minxu Liu
+    - Qiuli Mao
+    - Tianqi Wu
+    - Zixiao Huang 0001
+    - Lufang Chen
+    - Zhong Wang
+    - Yichong Zhang
+    - Zhenhua Zhu 0002
+    - Guohao Dai 0001
+    - Yu Wang 0002
 - name: NDSS
   github_repos: 141
   total_stars: 200743
@@ -1208,6 +1262,13 @@ by_conference:
     pushed_at: '2026-03-11T15:34:08Z'
     badges:
     - available
+    authors:
+    - Jeffrey Knockel
+    - Jakub Dalek
+    - Noura Aljizawi
+    - Mohamed Ahmed
+    - Levi Meletti
+    - Justin Lau
   - title: 'LLAMA: A Low Latency Math Library for Secure Inference'
     url: https://github.com/mpc-msri/EzPC/tree/master/FSS
     conference: PETS
@@ -1444,6 +1505,24 @@ by_conference:
     - Available
     - Functional
     - Reproduced
+    authors:
+    - Hongtao Chen
+    - Weiyu Xie
+    - Boxin Zhang
+    - Jingqi Tang
+    - Jiahao Wang
+    - Jianwei Dong
+    - Shaoyuan Chen
+    - Ziwei Yuan
+    - Chen Lin
+    - Chengyu Qiu
+    - Yuening Zhu
+    - Qingliang Ou
+    - Jiaqi Liao
+    - Xianglin Chen
+    - Zhiyuan Ai
+    - Yongwei Wu 0001
+    - Mingxing Zhang
   - title: The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter
       Systems
     url: https://github.com/demikernel/demikernel
@@ -1512,6 +1591,13 @@ by_conference:
     pushed_at: '2026-09-15T14:58:44Z'
     badges:
     - Available
+    authors:
+    - Benjamin Ramhorst
+    - Dario Korolija
+    - Maximilian Jakob Heer
+    - Jonas Dann
+    - Luhao Liu
+    - Gustavo Alonso
 - name: SP
   github_repos: 25
   total_stars: 307
@@ -1556,6 +1642,13 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Diego Meyer
+    - Patrick Jattke
+    - Michele Marazzi
+    - Salman Qazi
+    - Daniel Moghimi
+    - Kaveh Razavi
   - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
     url: https://github.com/google/private-membership
     conference: SP
@@ -1569,6 +1662,11 @@ by_conference:
     pushed_at: '2026-08-26T01:28:44Z'
     badges:
     - available
+    authors:
+    - Rasoul Akhavan Mahdavi
+    - Sarvar Patel
+    - Joon Young Seo
+    - Kevin Yeo
   - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation
       in Cloud Environments'
     url: https://github.com/comsec-group/vmscape
@@ -1586,6 +1684,11 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Jean-Claude Graf
+    - Sandro Rüegge
+    - Ali Hajiabadi
+    - Kaveh Razavi
   - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
     url: https://github.com/Yuuoniy/SpecAuditor
     conference: SP
@@ -1602,6 +1705,9 @@ by_conference:
     - available
     - functional
     - reproduced
+    authors:
+    - Miaoqian Lin
+    - Hao Chen
   - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
       Auditory Prompt Injection
     url: https://github.com/zju-muslab/AudioHijack
@@ -1617,6 +1723,12 @@ by_conference:
     pushed_at: '2026-03-29T10:57:38Z'
     badges:
     - available
+    authors:
+    - Meng Chen 0011
+    - Kun Wang 0025
+    - Li Lu 0008
+    - Jiaheng Zhang
+    - Tianwei Zhang 0004
 - name: SYSTEX
   github_repos: 17
   total_stars: 59
@@ -1938,7 +2050,7 @@ by_conference:
     authors:
     - Florian Hantke
     - Peter Snyder
-    - Hamed Haddadi
+    - Hamed Haddadi 0001
     - Ben Stock
 - name: WOOT
   github_repos: 43
@@ -2108,6 +2220,12 @@ by_conference:
     pushed_at: '2023-03-13T16:54:52Z'
     badges:
     - ORO
+    authors:
+    - Pietro Borrello
+    - Catherine Easdon
+    - Martin Schwarzl
+    - Roland Czerny
+    - Michael Schwarz 0001
   - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
     url: https://github.com/fgsect/unicorefuzz
     conference: WOOT
