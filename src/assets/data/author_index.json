@@ -1857,7 +1857,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "systems"
+    "category": "both"
   },
   {
     "id": 103,
@@ -3301,7 +3301,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 180,
@@ -3408,7 +3408,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 186,
@@ -15609,7 +15609,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "systems"
+    "category": "both"
   },
   {
     "id": 885,
@@ -20486,7 +20486,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 1202,
@@ -20633,7 +20633,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 1211,
@@ -57981,7 +57981,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 3689,
@@ -90772,7 +90772,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 6012,
@@ -108616,7 +108616,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 7238,
@@ -120474,7 +120474,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "security"
+    "category": "both"
   },
   {
     "id": 8168,
@@ -147840,7 +147840,7 @@
       "orcid": null,
       "openalex_id": null
     },
-    "category": "systems"
+    "category": "both"
   },
   {
     "id": 10028,
@@ -151434,6 +151434,4056 @@
     "affiliation": "",
     "affiliation_source": "",
     "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10270,
+    "name": "Xinfeng Li",
+    "display_name": "Xinfeng Li",
+    "affiliation": "The Hong Kong Polytechnic Univ.",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10271,
+    "name": "Hannah Kim 0001",
+    "display_name": "Hannah Kim",
+    "affiliation": "Oklahoma State University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10272,
+    "name": "Dan Zhang 0025",
+    "display_name": "Dan Zhang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10273,
+    "name": "Estevam Hruschka",
+    "display_name": "Estevam Hruschka",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10274,
+    "name": "Apostolos Chatzianagnostou",
+    "display_name": "Apostolos Chatzianagnostou",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10275,
+    "name": "Tristan Hornetz",
+    "display_name": "Tristan Hornetz",
+    "affiliation": "CISPA Helmholtz Center for Information Security",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10276,
+    "name": "Lixu Wang",
+    "display_name": "Lixu Wang",
+    "affiliation": "CUHK (SZ)",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10277,
+    "name": "Xiaofeng Wang 0001",
+    "display_name": "Xiaofeng Wang",
+    "affiliation": "Nanyang Technological University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10278,
+    "name": "Tianlong Chen 0001",
+    "display_name": "Tianlong Chen",
+    "affiliation": "University of North Carolina",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10279,
+    "name": "Fabian Thomas",
+    "display_name": "Fabian Thomas",
+    "affiliation": "CISPA Helmholtz Center for Information Security",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10280,
+    "name": "Igor Bogdanov",
+    "display_name": "Igor Bogdanov",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10281,
+    "name": "Chung-Horng Lung",
+    "display_name": "Chung-Horng Lung",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10282,
+    "name": "Thomas Kunz",
+    "display_name": "Thomas Kunz",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10283,
+    "name": "Jie Gao 0002",
+    "display_name": "Jie Gao",
+    "affiliation": "University of Minnesota",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10284,
+    "name": "Adrian Taylor",
+    "display_name": "Adrian Taylor",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10285,
+    "name": "Marzia Zaman",
+    "display_name": "Marzia Zaman",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10286,
+    "name": "Pantea Karimi",
+    "display_name": "Pantea Karimi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10287,
+    "name": "Kimia Noorbakhsh",
+    "display_name": "Kimia Noorbakhsh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10288,
+    "name": "Florent Moriconi",
+    "display_name": "Florent Moriconi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10289,
+    "name": "Axel Ilmari Neergaard",
+    "display_name": "Axel Ilmari Neergaard",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10290,
+    "name": "Lucas Georget",
+    "display_name": "Lucas Georget",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10291,
+    "name": "Samuel Aubertin",
+    "display_name": "Samuel Aubertin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10292,
+    "name": "Catherine Easdon",
+    "display_name": "Catherine Easdon",
+    "affiliation": "Dynatrace Research",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10293,
+    "name": "Alan Cao",
+    "display_name": "Alan Cao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10294,
+    "name": "Peter Goodman",
+    "display_name": "Peter Goodman",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10295,
+    "name": "Damien Cauquil",
+    "display_name": "Damien Cauquil",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10296,
+    "name": "Vincent Ulitzsch",
+    "display_name": "Vincent Ulitzsch",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10297,
+    "name": "Deniz Scholz",
+    "display_name": "Deniz Scholz",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10298,
+    "name": "Fukutomo Nakanishi",
+    "display_name": "Fukutomo Nakanishi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10299,
+    "name": "Daniele Ferla",
+    "display_name": "Daniele Ferla",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10300,
+    "name": "Jakub Pruzinec",
+    "display_name": "Jakub Pruzinec",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10301,
+    "name": "Quynh Anh Nguyen",
+    "display_name": "Quynh Anh Nguyen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10302,
+    "name": "Daniel Uroz",
+    "display_name": "Daniel Uroz",
+    "affiliation": "University of Zaragoza",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10303,
+    "name": "Ricardo J. Rodríguez",
+    "display_name": "Ricardo J. Rodríguez",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10304,
+    "name": "Pranav Bharadwaj",
+    "display_name": "Pranav Bharadwaj",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10305,
+    "name": "Jasraj Singh",
+    "display_name": "Jasraj Singh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10306,
+    "name": "Ateeq Sharfuddin",
+    "display_name": "Ateeq Sharfuddin",
+    "affiliation": "SCYTHE",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10307,
+    "name": "Brian Chapman",
+    "display_name": "Brian Chapman",
+    "affiliation": "University of Melbourne",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10308,
+    "name": "Chris Balles",
+    "display_name": "Chris Balles",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10309,
+    "name": "Nicolas Dutly",
+    "display_name": "Nicolas Dutly",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10310,
+    "name": "Friederike Groschupp",
+    "display_name": "Friederike Groschupp",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10311,
+    "name": "Sagar Mishra",
+    "display_name": "Sagar Mishra",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10312,
+    "name": "Gabriele Digregorio",
+    "display_name": "Gabriele Digregorio",
+    "affiliation": "Politecnico di Milano",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10313,
+    "name": "Feiyue Xu",
+    "display_name": "Feiyue Xu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10314,
+    "name": "Hongsheng Hu",
+    "display_name": "Hongsheng Hu",
+    "affiliation": "University of Newcastle",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10315,
+    "name": "Chaoxiang He",
+    "display_name": "Chaoxiang He",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10316,
+    "name": "Sheng Hang",
+    "display_name": "Sheng Hang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10317,
+    "name": "Hanqing Hu",
+    "display_name": "Hanqing Hu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10318,
+    "name": "Xiuming Liu",
+    "display_name": "Xiuming Liu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10319,
+    "name": "Yubo Zhao",
+    "display_name": "Yubo Zhao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10320,
+    "name": "Zhengyan Zhou",
+    "display_name": "Zhengyan Zhou",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10321,
+    "name": "Bin Benjamin Zhu",
+    "display_name": "Bin Benjamin Zhu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10322,
+    "name": "Shifeng Sun 0001",
+    "display_name": "Shifeng Sun",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10323,
+    "name": "Chenyu Huang",
+    "display_name": "Chenyu Huang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10324,
+    "name": "Minxin Du",
+    "display_name": "Minxin Du",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10325,
+    "name": "Huaming Rao",
+    "display_name": "Huaming Rao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10326,
+    "name": "Danqing Huang",
+    "display_name": "Danqing Huang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10327,
+    "name": "Bo Qian",
+    "display_name": "Bo Qian",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10328,
+    "name": "Peng Chen 0021",
+    "display_name": "Peng Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10329,
+    "name": "Jinhong Liu",
+    "display_name": "Jinhong Liu",
+    "affiliation": "Zhejiang University",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10330,
+    "name": "Mingkai Li",
+    "display_name": "Mingkai Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10331,
+    "name": "Hang Ye 0010",
+    "display_name": "Hang Ye",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10332,
+    "name": "Joseph Devietti",
+    "display_name": "Joseph Devietti",
+    "affiliation": "University of Pennsylvania",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10333,
+    "name": "Kolja Dorschel",
+    "display_name": "Kolja Dorschel",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10334,
+    "name": "René Walendy",
+    "display_name": "René Walendy",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10335,
+    "name": "Lukas Plätz",
+    "display_name": "Lukas Plätz",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10336,
+    "name": "Steffen Becker 0003",
+    "display_name": "Steffen Becker",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10337,
+    "name": "Hao Chen",
+    "display_name": "Hao Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10338,
+    "name": "Vincenzo Carletti",
+    "display_name": "Vincenzo Carletti",
+    "affiliation": "University of Salerno",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10339,
+    "name": "Pasquale Foggia",
+    "display_name": "Pasquale Foggia",
+    "affiliation": "University of Salerno",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10340,
+    "name": "Giuseppe Parrella",
+    "display_name": "Giuseppe Parrella",
+    "affiliation": "University of Salerno",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10341,
+    "name": "Mario Vento",
+    "display_name": "Mario Vento",
+    "affiliation": "University of Salerno",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10342,
+    "name": "Jiaqian Peng",
+    "display_name": "Jiaqian Peng",
+    "affiliation": "Institute of Information Engineering",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10343,
+    "name": "Yicheng Zeng",
+    "display_name": "Yicheng Zeng",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10344,
+    "name": "Kai Cheng",
+    "display_name": "Kai Cheng",
+    "affiliation": "HKUST",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10345,
+    "name": "Yongji Liu",
+    "display_name": "Yongji Liu",
+    "affiliation": "Stony Brook University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10346,
+    "name": "Yun Yang",
+    "display_name": "Yun Yang",
+    "affiliation": "Yale University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10347,
+    "name": "Hongsong Zhu",
+    "display_name": "Hongsong Zhu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10348,
+    "name": "Kaixiang Yao",
+    "display_name": "Kaixiang Yao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10349,
+    "name": "Dong Yang",
+    "display_name": "Dong Yang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10350,
+    "name": "Haoyao Li",
+    "display_name": "Haoyao Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10351,
+    "name": "Wei Song 0002",
+    "display_name": "Wei Song",
+    "affiliation": "Univ. of Maryland - College Park",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10352,
+    "name": "Zhidong Wang",
+    "display_name": "Zhidong Wang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10353,
+    "name": "Jinchi Han",
+    "display_name": "Jinchi Han",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10354,
+    "name": "Da Xie",
+    "display_name": "Da Xie",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10355,
+    "name": "Hao Ma",
+    "display_name": "Hao Ma",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10356,
+    "name": "Peng Liu 0005",
+    "display_name": "Peng Liu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10357,
+    "name": "Xinpeng Yang",
+    "display_name": "Xinpeng Yang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10358,
+    "name": "Chenkai Weng",
+    "display_name": "Chenkai Weng",
+    "affiliation": "Arizona State University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10359,
+    "name": "Jialin Wu 0001",
+    "display_name": "Jialin Wu",
+    "affiliation": "Manipal Academy of Higher Education",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10360,
+    "name": "Mathé Hertogh",
+    "display_name": "Mathé Hertogh",
+    "affiliation": "Vrije Universiteit Amsterdam",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10361,
+    "name": "Dave Quakkelaar",
+    "display_name": "Dave Quakkelaar",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10362,
+    "name": "Thijs Raymakers",
+    "display_name": "Thijs Raymakers",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10363,
+    "name": "Mahesh Hari Sarma",
+    "display_name": "Mahesh Hari Sarma",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10364,
+    "name": "Michael Klooß",
+    "display_name": "Michael Klooß",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10365,
+    "name": "Jan Niklas Siemer",
+    "display_name": "Jan Niklas Siemer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10366,
+    "name": "Monisha Swarnakar",
+    "display_name": "Monisha Swarnakar",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10367,
+    "name": "Sihyun Roh",
+    "display_name": "Sihyun Roh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10368,
+    "name": "Woohyuk Choi",
+    "display_name": "Woohyuk Choi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10369,
+    "name": "Jaeyoung Chung",
+    "display_name": "Jaeyoung Chung",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10370,
+    "name": "Yoochan Lee",
+    "display_name": "Yoochan Lee",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10371,
+    "name": "Suhwan Song",
+    "display_name": "Suhwan Song",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10372,
+    "name": "Meng Chen 0011",
+    "display_name": "Meng Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10373,
+    "name": "Ritvik Goyal",
+    "display_name": "Ritvik Goyal",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10374,
+    "name": "Shijin Chen",
+    "display_name": "Shijin Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10375,
+    "name": "Yudi Zhang 0001",
+    "display_name": "Yudi Zhang",
+    "affiliation": "IISc Bangalore",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10376,
+    "name": "Fuchun Guo",
+    "display_name": "Fuchun Guo",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10377,
+    "name": "Ashwin Karthikeyan",
+    "display_name": "Ashwin Karthikeyan",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10378,
+    "name": "Hengyu Liu",
+    "display_name": "Hengyu Liu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10379,
+    "name": "Kuldeep S. Meel",
+    "display_name": "Kuldeep S. Meel",
+    "affiliation": "Georgia Institute of Technology",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10380,
+    "name": "Jean-Claude Graf",
+    "display_name": "Jean-Claude Graf",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10381,
+    "name": "Ali Hajiabadi",
+    "display_name": "Ali Hajiabadi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10382,
+    "name": "Mufan Qiu",
+    "display_name": "Mufan Qiu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10383,
+    "name": "Lihsuan Chuang",
+    "display_name": "Lihsuan Chuang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10384,
+    "name": "Dohhyun Kim",
+    "display_name": "Dohhyun Kim",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10385,
+    "name": "Huaizhi Qu",
+    "display_name": "Huaizhi Qu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10386,
+    "name": "Michael Swift",
+    "display_name": "Michael Swift",
+    "affiliation": "University of Wisconsin - Madison",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10387,
+    "name": "Deevashwer Rathee",
+    "display_name": "Deevashwer Rathee",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10388,
+    "name": "Allison Li",
+    "display_name": "Allison Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10389,
+    "name": "Bofan Li",
+    "display_name": "Bofan Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10390,
+    "name": "Zhankai Ye",
+    "display_name": "Zhankai Ye",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10391,
+    "name": "Weikuan Yu",
+    "display_name": "Weikuan Yu",
+    "affiliation": "Florida State University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10392,
+    "name": "Yongning Tang",
+    "display_name": "Yongning Tang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10393,
+    "name": "Liu Xiu",
+    "display_name": "Liu Xiu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10394,
+    "name": "Yukihito Hiraga",
+    "display_name": "Yukihito Hiraga",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10395,
+    "name": "Yu Sasaki 0001",
+    "display_name": "Yu Sasaki",
+    "affiliation": "IISc Bangalore",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10396,
+    "name": "Sayon Duttagupta",
+    "display_name": "Sayon Duttagupta",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10397,
+    "name": "Seppe Wyns",
+    "display_name": "Seppe Wyns",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10398,
+    "name": "Nikola Antonijevic",
+    "display_name": "Nikola Antonijevic",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10399,
+    "name": "Dave Singelée",
+    "display_name": "Dave Singelée",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10400,
+    "name": "Linard Arquint",
+    "display_name": "Linard Arquint",
+    "affiliation": "ETH Zurich",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10401,
+    "name": "Samarth Kishor",
+    "display_name": "Samarth Kishor",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10402,
+    "name": "Jason R. Koenig",
+    "display_name": "Jason R. Koenig",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10403,
+    "name": "Joey Dodds",
+    "display_name": "Joey Dodds",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10404,
+    "name": "Daniel Kroening",
+    "display_name": "Daniel Kroening",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10405,
+    "name": "Peter Müller 0001",
+    "display_name": "Peter Müller",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10406,
+    "name": "Guozhen Ding",
+    "display_name": "Guozhen Ding",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10407,
+    "name": "Joseph Zhu",
+    "display_name": "Joseph Zhu",
+    "affiliation": "Ohio University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10408,
+    "name": "Jonah Ghebremichael",
+    "display_name": "Jonah Ghebremichael",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10409,
+    "name": "Sourag Cherupattamoolayil",
+    "display_name": "Sourag Cherupattamoolayil",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10410,
+    "name": "Hieu Le",
+    "display_name": "Hieu Le",
+    "affiliation": "University of California, Irvine",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10411,
+    "name": "Armin Huremagic",
+    "display_name": "Armin Huremagic",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10412,
+    "name": "Kevin Wang",
+    "display_name": "Kevin Wang",
+    "affiliation": "Washington State University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10413,
+    "name": "Sarvar Patel",
+    "display_name": "Sarvar Patel",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10414,
+    "name": "Joon Young Seo",
+    "display_name": "Joon Young Seo",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10415,
+    "name": "Kevin Yeo",
+    "display_name": "Kevin Yeo",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10416,
+    "name": "Shreyas Minocha",
+    "display_name": "Shreyas Minocha",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10417,
+    "name": "Isaac Sheridan",
+    "display_name": "Isaac Sheridan",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10418,
+    "name": "Harry Oppenheimer",
+    "display_name": "Harry Oppenheimer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10419,
+    "name": "Wei Chen 0161",
+    "display_name": "Wei Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10420,
+    "name": "Qi Hu",
+    "display_name": "Qi Hu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10421,
+    "name": "Siu-Ming Yiu",
+    "display_name": "Siu-Ming Yiu",
+    "affiliation": "University of Hong Kong",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10422,
+    "name": "Diego Meyer",
+    "display_name": "Diego Meyer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10423,
+    "name": "Joseph Ravichandran",
+    "display_name": "Joseph Ravichandran",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10424,
+    "name": "Longfei Qiu",
+    "display_name": "Longfei Qiu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10425,
+    "name": "Jingqi Xiao",
+    "display_name": "Jingqi Xiao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10426,
+    "name": "Zhong Shao 0001",
+    "display_name": "Zhong Shao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10427,
+    "name": "Valentin Ogier",
+    "display_name": "Valentin Ogier",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10428,
+    "name": "Georgios C. Androutsopoulos",
+    "display_name": "Georgios C. Androutsopoulos",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10429,
+    "name": "Tianze Qiu",
+    "display_name": "Tianze Qiu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10430,
+    "name": "Yingbin Jin",
+    "display_name": "Yingbin Jin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10431,
+    "name": "Xiaojun Jia",
+    "display_name": "Xiaojun Jia",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10432,
+    "name": "Tim Rausch",
+    "display_name": "Tim Rausch",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10433,
+    "name": "Sylvain Chatel",
+    "display_name": "Sylvain Chatel",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10434,
+    "name": "Daniel Marth",
+    "display_name": "Daniel Marth",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10435,
+    "name": "Christian Schanes",
+    "display_name": "Christian Schanes",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10436,
+    "name": "Thomas Grechenig",
+    "display_name": "Thomas Grechenig",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10437,
+    "name": "Jordy Gennissen",
+    "display_name": "Jordy Gennissen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10438,
+    "name": "Daniel O'Keeffe 0001",
+    "display_name": "Daniel O'Keeffe",
+    "affiliation": "Royal Holloway Univ. of London",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10439,
+    "name": "Hendrik Siewert",
+    "display_name": "Hendrik Siewert",
+    "affiliation": "Paderborn University",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10440,
+    "name": "Martin Kretschmer",
+    "display_name": "Martin Kretschmer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10441,
+    "name": "Marcus Niemietz",
+    "display_name": "Marcus Niemietz",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10442,
+    "name": "Fabian Freyer",
+    "display_name": "Fabian Freyer",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10443,
+    "name": "Peter Zhong",
+    "display_name": "Peter Zhong",
+    "affiliation": "Carnegie Mellon University",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10444,
+    "name": "Pashootan Vaezipoor",
+    "display_name": "Pashootan Vaezipoor",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10445,
+    "name": "Fuyang Cui",
+    "display_name": "Fuyang Cui",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10446,
+    "name": "Vaibhav Kumar",
+    "display_name": "Vaibhav Kumar",
+    "affiliation": "University of Southern California",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10447,
+    "name": "James Austin",
+    "display_name": "James Austin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10448,
+    "name": "Azin Asgarian",
+    "display_name": "Azin Asgarian",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10449,
+    "name": "Toby Ho",
+    "display_name": "Toby Ho",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10450,
+    "name": "Paul Inder",
+    "display_name": "Paul Inder",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10451,
+    "name": "Imen Kedir",
+    "display_name": "Imen Kedir",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10452,
+    "name": "Zhen Li",
+    "display_name": "Zhen Li",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10453,
+    "name": "Nicholas Ondo",
+    "display_name": "Nicholas Ondo",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10454,
+    "name": "Asna Shafiq",
+    "display_name": "Asna Shafiq",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10455,
+    "name": "Ibrahim Sheikh",
+    "display_name": "Ibrahim Sheikh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10456,
+    "name": "Edouard Sioufi",
+    "display_name": "Edouard Sioufi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10457,
+    "name": "Setareh Soltanieh",
+    "display_name": "Setareh Soltanieh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10458,
+    "name": "Ben Wilde",
+    "display_name": "Ben Wilde",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10459,
+    "name": "Jacky Zhao",
+    "display_name": "Jacky Zhao",
+    "affiliation": "Replit",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10460,
+    "name": "Ryan Carelli",
+    "display_name": "Ryan Carelli",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10461,
+    "name": "Heather Miller",
+    "display_name": "Heather Miller",
+    "affiliation": "Carnegie Mellon University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10462,
+    "name": "Michele Catasta",
+    "display_name": "Michele Catasta",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10463,
+    "name": "Srinath Perera",
+    "display_name": "Srinath Perera",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10464,
+    "name": "Kaviru Hapuarachchi",
+    "display_name": "Kaviru Hapuarachchi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10465,
+    "name": "Frank Leymann",
+    "display_name": "Frank Leymann",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10466,
+    "name": "Rania Khalaf",
+    "display_name": "Rania Khalaf",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10467,
+    "name": "Cong Yu",
+    "display_name": "Cong Yu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10468,
+    "name": "Valter Uotila",
+    "display_name": "Valter Uotila",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10469,
+    "name": "Shilong Deng",
+    "display_name": "Shilong Deng",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10470,
+    "name": "Lei You 0002",
+    "display_name": "Lei You",
+    "affiliation": "HKUST",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10471,
+    "name": "Skyler Hallinan",
+    "display_name": "Skyler Hallinan",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10472,
+    "name": "Thejas Venkatesh",
+    "display_name": "Thejas Venkatesh",
+    "affiliation": "IIT Guwahati",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10473,
+    "name": "Xiang Ren 0001",
+    "display_name": "Xiang Ren",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10474,
+    "name": "Sai Praneeth Karimireddy",
+    "display_name": "Sai Praneeth Karimireddy",
+    "affiliation": "University of Southern California",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10475,
+    "name": "Ashwin Paranjape",
+    "display_name": "Ashwin Paranjape",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10476,
+    "name": "Yuhao Zhang 0004",
+    "display_name": "Yuhao Zhang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10477,
+    "name": "Jack Hessel",
+    "display_name": "Jack Hessel",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10478,
+    "name": "Naoki Otani",
+    "display_name": "Naoki Otani",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10479,
+    "name": "Nikita Bhutani",
+    "display_name": "Nikita Bhutani",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10480,
+    "name": "Zeyu He",
+    "display_name": "Zeyu He",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10481,
+    "name": "Hongyu Cai",
+    "display_name": "Hongyu Cai",
+    "affiliation": "University of Massachusetts Amherst",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10482,
+    "name": "Yiming Liang",
+    "display_name": "Yiming Liang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10483,
+    "name": "Koji Yamazaki",
+    "display_name": "Koji Yamazaki",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10484,
+    "name": "Jelena Markovic-Voronov",
+    "display_name": "Jelena Markovic-Voronov",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10485,
+    "name": "Kayhan Behdin",
+    "display_name": "Kayhan Behdin",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10486,
+    "name": "Yuanda Xu",
+    "display_name": "Yuanda Xu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10487,
+    "name": "Zhengze Zhou",
+    "display_name": "Zhengze Zhou",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10488,
+    "name": "Zhipeng Wang 0005",
+    "display_name": "Zhipeng Wang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10489,
+    "name": "Rahul Mazumder",
+    "display_name": "Rahul Mazumder",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10490,
+    "name": "Kleomenis Katevas",
+    "display_name": "Kleomenis Katevas",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10491,
+    "name": "Ali Shahin Shamsabadi",
+    "display_name": "Ali Shahin Shamsabadi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10492,
+    "name": "Adnan Qidwai",
+    "display_name": "Adnan Qidwai",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10493,
+    "name": "Anand Eswaran",
+    "display_name": "Anand Eswaran",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10494,
+    "name": "Sonam Mishra",
+    "display_name": "Sonam Mishra",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10495,
+    "name": "Jaydeep Sen",
+    "display_name": "Jaydeep Sen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10496,
+    "name": "Sachindra Joshi",
+    "display_name": "Sachindra Joshi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10497,
+    "name": "Jibang Wu",
+    "display_name": "Jibang Wu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10498,
+    "name": "Chenghao Yang 0001",
+    "display_name": "Chenghao Yang",
+    "affiliation": "Stony Brook University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10499,
+    "name": "Yi Wu 0013",
+    "display_name": "Yi Wu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10500,
+    "name": "Simon Mahns",
+    "display_name": "Simon Mahns",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10501,
+    "name": "Chaoqi Wang",
+    "display_name": "Chaoqi Wang",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10502,
+    "name": "Hao Zhu",
+    "display_name": "Hao Zhu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10503,
+    "name": "Haifeng Xu",
+    "display_name": "Haifeng Xu",
+    "affiliation": "University of Chicago",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10504,
+    "name": "Lakshya A. Agrawal",
+    "display_name": "Lakshya A. Agrawal",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10505,
+    "name": "Donghyun Lee",
+    "display_name": "Donghyun Lee",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10506,
+    "name": "Shangyin Tan",
+    "display_name": "Shangyin Tan",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10507,
+    "name": "Karim Elmaaroufi",
+    "display_name": "Karim Elmaaroufi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10508,
+    "name": "Rohit Sandadi",
+    "display_name": "Rohit Sandadi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10509,
+    "name": "Sanjit A. Seshia",
+    "display_name": "Sanjit A. Seshia",
+    "affiliation": "Univ. of California - Berkeley",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10510,
+    "name": "Dan Klein 0001",
+    "display_name": "Dan Klein",
+    "affiliation": "Univ. of California - Berkeley",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10511,
+    "name": "Omar Khattab",
+    "display_name": "Omar Khattab",
+    "affiliation": "Massachusetts Inst. of Technology",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10512,
+    "name": "Alexandros G. Dimakis",
+    "display_name": "Alexandros G. Dimakis",
+    "affiliation": "Univ. of California - Berkeley",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10513,
+    "name": "Martin Odersky",
+    "display_name": "Martin Odersky",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10514,
+    "name": "Yaoyu Zhao",
+    "display_name": "Yaoyu Zhao",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10515,
+    "name": "Yichen Xu 0008",
+    "display_name": "Yichen Xu",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10516,
+    "name": "Oliver Bracevac",
+    "display_name": "Oliver Bracevac",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10517,
+    "name": "Cao Nguyen Pham",
+    "display_name": "Cao Nguyen Pham",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10518,
+    "name": "Francisco Javier Arceo",
+    "display_name": "Francisco Javier Arceo",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10519,
+    "name": "Varsha Prasad Narsing",
+    "display_name": "Varsha Prasad Narsing",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10520,
+    "name": "Pouya Hamadanian",
+    "display_name": "Pouya Hamadanian",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10521,
+    "name": "Arash Nasr-Esfahany",
+    "display_name": "Arash Nasr-Esfahany",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10522,
+    "name": "Joseph Chandler",
+    "display_name": "Joseph Chandler",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10523,
+    "name": "Ali ParandehGheibi",
+    "display_name": "Ali ParandehGheibi",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10524,
+    "name": "Jackson Hassell",
+    "display_name": "Jackson Hassell",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10525,
+    "name": "Tom M. Mitchell",
+    "display_name": "Tom M. Mitchell",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10526,
+    "name": "Xavier Cadet",
+    "display_name": "Xavier Cadet",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10527,
+    "name": "Aditya Vikram Singh 0002",
+    "display_name": "Aditya Vikram Singh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10528,
+    "name": "Harsh Mamania",
+    "display_name": "Harsh Mamania",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10529,
+    "name": "Edward Koh",
+    "display_name": "Edward Koh",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10530,
+    "name": "Alex Fitts",
+    "display_name": "Alex Fitts",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10531,
+    "name": "Dirk Van Bruggen",
+    "display_name": "Dirk Van Bruggen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10532,
+    "name": "Peter Chin 0001",
+    "display_name": "Peter Chin",
+    "affiliation": "Queen's University Belfast",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "systems"
+  },
+  {
+    "id": 10533,
+    "name": "Georgios Alexopoulos",
+    "display_name": "Georgios Alexopoulos",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10534,
+    "name": "Thodoris Sotiropoulos",
+    "display_name": "Thodoris Sotiropoulos",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10535,
+    "name": "Dimitris Mitropoulos",
+    "display_name": "Dimitris Mitropoulos",
+    "affiliation": "University of Athens",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10536,
+    "name": "Yichang Hu",
+    "display_name": "Yichang Hu",
+    "affiliation": "Purdue University",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10537,
+    "name": "Noah Brown",
+    "display_name": "Noah Brown",
+    "affiliation": "UNC Chapel Hill",
+    "affiliation_source": "ae_committee",
+    "affiliation_updated": "2026-09-30",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10538,
+    "name": "Yuhang Chen",
+    "display_name": "Yuhang Chen",
+    "affiliation": "",
+    "affiliation_source": "",
+    "affiliation_updated": "",
+    "affiliation_history": [],
+    "external_ids": {
+      "dblp_pid": null,
+      "orcid": null,
+      "openalex_id": null
+    },
+    "category": "security"
+  },
+  {
+    "id": 10539,
+    "name": "Joshua Bakita",
+    "display_name": "Joshua Bakita",
+    "affiliation": "MBZUAI",
+    "affiliation_source": "csrankings",
+    "affiliation_updated": "2026-09-30",
     "affiliation_history": [],
     "external_ids": {
       "dblp_pid": null,
