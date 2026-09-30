@@ -1,177 +1,213 @@
 [
   {
     "affiliation": "KU Leuven",
-    "combined_score": 16,
-    "artifact_score": 0,
+    "country": "Belgium",
+    "country_code": "BE",
+    "combined_score": 31,
+    "artifact_score": 4,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 16,
-    "ae_ratio": 0.0,
+    "ae_score": 27,
+    "ae_ratio": 0.15,
     "role": "Consumer",
-    "artifact_count": 0,
+    "artifact_count": 2,
     "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 4,
-    "chair_count": 2,
-    "total_papers": 0,
-    "artifact_pct": 0,
-    "author_count": 4,
+    "badges_reproducible": 2,
+    "ae_memberships": 7,
+    "chair_count": 3,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 5,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
+      "2026": 4,
       "2025": 1,
-      "2026": 3
-    }
+      "2024": 3
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
     "affiliation": "Politecnico di Torino",
-    "combined_score": 6,
+    "country": "Italy",
+    "country_code": "IT",
+    "combined_score": 9,
     "artifact_score": 0,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 6,
+    "ae_score": 9,
     "ae_ratio": 0.0,
     "role": "Consumer",
     "artifact_count": 0,
     "badges_functional": 0,
     "badges_reproducible": 0,
-    "ae_memberships": 2,
+    "ae_memberships": 3,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
+      "2024": 1,
       "2025": 1,
       "2026": 1
-    }
-  },
-  {
-    "affiliation": "Graz University of Technology",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0,
-    "author_count": 1,
-    "conferences": [
-      "SYSTEX"
-    ],
-    "years": {
-      "2025": 1,
-      "2026": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
     "affiliation": "University of Luebeck",
-    "combined_score": 3,
+    "country": null,
+    "country_code": null,
+    "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 3,
+    "ae_score": 6,
     "ae_ratio": 0.0,
     "role": "Consumer",
     "artifact_count": 0,
     "badges_functional": 0,
     "badges_reproducible": 0,
-    "ae_memberships": 1,
+    "ae_memberships": 2,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
+      "2024": 1,
       "2026": 1
-    }
-  },
-  {
-    "affiliation": "Bloomberg",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0,
-    "author_count": 1,
-    "conferences": [
-      "SYSTEX"
-    ],
-    "years": {
-      "2025": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
     "affiliation": "University of Minho",
-    "combined_score": 3,
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 3,
+    "ae_score": 6,
     "ae_ratio": 0.0,
     "role": "Consumer",
     "artifact_count": 0,
     "badges_functional": 0,
     "badges_reproducible": 0,
-    "ae_memberships": 1,
+    "ae_memberships": 2,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
+      "2024": 1,
       "2025": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
     "affiliation": "Universidade de Lisboa",
-    "combined_score": 3,
+    "country": "Portugal",
+    "country_code": "PT",
+    "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 3,
+    "ae_score": 6,
     "ae_ratio": 0.0,
     "role": "Consumer",
     "artifact_count": 0,
     "badges_functional": 0,
     "badges_reproducible": 0,
-    "ae_memberships": 1,
+    "ae_memberships": 2,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
+      "2024": 1,
       "2026": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
-    "affiliation": "University of Turin",
+    "affiliation": "Microsoft",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 6,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "SYSTEX"
+    ],
+    "years": {
+      "2024": 1,
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Graz University of Technology",
+    "country": "Austria",
+    "country_code": "AT",
+    "combined_score": 6,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "SYSTEX"
+    ],
+    "years": {
+      "2025": 1,
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Bloomberg",
+    "country": null,
+    "country_code": null,
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -185,17 +221,21 @@
     "ae_memberships": 1,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
       "2025": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
-    "affiliation": "Microsoft",
+    "affiliation": "Universität zu Lübeck",
+    "country": "Germany",
+    "country_code": "DE",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -209,17 +249,49 @@
     "ae_memberships": 1,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
-      "2026": 1
-    }
+      "2024": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Turin",
+    "country": "Italy",
+    "country_code": "IT",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "SYSTEX"
+    ],
+    "years": {
+      "2025": 1
+    },
+    "top_authors": [],
+    "scope": null
   },
   {
     "affiliation": "CISPA Helmholtz Center for Information Security",
+    "country": "Germany",
+    "country_code": "DE",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,
@@ -233,13 +305,15 @@
     "ae_memberships": 1,
     "chair_count": 0,
     "total_papers": 0,
-    "artifact_pct": 0,
+    "artifact_pct": 0.0,
     "author_count": 1,
     "conferences": [
       "SYSTEX"
     ],
     "years": {
       "2026": 1
-    }
+    },
+    "top_authors": [],
+    "scope": null
   }
 ]

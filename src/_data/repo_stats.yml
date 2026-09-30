@@ -4,9 +4,9 @@ overall:
   total_forks: 121249
   max_stars: 92979
   max_forks: 28454
-  zenodo_repos: 1295
-  total_views: 413508
-  total_downloads: 310885
+  zenodo_repos: 1261
+  total_views: 403293
+  total_downloads: 309373
   avg_stars: 272.6
   avg_forks: 53.3
   median_stars: 6.0
@@ -15,7 +15,7 @@ overall:
   p75_stars: 23.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-09-30 16:31:51 UTC
+  last_updated: 2026-09-30 17:54:56 UTC
 by_conference:
 - name: ACSAC
   github_repos: 284
@@ -23,12 +23,12 @@ by_conference:
   total_forks: 2978
   avg_stars: 49.1
   avg_forks: 10.5
-  median_stars: 3.5
-  median_forks: 1.0
+  median_stars: 5
+  median_forks: 1
   p25_stars: 1.0
-  p75_stars: 13.0
+  p75_stars: 16.0
   p25_forks: 0.0
-  p75_forks: 3.0
+  p75_forks: 4.0
   max_stars: 2243
   max_forks: 368
   years:
@@ -160,6 +160,34 @@ by_conference:
     - Christian Rossow
   - title: 'DPIFuzz: A Differential Fuzzing Framework to Detect DPI Elusion Strategies
       for QUIC'
+    url: https://github.com/mozilla/neqo/issues/571
+    conference: ACSAC
+    year: 2020
+    area: security
+    stars: 2243
+    forks: 172
+    description: Neqo, the Mozilla Firefox implementation of QUIC in Rust
+    language: Rust
+    name: mozilla/neqo
+    pushed_at: '2026-09-30T03:30:00Z'
+    badges: *id001
+    authors: *id002
+  - title: 'DPIFuzz: A Differential Fuzzing Framework to Detect DPI Elusion Strategies
+      for QUIC'
+    url: https://github.com/facebookincubator/mvfst/issues/135These
+    conference: ACSAC
+    year: 2020
+    area: security
+    stars: 1662
+    forks: 295
+    description: An implementation of the QUIC transport protocol.
+    language: C++
+    name: facebook/mvfst
+    pushed_at: '2026-09-30T04:43:39Z'
+    badges: *id001
+    authors: *id002
+  - title: 'DPIFuzz: A Differential Fuzzing Framework to Detect DPI Elusion Strategies
+      for QUIC'
     url: https://github.com/facebookincubator/mvfst/issues/135These
     conference: ACSAC
     year: 2020
@@ -190,54 +218,14 @@ by_conference:
     - Carlo Mazzocca
     - Rebecca Montanari
     - A. Selcuk Uluagac
-  - title: 'TEEKAP: Self-Expiring Data Capsule using Trusted Execution Environment'
-    url: https://github.com/eBay/NuRaft
-    conference: ACSAC
-    year: 2021
-    area: security
-    stars: 1204
-    forks: 297
-    description: C++ implementation of Raft core logic as a replication library
-    language: C++
-    name: eBay/NuRaft
-    pushed_at: '2026-08-13T16:45:21Z'
-    badges:
-    - reusable
-    authors:
-    - Mingyuan Gao
-    - Hung Dang
-    - Ee-Chien Chang
-  - title: 'FLAME: Flexible and Lightweight Biometric Authentication Scheme in Malicious
-      Environments'
-    url: https://github.com/data61/mp-spdz
-    conference: ACSAC
-    year: 2025
-    area: security
-    stars: 1188
-    forks: 368
-    description: Versatile framework for multi-party computation
-    language: C++
-    name: data61/MP-SPDZ
-    pushed_at: '2026-09-25T02:26:04Z'
-    badges:
-    - reproducible
-    authors:
-    - Fuyi Wang
-    - Fangyuan Sun
-    - Mingyuan Fan 0003
-    - Jianying Zhou 0001
-    - Jin Ma
-    - Chao Chen 0015
-    - Jiangang Shu
-    - Leo Yu Zhang
 - name: ATC
   github_repos: 109
   total_stars: 4880
   total_forks: 863
   avg_stars: 44.8
   avg_forks: 7.9
-  median_stars: 10
-  median_forks: 1
+  median_stars: 9.5
+  median_forks: 1.0
   p25_stars: 3.0
   p75_stars: 27.0
   p25_forks: 1.0
@@ -411,12 +399,12 @@ by_conference:
   total_forks: 24
   avg_stars: 9.1
   avg_forks: 1.5
-  median_stars: 4
-  median_forks: 0
-  p25_stars: 0.5
-  p75_stars: 9.5
+  median_stars: 3.0
+  median_forks: 0.0
+  p25_stars: 0.0
+  p75_stars: 8.8
   p25_forks: 0.0
-  p75_forks: 1.5
+  p75_forks: 1.2
   max_stars: 82
   max_forks: 12
   years:
@@ -546,15 +534,15 @@ by_conference:
     - Adrian Taylor
     - Marzia Zaman
 - name: EUROSYS
-  github_repos: 168
-  total_stars: 15052
-  total_forks: 2242
-  avg_stars: 89.6
-  avg_forks: 13.3
-  median_stars: 5.5
-  median_forks: 1.0
+  github_repos: 169
+  total_stars: 15222
+  total_forks: 2289
+  avg_stars: 90.1
+  avg_forks: 13.5
+  median_stars: 6
+  median_forks: 1
   p25_stars: 2.0
-  p75_stars: 17.8
+  p75_stars: 17.0
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 10613
@@ -585,17 +573,17 @@ by_conference:
     p25_forks: 1.0
     p75_forks: 7.0
   - year: 2023
-    github_repos: 14
-    total_stars: 290
-    total_forks: 303
-    avg_stars: 20.7
-    avg_forks: 21.6
-    median_stars: 8.0
-    median_forks: 1.5
-    p25_stars: 1.8
-    p75_stars: 17.8
+    github_repos: 15
+    total_stars: 460
+    total_forks: 350
+    avg_stars: 30.7
+    avg_forks: 23.3
+    median_stars: 10
+    median_forks: 2
+    p25_stars: 2.0
+    p75_stars: 26.0
     p25_forks: 0.0
-    p75_forks: 4.2
+    p75_forks: 5.0
   - year: 2024
     github_repos: 13
     total_stars: 191
@@ -832,6 +820,34 @@ by_conference:
     - Soheil Khodayari
     - Giancarlo Pellegrino
   - title: 'YuraScanner: Leveraging LLMs for Task-driven Web App Scanning'
+    url: https://github.com/vllm-project/vllm
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 92979
+    forks: 22835
+    description: A high-throughput and memory-efficient inference and serving engine
+      for LLMs
+    language: Python
+    name: vllm-project/vllm
+    pushed_at: '2026-09-30T08:21:05Z'
+    badges: *id003
+    authors: *id004
+  - title: 'YuraScanner: Leveraging LLMs for Task-driven Web App Scanning'
+    url: https://github.com/lm-sys/FastChat
+    conference: NDSS
+    year: 2025
+    area: security
+    stars: 39556
+    forks: 4777
+    description: An open platform for training, serving, and evaluating large language
+      models. Release repo for Vicuna and Chatbot Arena.
+    language: Python
+    name: lm-sys/FastChat
+    pushed_at: '2026-05-01T00:25:53Z'
+    badges: *id003
+    authors: *id004
+  - title: 'YuraScanner: Leveraging LLMs for Task-driven Web App Scanning'
     url: https://github.com/lm-sys/FastChat
     conference: NDSS
     year: 2025
@@ -864,45 +880,6 @@ by_conference:
     - Wenqiang Li
     - Wenwen Wang 0001
     - Le Guan
-  - title: Black-box Membership Inference Attacks against Fine-tuned Diffusion Models
-    url: https://github.com/Stability-AI/generative-models
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 27300
-    forks: 3093
-    description: Generative Models by Stability AI
-    language: Python
-    name: Stability-AI/generative-models
-    pushed_at: '2025-12-16T08:36:18Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Yan Pang
-    - Tianhao Wang 0001
-  - title: 'Starshields for iOS: Navigating the Security Cosmos in Satellite Communication'
-    url: https://github.com/opa334/Dopamine
-    conference: NDSS
-    year: 2025
-    area: security
-    stars: 6789
-    forks: 6300
-    description: Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)
-    language: C
-    name: opa334/Dopamine
-    pushed_at: '2026-09-23T21:44:32Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Jiska Classen
-    - Alexander Heinrich
-    - Fabian Portner
-    - Felix Rohrbach
-    - Matthias Hollick
 - name: OSDI
   github_repos: 136
   total_stars: 40435
@@ -912,9 +889,9 @@ by_conference:
   median_stars: 32
   median_forks: 5
   p25_stars: 9.0
-  p75_stars: 76.5
+  p75_stars: 77.0
   p25_forks: 1.0
-  p75_forks: 14.5
+  p75_forks: 16.0
   max_stars: 14361
   max_forks: 1848
   years:
@@ -1324,9 +1301,21 @@ by_conference:
     language: Python
     name: NVIDIA/Megatron-LM
     pushed_at: '2026-09-17T11:58:40Z'
-    badges:
+    badges: &id005
     - available
     - functional
+  - title: Efficient Large-Scale Language Model Training on GPU Clusters
+    url: https://github.com/NVIDIA/Megatron-LM
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 17930
+    forks: 4524
+    description: Ongoing research training transformer models at scale
+    language: Python
+    name: NVIDIA/Megatron-LM
+    pushed_at: '2026-09-17T11:58:40Z'
+    badges: *id005
   - title: 'AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with
       Autotuned Data-Parallel Training for Tabular Data full strip note'
     url: https://github.com/deephyper/deephyper
@@ -1340,8 +1329,22 @@ by_conference:
     language: Python
     name: deephyper/deephyper
     pushed_at: '2026-03-27T07:54:30Z'
-    badges:
+    badges: &id006
     - available
+  - title: 'AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with
+      Autotuned Data-Parallel Training for Tabular Data full strip note'
+    url: https://github.com/deephyper/deephyper
+    conference: SC
+    year: 2021
+    area: systems
+    stars: 310
+    forks: 66
+    description: 'DeepHyper: A Python Package for Massively Parallel Hyperparameter
+      Optimization in Machine Learning'
+    language: Python
+    name: deephyper/deephyper
+    pushed_at: '2026-03-27T07:54:30Z'
+    badges: *id006
   - title: 'ndzip-gpu: Efficient Lossless Compression of Scientific Floating-Point
       Data on GPUs'
     url: https://github.com/fknorr/ndzip
@@ -1362,56 +1365,18 @@ by_conference:
     - Fabian Knorr
     - Peter Thoman
     - Thomas Fahringer
-  - title: Accelerating Applications using Edge Tensor Processing Units
-    url: https://github.com/escalab/GPETPU
-    conference: SC
-    year: 2021
-    area: systems
-    stars: 52
-    forks: 9
-    description: GPTPU for SC 2021
-    language: C++
-    name: escalab/GPTPU
-    pushed_at: '2023-03-22T20:49:19Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Kuan-Chieh Hsu
-    - Hung-Wei Tseng 0001
-  - title: 'Krill: A Compiler and Runtime System for Concurrent Graph Processing'
-    url: https://github.com/chhzh123/Krill
-    conference: SC
-    year: 2021
-    area: systems
-    stars: 47
-    forks: 10
-    description: An efficient concurrent graph processing system
-    language: C++
-    name: chhzh123/Krill
-    pushed_at: '2021-10-27T16:41:21Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Hongzheng Chen
-    - Minghua Shen
-    - Nong Xiao 0001
-    - Yutong Lu
 - name: SOSP
   github_repos: 185
   total_stars: 28944
   total_forks: 3373
   avg_stars: 156.5
   avg_forks: 18.2
-  median_stars: 11.0
-  median_forks: 3.0
-  p25_stars: 3.0
-  p75_stars: 44.0
+  median_stars: 9.0
+  median_forks: 2.0
+  p25_stars: 2.0
+  p75_stars: 34.2
   p25_forks: 0.0
-  p75_forks: 8.0
+  p75_forks: 7.0
   max_stars: 19520
   max_forks: 1573
   years:
@@ -1574,30 +1539,21 @@ by_conference:
     language: TypeScript
     name: SJTU-IPADS/SkVM
     pushed_at: '2026-09-10T16:15:52Z'
-    badges:
+    badges: &id007
     - Available
     - Functional
-  - title: 'Coyote v2: Raising the Level of Abstraction for Data Center FPGAs'
-    url: https://github.com/fpgasystems/Coyote
+  - title: 'Skill VM: Write Once, Run Everywhere Efficiently'
+    url: https://github.com/SJTU-IPADS/SkVM
     conference: SOSP
-    year: 2025
+    year: 2026
     area: systems
-    stars: 451
-    forks: 124
-    description: Framework providing operating system abstractions and a range of
-      shared networking and memory services for common modern
-    language: SystemVerilog
-    name: fpgasystems/Coyote
-    pushed_at: '2026-09-15T14:58:44Z'
-    badges:
-    - Available
-    authors:
-    - Benjamin Ramhorst
-    - Dario Korolija
-    - Maximilian Jakob Heer
-    - Jonas Dann
-    - Luhao Liu
-    - Gustavo Alonso
+    stars: 554
+    forks: 54
+    description: The Language Virtual Machine for Agent Skills
+    language: TypeScript
+    name: SJTU-IPADS/SkVM
+    pushed_at: '2026-09-10T16:15:52Z'
+    badges: *id007
 - name: SP
   github_repos: 25
   total_stars: 307
@@ -1638,17 +1594,31 @@ by_conference:
     language: Python
     name: comsec-group/phoenix
     pushed_at: '2026-05-14T19:57:38Z'
-    badges:
+    badges: &id008
     - available
     - functional
     - reproduced
-    authors:
+    authors: &id009
     - Diego Meyer
     - Patrick Jattke
     - Michele Marazzi
     - Salman Qazi
     - Daniel Moghimi
     - Kaveh Razavi
+  - title: 'Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization'
+    url: https://github.com/comsec-group/phoenix
+    conference: SP
+    year: 2026
+    area: security
+    stars: 74
+    forks: 9
+    description: 'Artifacts for "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting
+      Synchronization" (IEEE S&P ''26)'
+    language: Python
+    name: comsec-group/phoenix
+    pushed_at: '2026-05-14T19:57:38Z'
+    badges: *id008
+    authors: *id009
   - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
     url: https://github.com/google/private-membership
     conference: SP
@@ -1660,13 +1630,26 @@ by_conference:
     language: C++
     name: google/private-membership
     pushed_at: '2026-08-26T01:28:44Z'
-    badges:
+    badges: &id010
     - available
-    authors:
+    authors: &id011
     - Rasoul Akhavan Mahdavi
     - Sarvar Patel
     - Joon Young Seo
     - Kevin Yeo
+  - title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
+    url: https://github.com/google/private-membership
+    conference: SP
+    year: 2026
+    area: security
+    stars: 69
+    forks: 17
+    description: ''
+    language: C++
+    name: google/private-membership
+    pushed_at: '2026-08-26T01:28:44Z'
+    badges: *id010
+    authors: *id011
   - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation
       in Cloud Environments'
     url: https://github.com/comsec-group/vmscape
@@ -1689,46 +1672,6 @@ by_conference:
     - Sandro Rüegge
     - Ali Hajiabadi
     - Kaveh Razavi
-  - title: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection'
-    url: https://github.com/Yuuoniy/SpecAuditor
-    conference: SP
-    year: 2026
-    area: security
-    stars: 36
-    forks: 4
-    description: 'SpecAuditor: Generating Audit Specifications for LLM-Driven Bug
-      Detection (S&P 2026)'
-    language: HTML
-    name: Yuuoniy/SpecAuditor
-    pushed_at: '2026-06-08T13:31:25Z'
-    badges:
-    - available
-    - functional
-    - reproduced
-    authors:
-    - Miaoqian Lin
-    - Hao Chen
-  - title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible
-      Auditory Prompt Injection
-    url: https://github.com/zju-muslab/AudioHijack
-    conference: SP
-    year: 2026
-    area: security
-    stars: 20
-    forks: 2
-    description: This is the artifact of the IEEE S&P 2026 paper "Hijacking Large
-      Audio-Language Models via Context-agnostic Auditory Pro
-    language: Python
-    name: zju-muslab/AudioHijack
-    pushed_at: '2026-03-29T10:57:38Z'
-    badges:
-    - available
-    authors:
-    - Meng Chen 0011
-    - Kun Wang 0025
-    - Li Lu 0008
-    - Jiaheng Zhang
-    - Tianwei Zhang 0004
 - name: SYSTEX
   github_repos: 17
   total_stars: 59
@@ -1856,10 +1799,10 @@ by_conference:
   total_forks: 78924
   avg_stars: 464.0
   avg_forks: 103.2
-  median_stars: 10.0
-  median_forks: 2.0
+  median_stars: 10
+  median_forks: 2
   p25_stars: 3.0
-  p75_stars: 34.0
+  p75_stars: 36.0
   p25_forks: 0.0
   p75_forks: 6.0
   max_stars: 92979
@@ -1963,15 +1906,30 @@ by_conference:
     language: Python
     name: vllm-project/vllm
     pushed_at: '2026-09-30T08:21:05Z'
-    badges: &id005
+    badges: &id012
     - 'Badges: Available'
     - Functional
-    authors: &id006
+    authors: &id013
     - Ahmed Lekssays
     - Hamza Mouhcine
     - Khang Tran
     - Ting Yu 0001
     - Issa Khalil
+  - title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided
+      Large Language Models'
+    url: https://github.com/vllm-project/vllm
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 92979
+    forks: 22835
+    description: A high-throughput and memory-efficient inference and serving engine
+      for LLMs
+    language: Python
+    name: vllm-project/vllm
+    pushed_at: '2026-09-30T08:21:05Z'
+    badges: *id012
+    authors: *id013
   - title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided
       Large Language Models'
     url: https://github.com/hiyouga/LLaMA-Factory
@@ -1984,8 +1942,22 @@ by_conference:
     language: Python
     name: hiyouga/LlamaFactory
     pushed_at: '2026-09-28T09:10:59Z'
-    badges: *id005
-    authors: *id006
+    badges: *id012
+    authors: *id013
+  - title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided
+      Large Language Models'
+    url: https://github.com/hiyouga/LLaMA-Factory
+    conference: USENIXSEC
+    year: 2025
+    area: security
+    stars: 75220
+    forks: 9206
+    description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+    language: Python
+    name: hiyouga/LlamaFactory
+    pushed_at: '2026-09-28T09:10:59Z'
+    badges: *id012
+    authors: *id013
   - title: 'Jenny: Securing Syscalls for PKU-based Memory Isolation Systems'
     url: https://github.com/git/git.git
     conference: USENIXSEC
@@ -2007,63 +1979,18 @@ by_conference:
     - Samuel Weiser
     - Richard Sadek
     - Stefan Mangard
-  - title: 'Activation Approximations Can Incur Safety Vulnerabilities in Aligned
-      LLMs: Comprehensive Analysis and Defense'
-    url: https://github.com/tatsu-lab/stanford_alpaca
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 30234
-    forks: 3969
-    description: Code and documentation to train Stanford's Alpaca models, and generate
-      the data.
-    language: Python
-    name: tatsu-lab/stanford_alpaca
-    pushed_at: '2024-07-17T09:43:05Z'
-    badges:
-    - 'Badges: Available'
-    authors:
-    - Jiawen Zhang 0005
-    - Kejia Chen 0007
-    - Lipeng He
-    - Jian Lou 0001
-    - Dan Li 0032
-    - Zunlei Feng
-    - Mingli Song
-    - Jian Liu 0012
-    - Kui Ren 0001
-    - Xiaohu Yang 0001
-  - title: 'Web Execution Bundles: Reproducible, Accurate, and Archivable Web Measurements'
-    url: https://github.com/brave/brave-browser/wiki/PageGraph
-    conference: USENIXSEC
-    year: 2025
-    area: security
-    stars: 23755
-    forks: 3232
-    description: Brave browser for Android, iOS, Linux, macOS, Windows.
-    language: ''
-    name: brave/brave-browser
-    pushed_at: '2026-09-30T06:45:27Z'
-    badges:
-    - 'Badges: Available'
-    - Functional
-    authors:
-    - Florian Hantke
-    - Peter Snyder
-    - Hamed Haddadi 0001
-    - Ben Stock
 - name: WOOT
   github_repos: 43
   total_stars: 16897
   total_forks: 1464
   avg_stars: 393.0
   avg_forks: 34.0
-  median_stars: 6
-  median_forks: 1
+  median_stars: 5.5
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 35.0
+  p75_stars: 35.2
   p25_forks: 0.0
-  p75_forks: 7.0
+  p75_forks: 7.5
   max_stars: 12577
   max_forks: 1050
   years:
@@ -2179,12 +2106,25 @@ by_conference:
     language: C
     name: endrazine/wcc
     pushed_at: '2026-07-17T09:15:28Z'
-    badges:
+    badges: &id014
     - 'Badges: Available'
     - Functional
     - Reproduced
-    authors:
+    authors: &id015
     - Jonathan Brossard
+  - title: Introduction to Procedural Debugging through Binary Libification
+    url: https://github.com/endrazine/wcc
+    conference: WOOT
+    year: 2024
+    area: security
+    stars: 2013
+    forks: 116
+    description: The Witchcraft Compiler Collection
+    language: C
+    name: endrazine/wcc
+    pushed_at: '2026-07-17T09:15:28Z'
+    badges: *id014
+    authors: *id015
   - title: 'Bluetooth Security Testing with BlueToolkit: a Large-Scale Automotive
       Case Study'
     url: https://github.com/sgxgsx/BlueToolkit
@@ -2226,23 +2166,6 @@ by_conference:
     - Martin Schwarzl
     - Roland Czerny
     - Michael Schwarz 0001
-  - title: 'Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing'
-    url: https://github.com/fgsect/unicorefuzz
-    conference: WOOT
-    year: 2019
-    area: security
-    stars: 305
-    forks: 35
-    description: Fuzzing the Kernel Using Unicornafl and AFL++
-    language: Python
-    name: fgsect/unicorefuzz
-    pushed_at: '2023-01-02T18:12:54Z'
-    badges:
-    - Artifact Evaluated
-    authors:
-    - Dominik Christian Maier
-    - Benedikt Radtke
-    - Bastian Harren
 by_year:
 - year: 2017
   github_repos: 8
@@ -2329,13 +2252,13 @@ by_year:
   max_stars: 63462
   max_forks: 28454
 - year: 2023
-  github_repos: 330
-  total_stars: 17732
-  total_forks: 3150
-  avg_stars: 53.7
-  avg_forks: 9.5
-  median_stars: 10.0
-  median_forks: 2.0
+  github_repos: 331
+  total_stars: 17902
+  total_forks: 3197
+  avg_stars: 54.1
+  avg_forks: 9.7
+  median_stars: 10
+  median_forks: 2
   p25_stars: 3.0
   p75_stars: 35.0
   p25_forks: 0.0
@@ -2386,24 +2309,24 @@ by_year:
   max_forks: 1234
 by_area:
 - name: systems
-  github_repos: 665
-  total_stars: 125594
-  total_forks: 18559
-  median_stars: 11
-  median_forks: 2
-  p25_stars: 3.0
-  p75_stars: 36.5
+  github_repos: 782
+  total_stars: 147384
+  total_forks: 23922
+  median_stars: 9.0
+  median_forks: 2.0
+  p25_stars: 2.0
+  p75_stars: 31.2
   p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 19520
 - name: security
-  github_repos: 1663
-  total_stars: 615349
-  total_forks: 129510
-  median_stars: 5
-  median_forks: 1
-  p25_stars: 1.0
-  p75_stars: 19.0
+  github_repos: 2548
+  total_stars: 1180794
+  total_forks: 253280
+  median_stars: 6.0
+  median_forks: 1.0
+  p25_stars: 2.0
+  p75_stars: 22.0
   p25_forks: 0.0
   p75_forks: 4.0
   max_stars: 92979
