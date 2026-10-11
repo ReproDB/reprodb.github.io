@@ -435,8 +435,8 @@
     "badges_reproducible": 12,
     "ae_memberships": 5,
     "chair_count": 0,
-    "total_papers": 17,
-    "artifact_pct": 76.5,
+    "total_papers": 18,
+    "artifact_pct": 72.2,
     "author_count": 12,
     "conferences": [
       "SOSP"
@@ -520,6 +520,41 @@
       "2021": 3,
       "2020": 0,
       "2019": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of California, Berkeley",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 51,
+    "artifact_score": 36,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 2.4,
+    "role": "Producer",
+    "artifact_count": 12,
+    "badges_functional": 12,
+    "badges_reproducible": 12,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 12,
+    "artifact_pct": 100.0,
+    "author_count": 12,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 4,
+      "2024": 1,
+      "2023": 6,
+      "2022": 0,
+      "2021": 5,
+      "2020": 0,
+      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -625,41 +660,6 @@
       "2021": 5,
       "2020": 0,
       "2019": 5
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of California, Berkeley",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 45,
-    "artifact_score": 30,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 2.0,
-    "role": "Balanced",
-    "artifact_count": 10,
-    "badges_functional": 10,
-    "badges_reproducible": 10,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_pct": 100.0,
-    "author_count": 11,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 2,
-      "2024": 1,
-      "2023": 6,
-      "2022": 0,
-      "2021": 5,
-      "2020": 0,
-      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -1015,41 +1015,6 @@
     "scope": null
   },
   {
-    "affiliation": "Stony Brook University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 33,
-    "artifact_score": 21,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 1.75,
-    "role": "Balanced",
-    "artifact_count": 7,
-    "badges_functional": 7,
-    "badges_reproducible": 7,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 7,
-    "artifact_pct": 100.0,
-    "author_count": 8,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 6,
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 3,
-      "2020": 0,
-      "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "The University of Hong Kong",
     "country": "Hong Kong",
     "country_code": "HK",
@@ -1185,6 +1150,41 @@
       "2021": 2,
       "2020": 0,
       "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 27,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 1.25,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_pct": 100.0,
+    "author_count": 7,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 4,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 3,
+      "2020": 0,
+      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -1361,6 +1361,41 @@
     "scope": null
   },
   {
+    "affiliation": "University of Chicago",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 21,
+    "artifact_score": 18,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 6.0,
+    "role": "Producer",
+    "artifact_count": 6,
+    "badges_functional": 6,
+    "badges_reproducible": 6,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 66.7,
+    "author_count": 7,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 5,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Huawei",
     "country": "China",
     "country_code": "CN",
@@ -1458,41 +1493,6 @@
       "2021": 0,
       "2020": 0,
       "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Chicago",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 18,
-    "artifact_score": 15,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 5.0,
-    "role": "Producer",
-    "artifact_count": 5,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 62.5,
-    "author_count": 6,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 5,
-      "2020": 0,
-      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -4033,41 +4033,6 @@
     "scope": null
   },
   {
-    "affiliation": "Department of Computer Science",
-    "country": null,
-    "country_code": null,
-    "combined_score": 6,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_pct": 100.0,
-    "author_count": 2,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 0,
-      "2023": 2,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Massachusetts Amherst",
     "country": "United States",
     "country_code": "US",
@@ -5759,6 +5724,41 @@
       "2025": 1,
       "2024": 0,
       "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Department of Computer Science",
+    "country": null,
+    "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 0,
+      "2023": 1,
       "2022": 0,
       "2021": 0,
       "2020": 0,

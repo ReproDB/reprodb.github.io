@@ -55294,8 +55294,8 @@
     2017: 0
   rank: 1222
   author_id: 8162
-- name: Hai (Helen) Li
-  display_name: Hai (Helen) Li
+- name: Hai "Helen" Li
+  display_name: Hai "Helen" Li
   affiliation: Duke University
   artifact_score: 3
   artifact_count: 1
@@ -55323,7 +55323,7 @@
     2018: 0
     2017: 0
   rank: 1222
-  author_id: 4494
+  author_id: 10544
 - name: Haibo Cheng 0001
   display_name: Haibo Cheng
   affiliation: Oklahoma State University
@@ -73629,9 +73629,9 @@
     2017: 0
   rank: 1222
   author_id: 5557
-- name: Ruitao Feng
+- name: Ruitao Feng 0004
   display_name: Ruitao Feng
-  affiliation: ''
+  affiliation: Southern Cross University
   artifact_score: 3
   artifact_count: 1
   total: 1
@@ -73658,7 +73658,7 @@
     2018: 0
     2017: 0
   rank: 1222
-  author_id: 9966
+  author_id: 10548
 - name: Ruiyang Zhu
   display_name: Ruiyang Zhu
   affiliation: ''
@@ -115828,36 +115828,6 @@
     2017: 0
   rank: 2917
   author_id: 8215
-- name: Noah Apthrope
-  display_name: Noah Apthrope
-  affiliation: ''
-  artifact_score: 2
-  artifact_count: 1
-  total: 1
-  total_papers: 1
-  artifact_pct: 100.0
-  repro_pct: 0.0
-  functional_pct: 100.0
-  last_5_years: 1
-  artifact_citations: 0
-  badges_available: 1
-  badges_functional: 1
-  badges_reproducible: 0
-  conferences:
-  - PETS
-  years:
-    2026: 0
-    2025: 1
-    2024: 0
-    2023: 0
-    2022: 0
-    2021: 0
-    2020: 0
-    2019: 0
-    2018: 0
-    2017: 0
-  rank: 2917
-  author_id: 6687
 - name: Noah Brown
   display_name: Noah Brown
   affiliation: UNC Chapel Hill
@@ -115888,6 +115858,36 @@
     2017: 0
   rank: 2917
   author_id: 10537
+- name: Noah J. Apthorpe
+  display_name: Noah J. Apthorpe
+  affiliation: Colgate University
+  artifact_score: 2
+  artifact_count: 1
+  total: 1
+  total_papers: 1
+  artifact_pct: 100.0
+  repro_pct: 0.0
+  functional_pct: 100.0
+  last_5_years: 1
+  artifact_citations: 0
+  badges_available: 1
+  badges_functional: 1
+  badges_reproducible: 0
+  conferences:
+  - PETS
+  years:
+    2026: 0
+    2025: 1
+    2024: 0
+    2023: 0
+    2022: 0
+    2021: 0
+    2020: 0
+    2019: 0
+    2018: 0
+    2017: 0
+  rank: 2917
+  author_id: 10547
 - name: Noor Michael
   display_name: Noor Michael
   affiliation: ''
@@ -122286,8 +122286,8 @@
   artifact_score: 2
   artifact_count: 1
   total: 1
-  total_papers: 7
-  artifact_pct: 14.3
+  total_papers: 8
+  artifact_pct: 12.5
   repro_pct: 0.0
   functional_pct: 100.0
   last_5_years: 0
@@ -146166,9 +146166,9 @@
     2017: 0
   rank: 4346
   author_id: 6581
-- name: Ennan Zhai
+- name: Ennan Zhai 0001
   display_name: Ennan Zhai
-  affiliation: ''
+  affiliation: Alibaba
   artifact_score: 1
   artifact_count: 1
   total: 1
@@ -146195,7 +146195,7 @@
     2018: 0
     2017: 0
   rank: 4346
-  author_id: 6415
+  author_id: 10546
 - name: Enno Steinbrink
   display_name: Enno Steinbrink
   affiliation: ''
@@ -186069,14 +186069,14 @@
     2017: 0
   rank: 4346
   author_id: 5604
-- name: Wenhao Wu
+- name: Wenhao Wu 0003
   display_name: Wenhao Wu
-  affiliation: ''
+  affiliation: Institute of Computing Technology
   artifact_score: 1
   artifact_count: 1
   total: 1
-  total_papers: 2
-  artifact_pct: 50.0
+  total_papers: 1
+  artifact_pct: 100.0
   repro_pct: 0.0
   functional_pct: 0.0
   last_5_years: 1
@@ -186098,7 +186098,7 @@
     2018: 0
     2017: 0
   rank: 4346
-  author_id: 5873
+  author_id: 10545
 - name: Wenjun Qiu
   display_name: Wenjun Qiu
   affiliation: ''

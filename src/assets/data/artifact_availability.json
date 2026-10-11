@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-10-04 17:15:37 UTC",
+    "checked_at": "2026-10-11 18:13:23 UTC",
     "total_urls": 3227,
-    "accessible_urls": 3133,
+    "accessible_urls": 3135,
     "accessibility_pct": 97.1,
     "by_platform": {
       "Bitbucket": {
@@ -32,20 +32,20 @@
       },
       "Zenodo": {
         "total": 1278,
-        "accessible": 1266,
+        "accessible": 1267,
         "pct": 99.1
       },
       "other": {
         "total": 323,
-        "accessible": 283,
-        "pct": 87.6
+        "accessible": 284,
+        "pct": 87.9
       }
     },
     "by_area": {
       "security": {
         "total": 2404,
-        "accessible": 2344,
-        "pct": 97.5
+        "accessible": 2346,
+        "pct": 97.6
       },
       "systems": {
         "total": 823,
@@ -76,8 +76,8 @@
       },
       "2021": {
         "total": 253,
-        "accessible": 242,
-        "pct": 95.7
+        "accessible": 243,
+        "pct": 96.0
       },
       "2022": {
         "total": 376,
@@ -101,8 +101,8 @@
       },
       "2026": {
         "total": 770,
-        "accessible": 764,
-        "pct": 99.2
+        "accessible": 765,
+        "pct": 99.4
       }
     },
     "by_year_area": {
@@ -142,8 +142,8 @@
       "2021": {
         "security": {
           "total": 97,
-          "accessible": 95,
-          "pct": 97.9
+          "accessible": 96,
+          "pct": 99.0
         },
         "systems": {
           "total": 156,
@@ -202,8 +202,8 @@
       "2026": {
         "security": {
           "total": 656,
-          "accessible": 651,
-          "pct": 99.2
+          "accessible": 652,
+          "pct": 99.4
         },
         "systems": {
           "total": 114,
@@ -329,8 +329,8 @@
         },
         "other": {
           "total": 36,
-          "accessible": 32,
-          "pct": 88.9
+          "accessible": 33,
+          "pct": 91.7
         }
       },
       "2022": {
@@ -509,8 +509,8 @@
         },
         "Zenodo": {
           "total": 561,
-          "accessible": 557,
-          "pct": 99.3
+          "accessible": 558,
+          "pct": 99.5
         },
         "other": {
           "total": 14,
@@ -522,8 +522,8 @@
     "by_conference": {
       "ACSAC": {
         "total": 287,
-        "accessible": 251,
-        "pct": 87.5
+        "accessible": 252,
+        "pct": 87.8
       },
       "ATC": {
         "total": 135,
@@ -582,8 +582,8 @@
       },
       "USENIXSEC": {
         "total": 1192,
-        "accessible": 1180,
-        "pct": 99.0
+        "accessible": 1181,
+        "pct": 99.1
       },
       "WOOT": {
         "total": 70,
@@ -9631,7 +9631,7 @@
       "url_key": "artifact_url",
       "url": "https://commandergabble.info/",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "ACSAC",
@@ -28711,7 +28711,7 @@
       "url_key": "artifact_url",
       "url": "https://doi.org/10.5281/zenodo.17885393",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "USENIXSEC",
