@@ -55494,6 +55494,694 @@
     "doi_url": ""
   },
   {
+    "title": "Privacy Attacks on Matrix Profiles via Reconstruction Techniques",
+    "authors": [
+      "Haoying Zhang",
+      "Nicolas Anciaux",
+      "Benjamin Nguyen",
+      "Fabien Girard",
+      "José María de Fuentes",
+      "Adrien Boiret"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2026-0005"
+  },
+  {
+    "title": "zk-promises: Anonymous Moderation, Reputation, and Blocking from Anonymous Credentials with Callbacks",
+    "authors": [
+      "Maurice Shih",
+      "Michael Rosenberg",
+      "Hari Kailad",
+      "Ian Miers"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "MOEVIL: Poisoning Experts to Compromise the Safety of Mixture-of-Experts LLMs",
+    "authors": [
+      "Jaehan Kim",
+      "Seung Ho Na",
+      "Minkyoo Song",
+      "Seungwon Shin 0001",
+      "Sooel Son"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "reproducible"
+    ],
+    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00091"
+  },
+  {
+    "title": "SoK: Towards a Unified Approach to Applied Replicability for Computer Security",
+    "authors": [
+      "Daniel Olszewski",
+      "Tyler Tucker",
+      "Kevin R. B. Butler",
+      "Patrick Traynor"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "DuoAI: Fast, Automated Inference of Inductive Invariants for Verifying Distributed Protocols",
+    "authors": [
+      "Jianan Yao",
+      "Runzhou Tao 0001",
+      "Ronghui Gu",
+      "Jason Nieh"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "An Analysis of Chinese Censorship Bias in LLMs",
+    "authors": [
+      "Mohamed Ahmed",
+      "Jeffrey Knockel",
+      "Rachel Greenstadt"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0122"
+  },
+  {
+    "title": "Gaze3P: Gaze-Based Prediction of User-Perceived Privacy",
+    "authors": [
+      "Mayar Elfares",
+      "Pascal Reisert",
+      "Ralf Küsters",
+      "Andreas Bulling"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2026-0002"
+  },
+  {
+    "title": "EpiOracle: Privacy-Preserving Cross-Facility Early Warning for Unknown Epidemics",
+    "authors": [
+      "Shiyu Li 0002",
+      "Yuan Zhang 0006",
+      "Yaqing Song",
+      "Fan Wu 0014",
+      "Feng Lyu 0001",
+      "Kan Yang 0001",
+      "Qiang Tang 0005"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0020"
+  },
+  {
+    "title": "EPK: Scalable and Efficient Memory Protection Keys",
+    "authors": [
+      "Jinyu Gu 0001",
+      "Hao Li",
+      "Wentai Li",
+      "Yubin Xia",
+      "Haibo Chen 0001"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "CRISP: Critical Path Analysis of Large-Scale Microservice Architectures",
+    "authors": [
+      "Zhizhou Zhang 0002",
+      "Murali Krishna Ramanathan",
+      "Prithvi Raj",
+      "Abhishek Parwal",
+      "Timothy Sherwood",
+      "Milind Chabbi"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "SmarTor: Smarter Tor with Smart Contracts: Improving resilience of topology distribution in the Tor network",
+    "authors": [
+      "André Greubel",
+      "Alexandra Dmitrienko",
+      "Samuel Kounev"
+    ],
+    "year": 2018,
+    "artifact_year": 2018,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3274694.3274722"
+  },
+  {
+    "title": "When Idling is Ideal: Optimizing Tail-Latency for Heavy-Tailed Datacenter Workloads with Perséphone",
+    "authors": [
+      "Henri Maxime Demoulin",
+      "Joshua Fried",
+      "Isaac Pedisich",
+      "Marios Kogias",
+      "Boon Thau Loo",
+      "Linh Thi Xuan Phan",
+      "Irene Zhang"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3477132.3483571"
+  },
+  {
+    "title": "QUACK: Hindering Deserialization Attacks via Static Duck Typing",
+    "authors": [
+      "Yaniv David",
+      "Neophytos Christou",
+      "Andreas D. Kellas",
+      "Vasileios P. Kemerlis",
+      "Junfeng Yang"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "p",
+    "authors": [
+      "Ziyi Lu",
+      "Qiang Cao 0001",
+      "Hong Jiang 0001",
+      "Shucheng Wang",
+      "Yuanyuan Dong 0002"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.1145/3492321.3519567"
+  },
+  {
+    "title": "Efficient scalable thread-safety-violation detection: finding thousands of concurrency bugs during testing",
+    "authors": [
+      "Guangpu Li",
+      "Shan Lu 0001",
+      "Madanlal Musuvathi",
+      "Suman Nath",
+      "Rohan Padhye"
+    ],
+    "year": 2019,
+    "artifact_year": 2019,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3341301.3359638"
+  },
+  {
+    "title": "Beyond the Request: Harnessing HTTP Response Headers for Cross-Browser Web Tracker Detection in an Imbalanced Setting",
+    "authors": [
+      "Wolf Rieder",
+      "Philip Raschke",
+      "Thomas Cory"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0007"
+  },
+  {
+    "title": "ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications",
+    "authors": [
+      "Yuhan Liu 0004",
+      "Chengcheng Wan 0001",
+      "Kuntai Du",
+      "Henry Hoffmann",
+      "Junchen Jiang",
+      "Shan Lu 0001",
+      "Michael Maire"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Draconis: Network-Accelerated Scheduling for Microsecond-Scale Workloads",
+    "authors": [
+      "Sreeharsha Udayashankar",
+      "Ashraf Abdel-Hadi",
+      "Ali José Mashtizadeh",
+      "Samer Al-Kiswany"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.1145/3627703.3650060"
+  },
+  {
+    "title": "Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines",
+    "authors": [
+      "Dingji Li",
+      "Zeyu Mi",
+      "Chenhui Ji",
+      "Yifan Tan",
+      "Binyu Zang",
+      "Haibing Guan",
+      "Haibo Chen 0001"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences",
+    "authors": [
+      "Mingcong Han",
+      "Hanze Zhang",
+      "Rong Chen 0001",
+      "Haibo Chen 0001"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Gravity of the Situation: Security Analysis on Rocket.Chat E2EE",
+    "authors": [
+      "Hayato Kimura 0002",
+      "Ryoma Ito 0001",
+      "Kazuhiko Minematsu",
+      "Takanori Isobe 0001"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00018"
+  },
+  {
+    "title": "Inductive Invariants That Spark Joy: Using Invariant Taxonomies to Streamline Distributed Protocol Proofs",
+    "authors": [
+      "Tony Nuda Zhang",
+      "Travis Hance",
+      "Manos Kapritsos",
+      "Tej Chajed",
+      "Bryan Parno"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "",
+    "authors": [
+      "Zheyue Tan",
+      "Tuo Shi",
+      "Huining Yuan 0002",
+      "Zelai Xu",
+      "Chao Yu 0005",
+      "Boxun Li",
+      "Yu Wang 0002",
+      "Bo Zhao 0019"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3805621.3807632"
+  },
+  {
+    "title": "Muse: Secure Inference Resilient to Malicious Clients",
+    "authors": [
+      "Ryan Lehmkuhl",
+      "Pratyush Mishra 0001",
+      "Akshayaram Srinivasan",
+      "Raluca Ada Popa"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Artifact Evaluated"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol",
+    "authors": [
+      "Benedikt Auerbach",
+      "Yevgeniy Dodis",
+      "Daniel Jost 0001",
+      "Shuichi Katsumata",
+      "Rolfe Schmidt"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "WAFFLE: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection",
+    "authors": [
+      "Bogdan Alexandru Stoica",
+      "Shan Lu 0001",
+      "Madanlal Musuvathi",
+      "Suman Nath"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3552326.3567507"
+  },
+  {
+    "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
+    "authors": [
+      "Connor Glosner",
+      "Aravind Machiry"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "The Guardians of Name Street: Studying the Defensive Registration Practices of the Fortune 500",
+    "authors": [
+      "Boladji Vinny Adjibi",
+      "Athanasios Avgetidis",
+      "Manos Antonakakis",
+      "Michael D. Bailey",
+      "Fabian Monrose"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Generation of Fast Finite Field Arithmetic forCortex-M4 with ECDH and SQIsign Applications",
+    "authors": [
+      "Félix Carvalho Rodrigues",
+      "Décio Luiz Gazzoni Filho",
+      "Gora Adj",
+      "Isaac Andrés Canales Martinez",
+      "Jorge Chávez-Saab",
+      "Julio López 0002",
+      "Michael Scott",
+      "Francisco Rodríguez-Henríquez"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2025.i4.588-620"
+  },
+  {
+    "title": "FastCommit: resource-efficient, performant and cost-effective file system journaling",
+    "authors": [
+      "Harshad Shirwadkar",
+      "Saurabh Kadekodi",
+      "Theodore Y. Ts'o"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Ultimate SLH: Taking Speculative Load Hardening to the Next Level",
+    "authors": [
+      "Zhiyuan Zhang 0005",
+      "Gilles Barthe",
+      "Chitchanok Chuengsatiansup",
+      "Peter Schwabe",
+      "Yuval Yarom"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "High Stakes, Low Certainty: Evaluating the Efficacy of High-Level Indicators of Compromise in Ransomware Attribution",
+    "authors": [
+      "Max van der Horst",
+      "Ricky Kho",
+      "Olga Gadyatskaya",
+      "Michel Mollema",
+      "Michel van Eeten",
+      "Yury Zhauniarovich"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "SoK: Membership Inference is Harder Than Previously Thought",
+    "authors": [
+      "Antreas Dionysiou",
+      "Elias Athanasopoulos"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.56553/popets-2023-0082"
+  },
+  {
+    "title": "FastLloyd: Federated, Accurate, Secure, and Tunable k-Means Clustering with Differential Privacy",
+    "authors": [
+      "Abdulrahman Diaa",
+      "Thomas Humphries",
+      "Florian Kerschbaum"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities",
+    "authors": [
+      "Daniel Weber 0007",
+      "Fabian Thomas",
+      "Leon Trampert",
+      "Ruiyi Zhang 0001",
+      "Michael Schwarz 0001"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "SP",
+    "conference": "SP",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1109/SP63933.2026.00135"
+  },
+  {
     "title": "Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning",
     "authors": [
       "Lianmin Zheng",
@@ -55522,115 +56210,24 @@
     "doi_url": ""
   },
   {
-    "title": "Efficient large-scale language model training on GPU clusters using megatron-LM",
+    "title": "Serialization/Deserialization-free State Transfer in Serverless Workflows",
     "authors": [
-      "Deepak Narayanan",
-      "Mohammad Shoeybi",
-      "Jared Casper",
-      "Patrick LeGresley",
-      "Mostofa Patwary",
-      "Vijay Korthikanti",
-      "Dmitri Vainbrand",
-      "Prethvi Kashinkunti",
-      "Julie Bernauer",
-      "Bryan Catanzaro",
-      "Amar Phanishayee",
-      "Matei Zaharia"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "SC",
-    "conference": "SC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3458817.3476209"
-  },
-  {
-    "title": "DP-Hype: Federated Differentially Private Hyperparameter Search",
-    "authors": [
-      "Johannes Liebenow",
-      "Thorsten Peinemann",
-      "Esfandiar Mohammadi"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2026-0075"
-  },
-  {
-    "title": "A non comparison oblivious sort and its application to k-NN",
-    "authors": [
-      "Sofiane Azogagh",
-      "Marc-Olivier Killijian",
-      "Félix Larose-Gervais"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0093"
-  },
-  {
-    "title": "Muse: Secure Inference Resilient to Malicious Clients",
-    "authors": [
-      "Ryan Lehmkuhl",
-      "Pratyush Mishra 0001",
-      "Akshayaram Srinivasan",
-      "Raluca Ada Popa"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Artifact Evaluated"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Ladder: Enabling Efficient Low-Precision Deep Learning Computing through Hardware-aware Tensor Transformation",
-    "authors": [
-      "Lei Wang 0222",
-      "Lingxiao Ma",
-      "Shijie Cao",
-      "Quanlu Zhang",
-      "Jilong Xue",
-      "Yining Shi 0001",
-      "Ningxin Zheng",
-      "Ziming Miao",
-      "Fan Yang 0024",
-      "Ting Cao 0003",
-      "Yuqing Yang 0001",
-      "Mao Yang 0004"
+      "Fangming Lu",
+      "Xingda Wei",
+      "Zhuobin Huang",
+      "Rong Chen 0001",
+      "Mingyu Wu 0001",
+      "Haibo Chen 0001"
     ],
     "year": 2024,
     "artifact_year": 2024,
-    "venue": "OSDI",
-    "conference": "OSDI",
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
     "category": "systems",
     "badges": [
-      "available",
-      "functional",
-      "reproduced"
+      "available"
     ],
-    "doi_url": ""
+    "doi_url": "https://doi.org/10.1145/3627703.3629568"
   },
   {
     "title": "PipeDream: generalized pipeline parallelism for DNN training",
@@ -55656,12 +56253,101 @@
     "doi_url": "https://doi.org/10.1145/3341301.3359646"
   },
   {
-    "title": "Backdooring Bias (B^2) into Stable Diffusion Models",
+    "title": "SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization",
     "authors": [
-      "Ali Naseh",
-      "Jaechul Roh",
-      "Eugene Bagdasarian",
-      "Amir Houmansadr"
+      "Mingshu Zhai",
+      "Jiaao He",
+      "Zixuan Ma",
+      "Zan Zong",
+      "Runqing Zhang",
+      "Jidong Zhai"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "",
+    "authors": [
+      "Zheyue Tan",
+      "Tuo Shi",
+      "Huining Yuan 0002",
+      "Zelai Xu",
+      "Chao Yu 0005",
+      "Boxun Li",
+      "Yu Wang 0002",
+      "Bo Zhao 0019"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3805621.3807632"
+  },
+  {
+    "title": "MGG: Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms",
+    "authors": [
+      "Yuke Wang",
+      "Boyuan Feng",
+      "Zheng Wang 0075",
+      "Tong Geng",
+      "Kevin J. Barker",
+      "Ang Li 0006",
+      "Yufei Ding 0001"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "GDDRHammer: Greatly Disturbing DRAM Rows - Cross-Component Rowhammer Attacks From Modern GPUs",
+    "authors": [
+      "Yichang Hu",
+      "Noah Brown",
+      "Yuhang Chen",
+      "Joshua Bakita",
+      "Tianlong Chen 0001",
+      "Daniel Genkin",
+      "Andrew Kwong"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "SP",
+    "conference": "SP",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1109/SP63933.2026.00228"
+  },
+  {
+    "title": "Tracking the Takes and Trajectories of English-Language News Narratives across Trustworthy and Worrisome Websites",
+    "authors": [
+      "Hans W. A. Hanley",
+      "Emily Okabe",
+      "Zakir Durumeric"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -55695,6 +56381,220 @@
     "doi_url": ""
   },
   {
+    "title": "SYSYPHUZZ: the Pressure of More Coverage",
+    "authors": [
+      "Zezhong Ren",
+      "Han Zheng 0006",
+      "Zhiyao Feng",
+      "Qinying Wang",
+      "Marcel Busch",
+      "Yuqing Zhang 0001",
+      "Chao Zhang 0008",
+      "Mathias Payer"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization",
+    "authors": [
+      "Rong Wang",
+      "Zhen Ling 0001",
+      "Guangchi Liu",
+      "Shaofeng Li 0001",
+      "Junzhou Luo",
+      "Xinwen Fu"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Accelerating Graph Mining Systems with Subgraph Morphing",
+    "authors": [
+      "Kasra Jamshidi",
+      "Harry Xu 0001",
+      "Keval Vora"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3552326.3567489"
+  },
+  {
+    "title": "Blockaid: Data Access Policy Enforcement for Web Applications",
+    "authors": [
+      "Wen Zhang",
+      "Eric Sheng",
+      "Michael Alan Chang",
+      "Aurojit Panda",
+      "Mooly Sagiv",
+      "Scott Shenker"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Pool-Party: Exploiting Browser Resource Pools for Web Tracking",
+    "authors": [
+      "Peter Snyder",
+      "Soroush Karami",
+      "Arthur Edelstein",
+      "Benjamin Livshits",
+      "Hamed Haddadi 0001"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "BarraCUDA: Edge GPUs do Leak DNN Weights",
+    "authors": [
+      "Péter Horváth",
+      "Lukasz Chmielewski",
+      "Léo Weissbart",
+      "Lejla Batina",
+      "Yuval Yarom"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Ladder: Enabling Efficient Low-Precision Deep Learning Computing through Hardware-aware Tensor Transformation",
+    "authors": [
+      "Lei Wang 0222",
+      "Lingxiao Ma",
+      "Shijie Cao",
+      "Quanlu Zhang",
+      "Jilong Xue",
+      "Yining Shi 0001",
+      "Ningxin Zheng",
+      "Ziming Miao",
+      "Fan Yang 0024",
+      "Ting Cao 0003",
+      "Yuqing Yang 0001",
+      "Mao Yang 0004"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "The Dark Side of Flexibility: Detecting Risky Permission Chaining Attacks in Serverless Applications",
+    "authors": [
+      "Xunqi Liu",
+      "Nanzi Yang",
+      "Chang Li",
+      "Jinku Li",
+      "Jianfeng Ma 0001",
+      "Kangjie Lu"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "FwdLLM: Efficient Federated Finetuning of Large Language Models with Perturbed Inferences",
+    "authors": [
+      "Mengwei Xu 0001",
+      "Dongqi Cai 0001",
+      "Yaozong Wu",
+      "Xiang Li 0067",
+      "Shangguang Wang"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Sybil-Resistant Parallel Mixing",
+    "authors": [
+      "Maya Kleinstein",
+      "Riad S. Wahby",
+      "Yossi Gilad"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0149"
+  },
+  {
     "title": "nnScaler: Constraint-Guided Parallelization Plan Generation for Deep Learning Training",
     "authors": [
       "Zhiqi Lin",
@@ -55724,351 +56624,6 @@
     "doi_url": ""
   },
   {
-    "title": "EpiOracle: Privacy-Preserving Cross-Facility Early Warning for Unknown Epidemics",
-    "authors": [
-      "Shiyu Li 0002",
-      "Yuan Zhang 0006",
-      "Yaqing Song",
-      "Fan Wu 0014",
-      "Feng Lyu 0001",
-      "Kan Yang 0001",
-      "Qiang Tang 0005"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0020"
-  },
-  {
-    "title": "Cilantro: Performance-Aware Resource Allocation for General Objectives via Online Feedback",
-    "authors": [
-      "Romil Bhardwaj",
-      "Kirthevasan Kandasamy",
-      "Asim Biswal",
-      "Wenshuo Guo",
-      "Benjamin Hindman",
-      "Joseph Gonzalez 0001",
-      "Michael I. Jordan",
-      "Ion Stoica"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Ultimate SLH: Taking Speculative Load Hardening to the Next Level",
-    "authors": [
-      "Zhiyuan Zhang 0005",
-      "Gilles Barthe",
-      "Chitchanok Chuengsatiansup",
-      "Peter Schwabe",
-      "Yuval Yarom"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Gravity of the Situation: Security Analysis on Rocket.Chat E2EE",
-    "authors": [
-      "Hayato Kimura 0002",
-      "Ryoma Ito 0001",
-      "Kazuhiko Minematsu",
-      "Takanori Isobe 0001"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00018"
-  },
-  {
-    "title": "High-density Mobile Cloud Gaming on Edge SoC Clusters",
-    "authors": [
-      "Li Zhang 0133",
-      "Shangguang Wang",
-      "Mengwei Xu 0001"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
-    "authors": [
-      "Yinmin Zhong",
-      "Shengyu Liu",
-      "Junda Chen",
-      "Jianbo Hu",
-      "Yibo Zhu 0001",
-      "Xuanzhe Liu",
-      "Xin Jin 0008",
-      "Hao Zhang 0025"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "FBMM: Making Memory Management Extensible With Filesystems",
-    "authors": [
-      "Bijan Tabatabai",
-      "James Christopher Sorenson III",
-      "Michael M. Swift"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Telescope: Telemetry for Gargantuan Memory Footprint Applications",
-    "authors": [
-      "Alan Nair",
-      "Sandeep Kumar",
-      "Aravinda Prasad",
-      "Ying Huang",
-      "Andy Rudoff",
-      "Sreenivas Subramoney"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "FwdLLM: Efficient Federated Finetuning of Large Language Models with Perturbed Inferences",
-    "authors": [
-      "Mengwei Xu 0001",
-      "Dongqi Cai 0001",
-      "Yaozong Wu",
-      "Xiang Li 0067",
-      "Shangguang Wang"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Risk based planning of network changes in evolving data centers",
-    "authors": [
-      "Omid Alipourfard",
-      "Jiaqi Gao",
-      "Jérémie Koenig",
-      "Chris Harshaw",
-      "Amin Vahdat",
-      "Minlan Yu"
-    ],
-    "year": 2019,
-    "artifact_year": 2019,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3341301.3359664"
-  },
-  {
-    "title": "HIPR: Hardware IP Protection through Low-Overhead Fine-Grain Redaction",
-    "authors": [
-      "Aritra Dasgupta 0002",
-      "Sudipta Paria",
-      "Swarup Bhunia"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.781-805"
-  },
-  {
-    "title": "Campo: Cost-Aware Performance Optimization for Mixed-Precision Neural Network Training",
-    "authors": [
-      "Xin He 0054",
-      "Jianhua Sun 0002",
-      "Hao Chen 0002",
-      "Dong Li 0001"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Spinner: Semi-Automatic Detection of Pinning without Hostname Verification",
-    "authors": [
-      "Chris McMahon Stone",
-      "Tom Chothia",
-      "Flavio D. Garcia"
-    ],
-    "year": 2017,
-    "artifact_year": 2017,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3134600.3134628"
-  },
-  {
-    "title": "",
-    "authors": [
-      "Zheyue Tan",
-      "Tuo Shi",
-      "Huining Yuan 0002",
-      "Zelai Xu",
-      "Chao Yu 0005",
-      "Boxun Li",
-      "Yu Wang 0002",
-      "Bo Zhao 0019"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3805621.3807632"
-  },
-  {
-    "title": "SoK: Towards a Unified Approach to Applied Replicability for Computer Security",
-    "authors": [
-      "Daniel Olszewski",
-      "Tyler Tucker",
-      "Kevin R. B. Butler",
-      "Patrick Traynor"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets",
-    "authors": [
-      "Seth Layton",
-      "Tyler Tucker",
-      "Daniel Olszewski",
-      "Kevin Warren",
-      "Kevin R. B. Butler",
-      "Patrick Traynor"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines",
-    "authors": [
-      "Dingji Li",
-      "Zeyu Mi",
-      "Chenhui Ji",
-      "Yifan Tan",
-      "Binyu Zang",
-      "Haibing Guan",
-      "Haibo Chen 0001"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
     "title": "Limitations and Opportunities of Modern Hardware Isolation Mechanisms",
     "authors": [
       "Xiangdong Chen",
@@ -56088,42 +56643,117 @@
     "doi_url": ""
   },
   {
-    "title": "Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization",
+    "title": "FicusDB: Scalable Multi-Versioned Authenticated Archival Storage",
     "authors": [
-      "Rong Wang",
-      "Zhen Ling 0001",
-      "Guangchi Liu",
-      "Shaofeng Li 0001",
-      "Junzhou Luo",
-      "Xinwen Fu"
+      "Hongbo Zhang",
+      "Maofan Yin",
+      "Robbert van Renesse"
     ],
     "year": 2026,
     "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3767295.3803601"
+  },
+  {
+    "title": "Clouseau: A Hierarchical Multi-Agent Approach for Autonomous Attack Investigation",
+    "authors": [
+      "Abdullah Aldaihan",
+      "Fahad Alotaibi",
+      "Sergio Maffeis"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "reviewed"
+    ],
+    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00051"
+  },
+  {
+    "title": "KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies",
+    "authors": [
+      "Fabian Schwarz",
+      "Jan Philipp Thoma",
+      "Christian Rossow",
+      "Tim Güneysu"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.1-31"
+  },
+  {
+    "title": "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",
+    "authors": [
+      "Nathaniel Bennett",
+      "Tyler Tucker",
+      "Carson Stillman",
+      "William Enck",
+      "Patrick Traynor",
+      "Kevin R. B. Butler"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "SP",
+    "conference": "SP",
     "category": "security",
     "badges": [
       "available",
-      "functional"
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1109/SP63933.2026.00091"
+  },
+  {
+    "title": "Debugging the OmniTable Way",
+    "authors": [
+      "Andrew Quinn 0001",
+      "Jason Flinn",
+      "Michael J. Cafarella",
+      "Baris Kasikci"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available"
     ],
     "doi_url": ""
   },
   {
-    "title": "PrivCode: When Code Generation Meets Differential Privacy",
+    "title": "AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving",
     "authors": [
-      "Zheng Liu 0022",
-      "Chen Gong 0005",
-      "Terry Yue Zhuo",
-      "Kecen Li",
-      "Weichen Yu",
-      "Matt Fredrikson",
-      "Tianhao Wang 0001"
+      "Zhuohan Li 0001",
+      "Lianmin Zheng",
+      "Yinmin Zhong",
+      "Vincent Liu 0001",
+      "Ying Sheng 0007",
+      "Xin Jin 0008",
+      "Yanping Huang",
+      "Zhifeng Chen",
+      "Hao Zhang 0025",
+      "Joseph E. Gonzalez",
+      "Ion Stoica"
     ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
     "badges": [
       "available",
       "functional",
@@ -56150,77 +56780,118 @@
     "doi_url": "https://doi.org/10.56553/popets-2026-0062"
   },
   {
-    "title": "Accelerating Graph Mining Systems with Subgraph Morphing",
+    "title": "",
     "authors": [
-      "Kasra Jamshidi",
-      "Harry Xu 0001",
-      "Keval Vora"
+      "Zheyue Tan",
+      "Tuo Shi",
+      "Huining Yuan 0002",
+      "Zelai Xu",
+      "Chao Yu 0005",
+      "Boxun Li",
+      "Yu Wang 0002",
+      "Bo Zhao 0019"
     ],
-    "year": 2023,
-    "artifact_year": 2023,
+    "year": 2026,
+    "artifact_year": 2026,
     "venue": "EUROSYS",
     "conference": "EUROSYS",
     "category": "systems",
     "badges": [
-      "functional"
+      "available",
+      "functional",
+      "reproduced"
     ],
-    "doi_url": "https://doi.org/10.1145/3552326.3567489"
+    "doi_url": "https://doi.org/10.1145/3805621.3807632"
   },
   {
-    "title": "Prime Match: A Privacy-Preserving Inventory Matching System",
+    "title": "Online Template Attacks: Revisited",
     "authors": [
-      "Antigoni Polychroniadou",
-      "Gilad Asharov",
-      "Benjamin E. Diamond",
-      "Tucker Balch",
-      "Hans Buehler",
-      "Richard Hua",
-      "Suwen Gu",
-      "Greg Gimler",
-      "Manuela Veloso"
+      "Alejandro Cabrera Aldaya",
+      "Billy Bob Brumley"
     ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "CHES",
+    "conference": "CHES",
     "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2021.i3.28-59"
+  },
+  {
+    "title": "Kivi: Verification for Cluster Management",
+    "authors": [
+      "Bingzhe Liu",
+      "Gangmuk Lim",
+      "Ryan Beckett",
+      "Philip Brighten Godfrey"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
     "badges": [
-      "Badges: Functional",
-      "Reproduced"
+      "available"
     ],
     "doi_url": ""
   },
   {
-    "title": "SmarTor: Smarter Tor with Smart Contracts: Improving resilience of topology distribution in the Tor network",
+    "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
     "authors": [
-      "André Greubel",
-      "Alexandra Dmitrienko",
-      "Samuel Kounev"
+      "Nuno Sabino",
+      "Darion Cassel",
+      "Rui Abreu 0001",
+      "Pedro Adão",
+      "Lujo Bauer",
+      "Limin Jia 0001"
     ],
-    "year": 2018,
-    "artifact_year": 2018,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
     "category": "security",
     "badges": [
+      "available",
       "functional"
     ],
-    "doi_url": "https://doi.org/10.1145/3274694.3274722"
+    "doi_url": ""
   },
   {
-    "title": "ImpROV: Measurement and Practical Mitigation of Collateral Damage in RPKI Route Origin Validation",
+    "title": "Consensus in the Known Participation Model with Byzantine Faults and Sleepy Replicas",
     "authors": [
-      "Weitong Li",
-      "Yuze Li",
-      "Taejoong Chung"
+      "Chenxu Wang 0008",
+      "Sisi Duan",
+      "Minghui Xu 0001",
+      "Feng Li 0002",
+      "Xiuzhen Cheng"
     ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
     "category": "security",
     "badges": [
-      "Badges: Available"
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Campo: Cost-Aware Performance Optimization for Mixed-Precision Neural Network Training",
+    "authors": [
+      "Xin He 0054",
+      "Jianhua Sun 0002",
+      "Hao Chen 0002",
+      "Dong Li 0001"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available"
     ],
     "doi_url": ""
   },
@@ -56243,16 +56914,38 @@
     "doi_url": "https://doi.org/10.2478/popets-2020-0039"
   },
   {
-    "title": "QUACK: Hindering Deserialization Attacks via Static Duck Typing",
+    "title": "ACCL+: an FPGA-Based Collective Engine for Distributed Applications",
     "authors": [
-      "Yaniv David",
-      "Neophytos Christou",
-      "Andreas D. Kellas",
-      "Vasileios P. Kemerlis",
-      "Junfeng Yang"
+      "Zhenhao He",
+      "Dario Korolija",
+      "Yu Zhu",
+      "Benjamin Ramhorst",
+      "Tristan Laan",
+      "Lucian Petrica",
+      "Michaela Blott",
+      "Gustavo Alonso"
     ],
     "year": 2024,
     "artifact_year": 2024,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
+    "authors": [
+      "Yingqian Hao",
+      "Hui Zou",
+      "Lu Zhou",
+      "Yuxuan Chen",
+      "Yanbiao Li 0001"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
     "venue": "NDSS",
     "conference": "NDSS",
     "category": "security",
@@ -56262,245 +56955,6 @@
       "reproduced"
     ],
     "doi_url": ""
-  },
-  {
-    "title": "Unique Identification of 50, 000+ Virtual Reality Users from Head & Hand Motion Data",
-    "authors": [
-      "Vivek Nair",
-      "Wenbo Guo 0002",
-      "Justus Mattern",
-      "Rui Wang 0110",
-      "James F. O'Brien",
-      "Louis B. Rosenberg",
-      "Dawn Song"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Beyond the Request: Harnessing HTTP Response Headers for Cross-Browser Web Tracker Detection in an Imbalanced Setting",
-    "authors": [
-      "Wolf Rieder",
-      "Philip Raschke",
-      "Thomas Cory"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0007"
-  },
-  {
-    "title": "Nexus: a GPU cluster engine for accelerating DNN-based video analysis",
-    "authors": [
-      "Haichen Shen",
-      "Lequn Chen 0001",
-      "Yuchen Jin",
-      "Liangyu Zhao",
-      "Bingyu Kong",
-      "Matthai Philipose",
-      "Arvind Krishnamurthy",
-      "Ravi Sundaram"
-    ],
-    "year": 2019,
-    "artifact_year": 2019,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available"
-    ],
-    "doi_url": "https://doi.org/10.1145/3341301.3359658"
-  },
-  {
-    "title": "DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols",
-    "authors": [
-      "Jianan Yao",
-      "Runzhou Tao 0001",
-      "Ronghui Gu",
-      "Jason Nieh",
-      "Suman Jana",
-      "Gabriel Ryan"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
-    "authors": [
-      "Wouter Legiest",
-      "Jan-Pieter D'Anvers",
-      "Bojan Spasic",
-      "Nam-Luc Tran",
-      "Ingrid Verbauwhede"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
-    "authors": [
-      "Connor Glosner",
-      "Aravind Machiry"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Blockaid: Data Access Policy Enforcement for Web Applications",
-    "authors": [
-      "Wen Zhang",
-      "Eric Sheng",
-      "Michael Alan Chang",
-      "Aurojit Panda",
-      "Mooly Sagiv",
-      "Scott Shenker"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "FicusDB: Scalable Multi-Versioned Authenticated Archival Storage",
-    "authors": [
-      "Hongbo Zhang",
-      "Maofan Yin",
-      "Robbert van Renesse"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3767295.3803601"
-  },
-  {
-    "title": "Pool-Party: Exploiting Browser Resource Pools for Web Tracking",
-    "authors": [
-      "Peter Snyder",
-      "Soroush Karami",
-      "Arthur Edelstein",
-      "Benjamin Livshits",
-      "Hamed Haddadi 0001"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "GET /large. file HTTP /1.1: Connection-Based TCP Amplification Attacks",
-    "authors": [
-      "Yepeng Pan",
-      "Lars Richter",
-      "Christian Rossow"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "reproducible"
-    ],
-    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00096"
-  },
-  {
-    "title": "An Analysis of Chinese Censorship Bias in LLMs",
-    "authors": [
-      "Mohamed Ahmed",
-      "Jeffrey Knockel",
-      "Rachel Greenstadt"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0122"
-  },
-  {
-    "title": "QUICstep: Evaluating connection migration based QUIC censorship circumvention",
-    "authors": [
-      "Seungju Lee",
-      "Mona Wang",
-      "Watson Jia",
-      "Qiang Wu",
-      "Henry Birge-Lee",
-      "Liang Wang 0054",
-      "Prateek Mittal"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2026-0014"
   },
   {
     "title": "Representation of women in HPC conferences",
@@ -56521,76 +56975,14 @@
     "doi_url": "https://doi.org/10.1145/3458817.3476164"
   },
   {
-    "title": "DuoAI: Fast, Automated Inference of Inductive Invariants for Verifying Distributed Protocols",
+    "title": "DP-Hype: Federated Differentially Private Hyperparameter Search",
     "authors": [
-      "Jianan Yao",
-      "Runzhou Tao 0001",
-      "Ronghui Gu",
-      "Jason Nieh"
+      "Johannes Liebenow",
+      "Thorsten Peinemann",
+      "Esfandiar Mohammadi"
     ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs' Refusal Boundaries",
-    "authors": [
-      "Jiahao Yu 0001",
-      "Haozheng Luo",
-      "Jerry Yao-Chieh Hu",
-      "Yan Chen 0004",
-      "Wenbo Guo 0002",
-      "Han Liu 0001",
-      "Xinyu Xing 0001"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Isolating functions at the hardware limit with virtines",
-    "authors": [
-      "Nicholas C. Wanninger",
-      "Joshua J. Bowden",
-      "Kirtankumar Shetty",
-      "Ayush Garg 0007",
-      "Kyle C. Hale"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3492321.3519553"
-  },
-  {
-    "title": "Sybil-Resistant Parallel Mixing",
-    "authors": [
-      "Maya Kleinstein",
-      "Riad S. Wahby",
-      "Yossi Gilad"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
+    "year": 2026,
+    "artifact_year": 2026,
     "venue": "PETS",
     "conference": "PETS",
     "category": "security",
@@ -56599,237 +56991,7 @@
       "functional",
       "reproduced"
     ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0149"
-  },
-  {
-    "title": "AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding",
-    "authors": [
-      "Zikun Li",
-      "Zhuofu Chen",
-      "Remi Delacourt",
-      "Gabriele Oliaro",
-      "Zeyu Wang",
-      "Qinghan Chen",
-      "Shuhuai Lin",
-      "April Yang",
-      "Zhihao Zhang 0001",
-      "Zhuoming Chen",
-      "Yi-Hsiang Lai",
-      "Xinhao Cheng",
-      "Xupeng Miao",
-      "Zhihao Jia"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3767295.3769315"
-  },
-  {
-    "title": "p",
-    "authors": [
-      "Ziyi Lu",
-      "Qiang Cao 0001",
-      "Hong Jiang 0001",
-      "Shucheng Wang",
-      "Yuanyuan Dong 0002"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.1145/3492321.3519567"
-  },
-  {
-    "title": "Debugging the OmniTable Way",
-    "authors": [
-      "Andrew Quinn 0001",
-      "Jason Flinn",
-      "Michael J. Cafarella",
-      "Baris Kasikci"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
-    "authors": [
-      "Georgios Alexopoulos",
-      "Thodoris Sotiropoulos",
-      "Zhendong Su 0001",
-      "Dimitris Mitropoulos"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "SP",
-    "conference": "SP",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1109/SP63933.2026.00115"
-  },
-  {
-    "title": "EPK: Scalable and Efficient Memory Protection Keys",
-    "authors": [
-      "Jinyu Gu 0001",
-      "Hao Li",
-      "Wentai Li",
-      "Yubin Xia",
-      "Haibo Chen 0001"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "lODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage",
-    "authors": [
-      "Huaicheng Li",
-      "Martin L. Putra",
-      "Ronald Shi",
-      "Xing Lin",
-      "Gregory R. Ganger",
-      "Haryadi S. Gunawi"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3477132.3483573"
-  },
-  {
-    "title": "General-Purpose f-DP Estimation and Auditing in a Black-Box Setting",
-    "authors": [
-      "Önder Askin",
-      "Holger Dette",
-      "Martin Dunsche",
-      "Tim Kutta",
-      "Yun Lu 0001",
-      "Yu Wei 0007",
-      "Vassilis Zikas"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Cancellation in Systems: An Empirical Study of Task Cancellation Patterns and Failures",
-    "authors": [
-      "Utsav Sethi",
-      "Haochen Pan",
-      "Shan Lu 0001",
-      "Madanlal Musuvathi",
-      "Suman Nath"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Starburst: A Cost-aware Scheduler for Hybrid Cloud",
-    "authors": [
-      "Michael Luo",
-      "Siyuan Zhuang",
-      "Suryaprakash Vengadesan",
-      "Romil Bhardwaj",
-      "Justin Chang",
-      "Eric J. Friedman",
-      "Scott Shenker",
-      "Ion Stoica"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Serialization/Deserialization-free State Transfer in Serverless Workflows",
-    "authors": [
-      "Fangming Lu",
-      "Xingda Wei",
-      "Zhuobin Huang",
-      "Rong Chen 0001",
-      "Mingyu Wu 0001",
-      "Haibo Chen 0001"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.1145/3627703.3629568"
-  },
-  {
-    "title": "SoK: Membership Inference is Harder Than Previously Thought",
-    "authors": [
-      "Antreas Dionysiou",
-      "Elias Athanasopoulos"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.56553/popets-2023-0082"
+    "doi_url": "https://doi.org/10.56553/popets-2026-0075"
   },
   {
     "title": "The Last Hop Attack: The Last Hop Attack: Why Loop Cover Traffic over Fixed Cascades Threatens Anonymity",
@@ -56851,36 +57013,15 @@
     "doi_url": "https://doi.org/10.56553/popets-2025-0067"
   },
   {
-    "title": "Trinity: High-Performance Mobile Emulation through Graphics Projection",
+    "title": "Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs' Refusal Boundaries",
     "authors": [
-      "Di Gao",
-      "Hao Lin 0005",
-      "Zhenhua Li 0001",
-      "Chengen Huang",
-      "Yunhao Liu 0001",
-      "Feng Qian 0001",
-      "Liangyi Gong",
-      "Tianyin Xu"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Privacy Solution or Menace? Investigating Perceptions of Radio-Frequency Sensing",
-    "authors": [
-      "Maximiliane Windl",
-      "Omer Akgul",
-      "Nathan Malkin",
-      "Lorrie Faith Cranor"
+      "Jiahao Yu 0001",
+      "Haozheng Luo",
+      "Jerry Yao-Chieh Hu",
+      "Yan Chen 0004",
+      "Wenbo Guo 0002",
+      "Han Liu 0001",
+      "Xinyu Xing 0001"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -56917,237 +57058,26 @@
     "doi_url": "https://doi.org/10.1145/3458817.3476212"
   },
   {
-    "title": "Efficient 2PC for Constant Round Secure Equality Testing and Comparison",
+    "title": "Fault Attacks on CCA-secure Lattice KEMs",
     "authors": [
-      "Tianpei Lu",
-      "Xin Kang",
-      "Bingsheng Zhang",
-      "Zhuo Ma 0001",
-      "Xiaoyuan Zhang",
-      "Yang Liu 0118",
-      "Kui Ren 0001",
-      "Chun Chen 0001"
+      "Peter Pessl",
+      "Lukas Prokop 0002"
     ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Efficient scalable thread-safety-violation detection: finding thousands of concurrency bugs during testing",
-    "authors": [
-      "Guangpu Li",
-      "Shan Lu 0001",
-      "Madanlal Musuvathi",
-      "Suman Nath",
-      "Rohan Padhye"
-    ],
-    "year": 2019,
-    "artifact_year": 2019,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3341301.3359638"
-  },
-  {
-    "title": "MOEVIL: Poisoning Experts to Compromise the Safety of Mixture-of-Experts LLMs",
-    "authors": [
-      "Jaehan Kim",
-      "Seung Ho Na",
-      "Minkyoo Song",
-      "Seungwon Shin 0001",
-      "Sooel Son"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "reproducible"
-    ],
-    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00091"
-  },
-  {
-    "title": "\"Please don't send that bot anything\": A Mixed-methods Study of Personal Impersonation Attacks Targeting Digital Payments on Social Media",
-    "authors": [
-      "Hoang Dai Nguyen",
-      "Sumit Dhungana",
-      "Madhulika Itha",
-      "Phani Vadrevu"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "FastLloyd: Federated, Accurate, Secure, and Tunable k-Means Clustering with Differential Privacy",
-    "authors": [
-      "Abdulrahman Diaa",
-      "Thomas Humphries",
-      "Florian Kerschbaum"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
-    "authors": [
-      "Yingqian Hao",
-      "Hui Zou",
-      "Lu Zhou",
-      "Yuxuan Chen",
-      "Yanbiao Li 0001"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "WAFFLE: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection",
-    "authors": [
-      "Bogdan Alexandru Stoica",
-      "Shan Lu 0001",
-      "Madanlal Musuvathi",
-      "Suman Nath"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3552326.3567507"
-  },
-  {
-    "title": "",
-    "authors": [
-      "Zheyue Tan",
-      "Tuo Shi",
-      "Huining Yuan 0002",
-      "Zelai Xu",
-      "Chao Yu 0005",
-      "Boxun Li",
-      "Yu Wang 0002",
-      "Bo Zhao 0019"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3805621.3807632"
-  },
-  {
-    "title": "Cocktailer: Analyzing and Optimizing Dynamic Control Flow in Deep Learning",
-    "authors": [
-      "Chen Zhang 0001",
-      "Lingxiao Ma",
-      "Jilong Xue",
-      "Yining Shi 0001",
-      "Ziming Miao",
-      "Fan Yang 0024",
-      "Jidong Zhai",
-      "Zhi Yang 0001",
-      "Mao Yang 0004"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications",
-    "authors": [
-      "Yuhan Liu 0004",
-      "Chengcheng Wan 0001",
-      "Kuntai Du",
-      "Henry Hoffmann",
-      "Junchen Jiang",
-      "Shan Lu 0001",
-      "Michael Maire"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "VERICA - Verification of Combined Attacks Automated formal verification of security against simultaneous information leakage and tampering",
-    "authors": [
-      "Jan Richter-Brockmann",
-      "Jakob Feldtkeller",
-      "Pascal Sasdrich",
-      "Tim Güneysu"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
+    "year": 2021,
+    "artifact_year": 2021,
     "venue": "CHES",
     "conference": "CHES",
     "category": "security",
     "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.255-284"
+    "doi_url": "https://doi.org/10.46586/tches.v2021.i2.37-60"
   },
   {
-    "title": "Consensus in the Known Participation Model with Byzantine Faults and Sleepy Replicas",
+    "title": "Eviction Notice: Reviving and Advancing Page Cache Attacks",
     "authors": [
-      "Chenxu Wang 0008",
-      "Sisi Duan",
-      "Minghui Xu 0001",
-      "Feng Li 0002",
-      "Xiuzhen Cheng"
+      "Sudheendra Raghav Neela",
+      "Jonas Juffinger",
+      "Lukas Maar",
+      "Daniel Gruss"
     ],
     "year": 2026,
     "artifact_year": 2026,
@@ -57180,72 +57110,12 @@
     "doi_url": ""
   },
   {
-    "title": "SYSYPHUZZ: the Pressure of More Coverage",
+    "title": "Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions",
     "authors": [
-      "Zezhong Ren",
-      "Han Zheng 0006",
-      "Zhiyao Feng",
-      "Qinying Wang",
-      "Marcel Busch",
-      "Yuqing Zhang 0001",
-      "Chao Zhang 0008",
-      "Mathias Payer"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Eviction Notice: Reviving and Advancing Page Cache Attacks",
-    "authors": [
-      "Sudheendra Raghav Neela",
-      "Jonas Juffinger",
-      "Lukas Maar",
-      "Daniel Gruss"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Mitigating Injection Attacks against E2EE Applications via View-Based Partitioning",
-    "authors": [
-      "Andrés Fábrega",
-      "Samuel Breckenridge",
-      "Armin Namavari",
-      "Thomas Ristenpart"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "For Human Ears Only: Preventing Automated Monitoring on Voice Data",
-    "authors": [
-      "Irtaza Shahid",
-      "Nirupam Roy"
+      "Minglang Dong",
+      "Cong Zhang",
+      "Yujie Bai",
+      "Yu Chen"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -57260,122 +57130,12 @@
     "doi_url": ""
   },
   {
-    "title": "A Multi-Region Investigation of the Perceptions and Use of Smart Home Devices",
+    "title": "A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin",
     "authors": [
-      "Patrick Bombik",
-      "Tom Wenzel",
-      "Jens Grossklags",
-      "Sameer Patil 0001"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.56553/popets-2022-0060"
-  },
-  {
-    "title": "Operating System Support for Safe and Efficient Auxiliary Execution",
-    "authors": [
-      "Yuzhuo Jing",
-      "Peng Huang 0005"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries",
-    "authors": [
-      "Pujan Paudel",
-      "Gianluca Stringhini"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "The Dark Side of Flexibility: Detecting Risky Permission Chaining Attacks in Serverless Applications",
-    "authors": [
-      "Xunqi Liu",
-      "Nanzi Yang",
-      "Chang Li",
-      "Jinku Li",
-      "Jianfeng Ma 0001",
-      "Kangjie Lu"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Data-flow Availability: Achieving Timing Assurance in Autonomous Systems",
-    "authors": [
-      "Ao Li 0006",
-      "Ning Zhang 0017"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Kivi: Verification for Cluster Management",
-    "authors": [
-      "Bingzhe Liu",
-      "Gangmuk Lim",
-      "Ryan Beckett",
-      "Philip Brighten Godfrey"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies",
-    "authors": [
-      "Fabian Schwarz",
-      "Jan Philipp Thoma",
-      "Christian Rossow",
-      "Tim Güneysu"
+      "Yongjin Jeon",
+      "Seungjun Baek 0002",
+      "Giyoon Kim",
+      "Jongsung Kim"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -57383,32 +57143,7 @@
     "conference": "CHES",
     "category": "security",
     "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.1-31"
-  },
-  {
-    "title": "K9db: Privacy-Compliant Storage For Web Applications By Construction",
-    "authors": [
-      "Kinan Dak Albab",
-      "Ishan Sharma",
-      "Justus Adam",
-      "Benjamin Kilimnik",
-      "Aaron R. Jeyaraj",
-      "Raj Paul",
-      "Artem Agvanian",
-      "Leonhard F. Spiegelberg",
-      "Malte Schwarzkopf"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
+    "doi_url": "https://doi.org/10.46586/tches.v2025.i1.586-631"
   },
   {
     "title": "Lalaine: Measuring and Characterizing Non-Compliance of Apple Privacy Labels",
@@ -57433,264 +57168,67 @@
     "doi_url": ""
   },
   {
-    "title": "zk-promises: Anonymous Moderation, Reputation, and Blocking from Anonymous Credentials with Callbacks",
+    "title": "Telescope: Telemetry for Gargantuan Memory Footprint Applications",
     "authors": [
-      "Maurice Shih",
-      "Michael Rosenberg",
-      "Hari Kailad",
-      "Ian Miers"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "OAuth 2.0 Redirect URI Validation Falls Short, Literally",
-    "authors": [
-      "Tommaso Innocenti",
-      "Matteo Golinelli",
-      "Kaan Onarlioglu",
-      "Seyed Ali Mirheidari",
-      "Bruno Crispo",
-      "Engin Kirda"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "reusable",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3627106.3627140"
-  },
-  {
-    "title": "Breaking Ground: A New Area Record for Low-Latency First-Order Masked SHA-3 Advancing from the 4x Area Era to the 3x Area Era",
-    "authors": [
-      "Cankun Zhao",
-      "Hang Zhao",
-      "Jiangxue Liu",
-      "Bohan Yang 0001",
-      "Wenping Zhu",
-      "Shuying Yin",
-      "Min Zhu 0001",
-      "Shaojun Wei",
-      "Leibo Liu"
+      "Alan Nair",
+      "Sandeep Kumar",
+      "Aravinda Prasad",
+      "Ying Huang",
+      "Andy Rudoff",
+      "Sreenivas Subramoney"
     ],
     "year": 2024,
     "artifact_year": 2024,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2024.i4.231-257"
-  },
-  {
-    "title": "Sheep's clothing, wolfish intent: Automated detection and evaluation of problematic 'allowed' advertisements",
-    "authors": [
-      "Ritik Roongta",
-      "Julia Jose",
-      "Hussam Habib",
-      "Rachel Greenstadt"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
     "badges": [
       "available",
       "functional"
     ],
-    "doi_url": "https://doi.org/10.56553/popets-2025-0142"
+    "doi_url": ""
   },
   {
-    "title": "\"Revoked just now!\" Users' Behaviors Toward Fitness-Data Sharing with Third-Party Applications",
+    "title": "AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding",
     "authors": [
-      "Noé Zufferey",
-      "Kavous Salehzadeh Niksirat",
-      "Mathias Humbert",
-      "Kévin Huguenin"
+      "Zikun Li",
+      "Zhuofu Chen",
+      "Remi Delacourt",
+      "Gabriele Oliaro",
+      "Zeyu Wang",
+      "Qinghan Chen",
+      "Shuhuai Lin",
+      "April Yang",
+      "Zhihao Zhang 0001",
+      "Zhuoming Chen",
+      "Yi-Hsiang Lai",
+      "Xinhao Cheng",
+      "Xupeng Miao",
+      "Zhihao Jia"
     ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.56553/popets-2023-0004"
-  },
-  {
-    "title": "FrozenHot Cache: Rethinking Cache Management for Modern Hardware",
-    "authors": [
-      "Ziyue Qiu",
-      "Juncheng Yang",
-      "Juncheng Zhang",
-      "Cheng Li 0001",
-      "Xiaosong Ma",
-      "Qi Chen 0009",
-      "Mao Yang 0004",
-      "Yinlong Xu 0001"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
+    "year": 2026,
+    "artifact_year": 2026,
     "venue": "EUROSYS",
     "conference": "EUROSYS",
     "category": "systems",
     "badges": [
       "available",
-      "functional"
+      "functional",
+      "reproduced"
     ],
-    "doi_url": "https://doi.org/10.1145/3552326.3587446"
+    "doi_url": "https://doi.org/10.1145/3767295.3769315"
   },
   {
-    "title": "SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs",
+    "title": "FBMM: Making Memory Management Extensible With Filesystems",
     "authors": [
-      "Pantea Kiaei",
-      "Patrick Schaumont"
+      "Bijan Tabatabai",
+      "James Christopher Sorenson III",
+      "Michael M. Swift"
     ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.751-773"
-  },
-  {
-    "title": "Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes",
-    "authors": [
-      "Yuanhui Zhou",
-      "Jian Zhou 0004",
-      "Shuning Chen",
-      "Peng Xu",
-      "Peng Wu",
-      "Yanguang Wang",
-      "Xian Liu",
-      "Ling Zhan",
-      "Jiguang Wan 0001"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
+    "year": 2024,
+    "artifact_year": 2024,
     "venue": "ATC",
     "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "The Demikernel Datapath OS Architecture for Microsecond-scale Datacenter Systems",
-    "authors": [
-      "Irene Zhang",
-      "Amanda Raybuck",
-      "Pratyush Patel",
-      "Kirk Olynyk",
-      "Jacob Nelson 0001",
-      "Omar S. Navarro Leija",
-      "Ashlie Martinez",
-      "Jing Liu",
-      "Anna Kornfeld Simpson",
-      "Sujay Jayakar",
-      "Pedro Henrique Penna",
-      "Max Demoulin",
-      "Piali Choudhury",
-      "Anirudh Badam"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available"
-    ],
-    "doi_url": "https://doi.org/10.1145/3477132.3483569"
-  },
-  {
-    "title": "Clouseau: A Hierarchical Multi-Agent Approach for Autonomous Attack Investigation",
-    "authors": [
-      "Abdullah Aldaihan",
-      "Fahad Alotaibi",
-      "Sergio Maffeis"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "ACSAC",
-    "conference": "ACSAC",
-    "category": "security",
-    "badges": [
-      "reviewed"
-    ],
-    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00051"
-  },
-  {
-    "title": "Optimizing data-intensive computations in existing libraries with split annotations",
-    "authors": [
-      "Shoumik Palkar",
-      "Matei Zaharia"
-    ],
-    "year": 2019,
-    "artifact_year": 2019,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3341301.3359652"
-  },
-  {
-    "title": "When Idling is Ideal: Optimizing Tail-Latency for Heavy-Tailed Datacenter Workloads with Perséphone",
-    "authors": [
-      "Henri Maxime Demoulin",
-      "Joshua Fried",
-      "Isaac Pedisich",
-      "Marios Kogias",
-      "Boon Thau Loo",
-      "Linh Thi Xuan Phan",
-      "Irene Zhang"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3477132.3483571"
-  },
-  {
-    "title": "AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving",
-    "authors": [
-      "Zhuohan Li 0001",
-      "Lianmin Zheng",
-      "Yinmin Zhong",
-      "Vincent Liu 0001",
-      "Ying Sheng 0007",
-      "Xin Jin 0008",
-      "Yanping Huang",
-      "Zhifeng Chen",
-      "Hao Zhang 0025",
-      "Joseph E. Gonzalez",
-      "Ion Stoica"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
     "category": "systems",
     "badges": [
       "available",
@@ -57700,25 +57238,21 @@
     "doi_url": ""
   },
   {
-    "title": "CRISP: Critical Path Analysis of Large-Scale Microservice Architectures",
+    "title": "Spinner: Semi-Automatic Detection of Pinning without Hostname Verification",
     "authors": [
-      "Zhizhou Zhang 0002",
-      "Murali Krishna Ramanathan",
-      "Prithvi Raj",
-      "Abhishek Parwal",
-      "Timothy Sherwood",
-      "Milind Chabbi"
+      "Chris McMahon Stone",
+      "Tom Chothia",
+      "Flavio D. Garcia"
     ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
+    "year": 2017,
+    "artifact_year": 2017,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
     "badges": [
-      "available",
       "functional"
     ],
-    "doi_url": ""
+    "doi_url": "https://doi.org/10.1145/3134600.3134628"
   },
   {
     "title": "The hidden cost of the edge: a performance comparison of edge and cloud latencies",
@@ -57740,124 +57274,6 @@
     "doi_url": "https://doi.org/10.1145/3458817.3476142"
   },
   {
-    "title": "Chatbot Confessions:~Large-Scale Analysis of Private Data Disclosure in Shared AI Chatbot Conversations",
-    "authors": [
-      "Majid Mollaeefar",
-      "Dimitri Van Landuyt",
-      "Gertjan Franken",
-      "Nico Ebert",
-      "Silvio Ranise"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2026-0081"
-  },
-  {
-    "title": "Gaze3P: Gaze-Based Prediction of User-Perceived Privacy",
-    "authors": [
-      "Mayar Elfares",
-      "Pascal Reisert",
-      "Ralf Küsters",
-      "Andreas Bulling"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2026-0002"
-  },
-  {
-    "title": "Online Template Attacks: Revisited",
-    "authors": [
-      "Alejandro Cabrera Aldaya",
-      "Billy Bob Brumley"
-    ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2021.i3.28-59"
-  },
-  {
-    "title": "Privacy Attacks on Matrix Profiles via Reconstruction Techniques",
-    "authors": [
-      "Haoying Zhang",
-      "Nicolas Anciaux",
-      "Benjamin Nguyen",
-      "Fabien Girard",
-      "José María de Fuentes",
-      "Adrien Boiret"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "PETS",
-    "conference": "PETS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.56553/popets-2026-0005"
-  },
-  {
-    "title": "MGG: Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms",
-    "authors": [
-      "Yuke Wang",
-      "Boyuan Feng",
-      "Zheng Wang 0075",
-      "Tong Geng",
-      "Kevin J. Barker",
-      "Ang Li 0006",
-      "Yufei Ding 0001"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities",
-    "authors": [
-      "Daniel Weber 0007",
-      "Fabian Thomas",
-      "Leon Trampert",
-      "Ruiyi Zhang 0001",
-      "Michael Schwarz 0001"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "SP",
-    "conference": "SP",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1109/SP63933.2026.00135"
-  },
-  {
     "title": "I'll Be There for You! Perpetual Availability in the A",
     "authors": [
       "André Rösti",
@@ -57876,59 +57292,23 @@
     "doi_url": "https://doi.org/10.1109/ACSAC63791.2024.00052"
   },
   {
-    "title": "Generation of Fast Finite Field Arithmetic forCortex-M4 with ECDH and SQIsign Applications",
+    "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
     "authors": [
-      "Félix Carvalho Rodrigues",
-      "Décio Luiz Gazzoni Filho",
-      "Gora Adj",
-      "Isaac Andrés Canales Martinez",
-      "Jorge Chávez-Saab",
-      "Julio López 0002",
-      "Michael Scott",
-      "Francisco Rodríguez-Henríquez"
+      "Yuhao Wu 0006",
+      "Franziska Roesner",
+      "Tadayoshi Kohno",
+      "Ning Zhang 0017",
+      "Umar Iqbal 0002"
     ],
     "year": 2025,
     "artifact_year": 2025,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2025.i4.588-620"
-  },
-  {
-    "title": "Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs",
-    "authors": [
-      "Alexandre Adomnicai",
-      "Wonseok Choi 0002",
-      "Yeongmin Lee",
-      "Kazuhiko Minematsu",
-      "Yusuke Naito 0001"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.437-469"
-  },
-  {
-    "title": "Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption",
-    "authors": [
-      "Xuanqi Liu",
-      "Zhuotao Liu",
-      "Qi Li 0002",
-      "Ke Xu 0002",
-      "Mingwei Xu 0001"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
     "venue": "NDSS",
     "conference": "NDSS",
     "category": "security",
     "badges": [
       "available",
-      "functional"
+      "functional",
+      "reproduced"
     ],
     "doi_url": ""
   },
@@ -57954,143 +57334,80 @@
     "doi_url": "https://doi.org/10.1145/3492321.3519562"
   },
   {
-    "title": "ACon",
+    "title": "Chatbot Confessions:~Large-Scale Analysis of Private Data Disclosure in Shared AI Chatbot Conversations",
     "authors": [
-      "Sangdon Park 0001",
-      "Osbert Bastani",
-      "Taesoo Kim"
+      "Majid Mollaeefar",
+      "Dimitri Van Landuyt",
+      "Gertjan Franken",
+      "Nico Ebert",
+      "Silvio Ranise"
     ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
-    "authors": [
-      "Yuhao Wu 0006",
-      "Franziska Roesner",
-      "Tadayoshi Kohno",
-      "Ning Zhang 0017",
-      "Umar Iqbal 0002"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Tracking the Takes and Trajectories of English-Language News Narratives across Trustworthy and Worrisome Websites",
-    "authors": [
-      "Hans W. A. Hanley",
-      "Emily Okabe",
-      "Zakir Durumeric"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "The Guardians of Name Street: Studying the Defensive Registration Practices of the Fortune 500",
-    "authors": [
-      "Boladji Vinny Adjibi",
-      "Athanasios Avgetidis",
-      "Manos Antonakakis",
-      "Michael D. Bailey",
-      "Fabian Monrose"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "NDSS",
-    "conference": "NDSS",
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "PETS",
+    "conference": "PETS",
     "category": "security",
     "badges": [
       "available",
       "functional"
     ],
-    "doi_url": ""
+    "doi_url": "https://doi.org/10.56553/popets-2026-0081"
   },
   {
-    "title": "SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization",
+    "title": "\"Revoked just now!\" Users' Behaviors Toward Fitness-Data Sharing with Third-Party Applications",
     "authors": [
-      "Mingshu Zhai",
-      "Jiaao He",
-      "Zixuan Ma",
-      "Zan Zong",
-      "Runqing Zhang",
-      "Jidong Zhai"
+      "Noé Zufferey",
+      "Kavous Salehzadeh Niksirat",
+      "Mathias Humbert",
+      "Kévin Huguenin"
     ],
     "year": 2023,
     "artifact_year": 2023,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.56553/popets-2023-0004"
   },
   {
-    "title": "On the Atomicity and Efficiency of Blockchain Payment Channels",
+    "title": "Risk based planning of network changes in evolving data centers",
     "authors": [
-      "Di Wu",
-      "Shoupeng Ren",
-      "Yuman Bai",
-      "Lipeng He",
-      "Jian Liu 0012",
-      "Wu Wen",
-      "Kui Ren 0001",
-      "Chun Chen 0001"
+      "Omid Alipourfard",
+      "Jiaqi Gao",
+      "Jérémie Koenig",
+      "Chris Harshaw",
+      "Amin Vahdat",
+      "Minlan Yu"
     ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
+    "year": 2019,
+    "artifact_year": 2019,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3341301.3359664"
+  },
+  {
+    "title": "PrivCode: When Code Generation Meets Differential Privacy",
+    "authors": [
+      "Zheng Liu 0022",
+      "Chen Gong 0005",
+      "Terry Yue Zhuo",
+      "Kecen Li",
+      "Weichen Yu",
+      "Matt Fredrikson",
+      "Tianhao Wang 0001"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
     "category": "security",
     "badges": [
-      "Badges: Available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Hydro: Surrogate-Based Hyperparameter Tuning Service in Datacenters",
-    "authors": [
-      "Qinghao Hu 0004",
-      "Zhisheng Ye 0002",
-      "Meng Zhang 0045",
-      "Qiaoling Chen",
-      "Peng Sun 0006",
-      "Yonggang Wen 0001",
-      "Tianwei Zhang 0004"
-    ],
-    "year": 2023,
-    "artifact_year": 2023,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
       "available",
       "functional",
       "reproduced"
@@ -58098,15 +57415,18 @@
     "doi_url": ""
   },
   {
-    "title": "Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions",
+    "title": "Unique Identification of 50, 000+ Virtual Reality Users from Head & Hand Motion Data",
     "authors": [
-      "Minglang Dong",
-      "Cong Zhang",
-      "Yujie Bai",
-      "Yu Chen"
+      "Vivek Nair",
+      "Wenbo Guo 0002",
+      "Justus Mattern",
+      "Rui Wang 0110",
+      "James F. O'Brien",
+      "Louis B. Rosenberg",
+      "Dawn Song"
     ],
-    "year": 2025,
-    "artifact_year": 2025,
+    "year": 2023,
+    "artifact_year": 2023,
     "venue": "USENIXSEC",
     "conference": "USENIXSEC",
     "category": "security",
@@ -58118,27 +57438,11 @@
     "doi_url": ""
   },
   {
-    "title": "Breaking Masked Implementations of the Clyde-Cipher by Means of Side-Channel Analysis A Report on the CHES Challenge Side-Channel Contest 2020",
+    "title": "HIPR: Hardware IP Protection through Low-Overhead Fine-Grain Redaction",
     "authors": [
-      "Aron Gohr",
-      "Friederike Laus",
-      "Werner Schindler"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.397-437"
-  },
-  {
-    "title": "A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin",
-    "authors": [
-      "Yongjin Jeon",
-      "Seungjun Baek 0002",
-      "Giyoon Kim",
-      "Jongsung Kim"
+      "Aritra Dasgupta 0002",
+      "Sudipta Paria",
+      "Swarup Bhunia"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -58146,16 +57450,19 @@
     "conference": "CHES",
     "category": "security",
     "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2025.i1.586-631"
+    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.781-805"
   },
   {
-    "title": "Inductive Invariants That Spark Joy: Using Invariant Taxonomies to Streamline Distributed Protocol Proofs",
+    "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
     "authors": [
-      "Tony Nuda Zhang",
-      "Travis Hance",
-      "Manos Kapritsos",
-      "Tej Chajed",
-      "Bryan Parno"
+      "Yinmin Zhong",
+      "Shengyu Liu",
+      "Junda Chen",
+      "Jianbo Hu",
+      "Yibo Zhu 0001",
+      "Xuanzhe Liu",
+      "Xin Jin 0008",
+      "Hao Zhang 0025"
     ],
     "year": 2024,
     "artifact_year": 2024,
@@ -58192,13 +57499,288 @@
     "doi_url": ""
   },
   {
-    "title": "BarraCUDA: Edge GPUs do Leak DNN Weights",
+    "title": "LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries",
     "authors": [
-      "Péter Horváth",
-      "Lukasz Chmielewski",
-      "Léo Weissbart",
-      "Lejla Batina",
-      "Yuval Yarom"
+      "Pujan Paudel",
+      "Gianluca Stringhini"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "General-Purpose f-DP Estimation and Auditing in a Black-Box Setting",
+    "authors": [
+      "Önder Askin",
+      "Holger Dette",
+      "Martin Dunsche",
+      "Tim Kutta",
+      "Yun Lu 0001",
+      "Yu Wei 0007",
+      "Vassilis Zikas"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Trinity: High-Performance Mobile Emulation through Graphics Projection",
+    "authors": [
+      "Di Gao",
+      "Hao Lin 0005",
+      "Zhenhua Li 0001",
+      "Chengen Huang",
+      "Yunhao Liu 0001",
+      "Feng Qian 0001",
+      "Liangyi Gong",
+      "Tianyin Xu"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "lODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage",
+    "authors": [
+      "Huaicheng Li",
+      "Martin L. Putra",
+      "Ronald Shi",
+      "Xing Lin",
+      "Gregory R. Ganger",
+      "Haryadi S. Gunawi"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3477132.3483573"
+  },
+  {
+    "title": "Operating System Support for Safe and Efficient Auxiliary Execution",
+    "authors": [
+      "Yuzhuo Jing",
+      "Peng Huang 0005"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols",
+    "authors": [
+      "Jianan Yao",
+      "Runzhou Tao 0001",
+      "Ronghui Gu",
+      "Jason Nieh",
+      "Suman Jana",
+      "Gabriel Ryan"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "QUICstep: Evaluating connection migration based QUIC censorship circumvention",
+    "authors": [
+      "Seungju Lee",
+      "Mona Wang",
+      "Watson Jia",
+      "Qiang Wu",
+      "Henry Birge-Lee",
+      "Liang Wang 0054",
+      "Prateek Mittal"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2026-0014"
+  },
+  {
+    "title": "Isolating functions at the hardware limit with virtines",
+    "authors": [
+      "Nicholas C. Wanninger",
+      "Joshua J. Bowden",
+      "Kirtankumar Shetty",
+      "Ayush Garg 0007",
+      "Kyle C. Hale"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3492321.3519553"
+  },
+  {
+    "title": "Leuvenshtein: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell",
+    "authors": [
+      "Wouter Legiest",
+      "Jan-Pieter D'Anvers",
+      "Bojan Spasic",
+      "Nam-Luc Tran",
+      "Ingrid Verbauwhede"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs",
+    "authors": [
+      "Hannes Weissteiner",
+      "Fabian Rauscher",
+      "Robin Leander Schröder",
+      "Jonas Juffinger",
+      "Stefan Gast",
+      "Jan Wichelmann",
+      "Thomas Eisenbarth 0001",
+      "Daniel Gruss"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Cilantro: Performance-Aware Resource Allocation for General Objectives via Online Feedback",
+    "authors": [
+      "Romil Bhardwaj",
+      "Kirthevasan Kandasamy",
+      "Asim Biswal",
+      "Wenshuo Guo",
+      "Benjamin Hindman",
+      "Joseph Gonzalez 0001",
+      "Michael I. Jordan",
+      "Ion Stoica"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Optimizing data-intensive computations in existing libraries with split annotations",
+    "authors": [
+      "Shoumik Palkar",
+      "Matei Zaharia"
+    ],
+    "year": 2019,
+    "artifact_year": 2019,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3341301.3359652"
+  },
+  {
+    "title": "Nexus: a GPU cluster engine for accelerating DNN-based video analysis",
+    "authors": [
+      "Haichen Shen",
+      "Lequn Chen 0001",
+      "Yuchen Jin",
+      "Liangyu Zhao",
+      "Bingyu Kong",
+      "Matthai Philipose",
+      "Arvind Krishnamurthy",
+      "Ravi Sundaram"
+    ],
+    "year": 2019,
+    "artifact_year": 2019,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available"
+    ],
+    "doi_url": "https://doi.org/10.1145/3341301.3359658"
+  },
+  {
+    "title": "ImpROV: Measurement and Practical Mitigation of Collateral Damage in RPKI Route Origin Validation",
+    "authors": [
+      "Weitong Li",
+      "Yuze Li",
+      "Taejoong Chung"
     ],
     "year": 2025,
     "artifact_year": 2025,
@@ -58211,37 +57793,258 @@
     "doi_url": ""
   },
   {
-    "title": "Fault Attacks on CCA-secure Lattice KEMs",
+    "title": "A Multi-Region Investigation of the Perceptions and Use of Smart Home Devices",
     "authors": [
-      "Peter Pessl",
-      "Lukas Prokop 0002"
+      "Patrick Bombik",
+      "Tom Wenzel",
+      "Jens Grossklags",
+      "Sameer Patil 0001"
     ],
-    "year": 2021,
-    "artifact_year": 2021,
-    "venue": "CHES",
-    "conference": "CHES",
-    "category": "security",
-    "badges": [],
-    "doi_url": "https://doi.org/10.46586/tches.v2021.i2.37-60"
-  },
-  {
-    "title": "SGXonerate:Finding (and Partially Fixing) Privacy Flaws in TEE-based Smart Contract Platforms Without Breaking the TEE",
-    "authors": [
-      "Nerla Jean-Louis",
-      "Yunqi Li 0002",
-      "Yan Ji 0001",
-      "Harjasleen Malvai",
-      "Thomas Yurek",
-      "Sylvain Bellemare",
-      "Andrew Miller 0001"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
+    "year": 2022,
+    "artifact_year": 2022,
     "venue": "PETS",
     "conference": "PETS",
     "category": "security",
     "badges": [],
-    "doi_url": "https://doi.org/10.56553/popets-2024-0035"
+    "doi_url": "https://doi.org/10.56553/popets-2022-0060"
+  },
+  {
+    "title": "K9db: Privacy-Compliant Storage For Web Applications By Construction",
+    "authors": [
+      "Kinan Dak Albab",
+      "Ishan Sharma",
+      "Justus Adam",
+      "Benjamin Kilimnik",
+      "Aaron R. Jeyaraj",
+      "Raj Paul",
+      "Artem Agvanian",
+      "Leonhard F. Spiegelberg",
+      "Malte Schwarzkopf"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "GET /large. file HTTP /1.1: Connection-Based TCP Amplification Attacks",
+    "authors": [
+      "Yepeng Pan",
+      "Lars Richter",
+      "Christian Rossow"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "reproducible"
+    ],
+    "doi_url": "https://doi.org/10.1109/ACSAC67867.2025.00096"
+  },
+  {
+    "title": "Zhuque: Failure is Not an Option, it's an Exception",
+    "authors": [
+      "George Hodgkins",
+      "Yi Xu 0017",
+      "Steven Swanson",
+      "Joseph Izraelevitz"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Rose: Reproducing External-Fault-Induced Failures in Distributed Systems with Lightweight Instrumentation",
+    "authors": [
+      "Sebastião Amaro",
+      "Pedro Fonseca 0001",
+      "Miguel Matos"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3767295.3803625"
+  },
+  {
+    "title": "FrozenHot Cache: Rethinking Cache Management for Modern Hardware",
+    "authors": [
+      "Ziyue Qiu",
+      "Juncheng Yang",
+      "Juncheng Zhang",
+      "Cheng Li 0001",
+      "Xiaosong Ma",
+      "Qi Chen 0009",
+      "Mao Yang 0004",
+      "Yinlong Xu 0001"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "EUROSYS",
+    "conference": "EUROSYS",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3552326.3587446"
+  },
+  {
+    "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
+    "authors": [
+      "Ruiyi Zhang 0001",
+      "Albert Cheu",
+      "Adrià Gascón",
+      "Daniel Moghimi",
+      "Phillipp Schoppmann",
+      "Michael Schwarz 0001",
+      "Octavian Suciu"
+    ],
+    "year": 2026,
+    "artifact_year": 2026,
+    "venue": "NDSS",
+    "conference": "NDSS",
+    "category": "security",
+    "badges": [
+      "available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "\"Please don't send that bot anything\": A Mixed-methods Study of Personal Impersonation Attacks Targeting Digital Payments on Social Media",
+    "authors": [
+      "Hoang Dai Nguyen",
+      "Sumit Dhungana",
+      "Madhulika Itha",
+      "Phani Vadrevu"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs",
+    "authors": [
+      "Alexandre Adomnicai",
+      "Wonseok Choi 0002",
+      "Yeongmin Lee",
+      "Kazuhiko Minematsu",
+      "Yusuke Naito 0001"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2025.i3.437-469"
+  },
+  {
+    "title": "Efficient large-scale language model training on GPU clusters using megatron-LM",
+    "authors": [
+      "Deepak Narayanan",
+      "Mohammad Shoeybi",
+      "Jared Casper",
+      "Patrick LeGresley",
+      "Mostofa Patwary",
+      "Vijay Korthikanti",
+      "Dmitri Vainbrand",
+      "Prethvi Kashinkunti",
+      "Julie Bernauer",
+      "Bryan Catanzaro",
+      "Amar Phanishayee",
+      "Matei Zaharia"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "SC",
+    "conference": "SC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1145/3458817.3476209"
+  },
+  {
+    "title": "Efficient 2PC for Constant Round Secure Equality Testing and Comparison",
+    "authors": [
+      "Tianpei Lu",
+      "Xin Kang",
+      "Bingsheng Zhang",
+      "Zhuo Ma 0001",
+      "Xiaoyuan Zhang",
+      "Yang Liu 0118",
+      "Kui Ren 0001",
+      "Chun Chen 0001"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "High-density Mobile Cloud Gaming on Edge SoC Clusters",
+    "authors": [
+      "Li Zhang 0133",
+      "Shangguang Wang",
+      "Mengwei Xu 0001"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs",
+    "authors": [
+      "Pantea Kiaei",
+      "Patrick Schaumont"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.751-773"
   },
   {
     "title": "FP-tracer: Fine-grained Browser Fingerprinting Detection via Taint-tracking and Entropy-based Thresholds",
@@ -58266,17 +58069,505 @@
     "doi_url": "https://doi.org/10.56553/popets-2024-0092"
   },
   {
-    "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
+    "title": "OAuth 2.0 Redirect URI Validation Falls Short, Literally",
     "authors": [
-      "Nuno Sabino",
-      "Darion Cassel",
-      "Rui Abreu 0001",
-      "Pedro Adão",
-      "Lujo Bauer",
-      "Limin Jia 0001"
+      "Tommaso Innocenti",
+      "Matteo Golinelli",
+      "Kaan Onarlioglu",
+      "Seyed Ali Mirheidari",
+      "Bruno Crispo",
+      "Engin Kirda"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "ACSAC",
+    "conference": "ACSAC",
+    "category": "security",
+    "badges": [
+      "reusable",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3627106.3627140"
+  },
+  {
+    "title": "Privacy Solution or Menace? Investigating Perceptions of Radio-Frequency Sensing",
+    "authors": [
+      "Maximiliane Windl",
+      "Omer Akgul",
+      "Nathan Malkin",
+      "Lorrie Faith Cranor"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "TASO: optimizing deep learning computation with automatic generation of graph substitutions",
+    "authors": [
+      "Zhihao Jia",
+      "Oded Padon",
+      "James Thomas 0003",
+      "Todd Warszawski",
+      "Matei Zaharia",
+      "Alex Aiken"
+    ],
+    "year": 2019,
+    "artifact_year": 2019,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": "https://doi.org/10.1145/3341301.3359630"
+  },
+  {
+    "title": "Mitigating Injection Attacks against E2EE Applications via View-Based Partitioning",
+    "authors": [
+      "Andrés Fábrega",
+      "Samuel Breckenridge",
+      "Armin Namavari",
+      "Thomas Ristenpart"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
+    "authors": [
+      "Anirban Chakraborty 0003",
+      "Nimish Mishra",
+      "Sayandeep Saha",
+      "Sarani Bhattacharya",
+      "Debdeep Mukhopadhyay"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "ACon",
+    "authors": [
+      "Sangdon Park 0001",
+      "Osbert Bastani",
+      "Taesoo Kim"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Breaking Ground: A New Area Record for Low-Latency First-Order Masked SHA-3 Advancing from the 4x Area Era to the 3x Area Era",
+    "authors": [
+      "Cankun Zhao",
+      "Hang Zhao",
+      "Jiangxue Liu",
+      "Bohan Yang 0001",
+      "Wenping Zhu",
+      "Shuying Yin",
+      "Min Zhu 0001",
+      "Shaojun Wei",
+      "Leibo Liu"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2024.i4.231-257"
+  },
+  {
+    "title": "Backdooring Bias (B^2) into Stable Diffusion Models",
+    "authors": [
+      "Ali Naseh",
+      "Jaechul Roh",
+      "Eugene Bagdasarian",
+      "Amir Houmansadr"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
+    "authors": [
+      "Georgios Alexopoulos",
+      "Thodoris Sotiropoulos",
+      "Zhendong Su 0001",
+      "Dimitris Mitropoulos"
     ],
     "year": 2026,
     "artifact_year": 2026,
+    "venue": "SP",
+    "conference": "SP",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.1109/SP63933.2026.00115"
+  },
+  {
+    "title": "Prime Match: A Privacy-Preserving Inventory Matching System",
+    "authors": [
+      "Antigoni Polychroniadou",
+      "Gilad Asharov",
+      "Benjamin E. Diamond",
+      "Tucker Balch",
+      "Hans Buehler",
+      "Richard Hua",
+      "Suwen Gu",
+      "Greg Gimler",
+      "Manuela Veloso"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Data-flow Availability: Achieving Timing Assurance in Autonomous Systems",
+    "authors": [
+      "Ao Li 0006",
+      "Ning Zhang 0017"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Sheep's clothing, wolfish intent: Automated detection and evaluation of problematic 'allowed' advertisements",
+    "authors": [
+      "Ritik Roongta",
+      "Julia Jose",
+      "Hussam Habib",
+      "Rachel Greenstadt"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0142"
+  },
+  {
+    "title": "SGXonerate:Finding (and Partially Fixing) Privacy Flaws in TEE-based Smart Contract Platforms Without Breaking the TEE",
+    "authors": [
+      "Nerla Jean-Louis",
+      "Yunqi Li 0002",
+      "Yan Ji 0001",
+      "Harjasleen Malvai",
+      "Thomas Yurek",
+      "Sylvain Bellemare",
+      "Andrew Miller 0001"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.56553/popets-2024-0035"
+  },
+  {
+    "title": "A non comparison oblivious sort and its application to k-NN",
+    "authors": [
+      "Sofiane Azogagh",
+      "Marc-Olivier Killijian",
+      "Félix Larose-Gervais"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "PETS",
+    "conference": "PETS",
+    "category": "security",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": "https://doi.org/10.56553/popets-2025-0093"
+  },
+  {
+    "title": "The Demikernel Datapath OS Architecture for Microsecond-scale Datacenter Systems",
+    "authors": [
+      "Irene Zhang",
+      "Amanda Raybuck",
+      "Pratyush Patel",
+      "Kirk Olynyk",
+      "Jacob Nelson 0001",
+      "Omar S. Navarro Leija",
+      "Ashlie Martinez",
+      "Jing Liu",
+      "Anna Kornfeld Simpson",
+      "Sujay Jayakar",
+      "Pedro Henrique Penna",
+      "Max Demoulin",
+      "Piali Choudhury",
+      "Anirudh Badam"
+    ],
+    "year": 2021,
+    "artifact_year": 2021,
+    "venue": "SOSP",
+    "conference": "SOSP",
+    "category": "systems",
+    "badges": [
+      "Available"
+    ],
+    "doi_url": "https://doi.org/10.1145/3477132.3483569"
+  },
+  {
+    "title": "For Human Ears Only: Preventing Automated Monitoring on Voice Data",
+    "authors": [
+      "Irtaza Shahid",
+      "Nirupam Roy"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "On the Atomicity and Efficiency of Blockchain Payment Channels",
+    "authors": [
+      "Di Wu",
+      "Shoupeng Ren",
+      "Yuman Bai",
+      "Lipeng He",
+      "Jian Liu 0012",
+      "Wu Wen",
+      "Kui Ren 0001",
+      "Chun Chen 0001"
+    ],
+    "year": 2025,
+    "artifact_year": 2025,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "VERICA - Verification of Combined Attacks Automated formal verification of security against simultaneous information leakage and tampering",
+    "authors": [
+      "Jan Richter-Brockmann",
+      "Jakob Feldtkeller",
+      "Pascal Sasdrich",
+      "Tim Güneysu"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.255-284"
+  },
+  {
+    "title": "SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets",
+    "authors": [
+      "Seth Layton",
+      "Tyler Tucker",
+      "Daniel Olszewski",
+      "Kevin Warren",
+      "Kevin R. B. Butler",
+      "Patrick Traynor"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "USENIXSEC",
+    "conference": "USENIXSEC",
+    "category": "security",
+    "badges": [
+      "Badges: Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Starburst: A Cost-aware Scheduler for Hybrid Cloud",
+    "authors": [
+      "Michael Luo",
+      "Siyuan Zhuang",
+      "Suryaprakash Vengadesan",
+      "Romil Bhardwaj",
+      "Justin Chang",
+      "Eric J. Friedman",
+      "Scott Shenker",
+      "Ion Stoica"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
+    "venue": "ATC",
+    "conference": "ATC",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Breaking Masked Implementations of the Clyde-Cipher by Means of Side-Channel Analysis A Report on the CHES Challenge Side-Channel Contest 2020",
+    "authors": [
+      "Aron Gohr",
+      "Friederike Laus",
+      "Werner Schindler"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "CHES",
+    "conference": "CHES",
+    "category": "security",
+    "badges": [],
+    "doi_url": "https://doi.org/10.46586/tches.v2022.i4.397-437"
+  },
+  {
+    "title": "Cancellation in Systems: An Empirical Study of Task Cancellation Patterns and Failures",
+    "authors": [
+      "Utsav Sethi",
+      "Haochen Pan",
+      "Shan Lu 0001",
+      "Madanlal Musuvathi",
+      "Suman Nath"
+    ],
+    "year": 2022,
+    "artifact_year": 2022,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Hydro: Surrogate-Based Hyperparameter Tuning Service in Datacenters",
+    "authors": [
+      "Qinghao Hu 0004",
+      "Zhisheng Ye 0002",
+      "Meng Zhang 0045",
+      "Qiaoling Chen",
+      "Peng Sun 0006",
+      "Yonggang Wen 0001",
+      "Tianwei Zhang 0004"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Cocktailer: Analyzing and Optimizing Dynamic Control Flow in Deep Learning",
+    "authors": [
+      "Chen Zhang 0001",
+      "Lingxiao Ma",
+      "Jilong Xue",
+      "Yining Shi 0001",
+      "Ziming Miao",
+      "Fan Yang 0024",
+      "Jidong Zhai",
+      "Zhi Yang 0001",
+      "Mao Yang 0004"
+    ],
+    "year": 2023,
+    "artifact_year": 2023,
+    "venue": "OSDI",
+    "conference": "OSDI",
+    "category": "systems",
+    "badges": [
+      "available",
+      "functional",
+      "reproduced"
+    ],
+    "doi_url": ""
+  },
+  {
+    "title": "Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption",
+    "authors": [
+      "Xuanqi Liu",
+      "Zhuotao Liu",
+      "Qi Li 0002",
+      "Ke Xu 0002",
+      "Mingwei Xu 0001"
+    ],
+    "year": 2024,
+    "artifact_year": 2024,
     "venue": "NDSS",
     "conference": "NDSS",
     "category": "security",
@@ -58307,82 +58598,17 @@
     "doi_url": ""
   },
   {
-    "title": "ACCL+: an FPGA-Based Collective Engine for Distributed Applications",
+    "title": "Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes",
     "authors": [
-      "Zhenhao He",
-      "Dario Korolija",
-      "Yu Zhu",
-      "Benjamin Ramhorst",
-      "Tristan Laan",
-      "Lucian Petrica",
-      "Michaela Blott",
-      "Gustavo Alonso"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs",
-    "authors": [
-      "Hannes Weissteiner",
-      "Fabian Rauscher",
-      "Robin Leander Schröder",
-      "Jonas Juffinger",
-      "Stefan Gast",
-      "Jan Wichelmann",
-      "Thomas Eisenbarth 0001",
-      "Daniel Gruss"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "",
-    "authors": [
-      "Zheyue Tan",
-      "Tuo Shi",
-      "Huining Yuan 0002",
-      "Zelai Xu",
-      "Chao Yu 0005",
-      "Boxun Li",
-      "Yu Wang 0002",
-      "Bo Zhao 0019"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3805621.3807632"
-  },
-  {
-    "title": "Zhuque: Failure is Not an Option, it's an Exception",
-    "authors": [
-      "George Hodgkins",
-      "Yi Xu 0017",
-      "Steven Swanson",
-      "Joseph Izraelevitz"
+      "Yuanhui Zhou",
+      "Jian Zhou 0004",
+      "Shuning Chen",
+      "Peng Xu",
+      "Peng Wu",
+      "Yanguang Wang",
+      "Xian Liu",
+      "Ling Zhan",
+      "Jiguang Wan 0001"
     ],
     "year": 2023,
     "artifact_year": 2023,
@@ -58390,234 +58616,8 @@
     "conference": "ATC",
     "category": "systems",
     "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "High Stakes, Low Certainty: Evaluating the Efficacy of High-Level Indicators of Compromise in Ransomware Attribution",
-    "authors": [
-      "Max van der Horst",
-      "Ricky Kho",
-      "Olga Gadyatskaya",
-      "Michel Mollema",
-      "Michel van Eeten",
-      "Yury Zhauniarovich"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol",
-    "authors": [
-      "Benedikt Auerbach",
-      "Yevgeniy Dodis",
-      "Daniel Jost 0001",
-      "Shuichi Katsumata",
-      "Rolfe Schmidt"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
-    "authors": [
-      "Anirban Chakraborty 0003",
-      "Nimish Mishra",
-      "Sayandeep Saha",
-      "Sarani Bhattacharya",
-      "Debdeep Mukhopadhyay"
-    ],
-    "year": 2025,
-    "artifact_year": 2025,
-    "venue": "USENIXSEC",
-    "conference": "USENIXSEC",
-    "category": "security",
-    "badges": [
-      "Badges: Available",
-      "Functional"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "TASO: optimizing deep learning computation with automatic generation of graph substitutions",
-    "authors": [
-      "Zhihao Jia",
-      "Oded Padon",
-      "James Thomas 0003",
-      "Todd Warszawski",
-      "Matei Zaharia",
-      "Alex Aiken"
-    ],
-    "year": 2019,
-    "artifact_year": 2019,
-    "venue": "SOSP",
-    "conference": "SOSP",
-    "category": "systems",
-    "badges": [
-      "Available",
-      "Functional",
-      "Reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1145/3341301.3359630"
-  },
-  {
-    "title": "Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences",
-    "authors": [
-      "Mingcong Han",
-      "Hanze Zhang",
-      "Rong Chen 0001",
-      "Haibo Chen 0001"
-    ],
-    "year": 2022,
-    "artifact_year": 2022,
-    "venue": "OSDI",
-    "conference": "OSDI",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "GDDRHammer: Greatly Disturbing DRAM Rows - Cross-Component Rowhammer Attacks From Modern GPUs",
-    "authors": [
-      "Yichang Hu",
-      "Noah Brown",
-      "Yuhang Chen",
-      "Joshua Bakita",
-      "Tianlong Chen 0001",
-      "Daniel Genkin",
-      "Andrew Kwong"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "SP",
-    "conference": "SP",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1109/SP63933.2026.00228"
-  },
-  {
-    "title": "Rose: Reproducing External-Fault-Induced Failures in Distributed Systems with Lightweight Instrumentation",
-    "authors": [
-      "Sebastião Amaro",
-      "Pedro Fonseca 0001",
-      "Miguel Matos"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional"
-    ],
-    "doi_url": "https://doi.org/10.1145/3767295.3803625"
-  },
-  {
-    "title": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs",
-    "authors": [
-      "Ruiyi Zhang 0001",
-      "Albert Cheu",
-      "Adrià Gascón",
-      "Daniel Moghimi",
-      "Phillipp Schoppmann",
-      "Michael Schwarz 0001",
-      "Octavian Suciu"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "NDSS",
-    "conference": "NDSS",
-    "category": "security",
-    "badges": [
       "available"
     ],
     "doi_url": ""
-  },
-  {
-    "title": "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",
-    "authors": [
-      "Nathaniel Bennett",
-      "Tyler Tucker",
-      "Carson Stillman",
-      "William Enck",
-      "Patrick Traynor",
-      "Kevin R. B. Butler"
-    ],
-    "year": 2026,
-    "artifact_year": 2026,
-    "venue": "SP",
-    "conference": "SP",
-    "category": "security",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": "https://doi.org/10.1109/SP63933.2026.00091"
-  },
-  {
-    "title": "FastCommit: resource-efficient, performant and cost-effective file system journaling",
-    "authors": [
-      "Harshad Shirwadkar",
-      "Saurabh Kadekodi",
-      "Theodore Y. Ts'o"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "ATC",
-    "conference": "ATC",
-    "category": "systems",
-    "badges": [
-      "available",
-      "functional",
-      "reproduced"
-    ],
-    "doi_url": ""
-  },
-  {
-    "title": "Draconis: Network-Accelerated Scheduling for Microsecond-Scale Workloads",
-    "authors": [
-      "Sreeharsha Udayashankar",
-      "Ashraf Abdel-Hadi",
-      "Ali José Mashtizadeh",
-      "Samer Al-Kiswany"
-    ],
-    "year": 2024,
-    "artifact_year": 2024,
-    "venue": "EUROSYS",
-    "conference": "EUROSYS",
-    "category": "systems",
-    "badges": [
-      "available"
-    ],
-    "doi_url": "https://doi.org/10.1145/3627703.3650060"
   }
 ]
