@@ -420,6 +420,21 @@
     "area": "security"
   },
   {
+    "title": "Model-as-a-Service in the Wild: Characterizing Production LLM Inference Clusters at Scale",
+    "url": "https://github.com/alibaba/clusterdata",
+    "year": 2026,
+    "stars": 2233,
+    "forks": 488,
+    "authors": "",
+    "github_org": "alibaba",
+    "badges": "Available,Functional,Reproduced",
+    "last_active": "2026-10",
+    "description": "cluster data collected from production clusters in Alibaba for cluster management research",
+    "language": "Jupyter Notebook",
+    "conference": "ATC",
+    "area": "systems"
+  },
+  {
     "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Systems",
     "url": "https://github.com/microsoft/aici",
     "year": 2025,
@@ -732,21 +747,6 @@
     "description": "A flexible and efficient deep neural network (DNN) compiler that generates high-performance executable from a DNN model ",
     "language": "C++",
     "conference": "OSDI",
-    "area": "systems"
-  },
-  {
-    "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
-    "url": "https://github.com/microsoft/nnfusion",
-    "year": 2024,
-    "stars": 1005,
-    "forks": 167,
-    "authors": "Siran Liu, Chengxiang Qi, Ying Cao, Chao Yang 0002, Weifang Hu et al.",
-    "github_org": "microsoft",
-    "badges": "Available,Functional,Reproduced",
-    "last_active": "2024-09",
-    "description": "A flexible and efficient deep neural network (DNN) compiler that generates high-performance executable from a DNN model ",
-    "language": "C++",
-    "conference": "SOSP",
     "area": "systems"
   }
 ]

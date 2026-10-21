@@ -135,6 +135,21 @@
     "area": "systems"
   },
   {
+    "title": "Model-as-a-Service in the Wild: Characterizing Production LLM Inference Clusters at Scale",
+    "url": "https://github.com/alibaba/clusterdata",
+    "year": 2026,
+    "stars": 2233,
+    "forks": 488,
+    "authors": "",
+    "github_org": "alibaba",
+    "badges": "Available,Functional,Reproduced",
+    "last_active": "2026-10",
+    "description": "cluster data collected from production clusters in Alibaba for cluster management research",
+    "language": "Jupyter Notebook",
+    "conference": "ATC",
+    "area": "systems"
+  },
+  {
     "title": "Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization",
     "url": "https://github.com/flexflow/FlexFlow/tree/osdi2022ae",
     "year": 2022,
@@ -667,7 +682,7 @@
     "forks": 19,
     "authors": "",
     "github_org": "jiangyy",
-    "badges": "available,functional,reproduced",
+    "badges": "",
     "last_active": "2023-05",
     "description": "The MOSAIC Operating Systems Model and Checker",
     "language": "Python",
@@ -730,21 +745,6 @@
     "badges": "",
     "last_active": "2024-10",
     "description": "RECIPE : high-performance, concurrent indexes for persistent memory (SOSP 2019)",
-    "language": "C++",
-    "conference": "SOSP",
-    "area": "systems"
-  },
-  {
-    "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
-    "url": "https://github.com/ise-uiuc/KNighter",
-    "year": 2025,
-    "stars": 190,
-    "forks": 27,
-    "authors": "",
-    "github_org": "ise-uiuc",
-    "badges": "",
-    "last_active": "2025-10",
-    "description": "[SOSP'25] Automatic checker synthesis for system-level static analysis",
     "language": "C++",
     "conference": "SOSP",
     "area": "systems"

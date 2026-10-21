@@ -1,21 +1,21 @@
 overall:
-  github_repos: 2275
-  total_stars: 622295
-  total_forks: 121784
+  github_repos: 2307
+  total_stars: 624706
+  total_forks: 122301
   max_stars: 92979
   max_forks: 28454
-  zenodo_repos: 1296
-  total_views: 453704
-  total_downloads: 326585
-  avg_stars: 273.5
-  avg_forks: 53.5
+  zenodo_repos: 1339
+  total_views: 454472
+  total_downloads: 326819
+  avg_stars: 270.8
+  avg_forks: 53.0
   median_stars: 6
   median_forks: 1
   p25_stars: 1.0
   p75_stars: 23.0
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-10-18 16:22:47 UTC
+  last_updated: 2026-10-21 06:26:23 UTC
 by_conference:
 - name: ACSAC
   github_repos: 284
@@ -231,19 +231,19 @@ by_conference:
     - Jiangang Shu
     - Leo Yu Zhang
 - name: ATC
-  github_repos: 109
-  total_stars: 4902
-  total_forks: 870
-  avg_stars: 45.0
-  avg_forks: 8.0
-  median_stars: 10
+  github_repos: 141
+  total_stars: 7313
+  total_forks: 1387
+  avg_stars: 51.9
+  avg_forks: 9.8
+  median_stars: 7
   median_forks: 1
-  p25_stars: 3.0
-  p75_stars: 27.0
-  p25_forks: 1.0
-  p75_forks: 6.0
-  max_stars: 1728
-  max_forks: 225
+  p25_stars: 1.0
+  p75_stars: 23.0
+  p25_forks: 0.0
+  p75_forks: 4.5
+  max_stars: 2233
+  max_forks: 488
   years:
   - year: 2022
     github_repos: 38
@@ -281,7 +281,36 @@ by_conference:
     p75_stars: 22.0
     p25_forks: 0.0
     p75_forks: 2.0
+  - year: 2026
+    github_repos: 32
+    total_stars: 2411
+    total_forks: 517
+    avg_stars: 75.3
+    avg_forks: 16.2
+    median_stars: 0.0
+    median_forks: 0.0
+    p25_stars: 0.0
+    p75_stars: 1.0
+    p25_forks: 0.0
+    p75_forks: 0.0
   top_repos:
+  - title: 'Model-as-a-Service in the Wild: Characterizing Production LLM Inference
+      Clusters at Scale'
+    url: https://github.com/alibaba/clusterdata
+    conference: ATC
+    year: 2026
+    area: systems
+    stars: 2233
+    forks: 488
+    description: cluster data collected from production clusters in Alibaba for cluster
+      management research
+    language: Jupyter Notebook
+    name: alibaba/clusterdata
+    pushed_at: '2026-10-13T09:47:22Z'
+    badges:
+    - Available
+    - Functional
+    - Reproduced
   - title: 'Portunus: Re-imagining Access Control in Distributed Systems'
     url: https://github.com/cloudflare/circl/tree/main/abe/cpabe/tkn20
     conference: ATC
@@ -390,21 +419,6 @@ by_conference:
     - Zhen Zheng
     - Xiaoyong Liu
     - Wei Lin 0016
-  - title: MOSAIC Teaching Operating System Model and Checker
-    url: https://github.com/jiangyy/mosaic
-    conference: ATC
-    year: 2023
-    area: systems
-    stars: 217
-    forks: 19
-    description: The MOSAIC Operating Systems Model and Checker
-    language: Python
-    name: jiangyy/mosaic
-    pushed_at: '2023-05-08T17:06:49Z'
-    badges:
-    - available
-    - functional
-    - reproduced
 - name: CAIS
   github_repos: 16
   total_stars: 191
@@ -2371,28 +2385,28 @@ by_year:
   max_stars: 92979
   max_forks: 22835
 - year: 2026
-  github_repos: 371
-  total_stars: 16366
-  total_forks: 2293
-  avg_stars: 44.1
-  avg_forks: 6.2
+  github_repos: 403
+  total_stars: 18777
+  total_forks: 2810
+  avg_stars: 46.6
+  avg_forks: 7.0
   median_stars: 2
   median_forks: 0
   p25_stars: 0.0
-  p75_stars: 6.0
+  p75_stars: 5.0
   p25_forks: 0.0
   p75_forks: 1.0
   max_stars: 10717
   max_forks: 1288
 by_area:
 - name: systems
-  github_repos: 664
-  total_stars: 126445
-  total_forks: 18833
-  median_stars: 11.0
+  github_repos: 696
+  total_stars: 128856
+  total_forks: 19350
+  median_stars: 10.0
   median_forks: 2.0
   p25_stars: 3.0
-  p75_stars: 37.0
+  p75_stars: 34.8
   p25_forks: 0.0
   p75_forks: 7.0
   max_stars: 19614

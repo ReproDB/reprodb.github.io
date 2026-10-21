@@ -3534,6 +3534,996 @@
     "award": null
   },
   {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "AutoTailor: Automatic and Efficient Adaptive Model Deployment for Diverse Edge Devices",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22984628",
+      "https://github.com/liu-mengyang/AutoTailor"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22984628",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Boomslang: A Modular Framework for Database Transaction Isolation Checking",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23203856",
+      "https://github.com/winddd/SOSH"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23203856",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "CacheSched: Efficient LLM Request Scheduling for Hierarchical Prefix Caching",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23205571"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23205571",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Chameleon: Adaptive Memory Overcommitment for Disaggregated Virtual Machines",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23093805",
+      "https://github.com/ICTPLSys/Chameleon-ATC"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23093805",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "DeltaBox: Millisecond-Scale Sandbox Checkpoint and Rollback for Stateful AI Agents",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23202153",
+      "https://github.com/delta-box/delta-box-ae"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23202153",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Detecting API Misuses Across Context Boundaries in Linux Kernel Drivers",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23205620"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23205620",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "DiGiT: Co-Designing GNN Algorithms and Storage I/O for Out-of-Core Training Acceleration",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23227584",
+      "https://github.com/starry12/DiGiT"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23227584",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Dynamic Analysis of Unsafe Rust: Behaviors and Benchmarks",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.18420987"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.18420987",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22910959"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22910959",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "EntangledEdge: A Distributed System for Orbital Quantum Sensing and Learning",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22909579"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22909579",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Faastion: Elastic and Scalable Native Library Isolation for High-Density Serverless Platforms",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23351569",
+      "https://github.com/cloudsys-dpss-inescid/faastion"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23351569",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "FLASH: Fault-Led, Attested, Secure Hybrid-Key Checkpoint for Confidential GPU",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23199897",
+      "https://github.com/jonghyunL/artifact_flash"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23199897",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "fRAC: Remote Accelerator Calls on FPGAs",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23200153",
+      "https://github.com/accl-kaust/frac-atc-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23200153",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "GPipeANN: Taming Throughput-Latency Tradeoff in GPU-SSD ANNS",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23074357",
+      "https://github.com/ruc-system/quiver-ae"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23074357",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22982680",
+      "https://github.com/Zeyu-ZEYU/HACK"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22982680",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "HeapLENS: Heap Layout Evaluation &#38; Navigation Suite",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23206285",
+      "https://github.com/trbot86/heaplens-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23206285",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "IBTpoline: Flexible, Robust, and Intel IBT-compliant System Call Hooking",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23201689"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23201689",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Janus: Practical Load Balancing for Confidential Cloud Services",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23240477",
+      "https://github.com/Nokia-Bell-Labs/load-balancing-for-confidential-cloud-services"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23240477",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "LifeSketch: Lifecycle-aware Active Flow Counting on Programmable Switches",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23201840",
+      "https://github.com/duyang92/lifesketch-paper"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23201840",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "MBCheck: Practical Static Analysis Framework for Detecting Memory Ordering Violations under WMM",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22909905",
+      "https://github.com/ssrg-vt/mbcheck"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22909905",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Model-as-a-Service in the Wild: Characterizing Production LLM Inference Clusters at Scale",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23217994",
+      "https://github.com/alibaba/clusterdata"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23217994",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Mosaic: Efficient CPU–GPU Coordinated Block-Sparse Attention for Long-Context Decoding",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23201742",
+      "https://github.com/optiq-lab/Mosaic"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23201742",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Premature Hardware Binding is the Root of all Evil! Making Serverless Performance-Portable with Lazy Hardware Binding",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23319839",
+      "https://github.com/cloudsys-dpss-inescid/mosaic"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23319839",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23134685",
+      "https://github.com/muse-research-lab/rps-serve"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23134685",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "SplineFS: Adaptive Learned Directory Indexing for Memory-Constrained Filesystems",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23203474",
+      "https://github.com/TELOS-syslab/SplineFS-AE"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23203474",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Starfish: Fault-Tolerant Far Memory with Low Resource and Performance Overhead",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23062383",
+      "https://github.com/ICTPLSys/Starfish"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23062383",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "SubSan: Efficient Memory Error Detection via Subtraction Checks",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23201930",
+      "https://github.com/cslab-pnu/SubSan"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23201930",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "SwiftBaton: Dependency-Aware Staged Reconstruction for Live Migration of Stateful Containers",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23203332"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23203332",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "TensorBridge: Bridging Microscaled FP4 Weights to FP8 Tensor Cores for LLM Serving",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23045885",
+      "https://github.com/revollllt/atc26-tensorbridge"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23045885",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "The GPU Changes Everything: Rethinking GPU I/O Stack at Massive Scale",
+    "badges": [
+      "Available",
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23270957",
+      "https://github.com/ScaleXLab/ATC26-ShaperIO"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23270957",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "BPF-Ext: Safely Extending the eBPF Compilation Pipeline with Native Operations",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22907396",
+      "https://github.com/eunomia-bpf/bpf-benchmark"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22907396",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Breaking Host-Wide Blocking: Boundary-Closure SCSI Error Handling",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23200821"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23200821",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "CacheFS: Peer-to-Peer Cooperative Caching for LLM Weight Distribution at Cloud Scale",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23167350",
+      "https://github.com/gnehzuil/cachefs-atc26-ae"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23167350",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "EBFuzz: Breaking Hidden Structural Assumptions in Compilers via Extended Assembly Injection",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23242185"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23242185",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23220089",
+      "https://github.com/thustorage/RoundPipe"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23220089",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "EvoFuzz: IR-Aware Fuzzing for JIT Compilers through the Lens of Node Evolution",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23212119",
+      "https://github.com/SunParis/EvoFuzz-AE"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23212119",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "FDP-Rocks: An Effective Use Case of FDP in RocksDB",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.22885948",
+      "https://github.com/strivesnail/FDP-rocks"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.22885948",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "FM2: Fast Live VM Migration in CXL Memory Pools",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23147401",
+      "https://github.com/jonggyup/FM2"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23147401",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Lightweight Memory Tracing via General Binary Analysis and Offline Reconstruction",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23424873",
+      "https://github.com/ptraceratc-boop/ptracer-artifact"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23424873",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "OpenNetLab: An Open Platform for AI-Based Bandwidth Estimation in Real-Time Communications",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23253574"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23253574",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Rattan: An Extensible and Scalable Modular Internet Path Emulator",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23267892",
+      "https://github.com/stack-rs/rattan"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23267892",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Sharing is caring: Attestable and Trusted Cloud Pipelines out of Distrustful Components",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23208984",
+      "https://github.com/c3infer/c3infer"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23208984",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Spectra: Bandwidth-Faithful Data Placement for Tiered Memory",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23203301",
+      "https://github.com/zelenyaz/spectra"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23203301",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Storage Evolution for Exascale Supercomputers: Lessons from Sunway TaihuLight to OceanLight",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23201065"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23201065",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Understanding and Detecting Performance Regressions in Modern Open-Source Server Applications",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23265238"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23265238",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "UniSketch: A Unified Sketch for Efficient General Flow Spread Measurement",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23120734"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23120734",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "Zswap Boost: Accelerating Transparent Memory Compression in the Cloud",
+    "badges": [
+      "Available",
+      "Functional"
+    ],
+    "artifact_urls": [
+      "https://doi.org/10.5281/zenodo.23221535"
+    ],
+    "artifinder_urls": [],
+    "doi": "10.5281/zenodo.23221535",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "DAG-KV: DAG-Guided KV Propagation for Structure-Aware Knowledge Reuse",
+    "badges": [
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
+    "conference": "ATC",
+    "category": "systems",
+    "year": 2026,
+    "title": "RS-Infer: A Fast and Secure LLM Inference System for Mobile Devices with Recallable Resource Isolation",
+    "badges": [
+      "Functional",
+      "Reproduced"
+    ],
+    "artifact_urls": [],
+    "artifinder_urls": [],
+    "doi": "",
+    "paper_url": null,
+    "appendix_url": null,
+    "paper_id": null,
+    "award": null
+  },
+  {
     "conference": "CAIS",
     "category": "systems",
     "year": 2026,

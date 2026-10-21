@@ -60,7 +60,7 @@
 - name: ATC
   category: systems
   venue_type: conference
-  total_artifacts: 187
+  total_artifacts: 236
   years:
   - year: 2022
     total: 51
@@ -85,6 +85,12 @@
     functional: 43
     reproducible: 35
     available: 45
+    reusable: 0
+  - year: 2026
+    total: 49
+    functional: 49
+    reproducible: 32
+    available: 47
     reusable: 0
 - name: CAIS
   category: systems

@@ -1,13 +1,13 @@
-last_updated: '2026-10-18'
-total_members: 4913
-total_systems: 2464
+last_updated: '2026-10-21'
+total_members: 4914
+total_systems: 2465
 total_security: 2449
 total_conferences: 72
 total_countries: 57
 total_continents: 6
 total_institutions: 498
-unique_members: 2732
-unique_members_systems: 1318
+unique_members: 2733
+unique_members_systems: 1319
 unique_members_security: 1525
 unique_members_both: 111
 recurring_chairs: 85
@@ -19,7 +19,7 @@ top_countries:
 - name: Germany
   count: 284
 - name: Hong Kong
-  count: 217
+  count: 218
 - name: United Kingdom
   count: 113
 - name: Switzerland
@@ -48,7 +48,7 @@ top_countries_systems:
 - name: China
   count: 343
 - name: Hong Kong
-  count: 142
+  count: 143
 - name: United Kingdom
   count: 59
 - name: Switzerland
@@ -108,7 +108,7 @@ top_continents:
 - name: North America
   count: 2515
 - name: Asia
-  count: 953
+  count: 954
 - name: Europe
   count: 927
 - name: Oceania
@@ -121,7 +121,7 @@ top_continents_systems:
 - name: North America
   count: 1390
 - name: Asia
-  count: 604
+  count: 605
 - name: Europe
   count: 294
 - name: Oceania
@@ -169,7 +169,7 @@ top_institutions:
 - name: University of Utah
   count: 59
 - name: Chinese University of Hong Kong
-  count: 56
+  count: 57
 - name: microsoft
   count: 51
 - name: University of California, Berkeley
@@ -195,10 +195,10 @@ top_institutions_systems:
   count: 57
 - name: Purdue University
   count: 55
+- name: Chinese University of Hong Kong
+  count: 48
 - name: Georgia Institute of Technology
   count: 48
-- name: Chinese University of Hong Kong
-  count: 47
 - name: Carnegie Mellon University
   count: 44
 - name: The Hong Kong University of Science and Technology
@@ -371,7 +371,7 @@ committee_sizes:
   year: 2026
   conf_year: atc2026
   area: systems
-  size: 71
+  size: 72
 - conference: CAIS
   year: 2026
   conf_year: cais2026

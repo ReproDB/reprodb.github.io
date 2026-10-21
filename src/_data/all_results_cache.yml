@@ -622,6 +622,266 @@ atc2025:
 - title: 'μEFI: A Microkernel-Style UEFI with Isolation and Transparency'
   paper_url: https://www.usenix.org/system/files/atc25-chen-le.pdf
   badges: available,functional,reproduced
+atc2026:
+- title: 'AutoTailor: Automatic and Efficient Adaptive Model Deployment for Diverse
+    Edge Devices'
+  artifact_url: https://doi.org/10.5281/zenodo.22984628
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22984628
+- title: 'Boomslang: A Modular Framework for Database Transaction Isolation Checking'
+  artifact_url: https://doi.org/10.5281/zenodo.23203856
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23203856
+- title: 'CacheSched: Efficient LLM Request Scheduling for Hierarchical Prefix Caching'
+  artifact_url: https://doi.org/10.5281/zenodo.23205571
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23205571
+- title: 'Chameleon: Adaptive Memory Overcommitment for Disaggregated Virtual Machines'
+  artifact_url: https://doi.org/10.5281/zenodo.23093805
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23093805
+- title: 'DeltaBox: Millisecond-Scale Sandbox Checkpoint and Rollback for Stateful
+    AI Agents'
+  artifact_url: https://doi.org/10.5281/zenodo.23202153
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23202153
+- title: Detecting API Misuses Across Context Boundaries in Linux Kernel Drivers
+  artifact_url: https://doi.org/10.5281/zenodo.23205620
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23205620
+- title: 'DiGiT: Co-Designing GNN Algorithms and Storage I/O for Out-of-Core Training
+    Acceleration'
+  artifact_url: https://doi.org/10.5281/zenodo.23227584
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23227584
+- title: 'Dynamic Analysis of Unsafe Rust: Behaviors and Benchmarks'
+  artifact_url: https://doi.org/10.5281/zenodo.18420987
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.18420987
+- title: 'ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving'
+  artifact_url: https://doi.org/10.5281/zenodo.22910959
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22910959
+- title: 'EntangledEdge: A Distributed System for Orbital Quantum Sensing and Learning'
+  artifact_url: https://doi.org/10.5281/zenodo.22909579
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22909579
+- title: 'Faastion: Elastic and Scalable Native Library Isolation for High-Density
+    Serverless Platforms'
+  artifact_url: https://doi.org/10.5281/zenodo.23351569
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23351569
+- title: 'FLASH: Fault-Led, Attested, Secure Hybrid-Key Checkpoint for Confidential
+    GPU'
+  artifact_url: https://doi.org/10.5281/zenodo.23199897
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23199897
+- title: 'fRAC: Remote Accelerator Calls on FPGAs'
+  artifact_url: https://doi.org/10.5281/zenodo.23200153
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23200153
+- title: 'GPipeANN: Taming Throughput-Latency Tradeoff in GPU-SSD ANNS'
+  artifact_url: https://doi.org/10.5281/zenodo.23074357
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23074357
+- title: 'HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for
+    Disaggregated LLM Inference'
+  artifact_url: https://doi.org/10.5281/zenodo.22982680
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22982680
+- title: 'HeapLENS: Heap Layout Evaluation &#38; Navigation Suite'
+  artifact_url: https://doi.org/10.5281/zenodo.23206285
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23206285
+- title: 'IBTpoline: Flexible, Robust, and Intel IBT-compliant System Call Hooking'
+  artifact_url: https://doi.org/10.5281/zenodo.23201689
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23201689
+- title: 'Janus: Practical Load Balancing for Confidential Cloud Services'
+  artifact_url: https://doi.org/10.5281/zenodo.23240477
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23240477
+- title: 'LifeSketch: Lifecycle-aware Active Flow Counting on Programmable Switches'
+  artifact_url: https://doi.org/10.5281/zenodo.23201840
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23201840
+- title: 'MBCheck: Practical Static Analysis Framework for Detecting Memory Ordering
+    Violations under WMM'
+  artifact_url: https://doi.org/10.5281/zenodo.22909905
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22909905
+- title: 'Model-as-a-Service in the Wild: Characterizing Production LLM Inference
+    Clusters at Scale'
+  artifact_url: https://doi.org/10.5281/zenodo.23217994
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23217994
+- title: 'Mosaic: Efficient CPU–GPU Coordinated Block-Sparse Attention for Long-Context
+    Decoding'
+  artifact_url: https://doi.org/10.5281/zenodo.23201742
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23201742
+- title: Premature Hardware Binding is the Root of all Evil! Making Serverless Performance-Portable
+    with Lazy Hardware Binding
+  artifact_url: https://doi.org/10.5281/zenodo.23319839
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23319839
+- title: 'Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large
+    Language Model Inference'
+  artifact_url: https://doi.org/10.5281/zenodo.23134685
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23134685
+- title: 'SplineFS: Adaptive Learned Directory Indexing for Memory-Constrained Filesystems'
+  artifact_url: https://doi.org/10.5281/zenodo.23203474
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23203474
+- title: 'Starfish: Fault-Tolerant Far Memory with Low Resource and Performance Overhead'
+  artifact_url: https://doi.org/10.5281/zenodo.23062383
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23062383
+- title: 'SubSan: Efficient Memory Error Detection via Subtraction Checks'
+  artifact_url: https://doi.org/10.5281/zenodo.23201930
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23201930
+- title: 'SwiftBaton: Dependency-Aware Staged Reconstruction for Live Migration of
+    Stateful Containers'
+  artifact_url: https://doi.org/10.5281/zenodo.23203332
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23203332
+- title: 'TensorBridge: Bridging Microscaled FP4 Weights to FP8 Tensor Cores for LLM
+    Serving'
+  artifact_url: https://doi.org/10.5281/zenodo.23045885
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23045885
+- title: 'The GPU Changes Everything: Rethinking GPU I/O Stack at Massive Scale'
+  artifact_url: https://doi.org/10.5281/zenodo.23270957
+  badges: Available, Functional, Reproduced
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23270957
+- title: 'BPF-Ext: Safely Extending the eBPF Compilation Pipeline with Native Operations'
+  artifact_url: https://doi.org/10.5281/zenodo.22907396
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22907396
+- title: 'Breaking Host-Wide Blocking: Boundary-Closure SCSI Error Handling'
+  artifact_url: https://doi.org/10.5281/zenodo.23200821
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23200821
+- title: 'CacheFS: Peer-to-Peer Cooperative Caching for LLM Weight Distribution at
+    Cloud Scale'
+  artifact_url: https://doi.org/10.5281/zenodo.23167350
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23167350
+- title: 'EBFuzz: Breaking Hidden Structural Assumptions in Compilers via Extended
+    Assembly Injection'
+  artifact_url: https://doi.org/10.5281/zenodo.23242185
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23242185
+- title: Efficient Training on Multiple Consumer GPUs with RoundPipe
+  badges: Available, Functional
+  artifact_url: https://doi.org/10.5281/zenodo.23220089
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23220089
+- title: 'EvoFuzz: IR-Aware Fuzzing for JIT Compilers through the Lens of Node Evolution'
+  artifact_url: https://doi.org/10.5281/zenodo.23212119
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23212119
+- title: 'FDP-Rocks: An Effective Use Case of FDP in RocksDB'
+  artifact_url: https://doi.org/10.5281/zenodo.22885948
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.22885948
+- title: 'FM2: Fast Live VM Migration in CXL Memory Pools'
+  artifact_url: https://doi.org/10.5281/zenodo.23147401
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23147401
+- title: Lightweight Memory Tracing via General Binary Analysis and Offline Reconstruction
+  artifact_url: https://doi.org/10.5281/zenodo.23424873
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23424873
+- title: 'OpenNetLab: An Open Platform for AI-Based Bandwidth Estimation in Real-Time
+    Communications'
+  artifact_url: https://doi.org/10.5281/zenodo.23253574
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23253574
+- title: 'Rattan: An Extensible and Scalable Modular Internet Path Emulator'
+  artifact_url: https://doi.org/10.5281/zenodo.23267892
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23267892
+- title: 'Sharing is caring: Attestable and Trusted Cloud Pipelines out of Distrustful
+    Components'
+  artifact_url: https://doi.org/10.5281/zenodo.23208984
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23208984
+- title: 'Spectra: Bandwidth-Faithful Data Placement for Tiered Memory'
+  artifact_url: https://doi.org/10.5281/zenodo.23203301
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23203301
+- title: 'Storage Evolution for Exascale Supercomputers: Lessons from Sunway TaihuLight
+    to OceanLight'
+  artifact_url: https://doi.org/10.5281/zenodo.23201065
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23201065
+- title: Understanding and Detecting Performance Regressions in Modern Open-Source
+    Server Applications
+  artifact_url: https://doi.org/10.5281/zenodo.23265238
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23265238
+- title: 'UniSketch: A Unified Sketch for Efficient General Flow Spread Measurement'
+  artifact_url: https://doi.org/10.5281/zenodo.23120734
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23120734
+- title: 'Zswap Boost: Accelerating Transparent Memory Compression in the Cloud'
+  artifact_url: https://doi.org/10.5281/zenodo.23221535
+  badges: Available, Functional
+  artifact_urls:
+  - https://doi.org/10.5281/zenodo.23221535
+- title: 'DAG-KV: DAG-Guided KV Propagation for Structure-Aware Knowledge Reuse'
+  badges: Functional, Reproduced
+- title: 'RS-Infer: A Fast and Secure LLM Inference System for Mobile Devices with
+    Recallable Resource Isolation'
+  badges: Functional, Reproduced
 cais2026:
 - title: 'AI Realtor: Towards Grounded Persuasive Language Generation for Automated
     Copywriting'
