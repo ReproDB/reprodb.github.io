@@ -1155,41 +1155,6 @@
     "scope": null
   },
   {
-    "affiliation": "Stony Brook University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 27,
-    "artifact_score": 15,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 1.25,
-    "role": "Balanced",
-    "artifact_count": 5,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_pct": 100.0,
-    "author_count": 7,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 4,
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 3,
-      "2020": 0,
-      "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Utah",
     "country": "United States",
     "country_code": "US",
@@ -1251,6 +1216,41 @@
       "2021": 1,
       "2020": 0,
       "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 24,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifact_count": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_pct": 100.0,
+    "author_count": 6,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 4,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 2,
+      "2020": 0,
+      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -5246,6 +5246,41 @@
     "affiliation": "Nokia Bell Labs",
     "country": null,
     "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 1,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Univ. of Maryland - College Park",
+    "country": "United States",
+    "country_code": "US",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

@@ -766,46 +766,6 @@
     "scope": null
   },
   {
-    "affiliation": "Stony Brook University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 172,
-    "artifact_score": 100,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 72,
-    "ae_ratio": 1.39,
-    "role": "Balanced",
-    "artifact_count": 36,
-    "badges_functional": 34,
-    "badges_reproducible": 30,
-    "ae_memberships": 24,
-    "chair_count": 0,
-    "total_papers": 53,
-    "artifact_pct": 67.9,
-    "author_count": 30,
-    "conferences": [
-      "ATC",
-      "CAIS",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2026": 5,
-      "2025": 8,
-      "2024": 8,
-      "2023": 10,
-      "2022": 14,
-      "2021": 7,
-      "2020": 5,
-      "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Massachusetts Institute of Technology",
     "country": "United States",
     "country_code": "US",
@@ -841,6 +801,46 @@
       "2021": 13,
       "2020": 9,
       "2019": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 161,
+    "artifact_score": 89,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 72,
+    "ae_ratio": 1.24,
+    "role": "Balanced",
+    "artifact_count": 32,
+    "badges_functional": 30,
+    "badges_reproducible": 27,
+    "ae_memberships": 24,
+    "chair_count": 0,
+    "total_papers": 47,
+    "artifact_pct": 68.1,
+    "author_count": 29,
+    "conferences": [
+      "ATC",
+      "CAIS",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 5,
+      "2025": 7,
+      "2024": 8,
+      "2023": 10,
+      "2022": 13,
+      "2021": 5,
+      "2020": 5,
+      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -1796,45 +1796,6 @@
     "scope": null
   },
   {
-    "affiliation": "IIT Bombay",
-    "country": "India",
-    "country_code": "IN",
-    "combined_score": 99,
-    "artifact_score": 69,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 30,
-    "ae_ratio": 2.3,
-    "role": "Producer",
-    "artifact_count": 25,
-    "badges_functional": 24,
-    "badges_reproducible": 20,
-    "ae_memberships": 10,
-    "chair_count": 0,
-    "total_papers": 43,
-    "artifact_pct": 58.1,
-    "author_count": 11,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "SC",
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 3,
-      "2024": 6,
-      "2023": 7,
-      "2022": 7,
-      "2021": 8,
-      "2020": 1,
-      "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "New York University",
     "country": "United States",
     "country_code": "US",
@@ -1910,6 +1871,45 @@
       "2021": 5,
       "2020": 2,
       "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "IIT Bombay",
+    "country": "India",
+    "country_code": "IN",
+    "combined_score": 96,
+    "artifact_score": 66,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 30,
+    "ae_ratio": 2.2,
+    "role": "Producer",
+    "artifact_count": 24,
+    "badges_functional": 23,
+    "badges_reproducible": 19,
+    "ae_memberships": 10,
+    "chair_count": 0,
+    "total_papers": 38,
+    "artifact_pct": 63.2,
+    "author_count": 10,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI",
+      "SC",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 3,
+      "2024": 6,
+      "2023": 7,
+      "2022": 7,
+      "2021": 7,
+      "2020": 1,
+      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -2033,6 +2033,45 @@
     "scope": null
   },
   {
+    "affiliation": "HUST",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 85,
+    "artifact_score": 85,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 35,
+    "badges_functional": 28,
+    "badges_reproducible": 22,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 74,
+    "artifact_pct": 47.3,
+    "author_count": 13,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "SC",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 14,
+      "2024": 4,
+      "2023": 3,
+      "2022": 0,
+      "2021": 14,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Technical University of Munich",
     "country": "Poland",
     "country_code": "PL",
@@ -2104,45 +2143,6 @@
       "2023": 2,
       "2022": 10,
       "2021": 2,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "HUST",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 82,
-    "artifact_score": 82,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 34,
-    "badges_functional": 27,
-    "badges_reproducible": 21,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 69,
-    "artifact_pct": 49.3,
-    "author_count": 12,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "SC",
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 14,
-      "2024": 4,
-      "2023": 3,
-      "2022": 0,
-      "2021": 13,
       "2020": 0,
       "2019": 0
     },
@@ -7031,6 +7031,43 @@
       "2021": 1,
       "2022": 1,
       "2024": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Univ. of Maryland - College Park",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 14,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 4,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 7,
+    "artifact_pct": 71.4,
+    "author_count": 2,
+    "conferences": [
+      "FAST",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 1,
+      "2023": 0,
+      "2022": 1,
+      "2021": 2,
+      "2020": 0,
+      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -15935,41 +15972,6 @@
     "author_count": 1,
     "conferences": [
       "EUROSYS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Univ. of Maryland - College Park",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 1,
-    "conferences": [
-      "FAST"
     ],
     "years": {
       "2026": 0,
