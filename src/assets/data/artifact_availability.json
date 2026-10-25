@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-10-25 16:20:48 UTC",
+    "checked_at": "2026-10-25 20:14:25 UTC",
     "total_urls": 3274,
-    "accessible_urls": 3178,
+    "accessible_urls": 3179,
     "accessibility_pct": 97.1,
     "by_platform": {
       "Bitbucket": {
@@ -32,7 +32,7 @@
       },
       "Zenodo": {
         "total": 1325,
-        "accessible": 1310,
+        "accessible": 1311,
         "pct": 98.9
       },
       "other": {
@@ -49,8 +49,8 @@
       },
       "systems": {
         "total": 870,
-        "accessible": 832,
-        "pct": 95.6
+        "accessible": 833,
+        "pct": 95.7
       }
     },
     "by_year": {
@@ -101,8 +101,8 @@
       },
       "2026": {
         "total": 817,
-        "accessible": 808,
-        "pct": 98.9
+        "accessible": 809,
+        "pct": 99.0
       }
     },
     "by_year_area": {
@@ -207,8 +207,8 @@
         },
         "systems": {
           "total": 161,
-          "accessible": 156,
-          "pct": 96.9
+          "accessible": 157,
+          "pct": 97.5
         }
       }
     },
@@ -509,8 +509,8 @@
         },
         "Zenodo": {
           "total": 608,
-          "accessible": 601,
-          "pct": 98.8
+          "accessible": 602,
+          "pct": 99.0
         },
         "other": {
           "total": 14,
@@ -527,8 +527,8 @@
       },
       "ATC": {
         "total": 182,
-        "accessible": 168,
-        "pct": 92.3
+        "accessible": 169,
+        "pct": 92.9
       },
       "CAIS": {
         "total": 20,
@@ -2029,9 +2029,9 @@
       "area": "systems",
       "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
       "url_key": "artifact_url",
-      "url": "https://doi.org/10.5281/zenodo.22910959",
+      "url": "https://doi.org/10.5281/zenodo.23310788",
       "platform": "Zenodo",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "ATC",
