@@ -1,15 +1,15 @@
 {
   "summary": {
-    "total_chairs": 144,
+    "total_chairs": 145,
     "total_chairs_systems": 115,
-    "total_chairs_security": 31,
-    "repeat_chairs": 24,
-    "repeat_chairs_pct": 16.7,
+    "total_chairs_security": 32,
+    "repeat_chairs": 25,
+    "repeat_chairs_pct": 17.2,
     "repeat_chairs_systems": 13,
-    "repeat_chairs_security": 12,
+    "repeat_chairs_security": 13,
     "cross_conference_chairs": 14,
     "pipeline_promoted": 61,
-    "pipeline_promoted_pct": 42.4,
+    "pipeline_promoted_pct": 42.1,
     "pipeline_avg_years": 1.9,
     "avg_chairs_per_edition": 3.2,
     "avg_chairs_per_edition_systems": 4.6,
@@ -69,8 +69,8 @@
       },
       {
         "year": 2027,
-        "new_chairs": 60,
-        "active_chairs": 61
+        "new_chairs": 61,
+        "active_chairs": 64
       }
     ]
   },
@@ -611,6 +611,16 @@
       ]
     },
     {
+      "conference": "USENIXSEC",
+      "year": 2027,
+      "chair_count": 3,
+      "chairs": [
+        "Christian Wressnegger",
+        "Clement Fung",
+        "Tiago Heinrich"
+      ]
+    },
+    {
       "conference": "VEHICLESEC",
       "year": 2026,
       "chair_count": 2,
@@ -647,7 +657,7 @@
   ],
   "pipeline": {
     "promoted_count": 61,
-    "promoted_pct": 42.4,
+    "promoted_pct": 42.1,
     "avg_years_to_chair": 1.9,
     "min_years": 1,
     "max_years": 9,
@@ -1021,26 +1031,26 @@
     ]
   },
   "retention": {
-    "repeat_count": 24,
+    "repeat_count": 25,
     "distribution": {
       "1": 120,
       "2": 17,
-      "3": 4,
+      "3": 5,
       "4": 2,
       "5": 1
     },
     "tenure_spans": [
       {
+        "name": "Christian Wressnegger",
+        "span_years": 11,
+        "chair_count": 2,
+        "first_year": 2017,
+        "last_year": 2027
+      },
+      {
         "name": "Manuel Egele",
         "span_years": 10,
         "chair_count": 3,
-        "first_year": 2017,
-        "last_year": 2026
-      },
-      {
-        "name": "Christian Wressnegger",
-        "span_years": 10,
-        "chair_count": 1,
         "first_year": 2017,
         "last_year": 2026
       },
@@ -1115,6 +1125,13 @@
         "last_year": 2024
       },
       {
+        "name": "Tiago Heinrich",
+        "span_years": 5,
+        "chair_count": 3,
+        "first_year": 2023,
+        "last_year": 2027
+      },
+      {
         "name": "Huaicheng Li",
         "span_years": 5,
         "chair_count": 2,
@@ -1148,13 +1165,6 @@
         "chair_count": 2,
         "first_year": 2022,
         "last_year": 2025
-      },
-      {
-        "name": "Tiago Heinrich",
-        "span_years": 4,
-        "chair_count": 2,
-        "first_year": 2023,
-        "last_year": 2026
       },
       {
         "name": "Gianluca Stringhini",
@@ -1645,6 +1655,13 @@
         "chair_count": 1,
         "first_year": 2025,
         "last_year": 2025
+      },
+      {
+        "name": "Clement Fung",
+        "span_years": 1,
+        "chair_count": 1,
+        "first_year": 2027,
+        "last_year": 2027
       },
       {
         "name": "Dan Ports",
@@ -2174,7 +2191,7 @@
     "total_countries": 19,
     "total_continents": 5,
     "by_country": {
-      "United States": 59,
+      "United States": 60,
       "China": 13,
       "Switzerland": 6,
       "Germany": 6,
@@ -2195,7 +2212,7 @@
       "Sweden": 1
     },
     "by_continent": {
-      "North America": 61,
+      "North America": 62,
       "Europe": 36,
       "Asia": 16,
       "Oceania": 1,

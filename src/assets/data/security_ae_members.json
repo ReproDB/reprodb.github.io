@@ -5,8 +5,8 @@
     "affiliation": "Karlsruhe Inst. of Technology",
     "country": "Germany",
     "continent": "Europe",
-    "total_memberships": 10,
-    "chair_count": 1,
+    "total_memberships": 11,
+    "chair_count": 2,
     "conferences": [
       {
         "conference": "ACSAC",
@@ -54,6 +54,11 @@
         "role": "chair"
       },
       {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
         "conference": "WOOT",
         "year": 2019,
         "role": "member"
@@ -67,10 +72,11 @@
       "2020": 2,
       "2021": 2,
       "2022": 1,
-      "2026": 1
+      "2026": 1,
+      "2027": 1
     },
     "first_year": 2017,
-    "last_year": 2026
+    "last_year": 2027
   },
   {
     "name": "Amit Samanta",
@@ -1073,6 +1079,52 @@
       "2027": 1
     },
     "first_year": 2025,
+    "last_year": 2027
+  },
+  {
+    "name": "Tiago Heinrich",
+    "display_name": "Tiago Heinrich",
+    "affiliation": "Max Planck Society",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 5,
+    "chair_count": 3,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2023,
     "last_year": 2027
   },
   {
@@ -2318,46 +2370,6 @@
     },
     "first_year": 2019,
     "last_year": 2025
-  },
-  {
-    "name": "Tiago Heinrich",
-    "display_name": "Tiago Heinrich",
-    "affiliation": "Max Planck Society",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 4,
-    "chair_count": 2,
-    "conferences": [
-      {
-        "conference": "USENIXSEC",
-        "year": 2023,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 1,
-      "2026": 1
-    },
-    "first_year": 2023,
-    "last_year": 2026
   },
   {
     "name": "Marton Bognar",
@@ -16367,6 +16379,28 @@
     },
     "first_year": 2020,
     "last_year": 2020
+  },
+  {
+    "name": "Clement Fung",
+    "display_name": "Clement Fung",
+    "affiliation": "Univ. of Maryland - Baltimore County",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027
   },
   {
     "name": "Deepak Kumar",

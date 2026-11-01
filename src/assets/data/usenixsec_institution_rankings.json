@@ -170,6 +170,41 @@
     "scope": null
   },
   {
+    "affiliation": "Max Planck Society",
+    "country": "Germany",
+    "country_code": "DE",
+    "combined_score": 136,
+    "artifact_score": 66,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 70,
+    "ae_ratio": 0.94,
+    "role": "Balanced",
+    "artifact_count": 27,
+    "badges_functional": 21,
+    "badges_reproducible": 18,
+    "ae_memberships": 20,
+    "chair_count": 5,
+    "total_papers": 41,
+    "artifact_pct": 65.9,
+    "author_count": 20,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 5,
+      "2025": 14,
+      "2024": 7,
+      "2023": 9,
+      "2022": 8,
+      "2021": 2,
+      "2020": 1,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Zhejiang University",
     "country": "China",
     "country_code": "CN",
@@ -199,40 +234,6 @@
       "2022": 2,
       "2021": 0,
       "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Max Planck Society",
-    "country": "Germany",
-    "country_code": "DE",
-    "combined_score": 131,
-    "artifact_score": 66,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 65,
-    "ae_ratio": 1.02,
-    "role": "Balanced",
-    "artifact_count": 27,
-    "badges_functional": 21,
-    "badges_reproducible": 18,
-    "ae_memberships": 19,
-    "chair_count": 4,
-    "total_papers": 41,
-    "artifact_pct": 65.9,
-    "author_count": 20,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 5,
-      "2025": 14,
-      "2024": 7,
-      "2023": 9,
-      "2022": 8,
-      "2021": 2,
-      "2020": 1
     },
     "top_authors": [],
     "scope": null
@@ -4040,6 +4041,37 @@
     "scope": null
   },
   {
+    "affiliation": "Karlsruhe Inst. of Technology",
+    "country": "Germany",
+    "country_code": "DE",
+    "combined_score": 16,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 16,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 4,
+    "chair_count": 2,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2020": 1,
+      "2021": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Massachusetts Lowell",
     "country": "United States",
     "country_code": "US",
@@ -5499,36 +5531,6 @@
     "years": {
       "2026": 1,
       "2025": 3
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Karlsruhe Inst. of Technology",
-    "country": "Germany",
-    "country_code": "DE",
-    "combined_score": 11,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 11,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 1,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2020": 1,
-      "2021": 1,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -10070,6 +10072,34 @@
       "2022": 0,
       "2021": 0,
       "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Univ. of Maryland - Baltimore County",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 5,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 5,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 1,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2027": 1
     },
     "top_authors": [],
     "scope": null

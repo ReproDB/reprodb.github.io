@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_members": 4973,
+    "total_members": 4976,
     "total_systems": 2524,
-    "total_security": 2449,
+    "total_security": 2452,
     "total_countries": 57,
     "total_continents": 6,
     "total_institutions": 500
@@ -11,7 +11,7 @@
     "overall": [
       {
         "name": "United States",
-        "count": 2454
+        "count": 2455
       },
       {
         "name": "China",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Germany",
-        "count": 284
+        "count": 286
       },
       {
         "name": "Hong Kong",
@@ -411,11 +411,11 @@
     "security": [
       {
         "name": "United States",
-        "count": 1076
+        "count": 1077
       },
       {
         "name": "Germany",
-        "count": 249
+        "count": 251
       },
       {
         "name": "China",
@@ -595,7 +595,7 @@
     "overall": [
       {
         "name": "North America",
-        "count": 2535
+        "count": 2536
       },
       {
         "name": "Asia",
@@ -603,7 +603,7 @@
       },
       {
         "name": "Europe",
-        "count": 930
+        "count": 932
       },
       {
         "name": "Oceania",
@@ -647,11 +647,11 @@
     "security": [
       {
         "name": "North America",
-        "count": 1125
+        "count": 1126
       },
       {
         "name": "Europe",
-        "count": 633
+        "count": 635
       },
       {
         "name": "Asia",
@@ -710,12 +710,12 @@
         "count": 66
       },
       {
-        "name": "University of Michigan",
+        "name": "Carnegie Mellon University",
         "count": 64
       },
       {
-        "name": "Carnegie Mellon University",
-        "count": 63
+        "name": "University of Michigan",
+        "count": 64
       },
       {
         "name": "University of Utah",
@@ -771,7 +771,7 @@
       },
       {
         "name": "Max Planck Society",
-        "count": 36
+        "count": 37
       },
       {
         "name": "Stony Brook University",
@@ -866,6 +866,10 @@
         "count": 26
       },
       {
+        "name": "Karlsruhe Inst. of Technology",
+        "count": 26
+      },
+      {
         "name": "The Hong Kong Polytechnic University",
         "count": 26
       },
@@ -883,10 +887,6 @@
       },
       {
         "name": "KAIST",
-        "count": 25
-      },
-      {
-        "name": "Karlsruhe Inst. of Technology",
         "count": 25
       },
       {
@@ -3962,6 +3962,10 @@
         "count": 26
       },
       {
+        "name": "Max Planck Society",
+        "count": 26
+      },
+      {
         "name": "The Hong Kong Polytechnic University",
         "count": 26
       },
@@ -3970,8 +3974,8 @@
         "count": 25
       },
       {
-        "name": "Max Planck Society",
-        "count": 25
+        "name": "Karlsruhe Inst. of Technology",
+        "count": 24
       },
       {
         "name": "Indiana University - Bloomington",
@@ -3987,10 +3991,6 @@
       },
       {
         "name": "University of California, Riverside",
-        "count": 23
-      },
-      {
-        "name": "Karlsruhe Inst. of Technology",
         "count": 23
       },
       {
@@ -4022,6 +4022,10 @@
         "count": 20
       },
       {
+        "name": "Carnegie Mellon University",
+        "count": 19
+      },
+      {
         "name": "University at Buffalo",
         "count": 19
       },
@@ -4039,10 +4043,6 @@
       },
       {
         "name": "University of Utah",
-        "count": 18
-      },
-      {
-        "name": "Carnegie Mellon University",
         "count": 18
       },
       {
@@ -5689,9 +5689,9 @@
         "Ukraine": 1
       },
       "2027": {
-        "Germany": 13,
+        "Germany": 15,
         "Switzerland": 2,
-        "United States": 132,
+        "United States": 133,
         "China": 26,
         "Rwanda": 3,
         "South Korea": 5,
@@ -6122,10 +6122,10 @@
       },
       "2027": {
         "Canada": 2,
-        "United States": 113,
+        "United States": 114,
         "Sweden": 2,
         "Belgium": 6,
-        "Germany": 12,
+        "Germany": 14,
         "Pakistan": 1,
         "India": 2,
         "Austria": 1,
@@ -6214,8 +6214,8 @@
         "Oceania": 19
       },
       "2027": {
-        "Europe": 45,
-        "North America": 135,
+        "Europe": 47,
+        "North America": 136,
         "Asia": 45,
         "Africa": 3,
         "Oceania": 10
@@ -6350,8 +6350,8 @@
         "Oceania": 17
       },
       "2027": {
-        "North America": 115,
-        "Europe": 40,
+        "North America": 116,
+        "Europe": 42,
         "Asia": 37,
         "Oceania": 9,
         "Africa": 2
@@ -6806,6 +6806,13 @@
       "conf_year": "usenixsec2026",
       "area": "security",
       "size": 226
+    },
+    {
+      "conference": "USENIXSEC",
+      "year": 2027,
+      "conf_year": "usenixsec2027",
+      "area": "security",
+      "size": 3
     },
     {
       "conference": "VEHICLESEC",

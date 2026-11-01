@@ -273,6 +273,85 @@
     "last_year": 2025
   },
   {
+    "name": "Christian Wressnegger",
+    "display_name": "Christian Wressnegger",
+    "affiliation": "Karlsruhe Inst. of Technology",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 11,
+    "chair_count": 2,
+    "conferences": [
+      {
+        "conference": "ACSAC",
+        "year": 2017,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2018,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2019,
+        "role": "member"
+      },
+      {
+        "conference": "ACSAC",
+        "year": 2022,
+        "role": "member"
+      },
+      {
+        "conference": "PETS",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "PETS",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2020,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2021,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "WOOT",
+        "year": 2019,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2017,
+    "last_year": 2027
+  },
+  {
     "name": "Hongzheng Chen",
     "display_name": "Hongzheng Chen",
     "affiliation": "Cornell University",
@@ -489,79 +568,6 @@
     },
     "first_year": 2022,
     "last_year": 2025
-  },
-  {
-    "name": "Christian Wressnegger",
-    "display_name": "Christian Wressnegger",
-    "affiliation": "Karlsruhe Inst. of Technology",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 10,
-    "chair_count": 1,
-    "conferences": [
-      {
-        "conference": "ACSAC",
-        "year": 2017,
-        "role": "member"
-      },
-      {
-        "conference": "ACSAC",
-        "year": 2018,
-        "role": "member"
-      },
-      {
-        "conference": "ACSAC",
-        "year": 2019,
-        "role": "member"
-      },
-      {
-        "conference": "ACSAC",
-        "year": 2022,
-        "role": "member"
-      },
-      {
-        "conference": "PETS",
-        "year": 2020,
-        "role": "member"
-      },
-      {
-        "conference": "PETS",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2020,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2021,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "chair"
-      },
-      {
-        "conference": "WOOT",
-        "year": 2019,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2017": 1,
-      "2018": 1,
-      "2019": 2,
-      "2020": 2,
-      "2021": 2,
-      "2022": 1,
-      "2026": 1
-    },
-    "first_year": 2017,
-    "last_year": 2026
   },
   {
     "name": "Jessy Ayala",
@@ -4190,6 +4196,52 @@
     "last_year": 2027
   },
   {
+    "name": "Tiago Heinrich",
+    "display_name": "Tiago Heinrich",
+    "affiliation": "Max Planck Society",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 5,
+    "chair_count": 3,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2023,
+    "last_year": 2027
+  },
+  {
     "name": "Lennert Wouters",
     "display_name": "Lennert Wouters",
     "affiliation": "KU Leuven",
@@ -7250,46 +7302,6 @@
     },
     "first_year": 2019,
     "last_year": 2025
-  },
-  {
-    "name": "Tiago Heinrich",
-    "display_name": "Tiago Heinrich",
-    "affiliation": "Max Planck Society",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 4,
-    "chair_count": 2,
-    "conferences": [
-      {
-        "conference": "USENIXSEC",
-        "year": 2023,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 1,
-      "2026": 1
-    },
-    "first_year": 2023,
-    "last_year": 2026
   },
   {
     "name": "Alexios Voulimeneas",
@@ -36901,6 +36913,28 @@
     },
     "first_year": 2025,
     "last_year": 2025
+  },
+  {
+    "name": "Clement Fung",
+    "display_name": "Clement Fung",
+    "affiliation": "Univ. of Maryland - Baltimore County",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027
   },
   {
     "name": "Dan Ports",

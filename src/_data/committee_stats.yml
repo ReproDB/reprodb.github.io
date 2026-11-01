@@ -1,23 +1,23 @@
 last_updated: '2026-11-01'
-total_members: 4973
+total_members: 4976
 total_systems: 2524
-total_security: 2449
-total_conferences: 72
+total_security: 2452
+total_conferences: 73
 total_countries: 57
 total_continents: 6
 total_institutions: 500
-unique_members: 2762
+unique_members: 2763
 unique_members_systems: 1348
-unique_members_security: 1525
+unique_members_security: 1526
 unique_members_both: 111
-recurring_chairs: 144
+recurring_chairs: 145
 top_countries:
 - name: United States
-  count: 2454
+  count: 2455
 - name: China
   count: 505
 - name: Germany
-  count: 284
+  count: 286
 - name: Hong Kong
   count: 218
 - name: United Kingdom
@@ -75,9 +75,9 @@ top_countries_systems:
   count: 14
 top_countries_security:
 - name: United States
-  count: 1076
+  count: 1077
 - name: Germany
-  count: 249
+  count: 251
 - name: China
   count: 155
 - name: Hong Kong
@@ -106,11 +106,11 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2535
+  count: 2536
 - name: Asia
   count: 962
 - name: Europe
-  count: 930
+  count: 932
 - name: Oceania
   count: 74
 - name: South America
@@ -132,9 +132,9 @@ top_continents_systems:
   count: 6
 top_continents_security:
 - name: North America
-  count: 1125
+  count: 1126
 - name: Europe
-  count: 633
+  count: 635
 - name: Asia
   count: 349
 - name: Oceania
@@ -162,10 +162,10 @@ top_institutions:
   count: 66
 - name: The Hong Kong University of Science and Technology
   count: 66
+- name: Carnegie Mellon University
+  count: 64
 - name: University of Michigan
   count: 64
-- name: Carnegie Mellon University
-  count: 63
 - name: University of Utah
   count: 59
 - name: Chinese University of Hong Kong
@@ -246,12 +246,14 @@ top_institutions_security:
   count: 30
 - name: Pennsylvania State University
   count: 26
+- name: Max Planck Society
+  count: 26
 - name: The Hong Kong Polytechnic University
   count: 26
 - name: George Mason University
   count: 25
-- name: Max Planck Society
-  count: 25
+- name: Karlsruhe Inst. of Technology
+  count: 24
 - name: Indiana University - Bloomington
   count: 24
 - name: google
@@ -259,8 +261,6 @@ top_institutions_security:
 - name: College of William and Mary
   count: 24
 - name: University of California, Riverside
-  count: 23
-- name: Karlsruhe Inst. of Technology
   count: 23
 - name: The Hong Kong University of Science and Technology
   count: 22
@@ -308,9 +308,9 @@ institution_timeline:
   systems: 140
   security: 187
 - year: 2027
-  total: 151
+  total: 152
   systems: 28
-  security: 134
+  security: 136
 committee_sizes:
 - conference: ACSAC
   year: 2017
@@ -632,6 +632,11 @@ committee_sizes:
   conf_year: usenixsec2026
   area: security
   size: 226
+- conference: USENIXSEC
+  year: 2027
+  conf_year: usenixsec2027
+  area: security
+  size: 3
 - conference: VEHICLESEC
   year: 2026
   conf_year: vehiclesec2026
@@ -673,16 +678,16 @@ committee_sizes:
   area: security
   size: 16
 chair_stats:
-  total_chairs: 144
+  total_chairs: 145
   total_chairs_systems: 115
-  total_chairs_security: 31
-  repeat_chairs: 24
-  repeat_chairs_pct: 16.7
+  total_chairs_security: 32
+  repeat_chairs: 25
+  repeat_chairs_pct: 17.2
   repeat_chairs_systems: 13
-  repeat_chairs_security: 12
+  repeat_chairs_security: 13
   cross_conference_chairs: 14
   pipeline_promoted: 61
-  pipeline_promoted_pct: 42.4
+  pipeline_promoted_pct: 42.1
   pipeline_avg_years: 1.9
   avg_chairs_per_edition: 3.2
   avg_chairs_per_edition_systems: 4.6
@@ -721,5 +726,5 @@ chair_stats:
     new_chairs: 13
     active_chairs: 19
   - year: 2027
-    new_chairs: 60
-    active_chairs: 61
+    new_chairs: 61
+    active_chairs: 64

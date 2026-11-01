@@ -1369,7 +1369,7 @@
       "amazon": 5,
       "Shandong University": 4,
       "institute of computing technology chinese academy of sciences": 2,
-      "Carnegie Mellon University": 1,
+      "Carnegie Mellon University": 2,
       "University of Michigan": 1,
       "Yonsei University": 1,
       "University of Amsterdam": 1,
@@ -1426,7 +1426,7 @@
       "cispa helmholtz center for information security": 4,
       "TU Clausthal": 1,
       "Paderborn University": 1,
-      "Max Planck Society": 1,
+      "Max Planck Society": 2,
       "University of Trento": 2,
       "Tianjin University": 1,
       "Johns Hopkins University": 1,
@@ -1509,7 +1509,8 @@
       "Technical University of Lublin": 1,
       "Fudan University": 1,
       "Griffith University": 1,
-      "Rice University": 1
+      "Rice University": 1,
+      "Karlsruhe Inst. of Technology": 1
     }
   },
   "systems": {
@@ -3257,7 +3258,7 @@
       "cispa helmholtz center for information security": 4,
       "TU Clausthal": 1,
       "Paderborn University": 1,
-      "Max Planck Society": 1,
+      "Max Planck Society": 2,
       "University of Queensland": 1,
       "University of Trento": 2,
       "Tianjin University": 1,
@@ -3348,7 +3349,9 @@
       "Technical University of Lublin": 1,
       "Fudan University": 1,
       "Griffith University": 1,
-      "Rice University": 1
+      "Rice University": 1,
+      "Karlsruhe Inst. of Technology": 1,
+      "Carnegie Mellon University": 1
     }
   },
   "top_by_year": [
@@ -4095,9 +4098,9 @@
     },
     {
       "year": 2027,
-      "total": 151,
+      "total": 152,
       "systems": 28,
-      "security": 134
+      "security": 136
     }
   ]
 }
