@@ -1696,6 +1696,63 @@
     "years_to_chair": 4
   },
   {
+    "name": "Tuowei Wang",
+    "display_name": "Tuowei Wang",
+    "affiliation": "Tsinghua University",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 5,
+    "chair_count": 1,
+    "member_count": 4,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "CAIS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 4,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Alexios Voulimeneas",
     "display_name": "Alexios Voulimeneas",
     "affiliation": "TU Delft",
@@ -1802,6 +1859,111 @@
     "years_to_chair": 2
   },
   {
+    "name": "Mao Lin",
+    "display_name": "Mao Lin",
+    "affiliation": "University of California, Merced",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1,
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2025,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
+    "name": "Marco Abbadini",
+    "display_name": "Marco Abbadini",
+    "affiliation": "Università degli Studi di Bergamo",
+    "country": null,
+    "continent": null,
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2027,
+        "role": "member"
+      },
+      {
+        "conference": "PETS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 2,
+      "2027": 2
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Marton Bognar",
     "display_name": "Marton Bognar",
     "affiliation": "KU Leuven",
@@ -1853,6 +2015,204 @@
     ],
     "promoted_from_member": true,
     "years_to_chair": 2
+  },
+  {
+    "name": "Sen Zhang",
+    "display_name": "Sen Zhang",
+    "affiliation": "University of Science and Technology of China",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 3,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Sheikh Muhammad Farjad",
+    "display_name": "Sheikh Muhammad Farjad",
+    "affiliation": "University of Nebraska at Omaha",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 4,
+    "chair_count": 1,
+    "member_count": 3,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2027,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 2,
+      "2027": 2
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Chungang Lin",
+    "display_name": "Chungang Lin",
+    "affiliation": "Institute of Computing Technology",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2027,
+        "role": "member"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 1,
+      "2027": 2
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Dongwook Kim",
+    "display_name": "Dongwook Kim",
+    "affiliation": "Yonsei University",
+    "country": "South Korea",
+    "continent": "Asia",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
   },
   {
     "name": "Jiayi Meng",
@@ -1950,6 +2310,101 @@
     "years_to_chair": 3
   },
   {
+    "name": "Mu'men Al Jarah",
+    "display_name": "Mu'men Al Jarah",
+    "affiliation": "University of Waterloo",
+    "country": "Canada",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Nikos Pagonas",
+    "display_name": "Nikos Pagonas",
+    "affiliation": "Columbia University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2025": 1,
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2025,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 2
+  },
+  {
     "name": "Ryan Huang",
     "display_name": "Ryan Huang",
     "affiliation": "University of Michigan",
@@ -2026,6 +2481,100 @@
     "years_to_chair": null
   },
   {
+    "name": "Zhiyue Li",
+    "display_name": "Zhiyue Li",
+    "affiliation": "Tsinghua University",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "OSDI",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Zhongkui Ma",
+    "display_name": "Zhongkui Ma",
+    "affiliation": "University of Queensland",
+    "country": "Australia",
+    "continent": "Oceania",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Adwait Nadkarni",
     "display_name": "Adwait Nadkarni",
     "affiliation": "William & Mary",
@@ -2061,6 +2610,342 @@
       {
         "conference": "ACSAC",
         "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Aishwarya Kamal",
+    "display_name": "Aishwarya Kamal",
+    "affiliation": "Google",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Ankur Gupta",
+    "display_name": "Ankur Gupta",
+    "affiliation": "LinkedIn",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Antoine Berton",
+    "display_name": "Antoine Berton",
+    "affiliation": "Elba Security",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Arnav Kansal",
+    "display_name": "Arnav Kansal",
+    "affiliation": "Google",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Ashish Dsa",
+    "display_name": "Ashish Dsa",
+    "affiliation": "Arbor",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Bingchan Ma",
+    "display_name": "Bingchan Ma",
+    "affiliation": "Amazon",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Chaoqun Li",
+    "display_name": "Chaoqun Li",
+    "affiliation": "Shandong University",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Chitral Patil",
+    "display_name": "Chitral Patil",
+    "affiliation": "GEICO",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -2152,6 +3037,48 @@
     "years_to_chair": 2
   },
   {
+    "name": "Dhruvil Bhatt",
+    "display_name": "Dhruvil Bhatt",
+    "affiliation": "Amazon",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Douglas Stebila",
     "display_name": "Douglas Stebila",
     "affiliation": "University of Waterloo",
@@ -2192,6 +3119,48 @@
     ],
     "promoted_from_member": false,
     "years_to_chair": null
+  },
+  {
+    "name": "Hemant Sethi",
+    "display_name": "Hemant Sethi",
+    "affiliation": "Crusoe",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
   },
   {
     "name": "Henrique Fingler",
@@ -2319,6 +3288,48 @@
     "years_to_chair": 1
   },
   {
+    "name": "Muhammad Rizwan Saleem",
+    "display_name": "Muhammad Rizwan Saleem",
+    "affiliation": "Horsefly Analytics",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Peter Schwabe",
     "display_name": "Peter Schwabe",
     "affiliation": "Max Planck Society",
@@ -2354,6 +3365,216 @@
       {
         "conference": "CHES",
         "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Piljae Chae",
+    "display_name": "Piljae Chae",
+    "affiliation": "Rapport Labs",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Pratik Agarwal",
+    "display_name": "Pratik Agarwal",
+    "affiliation": "Figma",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Sakshi Sharma",
+    "display_name": "Sakshi Sharma",
+    "affiliation": "Boston University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Sanjay Mishra",
+    "display_name": "Sanjay Mishra",
+    "affiliation": "SuccessKPI",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Shivam Bajaj",
+    "display_name": "Shivam Bajaj",
+    "affiliation": "Cox Communications",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -2445,6 +3666,132 @@
     "years_to_chair": 5
   },
   {
+    "name": "Veerendra Kumar Sunkavalli",
+    "display_name": "Veerendra Kumar Sunkavalli",
+    "affiliation": "Amazon",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Venkata Surya Chaitanya Palepu",
+    "display_name": "Venkata Surya Chaitanya Palepu",
+    "affiliation": "Auditoria.AI",
+    "country": null,
+    "continent": null,
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
+    "name": "Vivek Chawda",
+    "display_name": "Vivek Chawda",
+    "affiliation": "Amazon",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 1,
+    "member_count": 1,
+    "conferences": [
+      {
+        "conference": "ATC",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 1,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
+  },
+  {
     "name": "Xiaojing Liao",
     "display_name": "Xiaojing Liao",
     "affiliation": "Univ. of Illinois at Urbana-Champaign",
@@ -2485,6 +3832,42 @@
     ],
     "promoted_from_member": true,
     "years_to_chair": 1
+  },
+  {
+    "name": "Aisvarya Sampath Kumar",
+    "display_name": "Aisvarya Sampath Kumar",
+    "affiliation": "Mercuria Energy America",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
   },
   {
     "name": "Alain Tchana",
@@ -2631,6 +4014,42 @@
     "years_to_chair": null
   },
   {
+    "name": "Amber Rastogi",
+    "display_name": "Amber Rastogi",
+    "affiliation": "Oracle",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Anand Iyer",
     "display_name": "Anand Iyer",
     "affiliation": "Georgia Institute of Technology",
@@ -2660,6 +4079,78 @@
       {
         "conference": "OSDI",
         "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Anuj Ashok Potdar",
+    "display_name": "Anuj Ashok Potdar",
+    "affiliation": "KAYAK",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Anwar Khan",
+    "display_name": "Anwar Khan",
+    "affiliation": "Independent",
+    "country": "Rwanda",
+    "continent": "Africa",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -2847,6 +4338,42 @@
     "years_to_chair": null
   },
   {
+    "name": "Deep Shah",
+    "display_name": "Deep Shah",
+    "affiliation": "Carnegie Mellon University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Deepak Kumar",
     "display_name": "Deepak Kumar",
     "affiliation": "University of California, San Diego",
@@ -2876,6 +4403,42 @@
       {
         "conference": "USENIXSEC",
         "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Dhruv Rawat",
+    "display_name": "Dhruv Rawat",
+    "affiliation": "University of Michigan",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -2991,6 +4554,42 @@
     "years_to_chair": null
   },
   {
+    "name": "Fall deadline evaluators**:",
+    "display_name": "Fall deadline evaluators**:",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Georgios Portokalidis",
     "display_name": "Georgios Portokalidis",
     "affiliation": "IMDEA Software Institute",
@@ -3020,6 +4619,78 @@
       {
         "conference": "EUROSYS",
         "year": 2025,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Gonçalo Ferreira",
+    "display_name": "Gonçalo Ferreira",
+    "affiliation": "University of Amsterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Gursimran Singh",
+    "display_name": "Gursimran Singh",
+    "affiliation": "Oklahoma State University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -3099,6 +4770,42 @@
     "years_to_chair": null
   },
   {
+    "name": "Jasdeep Singh Bhalla",
+    "display_name": "Jasdeep Singh Bhalla",
+    "affiliation": "GoDaddy",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Jelena Mirkovic",
     "display_name": "Jelena Mirkovic",
     "affiliation": "University of Southern California",
@@ -3128,6 +4835,150 @@
       {
         "conference": "SP",
         "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Jinxin Ma",
+    "display_name": "Jinxin Ma",
+    "affiliation": "University of Texas at Austin",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Jofia Jose Prakash",
+    "display_name": "Jofia Jose Prakash",
+    "affiliation": "American Council for Ethical AI",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Karan Gupta",
+    "display_name": "Karan Gupta",
+    "affiliation": "KPMG",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Kishan Kumar Isayamudhan Naicker",
+    "display_name": "Kishan Kumar Isayamudhan Naicker",
+    "affiliation": "Self",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -3171,6 +5022,78 @@
     "years_to_chair": null
   },
   {
+    "name": "Krishna Kandi",
+    "display_name": "Krishna Kandi",
+    "affiliation": "Industry professional",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Kumar Pallav",
+    "display_name": "Kumar Pallav",
+    "affiliation": "Perplexity AI",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Lalith Suresh",
     "display_name": "Lalith Suresh",
     "affiliation": "VMware",
@@ -3200,6 +5123,42 @@
       {
         "conference": "OSDI",
         "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Lavi Kumar",
+    "display_name": "Lavi Kumar",
+    "affiliation": "Principal Application Engineer",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -3387,6 +5346,78 @@
     "years_to_chair": null
   },
   {
+    "name": "Maxime Just",
+    "display_name": "Maxime Just",
+    "affiliation": "Inria",
+    "country": "France",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Mickaël DE LA ROQUE",
+    "display_name": "Mickaël DE LA ROQUE",
+    "affiliation": "Spring Riviera",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Miguel Matos",
     "display_name": "Miguel Matos",
     "affiliation": "Universidade de Lisboa",
@@ -3531,6 +5562,114 @@
     "years_to_chair": null
   },
   {
+    "name": "Pujitha Sri Lakshmi Paladugu",
+    "display_name": "Pujitha Sri Lakshmi Paladugu",
+    "affiliation": "Independent Researcher",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Rafaila Galanopoulou",
+    "display_name": "Rafaila Galanopoulou",
+    "affiliation": "EPFL",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Raj Pandey",
+    "display_name": "Raj Pandey",
+    "affiliation": "Pennsylvania State University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Redha Gouicem",
     "display_name": "Redha Gouicem",
     "affiliation": "RWTH Aachen University",
@@ -3596,6 +5735,42 @@
       {
         "conference": "SOSP",
         "year": 2021,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Ruben Cuevas Menendez",
+    "display_name": "Ruben Cuevas Menendez",
+    "affiliation": "Amazon",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -3704,6 +5879,114 @@
       {
         "conference": "OSDI",
         "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Shreyas Shah",
+    "display_name": "Shreyas Shah",
+    "affiliation": "Trade Desk",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Shuang Cao",
+    "display_name": "Shuang Cao",
+    "affiliation": "Dawn Computing",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Spring deadline evaluators**:",
+    "display_name": "Spring deadline evaluators**:",
+    "affiliation": "",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],
@@ -3855,6 +6138,42 @@
     "years_to_chair": null
   },
   {
+    "name": "Venkata Manikanta Sangaraju",
+    "display_name": "Venkata Manikanta Sangaraju",
+    "affiliation": "PayPal",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
     "name": "Victor Le Pochat",
     "display_name": "Victor Le Pochat",
     "affiliation": "KU Leuven",
@@ -3920,6 +6239,78 @@
       {
         "conference": "EUROSYS",
         "year": 2023,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Zhanghan Wang",
+    "display_name": "Zhanghan Wang",
+    "affiliation": "New York University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": false,
+    "years_to_chair": null
+  },
+  {
+    "name": "Zoheb Chirammal",
+    "display_name": "Zoheb Chirammal",
+    "affiliation": "Centene Corporation",
+    "country": null,
+    "continent": null,
+    "total_memberships": 1,
+    "chair_count": 1,
+    "member_count": 0,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2027": 1
+    },
+    "first_year": 2027,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
         "role": "chair"
       }
     ],

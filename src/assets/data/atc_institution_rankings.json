@@ -515,28 +515,28 @@
     "affiliation": "Georgia Institute of Technology",
     "country": "United States",
     "country_code": "US",
-    "combined_score": 39,
+    "combined_score": 36,
     "artifact_score": 3,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 36,
-    "ae_ratio": 0.08,
+    "ae_score": 33,
+    "ae_ratio": 0.09,
     "role": "Consumer",
     "artifact_count": 1,
     "badges_functional": 1,
     "badges_reproducible": 1,
-    "ae_memberships": 12,
+    "ae_memberships": 11,
     "chair_count": 0,
     "total_papers": 2,
     "artifact_pct": 50.0,
-    "author_count": 11,
+    "author_count": 10,
     "conferences": [
       "ATC"
     ],
     "years": {
       "2024": 7,
       "2025": 3,
-      "2026": 1,
+      "2026": 0,
       "2023": 1,
       "2022": 1
     },
@@ -6029,7 +6029,7 @@
     "scope": null
   },
   {
-    "affiliation": "Government Employees Insurance Company (GEICO",
+    "affiliation": "GEICO",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -6869,7 +6869,7 @@
     "scope": null
   },
   {
-    "affiliation": "Figma Inc",
+    "affiliation": "Figma",
     "country": null,
     "country_code": null,
     "combined_score": 3,
@@ -7402,6 +7402,34 @@
   },
   {
     "affiliation": "Anthropic",
+    "country": null,
+    "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Auditoria.AI",
     "country": null,
     "country_code": null,
     "combined_score": 3,

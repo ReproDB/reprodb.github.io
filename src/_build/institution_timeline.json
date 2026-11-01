@@ -1360,10 +1360,35 @@
     },
     "2027": {
       "rwth aachen": 1,
-      "EPFL": 1,
+      "EPFL": 2,
+      "google": 4,
+      "linkedin": 1,
+      "baidu security": 1,
+      "Kigali Independent University": 3,
+      "University of Michigan - Ann Arbor": 1,
+      "amazon": 5,
+      "Shandong University": 4,
+      "institute of computing technology chinese academy of sciences": 2,
+      "Carnegie Mellon University": 1,
+      "University of Michigan": 1,
+      "Yonsei University": 1,
+      "University of Amsterdam": 1,
+      "Oklahoma State University": 1,
+      "University of Texas at Austin": 2,
+      "University of California, Merced": 1,
+      "INRIA": 1,
+      "University of Waterloo": 1,
+      "Columbia University": 1,
+      "Pennsylvania State University": 3,
+      "Boston University": 3,
+      "University of Science and Technology of China": 2,
+      "University of Nebraska - Omaha": 2,
+      "Chongqing University of Communications": 1,
+      "Tsinghua University": 5,
+      "New York University": 1,
+      "University of Queensland": 2,
       "University of Regina": 1,
       "University of Tennessee": 2,
-      "Boston University": 2,
       "Yale University": 1,
       "University of Utah": 1,
       "Purdue University": 2,
@@ -1378,7 +1403,6 @@
       "Virginia Tech": 3,
       "University of Illinois Urbana-Champaign": 5,
       "Rochester Institute of Technology": 1,
-      "google": 2,
       "Indian Institute of Technology, Kanpur": 1,
       "University of Missouri": 1,
       "TU Wien": 1,
@@ -1392,7 +1416,6 @@
       "RWTH Aachen University": 1,
       "University of California, Irvine": 5,
       "Nanyang Technological University": 3,
-      "institute of computing technology chinese academy of sciences": 1,
       "Sapienza University of Rome": 2,
       "TU Darmstadt": 2,
       "University of Texas at Arlington": 2,
@@ -1404,7 +1427,6 @@
       "TU Clausthal": 1,
       "Paderborn University": 1,
       "Max Planck Society": 1,
-      "University of Queensland": 1,
       "University of Trento": 2,
       "Tianjin University": 1,
       "Johns Hopkins University": 1,
@@ -1426,7 +1448,6 @@
       "The Hong Kong Polytechnic University": 1,
       "University of Missouri - Kansas City": 3,
       "Singapore Management University": 1,
-      "University of Texas at Austin": 1,
       "University of Georgia": 3,
       "University of California, Santa Barbara": 1,
       "George Mason University": 2,
@@ -1436,7 +1457,6 @@
       "University at Buffalo": 2,
       "University of North Georgia": 1,
       "Arkansas at Pine Bluff, University of": 1,
-      "University of Science and Technology of China": 1,
       "University of Alberta": 1,
       "University College London": 1,
       "Monash University": 3,
@@ -1445,7 +1465,6 @@
       "North Carolina State University": 1,
       "College of William and Mary": 3,
       "New York University, Abu Dhabi": 1,
-      "Shandong University": 3,
       "Georgia Institute of Technology": 2,
       "meta": 1,
       "University of California, Davis": 1,
@@ -1458,18 +1477,14 @@
       "University of Zagreb": 1,
       "University of Rhode Island": 1,
       "CNRS": 1,
-      "Tsinghua University": 3,
-      "Kigali Independent University": 2,
       "University of Texas at San Antonio": 1,
       "sandia national laboratories": 1,
       "microsoft": 2,
       "Northeastern University": 1,
-      "Pennsylvania State University": 2,
       "University of Pennsylvania": 1,
       "Florida International University": 3,
       "Tennessee Technological University": 2,
       "Princeton University": 1,
-      "University of Nebraska - Omaha": 1,
       "Wuhan University": 1,
       "University of Kentucky": 1,
       "University of Maryland, Baltimore": 1,
@@ -2269,7 +2284,33 @@
     },
     "2027": {
       "rwth aachen": 1,
-      "EPFL": 1
+      "EPFL": 2,
+      "google": 2,
+      "linkedin": 1,
+      "baidu security": 1,
+      "Kigali Independent University": 1,
+      "University of Michigan - Ann Arbor": 1,
+      "amazon": 5,
+      "Shandong University": 1,
+      "institute of computing technology chinese academy of sciences": 1,
+      "Carnegie Mellon University": 1,
+      "University of Michigan": 1,
+      "Yonsei University": 1,
+      "University of Amsterdam": 1,
+      "Oklahoma State University": 1,
+      "University of Texas at Austin": 1,
+      "University of California, Merced": 1,
+      "INRIA": 1,
+      "University of Waterloo": 1,
+      "Columbia University": 1,
+      "Pennsylvania State University": 1,
+      "Boston University": 1,
+      "University of Science and Technology of China": 1,
+      "University of Nebraska - Omaha": 1,
+      "Chongqing University of Communications": 1,
+      "Tsinghua University": 2,
+      "New York University": 1,
+      "University of Queensland": 1
     }
   },
   "security": {
@@ -3933,6 +3974,14 @@
           "count": 6
         },
         {
+          "name": "amazon",
+          "count": 5
+        },
+        {
+          "name": "Tsinghua University",
+          "count": 5
+        },
+        {
           "name": "University of Illinois Urbana-Champaign",
           "count": 5
         },
@@ -3941,12 +3990,32 @@
           "count": 5
         },
         {
+          "name": "google",
+          "count": 4
+        },
+        {
+          "name": "Shandong University",
+          "count": 4
+        },
+        {
           "name": "cispa helmholtz center for information security",
           "count": 4
         },
         {
           "name": "University of Wisconsin - Madison",
           "count": 4
+        },
+        {
+          "name": "Kigali Independent University",
+          "count": 3
+        },
+        {
+          "name": "Pennsylvania State University",
+          "count": 3
+        },
+        {
+          "name": "Boston University",
+          "count": 3
         },
         {
           "name": "Virginia Tech",
@@ -3958,34 +4027,6 @@
         },
         {
           "name": "Nanyang Technological University",
-          "count": 3
-        },
-        {
-          "name": "University of Missouri - Kansas City",
-          "count": 3
-        },
-        {
-          "name": "University of Georgia",
-          "count": 3
-        },
-        {
-          "name": "University of Louisiana at Lafeyette",
-          "count": 3
-        },
-        {
-          "name": "Monash University",
-          "count": 3
-        },
-        {
-          "name": "College of William and Mary",
-          "count": 3
-        },
-        {
-          "name": "Shandong University",
-          "count": 3
-        },
-        {
-          "name": "Tsinghua University",
           "count": 3
         }
       ]
@@ -4054,8 +4095,8 @@
     },
     {
       "year": 2027,
-      "total": 136,
-      "systems": 2,
+      "total": 151,
+      "systems": 28,
       "security": 134
     }
   ]
