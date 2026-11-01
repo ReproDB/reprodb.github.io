@@ -279,6 +279,37 @@
     "scope": null
   },
   {
+    "affiliation": "Zhejiang University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 33,
+    "artifact_score": 30,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 10.0,
+    "role": "Producer",
+    "artifact_count": 10,
+    "badges_functional": 10,
+    "badges_reproducible": 10,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 38,
+    "artifact_pct": 26.3,
+    "author_count": 10,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 5,
+      "2024": 3,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Shandong University",
     "country": "China",
     "country_code": "CN",
@@ -397,37 +428,6 @@
       "2026": 3,
       "2027": 2,
       "2024": 3
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Zhejiang University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 30,
-    "artifact_score": 27,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 9.0,
-    "role": "Producer",
-    "artifact_count": 9,
-    "badges_functional": 9,
-    "badges_reproducible": 9,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 37,
-    "artifact_pct": 24.3,
-    "author_count": 9,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 5,
-      "2024": 3,
-      "2027": 1
     },
     "top_authors": [],
     "scope": null
@@ -826,6 +826,37 @@
       "2026": 6,
       "2025": 0,
       "2024": 0,
+      "2027": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Fudan University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 20,
+    "artifact_score": 14,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 2.33,
+    "role": "Producer",
+    "artifact_count": 7,
+    "badges_functional": 7,
+    "badges_reproducible": 3,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 14,
+    "artifact_pct": 50.0,
+    "author_count": 4,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 7,
+      "2025": 0,
+      "2024": 1,
       "2027": 1
     },
     "top_authors": [],
@@ -1561,37 +1592,6 @@
       "2026": 2,
       "2025": 2,
       "2024": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Fudan University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 14,
-    "artifact_score": 8,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 1.33,
-    "role": "Balanced",
-    "artifact_count": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 1,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 10,
-    "artifact_pct": 40.0,
-    "author_count": 3,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 4,
-      "2025": 0,
-      "2024": 1,
-      "2027": 1
     },
     "top_authors": [],
     "scope": null

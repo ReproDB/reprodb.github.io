@@ -2470,6 +2470,45 @@
     "scope": null
   },
   {
+    "affiliation": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 67,
+    "artifact_score": 13,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 54,
+    "ae_ratio": 0.24,
+    "role": "Consumer",
+    "artifact_count": 5,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 18,
+    "chair_count": 0,
+    "total_papers": 8,
+    "artifact_pct": 62.5,
+    "author_count": 10,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "SOSP"
+    ],
+    "years": {
+      "2023": 11,
+      "2024": 2,
+      "2022": 4,
+      "2026": 0,
+      "2025": 3,
+      "2021": 3,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Brown University",
     "country": "United States",
     "country_code": "US",
@@ -2544,45 +2583,6 @@
       "2021": 5,
       "2020": 2,
       "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "City University of Hong Kong",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 64,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 54,
-    "ae_ratio": 0.19,
-    "role": "Consumer",
-    "artifact_count": 4,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 18,
-    "chair_count": 0,
-    "total_papers": 7,
-    "artifact_pct": 57.1,
-    "author_count": 9,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2023": 11,
-      "2024": 2,
-      "2022": 4,
-      "2026": 0,
-      "2025": 3,
-      "2021": 2,
-      "2020": 0,
-      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -4117,6 +4117,44 @@
     "scope": null
   },
   {
+    "affiliation": "Aalto University",
+    "country": "Finland",
+    "country_code": "FI",
+    "combined_score": 30,
+    "artifact_score": 27,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 9.0,
+    "role": "Producer",
+    "artifact_count": 10,
+    "badges_functional": 10,
+    "badges_reproducible": 7,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 13,
+    "artifact_pct": 76.9,
+    "author_count": 3,
+    "conferences": [
+      "ATC",
+      "CAIS",
+      "EUROSYS",
+      "SOSP"
+    ],
+    "years": {
+      "2026": 8,
+      "2025": 0,
+      "2024": 2,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Indian Institute of Technology",
     "country": "India",
     "country_code": "IN",
@@ -4221,42 +4259,6 @@
       "2025": 0,
       "2022": 0,
       "2021": 6,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "East China Normal University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 29,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 25,
-    "ae_ratio": 0.16,
-    "role": "Consumer",
-    "artifact_count": 2,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 7,
-    "chair_count": 2,
-    "total_papers": 5,
-    "artifact_pct": 40.0,
-    "author_count": 3,
-    "conferences": [
-      "ATC",
-      "OSDI"
-    ],
-    "years": {
-      "2021": 1,
-      "2022": 4,
-      "2026": 0,
-      "2025": 0,
-      "2024": 2,
-      "2023": 0,
       "2020": 0,
       "2019": 0
     },
@@ -5300,6 +5302,43 @@
     "scope": null
   },
   {
+    "affiliation": "Beijing University of Posts and Telecommunications",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 22,
+    "artifact_score": 13,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 1.44,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 7,
+    "artifact_pct": 71.4,
+    "author_count": 5,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI"
+    ],
+    "years": {
+      "2026": 3,
+      "2025": 1,
+      "2024": 2,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Oklahoma State University",
     "country": "United States",
     "country_code": "US",
@@ -5333,44 +5372,6 @@
       "2020": 0,
       "2019": 0,
       "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Oregon State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 22,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 0.83,
-    "role": "Balanced",
-    "artifact_count": 4,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 7,
-    "artifact_pct": 57.1,
-    "author_count": 4,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "SC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 2,
-      "2024": 0,
-      "2023": 0,
-      "2022": 3,
-      "2021": 2,
-      "2020": 0,
-      "2019": 0
     },
     "top_authors": [],
     "scope": null
@@ -5890,44 +5891,6 @@
     "scope": null
   },
   {
-    "affiliation": "Aalto University",
-    "country": "Finland",
-    "country_code": "FI",
-    "combined_score": 19,
-    "artifact_score": 16,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 5.33,
-    "role": "Producer",
-    "artifact_count": 6,
-    "badges_functional": 6,
-    "badges_reproducible": 4,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 75.0,
-    "author_count": 2,
-    "conferences": [
-      "ATC",
-      "CAIS",
-      "EUROSYS",
-      "SOSP"
-    ],
-    "years": {
-      "2026": 4,
-      "2025": 0,
-      "2024": 2,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Massachusetts Lowell",
     "country": "United States",
     "country_code": "US",
@@ -5957,6 +5920,74 @@
       "2023": 0,
       "2022": 1,
       "2021": 0,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "East China Normal University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 19,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 19,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 5,
+    "chair_count": 2,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 2,
+    "conferences": [
+      "ATC",
+      "OSDI"
+    ],
+    "years": {
+      "2021": 1,
+      "2022": 4
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Oregon State University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 19,
+    "artifact_score": 7,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.58,
+    "role": "Balanced",
+    "artifact_count": 3,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_pct": 50.0,
+    "author_count": 3,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "OSDI",
+      "SC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 2,
+      "2024": 0,
+      "2023": 0,
+      "2022": 3,
+      "2021": 1,
       "2020": 0,
       "2019": 0
     },
@@ -8567,41 +8598,6 @@
     "scope": null
   },
   {
-    "affiliation": "Beijing University of Posts and Telecommunications",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 12,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 3.0,
-    "role": "Producer",
-    "artifact_count": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_pct": 75.0,
-    "author_count": 4,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 1,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "NWPU",
     "country": "China",
     "country_code": "CN",
@@ -9230,6 +9226,42 @@
       "2022": 0,
       "2021": 0,
       "2020": 1,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Warwick",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 9,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 3,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_pct": 60.0,
+    "author_count": 2,
+    "conferences": [
+      "CAIS",
+      "SC"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 1,
+      "2020": 0,
       "2019": 0
     },
     "top_authors": [],
@@ -15553,41 +15585,6 @@
     "author_count": 1,
     "conferences": [
       "EUROSYS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 1,
-      "2020": 0,
-      "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Warwick",
-    "country": "United Kingdom",
-    "country_code": "GB",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 33.3,
-    "author_count": 1,
-    "conferences": [
-      "SC"
     ],
     "years": {
       "2026": 0,

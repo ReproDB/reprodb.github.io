@@ -3176,6 +3176,35 @@
     "scope": null
   },
   {
+    "affiliation": "Nankai University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 9,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 3,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2022": 2,
+      "2024": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Zhengzhou University",
     "country": "China",
     "country_code": "CN",
@@ -4164,39 +4193,6 @@
     "scope": null
   },
   {
-    "affiliation": "George Mason University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 6,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 2,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 1,
-      "2024": 1,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Univ. of California - Irvine",
     "country": "United States",
     "country_code": "US",
@@ -4347,34 +4343,6 @@
     ],
     "years": {
       "2024": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Nankai University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2022": 2
     },
     "top_authors": [],
     "scope": null
@@ -5474,6 +5442,39 @@
     "chair_count": 0,
     "total_papers": 2,
     "artifact_pct": 50.0,
+    "author_count": 1,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "George Mason University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
     "author_count": 1,
     "conferences": [
       "OSDI"

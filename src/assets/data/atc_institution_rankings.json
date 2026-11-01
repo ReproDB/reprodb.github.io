@@ -1682,38 +1682,6 @@
     "scope": null
   },
   {
-    "affiliation": "East China Normal University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 15,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 11,
-    "ae_ratio": 0.36,
-    "role": "Consumer",
-    "artifact_count": 2,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 3,
-    "chair_count": 1,
-    "total_papers": 3,
-    "artifact_pct": 66.7,
-    "author_count": 3,
-    "conferences": [
-      "ATC"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 2,
-      "2023": 0,
-      "2022": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Manipal Academy of Higher Education",
     "country": "India",
     "country_code": "IN",
@@ -2880,6 +2848,34 @@
     "scope": null
   },
   {
+    "affiliation": "East China Normal University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 8,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 8,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 1,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 2,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2022": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "POSTECH",
     "country": "South Korea",
     "country_code": "KR",
@@ -2907,6 +2903,38 @@
       "2024": 0,
       "2023": 2,
       "2022": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Beijing University of Posts and Telecommunications",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 7,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.33,
+    "role": "Balanced",
+    "artifact_count": 2,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 66.7,
+    "author_count": 1,
+    "conferences": [
+      "ATC"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 2,
+      "2023": 0,
+      "2022": 0
     },
     "top_authors": [],
     "scope": null
