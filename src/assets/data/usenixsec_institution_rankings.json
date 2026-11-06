@@ -1701,40 +1701,6 @@
     "scope": null
   },
   {
-    "affiliation": "Shandong University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 39,
-    "artifact_score": 18,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 21,
-    "ae_ratio": 0.86,
-    "role": "Balanced",
-    "artifact_count": 8,
-    "badges_functional": 6,
-    "badges_reproducible": 4,
-    "ae_memberships": 7,
-    "chair_count": 0,
-    "total_papers": 11,
-    "artifact_pct": 72.7,
-    "author_count": 7,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 9,
-      "2024": 2,
-      "2023": 2,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of California, Berkeley",
     "country": "United States",
     "country_code": "US",
@@ -1866,6 +1832,40 @@
       "2022": 1,
       "2021": 1,
       "2020": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Peking University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 37,
+    "artifact_score": 19,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 1.06,
+    "role": "Balanced",
+    "artifact_count": 9,
+    "badges_functional": 7,
+    "badges_reproducible": 3,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 13,
+    "artifact_pct": 69.2,
+    "author_count": 8,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 4,
+      "2025": 10,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
     },
     "top_authors": [],
     "scope": null
@@ -2143,6 +2143,40 @@
     "scope": null
   },
   {
+    "affiliation": "Shandong University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 33,
+    "artifact_score": 18,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 15,
+    "ae_ratio": 1.2,
+    "role": "Balanced",
+    "artifact_count": 8,
+    "badges_functional": 6,
+    "badges_reproducible": 4,
+    "ae_memberships": 5,
+    "chair_count": 0,
+    "total_papers": 11,
+    "artifact_pct": 72.7,
+    "author_count": 6,
+    "conferences": [
+      "USENIXSEC"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 8,
+      "2024": 2,
+      "2023": 2,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "IIT Bombay",
     "country": "India",
     "country_code": "IN",
@@ -2340,40 +2374,6 @@
       "2024": 2,
       "2023": 1,
       "2022": 1,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Peking University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 31,
-    "artifact_score": 19,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 1.58,
-    "role": "Balanced",
-    "artifact_count": 9,
-    "badges_functional": 7,
-    "badges_reproducible": 3,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 13,
-    "artifact_pct": 69.2,
-    "author_count": 7,
-    "conferences": [
-      "USENIXSEC"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 9,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
       "2021": 0,
       "2020": 0
     },
@@ -8380,9 +8380,9 @@
     "scope": null
   },
   {
-    "affiliation": "Advanced Micro Devices",
-    "country": null,
-    "country_code": null,
+    "affiliation": "AMD",
+    "country": "India",
+    "country_code": "IN",
     "combined_score": 6,
     "artifact_score": 0,
     "artifact_citations": 0,

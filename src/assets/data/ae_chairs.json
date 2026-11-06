@@ -2091,58 +2091,6 @@
     "years_to_chair": 1
   },
   {
-    "name": "Sheikh Muhammad Farjad",
-    "display_name": "Sheikh Muhammad Farjad",
-    "affiliation": "University of Nebraska at Omaha",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 4,
-    "chair_count": 1,
-    "member_count": 3,
-    "conferences": [
-      {
-        "conference": "EUROSYS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "EUROSYS",
-        "year": 2027,
-        "role": "chair"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SOSP",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2026": 2,
-      "2027": 2
-    },
-    "first_year": 2026,
-    "last_year": 2027,
-    "first_chair_year": 2027,
-    "chaired_series": [
-      "EUROSYS"
-    ],
-    "chaired_conferences": [
-      {
-        "conference": "EUROSYS",
-        "year": 2027,
-        "role": "chair"
-      }
-    ],
-    "promoted_from_member": true,
-    "years_to_chair": 1
-  },
-  {
     "name": "Chungang Lin",
     "display_name": "Chungang Lin",
     "affiliation": "Institute of Computing Technology",
@@ -2463,6 +2411,53 @@
     "chaired_conferences": [],
     "promoted_from_member": false,
     "years_to_chair": null
+  },
+  {
+    "name": "Sheikh Muhammad Farjad",
+    "display_name": "Sheikh Muhammad Farjad",
+    "affiliation": "University of Nebraska at Omaha",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 3,
+    "chair_count": 1,
+    "member_count": 2,
+    "conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      },
+      {
+        "conference": "SOSP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "systems",
+    "years": {
+      "2026": 2,
+      "2027": 1
+    },
+    "first_year": 2026,
+    "last_year": 2027,
+    "first_chair_year": 2027,
+    "chaired_series": [
+      "EUROSYS"
+    ],
+    "chaired_conferences": [
+      {
+        "conference": "EUROSYS",
+        "year": 2027,
+        "role": "chair"
+      }
+    ],
+    "promoted_from_member": true,
+    "years_to_chair": 1
   },
   {
     "name": "Tianyin Xu",

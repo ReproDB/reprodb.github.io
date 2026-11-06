@@ -933,57 +933,6 @@
     "last_year": 2025
   },
   {
-    "name": "Yiming Zhang",
-    "display_name": "Yiming Zhang",
-    "affiliation": "Tsinghua University",
-    "country": "China",
-    "continent": "Asia",
-    "total_memberships": 6,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2023,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 2,
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2023,
-    "last_year": 2027
-  },
-  {
     "name": "Yohan Beugin",
     "display_name": "Yohan Beugin",
     "affiliation": "University of Wisconsin-Madison",
@@ -1031,55 +980,6 @@
     },
     "first_year": 2023,
     "last_year": 2025
-  },
-  {
-    "name": "Yujin Huang",
-    "display_name": "Yujin Huang",
-    "affiliation": "The University of Melbourne",
-    "country": "Australia",
-    "continent": "Oceania",
-    "total_memberships": 6,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 2,
-      "2026": 3,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
   },
   {
     "name": "Tiago Heinrich",
@@ -1709,50 +1609,6 @@
     "last_year": 2025
   },
   {
-    "name": "Kunyang Li",
-    "display_name": "Kunyang Li",
-    "affiliation": "University of Wisconsin-Madison",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 5,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 3,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
-  },
-  {
     "name": "Mingyi Liu",
     "display_name": "Mingyi Liu",
     "affiliation": "Georgia Institute of Technology",
@@ -2156,11 +2012,11 @@
     "last_year": 2026
   },
   {
-    "name": "Yu Nong",
-    "display_name": "Yu Nong",
-    "affiliation": "University at Buffalo",
-    "country": "United States",
-    "continent": "North America",
+    "name": "Yiming Zhang",
+    "display_name": "Yiming Zhang",
+    "affiliation": "Tsinghua University",
+    "country": "China",
+    "continent": "Asia",
     "total_memberships": 5,
     "chair_count": 0,
     "conferences": [
@@ -2180,13 +2036,13 @@
         "role": "member"
       },
       {
-        "conference": "NDSS",
-        "year": 2027,
+        "conference": "USENIXSEC",
+        "year": 2023,
         "role": "member"
       },
       {
         "conference": "USENIXSEC",
-        "year": 2023,
+        "year": 2025,
         "role": "member"
       }
     ],
@@ -2194,12 +2050,54 @@
     "years": {
       "2023": 1,
       "2024": 1,
-      "2025": 1,
-      "2026": 1,
-      "2027": 1
+      "2025": 2,
+      "2026": 1
     },
     "first_year": 2023,
-    "last_year": 2027
+    "last_year": 2026
+  },
+  {
+    "name": "Yujin Huang",
+    "display_name": "Yujin Huang",
+    "affiliation": "The University of Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "total_memberships": 5,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 2,
+      "2026": 3
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Zilong Lin",
@@ -2564,45 +2462,6 @@
     },
     "first_year": 2020,
     "last_year": 2023
-  },
-  {
-    "name": "Andrew Roberts",
-    "display_name": "Andrew Roberts",
-    "affiliation": "KTH Royal Institute of Technology",
-    "country": "Sweden",
-    "continent": "Europe",
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
   },
   {
     "name": "Arman Riasi",
@@ -3655,6 +3514,44 @@
     "last_year": 2026
   },
   {
+    "name": "Kunyang Li",
+    "display_name": "Kunyang Li",
+    "affiliation": "University of Wisconsin-Madison",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 4,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 3
+    },
+    "first_year": 2025,
+    "last_year": 2026
+  },
+  {
     "name": "Leming Shen",
     "display_name": "Leming Shen",
     "affiliation": "University College London",
@@ -4000,45 +3897,6 @@
     "last_year": 2027
   },
   {
-    "name": "Rahul Kande",
-    "display_name": "Rahul Kande",
-    "affiliation": "Advanced Micro Devices",
-    "country": null,
-    "continent": null,
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
-  },
-  {
     "name": "Rishit Saiya",
     "display_name": "Rishit Saiya",
     "affiliation": "Cyber Defense @ PwC",
@@ -4352,45 +4210,6 @@
     "last_year": 2026
   },
   {
-    "name": "Xin Zhang",
-    "display_name": "Xin Zhang",
-    "affiliation": "Shandong University",
-    "country": "China",
-    "continent": "Asia",
-    "total_memberships": 4,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
-  },
-  {
     "name": "Xu He",
     "display_name": "Xu He",
     "affiliation": "Hunan University",
@@ -4505,6 +4324,46 @@
       "2026": 2
     },
     "first_year": 2025,
+    "last_year": 2026
+  },
+  {
+    "name": "Yu Nong",
+    "display_name": "Yu Nong",
+    "affiliation": "University at Buffalo",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 4,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2023,
     "last_year": 2026
   },
   {
@@ -5129,6 +4988,39 @@
     },
     "first_year": 2020,
     "last_year": 2022
+  },
+  {
+    "name": "Andrew Roberts",
+    "display_name": "Andrew Roberts",
+    "affiliation": "KTH Royal Institute of Technology",
+    "country": "Sweden",
+    "continent": "Europe",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Annika Wilde",
@@ -6039,40 +5931,6 @@
     },
     "first_year": 2022,
     "last_year": 2026
-  },
-  {
-    "name": "Halima Bouzidi",
-    "display_name": "Halima Bouzidi",
-    "affiliation": "University of California, Irvine",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 3,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2025": 1,
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2025,
-    "last_year": 2027
   },
   {
     "name": "Hassan El Alami",
@@ -7753,6 +7611,39 @@
     "last_year": 2024
   },
   {
+    "name": "Rahul Kande",
+    "display_name": "Rahul Kande",
+    "affiliation": "AMD",
+    "country": "India",
+    "continent": "Asia",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2025,
+    "last_year": 2026
+  },
+  {
     "name": "Richard Petri",
     "display_name": "Richard Petri",
     "affiliation": "Fraunhofer SIT",
@@ -7818,39 +7709,6 @@
       "2027": 1
     },
     "first_year": 2025,
-    "last_year": 2027
-  },
-  {
-    "name": "Sachin Shukla",
-    "display_name": "Sachin Shukla",
-    "affiliation": "Microsoft",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 3,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2026,
     "last_year": 2027
   },
   {
@@ -8122,39 +7980,6 @@
     },
     "first_year": 2024,
     "last_year": 2026
-  },
-  {
-    "name": "Tong Sun",
-    "display_name": "Tong Sun",
-    "affiliation": "Zhejiang University",
-    "country": "China",
-    "continent": "Asia",
-    "total_memberships": 3,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "SP",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2026": 2,
-      "2027": 1
-    },
-    "first_year": 2026,
-    "last_year": 2027
   },
   {
     "name": "Tushar Nayan",
@@ -8525,6 +8350,39 @@
     },
     "first_year": 2025,
     "last_year": 2027
+  },
+  {
+    "name": "Xin Zhang",
+    "display_name": "Xin Zhang",
+    "affiliation": "Peking University",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 3,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 2
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Xuanbo Huang",
@@ -10954,34 +10812,6 @@
     "last_year": 2021
   },
   {
-    "name": "Georgio Nicolas",
-    "display_name": "Georgio Nicolas",
-    "affiliation": "KU Leuven",
-    "country": "Belgium",
-    "continent": "Europe",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2026,
-        "role": "member"
-      },
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2026,
-    "last_year": 2027
-  },
-  {
     "name": "Giuseppe Parrella",
     "display_name": "Giuseppe Parrella",
     "affiliation": "University of Salerno",
@@ -11288,6 +11118,34 @@
     },
     "first_year": 2023,
     "last_year": 2024
+  },
+  {
+    "name": "Halima Bouzidi",
+    "display_name": "Halima Bouzidi",
+    "affiliation": "University of California, Irvine",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2025,
+    "last_year": 2026
   },
   {
     "name": "Hao Cui",
@@ -13293,34 +13151,6 @@
     "last_year": 2022
   },
   {
-    "name": "Moshood Fakorede",
-    "display_name": "Moshood Fakorede",
-    "affiliation": "Louisiana State University",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "PETS",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2026,
-    "last_year": 2027
-  },
-  {
     "name": "Mugdha Khedkar",
     "display_name": "Mugdha Khedkar",
     "affiliation": "Germany",
@@ -14271,32 +14101,31 @@
     "last_year": 2025
   },
   {
-    "name": "Sagor Sikdar",
-    "display_name": "Sagor Sikdar",
-    "affiliation": "Pennsylvania State University",
+    "name": "Sachin Shukla",
+    "display_name": "Sachin Shukla",
+    "affiliation": "Microsoft",
     "country": "United States",
     "continent": "North America",
     "total_memberships": 2,
     "chair_count": 0,
     "conferences": [
       {
-        "conference": "NDSS",
-        "year": 2027,
+        "conference": "SP",
+        "year": 2026,
         "role": "member"
       },
       {
-        "conference": "WOOT",
+        "conference": "USENIXSEC",
         "year": 2026,
         "role": "member"
       }
     ],
     "area": "security",
     "years": {
-      "2026": 1,
-      "2027": 1
+      "2026": 2
     },
     "first_year": 2026,
-    "last_year": 2027
+    "last_year": 2026
   },
   {
     "name": "Sai Venkata Krishnan V",
@@ -14886,6 +14715,33 @@
     "last_year": 2020
   },
   {
+    "name": "Tong Sun",
+    "display_name": "Tong Sun",
+    "affiliation": "Zhejiang University",
+    "country": "China",
+    "continent": "Asia",
+    "total_memberships": 2,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "SP",
+        "year": 2026,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 2
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Tu Le",
     "display_name": "Tu Le",
     "affiliation": "University of California, Irvine",
@@ -15413,34 +15269,6 @@
     },
     "first_year": 2024,
     "last_year": 2024
-  },
-  {
-    "name": "Yassine Mekdad",
-    "display_name": "Yassine Mekdad",
-    "affiliation": "Florida International University",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 2,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2026,
-    "last_year": 2027
   },
   {
     "name": "Yaxiong Lei",
@@ -17963,28 +17791,6 @@
     },
     "first_year": 2025,
     "last_year": 2025
-  },
-  {
-    "name": "Aqsa Rashid",
-    "display_name": "Aqsa Rashid",
-    "affiliation": "Air University",
-    "country": "Pakistan",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Aravind Prakash",
@@ -21463,28 +21269,6 @@
     "last_year": 2026
   },
   {
-    "name": "Farnaz Soltaniani",
-    "display_name": "Farnaz Soltaniani",
-    "affiliation": "TU Clausthal",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Fatemeh Mireshghallah",
     "display_name": "Fatemeh Mireshghallah",
     "affiliation": "University of California, San Diego",
@@ -21881,28 +21665,6 @@
     "last_year": 2026
   },
   {
-    "name": "Gaosheng Liu",
-    "display_name": "Gaosheng Liu",
-    "affiliation": "University of Trento",
-    "country": "Italy",
-    "continent": "Europe",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Georg Land",
     "display_name": "Georg Land",
     "affiliation": "Ruhr University Bochum",
@@ -21945,6 +21707,28 @@
     },
     "first_year": 2022,
     "last_year": 2022
+  },
+  {
+    "name": "Georgio Nicolas",
+    "display_name": "Georgio Nicolas",
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "NDSS",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
   },
   {
     "name": "Giacomo Priamo",
@@ -22275,28 +22059,6 @@
     },
     "first_year": 2026,
     "last_year": 2026
-  },
-  {
-    "name": "Guohua Xin",
-    "display_name": "Guohua Xin",
-    "affiliation": "Tianjin University",
-    "country": "China",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Guozhu Meng",
@@ -23597,28 +23359,6 @@
     "last_year": 2026
   },
   {
-    "name": "Ismail Hossain",
-    "display_name": "Ismail Hossain",
-    "affiliation": "PhD Candidate",
-    "country": null,
-    "continent": null,
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Jack Grigg",
     "display_name": "Jack Grigg",
     "affiliation": "Electric Coin Company",
@@ -24213,28 +23953,6 @@
     "last_year": 2025
   },
   {
-    "name": "Jiaqian Peng",
-    "display_name": "Jiaqian Peng",
-    "affiliation": "Institute of Information Engineering",
-    "country": "India",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Jiarun Dai",
     "display_name": "Jiarun Dai",
     "affiliation": "Fudan University",
@@ -24350,28 +24068,6 @@
     "affiliation": "University of Central Florida",
     "country": "United States",
     "continent": "North America",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
-    "name": "Jihye Lee",
-    "display_name": "Jihye Lee",
-    "affiliation": "Korea University",
-    "country": "South Korea",
-    "continent": "Asia",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -29097,6 +28793,28 @@
     "last_year": 2022
   },
   {
+    "name": "Moshood Fakorede",
+    "display_name": "Moshood Fakorede",
+    "affiliation": "Louisiana State University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "PETS",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "both",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
+  },
+  {
     "name": "Mrunal Dave",
     "display_name": "Mrunal Dave",
     "affiliation": "Meta",
@@ -29183,28 +28901,6 @@
     },
     "first_year": 2025,
     "last_year": 2025
-  },
-  {
-    "name": "Muhammad Attique Khan",
-    "display_name": "Muhammad Attique Khan",
-    "affiliation": "Prince Mohammad bin Fahd University",
-    "country": "Saudi Arabia",
-    "continent": "Asia",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Muhammad Hammad Bashir",
@@ -29843,28 +29539,6 @@
     },
     "first_year": 2025,
     "last_year": 2025
-  },
-  {
-    "name": "Nilson Sangy Junior",
-    "display_name": "Nilson Sangy Junior",
-    "affiliation": "Aeronautics Institute of Technology",
-    "country": null,
-    "continent": null,
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Nima Naderloui",
@@ -31561,28 +31235,6 @@
     "last_year": 2026
   },
   {
-    "name": "Rajesh Vayyala",
-    "display_name": "Rajesh Vayyala",
-    "affiliation": "Independent",
-    "country": "Rwanda",
-    "continent": "Africa",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Rakib Ul Haque",
     "display_name": "Rakib Ul Haque",
     "affiliation": "University of Texas at San Antonio",
@@ -31625,28 +31277,6 @@
     },
     "first_year": 2023,
     "last_year": 2023
-  },
-  {
-    "name": "Ram Chandra Sachan",
-    "display_name": "Ram Chandra Sachan",
-    "affiliation": "Wipro Limited",
-    "country": null,
-    "continent": null,
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Ranya Aloufi",
@@ -32375,28 +32005,6 @@
     "last_year": 2026
   },
   {
-    "name": "Saeedeh Parsaeefard",
-    "display_name": "Saeedeh Parsaeefard",
-    "affiliation": "Apple",
-    "country": null,
-    "continent": null,
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Sagar Mohan",
     "display_name": "Sagar Mohan",
     "affiliation": "Northeastern University",
@@ -32417,6 +32025,28 @@
     },
     "first_year": 2027,
     "last_year": 2027
+  },
+  {
+    "name": "Sagor Sikdar",
+    "display_name": "Sagor Sikdar",
+    "affiliation": "Pennsylvania State University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "WOOT",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
   },
   {
     "name": "Saher Elsayed",
@@ -33495,28 +33125,6 @@
     },
     "first_year": 2026,
     "last_year": 2026
-  },
-  {
-    "name": "Sheikh Muhammad Farjad",
-    "display_name": "Sheikh Muhammad Farjad",
-    "affiliation": "University of Nebraska at Omaha",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "both",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Sheng Liu",
@@ -34817,28 +34425,6 @@
     "last_year": 2025
   },
   {
-    "name": "Tasnim Islam",
-    "display_name": "Tasnim Islam",
-    "affiliation": "University of Maryland Baltimore County",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Tasnuva Farheen",
     "display_name": "Tasnuva Farheen",
     "affiliation": "Louisiana State University",
@@ -35807,28 +35393,6 @@
     "last_year": 2026
   },
   {
-    "name": "Vishruti Jignesh Kakkad",
-    "display_name": "Vishruti Jignesh Kakkad",
-    "affiliation": "Microsoft",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
-  },
-  {
     "name": "Visor",
     "display_name": "Visor",
     "affiliation": "",
@@ -36333,28 +35897,6 @@
     },
     "first_year": 2026,
     "last_year": 2026
-  },
-  {
-    "name": "Xiangrui Xu",
-    "display_name": "Xiangrui Xu",
-    "affiliation": "South Dakota State University",
-    "country": "United States",
-    "continent": "North America",
-    "total_memberships": 1,
-    "chair_count": 0,
-    "conferences": [
-      {
-        "conference": "NDSS",
-        "year": 2027,
-        "role": "member"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2027": 1
-    },
-    "first_year": 2027,
-    "last_year": 2027
   },
   {
     "name": "Xiao Han",
@@ -37059,6 +36601,28 @@
     },
     "first_year": 2024,
     "last_year": 2024
+  },
+  {
+    "name": "Yassine Mekdad",
+    "display_name": "Yassine Mekdad",
+    "affiliation": "Florida International University",
+    "country": "United States",
+    "continent": "North America",
+    "total_memberships": 1,
+    "chair_count": 0,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "member"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2026": 1
+    },
+    "first_year": 2026,
+    "last_year": 2026
   },
   {
     "name": "Ye Shu",
