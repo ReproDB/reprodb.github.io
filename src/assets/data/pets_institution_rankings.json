@@ -170,40 +170,6 @@
     "scope": null
   },
   {
-    "affiliation": "Carnegie Mellon University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 33,
-    "artifact_score": 15,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 0.83,
-    "role": "Balanced",
-    "artifact_count": 7,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 6,
-    "chair_count": 0,
-    "total_papers": 11,
-    "artifact_pct": 63.6,
-    "author_count": 8,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2023": 1,
-      "2024": 2,
-      "2025": 3,
-      "2026": 5,
-      "2022": 2,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Karlsruhe Institute of Technology",
     "country": "Germany",
     "country_code": "DE",
@@ -267,6 +233,40 @@
       "2022": 2,
       "2021": 0,
       "2020": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Carnegie Mellon University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 29,
+    "artifact_score": 11,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 0.61,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 55.6,
+    "author_count": 7,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2023": 1,
+      "2024": 2,
+      "2025": 3,
+      "2026": 4,
+      "2022": 1,
+      "2021": 0,
+      "2020": 0
     },
     "top_authors": [],
     "scope": null
@@ -879,40 +879,6 @@
     "scope": null
   },
   {
-    "affiliation": "IIT Bombay",
-    "country": "India",
-    "country_code": "IN",
-    "combined_score": 18,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 2.0,
-    "role": "Balanced",
-    "artifact_count": 7,
-    "badges_functional": 3,
-    "badges_reproducible": 2,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 9,
-    "artifact_pct": 77.8,
-    "author_count": 3,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 3,
-      "2024": 1,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "King's College London",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -1280,6 +1246,40 @@
       "2024": 1,
       "2023": 0,
       "2022": 0,
+      "2021": 0,
+      "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "UNC - Charlotte",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 13,
+    "artifact_score": 7,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 1.17,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 5,
+    "artifact_pct": 100.0,
+    "author_count": 2,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 2,
+      "2024": 1,
+      "2023": 0,
+      "2022": 1,
       "2021": 0,
       "2020": 0
     },
@@ -2308,6 +2308,40 @@
       "2022": 1,
       "2021": 0,
       "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Imperial College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 8,
+    "artifact_score": 8,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 4,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 8,
+    "artifact_pct": 50.0,
+    "author_count": 2,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 0,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 1
     },
     "top_authors": [],
     "scope": null
@@ -3775,40 +3809,6 @@
     "scope": null
   },
   {
-    "affiliation": "Oklahoma State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 5,
-    "artifact_score": 5,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 3,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 7,
-    "artifact_pct": 42.9,
-    "author_count": 1,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 0,
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Delaware",
     "country": "United States",
     "country_code": "US",
@@ -3867,6 +3867,40 @@
     "years": {
       "2026": 0,
       "2025": 2,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "IIT Bombay",
+    "country": "India",
+    "country_code": "IN",
+    "combined_score": 5,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 4,
+    "artifact_pct": 50.0,
+    "author_count": 1,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 1,
       "2024": 0,
       "2023": 0,
       "2022": 0,
@@ -4210,6 +4244,40 @@
       "2024": 0,
       "2023": 1,
       "2022": 0,
+      "2021": 0,
+      "2020": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Beihang University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 4,
+    "artifact_score": 4,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 2,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "PETS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
       "2021": 0,
       "2020": 0
     },
@@ -5169,7 +5237,7 @@
     "scope": null
   },
   {
-    "affiliation": "Politecnico di Milano",
+    "affiliation": "Univ. of Modena and Reggio Emilia",
     "country": "Italy",
     "country_code": "IT",
     "combined_score": 3,
@@ -5206,40 +5274,6 @@
     "affiliation": "Inria",
     "country": "France",
     "country_code": "FR",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 1,
-    "conferences": [
-      "PETS"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Imperial College London",
-    "country": "United Kingdom",
-    "country_code": "GB",
     "combined_score": 3,
     "artifact_score": 3,
     "artifact_citations": 0,

@@ -392,34 +392,6 @@
     "scope": null
   },
   {
-    "affiliation": "Tsinghua University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 10,
-    "artifact_score": 4,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.67,
-    "role": "Balanced",
-    "artifact_count": 2,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_pct": 100.0,
-    "author_count": 3,
-    "conferences": [
-      "SP"
-    ],
-    "years": {
-      "2026": 3
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Google",
     "country": "United States",
     "country_code": "US",
@@ -812,6 +784,34 @@
     "scope": null
   },
   {
+    "affiliation": "Tsinghua University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 7,
+    "artifact_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.17,
+    "role": "Consumer",
+    "artifact_count": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
+    "author_count": 2,
+    "conferences": [
+      "SP"
+    ],
+    "years": {
+      "2026": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Seoul National University",
     "country": "South Korea",
     "country_code": "KR",
@@ -885,6 +885,34 @@
     "chair_count": 0,
     "total_papers": 3,
     "artifact_pct": 66.7,
+    "author_count": 2,
+    "conferences": [
+      "SP"
+    ],
+    "years": {
+      "2026": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 6,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
     "author_count": 2,
     "conferences": [
       "SP"
@@ -3111,34 +3139,6 @@
     "affiliation": "University of Queensland",
     "country": "Australia",
     "country_code": "AU",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "SP"
-    ],
-    "years": {
-      "2026": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Illinois Urbana-Champaign",
-    "country": "United States",
-    "country_code": "US",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,

@@ -272,6 +272,39 @@
     "scope": null
   },
   {
+    "affiliation": "Peking University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 81,
+    "artifact_score": 57,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 24,
+    "ae_ratio": 2.38,
+    "role": "Producer",
+    "artifact_count": 19,
+    "badges_functional": 19,
+    "badges_reproducible": 19,
+    "ae_memberships": 8,
+    "chair_count": 0,
+    "total_papers": 32,
+    "artifact_pct": 59.4,
+    "author_count": 12,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2025": 5,
+      "2024": 5,
+      "2023": 7,
+      "2022": 4,
+      "2021": 0,
+      "2020": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Columbia University",
     "country": "United States",
     "country_code": "US",
@@ -300,39 +333,6 @@
       "2022": 12,
       "2021": 5,
       "2020": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Peking University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 72,
-    "artifact_score": 48,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 24,
-    "ae_ratio": 2.0,
-    "role": "Balanced",
-    "artifact_count": 16,
-    "badges_functional": 16,
-    "badges_reproducible": 16,
-    "ae_memberships": 8,
-    "chair_count": 0,
-    "total_papers": 29,
-    "artifact_pct": 55.2,
-    "author_count": 11,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 5,
-      "2024": 5,
-      "2023": 6,
-      "2022": 2,
-      "2021": 0,
-      "2020": 3
     },
     "top_authors": [],
     "scope": null
@@ -640,6 +640,40 @@
     "scope": null
   },
   {
+    "affiliation": "University of Chicago",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 56,
+    "artifact_score": 26,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 30,
+    "ae_ratio": 0.87,
+    "role": "Balanced",
+    "artifact_count": 10,
+    "badges_functional": 8,
+    "badges_reproducible": 8,
+    "ae_memberships": 10,
+    "chair_count": 0,
+    "total_papers": 18,
+    "artifact_pct": 55.6,
+    "author_count": 16,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2025": 2,
+      "2024": 7,
+      "2023": 1,
+      "2022": 5,
+      "2021": 2,
+      "2020": 2,
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Virginia",
     "country": "United States",
     "country_code": "US",
@@ -773,40 +807,6 @@
     "scope": null
   },
   {
-    "affiliation": "University of Chicago",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 47,
-    "artifact_score": 17,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 30,
-    "ae_ratio": 0.57,
-    "role": "Balanced",
-    "artifact_count": 7,
-    "badges_functional": 5,
-    "badges_reproducible": 5,
-    "ae_memberships": 10,
-    "chair_count": 0,
-    "total_papers": 12,
-    "artifact_pct": 58.3,
-    "author_count": 15,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 2,
-      "2024": 6,
-      "2023": 1,
-      "2022": 3,
-      "2021": 2,
-      "2020": 2,
-      "2026": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "ETH Zurich",
     "country": "Switzerland",
     "country_code": "CH",
@@ -907,6 +907,39 @@
     "scope": null
   },
   {
+    "affiliation": "Cornell University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 42,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 27,
+    "ae_ratio": 0.56,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 9,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 55.6,
+    "author_count": 10,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2021": 1,
+      "2020": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Hong Kong University of Science and Technology",
     "country": "Hong Kong",
     "country_code": "HK",
@@ -935,39 +968,6 @@
       "2022": 5,
       "2021": 2,
       "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Cornell University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 39,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 27,
-    "ae_ratio": 0.44,
-    "role": "Consumer",
-    "artifact_count": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 9,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 50.0,
-    "author_count": 9,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2022": 3,
-      "2023": 3,
-      "2024": 2,
-      "2025": 2,
-      "2021": 1,
-      "2020": 2
     },
     "top_authors": [],
     "scope": null
@@ -1168,39 +1168,6 @@
       "2023": 2,
       "2020": 1,
       "2026": 5
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "IIT Bombay",
-    "country": "India",
-    "country_code": "IN",
-    "combined_score": 36,
-    "artifact_score": 24,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 12,
-    "ae_ratio": 2.0,
-    "role": "Balanced",
-    "artifact_count": 8,
-    "badges_functional": 8,
-    "badges_reproducible": 8,
-    "ae_memberships": 4,
-    "chair_count": 0,
-    "total_papers": 14,
-    "artifact_pct": 57.1,
-    "author_count": 6,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 2,
-      "2024": 2,
-      "2023": 2,
-      "2022": 4,
-      "2021": 0,
-      "2020": 1
     },
     "top_authors": [],
     "scope": null
@@ -1498,6 +1465,39 @@
       "2022": 1,
       "2021": 0,
       "2020": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "UNC - Charlotte",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 27,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 1.25,
+    "role": "Balanced",
+    "artifact_count": 5,
+    "badges_functional": 5,
+    "badges_reproducible": 5,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 8,
+    "artifact_pct": 62.5,
+    "author_count": 5,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2025": 2,
+      "2024": 1,
+      "2023": 2,
+      "2022": 2,
+      "2021": 0,
+      "2020": 1
     },
     "top_authors": [],
     "scope": null
@@ -2821,39 +2821,6 @@
     "years": {
       "2021": 1,
       "2022": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Hong Kong Baptist University",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 9,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 100.0,
-    "author_count": 1,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 1,
-      "2022": 2,
-      "2021": 0,
-      "2020": 0
     },
     "top_authors": [],
     "scope": null

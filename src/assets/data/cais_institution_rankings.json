@@ -168,34 +168,6 @@
     "scope": null
   },
   {
-    "affiliation": "Oklahoma State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 12,
-    "artifact_score": 12,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 4,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 5,
-    "artifact_pct": 80.0,
-    "author_count": 2,
-    "conferences": [
-      "CAIS"
-    ],
-    "years": {
-      "2026": 4
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Carleton University",
     "country": "Canada",
     "country_code": "CA",
@@ -247,6 +219,34 @@
     ],
     "years": {
       "2026": 4
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Oklahoma State University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 9,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 3,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "CAIS"
+    ],
+    "years": {
+      "2026": 3
     },
     "top_authors": [],
     "scope": null
@@ -717,6 +717,34 @@
     "chair_count": 0,
     "total_papers": 1,
     "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "CAIS"
+    ],
+    "years": {
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Imperial College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 50.0,
     "author_count": 1,
     "conferences": [
       "CAIS"

@@ -1793,39 +1793,6 @@
     "scope": null
   },
   {
-    "affiliation": "IIT Bombay",
-    "country": "India",
-    "country_code": "IN",
-    "combined_score": 15,
-    "artifact_score": 15,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 6,
-    "badges_functional": 5,
-    "badges_reproducible": 4,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 75.0,
-    "author_count": 4,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 2,
-      "2023": 1,
-      "2022": 1,
-      "2021": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of Manchester",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -1886,6 +1853,39 @@
       "2024": 0,
       "2023": 0,
       "2022": 5,
+      "2021": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Peking University",
+    "country": "China",
+    "country_code": "CN",
+    "combined_score": 15,
+    "artifact_score": 12,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 4.0,
+    "role": "Producer",
+    "artifact_count": 4,
+    "badges_functional": 4,
+    "badges_reproducible": 4,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 44.4,
+    "author_count": 5,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 0,
+      "2024": 2,
+      "2023": 0,
+      "2022": 1,
       "2021": 0
     },
     "top_authors": [],
@@ -2535,72 +2535,6 @@
     "scope": null
   },
   {
-    "affiliation": "City University of Hong Kong",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 12,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifact_count": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 66.7,
-    "author_count": 4,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 1,
-      "2024": 1,
-      "2023": 1,
-      "2022": 0,
-      "2021": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Peking University",
-    "country": "China",
-    "country_code": "CN",
-    "combined_score": 12,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 3.0,
-    "role": "Producer",
-    "artifact_count": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 37.5,
-    "author_count": 4,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 0,
-      "2024": 1,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "University of California, Riverside",
     "country": "United States",
     "country_code": "US",
@@ -2928,6 +2862,39 @@
     "scope": null
   },
   {
+    "affiliation": "UNC - Charlotte",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 9,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 4,
+    "badges_functional": 3,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 6,
+    "artifact_pct": 66.7,
+    "author_count": 2,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 1,
+      "2023": 1,
+      "2022": 1,
+      "2021": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Sydney",
     "country": "Australia",
     "country_code": "AU",
@@ -3214,39 +3181,6 @@
     "scope": null
   },
   {
-    "affiliation": "Hong Kong Baptist University",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 9,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_pct": 75.0,
-    "author_count": 3,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 1,
-      "2025": 1,
-      "2024": 1,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "NEC Laboratories Europe GmbH",
     "country": null,
     "country_code": null,
@@ -3405,6 +3339,39 @@
       "2025": 0,
       "2024": 0,
       "2023": 2,
+      "2022": 0,
+      "2021": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 9,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.5,
+    "role": "Balanced",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 50.0,
+    "author_count": 3,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 1,
+      "2024": 1,
+      "2023": 1,
       "2022": 0,
       "2021": 0
     },
@@ -4426,6 +4393,39 @@
     "scope": null
   },
   {
+    "affiliation": "Hong Kong Baptist University",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 66.7,
+    "author_count": 2,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 1,
+      "2024": 0,
+      "2023": 0,
+      "2022": 0,
+      "2021": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Exeter",
     "country": "United Kingdom",
     "country_code": "GB",
@@ -4657,6 +4657,39 @@
     "scope": null
   },
   {
+    "affiliation": "Oregon State University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 66.7,
+    "author_count": 2,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
+      "2021": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of South Carolina",
     "country": "United States",
     "country_code": "US",
@@ -4850,6 +4883,39 @@
       "2023": 0,
       "2022": 2,
       "2021": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "IIT Bombay",
+    "country": "India",
+    "country_code": "IN",
+    "combined_score": 6,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 2,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 1,
+      "2023": 0,
+      "2022": 0,
+      "2021": 1
     },
     "top_authors": [],
     "scope": null
@@ -7424,39 +7490,6 @@
       "2023": 0,
       "2022": 0,
       "2021": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Oregon State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 3,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 0,
-    "ae_ratio": null,
-    "role": "Producer",
-    "artifact_count": 1,
-    "badges_functional": 1,
-    "badges_reproducible": 1,
-    "ae_memberships": 0,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_pct": 50.0,
-    "author_count": 1,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0
     },
     "top_authors": [],
     "scope": null
