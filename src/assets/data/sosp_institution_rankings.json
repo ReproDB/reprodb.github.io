@@ -420,6 +420,41 @@
     "scope": null
   },
   {
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 56,
+    "artifact_score": 44,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 3.67,
+    "role": "Producer",
+    "artifact_count": 15,
+    "badges_functional": 15,
+    "badges_reproducible": 14,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 19,
+    "artifact_pct": 78.9,
+    "author_count": 18,
+    "conferences": [
+      "SOSP"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 4,
+      "2024": 0,
+      "2023": 4,
+      "2022": 0,
+      "2021": 7,
+      "2020": 0,
+      "2019": 4
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Wisconsin-Madison",
     "country": "United States",
     "country_code": "US",
@@ -450,41 +485,6 @@
       "2021": 7,
       "2020": 0,
       "2019": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 53,
-    "artifact_score": 44,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 4.89,
-    "role": "Producer",
-    "artifact_count": 15,
-    "badges_functional": 15,
-    "badges_reproducible": 14,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 19,
-    "artifact_pct": 78.9,
-    "author_count": 17,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 4,
-      "2024": 0,
-      "2023": 4,
-      "2022": 0,
-      "2021": 7,
-      "2020": 0,
-      "2019": 3
     },
     "top_authors": [],
     "scope": null
@@ -7625,34 +7625,6 @@
     ],
     "years": {
       "2026": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "SOSP"
-    ],
-    "years": {
-      "2019": 1
     },
     "top_authors": [],
     "scope": null

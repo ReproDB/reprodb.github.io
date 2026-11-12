@@ -573,6 +573,40 @@
     "scope": null
   },
   {
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 60,
+    "artifact_score": 33,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 27,
+    "ae_ratio": 1.22,
+    "role": "Balanced",
+    "artifact_count": 11,
+    "badges_functional": 11,
+    "badges_reproducible": 11,
+    "ae_memberships": 9,
+    "chair_count": 0,
+    "total_papers": 14,
+    "artifact_pct": 78.6,
+    "author_count": 15,
+    "conferences": [
+      "OSDI"
+    ],
+    "years": {
+      "2020": 5,
+      "2022": 1,
+      "2026": 1,
+      "2025": 2,
+      "2024": 7,
+      "2023": 3,
+      "2021": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Purdue University",
     "country": "United States",
     "country_code": "US",
@@ -703,39 +737,6 @@
       "2021": 1,
       "2020": 2,
       "2026": 10
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 51,
-    "artifact_score": 33,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 1.83,
-    "role": "Balanced",
-    "artifact_count": 11,
-    "badges_functional": 11,
-    "badges_reproducible": 11,
-    "ae_memberships": 6,
-    "chair_count": 0,
-    "total_papers": 14,
-    "artifact_pct": 78.6,
-    "author_count": 14,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2025": 2,
-      "2024": 7,
-      "2023": 3,
-      "2022": 0,
-      "2021": 1,
-      "2020": 4
     },
     "top_authors": [],
     "scope": null
@@ -2854,36 +2855,6 @@
       "2022": 0,
       "2021": 0,
       "2020": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "OSDI"
-    ],
-    "years": {
-      "2020": 1,
-      "2022": 1,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null

@@ -1,21 +1,21 @@
 overall:
-  github_repos: 2307
-  total_stars: 630033
-  total_forks: 124347
+  github_repos: 2324
+  total_stars: 630071
+  total_forks: 124350
   max_stars: 96012
   max_forks: 28717
-  zenodo_repos: 1340
-  total_views: 455042
-  total_downloads: 327132
-  avg_stars: 273.1
-  avg_forks: 53.9
-  median_stars: 6
-  median_forks: 1
+  zenodo_repos: 1344
+  total_views: 455204
+  total_downloads: 327237
+  avg_stars: 271.1
+  avg_forks: 53.5
+  median_stars: 6.0
+  median_forks: 1.0
   p25_stars: 1.0
-  p75_stars: 23.0
+  p75_stars: 22.8
   p25_forks: 0.0
   p75_forks: 5.0
-  last_updated: 2026-11-08 18:22:20 UTC
+  last_updated: 2026-11-12 13:33:08 UTC
 by_conference:
 - name: ACSAC
   github_repos: 284
@@ -1112,15 +1112,15 @@ by_conference:
     - Ramla Ijaz
     - Lin Zhong 0001
 - name: PETS
-  github_repos: 351
-  total_stars: 21095
-  total_forks: 1999
-  avg_stars: 60.1
-  avg_forks: 5.7
-  median_stars: 1.0
-  median_forks: 0.0
+  github_repos: 368
+  total_stars: 21133
+  total_forks: 2002
+  avg_stars: 57.4
+  avg_forks: 5.4
+  median_stars: 1
+  median_forks: 0
   p25_stars: 0.0
-  p75_stars: 4.2
+  p75_stars: 4.0
   p25_forks: 0.0
   p75_forks: 1.0
   max_stars: 13858
@@ -1210,6 +1210,18 @@ by_conference:
     p75_stars: 1.2
     p25_forks: 0.0
     p75_forks: 1.0
+  - year: 2027
+    github_repos: 17
+    total_stars: 38
+    total_forks: 3
+    avg_stars: 2.2
+    avg_forks: 0.2
+    median_stars: 0
+    median_forks: 0
+    p25_stars: 0.0
+    p75_stars: 1.0
+    p25_forks: 0.0
+    p75_forks: 0.0
   top_repos:
   - title: Who Can Find My Devices? Security and Privacy of Apple's Crowd-Sourced
       Bluetooth Location Tracking System
@@ -2398,6 +2410,20 @@ by_year:
   p75_forks: 1.0
   max_stars: 10717
   max_forks: 1288
+- year: 2027
+  github_repos: 17
+  total_stars: 38
+  total_forks: 3
+  avg_stars: 2.2
+  avg_forks: 0.2
+  median_stars: 0
+  median_forks: 0
+  p25_stars: 0.0
+  p75_stars: 1.0
+  p25_forks: 0.0
+  p75_forks: 0.0
+  max_stars: 32
+  max_forks: 1
 by_area:
 - name: systems
   github_repos: 696
@@ -2411,11 +2437,11 @@ by_area:
   p75_forks: 7.0
   max_stars: 19614
 - name: security
-  github_repos: 1663
-  total_stars: 624831
-  total_forks: 133235
-  median_stars: 6
-  median_forks: 1
+  github_repos: 1680
+  total_stars: 624869
+  total_forks: 133238
+  median_stars: 5.0
+  median_forks: 1.0
   p25_stars: 1.0
   p75_stars: 19.0
   p25_forks: 0.0

@@ -104,7 +104,7 @@
       "University of Würzburg": 1,
       "Pennsylvania State University": 2,
       "microsoft": 1,
-      "New York University": 4,
+      "New York University": 5,
       "Universidade Federal de Uberlândia": 1,
       "Purdue University": 4,
       "University of Science and Technology of China": 1,
@@ -162,7 +162,8 @@
       "University of Potsdam": 1,
       "National University of Singapore": 1,
       "Singapore University of Technology and Design": 1,
-      "Ruhr-University Bochum": 4,
+      "Ruhr-University Bochum": 3,
+      "Federal University of Bahia": 1,
       "École normale supérieure Paris-Saclay": 1,
       "The Hong Kong University of Science and Technology": 2,
       "Sapienza University of Rome": 1,
@@ -1166,14 +1167,14 @@
       "University of California, Berkeley": 15,
       "Cornell University": 3,
       "City St George's, University of London": 1,
-      "Purdue University": 27,
+      "Purdue University": 29,
       "National Technical University of Athens": 3,
       "Shanghai Jiao Tong University": 4,
       "University of Texas at Dallas": 4,
       "University of California, Santa Barbara": 5,
       "University of Manchester": 1,
       "netflix": 3,
-      "Kigali Independent University": 2,
+      "Kigali Independent University": 3,
       "TU Dortmund": 1,
       "IMDEA Networks Institute": 1,
       "Politecnico di Milano": 2,
@@ -1243,7 +1244,7 @@
       "The University of Hong Kong": 3,
       "George Mason University": 6,
       "Masaryk University": 1,
-      "Arizona State University": 6,
+      "Arizona State University": 8,
       "University at Buffalo": 3,
       "The Hong Kong Polytechnic University": 13,
       "TU Darmstadt": 4,
@@ -1275,7 +1276,7 @@
       "Arkansas at Pine Bluff, University of": 1,
       "Aalto University": 1,
       "University of Massachusetts at Dartmouth": 1,
-      "University of New Mexico": 2,
+      "University of New Mexico": 3,
       "ETH Zurich": 6,
       "Georgia State University": 1,
       "University of Stuttgart": 1,
@@ -1356,7 +1357,10 @@
       "Old Dominion University": 1,
       "Baylor University": 1,
       "Worcester Polytechnic Institute": 1,
-      "Zaporizhzhe National Technical University": 1
+      "Zaporizhzhe National Technical University": 1,
+      "University of Georgia": 2,
+      "Hasso Plattner Institute": 1,
+      "University of Birmingham": 1
     },
     "2027": {
       "rwth aachen": 1,
@@ -1501,6 +1505,7 @@
       "Fudan University": 1,
       "Griffith University": 1,
       "Rice University": 1,
+      "Univ. of California - Davis": 2,
       "Karlsruhe Inst. of Technology": 1
     }
   },
@@ -2416,9 +2421,10 @@
       "University of Potsdam": 1,
       "National University of Singapore": 1,
       "Singapore University of Technology and Design": 1,
-      "Ruhr-University Bochum": 4,
-      "New York University": 2,
+      "Ruhr-University Bochum": 3,
+      "New York University": 3,
       "Stony Brook University": 1,
+      "Federal University of Bahia": 1,
       "École normale supérieure Paris-Saclay": 1,
       "The Hong Kong University of Science and Technology": 2,
       "Sapienza University of Rome": 1,
@@ -3023,7 +3029,7 @@
       "University of Utah": 6,
       "KU Leuven": 11,
       "Virginia Tech": 9,
-      "Purdue University": 18,
+      "Purdue University": 20,
       "Nanyang Technological University": 1,
       "Georgia Institute of Technology": 12,
       "University of Twente": 3,
@@ -3054,7 +3060,7 @@
       "Carnegie Mellon University": 5,
       "Masaryk University": 1,
       "Dartmouth College": 3,
-      "Arizona State University": 4,
+      "Arizona State University": 6,
       "University of Wisconsin - Madison": 17,
       "University of Illinois Urbana-Champaign": 7,
       "Beihang University": 4,
@@ -3109,7 +3115,7 @@
       "University of Virginia": 1,
       "University of Illinois Chicago": 1,
       "Louisiana State University": 4,
-      "University of New Mexico": 2,
+      "University of New Mexico": 3,
       "ETH Zurich": 5,
       "Georgia State University": 1,
       "University of Stuttgart": 1,
@@ -3203,8 +3209,12 @@
       "Baylor University": 1,
       "Worcester Polytechnic Institute": 1,
       "Zaporizhzhe National Technical University": 1,
+      "Kigali Independent University": 1,
+      "University of Georgia": 2,
       "Politecnico di Milano": 1,
-      "EPFL": 1
+      "Hasso Plattner Institute": 1,
+      "EPFL": 1,
+      "University of Birmingham": 1
     },
     "2027": {
       "University of Regina": 1,
@@ -3331,6 +3341,7 @@
       "Fudan University": 1,
       "Griffith University": 1,
       "Rice University": 1,
+      "Univ. of California - Davis": 2,
       "Karlsruhe Inst. of Technology": 1,
       "Carnegie Mellon University": 1
     }
@@ -3499,6 +3510,10 @@
       "year": 2020,
       "institutions": [
         {
+          "name": "New York University",
+          "count": 5
+        },
+        {
           "name": "EURECOM",
           "count": 5
         },
@@ -3508,10 +3523,6 @@
         },
         {
           "name": "Duke University",
-          "count": 4
-        },
-        {
-          "name": "New York University",
           "count": 4
         },
         {
@@ -3547,15 +3558,15 @@
           "count": 4
         },
         {
-          "name": "Ruhr-University Bochum",
-          "count": 4
-        },
-        {
           "name": "EPFL",
           "count": 3
         },
         {
           "name": "the ohio state university",
+          "count": 3
+        },
+        {
+          "name": "University of California, Santa Barbara",
           "count": 3
         }
       ]
@@ -3893,11 +3904,11 @@
           "count": 38
         },
         {
-          "name": "Georgia Institute of Technology",
-          "count": 27
+          "name": "Purdue University",
+          "count": 29
         },
         {
-          "name": "Purdue University",
+          "name": "Georgia Institute of Technology",
           "count": 27
         },
         {
@@ -4037,9 +4048,9 @@
     },
     {
       "year": 2020,
-      "total": 80,
+      "total": 81,
       "systems": 31,
-      "security": 60
+      "security": 61
     },
     {
       "year": 2021,
@@ -4073,15 +4084,15 @@
     },
     {
       "year": 2026,
-      "total": 251,
+      "total": 254,
       "systems": 140,
-      "security": 187
+      "security": 191
     },
     {
       "year": 2027,
-      "total": 143,
+      "total": 144,
       "systems": 28,
-      "security": 126
+      "security": 127
     }
   ]
 }

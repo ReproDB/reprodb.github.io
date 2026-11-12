@@ -892,6 +892,46 @@
     "scope": null
   },
   {
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 160,
+    "artifact_score": 100,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 60,
+    "ae_ratio": 1.67,
+    "role": "Balanced",
+    "artifact_count": 35,
+    "badges_functional": 35,
+    "badges_reproducible": 30,
+    "ae_memberships": 20,
+    "chair_count": 0,
+    "total_papers": 59,
+    "artifact_pct": 59.3,
+    "author_count": 33,
+    "conferences": [
+      "ATC",
+      "EUROSYS",
+      "FAST",
+      "OSDI",
+      "SC",
+      "SOSP"
+    ],
+    "years": {
+      "2019": 4,
+      "2020": 7,
+      "2022": 3,
+      "2023": 9,
+      "2026": 3,
+      "2024": 10,
+      "2025": 7,
+      "2021": 12
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Nanjing University",
     "country": "China",
     "country_code": "CN",
@@ -1085,46 +1125,6 @@
       "2021": 11,
       "2020": 10,
       "2019": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 142,
-    "artifact_score": 100,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 42,
-    "ae_ratio": 2.38,
-    "role": "Producer",
-    "artifact_count": 35,
-    "badges_functional": 35,
-    "badges_reproducible": 30,
-    "ae_memberships": 14,
-    "chair_count": 0,
-    "total_papers": 59,
-    "artifact_pct": 59.3,
-    "author_count": 32,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "FAST",
-      "OSDI",
-      "SC",
-      "SOSP"
-    ],
-    "years": {
-      "2024": 10,
-      "2025": 7,
-      "2026": 2,
-      "2023": 8,
-      "2022": 1,
-      "2021": 12,
-      "2020": 6,
-      "2019": 3
     },
     "top_authors": [],
     "scope": null
@@ -5984,41 +5984,6 @@
       "2023": 1,
       "2024": 2,
       "2025": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 18,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 18,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 6,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "ATC",
-      "EUROSYS",
-      "OSDI",
-      "SOSP"
-    ],
-    "years": {
-      "2019": 1,
-      "2020": 1,
-      "2022": 2,
-      "2023": 1,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null

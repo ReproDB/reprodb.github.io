@@ -1,19 +1,19 @@
-last_updated: '2026-11-08'
-total_members: 4946
+last_updated: '2026-11-12'
+total_members: 5011
 total_systems: 2524
-total_security: 2422
-total_conferences: 73
+total_security: 2487
+total_conferences: 74
 total_countries: 57
 total_continents: 6
-total_institutions: 495
-unique_members: 2749
+total_institutions: 496
+unique_members: 2811
 unique_members_systems: 1348
-unique_members_security: 1510
-unique_members_both: 109
+unique_members_security: 1573
+unique_members_both: 110
 recurring_chairs: 145
 top_countries:
 - name: United States
-  count: 2443
+  count: 2453
 - name: China
   count: 501
 - name: Germany
@@ -21,7 +21,7 @@ top_countries:
 - name: Hong Kong
   count: 218
 - name: United Kingdom
-  count: 113
+  count: 114
 - name: Switzerland
   count: 80
 - name: Canada
@@ -75,7 +75,7 @@ top_countries_systems:
   count: 14
 top_countries_security:
 - name: United States
-  count: 1065
+  count: 1075
 - name: Germany
   count: 250
 - name: China
@@ -87,7 +87,7 @@ top_countries_security:
 - name: Italy
   count: 56
 - name: United Kingdom
-  count: 54
+  count: 55
 - name: Belgium
   count: 53
 - name: France
@@ -106,17 +106,17 @@ top_countries_security:
   count: 23
 top_continents:
 - name: North America
-  count: 2524
+  count: 2534
 - name: Asia
   count: 954
 - name: Europe
-  count: 928
+  count: 929
 - name: Oceania
   count: 73
 - name: South America
-  count: 16
+  count: 17
 - name: Africa
-  count: 10
+  count: 11
 top_continents_systems:
 - name: North America
   count: 1410
@@ -132,22 +132,22 @@ top_continents_systems:
   count: 6
 top_continents_security:
 - name: North America
-  count: 1114
+  count: 1124
 - name: Europe
-  count: 631
+  count: 632
 - name: Asia
   count: 341
 - name: Oceania
   count: 59
 - name: South America
-  count: 8
+  count: 9
 - name: Africa
-  count: 4
+  count: 5
 top_institutions:
 - name: University of Illinois Urbana-Champaign
   count: 145
 - name: Purdue University
-  count: 110
+  count: 112
 - name: University of Wisconsin - Madison
   count: 97
 - name: Georgia Institute of Technology
@@ -229,7 +229,7 @@ top_institutions_security:
 - name: cispa helmholtz center for information security
   count: 74
 - name: Purdue University
-  count: 55
+  count: 57
 - name: University of California, Irvine
   count: 48
 - name: KU Leuven
@@ -241,7 +241,7 @@ top_institutions_security:
 - name: Tsinghua University
   count: 35
 - name: Ruhr-University Bochum
-  count: 32
+  count: 31
 - name: Boston University
   count: 30
 - name: Max Planck Society
@@ -264,7 +264,7 @@ top_institutions_security:
   count: 23
 - name: The Hong Kong University of Science and Technology
   count: 22
-- name: North Carolina State University
+- name: University of Georgia
   count: 21
 institution_timeline:
 - year: 2017
@@ -280,9 +280,9 @@ institution_timeline:
   systems: 33
   security: 37
 - year: 2020
-  total: 80
+  total: 81
   systems: 31
-  security: 60
+  security: 61
 - year: 2021
   total: 154
   systems: 119
@@ -304,13 +304,13 @@ institution_timeline:
   systems: 135
   security: 166
 - year: 2026
-  total: 251
+  total: 254
   systems: 140
-  security: 187
+  security: 191
 - year: 2027
-  total: 143
+  total: 144
   systems: 28
-  security: 126
+  security: 127
 committee_sizes:
 - conference: ACSAC
   year: 2017
@@ -542,6 +542,11 @@ committee_sizes:
   conf_year: pets2026
   area: security
   size: 89
+- conference: PETS
+  year: 2027
+  conf_year: pets2027
+  area: security
+  size: 54
 - conference: SC
   year: 2021
   conf_year: sc2021
@@ -676,7 +681,7 @@ committee_sizes:
   year: 2026
   conf_year: woot2026
   area: security
-  size: 16
+  size: 27
 chair_stats:
   total_chairs: 145
   total_chairs_systems: 115

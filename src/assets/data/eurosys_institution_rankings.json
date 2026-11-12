@@ -1859,6 +1859,39 @@
     "scope": null
   },
   {
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 15,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 5,
+    "conferences": [
+      "EUROSYS"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 2,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Peking University",
     "country": "China",
     "country_code": "CN",
@@ -2365,39 +2398,6 @@
       "2023": 0,
       "2022": 1,
       "2021": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 12,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifact_count": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_pct": 100.0,
-    "author_count": 4,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2026": 2,
-      "2025": 2,
-      "2024": 0,
-      "2023": 0,
-      "2022": 0,
-      "2021": 0
     },
     "top_authors": [],
     "scope": null
@@ -10125,34 +10125,6 @@
     ],
     "years": {
       "2026": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stanford",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "EUROSYS"
-    ],
-    "years": {
-      "2023": 1
     },
     "top_authors": [],
     "scope": null
