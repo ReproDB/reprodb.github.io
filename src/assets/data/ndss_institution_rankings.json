@@ -462,6 +462,37 @@
     "scope": null
   },
   {
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 29,
+    "artifact_score": 11,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 18,
+    "ae_ratio": 0.61,
+    "role": "Balanced",
+    "artifact_count": 4,
+    "badges_functional": 3,
+    "badges_reproducible": 4,
+    "ae_memberships": 6,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 44.4,
+    "author_count": 7,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 3,
+      "2025": 3,
+      "2024": 1,
+      "2027": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Shandong University",
     "country": "China",
     "country_code": "CN",
@@ -488,37 +519,6 @@
       "2025": 0,
       "2024": 0,
       "2027": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Stony Brook University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 26,
-    "artifact_score": 11,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.73,
-    "role": "Balanced",
-    "artifact_count": 4,
-    "badges_functional": 3,
-    "badges_reproducible": 4,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 9,
-    "artifact_pct": 44.4,
-    "author_count": 6,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 2,
-      "2024": 1,
-      "2027": 3
     },
     "top_authors": [],
     "scope": null
@@ -641,37 +641,6 @@
       "2026": 3,
       "2027": 1,
       "2024": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "City University of Hong Kong",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 23,
-    "artifact_score": 8,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 15,
-    "ae_ratio": 0.53,
-    "role": "Balanced",
-    "artifact_count": 3,
-    "badges_functional": 2,
-    "badges_reproducible": 3,
-    "ae_memberships": 5,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 100.0,
-    "author_count": 6,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 4,
-      "2027": 2,
-      "2025": 2,
-      "2024": 0
     },
     "top_authors": [],
     "scope": null
@@ -800,6 +769,37 @@
     "scope": null
   },
   {
+    "affiliation": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 20,
+    "artifact_score": 8,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 12,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifact_count": 3,
+    "badges_functional": 2,
+    "badges_reproducible": 3,
+    "ae_memberships": 4,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 100.0,
+    "author_count": 5,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 4,
+      "2027": 2,
+      "2025": 1,
+      "2024": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Utah",
     "country": "United States",
     "country_code": "US",
@@ -917,6 +917,36 @@
       "2024": 1,
       "2025": 4,
       "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "UNC - Charlotte",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 18,
+    "artifact_score": 15,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 5.0,
+    "role": "Producer",
+    "artifact_count": 6,
+    "badges_functional": 6,
+    "badges_reproducible": 3,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 9,
+    "artifact_pct": 66.7,
+    "author_count": 4,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 2,
+      "2025": 3,
+      "2024": 2
     },
     "top_authors": [],
     "scope": null
@@ -1259,31 +1289,32 @@
     "scope": null
   },
   {
-    "affiliation": "UNC - Charlotte",
+    "affiliation": "University at Buffalo",
     "country": "United States",
     "country_code": "US",
     "combined_score": 15,
-    "artifact_score": 12,
+    "artifact_score": 0,
     "artifact_citations": 0,
     "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 4.0,
-    "role": "Producer",
-    "artifact_count": 5,
-    "badges_functional": 5,
-    "badges_reproducible": 2,
-    "ae_memberships": 1,
+    "ae_score": 15,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 5,
     "chair_count": 0,
-    "total_papers": 8,
-    "artifact_pct": 62.5,
-    "author_count": 3,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 2,
     "conferences": [
       "NDSS"
     ],
     "years": {
+      "2024": 1,
+      "2025": 1,
       "2026": 2,
-      "2025": 2,
-      "2024": 2
+      "2027": 1
     },
     "top_authors": [],
     "scope": null
@@ -1466,6 +1497,37 @@
       "2027": 1,
       "2025": 0,
       "2024": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Yale University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 15,
+    "artifact_score": 6,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.67,
+    "role": "Balanced",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 2,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 5,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 3,
+      "2025": 0,
+      "2024": 0,
+      "2027": 2
     },
     "top_authors": [],
     "scope": null
@@ -1991,37 +2053,6 @@
     "scope": null
   },
   {
-    "affiliation": "Yale University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 12,
-    "artifact_score": 6,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 1.0,
-    "role": "Balanced",
-    "artifact_count": 2,
-    "badges_functional": 2,
-    "badges_reproducible": 2,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 2,
-    "artifact_pct": 100.0,
-    "author_count": 4,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 3,
-      "2025": 0,
-      "2024": 0,
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Boston University",
     "country": "United States",
     "country_code": "US",
@@ -2258,36 +2289,6 @@
       "2025": 1,
       "2026": 1,
       "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Oakland University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2024": 1,
-      "2025": 1,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -3613,35 +3614,6 @@
   },
   {
     "affiliation": "Michigan State University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2026": 1,
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University at Buffalo",
     "country": "United States",
     "country_code": "US",
     "combined_score": 6,
@@ -5076,8 +5048,8 @@
     "badges_reproducible": 0,
     "ae_memberships": 0,
     "chair_count": 0,
-    "total_papers": 6,
-    "artifact_pct": 33.3,
+    "total_papers": 8,
+    "artifact_pct": 25.0,
     "author_count": 1,
     "conferences": [
       "NDSS"
@@ -6831,6 +6803,36 @@
     "scope": null
   },
   {
+    "affiliation": "Computer Network Information Center",
+    "country": null,
+    "country_code": null,
+    "combined_score": 3,
+    "artifact_score": 3,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 0,
+    "ae_ratio": null,
+    "role": "Producer",
+    "artifact_count": 1,
+    "badges_functional": 1,
+    "badges_reproducible": 1,
+    "ae_memberships": 0,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 50.0,
+    "author_count": 1,
+    "conferences": [
+      "NDSS"
+    ],
+    "years": {
+      "2026": 1,
+      "2025": 0,
+      "2024": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "University of Chinese Academy of Sciences",
     "country": "China",
     "country_code": "CN",
@@ -8408,34 +8410,6 @@
     "affiliation": "University of Edinburgh",
     "country": "United Kingdom",
     "country_code": "GB",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "NDSS"
-    ],
-    "years": {
-      "2027": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Chinese University of Hong Kong, Shenzhen",
-    "country": "Hong Kong",
-    "country_code": "HK",
     "combined_score": 3,
     "artifact_score": 0,
     "artifact_citations": 0,

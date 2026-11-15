@@ -11,7 +11,7 @@
     "pipeline_promoted": 61,
     "pipeline_promoted_pct": 42.1,
     "pipeline_avg_years": 1.9,
-    "avg_chairs_per_edition": 3.2,
+    "avg_chairs_per_edition": 3.1,
     "avg_chairs_per_edition_systems": 4.6,
     "avg_chairs_per_edition_security": 1.7,
     "total_countries": 19,
@@ -70,7 +70,7 @@
       {
         "year": 2027,
         "new_chairs": 61,
-        "active_chairs": 64
+        "active_chairs": 63
       }
     ]
   },
@@ -613,11 +613,10 @@
     {
       "conference": "USENIXSEC",
       "year": 2027,
-      "chair_count": 3,
+      "chair_count": 2,
       "chairs": [
         "Christian Wressnegger",
-        "Clement Fung",
-        "Tiago Heinrich"
+        "Clement Fung"
       ]
     },
     {
@@ -1034,8 +1033,8 @@
     "repeat_count": 25,
     "distribution": {
       "1": 120,
-      "2": 17,
-      "3": 5,
+      "2": 18,
+      "3": 4,
       "4": 2,
       "5": 1
     },
@@ -1125,13 +1124,6 @@
         "last_year": 2024
       },
       {
-        "name": "Tiago Heinrich",
-        "span_years": 5,
-        "chair_count": 3,
-        "first_year": 2023,
-        "last_year": 2027
-      },
-      {
         "name": "Huaicheng Li",
         "span_years": 5,
         "chair_count": 2,
@@ -1165,6 +1157,13 @@
         "chair_count": 2,
         "first_year": 2022,
         "last_year": 2025
+      },
+      {
+        "name": "Tiago Heinrich",
+        "span_years": 4,
+        "chair_count": 2,
+        "first_year": 2023,
+        "last_year": 2026
       },
       {
         "name": "Gianluca Stringhini",
@@ -2194,8 +2193,8 @@
       "United States": 60,
       "China": 13,
       "Switzerland": 6,
-      "Germany": 5,
       "Netherlands": 5,
+      "Germany": 5,
       "France": 4,
       "United Kingdom": 4,
       "Belgium": 4,

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_members": 5011,
+    "total_members": 5010,
     "total_systems": 2524,
-    "total_security": 2487,
+    "total_security": 2486,
     "total_countries": 57,
     "total_continents": 6,
     "total_institutions": 496
@@ -19,7 +19,7 @@
       },
       {
         "name": "Germany",
-        "count": 285
+        "count": 284
       },
       {
         "name": "Hong Kong",
@@ -415,7 +415,7 @@
       },
       {
         "name": "Germany",
-        "count": 250
+        "count": 249
       },
       {
         "name": "China",
@@ -603,7 +603,7 @@
       },
       {
         "name": "Europe",
-        "count": 929
+        "count": 928
       },
       {
         "name": "Oceania",
@@ -651,7 +651,7 @@
       },
       {
         "name": "Europe",
-        "count": 632
+        "count": 631
       },
       {
         "name": "Asia",
@@ -710,12 +710,12 @@
         "count": 66
       },
       {
-        "name": "Carnegie Mellon University",
+        "name": "University of Michigan",
         "count": 64
       },
       {
-        "name": "University of Michigan",
-        "count": 64
+        "name": "Carnegie Mellon University",
+        "count": 63
       },
       {
         "name": "University of Utah",
@@ -766,12 +766,12 @@
         "count": 39
       },
       {
-        "name": "Max Planck Society",
+        "name": "Pennsylvania State University",
         "count": 37
       },
       {
-        "name": "Pennsylvania State University",
-        "count": 37
+        "name": "Max Planck Society",
+        "count": 36
       },
       {
         "name": "Stony Brook University",
@@ -982,6 +982,10 @@
         "count": 18
       },
       {
+        "name": "University of Maryland, Baltimore",
+        "count": 18
+      },
+      {
         "name": "University of North Carolina at Charlotte",
         "count": 17
       },
@@ -991,10 +995,6 @@
       },
       {
         "name": "University of Pennsylvania",
-        "count": 17
-      },
-      {
-        "name": "University of Maryland, Baltimore",
         "count": 17
       },
       {
@@ -3942,10 +3942,6 @@
         "count": 30
       },
       {
-        "name": "Max Planck Society",
-        "count": 26
-      },
-      {
         "name": "The Hong Kong Polytechnic University",
         "count": 26
       },
@@ -3955,6 +3951,10 @@
       },
       {
         "name": "Pennsylvania State University",
+        "count": 25
+      },
+      {
+        "name": "Max Planck Society",
         "count": 25
       },
       {
@@ -4006,10 +4006,6 @@
         "count": 20
       },
       {
-        "name": "Carnegie Mellon University",
-        "count": 19
-      },
-      {
         "name": "University of California, San Diego",
         "count": 19
       },
@@ -4023,6 +4019,10 @@
       },
       {
         "name": "University of Utah",
+        "count": 18
+      },
+      {
+        "name": "Carnegie Mellon University",
         "count": 18
       },
       {
@@ -4114,6 +4114,10 @@
         "count": 12
       },
       {
+        "name": "University of Maryland, Baltimore",
+        "count": 12
+      },
+      {
         "name": "University of Southern California",
         "count": 11
       },
@@ -4131,10 +4135,6 @@
       },
       {
         "name": "University of California, Santa Barbara",
-        "count": 11
-      },
-      {
-        "name": "University of Maryland, Baltimore",
         "count": 11
       },
       {
@@ -5653,7 +5653,7 @@
         "Ukraine": 1
       },
       "2027": {
-        "Germany": 14,
+        "Germany": 13,
         "Switzerland": 2,
         "United States": 123,
         "China": 22,
@@ -6088,7 +6088,7 @@
         "Canada": 2,
         "United States": 104,
         "Belgium": 5,
-        "Germany": 13,
+        "Germany": 12,
         "India": 1,
         "Austria": 1,
         "Netherlands": 1,
@@ -6176,7 +6176,7 @@
         "Oceania": 19
       },
       "2027": {
-        "Europe": 43,
+        "Europe": 42,
         "North America": 126,
         "Asia": 37,
         "Africa": 2,
@@ -6315,7 +6315,7 @@
       },
       "2027": {
         "North America": 106,
-        "Europe": 38,
+        "Europe": 37,
         "Asia": 29,
         "Oceania": 8,
         "Africa": 1
@@ -6783,7 +6783,7 @@
       "year": 2027,
       "conf_year": "usenixsec2027",
       "area": "security",
-      "size": 3
+      "size": 2
     },
     {
       "conference": "VEHICLESEC",

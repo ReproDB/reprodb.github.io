@@ -982,52 +982,6 @@
     "last_year": 2025
   },
   {
-    "name": "Tiago Heinrich",
-    "display_name": "Tiago Heinrich",
-    "affiliation": "Max Planck Society",
-    "country": "Germany",
-    "continent": "Europe",
-    "total_memberships": 5,
-    "chair_count": 3,
-    "conferences": [
-      {
-        "conference": "USENIXSEC",
-        "year": 2023,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2024,
-        "role": "member"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2025,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2026,
-        "role": "chair"
-      },
-      {
-        "conference": "USENIXSEC",
-        "year": 2027,
-        "role": "chair"
-      }
-    ],
-    "area": "security",
-    "years": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 1,
-      "2026": 1,
-      "2027": 1
-    },
-    "first_year": 2023,
-    "last_year": 2027
-  },
-  {
     "name": "Lennert Wouters",
     "display_name": "Lennert Wouters",
     "affiliation": "KU Leuven",
@@ -1299,7 +1253,7 @@
   {
     "name": "Fengwei Zhang",
     "display_name": "Fengwei Zhang",
-    "affiliation": "SUSTech",
+    "affiliation": "Southern University of Science and Technology",
     "country": "China",
     "continent": "Asia",
     "total_memberships": 5,
@@ -2270,6 +2224,46 @@
     "last_year": 2025
   },
   {
+    "name": "Tiago Heinrich",
+    "display_name": "Tiago Heinrich",
+    "affiliation": "Max Planck Society",
+    "country": "Germany",
+    "continent": "Europe",
+    "total_memberships": 4,
+    "chair_count": 2,
+    "conferences": [
+      {
+        "conference": "USENIXSEC",
+        "year": 2023,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2024,
+        "role": "member"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2025,
+        "role": "chair"
+      },
+      {
+        "conference": "USENIXSEC",
+        "year": 2026,
+        "role": "chair"
+      }
+    ],
+    "area": "security",
+    "years": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "first_year": 2023,
+    "last_year": 2026
+  },
+  {
     "name": "Marton Bognar",
     "display_name": "Marton Bognar",
     "affiliation": "KU Leuven",
@@ -3050,7 +3044,7 @@
   {
     "name": "Fabio Pierazzi",
     "display_name": "Fabio Pierazzi",
-    "affiliation": "King's College London",
+    "affiliation": "University College London",
     "country": "United Kingdom",
     "continent": "Europe",
     "total_memberships": 4,
@@ -4367,7 +4361,7 @@
   {
     "name": "Yu Nong",
     "display_name": "Yu Nong",
-    "affiliation": "Oakland University",
+    "affiliation": "University at Buffalo",
     "country": "United States",
     "continent": "North America",
     "total_memberships": 4,
@@ -9007,7 +9001,7 @@
   {
     "name": "Adwait Nadkarni",
     "display_name": "Adwait Nadkarni",
-    "affiliation": "William & Mary",
+    "affiliation": "College of William and Mary",
     "country": "United States",
     "continent": "North America",
     "total_memberships": 2,
@@ -30654,7 +30648,7 @@
   {
     "name": "Nitesh Saxena",
     "display_name": "Nitesh Saxena",
-    "affiliation": "University of Alabama at Birmingham",
+    "affiliation": "Texas A&M University",
     "country": "United States",
     "continent": "North America",
     "total_memberships": 1,
@@ -37936,9 +37930,9 @@
   {
     "name": "Yi Liu",
     "display_name": "Yi Liu",
-    "affiliation": "City University of Hong Kong",
-    "country": "Hong Kong",
-    "continent": "Asia",
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "continent": "North America",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [
@@ -38046,9 +38040,9 @@
   {
     "name": "Yifan Yang",
     "display_name": "Yifan Yang",
-    "affiliation": "Chinese University of Hong Kong, Shenzhen",
-    "country": "Hong Kong",
-    "continent": "Asia",
+    "affiliation": "Yale University",
+    "country": "United States",
+    "continent": "North America",
     "total_memberships": 1,
     "chair_count": 0,
     "conferences": [

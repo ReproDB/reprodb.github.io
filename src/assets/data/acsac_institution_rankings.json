@@ -1169,9 +1169,9 @@
     "scope": null
   },
   {
-    "affiliation": "SUSTech",
-    "country": "China",
-    "country_code": "CN",
+    "affiliation": "Southern University of Science and Technology (SUSTech)",
+    "country": "Pakistan",
+    "country_code": "PK",
     "combined_score": 10,
     "artifact_score": 1,
     "artifact_citations": 0,
@@ -1241,6 +1241,42 @@
     "scope": null
   },
   {
+    "affiliation": "University College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 10,
+    "artifact_score": 1,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.11,
+    "role": "Consumer",
+    "artifact_count": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 1,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 33.3,
+    "author_count": 2,
+    "conferences": [
+      "ACSAC"
+    ],
+    "years": {
+      "2018": 1,
+      "2019": 2,
+      "2025": 0,
+      "2024": 0,
+      "2023": 0,
+      "2022": 1,
+      "2021": 0,
+      "2020": 0,
+      "2017": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Arizona State University",
     "country": "United States",
     "country_code": "US",
@@ -1302,35 +1338,6 @@
       "2020": 1,
       "2022": 1,
       "2023": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "King's College London",
-    "country": "United Kingdom",
-    "country_code": "GB",
-    "combined_score": 9,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 9,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 3,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "ACSAC"
-    ],
-    "years": {
-      "2018": 2,
-      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -1568,6 +1575,35 @@
     "years": {
       "2020": 1,
       "2022": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Texas A&M University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 9,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 3,
+    "conferences": [
+      "ACSAC"
+    ],
+    "years": {
+      "2020": 2,
+      "2019": 1
     },
     "top_authors": [],
     "scope": null
@@ -2102,34 +2138,6 @@
     "scope": null
   },
   {
-    "affiliation": "Texas A&M University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "ACSAC"
-    ],
-    "years": {
-      "2020": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "NC State University",
     "country": "United States",
     "country_code": "US",
@@ -2395,42 +2403,6 @@
       "2021": 0,
       "2020": 1,
       "2019": 0,
-      "2018": 0,
-      "2017": 0
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University College London",
-    "country": "United Kingdom",
-    "country_code": "GB",
-    "combined_score": 4,
-    "artifact_score": 1,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.33,
-    "role": "Consumer",
-    "artifact_count": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 1,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 33.3,
-    "author_count": 1,
-    "conferences": [
-      "ACSAC"
-    ],
-    "years": {
-      "2025": 0,
-      "2024": 0,
-      "2023": 0,
-      "2022": 1,
-      "2021": 0,
-      "2020": 0,
-      "2019": 1,
       "2018": 0,
       "2017": 0
     },
@@ -3094,6 +3066,34 @@
     "scope": null
   },
   {
+    "affiliation": "King's College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "ACSAC"
+    ],
+    "years": {
+      "2018": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Université Grenoble Alpes",
     "country": "France",
     "country_code": "FR",
@@ -3649,34 +3649,6 @@
     ],
     "years": {
       "2020": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "University of Alabama at Birmingham",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 3,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 1,
-    "conferences": [
-      "ACSAC"
-    ],
-    "years": {
-      "2019": 1
     },
     "top_authors": [],
     "scope": null

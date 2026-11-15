@@ -867,41 +867,6 @@
     "scope": null
   },
   {
-    "affiliation": "King's College London",
-    "country": "United Kingdom",
-    "country_code": "GB",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 1,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 1,
-    "artifact_pct": 100.0,
-    "author_count": 2,
-    "conferences": [
-      "WOOT"
-    ],
-    "years": {
-      "2026": 0,
-      "2025": 0,
-      "2024": 0,
-      "2023": 1,
-      "2022": 0,
-      "2021": 0,
-      "2020": 0,
-      "2019": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Dartmouth College",
     "country": "United States",
     "country_code": "US",
@@ -1485,6 +1450,41 @@
     "scope": null
   },
   {
+    "affiliation": "King's College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 1,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 1,
+    "artifact_pct": 100.0,
+    "author_count": 1,
+    "conferences": [
+      "WOOT"
+    ],
+    "years": {
+      "2026": 0,
+      "2025": 0,
+      "2024": 0,
+      "2023": 1,
+      "2022": 0,
+      "2021": 0,
+      "2020": 0,
+      "2019": 0
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Tsinghua University",
     "country": "China",
     "country_code": "CN",
@@ -1891,7 +1891,35 @@
     "scope": null
   },
   {
-    "affiliation": "SUSTech",
+    "affiliation": "University College London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "WOOT"
+    ],
+    "years": {
+      "2019": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Southern University of Science and Technology",
     "country": "China",
     "country_code": "CN",
     "combined_score": 3,

@@ -150,6 +150,36 @@
     "scope": null
   },
   {
+    "affiliation": "Stony Brook University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 18,
+    "artifact_score": 9,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 9,
+    "ae_ratio": 1.0,
+    "role": "Balanced",
+    "artifact_count": 3,
+    "badges_functional": 3,
+    "badges_reproducible": 3,
+    "ae_memberships": 3,
+    "chair_count": 0,
+    "total_papers": 3,
+    "artifact_pct": 100.0,
+    "author_count": 5,
+    "conferences": [
+      "FAST"
+    ],
+    "years": {
+      "2025": 2,
+      "2026": 1,
+      "2024": 3
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
     "affiliation": "Samsung",
     "country": "South Korea",
     "country_code": "KR",
@@ -329,36 +359,6 @@
     "scope": null
   },
   {
-    "affiliation": "Stony Brook University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 15,
-    "artifact_score": 9,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 1.5,
-    "role": "Balanced",
-    "artifact_count": 3,
-    "badges_functional": 3,
-    "badges_reproducible": 3,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 3,
-    "artifact_pct": 100.0,
-    "author_count": 4,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2025": 1,
-      "2026": 1,
-      "2024": 3
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Northeastern University",
     "country": "United States",
     "country_code": "US",
@@ -383,36 +383,6 @@
     "years": {
       "2026": 4,
       "2025": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "Rutgers University",
-    "country": "United States",
-    "country_code": "US",
-    "combined_score": 13,
-    "artifact_score": 10,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 3,
-    "ae_ratio": 3.33,
-    "role": "Producer",
-    "artifact_count": 4,
-    "badges_functional": 4,
-    "badges_reproducible": 2,
-    "ae_memberships": 1,
-    "chair_count": 0,
-    "total_papers": 4,
-    "artifact_pct": 100.0,
-    "author_count": 3,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2025": 2,
-      "2024": 2,
-      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -531,6 +501,36 @@
       "2025": 1,
       "2024": 1,
       "2026": 2
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 11,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 6,
+    "ae_ratio": 0.83,
+    "role": "Balanced",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 2,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 3,
+    "conferences": [
+      "FAST"
+    ],
+    "years": {
+      "2025": 2,
+      "2024": 1,
+      "2026": 1
     },
     "top_authors": [],
     "scope": null
@@ -737,6 +737,36 @@
     "years": {
       "2024": 1,
       "2025": 1,
+      "2026": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "Rutgers University",
+    "country": "United States",
+    "country_code": "US",
+    "combined_score": 8,
+    "artifact_score": 5,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 1.67,
+    "role": "Balanced",
+    "artifact_count": 2,
+    "badges_functional": 2,
+    "badges_reproducible": 1,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 2,
+    "artifact_pct": 100.0,
+    "author_count": 2,
+    "conferences": [
+      "FAST"
+    ],
+    "years": {
+      "2025": 1,
+      "2024": 1,
       "2026": 1
     },
     "top_authors": [],
@@ -1090,35 +1120,6 @@
     "scope": null
   },
   {
-    "affiliation": "Hong Kong University of Science and Technology",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2025": 1,
-      "2026": 1
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
     "affiliation": "Columbia University",
     "country": "United States",
     "country_code": "US",
@@ -1142,35 +1143,6 @@
     ],
     "years": {
       "2026": 2
-    },
-    "top_authors": [],
-    "scope": null
-  },
-  {
-    "affiliation": "City University of Hong Kong",
-    "country": "Hong Kong",
-    "country_code": "HK",
-    "combined_score": 6,
-    "artifact_score": 0,
-    "artifact_citations": 0,
-    "citation_score": 0,
-    "ae_score": 6,
-    "ae_ratio": 0.0,
-    "role": "Consumer",
-    "artifact_count": 0,
-    "badges_functional": 0,
-    "badges_reproducible": 0,
-    "ae_memberships": 2,
-    "chair_count": 0,
-    "total_papers": 0,
-    "artifact_pct": 0.0,
-    "author_count": 2,
-    "conferences": [
-      "FAST"
-    ],
-    "years": {
-      "2024": 1,
-      "2025": 1
     },
     "top_authors": [],
     "scope": null
@@ -2167,6 +2139,34 @@
     ],
     "years": {
       "2025": 1
+    },
+    "top_authors": [],
+    "scope": null
+  },
+  {
+    "affiliation": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK",
+    "combined_score": 3,
+    "artifact_score": 0,
+    "artifact_citations": 0,
+    "citation_score": 0,
+    "ae_score": 3,
+    "ae_ratio": 0.0,
+    "role": "Consumer",
+    "artifact_count": 0,
+    "badges_functional": 0,
+    "badges_reproducible": 0,
+    "ae_memberships": 1,
+    "chair_count": 0,
+    "total_papers": 0,
+    "artifact_pct": 0.0,
+    "author_count": 1,
+    "conferences": [
+      "FAST"
+    ],
+    "years": {
+      "2024": 1
     },
     "top_authors": [],
     "scope": null

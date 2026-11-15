@@ -1,7 +1,7 @@
-last_updated: '2026-11-12'
-total_members: 5011
+last_updated: '2026-11-15'
+total_members: 5010
 total_systems: 2524
-total_security: 2487
+total_security: 2486
 total_conferences: 74
 total_countries: 57
 total_continents: 6
@@ -17,7 +17,7 @@ top_countries:
 - name: China
   count: 501
 - name: Germany
-  count: 285
+  count: 284
 - name: Hong Kong
   count: 218
 - name: United Kingdom
@@ -77,7 +77,7 @@ top_countries_security:
 - name: United States
   count: 1075
 - name: Germany
-  count: 250
+  count: 249
 - name: China
   count: 151
 - name: Hong Kong
@@ -110,7 +110,7 @@ top_continents:
 - name: Asia
   count: 954
 - name: Europe
-  count: 929
+  count: 928
 - name: Oceania
   count: 73
 - name: South America
@@ -134,7 +134,7 @@ top_continents_security:
 - name: North America
   count: 1124
 - name: Europe
-  count: 632
+  count: 631
 - name: Asia
   count: 341
 - name: Oceania
@@ -162,10 +162,10 @@ top_institutions:
   count: 66
 - name: The Hong Kong University of Science and Technology
   count: 66
-- name: Carnegie Mellon University
-  count: 64
 - name: University of Michigan
   count: 64
+- name: Carnegie Mellon University
+  count: 63
 - name: University of Utah
   count: 59
 - name: Chinese University of Hong Kong
@@ -244,13 +244,13 @@ top_institutions_security:
   count: 31
 - name: Boston University
   count: 30
-- name: Max Planck Society
-  count: 26
 - name: The Hong Kong Polytechnic University
   count: 26
 - name: George Mason University
   count: 25
 - name: Pennsylvania State University
+  count: 25
+- name: Max Planck Society
   count: 25
 - name: Karlsruhe Inst. of Technology
   count: 24
@@ -310,7 +310,7 @@ institution_timeline:
 - year: 2027
   total: 144
   systems: 28
-  security: 127
+  security: 126
 committee_sizes:
 - conference: ACSAC
   year: 2017
@@ -641,7 +641,7 @@ committee_sizes:
   year: 2027
   conf_year: usenixsec2027
   area: security
-  size: 3
+  size: 2
 - conference: VEHICLESEC
   year: 2026
   conf_year: vehiclesec2026
@@ -694,7 +694,7 @@ chair_stats:
   pipeline_promoted: 61
   pipeline_promoted_pct: 42.1
   pipeline_avg_years: 1.9
-  avg_chairs_per_edition: 3.2
+  avg_chairs_per_edition: 3.1
   avg_chairs_per_edition_systems: 4.6
   avg_chairs_per_edition_security: 1.7
   total_countries: 19
@@ -732,4 +732,4 @@ chair_stats:
     active_chairs: 19
   - year: 2027
     new_chairs: 61
-    active_chairs: 64
+    active_chairs: 63

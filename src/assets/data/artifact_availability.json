@@ -1,8 +1,8 @@
 {
   "summary": {
-    "checked_at": "2026-11-12 13:37:12 UTC",
+    "checked_at": "2026-11-15 19:17:59 UTC",
     "total_urls": 3295,
-    "accessible_urls": 3199,
+    "accessible_urls": 3200,
     "accessibility_pct": 97.1,
     "by_platform": {
       "Bitbucket": {
@@ -37,14 +37,14 @@
       },
       "other": {
         "total": 323,
-        "accessible": 284,
-        "pct": 87.9
+        "accessible": 285,
+        "pct": 88.2
       }
     },
     "by_area": {
       "security": {
         "total": 2425,
-        "accessible": 2366,
+        "accessible": 2367,
         "pct": 97.6
       },
       "systems": {
@@ -91,8 +91,8 @@
       },
       "2024": {
         "total": 483,
-        "accessible": 459,
-        "pct": 95.0
+        "accessible": 460,
+        "pct": 95.2
       },
       "2025": {
         "total": 764,
@@ -183,8 +183,8 @@
       "2024": {
         "security": {
           "total": 345,
-          "accessible": 326,
-          "pct": 94.5
+          "accessible": 327,
+          "pct": 94.8
         },
         "systems": {
           "total": 138,
@@ -452,8 +452,8 @@
         },
         "other": {
           "total": 64,
-          "accessible": 48,
-          "pct": 75.0
+          "accessible": 49,
+          "pct": 76.6
         }
       },
       "2025": {
@@ -546,8 +546,8 @@
     "by_conference": {
       "ACSAC": {
         "total": 287,
-        "accessible": 252,
-        "pct": 87.8
+        "accessible": 253,
+        "pct": 88.2
       },
       "ATC": {
         "total": 182,
@@ -11565,7 +11565,7 @@
       "url_key": "artifact_url",
       "url": "https://anonymous.4open.science/r/tattooed_artifact_evaluation-7870/README.md",
       "platform": "other",
-      "accessible": false
+      "accessible": true
     },
     {
       "conference": "ACSAC",
